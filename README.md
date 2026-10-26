@@ -65,11 +65,11 @@ git add -A && git commit -m "Art. 26 DBG" && git push    # die Website baut sich
 
 ## Kosten (Schätzung)
 
-Gemessen am Probelauf für Art. 26 DBG: 117 Entscheide, rund 24'000 Zeichen je Entscheid. Die Karteikarten dafür kosten mit Sonnet 5.5 im Batch geschätzt 1.50 USD. Weil Entscheide oft mehrere Artikel zitieren, sinken die Kosten je Artikel, je mehr Artikel schon Karten haben. `karteikarten.py vorbereiten` zeigt vor jedem Batch die Schätzung; `stand.py` zeigt die tatsächlichen Kosten aus der Token-Zählung. Günstiger geht es mit `MODELL_KARTEN=claude-haiku-5-5` (für Klasse C reicht das; für A- und B-Karten erst an einem Artikel vergleichen).
+Gemessen am Probelauf für Art. 26 DBG: 117 Entscheide, rund 24'000 Zeichen je Entscheid. Die Karteikarten dafür kosten mit Opus 5.5 im Batch geschätzt 3 USD (mit Sonnet 5.5 die Hälfte: `MODELL_KARTEN=claude-sonnet-5-5`). Weil Entscheide oft mehrere Artikel zitieren, sinken die Kosten je Artikel, je mehr Artikel schon Karten haben. `karteikarten.py vorbereiten` zeigt vor jedem Batch die Schätzung; `stand.py` zeigt die tatsächlichen Kosten aus der Token-Zählung. Günstiger geht es mit `MODELL_KARTEN=claude-haiku-5-5` (für Klasse C reicht das; für A- und B-Karten erst an einem Artikel vergleichen).
 
 ## Grenzen der Automatik
 
-- **Abdeckung:** `entscheide.py` sucht über entscheidsuche.ch. Open Case Law findet zu manchen Normen mehr Entscheide. Der Skill macht deshalb beim Schreiben die Gegenprobe (Liste, ohne Volltexte) und liest fehlende A-Entscheide selbst oder trägt sie mit `entscheide.py DBG/art-26 --nachtragen 2C_123/2020` nach.
+- **Quellen:** Bundesgerichtsentscheide (BGE und BGer) kommen aus Open Case Law, mit dessen amtlichen Zitierungen. Weil die Artikelsuche von Open Case Law sehr unscharf ist (zu Art. 26 DBG rund 1'300 Treffer, davon etwa 5 % einschlägig), findet `entscheide.py` die Kandidaten über die Phrasensuche von entscheidsuche.ch und lädt die Entscheide dann aus Open Case Law; nur wenn ein Entscheid dort fehlt, dient der Text von entscheidsuche.ch als Ersatz. Kantonale Entscheide recherchiert der Skill ausschliesslich über entscheidsuche.ch. Fehlende A-Entscheide trägt er mit `entscheide.py DBG/art-26 --nachtragen 2C_123/2020` nach.
 - **Karteikarten sind Arbeitsmittel, keine Belege.** Jede Fundstelle im Text wird am Volltext geprüft (Schritt 6 und Skill).
 - **Neutralität und Format** prüft `kommentar.py` maschinell; das ersetzt nicht die Schlussprüfung im Skill.
 
@@ -131,7 +131,7 @@ Zwei Läufe schreiben Kommentierungen ohne Zutun und veröffentlichen sie. Damit
 Startet stündlich; läuft noch ein Lauf, wartet der nächste. Es schreibt also immer nur ein Lauf (`.github/workflows/kommentar-agent.yml`, Steuerskript `automation/lauf.py`):
 
 1. fertige Batches abholen: Karteikarten → Register; Fundstellenprüfungen → Korrektur durch den Agent → Freigabe als `geprueft` (dann veröffentlicht die Website den Artikel);
-2. Karteikarten für die nächsten Artikel per Batch erstellen (Sonnet 5.5), sobald weniger als drei Artikel `bereit` sind;
+2. Karteikarten für die nächsten Artikel per Batch erstellen (Opus 5.5), sobald weniger als drei Artikel `bereit` sind;
 3. Artikel schreiben mit dem Skill `steuerkommentar-selbstaendig` (Agent SDK, Opus 5.5, Effort `high`), solange das Budget reicht; danach Fundstellen-Batch einreichen, Status `geschrieben`.
 
 Budget: 30 USD pro Tag, 100 USD pro Monat, höchstens 15 USD pro Artikel (Zählung in `data/kosten/`). Unabhängig davon stoppt die Console bei ihrem Ausgabenlimit oder wenn das Guthaben aufgebraucht ist; der Lauf versucht es dann stündlich wieder. API-Preise hängen nicht von der Tageszeit ab.

@@ -64,7 +64,7 @@ Aus Gerüst und Problemkarte die Gliederung ableiten (Regeln unter «Aufbau»), 
 | Quelle | Zugänge |
 |---|---|
 | Materialien, Revisionen | Open Case Law `get_article_history`, `search_botschaft`, `get_article_purpose`; Fedlex `list_amendments` |
-| kantonale Gerichte, BVGer | **Open Case Law und Entscheidsuche, beide, nie Lexplorer.** Open Case Law `search_decisions` mit `court` (z.B. `zh_steuerrekursgericht`, `zh_verwaltungsgericht`, `be_steuerrekurs`, `ag_spezialverwaltungsgericht`; alle Codes über `list_courts`), Volltext über `get_decision`/`get_erwaegung`, Zitierstring über `cite`. Entscheidsuche `search` mit `hierarchy` (z.B. `ZH_SRK`, `ZH_VG`, `BE_SRK`, `AG_SVWG`; alle Kennungen über `list_hierarchy`), Volltext über `fetch_document`; mehrere Begriffe ohne `AND` schreiben. Treffer beider zusammenführen |
+| kantonale Gerichte, BVGer | **Ausschliesslich Entscheidsuche, nie Lexplorer.** Entscheidsuche `search` mit `hierarchy` (z.B. `ZH_SRK`, `ZH_VG`, `BE_SRK`, `AG_SVWG`; alle Kennungen über `list_hierarchy`), Volltext über `fetch_document`; mehrere Begriffe ohne `AND` schreiben. Ohne Entscheidsuche-Werkzeug: POST https://entscheidsuche.ch/_search.php |
 | ESTV, SSK, Steuerbücher, Wegleitungen | ESTV-Kreisschreiben über Open Case Law `search_practice`/`get_practice`; SSK und kantonale Steuerbücher über Lexplorer Tax, navigiert statt gesucht («Lexplorer sparsam») |
 | Lehre | Open Case Law `search_scholarship`, `get_scholarship_full_text`, `search_commentaries`; Lexplorer Tax (FStR u.a., nicht das ILE-Lehrbuch Hongler/Lorenz); Publikationen von PH (Anhang D, als gewöhnliche Lehre, wo einschlägig) |
 
@@ -97,7 +97,7 @@ Im Chat drei bis fünf Sätze: Umfang (Randnoten, Fussnoten, Entscheide im Regis
 
 ### Lexplorer sparsam (Kontingent)
 Lexplorer und Lexplorer Tax zählen Suchen gegen das Monatskontingent der Person, deren Verbindung Claude nutzt (Pro 500 Suchen im Monat, Search Basic 150; Webapp und MCP zusammen).
-1. **Entscheide nie über Lexplorer**, auch nicht lesend; Rechtsprechung nur über Open Case Law und Entscheidsuche. Lexplorer Tax nur für kantonale Steuerbücher und Weisungen, SSK, FStR und Literatur, die anderswo fehlt.
+1. **Entscheide nie über Lexplorer**, auch nicht lesend; Bundesgericht über Open Case Law, kantonale Gerichte über Entscheidsuche. Lexplorer Tax nur für kantonale Steuerbücher und Weisungen, SSK, FStR und Literatur, die anderswo fehlt.
 2. **Navigieren statt suchen.** Steuerbücher sind nach Artikeln gegliedert: `nav_list_sources` mit Kanton → Steuerbuch-Quelle → `nav_list_documents`, in der Liste nach der Artikelnummer filtern (z.B. «ZStB 26.»), lesen mit `get_document_slice` bzw. `get_chunk_content`. Navigieren und Lesen zählen nicht (geprüft am 17.10.2026). Eine Suche (`search_chunks_*`) nur, wo die Navigation nicht hinführt, eine je Sachfrage und Kanton.
 3. **Einmal suchen, dann wiederverwenden.** Jeder gebrauchte Treffer kommt mit Abfrage, Werkzeug, Kanton, Kennung, `lexplorer_url`, tragendem Satz und Seite in `01_Recherche/Lexplorer_Fundstellen.md`; vor jeder Suche diese Datei prüfen.
 4. **Budget:** höchstens 60 Suchen je Kommentierung (`search_*` und `find_leading_cases` beider Dienste). Claude führt den Zähler; jeder Hilfsagent erhält ein Teilbudget und meldet seine Zahl. Ist das Budget erreicht, priorisiert Claude die offenen Sachfragen und fragt, bevor es weitersucht.

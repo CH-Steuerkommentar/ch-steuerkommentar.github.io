@@ -41,8 +41,8 @@ WERK = os.environ.get("WERK_NAME", "Offener Steuerrechtskommentar")
 WERK_KURZ = os.environ.get("WERK_KURZ", "OSK")
 
 # Modelle der Batch-Schritte (siehe README, Abschnitt Kosten)
-MODELL_KARTEN = os.environ.get("MODELL_KARTEN", "claude-sonnet-5-5")
-MODELL_PRUEFUNG = os.environ.get("MODELL_PRUEFUNG", "claude-sonnet-5-5")
+MODELL_KARTEN = os.environ.get("MODELL_KARTEN", "claude-opus-5-5")
+MODELL_PRUEFUNG = os.environ.get("MODELL_PRUEFUNG", "claude-opus-5-5")
 
 # Batch-Preise in USD pro Million Tokens (Stand 26.10.2026, 50 % Batch-Rabatt eingerechnet).
 # Nur für die Kostenschätzung vor dem Einreichen; massgebend ist die Console.

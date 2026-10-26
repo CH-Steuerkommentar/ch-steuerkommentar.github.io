@@ -5,7 +5,7 @@ Ein Lauf:
 1. Fertige Batches abholen: Karteikarten → Register; Fundstellenprüfungen → Korrektur durch den Agent
    und Freigabe als «geprueft» (dann veröffentlicht die Website den Artikel).
 2. Vorrat sichern: Sind weniger als VORRAT Artikel «bereit», Entscheide laden und einen
-   Karteikarten-Batch einreichen (Sonnet, Batch-Preis); bis WARTEN_MIN Minuten auf das Ergebnis warten.
+   Karteikarten-Batch einreichen (Opus 5.5, Batch-Preis); bis WARTEN_MIN Minuten auf das Ergebnis warten.
 3. Schreiben, solange Tages- und Monatsbudget reichen: Artikel reservieren, Skill
    steuerkommentar-selbstaendig über das Agent SDK (Opus 5.5, hohe Stufe), Fundstellen-Batch einreichen,
    Artikel als «geschrieben» freigeben. Die Prüfung schliesst der nächste Schritt 1 ab.
@@ -41,7 +41,7 @@ EINSTELLUNGEN = {
     "EFFORT": E("EFFORT", "high"),
     "VORRAT": int(E("VORRAT", "3")),
     "NEUE_ARTIKEL_JE_LAUF": int(E("NEUE_ARTIKEL_JE_LAUF", "6")),
-    "BATCH_BUDGET_USD": float(E("BATCH_BUDGET_USD", "8")),
+    "BATCH_BUDGET_USD": float(E("BATCH_BUDGET_USD", "15")),
     "WARTEN_MIN": int(E("WARTEN_MIN", "60")),
     "LAUFZEIT_MIN": int(E("LAUFZEIT_MIN", "280")),           # danach kein neuer Artikel mehr in diesem Lauf
     "WER": E("WER", "github-actions"),
@@ -129,8 +129,9 @@ AUFTRAG = """Führe den Skill steuerkommentar-selbstaendig für Art. {nummer} {e
 Rahmen dieses Laufs:
 - Unbeaufsichtigter Lauf über die API: keine Rückfragen; vernünftige Entscheide treffen und im Prüfbericht vermerken.
 - Register, Problemkarte und Karteikarten liegen in arbeit/{erlass}/{slug}/01_Recherche/. Volltexte im Cache data/entscheide/.
-- Lexplorer ist nicht verfügbar. Rechtsprechung: Entscheidsuche (POST https://entscheidsuche.ch/_search.php, Volltexte unter
-  https://entscheidsuche.ch/docs/…) und Open Case Law (MCP-Server «open-case-law»). Erlasse: data/inventar/ und Fedlex (WebFetch).
+- Lexplorer ist nicht verfügbar. Bundesgericht (BGE, BGer): Open Case Law (MCP-Server «open-case-law»; Zitierstrings mit `cite`).
+  Kantonale Gerichte: ausschliesslich Entscheidsuche (POST https://entscheidsuche.ch/_search.php mit Filter `hierarchy`,
+  Volltexte unter https://entscheidsuche.ch/docs/…). Erlasse: data/inventar/ und Fedlex (WebFetch).
   Praxis und Lehre: Open Case Law (search_practice, search_scholarship) und Websuche.
 - Schritt 8: Fussnoten mit BGE/BGer-Entscheiden prüft nach dir ein eigener Batch. Du prüfst mit einem Hilfsagenten nur die übrigen Fundstellen.
 - Schreibe nach kommentare/{erlass}/{slug}.md; `python3 pipeline/kommentar.py kommentare/{erlass}/{slug}.md` muss ohne Befund durchlaufen.

@@ -51,8 +51,16 @@ def cache_index() -> dict[str, str]:
     idx = {}
     for p in ENTSCHEIDE.glob("*.json"):
         e = lade_json(p)
-        for r in e.get("referenz", []):
+        for r in e.get("referenz", []) + [e.get("geschaeftsnummer") or ""]:
+            if not r:
+                continue
             idx[normref(r)] = e["id"]
+            m = re.search(r"(\d[A-Z]{1,2})[_.](\d{1,4})/(\d{4})", r)
+            if m:
+                idx[f"{m.group(1)}_{m.group(2)}/{m.group(3)}"] = e["id"]
+            m = re.search(r"BGE\s+(\d+)\s+([IVX]+)\s+(\d+)", r)
+            if m:
+                idx[f"BGE {m.group(1)} {m.group(2)} {m.group(3)}"] = e["id"]
         m = re.search(r"(\d[A-Z]{1,2})[_.-](\d{1,4})[-/](\d{4})", e["id"])
         if m:
             idx[f"{m.group(1)}_{m.group(2)}/{m.group(3)}"] = e["id"]
