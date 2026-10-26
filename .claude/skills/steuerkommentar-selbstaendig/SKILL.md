@@ -37,7 +37,7 @@ Ziel ist die abstrakt-generelle Aufbereitung der Auslegungslage einer Norm, nich
 - **Gliederung aus Wortlaut und Entscheiden.** Der Wortlaut liefert das Gerüst, das Entscheidregister die Sachfragen. Eine eigene Überschrift erhält eine Sachfrage nur, wenn sie eine eigenständige Rechtsfrage ist und Stoff für mindestens drei Randnoten trägt; ein einzelner Entscheid, auch ein BGE, genügt dafür nicht (Regeln unter «Aufbau»).
 - **Quellenrangfolge innerhalb jeder Sachfrage** (in den Randnoten, nicht als Unterkapitel): Gesetz und Verordnung → BGE → unpublizierte BGer-Entscheide (Fünferbesetzung kennzeichnen) → kantonale Gerichte → Verwaltungspraxis (ESTV/SSK, dann Kantone gebündelt). Verwaltungspraxis wird nie als Rechtsprechung ausgegeben. Was eine Aussage an Autorität hat, muss erkennbar sein (höchstrichterlich, kantonal, Praxis), und ob sie aus dem Gesetz oder nur aus der Verordnung folgt.
 - **Register vollständig, Text knapp.** Vollständig ist das Entscheidregister, nicht der Fliesstext. Im Text stehen die Regel und die Entscheide, die sie setzen oder ändern; je Sachfrage höchstens ein bis zwei Leitfälle mit Sachverhaltskern, weitere BGE in einem Satz; gleichlaufende Entscheide gebündelt in der Fussnote mit Ergebnis-Klammer («(Zeitgewinn von 50 Minuten genügt nicht; Steuerperiode 2021)»). Ratio und obiter trennen.
-- **Kantonale Praxis gebündelt.** Die Mehrheitslinie in einem Satz («so etwa in den Kantonen Zürich, Luzern, Solothurn …»), Abweichungen einzeln mit Fundstelle. Ob eine Abweichung bundesrechtskonform ist, sagt der Text nur, wenn ein Gericht oder die Lehre es sagt, und dann als deren Aussage.
+- **Kantonale Praxis gebündelt.** Die Mehrheitslinie in einem Satz («so etwa in den Kantonen Zürich, Luzern, Solothurn …»), Abweichungen einzeln mit Fundstelle. Ob eine Abweichung bundesrechtskonform ist, sagt der Text nur, wenn ein Gericht es sagt, und dann als dessen Aussage.
 - **Lehre nur aus Entscheiden.** Lehre wird nicht recherchiert. Führt ein Entscheid Lehrmeinungen an (etwa «die Lehre ist geteilt»), gibt der Text das als Aussage des Gerichts wieder, mit dem Entscheid als Fundstelle; die zitierten Autoren werden nicht als eigene Fundstelle zitiert. Kein Literaturverzeichnis.
 - **Nur Belegtes, am Volltext geprüft.** Jede Fundstelle hat Claude im Volltext gelesen oder durch die Fundstellenprüfung (Schritt 8) bestätigt: Entscheide an der zitierten Erwägung, Erlasse und Materialien im Original, Verwaltungspraxis im Dokument. Was sich nicht belegen lässt, wird gestrichen.
 - **Hongler/Lorenz nicht zitieren.** Hongler Peter/Lorenz Tabea, Einführung in das schweizerische Steuerrecht, ist ein Lehrbuch für Studierende (in Lexplorer Tax «ILE-Lehrbuch») und wird nicht zitiert. Steht eine Aussage nur dort, einen anderen Beleg suchen oder die Aussage streichen.
@@ -144,7 +144,7 @@ Gliederung, Schreiben, Neutralitätsdurchgang, Widersprüche und das Beheben der
 
 **Gliederung ableiten** (Schritt 3). Zwei Quellen bestimmen die Gliederung: der Wortlaut und das Entscheidregister.
 1. *Sachkomplexe aus dem Wortlaut:* je Absatz ein Kapitel der ersten Ebene («Zu Art. 10 Abs. 1 DBG», wie in den Mustern), bei einer Norm ohne Absätze je Tatbestandsmerkmal und am Schluss «Rechtsfolge», in der Reihenfolge der Norm; darunter die Rechtsbegriffe des Wortlauts. Gesetzesbegriffe in Guillemets, Normstelle in Klammern.
-2. *Sachfragen aus dem Register:* Jede Sachfrage kommt unter den Rechtsbegriff, an den sie anknüpft. Der Normalfall ist die Randnote mit fettem Stichwort. Eine eigene Überschrift erhält eine Sachfrage nur, wenn (a) sie eine eigenständige Rechtsfrage ist und (b) sie Stoff für mindestens drei Randnoten trägt (Entscheidreihe, Praxisänderung oder Auseinandergehen von Bundesgericht, kantonaler Praxis und Lehre). Ein einzelner Entscheid, auch ein BGE, begründet keine eigene Überschrift.
+2. *Sachfragen aus dem Register:* Jede Sachfrage kommt unter den Rechtsbegriff, an den sie anknüpft. Der Normalfall ist die Randnote mit fettem Stichwort. Eine eigene Überschrift erhält eine Sachfrage nur, wenn (a) sie eine eigenständige Rechtsfrage ist und (b) sie Stoff für mindestens drei Randnoten trägt (Entscheidreihe, Praxisänderung oder Auseinandergehen von Bundesgericht und kantonaler Praxis). Ein einzelner Entscheid, auch ein BGE, begründet keine eigene Überschrift.
 3. *Gewicht bestimmt die Tiefe, sparsam:* Unterüberschriften nach Fallgruppen nur, wenn jede die Schwelle aus Regel 2 erreicht; eine Überschrift mit weniger als drei Randnoten wird mit der benachbarten zusammengelegt. Ein Begriff ohne Rechtsprechung erhält eine Randnote mit Vermerk.
 4. *Reihenfolge:* innerhalb eines Sachkomplexes zuerst der Wortlaut, dann die Sachfragen nach Gewicht.
 5. *Querschnittsfragen* (Beweislast, Verfahren, Verhältnis zu anderen Normen) erhalten ein Rahmenkapitel nur, wenn sie mehrere Sachkomplexe betreffen.
@@ -235,8 +235,8 @@ Das Register, nach Sachfragen verdichtet: Sachfrage · Normstelle und Rechtsbegr
 
 Die Gliederungsnotiz dient der späteren Nachführung (neue Rechtsprechung einordnen) und wird nicht veröffentlicht.
 
-### A.6 Standardkommentare
-Die gedruckten Standardkommentare (Commentaire romand, Kommentar zum Schweizerischen Steuerrecht, Locher, Handkommentar, Kommentare zu kantonalen Steuergesetzen) werden nur zitiert, wenn Claude die Stelle im Volltext lesen konnte. Ein Zitat aus zweiter Hand (etwa weil ein Entscheid den Kommentar zitiert) wird als solches gekennzeichnet («zitiert in BGer …»).
+### A.6 Standardkommentare und übrige Lehre
+Werden nicht recherchiert und nicht als eigene Fundstelle zitiert. Gibt ein Entscheid eine Lehrmeinung wieder, ist der Entscheid die Fundstelle («Das Bundesgericht verweist auf die Lehre, wonach …»).
 
 ---
 
@@ -286,10 +286,10 @@ Die Muster enthalten eigene Auffassungen der Autoren. In diesem Skill werden sie
 | «wie Teuscher/Lobsiger zurecht festhalten» | «wie Teuscher/Lobsiger festhalten» |
 | «Wie an anderer Stelle detailliert diskutiert wurde, …» (eigene Publikation) | «Hongler/Thirumamany weisen darauf hin, dass …» + Fussnote (gewöhnliche Lehre) |
 
-Ein Rechtsvergleich (etwa § 15 Abs. 2 EStG) oder der Blick auf Doppelbesteuerungsabkommen bleibt zulässig, wenn er Lehre oder Rechtsprechung wiedergibt und nicht eine eigene Lösung stützt.
+Die Beispiele mit Lehre zeigen nur die neutrale Sprache; Lehre erscheint in diesem Skill nur, soweit ein Entscheid sie anführt. Ein Rechtsvergleich (etwa § 15 Abs. 2 EStG) oder der Blick auf Doppelbesteuerungsabkommen bleibt zulässig, wenn er Lehre oder Rechtsprechung wiedergibt und nicht eine eigene Lösung stützt.
 
 ### M.5 Was die Muster zitieren
-Rechtsprechung dominiert (in Art. 14 StHG rund 60 verschiedene BGE und BGer-Entscheide), dazu kantonale Gerichte, Kreisschreiben von ESTV und SSK, kantonale Steuerbücher, Standardkommentare, Lehrbücher für die Praxis (Reich, Blumenstein/Locher, Simonek, von Ah), Aufsätze und Monografien. Standardkommentare nur nach Anhang A.6 (Volltext gelesen). Hongler/Lorenz, Einführung in das schweizerische Steuerrecht, wird nicht zitiert.
+Rechtsprechung dominiert (in Art. 14 StHG rund 60 verschiedene BGE und BGer-Entscheide), dazu kantonale Gerichte, Kreisschreiben von ESTV und SSK, kantonale Steuerbücher, Standardkommentare, Lehrbücher für die Praxis (Reich, Blumenstein/Locher, Simonek, von Ah), Aufsätze und Monografien. Lehre hier nur nach Anhang A.6 (über Entscheide). Hongler/Lorenz, Einführung in das schweizerische Steuerrecht, wird nicht zitiert.
 
 ---
 
