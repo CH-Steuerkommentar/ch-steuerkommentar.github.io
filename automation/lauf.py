@@ -150,6 +150,7 @@ async def _agent(prompt: str, budget: float) -> tuple[float, str, str]:
         setting_sources=["project"],
         skills=["steuerkommentar-selbstaendig"],
         permission_mode="bypassPermissions",
+        disallowed_tools=["WebSearch"],   # keine allgemeine Websuche
         max_budget_usd=budget,
         mcp_servers={"open-case-law": {"type": "http", "url": "https://mcp.opencaselaw.ch/mcp"}},
     )
