@@ -9,6 +9,7 @@ und darf neu vergeben werden.
 
     python3 pipeline/reservierung.py reservieren --wer github-actions [--status bereit] [--status offen]
         → gibt die reservierte Artikel-ID aus (z.B. DBG/art-26) oder nichts
+    python3 pipeline/reservierung.py freigeben DBG/art-26 zurueck   # Status wie vor der Reservierung
     python3 pipeline/reservierung.py freigeben DBG/art-26 geprueft [--notiz "…"] [--dateien kommentare/DBG/art-26.md arbeit/DBG/art-26]
     python3 pipeline/reservierung.py liste            # laufende Reservierungen
 
@@ -115,7 +116,7 @@ def freigeben(qid: str, status: str, notiz: str = "", dateien: list[str] | None 
         v = queue["artikel"][qid]
         if v["status"] == "in_arbeit" and wer and v.get("bearbeiter") not in (wer, None):
             raise RuntimeError(f"{qid} ist von {v.get('bearbeiter')} reserviert, nicht von {wer}")
-        v["status"] = status
+        v["status"] = (v.get("status_vorher") or "offen") if status == "zurueck" else status
         v["notiz"] = notiz
         v.update(felder or {})
         v["geaendert"] = jetzt().date().isoformat()
