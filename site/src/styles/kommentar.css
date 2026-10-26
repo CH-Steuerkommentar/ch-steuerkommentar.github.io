@@ -35,25 +35,21 @@
   text-decoration: none;
 }
 .rn a:hover { text-decoration: underline; }
-@media (min-width: 72rem) {
-  .rn {
-    position: absolute;
-    left: -3.2rem;
-    width: 2.6rem;
-    text-align: right;
-    top: 0.2em;
-  }
+/* Randnotennummern in einer eigenen Spalte links; der Fliesstext beginnt immer auf derselben Linie. */
+.sl-markdown-content:has(.rn) {
+  --rn-spalte: 2.9rem;
+  padding-left: var(--rn-spalte);
 }
-@media (max-width: 71.99rem) {
-  .rn {
-    display: inline-block;
-    min-width: 1.8rem;
-    margin-right: 0.25rem;
-    padding: 0 0.3rem;
-    border: 1px solid var(--sl-color-gray-5);
-    border-radius: 0.25rem;
-    text-align: center;
-  }
+.rn {
+  position: absolute;
+  left: calc(-1 * var(--rn-spalte));
+  width: calc(var(--rn-spalte) - 0.8rem);
+  text-align: right;
+  top: 0.28em;
+  line-height: 1.4;
+}
+@media (max-width: 40rem) {
+  .sl-markdown-content:has(.rn) { --rn-spalte: 2.3rem; }
 }
 .rn { scroll-margin-top: 7rem; }
 p:has(> .rn:target) {
