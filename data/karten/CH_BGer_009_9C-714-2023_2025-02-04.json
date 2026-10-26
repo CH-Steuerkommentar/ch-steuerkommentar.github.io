@@ -1,0 +1,71 @@
+{
+ "geschaeftsnummer": "9C_714/2023",
+ "datum": "04.02.2025",
+ "gegenstand": "Staats- und Gemeindesteuern des Kantons Bern, Steuerperioden 2014-2019: steuerrechtlicher Wohnsitz eines alleinstehenden, im Auftrag des Bundes wiederholt im Ausland eingesetzten Steuerpflichtigen.",
+ "regeste": "Der steuerrechtliche Wohnsitz bestimmt sich nach dem objektiv erkennbaren Lebensmittelpunkt; bei befristeten Auslandeinsätzen von höchstens einem Jahr bleibt der Wohnsitz in der Schweiz (bei den Eltern bzw. im eigenen Studio). Die Rüge der Rechtsverzögerung bei einem gut zwei Jahre dauernden Steuerdomizilverfahren wird abgewiesen.",
+ "besetzung_fuenf": true,
+ "ausgang": "Beschwerde abgewiesen",
+ "normen": [
+  {
+   "norm": "StHG/3",
+   "relevant": true,
+   "klasse": "A",
+   "normstelle": "Abs. 1 und 2",
+   "kernaussage": "Der steuerrechtliche Wohnsitz liegt dort, wo sich nach den objektiven, für Dritte erkennbaren Tatsachen der Mittelpunkt der Lebensinteressen befindet; auf den inneren Willen kommt es nicht an. Bei Kontakten zu mehreren Orten ist auf die stärkeren Beziehungen abzustellen, und ein Aufenthalt muss üblicherweise auf mindestens ein Jahr angelegt sein, um einen Wohnsitz zu begründen. Im Fall blieb der Wohnsitz trotz befristeter Auslandeinsätze bei den Eltern in U. bzw. ab Juli 2016 im Studio in V.",
+   "erwaegung": "E. 5.2",
+   "sachfrage": "Steuerrechtlicher Wohnsitz: Lebensmittelpunkt bei Auslandaufenthalten",
+   "zitat": "Der Wohnsitz bestimmt sich vielmehr alleine nach der Gesamtheit der objektiven, für Dritte erkennbaren Tatsachen, in denen sich eine Absicht dauernden Verbleibens der betroffenen Person manifestiert",
+   "praxis": [
+    "SSK-Kreisschreiben Nr. 1 vom 30. Juni 2010, Ziff. 2.2.1-2.2.3"
+   ]
+  },
+  {
+   "norm": "DBG/3",
+   "relevant": true,
+   "klasse": "C",
+   "normstelle": "Abs. 1 und 2",
+   "kernaussage": "Art. 3 DBG verweist wie die kantonale Regelung nicht auf den zivilrechtlichen Wohnsitz, der steuerrechtliche Wohnsitz lehnt sich aber an das ZGB an; die Norm wird parallel zu StHG/3 erwähnt."
+  },
+  {
+   "norm": "StHG/47",
+   "relevant": true,
+   "klasse": "B",
+   "normstelle": "Abs. 1",
+   "kernaussage": "Wegen der fünfjährigen, durch Stillstand und Unterbrechung auf bis zu 15 Jahre verlängerbaren Verjährungsfrist und der fehlenden gesetzlichen Behandlungsfrist ist bei der Annahme einer Rechtsverzögerung in der Steuerveranlagung Zurückhaltung geboten; ein Steuerdomizilverfahren von gut zwei Jahren verletzt bei komplexer Wohnsitzlage die Verfassung nicht.",
+   "erwaegung": "E. 3.4",
+   "sachfrage": "Rechtsverzögerung im Steuerveranlagungsverfahren",
+   "zitat": "Deshalb rechtfertigt sich eine gewisse Zurückhaltung in der Annahme einer verfassungswidrigen Rechtsverzögerung im Rahmen der Steuerveranlagung"
+  },
+  {
+   "norm": "StHG/73",
+   "relevant": true,
+   "klasse": "C",
+   "normstelle": "Abs. 2",
+   "kernaussage": "Der Beschwerdeführer ist zur Beschwerde legitimiert.",
+   "erwaegung": "E. 1"
+  },
+  {
+   "norm": "StG/4",
+   "relevant": false,
+   "klasse": "C",
+   "kernaussage": "Gemeint ist das kantonale Steuergesetz Bern (StG/BE), nicht das Bundesgesetz über die Stempelabgaben."
+  },
+  {
+   "norm": "StG/165",
+   "relevant": false,
+   "klasse": "C",
+   "kernaussage": "Gemeint ist das kantonale Steuergesetz Bern (StG/BE), nicht das Bundesgesetz über die Stempelabgaben."
+  }
+ ],
+ "_entscheid_id": "CH_BGer_009_9C-714-2023_2025-02-04",
+ "_url": "https://entscheidsuche.ch/docs/CH_BGer/CH_BGer_009_9C-714-2023_2025-02-04.html",
+ "_referenz": [
+  "9C_714/2023"
+ ],
+ "_modell": "claude-sonnet-5-5",
+ "_erstellt": "2026-10-26",
+ "_zitat_geprueft": {
+  "StHG/3": true,
+  "StHG/47": true
+ }
+}

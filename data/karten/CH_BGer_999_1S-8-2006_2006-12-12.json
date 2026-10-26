@@ -1,0 +1,145 @@
+{
+ "geschaeftsnummer": "1S.8/2006",
+ "datum": "12.12.2006",
+ "gegenstand": "Direkte Bundessteuer: Einziehungsbeschlagnahme (Kontensperre) bei der Ehefrau des Beschuldigten im Besonderen Steueruntersuchungsverfahren nach Art. 190 ff. DBG; Bedeutung der Solidarhaftung nach Art. 13 DBG.",
+ "regeste": "Die vorläufige Einziehungsbeschlagnahme bei einer nicht beschuldigten Drittperson ist zulässig, solange ausreichende Verdachtsgründe bestehen und ein gutgläubiger Erwerb gegen gleichwertige Gegenleistung nicht liquide erstellt ist. Die fiskalrechtliche Solidarhaftung der Ehegatten nach Art. 13 DBG ist von der strafrechtlichen Vermögenseinziehung zu unterscheiden; eine Zahlungsunfähigkeit des Beschuldigten schützt den Dritterwerber nicht vor der Beschlagnahme.",
+ "ausgang": "Beschwerde abgewiesen",
+ "besetzung_fuenf": false,
+ "normen": [
+  {
+   "norm": "DBG/1",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Der Bund erhebt gestützt auf das DBG namentlich eine Einkommenssteuer von natürlichen Personen."
+  },
+  {
+   "norm": "DBG/13",
+   "normstelle": "Abs. 1",
+   "relevant": true,
+   "klasse": "A",
+   "sachfrage": "Solidarhaftung der Ehegatten: Abgrenzung zur strafrechtlichen Einziehung",
+   "kernaussage": "Die fiskalrechtliche Solidarhaftung der Ehegatten für Steuerschulden ist von der strafrechtlichen Vermögenseinziehung bei Dritterwerbern zu unterscheiden. Ob der Beschuldigte zahlungsunfähig ist und die Haftung damit auf den Anteil beschränkt wird, ist für die Zulässigkeit der Einziehungsbeschlagnahme nicht entscheidend.",
+   "erwaegung": "E. 6.3",
+   "zitat": "Zwischen der fiskalrechtlichen Frage der solidarischen Ehegattenhaftung für Steuerschulden und der Zulässigkeit einer strafrechtlichen Vermögenseinziehung bei Dritterwerbern ist (wie gezeigt) zu unterscheiden."
+  },
+  {
+   "norm": "DBG/124",
+   "normstelle": "Abs. 2",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Pflicht zur wahrheitsgemässen und vollständigen Steuererklärung; nur in der Darstellung der gesetzlichen Grundlagen erwähnt.",
+   "erwaegung": "E. 4.1"
+  },
+  {
+   "norm": "DBG/130",
+   "normstelle": "Abs. 1",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Die Veranlagungsbehörde prüft die Steuererklärung; Erwähnung in der Normkette.",
+   "erwaegung": "E. 4.1"
+  },
+  {
+   "norm": "DBG/151",
+   "normstelle": "Abs. 1",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Nachsteuer bei unvollständiger rechtskräftiger Veranlagung; Erwähnung in der Darstellung der Rechtsgrundlagen.",
+   "erwaegung": "E. 4.1"
+  },
+  {
+   "norm": "DBG/152",
+   "normstelle": "Abs. 2",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Die Eröffnung der Strafverfolgung gilt zugleich als Einleitung des Nachsteuerverfahrens; blosse Erwähnung.",
+   "erwaegung": "E. 4.1"
+  },
+  {
+   "norm": "DBG/174",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Verletzung von Verfahrenspflichten wird mit Busse bedroht; Darstellung des Steuerstrafrechts.",
+   "erwaegung": "E. 4.2.1"
+  },
+  {
+   "norm": "DBG/175",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Steuerhinterziehung ist eine Übertretung mit Busse; Darstellung der Deliktsarten.",
+   "erwaegung": "E. 4.2.1"
+  },
+  {
+   "norm": "DBG/176",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Fortgesetzte Hinterziehung grosser Steuerbeträge als schwere Steuerwiderhandlung erwähnt.",
+   "erwaegung": "E. 4.2.3"
+  },
+  {
+   "norm": "DBG/186",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Steuerbetrug als Steuervergehen; Darstellung der Deliktsarten.",
+   "erwaegung": "E. 4.2.2"
+  },
+  {
+   "norm": "DBG/187",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Veruntreuung von Quellensteuern als Vergehen; Darstellung der Deliktsarten.",
+   "erwaegung": "E. 4.2.2"
+  },
+  {
+   "norm": "DBG/188",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Verfahren bei Fiskalvergehen richtet sich nach kantonalem Strafprozessrecht; Darstellung der Zuständigkeiten.",
+   "erwaegung": "E. 4.2.2"
+  },
+  {
+   "norm": "DBG/190",
+   "normstelle": "Abs. 1 und 2",
+   "relevant": true,
+   "klasse": "B",
+   "sachfrage": "Besondere Untersuchung bei schweren Steuerwiderhandlungen",
+   "kernaussage": "Bei Verdacht schwerer Steuerwiderhandlungen (Fiskalübertretungen und -vergehen) kann die EStV eine Besondere Untersuchung durchführen. Die Unterscheidung zu minder schweren Fällen ist verfahrensrechtlicher Natur; im Fall bildete sie die Grundlage der Untersuchung gegen den Ehemann.",
+   "erwaegung": "E. 4.2.3"
+  },
+  {
+   "norm": "DBG/191",
+   "normstelle": "Abs. 1",
+   "relevant": true,
+   "klasse": "A",
+   "sachfrage": "Zwangsmassnahmen in der Besonderen Untersuchung (Einziehungsbeschlagnahme)",
+   "kernaussage": "Art. 191 Abs. 1 DBG erlaubt der EStV im Verfahren gegen mutmassliche Täter und Teilnehmer die Massnahmen nach Art. 19-50 VStrR. Die Einziehungsbeschlagnahme nach Art. 46 Abs. 1 lit. b VStrR findet in Verbindung mit Art. 191 Abs. 1 DBG ihre gesetzliche Grundlage.",
+   "erwaegung": "E. 4.3 und 5.4",
+   "zitat": "Art. 191 Abs. 1 DBG schreibt vor, welche Zwangsmassnahmen die EStV gestützt auf das VStrR im Rahmen der Untersuchung von \"schweren Steuerwiderhandlungen\" anordnen darf"
+  },
+  {
+   "norm": "DBG/193",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Die EStV erstellt nach Abschluss der Untersuchung einen Bericht.",
+   "erwaegung": "E. 4.3"
+  },
+  {
+   "norm": "DBG/194",
+   "normstelle": "Abs. 1 und 2",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Je nach Ergebnis der Untersuchung verlangt die EStV ein Hinterziehungsverfahren oder erstattet Anzeige wegen Steuervergehens.",
+   "erwaegung": "E. 4.3"
+  }
+ ],
+ "_entscheid_id": "CH_BGer_999_1S-8-2006_2006-12-12",
+ "_url": "https://entscheidsuche.ch/docs/CH_BGer/CH_BGer_999_1S-8-2006_2006-12-12.html",
+ "_referenz": [
+  "1S-8/2006"
+ ],
+ "_modell": "claude-sonnet-5-5",
+ "_erstellt": "2026-10-26",
+ "_zitat_geprueft": {
+  "DBG/13": true,
+  "DBG/191": true
+ }
+}

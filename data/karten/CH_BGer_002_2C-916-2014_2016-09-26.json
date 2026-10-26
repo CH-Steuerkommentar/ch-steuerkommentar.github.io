@@ -1,0 +1,142 @@
+{
+ "geschaeftsnummer": "2C_916/2014",
+ "datum": "26.09.2016",
+ "gegenstand": "Gewinnsteuer und Staats-/Gemeindesteuern 2011: Abzugsfähigkeit einer von der Europäischen Kommission gegen eine AG verhängten Wettbewerbsbusse bzw. der dafür gebildeten Rückstellungen als geschäftsmässig begründeter Aufwand.",
+ "regeste": "Bussen und finanzielle Verwaltungssanktionen mit pönalem Charakter, die einer juristischen Person aus eigener Verantwortung auferlegt werden, sind kein geschäftsmässig begründeter Aufwand und steuerlich nicht abziehbar; Rückstellungen dafür sind aufzurechnen. Gewinnabschöpfende Sanktionen ohne Strafzweck sind abziehbar; Rückweisung zur Prüfung eines allfälligen Gewinnabschöpfungsanteils.",
+ "ausgang": "Beschwerde gutgeheissen, Urteil aufgehoben, Rückweisung an die Vorinstanz",
+ "besetzung_fuenf": true,
+ "normen": [
+  {
+   "norm": "DBG/58",
+   "relevant": true,
+   "klasse": "A",
+   "normstelle": "Abs. 1 lit. a und lit. b",
+   "sachfrage": "Geschäftsmässig begründeter Aufwand: Bussen mit pönalem Charakter bei juristischen Personen",
+   "kernaussage": "Rückstellungen und Abschreibungen für nicht geschäftsmässig begründeten Aufwand sind nach Art. 58 Abs. 1 lit. b DBG aufzurechnen; diese Korrekturvorschrift ist bloss deklaratorisch. Pönale Bussen und Verwaltungssanktionen gegen juristische Personen sind nicht geschäftsmässig begründet, das Leistungsfähigkeitsprinzip und das Legalitätsprinzip stehen dem nicht entgegen.",
+   "erwaegung": "E. 7.1",
+   "zitat": "Soweit Art. 58 Abs. 1 lit. b DBG lediglich die Aufrechnung von geschäftsmässig nicht begründeten Aufwendungen oder Rückstellungen vorsieht, hat diese Korrekturvorschrift jedoch keinen konstitutiven sondern lediglich deklaratorischen Charakter",
+   "praxis": [
+    "BGE 113 Ib 114",
+    "Urteil 2C_273/2013 vom 16. Juli 2013"
+   ],
+   "lehre": [
+    "DANON, a.a.O., Rz. 62 zu Art. 57-58",
+    "RICHNER/FREI/KAUFMANN/MEUTER, a.a.O., Rz. 75 zu Art. 58"
+   ]
+  },
+  {
+   "norm": "DBG/59",
+   "relevant": true,
+   "klasse": "A",
+   "normstelle": "Abs. 1 lit. a; Abs. 2",
+   "sachfrage": "Geschäftsmässig begründeter Aufwand: Bussen mit pönalem Charakter bei juristischen Personen",
+   "kernaussage": "Aus der ausdrücklichen Ausnahme der Steuerbussen in Art. 59 Abs. 1 lit. a DBG folgt kein Umkehrschluss auf die Abziehbarkeit anderer Bussen. Grammatikalisch-historische, systematische (Einheit der Rechtsordnung, Art. 59 Abs. 2 DBG zu Bestechungsgeldern) und verfassungskonforme Auslegung (Rechtsgleichheit mit selbständigen natürlichen Personen) ergeben, dass pönale Bussen und Verwaltungssanktionen nicht abziehbar sind; gewinnabschöpfende Sanktionen ohne Strafzweck sind abziehbar.",
+   "erwaegung": "E. 7.2-7.8",
+   "zitat": "Bussen und monetäre Verwaltungssanktionen mit pönalem Charakter, welche juristischen Personen aus eigener Verantwortung auferlegt werden, grundsätzlich als nicht geschäftsmässig begründeter Aufwand gelten und deshalb steuerlich nicht absetzbar sind.",
+   "praxis": [
+    "Urteil 2P.306/2003 resp. 2A.574/2003 vom 26. Oktober 2004",
+    "BGE 70 I 250",
+    "BGE 136 II 447"
+   ],
+   "lehre": [
+    "RICHNER/FREI/KAUFMANN/MEUTER, Handkommentar zum DBG, 3. Aufl. 2016, Rz. 5 zu Art. 59",
+    "LOCHER, Kommentar zum DBG, II. Teil, 2004, Rz. 70 zu Art. 59",
+    "AGNER/JUNG/STEINMANN, Kommentar zum Gesetz über die direkte Bundessteuer, 1995, Ziff. 1 zu Art. 59",
+    "OPEL, ASA 84 S. 187 ff."
+   ]
+  },
+  {
+   "norm": "DBG/27",
+   "relevant": true,
+   "klasse": "B",
+   "sachfrage": "Geschäftsmässig begründeter Aufwand: Bussen bei selbständig Erwerbstätigen",
+   "kernaussage": "Art. 27 DBG entspricht bei natürlichen Personen inhaltlich Art. 58 DBG; Bussen sind bei selbständig Erwerbstätigen nach Rechtsprechung und Lehre nicht geschäftsmässig begründet, was als Vergleichsmassstab für die Gleichbehandlung juristischer Personen dient.",
+   "erwaegung": "E. 3, E. 7.5"
+  },
+  {
+   "norm": "DBG/16",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Reinvermögenszugangstheorie als Ausdruck des Leistungsfähigkeitsprinzips bei natürlichen Personen erwähnt.",
+   "erwaegung": "E. 7.1"
+  },
+  {
+   "norm": "DBG/25",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Erwähnt: die zulässigen Abzüge der natürlichen Personen in Art. 26-33a DBG sind grundsätzlich abschliessend aufgezählt.",
+   "erwaegung": "E. 7.6"
+  },
+  {
+   "norm": "DBG/26",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Nur im Zusammenhang mit dem Nettoprinzip und der Aufzählung der Abzüge natürlicher Personen (Art. 26-33a DBG) erwähnt.",
+   "erwaegung": "E. 7.1"
+  },
+  {
+   "norm": "DBG/1",
+   "relevant": false,
+   "klasse": "C",
+   "kernaussage": "Treffer ohne Bezug (Fundstelle im Zitat aus dem Bundesratsbericht, kein Art. 1 DBG)."
+  },
+  {
+   "norm": "DBG/146",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Beschwerdelegitimation des kantonalen Steueramts.",
+   "erwaegung": "E. 2.1"
+  },
+  {
+   "norm": "StHG/73",
+   "relevant": true,
+   "klasse": "C",
+   "normstelle": "Abs. 2",
+   "kernaussage": "Beschwerdelegitimation des kantonalen Steueramts im Bereich des StHG.",
+   "erwaegung": "E. 2.1"
+  },
+  {
+   "norm": "StHG/25",
+   "relevant": true,
+   "klasse": "B",
+   "normstelle": "Abs. 1 lit. a",
+   "sachfrage": "Geschäftsmässig begründeter Aufwand: Bussen mit pönalem Charakter bei juristischen Personen",
+   "kernaussage": "Die Rechtslage bei den Kantons- und Gemeindesteuern ist identisch; der Begriff des geschäftsmässig begründeten Aufwands ist harmonisiert anzuwenden, ohne kantonalen Gestaltungsspielraum, weshalb die Erwägungen zur direkten Bundessteuer gelten.",
+   "erwaegung": "E. 9",
+   "zitat": "Der Begriff des geschäftsmässig begründeten Aufwands ist damit einheitlich und harmonisiert anzuwenden, was einen Gestaltungsspielraum der Kantone ausschliesst."
+  },
+  {
+   "norm": "StHG/24",
+   "relevant": true,
+   "klasse": "C",
+   "normstelle": "Abs. 1 lit. a",
+   "kernaussage": "Erwähnt als StHG-Parallelnorm zur Gewinnsteuer.",
+   "erwaegung": "E. 9"
+  },
+  {
+   "norm": "StHG/10",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Erwähnt im Gesetzesentwurf zur steuerlichen Behandlung finanzieller Sanktionen, der Art. 10 StHG ändern soll.",
+   "erwaegung": "E. 6"
+  },
+  {
+   "norm": "StHG/1",
+   "relevant": false,
+   "klasse": "C",
+   "kernaussage": "Treffer ohne Bezug zu Art. 1 StHG."
+  }
+ ],
+ "_entscheid_id": "CH_BGer_002_2C-916-2014_2016-09-26",
+ "_url": "https://entscheidsuche.ch/docs/CH_BGer/CH_BGer_002_2C-916-2014_2016-09-26.html",
+ "_referenz": [
+  "2C_916/2014"
+ ],
+ "_modell": "claude-sonnet-5-5",
+ "_erstellt": "2026-10-26",
+ "_zitat_geprueft": {
+  "DBG/58": true,
+  "DBG/59": true,
+  "StHG/25": true
+ }
+}

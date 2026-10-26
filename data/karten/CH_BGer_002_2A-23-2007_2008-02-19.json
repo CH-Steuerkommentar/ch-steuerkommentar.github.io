@@ -1,0 +1,120 @@
+{
+ "geschaeftsnummer": "2A.23/2007",
+ "datum": "19.02.2008",
+ "gegenstand": "Quellensteuer 2005 (direkte Bundessteuer sowie Kantons- und Gemeindesteuer Zug): Besteuerung von Inhabern einer 120-Tage-Kurzaufenthaltsbewilligung zum Proportionalsatz von 10 % (Tarif D) statt nach Tarif A/B.",
+ "regeste": "Die Quellenbesteuerung von Kurzaufenthaltern mit einem festen Satz von 10 % (Tarif D) nach Dauer der Bewilligung und Einkommenshöhe entbehrt einer gesetzlichen Grundlage und verletzt das Gleichbehandlungsgebot. Die Art der fremdenpolizeilichen Bewilligung präjudiziert die steuerrechtliche Zugehörigkeit nicht.",
+ "ausgang": "Beschwerde gutgeheissen, Rückweisung an die Steuerverwaltung",
+ "besetzung_fuenf": true,
+ "normen": [
+  {
+   "norm": "DBG/1",
+   "relevant": false,
+   "klasse": "C",
+   "kernaussage": "Die Erkennung beruht auf einer Normkette (Art. 3 Abs. 3, Art. 6 Abs. 1 DBG) in der Argumentation der Steuerverwaltung; nicht Art. 1 DBG gemeint."
+  },
+  {
+   "norm": "DBG/2",
+   "relevant": false,
+   "klasse": "C",
+   "kernaussage": "Treffer stammt aus der Normkette zur beschränkten Steuerpflicht (Art. 5, 6 DBG); Art. 2 DBG nicht gemeint."
+  },
+  {
+   "norm": "DBG/3",
+   "relevant": true,
+   "klasse": "B",
+   "kernaussage": "Kurzaufenthalter mit mehr als 30 Tagen Erwerbstätigkeit werden grundsätzlich aufgrund persönlicher Zugehörigkeit unbeschränkt steuerpflichtig, bleiben aber wegen Doppelansässigkeit und DBA meist nur beschränkt steuerpflichtig; die Argumentation der Verwaltung ist offensichtlich unzutreffend.",
+   "normstelle": "Abs. 3",
+   "erwaegung": "E. 5.4",
+   "sachfrage": "Persönliche Zugehörigkeit: Kurzaufenthalter und Doppelansässigkeit",
+   "zitat": "Auch 120-Tage-Kurzaufenthalter halten sich (im Unterschied zu Grenzgängern oder Wochenaufenthaltern) regelmässig - ungeachtet vorübergehender Unterbrechung - mehr als 30 Tage zwecks Ausübung einer Erwerbstätigkeit in der Schweiz"
+  },
+  {
+   "norm": "DBG/5",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Art. 5 Abs. 1 lit. a DBG wird in der Normkette der Steuerverwaltung zur beschränkten Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit erwähnt.",
+   "normstelle": "Abs. 1 lit. a",
+   "erwaegung": "E. 5.4"
+  },
+  {
+   "norm": "DBG/6",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Art. 6 DBG wird in der Normkette zur unbeschränkten bzw. beschränkten Steuerpflicht erwähnt.",
+   "normstelle": "Abs. 1 und 2",
+   "erwaegung": "E. 5.4"
+  },
+  {
+   "norm": "DBG/7",
+   "relevant": true,
+   "klasse": "B",
+   "kernaussage": "Ein Proportionaltarif als schematische Berücksichtigung der Gesamtprogression ist nur bei einem zum Haupterwerb hinzutretenden Nebenerwerb vertretbar; bei vollzeitlich arbeitenden Temporärerwerbstätigen fehlen die Voraussetzungen.",
+   "normstelle": "Abs. 1",
+   "erwaegung": "E. 5.2",
+   "sachfrage": "Quellensteuer: Gesamtprogression und Proportionaltarif bei Kurzaufenthaltern",
+   "zitat": "nur) in einem solchen Fall ist es vertretbar, der Gesamtprogression (im Sinn von Art. 7 Abs. 1 DBG und § 6 Abs. 1 StG /ZG) schematisch - im Rahmen eines Proportionaltarifs - Rechnung zu tragen"
+  },
+  {
+   "norm": "DBG/83",
+   "relevant": false,
+   "klasse": "C",
+   "kernaussage": "Nur als Literaturhinweis (Vorbemerkungen zu Art. 83-101 DBG) genannt."
+  },
+  {
+   "norm": "DBG/91",
+   "relevant": true,
+   "klasse": "A",
+   "kernaussage": "Wer ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz hier für kurze Dauer, als Grenzgänger oder Wochenaufenthalter unselbständig erwerbstätig ist, unterliegt der Quellensteuer; Kurzaufenthalter gehören dazu. Das Quellensteuersystem erlaubt nur einfache, schematische Lösungen, die Besteuerung muss aber dem Gleichbehandlungsgebot genügen.",
+   "erwaegung": "E. 3.1",
+   "sachfrage": "Quellensteuer: Kurzaufenthalter, Tarifwahl",
+   "zitat": "Wer ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz hier für kurze Dauer oder als Grenzgänger oder Wochenaufenthalter in unselbständiger Stellung erwerbstätig ist, unterliegt der Quellensteuer",
+   "lehre": [
+    "Peter Locher, Kommentar zum DBG, II. Teil, Therwil/Basel 2004, Rz. 11 f. zu Art. 91"
+   ]
+  },
+  {
+   "norm": "StHG/3",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Art. 3 Abs. 1 StHG erscheint in der Normkette zur unbeschränkten Steuerpflicht aufgrund persönlicher Zugehörigkeit.",
+   "normstelle": "Abs. 1",
+   "erwaegung": "E. 5.4"
+  },
+  {
+   "norm": "StHG/36",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Art. 36 Abs. 1 StHG wird zusammen mit Art. 35 StHG für die Quellensteuerpflicht Kurzaufenthalter erwähnt.",
+   "normstelle": "Abs. 1",
+   "erwaegung": "E. 3.1"
+  },
+  {
+   "norm": "StHG/4",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Art. 4 Abs. 2 lit. a StHG wird in der Normkette zur beschränkten Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit erwähnt.",
+   "normstelle": "Abs. 2 lit. a",
+   "erwaegung": "E. 5.4"
+  },
+  {
+   "norm": "StHG/35",
+   "relevant": true,
+   "klasse": "C",
+   "kernaussage": "Art. 35 Abs. 1 lit. a StHG wird für die Quellensteuerpflicht von Personen ohne steuerrechtlichen Wohnsitz in der Normkette erwähnt (von der Erkennung übersehen).",
+   "normstelle": "Abs. 1 lit. a",
+   "erwaegung": "E. 3.1"
+  }
+ ],
+ "_entscheid_id": "CH_BGer_002_2A-23-2007_2008-02-19",
+ "_url": "https://entscheidsuche.ch/docs/CH_BGer/CH_BGer_002_2A-23-2007_2008-02-19.html",
+ "_referenz": [
+  "2A-23/2007"
+ ],
+ "_modell": "claude-sonnet-5-5",
+ "_erstellt": "2026-10-26",
+ "_zitat_geprueft": {
+  "DBG/3": true,
+  "DBG/7": true,
+  "DBG/91": true
+ }
+}
