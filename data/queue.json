@@ -115,11 +115,14 @@
    "erlass": "DBG",
    "nummer": "11",
    "sachueberschrift": "Ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten ohne juristische Persönlichkeit",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-26T20:14:11+00:00"
   },
   "DBG/art-12": {
    "erlass": "DBG",
