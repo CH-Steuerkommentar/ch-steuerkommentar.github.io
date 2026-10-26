@@ -64,11 +64,14 @@
    "erlass": "DBG",
    "nummer": "7",
    "sachueberschrift": "Steuerberechnung bei teilweiser Steuerpflicht",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-26T17:51:50+00:00"
   },
   "DBG/art-8": {
    "erlass": "DBG",
