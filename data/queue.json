@@ -16,11 +16,14 @@
    "erlass": "DBG",
    "nummer": "2",
    "sachueberschrift": "Steuererhebung",
-   "status": "entscheide",
+   "status": "in_arbeit",
    "entscheide": 37,
    "karten_fertig": 0,
    "prioritaet": 37,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "entscheide",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-26T23:06:14+00:00"
   },
   "DBG/art-3": {
    "erlass": "DBG",
