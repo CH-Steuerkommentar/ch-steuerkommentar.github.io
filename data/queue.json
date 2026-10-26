@@ -24,11 +24,14 @@
    "erlass": "DBG",
    "nummer": "3",
    "sachueberschrift": "Persönliche Zugehörigkeit",
-   "status": "entscheide",
+   "status": "in_arbeit",
    "entscheide": 168,
    "karten_fertig": 0,
    "prioritaet": 168,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "entscheide",
+   "bearbeiter": "github-actions",
+   "seit": "2026-10-26T19:22:49+00:00"
   },
   "DBG/art-4": {
    "erlass": "DBG",
