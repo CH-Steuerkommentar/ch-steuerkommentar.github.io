@@ -193,6 +193,16 @@ def einreichen(args) -> None:
         if meta["status"] != "vorbereitet":
             continue
         anfragen = [json.loads(z) for z in (meta_pfad.parent / "anfragen.jsonl").read_text(encoding="utf-8").splitlines()]
+        # Vorprüfung ohne Kosten: Token-Zählung mit den Parametern der ersten Anfrage. Ein Fehler in Modellname
+        # oder Parametern fällt so sofort auf, statt dass der ganze Batch scheitert.
+        probe = {k: v for k, v in anfragen[0]["params"].items() if k in ("model", "system", "tools", "tool_choice", "messages")}
+        try:
+            c.messages.count_tokens(**probe)
+        except Exception as fehler:  # noqa: BLE001
+            print(f"{meta_pfad.parent.name}: Vorprüfung fehlgeschlagen, nicht eingereicht: {fehler}")
+            meta.update({"status": "abgelehnt", "fehler": str(fehler)[:2000]})
+            schreibe_json(meta_pfad, meta)
+            raise SystemExit(2)
         b = c.messages.batches.create(requests=anfragen)
         meta.update({"status": "eingereicht", "batch_id": b.id, "eingereicht": dt.datetime.now().isoformat()})
         schreibe_json(meta_pfad, meta)
@@ -233,6 +243,9 @@ def abholen(args) -> None:
             if r.result.type != "succeeded":
                 fehler += 1
                 fehlerliste.append(did)
+                if len(meta.setdefault("fehlerbeispiele", [])) < 3:
+                    meta["fehlerbeispiele"].append(str(getattr(r.result, "error", r.result))[:1500])
+                    print(f"Fehler bei {did}: {meta['fehlerbeispiele'][-1]}")
                 continue
             msg = r.result.message
             tokens_in += (msg.usage.input_tokens or 0) + (msg.usage.cache_read_input_tokens or 0)
@@ -271,6 +284,25 @@ def abholen(args) -> None:
     schreibe_json(QUEUE, queue)
 
 
+def fehler_zeigen(args) -> None:
+    """Zeigt die Fehlermeldungen abgeholter Batches mit Fehlern (erste drei je Batch)."""
+    c = client()
+    for meta_pfad in sorted(BATCHES.glob("*/batch.json")):
+        meta = lade_json(meta_pfad)
+        if not meta.get("fehler") or meta.get("fehlerbeispiele") or "batch_id" not in meta:
+            continue
+        beispiele = []
+        for r in c.messages.batches.results(meta["batch_id"]):
+            if r.result.type != "succeeded":
+                beispiele.append(str(getattr(r.result, "error", r.result))[:1500])
+                if len(beispiele) >= 3:
+                    break
+        meta["fehlerbeispiele"] = beispiele
+        schreibe_json(meta_pfad, meta)
+        for b in beispiele:
+            print(f"{meta_pfad.parent.name}: {b}")
+
+
 def zitate_pruefen(karte: dict, text: str) -> dict:
     """Prüft maschinell, ob jedes Kurzzitat wörtlich im Entscheid steht (Leerraum normalisiert)."""
     import re
@@ -296,8 +328,10 @@ def main() -> None:
     e.add_argument("--nur", help="nur diesen Batch-Ordner einreichen")
     sub.add_parser("status")
     sub.add_parser("abholen")
+    sub.add_parser("fehler")
     a = ap.parse_args()
-    {"vorbereiten": vorbereiten, "einreichen": einreichen, "status": status, "abholen": abholen}[a.cmd](a)
+    {"vorbereiten": vorbereiten, "einreichen": einreichen, "status": status, "abholen": abholen,
+     "fehler": fehler_zeigen}[a.cmd](a)
 
 
 if __name__ == "__main__":

@@ -159,7 +159,8 @@ def main() -> None:
     queue = lade_json(QUEUE)
     ids = a.artikel or ([k for k, v in queue["artikel"].items() if v["status"] == "karten"] if a.alle else [])
     if not ids:
-        sys.exit("Artikel angeben oder --alle.")
+        print("Keine Artikel mit Status «karten»." if a.alle else "Artikel angeben oder --alle.")
+        return
     for qid in ids:
         reg = bauen(qid, queue)
         ordner = schreiben(reg)

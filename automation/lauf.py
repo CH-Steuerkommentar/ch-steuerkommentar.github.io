@@ -333,6 +333,7 @@ def main() -> None:
         return
     log("Einstellungen:", json.dumps(EINSTELLUNGEN))
     log(f"Heute übrig: {tagesrest():.2f} USD, diesen Monat: {monatsrest():.2f} USD")
+    py("pipeline/karteikarten.py", "fehler")   # Fehlermeldungen früherer Batches ins Protokoll
     try:
         karteikarten_abholen()
         pruefungen_abschliessen()
