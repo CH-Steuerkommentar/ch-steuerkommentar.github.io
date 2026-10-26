@@ -128,16 +128,15 @@ Zwei Läufe schreiben Kommentierungen ohne Zutun und veröffentlichen sie. Damit
 
 ### 1. GitHub Actions über das API-Guthaben (`Kommentar-Agent`)
 
-Täglich um 02:17 Uhr (`.github/workflows/kommentar-agent.yml`, Steuerskript `automation/lauf.py`):
+Startet stündlich; läuft noch ein Lauf, wartet der nächste. Es schreibt also immer nur ein Lauf (`.github/workflows/kommentar-agent.yml`, Steuerskript `automation/lauf.py`):
 
-1. fertige Batches abholen, Register nachführen;
-2. Karteikarten für die nächsten Artikel per Batch erstellen, sobald weniger als drei Artikel `bereit` sind;
-3. bis zu drei Artikel schreiben (Agent SDK, Skill `steuerkommentar-selbstaendig`), Fundstellen per Batch prüfen, Befunde beheben, als `geprueft` freigeben;
-4. danach baut sich die Website neu.
+1. fertige Batches abholen: Karteikarten → Register; Fundstellenprüfungen → Korrektur durch den Agent → Freigabe als `geprueft` (dann veröffentlicht die Website den Artikel);
+2. Karteikarten für die nächsten Artikel per Batch erstellen (Sonnet 5.5), sobald weniger als drei Artikel `bereit` sind;
+3. Artikel schreiben mit dem Skill `steuerkommentar-selbstaendig` (Agent SDK, Opus 5.5, Effort `high`), solange das Budget reicht; danach Fundstellen-Batch einreichen, Status `geschrieben`.
 
-Einrichten: Unter Settings > Secrets and variables > Actions ein Repository-Secret `ANTHROPIC_API_KEY` mit dem Key aus dem Console-Workspace anlegen. Optional als Variables: `MONATSBUDGET_USD` (Standard 95), `BUDGET_JE_ARTIKEL_USD` (15), `MAX_ARTIKEL` (3), `MODELL_SCHREIBEN` (claude-opus-5-5).
+Budget: 30 USD pro Tag, 100 USD pro Monat, höchstens 15 USD pro Artikel (Zählung in `data/kosten/`). Unabhängig davon stoppt die Console bei ihrem Ausgabenlimit oder wenn das Guthaben aufgebraucht ist; der Lauf versucht es dann stündlich wieder. API-Preise hängen nicht von der Tageszeit ab.
 
-Budget: Das Skript hört auf, wenn im laufenden Monat das eigene Budget erreicht ist (`data/kosten.json`). Unabhängig davon stoppt die Console, wenn ihr Ausgabenlimit erreicht oder das Guthaben aufgebraucht ist; der Lauf bricht dann ab und versucht es am nächsten Tag wieder, bis das Guthaben erneuert ist.
+Einrichten: Repository-Secret `ANTHROPIC_API_KEY` (Settings > Secrets and variables > Actions). Werte ändern über Variables: `TAGESBUDGET_USD`, `MONATSBUDGET_USD`, `BUDGET_JE_ARTIKEL_USD`, `MODELL_SCHREIBEN`, `EFFORT`.
 
 Ein/aus: Actions > Kommentar-Agent > «…» > Disable workflow bzw. Enable workflow. Von Hand starten: Run workflow.
 

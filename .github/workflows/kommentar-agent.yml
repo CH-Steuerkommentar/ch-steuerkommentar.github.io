@@ -1,17 +1,15 @@
 name: Kommentar-Agent
 
-# Schreibt täglich Kommentierungen über die API (API-Guthaben der Console).
+# Schreibt Kommentierungen über die API (API-Guthaben der Console), Opus 5.5 mit hoher Stufe.
+# Startet stündlich; läuft schon ein Lauf, wartet der nächste (nie zwei gleichzeitig).
+# Tagesbudget 30 USD, Monatsbudget 100 USD (änderbar unter Settings > Secrets and variables > Actions > Variables).
 # Ein- und ausschalten: Actions > Kommentar-Agent > «…» > Disable workflow / Enable workflow.
 # Von Hand starten: Actions > Kommentar-Agent > Run workflow.
 
 on:
   schedule:
-    - cron: "17 1 * * *"          # täglich 02:17 Schweizer Zeit (Winter)
+    - cron: "23 * * * *"
   workflow_dispatch:
-    inputs:
-      max_artikel:
-        description: "Höchstens so viele Artikel in diesem Lauf"
-        default: "3"
 
 permissions:
   contents: write
@@ -47,9 +45,10 @@ jobs:
       - name: Lauf
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          MAX_ARTIKEL: ${{ inputs.max_artikel || vars.MAX_ARTIKEL || '3' }}
-          MONATSBUDGET_USD: ${{ vars.MONATSBUDGET_USD || '95' }}
+          TAGESBUDGET_USD: ${{ vars.TAGESBUDGET_USD || '30' }}
+          MONATSBUDGET_USD: ${{ vars.MONATSBUDGET_USD || '100' }}
           BUDGET_JE_ARTIKEL_USD: ${{ vars.BUDGET_JE_ARTIKEL_USD || '15' }}
           MODELL_SCHREIBEN: ${{ vars.MODELL_SCHREIBEN || 'claude-opus-5-5' }}
+          EFFORT: ${{ vars.EFFORT || 'high' }}
           WER: github-actions
         run: python3 automation/lauf.py
