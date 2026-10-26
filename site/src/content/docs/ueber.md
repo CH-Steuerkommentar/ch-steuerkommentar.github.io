@@ -5,7 +5,7 @@ description: Wie die Kommentierungen entstehen, auf welche Quellen sie sich stü
 
 ## Was das Werk ist
 
-Ein frei zugänglicher Kommentar zu fünf Bundesgesetzen des Steuerrechts: DBG, StHG, VStG, MWSTG und Bundesgesetz über die Stempelabgaben. Jede Kommentierung stellt dar, was Gesetz, Rechtsprechung und Verwaltungspraxis zu einer Norm sagen, und wo eine Frage offen ist. Im Zentrum steht die Rechtsprechung des Bundesgerichts.
+Ein frei zugänglicher Kommentar zu fünf Bundesgesetzen des Steuerrechts: DBG, StHG, VStG, MWSTG und Bundesgesetz über die Stempelabgaben. Jede Kommentierung stellt dar, was Gesetz, Rechtsprechung und Verwaltungspraxis zu einer Norm sagen, und wo eine Frage offen ist. Im Zentrum steht die Rechtsprechung des Bundesgerichts. Nicht kommentiert werden Übergangsbestimmungen sowie die Bestimmungen über Referendum und Inkrafttreten.
 
 ## Wie die Kommentierungen entstehen
 
