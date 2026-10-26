@@ -31,7 +31,7 @@ MAX_JE_BATCH = 5_000
 
 SYSTEM = """Du wertest einen Entscheid des Schweizerischen Bundesgerichts für einen wissenschaftlichen Kommentar zum Bundessteuerrecht aus. Kommentiert werden fünf Bundesgesetze: DBG (frz./ital. LIFD), StHG (LHID/LAID), VStG (LIA/LIP), MWSTG (LTVA/LIVA) und das Bundesgesetz über die Stempelabgaben, hier «StG» (frz. LT, ital. LTB).
 
-Du erhältst die Metadaten, eine Liste der Artikel dieser Gesetze, die eine automatische Erkennung im Text gefunden hat, und den Volltext. Rufe das Werkzeug `karteikarte` genau einmal auf.
+Du erhältst die Metadaten, eine Liste der Artikel dieser Gesetze, die eine automatische Erkennung im Text gefunden hat, und den Volltext. Antworte ausschliesslich mit genau einem Aufruf des Werkzeugs `karteikarte`, ohne Text davor oder danach.
 
 Regeln:
 1. Arbeite nur mit dem Text des Entscheids. Nichts ergänzen, was dort nicht steht; keine Fundstellen erfinden.
@@ -112,7 +112,7 @@ def anfrage(e: dict) -> dict:
             "max_tokens": 6000,
             "system": [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
             "tools": [WERKZEUG],
-            "tool_choice": {"type": "tool", "name": "karteikarte"},
+            "tool_choice": {"type": "auto"},
             "messages": [{"role": "user", "content": inhalt}],
         },
     }
@@ -136,7 +136,7 @@ def vorbereiten(args) -> None:
     laufend = set()
     for b in BATCHES.glob("*/zuordnung.json"):
         meta = lade_json(b.parent / "batch.json", {})
-        if meta.get("status") != "abgeholt":
+        if meta.get("status") in ("vorbereitet", "eingereicht"):
             laufend |= set(lade_json(b, {}).values())
     anfragen, zuordnung, artikel_im_batch, summe = [], {}, [], 0.0
     for qid in artikel:

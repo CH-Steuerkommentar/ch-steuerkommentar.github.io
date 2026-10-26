@@ -29,7 +29,7 @@ RE_BGER = re.compile(r"(?:BGer\s+|Urteil(?:e)?\s+(?:des\s+Bundesgerichts\s+)?)?(
 
 SYSTEM = """Du prüfst Fussnoten eines Rechtskommentars gegen die Quelle. Du erhältst eine Aussage aus dem Kommentar, die Fundstelle aus der Fussnote und den Text der zitierten Erwägung eines Bundesgerichtsentscheids (oder, wenn sie sich nicht abgrenzen liess, einen grösseren Ausschnitt).
 
-Rufe das Werkzeug `befund` genau einmal auf.
+Antworte ausschliesslich mit genau einem Aufruf des Werkzeugs `befund`, ohne Text davor oder danach.
 - `ergebnis`: «bestätigt», wenn die Erwägung die Aussage trägt; «teilweise», wenn sie nur einen Teil trägt oder die Aussage weiter geht; «erwaegung_falsch», wenn die Aussage im Entscheid steht, aber in einer anderen Erwägung; «nicht_belegt», wenn der Entscheid die Aussage nicht trägt.
 - `richtige_erwaegung`: bei «erwaegung_falsch» die richtige Erwägung, sonst leer.
 - `begruendung`: ein bis zwei Sätze; bei «teilweise» und «nicht_belegt», was fehlt oder abweicht.
@@ -140,7 +140,7 @@ def vorbereiten(args) -> None:
                     anfragen.append({"custom_id": cid, "params": {
                         "model": MODELL_PRUEFUNG, "max_tokens": 800,
                         "system": [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
-                        "tools": [WERKZEUG], "tool_choice": {"type": "tool", "name": "befund"},
+                        "tools": [WERKZEUG], "tool_choice": {"type": "auto"},
                         "messages": [{"role": "user", "content":
                                       f"Aussage im Kommentar (N. {b.nummer}):\n{aussage}\n\nFundstelle: {ref}"
                                       + (f", E. {e_nr}" if e_nr else ", ohne Erwägungsangabe") +
