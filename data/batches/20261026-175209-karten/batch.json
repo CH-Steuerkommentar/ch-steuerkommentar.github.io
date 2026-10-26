@@ -1,0 +1,16 @@
+{
+ "art": "karten",
+ "modell": "claude-sonnet-5-5",
+ "status": "abgelehnt",
+ "artikel": [
+  "DBG/art-3",
+  "DBG/art-1",
+  "DBG/art-6",
+  "DBG/art-4",
+  "DBG/art-2",
+  "DBG/art-5"
+ ],
+ "anfragen": 378,
+ "kosten_geschaetzt_usd": 5.67,
+ "fehler": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'tool_choice: type \"tool\" and \"any\" are not supported for this model.'}, 'request_id': 'req_011CgRGs6VUg7KrSADx7zJhj'}"
+}

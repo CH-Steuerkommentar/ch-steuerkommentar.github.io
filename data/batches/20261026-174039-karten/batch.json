@@ -397,5 +397,10 @@
   "CH_BGer_002_2C-484-2009_2010-09-30"
  ],
  "tokens_in": 0,
- "tokens_out": 0
+ "tokens_out": 0,
+ "fehlerbeispiele": [
+  "ErrorResponse(error=InvalidRequestError(message='tool_choice: type \"tool\" and \"any\" are not supported for this model.', type='invalid_request_error', details=None), request_id=None, type='error')",
+  "ErrorResponse(error=InvalidRequestError(message='tool_choice: type \"tool\" and \"any\" are not supported for this model.', type='invalid_request_error', details=None), request_id=None, type='error')",
+  "ErrorResponse(error=InvalidRequestError(message='tool_choice: type \"tool\" and \"any\" are not supported for this model.', type='invalid_request_error', details=None), request_id=None, type='error')"
+ ]
 }
