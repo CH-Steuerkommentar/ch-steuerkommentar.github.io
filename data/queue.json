@@ -38,11 +38,14 @@
    "erlass": "DBG",
    "nummer": "4",
    "sachueberschrift": "Geschäftsbetriebe, Betriebsstätten und Grundstücke",
-   "status": "entscheide",
+   "status": "in_arbeit",
    "entscheide": 43,
    "karten_fertig": 0,
    "prioritaet": 43,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "entscheide",
+   "bearbeiter": "github-actions",
+   "seit": "2026-10-26T22:47:16+00:00"
   },
   "DBG/art-5": {
    "erlass": "DBG",
