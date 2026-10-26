@@ -58,11 +58,14 @@
    "erlass": "DBG",
    "nummer": "6",
    "sachueberschrift": "Umfang der Steuerpflicht",
-   "status": "entscheide",
+   "status": "in_arbeit",
    "entscheide": 104,
    "karten_fertig": 0,
    "prioritaet": 104,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "entscheide",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-26T20:34:06+00:00"
   },
   "DBG/art-7": {
    "erlass": "DBG",
