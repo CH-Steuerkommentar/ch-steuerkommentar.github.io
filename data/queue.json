@@ -4,11 +4,14 @@
    "erlass": "DBG",
    "nummer": "1",
    "sachueberschrift": "Gegenstand des Gesetzes",
-   "status": "entscheide",
+   "status": "in_arbeit",
    "entscheide": 110,
    "karten_fertig": 0,
    "prioritaet": 110,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "entscheide",
+   "bearbeiter": "github-actions",
+   "seit": "2026-10-26T19:43:51+00:00"
   },
   "DBG/art-2": {
    "erlass": "DBG",
