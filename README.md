@@ -130,11 +130,11 @@ Zwei Läufe schreiben Kommentierungen ohne Zutun und veröffentlichen sie. Damit
 
 Startet stündlich; läuft noch ein Lauf, wartet der nächste. Es schreibt also immer nur ein Lauf (`.github/workflows/kommentar-agent.yml`, Steuerskript `automation/lauf.py`):
 
-Ein Lauf kommentiert Artikel um Artikel, in der Reihenfolge der Erlasse und Artikel: nächsten freien Artikel reservieren, Bundesgerichtsentscheide aus Open Case Law in den Cache laden, mit dem Skill `steuerkommentar-selbstaendig` schreiben (Agent SDK, Opus 5.5, Effort `high`, Fundstellenprüfung mit Hilfsagenten), als `geprueft` freigeben und die Website neu bauen; dann sofort der nächste Artikel. Keine Karteikarten, keine Batches. Ein Lauf endet nach gut vier Stunden oder wenn das Budget erreicht ist; der nächste stündliche Start macht weiter.
+Ein Lauf kommentiert Artikel um Artikel, in der Reihenfolge der Erlasse und Artikel: nächsten freien Artikel reservieren, Bundesgerichtsentscheide aus Open Case Law in den Cache laden, mit dem Skill `steuerkommentar-selbstaendig` schreiben, gestützt auf die Rechtsprechung des Bundesgerichts, ohne Recherche in Lehre, kantonaler Rechtsprechung und Verwaltungspraxis (Agent SDK, Opus 5.5, Effort `high`, Fundstellenprüfung mit Hilfsagenten), als `geprueft` freigeben und die Website neu bauen; dann sofort der nächste Artikel. Keine Karteikarten, keine Batches. Ein Lauf endet nach gut vier Stunden oder wenn das Budget erreicht ist; der nächste stündliche Start macht weiter.
 
-Budget: 100 USD pro Monat, ohne Tageslimit, höchstens 15 USD pro Artikel (Zählung in `data/kosten/`). Unabhängig davon stoppt die Console bei ihrem Ausgabenlimit oder wenn das Guthaben aufgebraucht ist; der Lauf versucht es dann stündlich wieder. API-Preise hängen nicht von der Tageszeit ab.
+Budget: 100 USD pro Monat, ohne Tageslimit (Zählung in `data/kosten/`). Unabhängig davon stoppt die Console bei ihrem Ausgabenlimit oder wenn das Guthaben aufgebraucht ist; der Lauf versucht es dann stündlich wieder. API-Preise hängen nicht von der Tageszeit ab.
 
-Einrichten: Repository-Secret `ANTHROPIC_API_KEY` (Settings > Secrets and variables > Actions). Werte ändern über Variables: `TAGESBUDGET_USD`, `MONATSBUDGET_USD`, `BUDGET_JE_ARTIKEL_USD`, `MODELL_SCHREIBEN`, `EFFORT`.
+Einrichten: Repository-Secret `ANTHROPIC_API_KEY` (Settings > Secrets and variables > Actions). Werte ändern über Variables: `TAGESBUDGET_USD`, `MONATSBUDGET_USD`, `MODELL_SCHREIBEN`, `EFFORT`.
 
 Ein/aus: Actions > Kommentar-Agent > «…» > Disable workflow bzw. Enable workflow. Von Hand starten: Run workflow.
 

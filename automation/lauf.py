@@ -31,7 +31,6 @@ E = os.environ.get
 EINSTELLUNGEN = {
     "TAGESBUDGET_USD": float(E("TAGESBUDGET_USD", "100")),
     "MONATSBUDGET_USD": float(E("MONATSBUDGET_USD", "100")),
-    "BUDGET_JE_ARTIKEL_USD": float(E("BUDGET_JE_ARTIKEL_USD", "15")),
     "MIN_REST_USD": float(E("MIN_REST_USD", "5")),          # darunter kein neuer Artikel mehr an diesem Tag
     "MODELL_SCHREIBEN": E("MODELL_SCHREIBEN", "claude-opus-5-5"),
     "EFFORT": E("EFFORT", "high"),
@@ -124,10 +123,13 @@ Rahmen dieses Laufs:
   in arbeit/{erlass}/{slug}/01_Recherche/ ablegen. Die Bundesgerichtsentscheide, die die Norm zitieren, liegen bereits
   im Cache data/entscheide/ (JSON mit referenz, zitat_de, normen, text); `python3 pipeline/entscheide.py {erlass}/{slug}`
   hat sie aus Open Case Law geladen.
-- Lexplorer ist nicht verfügbar. Bundesgericht (BGE, BGer): Open Case Law (MCP-Server «open-case-law»; Zitierstrings mit `cite`).
-  Kantonale Gerichte: ausschliesslich Entscheidsuche (POST https://entscheidsuche.ch/_search.php mit Filter `hierarchy`,
-  Volltexte unter https://entscheidsuche.ch/docs/…). Erlasse: data/inventar/ und Fedlex (WebFetch).
-  Praxis und Lehre: Open Case Law (search_practice, search_scholarship) und Websuche.
+- Fokus Rechtsprechung des Bundesgerichts (BGE, BGer): Sie trägt die Kommentierung. Quelle ist der Cache und Open Case Law
+  (MCP-Server «open-case-law»; Zitierstrings nur mit `cite` bzw. aus zitat_de). Erlasse: data/inventar/ und Fedlex (WebFetch);
+  Materialien nur, soweit die Übersicht (Entstehungsgeschichte, Harmonisierung) sie braucht.
+- Nicht recherchieren: Lehre, kantonale Entscheide, Verwaltungspraxis (ESTV, SSK, Kantone), Websuche. Diese Quellen erscheinen
+  nur, wenn ein Bundesgerichtsentscheid sie selbst anführt, und dann als dessen Aussage mit dem Entscheid als Fundstelle.
+  Die Abschnitte des Skills zu Lehre, kantonaler Praxis und Verwaltungspraxis entfallen; das Fehlen nicht im Text erwähnen.
+  Lexplorer ist nicht verfügbar.
 - Schritt 8: Fundstellenprüfung vollständig mit Hilfsagenten (keine Batches).
 - Schreibe nach kommentare/{erlass}/{slug}.md; `python3 pipeline/kommentar.py kommentare/{erlass}/{slug}.md` muss ohne Befund durchlaufen.
 - Kein `stand.py setze`, kein git, keine Word-Fassung. Status und Veröffentlichung übernimmt das Steuerskript.
@@ -188,7 +190,7 @@ def artikel_schreiben(qid: str) -> None:
     datei = ROOT / "kommentare" / erlass / f"{slug}.md"
     pfade = pfade_artikel(erlass, slug)
     py("pipeline/entscheide.py", qid)   # Entscheide in den Cache (Open Case Law), ohne API-Kosten
-    budget = min(EINSTELLUNGEN["BUDGET_JE_ARTIKEL_USD"], rest())
+    budget = rest()   # kein Limit je Artikel, nur das verbleibende Monatsbudget
     log(f"Schreibe {qid} (Budget {budget:.2f} USD, {EINSTELLUNGEN['MODELL_SCHREIBEN']}, Effort {EINSTELLUNGEN['EFFORT']}) …")
     try:
         kosten, _, typ = agent(AUFTRAG.format(nummer=nummer, erlass=erlass, slug=slug, root=ROOT), budget, qid, "schreiben")
