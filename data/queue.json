@@ -24,14 +24,13 @@
    "erlass": "DBG",
    "nummer": "3",
    "sachueberschrift": "Persönliche Zugehörigkeit",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": 168,
    "karten_fertig": 0,
    "prioritaet": 168,
-   "notiz": "",
+   "notiz": "GitHub Actions, 2026-10-26 (14.64 USD)",
    "status_vorher": "entscheide",
-   "bearbeiter": "github-actions",
-   "seit": "2026-10-26T19:22:49+00:00"
+   "geaendert": "2026-10-26"
   },
   "DBG/art-4": {
    "erlass": "DBG",
