@@ -3,7 +3,7 @@ name: Website
 on:
   push:
     branches: [main]
-    paths: ["kommentare/**", "site/**", "pipeline/**", "data/inventar/**", "data/queue.json"]
+    paths: ["kommentare/**", "site/**", "pipeline/**", "data/inventar/**", "data/queue.json", ".github/workflows/**"]
   workflow_dispatch:
 
 permissions:
