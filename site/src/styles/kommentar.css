@@ -11,7 +11,13 @@
 }
 .sl-markdown-content :is(h2, h3, h4, h5) {
   font-family: var(--sl-font);
+  line-height: 1.3;
 }
+/* Kapitelüberschriften zurückhaltend (I. – A. – 1. – a.) */
+.sl-markdown-content h2 { font-size: 1.35rem; margin-top: 2.4rem; }
+.sl-markdown-content h3 { font-size: 1.15rem; margin-top: 2rem; }
+.sl-markdown-content h4 { font-size: 1.05rem; margin-top: 1.6rem; }
+.sl-markdown-content h5 { font-size: 1rem; margin-top: 1.4rem; }
 
 /* Randnoten */
 .sl-markdown-content p:has(> .rn:first-child) {
@@ -84,10 +90,19 @@ p:has(> .rn:target) {
   border-top: 1px solid var(--sl-color-gray-5);
   margin-top: 3rem;
 }
+.sl-markdown-content sup:has(> a[data-footnote-ref]) {
+  font-size: 0.82em;
+  line-height: 0;
+}
 .sl-markdown-content sup a[data-footnote-ref] {
   font-family: var(--sl-font);
-  font-size: 0.75em;
-  padding: 0 0.1em;
+  font-weight: 600;
+  padding: 0 0.12em;
+  text-decoration: none;
+  color: var(--sl-color-accent);
+}
+.sl-markdown-content sup a[data-footnote-ref]:hover {
+  text-decoration: underline;
 }
 
 /* Hinweisbanner zurückhaltend */
