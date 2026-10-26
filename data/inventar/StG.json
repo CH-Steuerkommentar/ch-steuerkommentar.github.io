@@ -1,0 +1,753 @@
+{
+ "erlass": "StG",
+ "name": "Bundesgesetz über die Stempelabgaben",
+ "sr": "641.10",
+ "fassung_vom": "2024-01-01",
+ "quelle": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1974/11_11_11/20240101/de/html/fedlex-data-admin-ch-eli-cc-1974-11_11_11-20240101-de-html-3.html",
+ "abgerufen": "2026-10-26",
+ "artikel": [
+  {
+   "id": "art_1",
+   "nummer": "1",
+   "sachueberschrift": "I. Gegenstand des Gesetzes",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Der Bund erhebt Stempelabgaben:\na. auf der Ausgabe folgender inländischer Urkunden: 1. Aktien, 2. Stammanteile von Gesellschaften mit beschränkter Haftung und Anteilscheine von Genossenschaften, 2 bis . Partizipationsscheine und Beteiligungsscheine von Genossenschaftsbanken, 3. Genussscheine, [tab] 4. und 5. …\n1. Aktien,\n2. Stammanteile von Gesellschaften mit beschränkter Haftung und Anteilscheine von Genossenschaften,\n2 bis . Partizipationsscheine und Beteiligungsscheine von Genossenschaftsbanken,\n3. Genussscheine,\n[tab] 4. und 5. …\nb. auf dem Umsatz der folgenden inländischen und ausländischen Urkunden: 1. Obligationen, 2. Aktien, 3. Stammanteile von Gesellschaften mit beschränkter Haftung und Anteilscheine von Genossenschaften, 3 bis . Partizipationsscheine und Beteiligungsscheine von Genossenschaftsbanken, 4. Genussscheine, 5. Anteile an kollektiven Kapitalanlagen gemäss Kollektivanlagengesetz vom 23. Juni 2006 (KAG), 6. Papiere, die dieses Gesetz den Urkunden nach den Ziffern 1–5 gleichstellt;\n1. Obligationen,\n2. Aktien,\n3. Stammanteile von Gesellschaften mit beschränkter Haftung und Anteilscheine von Genossenschaften,\n3 bis . Partizipationsscheine und Beteiligungsscheine von Genossenschaftsbanken,\n4. Genussscheine,\n5. Anteile an kollektiven Kapitalanlagen gemäss Kollektivanlagengesetz vom 23. Juni 2006 (KAG),\n6. Papiere, die dieses Gesetz den Urkunden nach den Ziffern 1–5 gleichstellt;\nc. auf der Zahlung von Versicherungsprämien gegen Quittung.\n2 Werden bei den in Absatz 1 erwähnten Rechtsvorgängen keine Urkunden ausgestellt oder umgesetzt, so treten an ihre Stelle die der Feststellung der Rechtsvorgänge dienenden Geschäftsbücher oder sonstigen Urkunden.",
+   "fussnoten_fedlex": [
+    "4 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "5 Fassung gemäss Anhang Ziff. 6 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 ( AS 2007 4791 4839 ; BBl 2002 3148 , 2004 3969 ).",
+    "6 Fassung gemäss Anhang Ziff. II 7 des Finanzinstitutsgesetzes vom 15. Juni 2018, in Kraft seit 1. Jan. 2020 ( AS 2018 5247 , 2019 4631 ; BBl 2015 8901 ).",
+    "7 Aufgehoben durch Anhang Ziff. 2 des BG vom 30. Sept. 2011 (Stärkung der Stabilität im Finanzsektor), mit Wirkung seit 1. März 2012 ( AS 2012 811 ; BBl 2011 4717 ).",
+    "8 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "9 Fassung gemäss Anhang Ziff. 6 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 ( AS 2007 4791 4839 ; BBl 2002 3148 , 2004 3969 ).",
+    "10 Fassung gemäss Anhang Ziff. II 7 des Finanzinstitutsgesetzes vom 15. Juni 2018, in Kraft seit 1. Jan. 2020 ( AS 2018 5247 , 2019 4631 ; BBl 2015 8901 ).",
+    "11 Fassung gemäss Anhang Ziff. II 4 des Kollektivanlagengesetzes vom 23. Juni 2006, in Kraft seit 1. Jan. 2007 ( AS 2006 5379 ; BBl 2005 6395 ).",
+    "12 SR 951.31"
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_2",
+   "nummer": "2",
+   "sachueberschrift": "II. …",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "",
+   "fussnoten_fedlex": [
+    "13 Aufgehoben durch Ziff. I des BG vom 5. Okt. 1984, mit Wirkung seit 1. Jan. 1986 ( AS 1985 1963 ; BBl 1981 III 737 )."
+   ],
+   "aufgehoben": true
+  },
+  {
+   "id": "art_3",
+   "nummer": "3",
+   "sachueberschrift": "III. Verhältnis zum kantonalen Recht",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Urkunden, welche dieses Gesetz als Gegenstand einer Stempelabgabe oder steuerfrei erklärt, dürfen von den Kantonen nicht mit gleichgearteten Abgaben oder Registrierungsgebühren belastet werden. Anstände, die sich auf Grund dieser Bestimmung ergeben, beurteilt das Bundesgericht als einzige Instanz (Art. 116 des Bundesrechtspflegegesetzes vom 16. Dez. 1943 – OG ).\n2 Zu den steuerfreien Urkunden gehören auch die Frachturkunden im Gepäck-, Tier- und Güterverkehr der Schweizerischen Bundesbahnen und der vom Bund konzessionierten Transportunternehmen.",
+   "fussnoten_fedlex": [
+    "14 [BS 3 531; AS 1948 485 Art. 86; 1955 871 Art. 118; 1959 902 ; 1969 737 Art. 80 Bst. b, 767 ; 1977 237 Ziff. II 3, 862 Art. 52 Ziff. 2, 1323 Ziff. III; 1978 688 Art. 88 Ziff. 3, 1450 ; 1979 42 ; 1980 31 Ziff. IV, 1718 Art. 52 Ziff. 2, 1819 Art. 12 Abs. 1; 1982 1676 Anhang Ziff. 13; 1983 1886 Art. 36 Ziff. 1; 1986 926 Art. 59 Ziff. 1; 1987 226 Ziff. II 1, 1665 Ziff. II; 1988 1776 Anhang Ziff. II 1; 1989 504 Art. 33 Bst. a ; 1990 938 Ziff. III Abs. 5; 1992 288 ; 1993 274 Art. 75 Ziff. 1, 1945 Anhang Ziff. 1; 1995 1227 Anhang Ziff. 3, 4093 Anhang Ziff. 4; 1996 508 Art. 36, 750 Art. 17, 1445 Anhang Ziff. 2, 1498 Anhang Ziff. 2; 1997 1155 Anhang Ziff. 6, 2465 Anhang Ziff. 5; 1998 2847 Anhang Ziff. 3, 3033 Anhang Ziff. 2; 1999 1118 Anhang Ziff. 1, 3071 Ziff. I 2; 2000 273 Anhang Ziff. 6, 416 Ziff. I 2, 505 Ziff. I 1, 2355 Anhang Ziff. 1, 2719 ; 2001 114 Ziff. I 4, 894 Art. 40 Ziff. 3, 1029 Art. 11 Abs. 2; 2002 863 Art. 35, 1904 Art. 36 Ziff. 1, 2767 Ziff. II, 3988 Anhang Ziff. 1; 2003 2133 Anhang Ziff. 7, 3543 Anhang Ziff. II 4 Bst. a , 4557 Anhang Ziff. II 1; 2004 1985 Anhang Ziff. II 1, 4719 Anhang Ziff. II 1; 2005 5685 Anhang Ziff. 7. AS 2006 1205 Art. 131 Abs. 1]. Siehe heute das Bundesgerichtsgesetz vom 17. Juni 2005 ( SR 173.110 ).",
+    "15 Eingefügt durch Ziff. I des BG vom 8. Okt. 1999 ( AS 2000 322 ; BBl 1999 7922 ). Fassung gemäss Ziff. II 9 des BG vom 20. März 2009 über die Bahnreform 2, in Kraft seit 1. Jan. 2010 ( AS 2009 5597 ; BBl 2005 2415 , 2007 2681 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_4",
+   "nummer": "4",
+   "sachueberschrift": "IV. Begriffsbestimmungen",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Inländer ist, wer im Inland Wohnsitz, dauernden Aufenthalt, statutarischen oder gesetzlichen Sitz hat oder als Unternehmen im inländischen Handelsregister eingetragen ist.\n2 Investmentgesellschaften mit festem Kapital nach Artikel 110 KAG werden in diesem Gesetz den Kapitalgesellschaften gleichgestellt.\n3 Obligationen sind schriftliche, auf feste Beträge lautende Schuldanerkennungen, die zum Zwecke der kollektiven Kapitalbeschaffung oder Anlagegewährung oder der Konsolidierung von Verbindlichkeiten in einer Mehrzahl von Exemplaren ausgegeben werden, namentlich Anleihensobligationen mit Einschluss der Partialen von Anleihen, für welche ein Grundpfandrecht gemäss Artikel 875 des Zivilgesetzbuches besteht, Rententitel, Pfandbriefe, Kassenobligationen, Kassen- und Depositenscheine sowie Schuldbuchforderungen.\n4 Den Obligationen gleichgestellt sind:\na. in einer Mehrzahl ausgegebene Wechsel, wechselähnliche Schuldverschreibungen und andere Diskontpapiere, sofern sie zur Unterbringung im Publikum bestimmt sind;\nb. Ausweise über Unterbeteiligungen an Darlehensforderungen;\nc. in einer Mehrzahl ausgegebene, der kollektiven Kapitalbeschaffung dienende Buchforderungen.\n5 Geldmarktpapiere sind Obligationen mit einer festen Laufzeit von nicht mehr als zwölf Monaten.",
+   "fussnoten_fedlex": [
+    "16 SR 951.31",
+    "17 Fassung gemäss Anhang Ziff. II 4 des Kollektivanlagengesetzes vom 23. Juni 2006, in Kraft seit 1. Jan. 2007 ( AS 2006 5379 ; BBl 2005 6395 ).",
+    "18 SR 210",
+    "19 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "20 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "21 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_5",
+   "nummer": "5",
+   "sachueberschrift": "Beteiligungsrechte",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Gegenstand der Abgabe sind:\na. die entgeltliche oder unentgeltliche Begründung und Erhöhung des Nennwertes von Beteiligungsrechten in Form von: – Aktien inländischer Aktiengesellschaften und Kommanditaktiengesellschaften; – Stammanteilen inländischer Gesellschaften mit beschränkter Haftung; – Genossenschaftsanteilen inländischer Genossenschaften; – Genussscheinen inländischer Gesellschaften oder Genossenschaften. Als Genussscheine gelten Urkunden über Ansprüche auf einen Anteil am Reingewinn oder am Liquidationsergebnis; – Partizipationsscheinen inländischer Gesellschaften, Genossenschaften oder gewerblicher Unternehmen des öffentlichen Rechts; – Beteiligungsscheinen von Genossenschaftsbanken.\n– Aktien inländischer Aktiengesellschaften und Kommanditaktiengesellschaften;\n– Stammanteilen inländischer Gesellschaften mit beschränkter Haftung;\n– Genossenschaftsanteilen inländischer Genossenschaften;\n– Genussscheinen inländischer Gesellschaften oder Genossenschaften. Als Genussscheine gelten Urkunden über Ansprüche auf einen Anteil am Reingewinn oder am Liquidationsergebnis;\n– Partizipationsscheinen inländischer Gesellschaften, Genossenschaften oder gewerblicher Unternehmen des öffentlichen Rechts;\n– Beteiligungsscheinen von Genossenschaftsbanken.\nb. …\n2 Der Begründung von Beteiligungsrechten im Sinne von Absatz 1 Buchstabe a sind gleichgestellt:\na. die Zuschüsse, die die Gesellschafter oder Genossenschafter ohne entsprechende Gegenleistung an die Gesellschaft oder Genossenschaft erbringen, ohne dass das im Handelsregister eingetragene Gesellschaftskapital oder der einbezahlte Betrag der Genossenschaftsanteile erhöht wird;\nb. der Handwechsel der Mehrheit der Aktien, Stammanteilen oder Genossenschaftsanteile an einer inländischen Gesellschaft oder Genossenschaft, die wirtschaftlich liquidiert oder in liquide Form gebracht worden ist;\nc. …",
+   "fussnoten_fedlex": [
+    "22 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "23 Fassung gemäss Anhang Ziff. 6 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 ( AS 2007 4791 4839 ; BBl 2002 3148 , 2004 3969 ).",
+    "24 Eingefügt durch Ziff. III Art. 7 Ziff. 1 des BG vom 4. Okt. 1991 über die Änderung des OR (Die Aktiengesellschaft), in Kraft seit 1. Juli 1992 ( AS 1992 733 ; BBl 1983 II 745 ).",
+    "25 Eingefügt durch Anhang Ziff. II 7 des Finanzinstitutsgesetzes vom 15. Juni 2018, in Kraft seit 1. Jan. 2020 ( AS 2018 5247 , 2019 4631 ; BBl 2015 8901 ).",
+    "26 Aufgehoben durch Ziff. I des BG vom 4. Okt. 1991, mit Wirkung seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "27 Fassung gemäss Anhang Ziff. 6 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 ( AS 2007 4791 4839 ; BBl 2002 3148 , 2004 3969 ).",
+    "28 Aufgehoben durch Ziff. I des BG vom 4. Okt. 1991, mit Wirkung seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_5_a",
+   "nummer": "5a",
+   "sachueberschrift": "I. Gegenstand der Abgabe",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "",
+   "fussnoten_fedlex": [
+    "29 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991 ( AS 1993 222 ; BBl 1991 IV 497 521 ). Aufgehoben durch Anhang Ziff. 2 des BG vom 30. Sept. 2011 (Stärkung der Stabilität im Finanzsektor), mit Wirkung seit 1. März 2012 ( AS 2012 811 ; BBl 2011 4717 )."
+   ],
+   "aufgehoben": true
+  },
+  {
+   "id": "art_6",
+   "nummer": "6",
+   "sachueberschrift": "Ausnahmen",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Von der Abgabe sind ausgenommen:\na. die Beteiligungsrechte an Aktiengesellschaften, Kommanditaktiengesellschaften, Gesellschaften mit beschränkter Haftung oder Genossenschaften, die sich, ohne einen Erwerbszweck zu verfolgen, entweder der Fürsorge für Bedürftige und Kranke, der Förderung des Kultus, des Unterrichts sowie anderer gemeinnütziger Zwecke oder der Beschaffung von Wohnungen zu mässigen Mietzinsen oder der Gewährung von Bürgschaften widmen, sofern nach den Statuten – die Dividende auf höchstens 6 Prozent des einbezahlten Gesellschafts- oder Genossenschaftskapitals beschränkt, – die Ausrichtung von Tantiemen ausgeschlossen und – bei der Auflösung der Gesellschaft oder Genossenschaft der nach Rückzahlung des einbezahlten Gesellschafts- oder Genossenschaftskapitals verbleibende Teil des Vermögens einem der erwähnten Zwecke zuzuwenden ist;\n– die Dividende auf höchstens 6 Prozent des einbezahlten Gesellschafts- oder Genossenschaftskapitals beschränkt,\n– die Ausrichtung von Tantiemen ausgeschlossen und\n– bei der Auflösung der Gesellschaft oder Genossenschaft der nach Rückzahlung des einbezahlten Gesellschafts- oder Genossenschaftskapitals verbleibende Teil des Vermögens einem der erwähnten Zwecke zuzuwenden ist;\n[tab] a bis . Beteiligungsrechte, die in Durchführung von Beschlüssen über Fusionen oder diesen wirtschaftlich gleichkommende Zusammenschlüsse, Umwandlungen und Spaltungen von Aktiengesellschaften, Kommanditaktiengesellschaften, Gesellschaften mit beschränkter Haftung oder Genossenschaften begründet oder erhöht werden;\na ter . die Begründung oder Erhöhung des Nennwerts von Beteiligungsrechten an Gesellschaften, die ausschliesslich in öffentlicher Hand sind und einen öffentlichen Zweck nach Artikel 1 des Bundesgesetzes vom 17. März 2023 über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben verfolgen, sowie gleichgestellte Vorgänge zur Begründung von Beteiligungsrechten an solchen Gesellschaften;\nb. die Begründung oder Nennwerterhöhung von Beteiligungsrechten an Genossenschaften, soweit die Leistungen der Genossenschafter im Sinne von Artikel 5 gesamthaft eine Million Franken nicht übersteigen;\nc. die Beteiligungsrechte an Transportunternehmen, die aus Investitionsbeiträgen der öffentlichen Hand zu deren Gunsten begründet oder erhöht werden;\nd. die Beteiligungsrechte, die unter Verwendung früherer Aufgelder und Zuschüsse der Gesellschafter oder Genossenschafter begründet oder erhöht werden, sofern die Gesellschaft oder Genossenschaft nachweist, dass sie auf diesen Leistungen die Abgabe entrichtet hat;\ne. …\nf. …\ng. die Beteiligungsrechte, die unter Verwendung eines Partizipationskapitals oder Beteiligungskapitals einer Genossenschaftsbank begründet oder erhöht werden, sofern die Gesellschaft oder Genossenschaft nachweist, dass sie auf diesem Partizipationskapital oder Beteiligungskapital die Abgabe entrichtet hat;\nh. die bei der Gründung oder Kapitalerhöhung einer Aktiengesellschaft, einer Kommanditaktiengesellschaft oder einer Gesellschaft mit beschränkter Haftung entgeltlich ausgegebenen Beteiligungsrechte, soweit die Leistungen der Gesellschafter gesamthaft eine Million Franken nicht übersteigen;\ni. die Begründung von Anteilen von kollektiven Kapitalanlagen gemäss KAG ;\nj. Beteiligungsrechte, die zur Übernahme eines Betriebes oder Teilbetriebes einer Aktiengesellschaft, Kommanditaktiengesellschaft, Gesellschaft mit beschränkter Haftung oder Genossenschaft begründet oder erhöht werden, sofern gemäss letzter Jahresbilanz die Hälfte des Kapitals und der gesetzlichen Reserven dieser Gesellschaft oder Genossenschaft nicht mehr gedeckt ist;\nk. die bei offenen Sanierungen vorgenommene Begründung von Beteiligungsrechten oder die Erhöhung von deren Nennwert bis zur Höhe vor der Sanierung sowie Zuschüsse von Gesellschaftern oder Genossenschaftern bei stillen Sanierungen, soweit: – bestehende Verluste beseitigt werden, und – die Leistungen der Gesellschafter oder Genossenschafter gesamthaft 10 Millionen Franken nicht übersteigen;\n– bestehende Verluste beseitigt werden, und\n– die Leistungen der Gesellschafter oder Genossenschafter gesamthaft 10 Millionen Franken nicht übersteigen;\nl. die Beteiligungsrechte an Banken oder Konzerngesellschaften von Finanzgruppen, die unter Verwendung des von der Eidgenössischen Finanzmarktaufsicht im Hinblick auf die Erfüllung regulatorischer Erfordernisse genehmigten Wandlungskapitals nach den Artikeln 13 Absatz 1 oder 30 b Absatz 7 Buchstabe b des Bankengesetzes vom 8. November 1934 begründet oder erhöht werden;\n[tab] m. …\n2 Fallen die Voraussetzungen der Abgabebefreiung dahin, so ist auf den noch bestehenden Beteiligungsrechten die Abgabe zu entrichten.",
+   "fussnoten_fedlex": [
+    "30 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991 ( AS 1993 222 ; BBl 1991 IV 497 ). Fassung gemäss Anhang Ziff. 6 des Fusionsgesetzes vom 3. Okt. 2003, in Kraft seit 1. Juli 2004 ( AS 2004 2617 ; BBl 2000 4337 ).",
+    "31 Eingefügt durch Anhang Ziff. 3 des BG vom 17. März 2023 über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben, in Kraft seit 1. Jan. 2024 ( AS 2023 682 ; BBl 2022 804 ).",
+    "32 SR 172.019",
+    "33 Fassung gemäss Ziff. II 1 des Unternehmenssteuerreformgesetzes II vom 23. März 2007, in Kraft seit 1. Jan. 2009 ( AS 2008 2893 ; BBl 2005 4733 ).",
+    "34 Fassung gemäss Ziff. II 9 des BG vom 20. März 2009 über die Bahnreform 2, in Kraft seit 1. Jan. 2010 ( AS 2009 5597 ; BBl 2005 2415 , 2007 2681 ).",
+    "35 Aufgehoben durch Ziff. I des BG vom 4. Okt. 1991, mit Wirkung seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "36 Eingefügt durch Art. 24 des ABRG vom 20. Dez. 1985 ( AS 1988 1420 ; BBl 1984 I 1129 ). Aufgehoben durch Ziff. II des BG vom 28. Sept. 2018, mit Wirkung seit 1. Jan. 2019 ( AS 2019 433 ; BBl 2018 2325 ).",
+    "37 Eingefügt durch Ziff. III Art. 7 Ziff. 1 des BG vom 4. Okt. 1991 über die Änderung des OR (Die Aktiengesellschaft) ( AS 1992 733 ; BBl 1983 II 745 ). Fassung gemäss Anhang Ziff. II 7 des Finanzinstitutsgesetzes vom 15. Juni 2018, in Kraft seit 1. Jan. 2020 ( AS 2018 5247 , 2019 4631 ; BBl 2015 8901 ).",
+    "38 Eingefügt durch Ziff. I des BG vom 24. März 1995 ( AS 1995 4259 ; BBl 1995 I 89 ). Fassung gemäss Ziff. I des BG vom 18. März 2005, in Kraft seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 ).",
+    "39 Eingefügt durch Anhang Ziff. II 4 des Kollektivanlagengesetzes vom 23. Juni 2006, in Kraft seit 1. Jan. 2007 ( AS 2006 5379 ; BBl 2005 6395 ).",
+    "40 SR 951.31",
+    "41 Eingefügt durch Ziff. II 1 des Unternehmenssteuerreformgesetzes II vom 23. März 2007, in Kraft seit 1. Jan. 2009 ( AS 2008 2893 ; BBl 2005 4733 ).",
+    "42 Eingefügt durch Ziff. II 1 des Unternehmenssteuerreformgesetzes II vom 23. März 2007, in Kraft seit 1. Jan. 2009 ( AS 2008 2893 ; BBl 2005 4733 ).",
+    "43 Eingefügt durch Anhang Ziff. 2 des BG vom 30. Sept. 2011 (Stärkung der Stabilität im Finanzsektor) ( AS 2012 811 ; BBl 2011 4717 ). Fassung gemäss Anhang Ziff. 4 des BG vom 17. Dez. 2021 (Insolvenz und Einlagensicherung), in Kraft seit 1. Jan. 2023 ( AS 2022 732 ; BBl 2020 6359 ).",
+    "44 SR 952.0",
+    "45 Eingefügt durch Ziff. II des BG vom 18. März 2016 ( AS 2016 3451 ; BBl 2015 7083 ). Aufgehoben durch Anhang Ziff. 4 des BG vom 17. Dez. 2021 (Insolvenz und Einlagensicherung), mit Wirkung seit 1. Jan. 2023 ( AS 2022 732 ; BBl 2020 6359 ).",
+    "46 Im Sinne einer Berichtigung nach Art. 33 Abs. 1 GVG ( AS 1974 1051 ) hat die Redaktionskommission der BVers den Passus «oder Anteilen an Anlagefonds» gestrichen."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_7",
+   "nummer": "7",
+   "sachueberschrift": "II. Entstehung der Abgabeforderung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Die Abgabeforderung entsteht:\na. bei Aktien, Partizipationsscheinen, Stammanteilen von Gesellschaften mit beschränkter Haftung und bei Beteiligungsscheinen von Genossenschaftsbanken: im Zeitpunkt der Eintragung der Begründung oder der Erhöhung der Beteiligungsrechte ins Handelsregister;\n[tab] a bis . bei Beteiligungsrechten, die im Verfahren der bedingten Kapitalerhöhung begründet werden: im Zeitpunkt ihrer Ausgabe;\nb. …\nc. bei Genossenschaftsanteilen: im Zeitpunkt ihrer Begründung oder Erhöhung;\nd. bei Genussscheinen: im Zeitpunkt ihrer Ausgabe oder Erhöhung;\ne. bei Zuschüssen und bei einem Handwechsel der Mehrheit von Beteiligungsrechten: im Zeitpunkt des Zuschusses oder des Handwechsels;\nf. bei Beteiligungsrechten, die im Rahmen eines Kapitalbands nach den Artikeln 653 s ff. des Obligationenrechts ausgegeben werden, am Ende des Kapitalbands.\n2 …",
+   "fussnoten_fedlex": [
+    "47 Fassung gemäss Anhang Ziff. II 7 des Finanzinstitutsgesetzes vom 15. Juni 2018, in Kraft seit 1. Jan. 2020 ( AS 2018 5247 , 2019 4631 ; BBl 2015 8901 ).",
+    "48 Eingefügt durch Ziff. III Art. 7 Ziff. 1 des BG vom 4. Okt. 1991 über die Änderung des OR (Die Aktiengesellschaft), in Kraft seit 1. Juli 1992 ( SR 220 am Ende, SchlB zum Tit. XXVI).",
+    "49 Aufgehoben durch Ziff. I 3 des BG vom 10. Okt. 1997 über die Reform der Unternehmensbesteuerung 1997, mit Wirkung seit 1. April 1998 ( AS 1998 669 ; BBl 1997 II 1164 ).",
+    "50 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991 ( AS 1993 222 ; BBl 1991 IV 497 521 ). Fassung gemäss Anhang Ziff. 6 des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 ( AS 2020 4005 ; 2022 109 ; BBl 2017 399 ).",
+    "51 SR 220",
+    "52 Aufgehoben durch Ziff. I des BG vom 4. Okt. 1991, mit Wirkung seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_8",
+   "nummer": "8",
+   "sachueberschrift": "Beteiligungsrechte",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Die Abgabe auf Beteiligungsrechten beträgt 1 Prozent und wird berechnet:\na. bei der Begründung und Erhöhung von Beteiligungsrechten: vom Betrag, der der Gesellschaft oder Genossenschaft als Gegenleistung für die Beteiligungsrechte zufliesst, mindestens aber vom Nennwert;\nb. auf Zuschüssen: vom Betrag des Zuschusses;\nc. beim Handwechsel der Mehrheit von Beteiligungsrechten: vom Reinvermögen, das sich im Zeitpunkt des Handwechsels in der Gesellschaft oder Genossenschaft befindet, mindestens aber vom Nennwert aller bestehenden Beteiligungsrechte.\n2 …\n3 Sachen und Rechte sind zum Verkehrswert im Zeitpunkt ihrer Einbringung zu bewerten.",
+   "fussnoten_fedlex": [
+    "53 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "54 Fassung gemäss Ziff. I 3 des BG vom 10. Okt. 1997 über die Reform der Unternehmensbesteuerung 1997, in Kraft seit 1. April 1998 ( AS 1998 669 ; BBl 1997 II 1164 ).",
+    "55 Aufgehoben durch Ziff. I des BG vom 4. Okt. 1991, mit Wirkung seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_9",
+   "nummer": "9",
+   "sachueberschrift": "Besondere Fälle",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Die Abgabe beträgt:\na. …\nb. …\nc. …\nd. auf unentgeltlich ausgegebenen Genussscheinen: 3 Franken je Genussschein;\ne. auf Beteiligungsrechten, die in Durchführung von Beschlüssen über die Fusion, Spaltung oder Umwandlung von Einzelunternehmen, Handelsgesellschaften ohne juristische Persönlichkeit, Vereinen, Stiftungen oder Unternehmen des öffentlichen Rechts begründet oder erhöht werden, sofern der bisherige Rechtsträger während mindestens fünf Jahren bestand: 1 Prozent des Nennwerts, vorbehältlich der Ausnahmen in Artikel 6 Absatz 1 Buchstabe h. Über den Mehrwert wird nachträglich abgerechnet, soweit während den der Umstrukturierung nachfolgenden fünf Jahren die Beteiligungsrechte veräussert werden.\n2 Von den Einzahlungen, die während eines Geschäftsjahres auf das Genossenschaftskapital gemacht werden, wird die Abgabe nur soweit erhoben, als diese Einzahlungen die Rückzahlungen auf dem Genossenschaftskapital während des gleichen Geschäftsjahres übersteigen.\n3 Auf den Beträgen , die der Gesellschaft im Rahmen eines Kapitalbands nach den Artikeln 653 s ff. des Obligationenrechts zufliessen, wird die Abgabe nur soweit erhoben, als diese Zuflüsse die Rückzahlungen im Rahmen dieses Kapitalbands übersteigen.",
+   "fussnoten_fedlex": [
+    "56 Aufgehoben durch Ziff. I des BG vom 4. Okt. 1991, mit Wirkung seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "57 Aufgehoben durch Ziff. I 3 des BG vom 10. Okt. 1997 über die Reform der Unternehmensbesteuerung 1997, mit Wirkung seit 1. April 1998 ( AS 1998 669 ; BBl 1997 II 1164 ).",
+    "58 Aufgehoben durch Ziff. I des BG vom 4. Okt. 1991, mit Wirkung seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "59 Fassung gemäss Ziff. III Art. 7 Ziff. 1 des BG vom 4. Okt. 1991 über die Änderung des OR (Die Aktiengesellschaft), in Kraft seit 1. Juli 1992 ( SR 220 am Ende, SchlB zum Tit. XXVI).",
+    "60 Eingefügt durch Anhang Ziff. 6 des Fusionsgesetzes vom 3. Okt. 2003 ( AS 2004 2617 ; BBl 2000 4337 ). Fassung gemäss Anhang Ziff. 6 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 ( AS 2007 4791 4839 ; BBl 2002 3148 , 2004 3969 ).",
+    "61 SR 220",
+    "62 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991 ( AS 1993 222 ; BBl 1991 IV 497 521 ). Fassung gemäss Anhang Ziff. 6 des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 ( AS 2020 4005 ; 2022 109 ; BBl 2017 399 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_9_a",
+   "nummer": "9a",
+   "sachueberschrift": "III. Abgabesätze und Berechnungsgrundlage",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "",
+   "fussnoten_fedlex": [
+    "63 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991 ( AS 1993 222 ; BBl 1991 IV 497 521 ). Aufgehoben durch Anhang Ziff. 2 des BG vom 30. Sept. 2011 (Stärkung der Stabilität im Finanzsektor), mit Wirkung seit 1. März 2012 ( AS 2012 811 ; BBl 2011 4717 )."
+   ],
+   "aufgehoben": true
+  },
+  {
+   "id": "art_10",
+   "nummer": "10",
+   "sachueberschrift": "IV. Abgabepflicht",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Für Beteiligungsrechte ist die Gesellschaft oder Genossenschaft abgabepflichtig. Für die beim Handwechsel der Mehrheit von Beteiligungsrechten (Art. 5 Abs. 2 Bst. b ) geschuldete Abgabe haftet der Veräusserer der Beteiligungsrechte solidarisch.\n2 …\n3 und 4 …",
+   "fussnoten_fedlex": [
+    "64 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "65 Aufgehoben durch Ziff. I des BG vom 4. Okt. 1991, mit Wirkung seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "66 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991 ( AS 1993 222 ; BBl 1991 IV 497 521 ). Aufgehoben durch Anhang Ziff. 2 des BG vom 30. Sept. 2011 (Stärkung der Stabilität im Finanzsektor), mit Wirkung seit 1. März 2012 ( AS 2012 811 ; BBl 2011 4717 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_11",
+   "nummer": "11",
+   "sachueberschrift": "V. Fälligkeit der Abgabeforderung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Die Abgabe wird fällig:\na. auf Genossenschaftsanteilen: 30 Tage nach Geschäftsabschluss;\nb. auf Beteiligungsrechten: 30 Tage nach Ablauf des Vierteljahres, in dem die Abgabeforderung entstanden ist (Art. 7);\nc. in allen andern Fällen: 30 Tage nach Entstehung der Abgabeforderung (Art. 7).",
+   "fussnoten_fedlex": [
+    "67 Fassung gemäss Ziff. II 1 des Unternehmenssteuerreformgesetzes II vom 23. März 2007, in Kraft seit 1. Jan. 2009 ( AS 2008 2893 ; BBl 2005 4733 ).",
+    "68 Fassung gemäss Anhang Ziff. 2 des BG vom 30. Sept. 2011 (Stärkung der Stabilität im Finanzsektor), in Kraft seit 1. März 2012 ( AS 2012 811 ; BBl 2011 4717 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_12",
+   "nummer": "12",
+   "sachueberschrift": "VI. Stundung und Erlass der Abgabeforderung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Wenn bei der offenen oder stillen Sanierung einer Aktiengesellschaft, Kommanditaktiengesellschaft, Gesellschaft mit beschränkter Haftung oder Genossenschaft die Erhebung der Emissionsabgabe eine offenbare Härte bedeuten würde, so soll die Abgabe gestundet oder erlassen werden.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_13",
+   "nummer": "13",
+   "sachueberschrift": "Regel",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Gegenstand der Abgabe ist die entgeltliche Übertragung von Eigentum an den in Absatz 2 bezeichneten Urkunden, sofern eine der Vertragsparteien oder einer der Vermittler Effektenhändler nach Absatz 3 ist.\n2 Steuerbare Urkunden sind:\na. die von einem Inländer ausgegebenen: 1. Obligationen (Art. 4 Abs. 3 und 4), 2. Aktien, Stammanteile von Gesellschaften mit beschränkter Haftung, Anteilscheine und Beteiligungsscheine von Genossenschaften, Partizipationsscheine, Genussscheine, 3. Anteile an kollektiven Kapitalanlagen gemäss KAG ;\n1. Obligationen (Art. 4 Abs. 3 und 4),\n2. Aktien, Stammanteile von Gesellschaften mit beschränkter Haftung, Anteilscheine und Beteiligungsscheine von Genossenschaften, Partizipationsscheine, Genussscheine,\n3. Anteile an kollektiven Kapitalanlagen gemäss KAG ;\nb. die von einem Ausländer ausgegebenen Urkunden, die in ihrer wirtschaftlichen Funktion den Titeln nach Buchstabe a gleichstehen. Der Bundesrat hat die Ausgabe von ausländischen Titeln von der Abgabe auszunehmen, wenn die Entwicklung der Währungslage oder des Kapitalmarktes es erfordert;\nc. Ausweise über Unterbeteiligungen an Urkunden der in Buchstaben a und b bezeichneten Arten.\n3 Effektenhändler sind:\na. die Banken, die bankähnlichen Finanzgesellschaften im Sinne des Bankengesetzes vom 8. November 1934 , die Schweizerische Nationalbank sowie die zentralen Gegenparteien im Sinne des Finanzmarktinfrastrukturgesetzes vom 19. Juni 2015 ;\nb. die nicht unter Buchstabe a fallenden inländischen natürlichen und juristischen Personen und Personengesellschaften, inländischen Anstalten und Zweigniederlassungen ausländischer Unternehmen, deren Tätigkeit ausschliesslich oder zu einem wesentlichen Teil darin besteht, 1. für Dritte den Handel mit steuerbaren Urkunden zu betreiben (Händler), oder 2. als Anlageberater oder Vermögensverwalter Kauf und Verkauf von steuerbaren Urkunden zu vermitteln (Vermittler);\n1. für Dritte den Handel mit steuerbaren Urkunden zu betreiben (Händler), oder\n2. als Anlageberater oder Vermögensverwalter Kauf und Verkauf von steuerbaren Urkunden zu vermitteln (Vermittler);\nc. …\nd. die nicht unter die Buchstaben a und b fallenden inländischen Aktiengesellschaften, Kommanditaktiengesellschaften, Gesellschaften mit beschränkter Haftung und Genossenschaften sowie inländischen Einrichtungen der beruflichen Vorsorge und der gebundenen Vorsorge, deren Aktiven nach Massgabe der letzten Bilanz zu mehr als 10 Millionen Franken aus steuerbaren Urkunden nach Absatz 2 bestehen;\ne. …\nf. der Bund, die Kantone und die politischen Gemeinden samt ihren Anstalten, sofern sie in ihrer Rechnung für mehr als 10 Millionen Franken steuerbare Urkunden nach Absatz 2 ausweisen, sowie die inländischen Einrichtungen der Sozialversicherung.\n4 Als inländische Einrichtungen der beruflichen Vorsorge und der gebundenen Vorsorge nach Absatz 3 Buchstabe d gelten:\na. die Einrichtungen nach Artikel 48 des Bundesgesetzes vom 25. Juni 1982 über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge (BVG) und nach Artikel 331 des Obligationenrechts , der Sicherheitsfonds sowie die Auffangeinrichtung nach den Artikeln 56 und 60 BVG;\nb. Freizügigkeitsstiftungen nach den Artikeln 10 Absatz 3 und 19 der Verordnung vom 3. Oktober 1994 über die Freizügigkeit in der beruflichen Alters‑, Hinterlassenen- und Invalidenvorsorge;\nc. die Träger der in Artikel 1 Absatz 1 Buchstabe b der Verordnung vom 13. November 1985 über die steuerliche Abzugsberechtigung für Beiträge an anerkannte Vorsorgeformen erwähnten gebundenen Vorsorgeversicherungen und Vorsorgevereinbarungen;\nd. Anlagestiftungen, die sich der Anlage und der Verwaltung von Vermögen von Vorsorgeeinrichtungen nach den Buchstaben a–c widmen und unter der Stiftungsaufsicht des Bundes oder der Kantone stehen.\n5 Als inländische Einrichtungen der Sozialversicherung nach Absatz 3 Buchstabe f gelten: der Ausgleichsfonds der Alters- und Hinterlassenenversicherung sowie der Ausgleichsfonds der Arbeitslosenversicherung.",
+   "fussnoten_fedlex": [
+    "69 Fassung gemäss Ziff. I des BG vom 18. März 2005, in Kraft seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 ).",
+    "70 Fassung gemäss Anhang Ziff. II 7 des Finanzinstitutsgesetzes vom 15. Juni 2018, in Kraft seit 1. Jan. 2020 ( AS 2018 5247 , 2019 4631 ; BBl 2015 8901 ).",
+    "71 Fassung gemäss Anhang Ziff. II 4 des Kollektivanlagengesetzes vom 23. Juni 2006, in Kraft seit 1. Jan. 2007 ( AS 2006 5379 ; BBl 2005 6395 ).",
+    "72 SR 951.31",
+    "73 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "74 Fassung gemäss Anhang Ziff. 5 des Finanzmarktinfrastrukturgesetzes vom 19. Juni 2015, in Kraft seit 1. Jan. 2016 ( AS 2015 5339 ; BBl 2014 7483 ).",
+    "75 SR 952.0",
+    "76 SR 958.1",
+    "77 Aufgehoben durch Ziff. I des BG vom 18. März 2005, mit Wirkung seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 ).",
+    "78 Fassung gemäss Ziff. I des BG vom 18. März 2005, in Kraft seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 ).",
+    "79 Eingefügt durch Ziff. I des BB vom 19. März 1999 über dringliche Massnahmen im Bereich der Umsatzabgabe ( AS 1999 1287 ; BBl 1999 1025 ). Aufgehoben durch Ziff. I des BG vom 19. März 2010, mit Wirkung seit 1. Juli 2010 ( AS 2010 3317 ; BBl 2009 8745 8753 ).",
+    "80 Eingefügt durch Ziff. I des BG vom 15. Dez. 2000 über neue dringliche Massnahmen im Bereich der Umsatzabgabe ( AS 2000 2991 ; BBl 2000 5835 ). Fassung gemäss Ziff. I des BG vom 18. März 2005, in Kraft seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 ).",
+    "81 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "82 SR 831.40",
+    "83 SR 220",
+    "84 SR 831.425",
+    "85 SR 831.461.3",
+    "86 Eingefügt durch Ziff. I des BG vom 15. Dez. 2000 über neue dringliche Massnahmen im Bereich der Umsatzabgabe ( AS 2000 2991 ; BBl 2000 5835 ). Fassung gemäss Ziff. I des BG vom 18. März 2005, in Kraft seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 ).",
+    "87 Eingefügt durch Ziff. I des BG vom 15. Dez. 2000 über neue dringliche Massnahmen im Bereich der Umsatzabgabe ( AS 2000 2991 ; BBl 2000 5835 ). Fassung gemäss Ziff. I des BG vom 18. März 2005, in Kraft seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_14",
+   "nummer": "14",
+   "sachueberschrift": "Ausnahmen",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Von der Abgabe sind ausgenommen:\na. die Ausgabe inländischer Aktien, Stammanteile von Gesellschaften mit beschränkter Haftung und von Genossenschaften, Beteiligungsscheine von Genossenschaftsbanken, Partizipationsscheine, Genussscheine, Anteile an kollektiven Kapitalanlagen nach KAG , Obligationen und Geldmarktpapiere, einschliesslich der Festübernahme durch eine Bank oder Beteiligungsgesellschaft und der Zuteilung bei einer nachfolgenden Emission;\nb. die Sacheinlage von Urkunden zur Liberierung in- oder ausländischer Aktien, Stammanteile von Gesellschaften mit beschränkter Haftung, Genossenschaftsanteile, Beteiligungsscheine von Genossenschaftsbanken, Partizipationsscheine und Anteile von kollektiven Kapitalanlagen nach KAG;\nc. …\nd. der Handel mit Bezugsrechten;\ne. die Rückgabe von Urkunden zur Tilgung;\nf. die Ausgabe von Obligationen ausländischer Schuldner, die auf eine fremde Währung lauten (Euroobligationen), sowie von Beteiligungsrechten an ausländischen Gesellschaften. Als Euroobligationen gelten ausschliesslich Titel, bei denen sowohl die Vergütung des Zinses als auch die Rückzahlung des Kapitals in einer fremden Währung erfolgen;\ng. der Handel mit in- und ausländischen Geldmarktpapieren;\nh. die Vermittlung oder der Kauf und Verkauf von ausländischen Obligationen, soweit der Käufer oder der Verkäufer eine ausländische Vertragspartei ist;\ni. die mit einer Umstrukturierung, insbesondere einer Fusion, Spaltung oder Umwandlung verbundene Übertragung steuerbarer Urkunden von der übernommenen, spaltenden oder umwandelnden Unternehmung auf die aufnehmende oder umgewandelte Unternehmung;\nj. der Erwerb oder die Veräusserung von steuerbaren Urkunden im Rahmen von Umstrukturierungen nach den Artikeln 61 Absatz 3 und 64 Absatz 1 bis des Bundesgesetzes vom 14. Dezember 1990 über die direkte Bundessteuer sowie bei der Übertragung von Beteiligungen von mindestens 20 Prozent am Grund- oder Stammkapital anderer Gesellschaften auf eine in- oder ausländische Konzerngesellschaft.\n2 …\n3 Der gewerbsmässige Effektenhändler gemäss Artikel 13 Absatz 3 Buchstabe a und b Ziffer 1 ist von dem auf ihn selbst entfallenden Teil der Abgaben befreit, soweit er Titel aus seinem Handelsbestand veräussert oder zur Äufnung dieses Bestandes erwirbt. Als Handelsbestand gelten die aus steuerbaren Urkunden zusammengesetzten Titelbestände, die sich aus der Handelstätigkeit der gewerbsmässigen Händler ergeben, nicht aber Beteiligungen und Bestände mit Anlagecharakter.",
+   "fussnoten_fedlex": [
+    "88 Fassung gemäss Anhang Ziff. II 7 des Finanzinstitutsgesetzes vom 15. Juni 2018, in Kraft seit 1. Jan. 2020 ( AS 2018 5247 , 2019 4631 ; BBl 2015 8901 ).",
+    "89 SR 951.31",
+    "90 Fassung gemäss Anhang Ziff. II 7 des Finanzinstitutsgesetzes vom 15. Juni 2018, in Kraft seit 1. Jan. 2020 ( AS 2018 5247 , 2019 4631 ; BBl 2015 8901 ).",
+    "91 Aufgehoben durch Ziff. I des BG vom 4. Okt. 1991, mit Wirkung seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "92 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "93 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "94 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991 ( AS 1993 222 ; BBl 1991 IV 497 521 ). Fassung gemäss Ziff. I des BB vom 19. März 1999 über dringliche Massnahmen im Bereich der Umsatzabgabe ( AS 1999 1287 ; BBl 1999 1025 ). Fassung gemäss Ziff. I des BG vom 18. März 2005, in Kraft seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 ).",
+    "95 Eingefügt durch Anhang Ziff. 6 des Fusionsgesetzes vom 3. Okt. 2003, in Kraft seit 1. Juli 2004 ( AS 2004 2617 ; BBl 2000 4337 ).",
+    "96 Eingefügt durch Anhang Ziff. 6 des Fusionsgesetzes vom 3. Okt. 2003, in Kraft seit 1. Juli 2004 ( AS 2004 2617 ; BBl 2000 4337 ).",
+    "97 SR 642.11",
+    "98 Aufgehoben durch Ziff. I des BG vom 4. Okt. 1991, mit Wirkung seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 ).",
+    "99 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_15",
+   "nummer": "15",
+   "sachueberschrift": "II. Entstehung der Abgabeforderung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Die Abgabeforderung entsteht mit dem Abschluss des Geschäftes.\n2 Bei bedingten oder ein Wahlrecht einräumenden Geschäften entsteht die Abgabeforderung mit der Erfüllung des Geschäftes.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_16",
+   "nummer": "16",
+   "sachueberschrift": "Regel",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Die Abgabe wird auf dem Entgelt berechnet und beträgt:\na. 1,5 Promille für von einem Inländer ausgegebene Urkunden;\nb. 3 Promille für von einem Ausländer ausgegebene Urkunden.\n2 Besteht das Entgelt nicht in einer Geldsumme, so ist der Verkehrswert der vereinbarten Gegenleistung massgebend.",
+   "fussnoten_fedlex": [
+    "100 Sachüberschrift eingefügt durch Ziff. I des BG vom 7. Okt. 1977, in Kraft seit 1. April 1978 ( AS 1978 201 ; BBl 1977 II 1453 ).",
+    "101 Abgabesatz gemäss Ziff. I des BG vom 7. Okt. 1977, in Kraft seit 1. April 1978 ( AS 1978 201 ; BBl 1977 II 1453 ).",
+    "102 Abgabesatz gemäss Ziff. I des BG vom 7. Okt. 1977, in Kraft seit 1. April 1978 ( AS 1978 201 ; BBl 1977 II 1453 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_17",
+   "nummer": "17",
+   "sachueberschrift": "Regel",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Abgabepflichtig ist der Effektenhändler.\n2 Er schuldet eine halbe Abgabe:\na. wenn er vermittelt: für jede Vertragspartei, die sich weder als registrierter Effektenhändler noch als von der Abgabe befreiter Anleger ausweist;\nb. wenn er Vertragspartei ist: für sich selbst und die Gegenpartei, die sich weder als registrierter Effektenhändler noch als von der Abgabe befreiter Anleger ausweist.\n3 Der Effektenhändler gilt als Vermittler, wenn er\na. mit seinem Auftraggeber zu den Originalbedingungen des mit der Gegenpartei abgeschlossenen Geschäftes abrechnet;\nb. lediglich Gelegenheit zum Geschäftsabschluss nachweist;\nc. die Urkunden am Tage ihres Erwerbs weiterveräussert.\n4 …",
+   "fussnoten_fedlex": [
+    "103 Fassung gemäss Ziff. I des BG vom 18. März 2005, in Kraft seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 ).",
+    "104 Eingefügt durch Ziff. I des BB vom 19. März 1999 über dringliche Massnahmen im Bereich der Umsatzabgabe ( AS 1999 1287 ; BBl 1999 1025 ). Aufgehoben durch Ziff. I des BG vom 19. März 2010, mit Wirkung seit 1. Juli 2010 ( AS 2010 3317 ; BBl 2009 8745 8753 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_17_a",
+   "nummer": "17a",
+   "sachueberschrift": "Von der Abgabe befreite Anleger",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Von der Abgabe nach Artikel 17 Absatz 2 befreit sind:\na. ausländische Staaten und Zentralbanken;\nb. inländische kollektive Kapitalanlagen nach Artikel 7 KAG ;\nc. ausländische kollektive Kapitalanlagen nach Artikel 119 KAG;\nd. ausländische Einrichtungen der Sozialversicherung;\ne. ausländische Einrichtungen der beruflichen Vorsorge;\nf. ausländische Lebensversicherer, die einer der Bundesaufsicht vergleichbaren ausländischen Regulierung unterstehen;\ng. ausländische Gesellschaften, deren Aktien an einer anerkannten Börse kotiert sind, sowie ihre ausländischen konsolidierten Konzerngesellschaften.\n2 Als ausländische Einrichtungen der Sozialversicherung gelten Einrichtungen, welche die gleichen Aufgaben wie inländische Einrichtungen nach Artikel 13 Absatz 5 erfüllen und einer der Bundesaufsicht vergleichbaren Aufsicht unterstellt sind.\n3 Als ausländische Einrichtungen der beruflichen Vorsorge gelten Einrichtungen:\na. die der Alters‑, Hinterlassenen- und Invalidenvorsorge dienen;\nb. deren Mittel dauernd und ausschliesslich für die berufliche Vorsorge bestimmt sind; und\nc. die einer der Bundesaufsicht vergleichbaren Aufsicht unterstellt sind.",
+   "fussnoten_fedlex": [
+    "105 Eingefügt durch Ziff. I des BG vom 15. Dez. 2000 über neue dringliche Massnahmen im Bereich der Umsatzabgabe ( AS 2000 2991 ; BBl 2000 5835 ). Fassung gemäss Ziff. I des BG vom 18. März 2005, in Kraft seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 ).",
+    "106 Fassung gemäss Anhang Ziff. II 4 des Kollektivanlagengesetzes vom 23. Juni 2006, in Kraft seit 1. Jan. 2007 ( AS 2006 5379 ; BBl 2005 6395 ).",
+    "107 SR 951.31",
+    "108 Fassung gemäss Anhang Ziff. II 4 des Kollektivanlagengesetzes vom 23. Juni 2006, in Kraft seit 1. Jan. 2007 ( AS 2006 5379 ; BBl 2005 6395 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_18",
+   "nummer": "18",
+   "sachueberschrift": "Emissionsgeschäfte",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Der Effektenhändler gilt als Vertragspartei, wenn er die Urkunden bei ihrer Emission fest übernimmt.\n2 Übernimmt der Effektenhändler die Urkunden als Unterbeteiligter von einem andern Effektenhändler und gibt er sie während der Emission weiter, so ist er von dem auf ihn entfallenden Teil der Abgaben ausgenommen.\n3 Der Effektenhändler gilt ferner als Vertragspartei, wenn er Ausweise über Unterbeteiligungen an Darlehensforderungen ausgibt.",
+   "fussnoten_fedlex": [
+    "109 Eingefügt durch Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. April 1993 ( AS 1993 222 ; BBl 1991 IV 497 521 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_19",
+   "nummer": "19",
+   "sachueberschrift": "Geschäfte mit ausländischen Banken und Börsenagenten",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Ist beim Abschluss eines Geschäftes eine ausländische Bank, ein ausländischer Börsenagent oder eine zentrale Gegenpartei im Sinne des Finanzmarktinfrastrukturgesetzes vom 19. Juni 2015 Vertragspartei, so entfällt die diese Partei betreffende halbe Abgabe. Das Gleiche gilt für Titel, die von einer als Gegenpartei auftretenden Börse bei der Ausübung von standardisierten Derivaten übernommen oder geliefert werden.\n2 …",
+   "fussnoten_fedlex": [
+    "110 Fassung gemäss Ziff. I des BG vom 18. März 2005, in Kraft seit 1. Jan. 2006 ( AS 2005 3577 ; BBl 2004 4899 ).",
+    "111 SR 958.1",
+    "112 Fassung gemäss Anhang Ziff. 5 des Finanzmarktinfrastrukturgesetzes vom 19. Juni 2015, in Kraft seit 1. Jan. 2016 ( AS 2015 5339 ; BBl 2014 7483 ).",
+    "113 Aufgehoben durch Ziff. I des BG vom 19. März 2010, mit Wirkung seit 1. Juli 2010 ( AS 2010 3317 ; BBl 2009 8745 8753 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_19_a",
+   "nummer": "19a",
+   "sachueberschrift": "Zum Zweck der Steuersicherung zwischengeschaltete Organisationen",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "Wer im Wohnsitzstaat einer natürlichen Person einer staatlichen Bewilligungs- oder Kontrollpflicht untersteht und ausschliesslich die Melde- und Steuerpflichten für deren in der Schweiz gehaltene Vermögenswerte erfüllt, ist für die damit verbundenen Geschäfte von der Umsatzabgabe befreit.",
+   "fussnoten_fedlex": [
+    "114 Eingefügt durch Ziff. I des BG vom 29. Sept. 2017, in Kraft seit 1. März 2018 ( AS 2018 705 ; BBl 2017 1511 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_20",
+   "nummer": "20",
+   "sachueberschrift": "V. Fälligkeit der Abgabeforderung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Die Abgabe wird 30 Tage nach Ablauf des Vierteljahres fällig, in dem die Abgabeforderung entstanden ist (Art. 15).",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_21",
+   "nummer": "21",
+   "sachueberschrift": "Regel",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "Gegenstand der Abgabe sind die Prämienzahlungen für Versicherungen,\na. die zum inländischen Bestand eines der Aufsicht des Bundes unterstellten oder eines inländischen öffentlich-rechtlichen Versicherers gehören;\nb. die ein inländischer Versicherungsnehmer mit einem nicht der Bundesaufsicht unterstellten ausländischen Versicherer abgeschlossen hat.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_22",
+   "nummer": "22",
+   "sachueberschrift": "Ausnahmen",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "Von der Abgabe ausgenommen sind die Prämienzahlungen für die\na. nichtrückkaufsfähige Lebensversicherung sowie die rückkaufsfähige Lebensversicherung mit periodischer Prämienzahlung; der Bundesrat legt in einer Verordnung die notwendigen Abgrenzungen fest;\n[tab] a bis . Lebensversicherung, soweit diese der beruflichen Vorsorge im Sinne des BVG dient;\n[tab] a ter . Lebensversicherung, welche von einem Versicherungsnehmer mit Wohnsitz im Ausland abgeschlossen wird;\nb. Kranken- und Invaliditätsversicherung;\nc. Unfallversicherung;\nd. Transportversicherung für Güter;\ne. Versicherung für Elementarschäden an Kulturland und Kulturen;\nf. Arbeitslosenversicherung;\ng. Hagelversicherung;\nh. Viehversicherung;\ni. Rückversicherung;\nk. Kaskoversicherung für die in der Verordnung zu umschreibenden Luftfahrzeuge und Schiffe, die im Wesentlichen im Ausland der gewerbsmässigen Beförderung von Personen und Gütern dienen;\nl. Feuer‑, Diebstahl‑, Glas‑, Wasserschaden‑, Kredit‑, Maschinen- und Schmuckversicherung, sofern der Abgabepflichtige nachweist, dass sich die versicherte Sache im Ausland befindet.",
+   "fussnoten_fedlex": [
+    "115 Fassung gemäss Ziff. I 3 des BG vom 10. Okt. 1997 über die Reform der Unternehmensbesteuerung 1997, in Kraft seit 1. April 1998 ( AS 1998 669 ; BBl 1997 II 1164 ).",
+    "116 Eingefügt durch Ziff. I 3 des BG vom 10. Okt. 1997 über die Reform der Unternehmensbesteuerung 1997, in Kraft seit 1. April 1998 ( AS 1998 669 ; BBl 1997 II 1164 ).",
+    "117 SR 831.40",
+    "118 Eingefügt durch Ziff. I 3 des BG vom 10. Okt. 1997 über die Reform der Unternehmensbesteuerung 1997, in Kraft seit 1. April 1998 ( AS 1998 669 ; BBl 1997 II 1164 ).",
+    "119 V vom 3. Dez. 1973 über die Stempelabgaben ( SR 641.101 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_23",
+   "nummer": "23",
+   "sachueberschrift": "II. Entstehung der Abgabeforderung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Die Abgabeforderung entsteht mit der Zahlung der Prämie.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_24",
+   "nummer": "24",
+   "sachueberschrift": "III. Abgabesätze und Berechnungsgrundlage",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Die Abgabe beträgt 5 Prozent der Barprämie; für die Lebensversicherung beträgt sie 2,5 Prozent der Barprämie.\n2 Die Abgabepflichtigen haben in ihren Büchern für jeden einzelnen Versicherungszweig die steuerbaren und die befreiten Prämien gesondert auszuweisen.",
+   "fussnoten_fedlex": [
+    "120 Fassung gemäss Ziff. I 3 des BG vom 10. Okt. 1997 über die Reform der Unternehmensbesteuerung 1997, in Kraft seit 1. April 1998 ( AS 1998 669 ; BBl 1997 II 1164 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_25",
+   "nummer": "25",
+   "sachueberschrift": "IV. Abgabepflicht",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Abgabepflichtig ist der Versicherer. Ist die Versicherung mit einem ausländischen Versicherer abgeschlossen worden (Art. 21 Bst. b ), so hat der inländische Versicherungsnehmer die Abgabe zu entrichten.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_26",
+   "nummer": "26",
+   "sachueberschrift": "V. Fälligkeit der Abgabeforderung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Die Abgabe wird 30 Tage nach Ablauf des Vierteljahres fällig, in dem die Abgabeforderung entstanden ist (Art. 23).",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_27",
+   "nummer": "27",
+   "sachueberschrift": "I. Festsetzung der Abgaben",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Für die Festsetzung der Abgaben ist der wirkliche Inhalt der Urkunden oder Rechtsvorgänge massgebend; von den Beteiligten gebrauchte unrichtige Bezeichnungen und Ausdrucksweisen fallen nicht in Betracht.\n2 Kann der für die Abgabepflicht oder für die Abgabebemessung massgebende Sachverhalt nicht eindeutig abgeklärt werden, so ist er durch Abwägung aller auf Grund pflichtgemässer Ermittlung festgestellten Umstände zu erschliessen.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_28",
+   "nummer": "28",
+   "sachueberschrift": "II. Umrechnung ausländischer Währungen",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Lautet der für die Abgabeberechnung massgebende Betrag auf eine ausländische Währung, so ist er auf den Zeitpunkt der Entstehung der Abgabeforderung (Art. 7, 15, 23) in Schweizerfranken umzurechnen.\n2 Ist unter den Parteien kein bestimmter Umrechnungskurs vereinbart worden, so ist der Umrechnung das Mittel der Geld- und Briefkurse am letzten Werktage vor der Entstehung der Abgabeforderung zugrunde zu legen.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_29",
+   "nummer": "29",
+   "sachueberschrift": "III. Verzugszins",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Auf Abgabebeträgen, die nach Ablauf der in den Artikeln 11, 20 und 26 geregelten Fälligkeitstermine ausstehen, ist ohne Mahnung ein Verzugszins geschuldet. Der Zinssatz wird vom Eidgenössischen Finanzdepartement bestimmt.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_30",
+   "nummer": "30",
+   "sachueberschrift": "IV. Verjährung der Abgabeforderung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Die Abgabeforderung verjährt fünf Jahre nach Ablauf des Kalenderjahres, in dem sie entstanden ist (Art. 7, 15, 23).\n2 Die Verjährung beginnt nicht oder steht still, solange die Abgabeforderung sichergestellt oder gestundet ist oder keiner der Zahlungspflichtigen im Inland Wohnsitz hat.\n3 Die Verjährung wird unterbrochen durch jede Anerkennung der Abgabeforderung von Seiten eines Zahlungspflichtigen sowie durch jede auf Geltendmachung des Abgabeanspruches gerichtete Amtshandlung, die einem Zahlungspflichtigen zur Kenntnis gebracht wird; mit der Unterbrechung beginnt die Verjährung von neuem.\n4 Stillstand und Unterbrechung wirken gegenüber allen Zahlungspflichtigen.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_31",
+   "nummer": "31",
+   "sachueberschrift": "I. Eidgenössische Steuerverwaltung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Die Eidgenössische Steuerverwaltung (ESTV) erlässt für die Erhebung der Stempelabgaben alle Weisungen, Verfügungen und Entscheide, die nicht ausdrücklich einer anderen Behörde vorbehalten sind.",
+   "fussnoten_fedlex": [
+    "123 Fassung gemäss Ziff. I 1 des BG vom 18. Juni 2021 über elektronische Verfahren im Steuerbereich, in Kraft seit 1. Jan. 2022 ( AS 2021 673 ; BBl 2020 4705 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_32",
+   "nummer": "32",
+   "sachueberschrift": "II. Amtshilfe",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Die Steuerbehörden der Kantone, Bezirke, Kreise und Gemeinden und die ESTV unterstützen sich gegenseitig in der Erfüllung ihrer Aufgabe; sie haben sich kostenlos die zweckdienlichen Meldungen zu erstatten, die benötigten Auskünfte zu erteilen und in amtliche Akten Einsicht zu gewähren.\n2 Die Verwaltungsbehörden des Bundes und die andern als die in Absatz 1 genannten Behörden der Kantone, Bezirke, Kreise und Gemeinden sind gegenüber der Eidgenössischen Steuerverwaltung auskunftspflichtig, sofern die verlangten Auskünfte für die Durchführung dieses Gesetzes von Bedeutung sein können. Eine Auskunft darf nur verweigert werden, soweit ihr wesentliche öffentliche Interessen, insbesondere die innere oder äussere Sicherheit des Bundes oder der Kantone entgegenstehen, oder die Auskunft die angegangene Behörde in der Durchführung ihrer Aufgabe wesentlich beeinträchtigen würde. Das Post‑, Telefon- und Telegrafengeheimnis ist zu wahren.\n3 Anstände über die Auskunftspflicht von Verwaltungsbehörden des Bundes entscheidet der Bundesrat, Anstände über die Auskunftspflicht von Behörden der Kantone, Bezirke, Kreise und Gemeinden, sofern die kantonale Regierung das Auskunftsbegehren abgelehnt hat, das Bundesgericht (Art. 120 des Bundesgerichtsgesetzes vom 17. Juni 2005 ).\n4 Die mit öffentlich-rechtlichen Aufgaben betrauten Organisationen sind im Rahmen dieser Aufgaben gleich den Behörden zur Auskunft verpflichtet; Absatz 3 findet sinngemässe Anwendung.",
+   "fussnoten_fedlex": [
+    "124 Ausdruck gemäss Ziff. I 1 des BG vom 18. Juni 2021 über elektronische Verfahren im Steuerbereich, in Kraft seit 1. Jan. 2022 ( AS 2021 673 ; BBl 2020 4705 ). Diese Anpassung wurde im ganzen Text vorgenommen.",
+    "125 SR 173.110",
+    "126 Fassung gemäss Anhang Ziff. 51 des Verwaltungsgerichtsgesetzes vom 17. Juni 2005, in Kraft seit 1. Jan. 2007 ( AS 2006 2197 ; BBl 2001 4202 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_32_a",
+   "nummer": "32a",
+   "sachueberschrift": "II a . Datenbearbeitung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Die ESTV betreibt zur Erfüllung der Aufgaben nach diesem Gesetz ein Informationssystem. Dieses kann besonders schützenswerte Personendaten über administrative und strafrechtliche Sanktionen enthalten, die steuerrechtlich wesentlich sind.\n2 Die ESTV und die Behörden nach Artikel 32 Absatz 1 geben einander die Daten weiter, die für die Erfüllung ihrer Aufgaben dienlich sein können. Die Behörden nach Artikel 32 Absätze 2 und 4 geben der ESTV die Daten weiter, die für die Durchführung dieses Gesetzes von Bedeutung sein können.\n3 Die Daten werden einzeln, auf Listen oder auf elektronischen Datenträgern übermittelt. Sie können auch mittels eines Abrufverfahrens zugänglich gemacht werden. Diese Amtshilfe ist kostenlos.\n4 Personendaten und die zu ihrer Bearbeitung verwendeten Einrichtungen wie Datenträger, EDV-Programme und Programmdokumentationen sind vor unbefugtem Verwenden, Verändern oder Zerstören sowie vor Diebstahl zu schützen.\n5 Der Bundesrat kann Ausführungsbestimmungen erlassen, insbesondere über die Organisation und den Betrieb des Informationssystems, über die Kategorien der zu erfassenden Daten, über die Zugriffs- und Bearbeitungsberechtigung, über die Aufbewahrungsdauer sowie die Archivierung und Vernichtung der Daten.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_33",
+   "nummer": "33",
+   "sachueberschrift": "III. Schweigepflicht",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Wer mit dem Vollzug dieses Gesetzes betraut ist oder dazu beigezogen wird, hat gegenüber andern Amtsstellen und Privaten über die in Ausübung seines Amtes gemachten Wahrnehmungen Stillschweigen zu bewahren und den Einblick in amtliche Akten zu verweigern.\n2 Keine Geheimhaltungspflicht besteht:\na. bei Leistung von Amtshilfe nach Artikel 32 Absatz 1 und bei Erfüllung einer Pflicht zur Anzeige strafbarer Handlungen;\nb. gegenüber Organen der Rechtspflege und der Verwaltung, die vom Bundesrat allgemein oder vom Eidgenössischen Finanzdepartement im Einzelfalle zur Einholung amtlicher Auskünfte bei den mit dem Vollzug dieses Gesetzes betrauten Behörden ermächtigt worden sind.",
+   "fussnoten_fedlex": [
+    "128 Bezeichnung gemäss nicht veröffentlichtem BRB vom 19. Dez. 1997."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_34",
+   "nummer": "34",
+   "sachueberschrift": "Anmeldung als Abgabepflichtiger; Selbstveranlagung",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Wer auf Grund dieses Gesetzes abgabepflichtig wird, hat sich unaufgefordert bei der ESTV anzumelden.\n2 Der Abgabepflichtige hat der ESTV bei Fälligkeit der Abgabe (Art. 11, 20, 26) unaufgefordert die vorgeschriebene Abrechnung mit den Belegen einzureichen und gleichzeitig die Abgabe zu entrichten.\n3 …",
+   "fussnoten_fedlex": [
+    "129 Aufgehoben durch Ziff. II 1 des Unternehmenssteuerreformgesetzes II vom 23. März 2007, mit Wirkung seit 1. Jan. 2009 ( AS 2008 2893 ; BBl 2005 4733 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_35",
+   "nummer": "35",
+   "sachueberschrift": "Auskunft des Abgabepflichtigen",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Der Abgabepflichtige hat der ESTV über alle Tatsachen, die für die Abgabepflicht oder für die Abgabebemessung von Bedeutung sein können, nach bestem Wissen und Gewissen Auskunft zu erteilen; er hat insbesondere:\na. Steuerabrechnungen, Steuererklärungen und Fragebogen vollständig und genau auszufüllen;\nb. seine Geschäftsbücher ordnungsgemäss zu führen und sie, die Belege und andere Urkunden auf Verlangen beizubringen.\n2 Die Bestreitung der Abgabepflicht entbindet nicht von der Auskunftspflicht.\n3 Wird die Auskunftspflicht bestritten, so trifft die ESTV eine Verfügung.",
+   "fussnoten_fedlex": [
+    "130 Fassung gemäss Ziff. II 26 des BG vom 20. März 2008 zur formellen Bereinigung des Bundesrechts, in Kraft seit 1. Aug. 2008 ( AS 2008 3437 ; BBl 2007 6121 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_36",
+   "nummer": "36",
+   "sachueberschrift": "Auskunft Dritter",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Die bei der Gründung oder Kapitalerhöhung einer Gesellschaft oder Genossenschaft mitwirkenden Personen (insbesondere Banken, Notare und Treuhänder) haben der ESTV auf Verlangen über alle Tatsachen, die für die Abgabepflicht oder für die Bemessung der Emissionsabgabe von Bedeutung sein können, nach bestem Wissen und Gewissen Auskunft zu erteilen.\n2 Wird die Auskunftspflicht bestritten, so findet Artikel 35 Absatz 3 Anwendung.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_37",
+   "nummer": "37",
+   "sachueberschrift": "Überprüfung",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Die Erfüllung der Pflicht zur Anmeldung als Abgabepflichtiger sowie die Steuerabrechnungen und -ablieferungen werden von der ESTV überprüft.\n2 Die ESTV kann zur Abklärung des Sachverhalts die Geschäftsbücher, die Belege und andere Urkunden des Abgabepflichtigen an Ort und Stelle prüfen.\n3 Ergibt sich, dass der Abgabepflichtige seinen gesetzlichen Pflichten nicht nachgekommen ist, so ist ihm Gelegenheit zu geben, zu den erhobenen Aussetzungen Stellung zu nehmen.\n4 Lässt sich der Anstand nicht erledigen, so trifft die ESTV einen Entscheid.\n5 Die anlässlich einer Prüfung gemäss Absatz 1 oder 2 bei einer Bank oder Sparkasse im Sinne des Bankengesetzes vom 8. November 1934 , bei der Schweizerischen Nationalbank oder bei einer Pfandbriefzentrale gemachten Feststellungen dürfen ausschliesslich für die Durchführung der Stempelabgaben verwendet werden. Das Bankgeheimnis ist zu wahren.",
+   "fussnoten_fedlex": [
+    "131 SR 952.0"
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_38",
+   "nummer": "38",
+   "sachueberschrift": "II. Entscheide der ESTV",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Die ESTV trifft alle Verfügungen und Entscheide, welche die Abgabeerhebung notwendig macht; sie trifft einen Entscheid insbesondere dann, wenn\na. die Abgabeforderung oder die Mithaftung bestritten wird;\nb. für einen bestimmten Fall vorsorglich die amtliche Feststellung der Abgabepflicht, der Grundlagen der Abgabebemessung oder der Mithaftung beantragt wird;\nc. der Abgabepflichtige oder Mithaftende die gemäss Abrechnung geschuldete Abgabe nicht entrichtet.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_39",
+   "nummer": "39",
+   "sachueberschrift": "…",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Verfügungen und Entscheide der ESTV können innert 30 Tagen nach der Eröffnung mit Einsprache angefochten werden.\n2 Die Einsprache ist schriftlich bei der ESTV einzureichen; sie hat einen bestimmten Antrag zu enthalten und die zu seiner Begründung dienenden Tatsachen anzugeben.\n3 Ist gültig Einsprache erhoben worden, so hat die ESTV die Verfügung oder den Entscheid ohne Bindung an die gestellten Anträge zu überprüfen.\n4 Das Einspracheverfahren ist trotz Rückzug der Einsprache weiterzuführen, wenn Anhaltspunkte dafür vorliegen, dass die Verfügung oder der Entscheid dem Gesetz nicht entspricht.\n5 Der Einspracheentscheid ist zu begründen und hat eine Rechtsmittelbelehrung zu enthalten.",
+   "fussnoten_fedlex": [
+    "133 Aufgehoben durch Anhang Ziff. 51 des Verwaltungsgerichtsgesetzes vom 17. Juni 2005, mit Wirkung seit 1. Jan. 2007 ( AS 2006 2197 ; BBl 2001 4202 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_39_a",
+   "nummer": "39a",
+   "sachueberschrift": "III. Einsprache",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "",
+   "fussnoten_fedlex": [
+    "134 Eingefügt durch Anhang Ziff. 26 des BG vom 4. Okt. 1991 ( AS 1992 288 ; BBl 1991 II 465 ). Aufgehoben durch Anhang Ziff. 51 des Verwaltungsgerichtsgesetzes vom 17. Juni 2005, mit Wirkung seit 1. Jan. 2007 ( AS 2006 2197 ; BBl 2001 4202 )."
+   ],
+   "aufgehoben": true
+  },
+  {
+   "id": "art_40",
+   "nummer": "40",
+   "sachueberschrift": "III. Einsprache",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "",
+   "fussnoten_fedlex": [
+    "135 Aufgehoben durch Anhang Ziff. 51 des Verwaltungsgerichtsgesetzes vom 17. Juni 2005, mit Wirkung seit 1. Jan. 2007 ( AS 2006 2197 ; BBl 2001 4202 )."
+   ],
+   "aufgehoben": true
+  },
+  {
+   "id": "art_41",
+   "nummer": "41",
+   "sachueberschrift": "IV. Kosten",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Im Veranlagungs- und im Einspracheverfahren werden in der Regel keine Kosten berechnet.\n2 Ohne Rücksicht auf den Ausgang des Verfahrens können die Kosten von Untersuchungsmassnahmen demjenigen auferlegt werden, der sie schuldhaft verursacht hat.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_41_a",
+   "nummer": "41a",
+   "sachueberschrift": "IV a . Elektronische Verfahren",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Der Bundesrat kann die elektronische Durchführung von Verfahren nach diesem Gesetz vorschreiben. Dabei regelt er die Modalitäten der Durchführung.\n2 Die ESTV stellt bei der elektronischen Durchführung von Verfahren die Authentizität und Integrität der übermittelten Daten sicher.\n3 Sie kann bei der elektronischen Einreichung von Eingaben, deren Unterzeichnung gesetzlich vorgeschrieben ist, anstelle der qualifizierten elektronischen Signatur eine andere elektronische Bestätigung der Angaben durch die abgabepflichtige Person anerkennen.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_42",
+   "nummer": "42",
+   "sachueberschrift": "Betreibung",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Wird der Anspruch auf Abgaben, Zinsen und Kosten auf Mahnung hin nicht befriedigt, so ist Betreibung einzuleiten; vorbehalten bleibt die Eingabe in einem Konkurs.\n2 Ist die Abgabeforderung noch nicht rechtskräftig festgesetzt und wird sie bestritten, so unterbleibt ihre endgültige Kollokation, bis ein rechtskräftiger Abgabeentscheid vorliegt.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_43",
+   "nummer": "43",
+   "sachueberschrift": "Sicherstellung",
+   "sachueberschrift_quelle": "artikel",
+   "normtext": "1 Die ESTV kann Abgaben, Zinsen und Kosten, auch wenn sie weder rechtskräftig festgesetzt noch fällig sind, sicherstellen lassen, wenn\na . der Bezug als gefährdet erscheint;\nb. der Zahlungspflichtige keinen Wohnsitz in der Schweiz hat oder Anstalten trifft, den Wohnsitz in der Schweiz aufzugeben oder sich im Handelsregister löschen zu lassen;\nc. der Zahlungspflichtige mit der Zahlung der Abgabe in Verzug ist oder wiederholt in Verzug war.\n2 Die Sicherstellungsverfügung hat den Rechtsgrund der Sicherstellung, den sicherzustellenden Betrag und die Stelle, welche die Sicherheiten entgegennimmt, anzugeben. Wird die Sicherstellung aufgrund von Absatz 1 Buchstaben a oder b angeordnet, so gilt die Sicherstellungsverfügung als Arrestbefehl im Sinne von Artikel 274 des Bundesgesetzes über Schuldbetreibung und Konkurs ; die Einsprache gegen den Arrestbefehl ist ausgeschlossen.\n3 Gegen Sicherstellungsverfügungen der ESTV kann beim Bundesverwaltungsgericht Beschwerde geführt werden.\n4 Beschwerden gegen Sicherstellungsverfügungen haben keine aufschiebende Wirkung.\n5 …",
+   "fussnoten_fedlex": [
+    "137 SR 281.1",
+    "138 Fassung gemäss Anhang Ziff. 10 des BG vom 16. Dez. 1994, in Kraft seit 1. Jan. 1997 ( AS 1995 1227 1307 ; BBl 1991 III 1 ).",
+    "139 Fassung gemäss Anhang Ziff. 51 des Verwaltungsgerichtsgesetzes vom 17. Juni 2005, in Kraft seit 1. Jan. 2007 ( AS 2006 2197 ; BBl 2001 4202 ).",
+    "140 Eingefügt durch Anhang Ziff. 26 des BG vom 4. Okt. 1991 ( AS 1992 288 ; BBl 1991 II 465 ). Fassung gemäss Anhang Ziff. 51 des Verwaltungsgerichtsgesetzes vom 17. Juni 2005, in Kraft seit 1. Jan. 2007 ( AS 2006 2197 ; BBl 2001 4202 ).",
+    "141 Eingefügt durch Anhang Ziff. 26 des BG vom 4. Okt. 1991 ( AS 1992 288 ; BBl 1991 II 465 ). Aufgehoben durch Anhang Ziff. 51 des Verwaltungsgerichtsgesetzes vom 17. Juni 2005, mit Wirkung seit 1. Jan. 2007 ( AS 2006 2197 ; BBl 2001 4202 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_44",
+   "nummer": "44",
+   "sachueberschrift": "C. Revision und Erläuterung von Entscheiden",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Auf die Revision und die Erläuterung von Entscheiden der ESTV werden die Artikel 66–69 des Verwaltungsverfahrensgesetzes vom 20. Dezember 1968 sinngemäss angewandt.\n2 …",
+   "fussnoten_fedlex": [
+    "142 SR 172.021",
+    "143 Aufgehoben durch Anhang Ziff. 51 des Verwaltungsgerichtsgesetzes vom 17. Juni 2005, mit Wirkung seit 1. Jan. 2007 ( AS 2006 2197 ; BBl 2001 4202 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_45",
+   "nummer": "45",
+   "sachueberschrift": "I. Hinterziehung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Wer vorsätzlich oder fahrlässig, zum eigenen oder zum Vorteil eines andern, dem Bunde Stempelabgaben vorenthält oder sich oder einem andern auf andere Weise einen unrechtmässigen Abgabevorteil verschafft, wird, sofern nicht die Strafbestimmung von Artikel 14 des Verwaltungsstrafrechtsgesetzes vom 22. März 1974 zutrifft, wegen Hinterziehung mit Busse bis zu 30 000 Franken oder, sofern dies einen höheren Betrag ergibt, bis zum Dreifachen der hinterzogenen Abgabe oder des unrechtmässigen Vorteils bestraft.\n2–4 …",
+   "fussnoten_fedlex": [
+    "145 SR 313.0",
+    "146 Fassung gemäss Ziff. 8 des Anhangs zum VStrR, in Kraft seit 1. Jan. 1975 ( AS 1974 1857 ; BBl 1971 I 993 ).",
+    "147 Aufgehoben durch Ziff. 8 des Anhangs zum VStrR, mit Wirkung seit 1. Jan. 1975 ( AS 1974 1857 ; BBl 1971 I 993 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_46",
+   "nummer": "46",
+   "sachueberschrift": "II. Abgabegefährdung",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Wer die gesetzmässige Erhebung der Stempelabgaben gefährdet, indem er vorsätzlich oder fahrlässig\na. der Pflicht zur Anmeldung als Abgabepflichtiger, zur Einreichung von Steuererklärungen, Aufstellungen und Abrechnungen, zur Erteilung von Auskünften und zur Vorlage von Geschäftsbüchern, Registern und Belegen nicht nachkommt;\nb. in einer Steuererklärung, Aufstellung oder Abrechnung, in einem Antrag auf Befreiung, Rückerstattung, Stundung oder Erlass von Abgaben unwahre Angaben macht oder erhebliche Tatsachen verschweigt oder dabei unwahre Belege über erhebliche Tatsachen vorlegt;\nc. als Abgabepflichtiger oder auskunftspflichtiger Dritter unrichtige Auskünfte erteilt;\nd. der Pflicht zur ordnungsgemässen Führung und Aufbewahrung der Geschäftsbücher, Register und Belege zuwiderhandelt;\ne. die ordnungsgemässe Durchführung einer Buchprüfung oder andern amtlichen Kontrolle erschwert, behindert oder verunmöglicht oder\nf. wahrheitswidrig erklärt, Effektenhändler zu sein oder nach Streichung im Register der Effektenhändler die abgegebenen Erklärungen nicht widerruft,\nwird, sofern nicht eine der Strafbestimmungen der Artikel 14–16 des Verwaltungsstrafrechtsgesetzes vom 22. März 1974 zutrifft, mit Busse bis zu 20 000 Franken bestraft.\n2 Bei einer Widerhandlung im Sinne von Absatz 1 Buchstabe e bleibt die Strafverfolgung nach Artikel 285 des Strafgesetzbuches vorbehalten.",
+   "fussnoten_fedlex": [
+    "148 Fassung gemäss Ziff. 8 des Anhangs zum VStrR, in Kraft seit 1. Jan. 1975 ( AS 1974 1857 ; BBl 1971 I 993 ).",
+    "149 SR 313.0",
+    "150 Fassung des letzten Satzes gemäss Ziff. 8 des Anhangs zum VStrR, in Kraft seit 1. Jan. 1975 ( AS 1974 1857 ; BBl 1971 I 993 ).",
+    "151 SR 311.0"
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_47",
+   "nummer": "47",
+   "sachueberschrift": "III. Ordnungswidrigkeiten",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Wer eine Bedingung, an die eine besondere Bewilligung geknüpft wurde, nicht einhält,\nwer einer Vorschrift dieses Gesetzes, einer Verordnung oder einer auf Grund solcher Vorschriften erlassenen allgemeinen Weisung oder unter Hinweis auf die Strafdrohung dieses Artikels an ihn gerichteten Einzelverfügung zuwiderhandelt,\nwird mit Busse bis zu 5000 Franken bestraft.\n2 Strafbar ist auch die fahrlässige Begehung.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_48_49",
+   "nummer": "48–49",
+   "sachueberschrift": "IV. Allgemeine Bestimmungen",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "",
+   "fussnoten_fedlex": [
+    "152 Aufgehoben durch Ziff. 8 des Anhangs zum VStrR, mit Wirkung seit 1. Jan. 1975 ( AS 1974 1857 ; BBl 1971 I 993 )."
+   ],
+   "aufgehoben": true
+  },
+  {
+   "id": "art_50",
+   "nummer": "50",
+   "sachueberschrift": "B. Verhältnis zum Verwaltungsstrafrechtsgesetz",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Das Verwaltungsstrafrechtsgesetz vom 22. März 1974 findet Anwendung; verfolgende und urteilende Verwaltungsbehörde im Sinne jenes Gesetzes ist die ESTV.\n2 …",
+   "fussnoten_fedlex": [
+    "154 SR 313.0",
+    "155 Fassung gemäss Ziff. 8 des Anhangs zum VStrR, in Kraft seit 1. Jan. 1975 ( AS 1974 1857 ; BBl 1971 I 993 ).",
+    "156 Aufgehoben durch Ziff. I des BG vom 5. Okt. 1984, mit Wirkung seit 1. Jan. 1986 ( AS 1985 1963 ; BBl 1981 III 737 )."
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_51",
+   "nummer": "51",
+   "sachueberschrift": "I. Anrechnung bezahlter Emissionsabgaben",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "",
+   "fussnoten_fedlex": [
+    "157 Aufgehoben durch Ziff. I 3 des BG vom 10. Okt. 1997 über die Reform der Unternehmensbesteuerung 1997, mit Wirkung seit 1.April 1998 ( AS 1998 669 ; BBl 1997 II 1164 )."
+   ],
+   "aufgehoben": true
+  },
+  {
+   "id": "art_52",
+   "nummer": "52",
+   "sachueberschrift": "II. Änderung des Verrechnungssteuergesetzes",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "…",
+   "fussnoten_fedlex": [
+    "158 Die Änderungen können unter AS 1974 11 konsultiert werden."
+   ],
+   "aufgehoben": true
+  },
+  {
+   "id": "art_53",
+   "nummer": "53",
+   "sachueberschrift": "III. Aufhebung bisherigen Rechts",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "1 Mit dem Inkrafttreten dieses Gesetzes werden aufgehoben:\na. das Bundesgesetz vom 4. Oktober 1917 über die Stempelabgaben;\nb. das Bundesgesetz vom 15. Februar 1921 betreffend Erlass und Stundung von Stempelabgaben;\nc. das Bundesgesetz vom 24. Juni 1937 über Ergänzung und Abänderung der eidgenössischen Stempelgesetzgebung.\n2 Die ausser Kraft gesetzten Bestimmungen bleiben in Bezug auf Abgabeforderungen, Tatsachen und Rechtsverhältnisse, die vor dem Inkrafttreten dieses Gesetzes entstanden oder eingetreten sind, auch nach diesem Zeitpunkt anwendbar.",
+   "fussnoten_fedlex": [
+    "159 [BS 6 101; AS 1966 371 Art. 68 Ziff. I]",
+    "160 [BS 6 126]",
+    "161 [BS 6 165; AS 1966 371 Art. 68 Ziff. II]"
+   ],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_54",
+   "nummer": "54",
+   "sachueberschrift": "IV. Vollzug",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Der Bundesrat erlässt die für den Vollzug erforderlichen Vorschriften.",
+   "fussnoten_fedlex": [],
+   "aufgehoben": false
+  },
+  {
+   "id": "art_55",
+   "nummer": "55",
+   "sachueberschrift": "V. Inkrafttreten",
+   "sachueberschrift_quelle": "gliederung",
+   "normtext": "Der Bundesrat bestimmt den Zeitpunkt des Inkrafttretens dieses Gesetzes.\nDatum des Inkrafttretens: 1. Juli 1974 Art. 21-26: 1. Januar 1975",
+   "fussnoten_fedlex": [
+    "162 BRB vom 30. Okt. 1973"
+   ],
+   "aufgehoben": false
+  }
+ ]
+}

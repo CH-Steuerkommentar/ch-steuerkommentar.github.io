@@ -1,0 +1,19 @@
+# Cache der Entscheid-Volltexte (gross, jederzeit neu ladbar)
+data/entscheide/
+# Rohdaten der Batches (Anfragen enthalten die Volltexte)
+data/batches/*/anfragen.jsonl
+# Website: Abhängigkeiten, Build, erzeugte Seiten
+site/node_modules/
+site/dist/
+site/.astro/
+site/src/content/docs/index.md
+site/src/content/docs/dbg/
+site/src/content/docs/sthg/
+site/src/content/docs/vstg/
+site/src/content/docs/mwstg/
+site/src/content/docs/stg/
+# Word-Fassungen und Markup (aus kommentare/ erzeugbar)
+arbeit/**/*.docx
+arbeit/**/markup.txt
+__pycache__/
+.env

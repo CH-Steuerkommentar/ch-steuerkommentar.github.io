@@ -1,0 +1,6534 @@
+{
+ "artikel": {
+  "DBG/art-1": {
+   "erlass": "DBG",
+   "nummer": "1",
+   "sachueberschrift": "Gegenstand des Gesetzes",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-2": {
+   "erlass": "DBG",
+   "nummer": "2",
+   "sachueberschrift": "Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-3": {
+   "erlass": "DBG",
+   "nummer": "3",
+   "sachueberschrift": "Persönliche Zugehörigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-4": {
+   "erlass": "DBG",
+   "nummer": "4",
+   "sachueberschrift": "Geschäftsbetriebe, Betriebsstätten und Grundstücke",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-5": {
+   "erlass": "DBG",
+   "nummer": "5",
+   "sachueberschrift": "Andere steuerbare Werte",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-6": {
+   "erlass": "DBG",
+   "nummer": "6",
+   "sachueberschrift": "Umfang der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-7": {
+   "erlass": "DBG",
+   "nummer": "7",
+   "sachueberschrift": "Steuerberechnung bei teilweiser Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-8": {
+   "erlass": "DBG",
+   "nummer": "8",
+   "sachueberschrift": "Beginn und Ende der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-9": {
+   "erlass": "DBG",
+   "nummer": "9",
+   "sachueberschrift": "Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter elterlicher Sorge",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-10": {
+   "erlass": "DBG",
+   "nummer": "10",
+   "sachueberschrift": "Erbengemeinschaften, Gesellschaften und kollektive Kapitalanlagen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-11": {
+   "erlass": "DBG",
+   "nummer": "11",
+   "sachueberschrift": "Ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten ohne juristische Persönlichkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-12": {
+   "erlass": "DBG",
+   "nummer": "12",
+   "sachueberschrift": "Steuernachfolge",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-13": {
+   "erlass": "DBG",
+   "nummer": "13",
+   "sachueberschrift": "Haftung und Mithaftung für die Steuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-14": {
+   "erlass": "DBG",
+   "nummer": "14",
+   "sachueberschrift": "Besteuerung nach dem Aufwand",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-15": {
+   "erlass": "DBG",
+   "nummer": "15",
+   "sachueberschrift": "Steuerbefreiung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-16": {
+   "erlass": "DBG",
+   "nummer": "16",
+   "sachueberschrift": "Allgemeines",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-17": {
+   "erlass": "DBG",
+   "nummer": "17",
+   "sachueberschrift": "Grundsatz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-17a": {
+   "erlass": "DBG",
+   "nummer": "17a",
+   "sachueberschrift": "Mitarbeiterbeteiligungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-17b": {
+   "erlass": "DBG",
+   "nummer": "17b",
+   "sachueberschrift": "Einkünfte aus echten Mitarbeiterbeteiligungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-17c": {
+   "erlass": "DBG",
+   "nummer": "17c",
+   "sachueberschrift": "Einkünfte aus unechten Mitarbeiterbeteiligungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-17d": {
+   "erlass": "DBG",
+   "nummer": "17d",
+   "sachueberschrift": "Anteilsmässige Besteuerung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-18": {
+   "erlass": "DBG",
+   "nummer": "18",
+   "sachueberschrift": "Grundsatz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-18a": {
+   "erlass": "DBG",
+   "nummer": "18a",
+   "sachueberschrift": "Aufschubstatbestände",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-18b": {
+   "erlass": "DBG",
+   "nummer": "18b",
+   "sachueberschrift": "Teilbesteuerung der Einkünfte aus Beteiligungen des Geschäftsvermögens",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-19": {
+   "erlass": "DBG",
+   "nummer": "19",
+   "sachueberschrift": "Umstrukturierungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-20": {
+   "erlass": "DBG",
+   "nummer": "20",
+   "sachueberschrift": "Grundsatz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-20a": {
+   "erlass": "DBG",
+   "nummer": "20a",
+   "sachueberschrift": "Besondere Fälle",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-21": {
+   "erlass": "DBG",
+   "nummer": "21",
+   "sachueberschrift": "Unbewegliches Vermögen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-22": {
+   "erlass": "DBG",
+   "nummer": "22",
+   "sachueberschrift": "Einkünfte aus Vorsorge",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-23": {
+   "erlass": "DBG",
+   "nummer": "23",
+   "sachueberschrift": "Übrige Einkünfte",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-24": {
+   "erlass": "DBG",
+   "nummer": "24",
+   "sachueberschrift": "Steuerfreie Einkünfte",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-25": {
+   "erlass": "DBG",
+   "nummer": "25",
+   "sachueberschrift": "Grundsatz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-26": {
+   "erlass": "DBG",
+   "nummer": "26",
+   "sachueberschrift": "Unselbständige Erwerbstätigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-27": {
+   "erlass": "DBG",
+   "nummer": "27",
+   "sachueberschrift": "Allgemeines",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-28": {
+   "erlass": "DBG",
+   "nummer": "28",
+   "sachueberschrift": "Abschreibungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-29": {
+   "erlass": "DBG",
+   "nummer": "29",
+   "sachueberschrift": "Rückstellungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-30": {
+   "erlass": "DBG",
+   "nummer": "30",
+   "sachueberschrift": "Ersatzbeschaffungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-31": {
+   "erlass": "DBG",
+   "nummer": "31",
+   "sachueberschrift": "Verluste",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-32": {
+   "erlass": "DBG",
+   "nummer": "32",
+   "sachueberschrift": "Privatvermögen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-33": {
+   "erlass": "DBG",
+   "nummer": "33",
+   "sachueberschrift": "Schuldzinsen und andere Abzüge",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-33a": {
+   "erlass": "DBG",
+   "nummer": "33a",
+   "sachueberschrift": "Freiwillige Leistungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-34": {
+   "erlass": "DBG",
+   "nummer": "34",
+   "sachueberschrift": "Nicht abziehbare Kosten und Aufwendungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-35": {
+   "erlass": "DBG",
+   "nummer": "35",
+   "sachueberschrift": "Sozialabzüge",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-36": {
+   "erlass": "DBG",
+   "nummer": "36",
+   "sachueberschrift": "Tarife",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-37": {
+   "erlass": "DBG",
+   "nummer": "37",
+   "sachueberschrift": "Kapitalabfindungen für wiederkehrende Leistungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-37a": {
+   "erlass": "DBG",
+   "nummer": "37a",
+   "sachueberschrift": "Vereinfachtes Abrechnungsverfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-37b": {
+   "erlass": "DBG",
+   "nummer": "37b",
+   "sachueberschrift": "Liquidationsgewinne",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-38": {
+   "erlass": "DBG",
+   "nummer": "38",
+   "sachueberschrift": "Kapitalleistungen aus Vorsorge",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-39": {
+   "erlass": "DBG",
+   "nummer": "39",
+   "sachueberschrift": "Ausgleich der Folgen der kalten Progression",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-40": {
+   "erlass": "DBG",
+   "nummer": "40",
+   "sachueberschrift": "Steuerperiode",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-41": {
+   "erlass": "DBG",
+   "nummer": "41",
+   "sachueberschrift": "Bemessung des Einkommens",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-42": {
+   "erlass": "DBG",
+   "nummer": "42",
+   "sachueberschrift": "Veranlagung bei Begründung und Auflösung der Ehe",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-43–48": {
+   "erlass": "DBG",
+   "nummer": "43–48",
+   "sachueberschrift": "Dritter Titel: Zeitliche Bemessung",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-49": {
+   "erlass": "DBG",
+   "nummer": "49",
+   "sachueberschrift": "Begriff der juristischen Personen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-50": {
+   "erlass": "DBG",
+   "nummer": "50",
+   "sachueberschrift": "Persönliche Zugehörigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-51": {
+   "erlass": "DBG",
+   "nummer": "51",
+   "sachueberschrift": "Wirtschaftliche Zugehörigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-52": {
+   "erlass": "DBG",
+   "nummer": "52",
+   "sachueberschrift": "Umfang der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-53": {
+   "erlass": "DBG",
+   "nummer": "53",
+   "sachueberschrift": "Steuerliche Zugehörigkeit",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-54": {
+   "erlass": "DBG",
+   "nummer": "54",
+   "sachueberschrift": "Beginn und Ende der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-55": {
+   "erlass": "DBG",
+   "nummer": "55",
+   "sachueberschrift": "Mithaftung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-56": {
+   "erlass": "DBG",
+   "nummer": "56",
+   "sachueberschrift": "Ausnahmen von der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-57": {
+   "erlass": "DBG",
+   "nummer": "57",
+   "sachueberschrift": "Grundsatz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-58": {
+   "erlass": "DBG",
+   "nummer": "58",
+   "sachueberschrift": "Allgemeines",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-59": {
+   "erlass": "DBG",
+   "nummer": "59",
+   "sachueberschrift": "Geschäftsmässig begründeter Aufwand",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-60": {
+   "erlass": "DBG",
+   "nummer": "60",
+   "sachueberschrift": "Erfolgsneutrale Vorgänge",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-61": {
+   "erlass": "DBG",
+   "nummer": "61",
+   "sachueberschrift": "Umstrukturierungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-61a": {
+   "erlass": "DBG",
+   "nummer": "61a",
+   "sachueberschrift": "Aufdeckung stiller Reserven bei Beginn der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-61b": {
+   "erlass": "DBG",
+   "nummer": "61b",
+   "sachueberschrift": "Besteuerung stiller Reserven am Ende der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-62": {
+   "erlass": "DBG",
+   "nummer": "62",
+   "sachueberschrift": "Abschreibungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-63": {
+   "erlass": "DBG",
+   "nummer": "63",
+   "sachueberschrift": "Rückstellungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-64": {
+   "erlass": "DBG",
+   "nummer": "64",
+   "sachueberschrift": "Ersatzbeschaffungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-65": {
+   "erlass": "DBG",
+   "nummer": "65",
+   "sachueberschrift": "Zinsen auf verdecktem Eigenkapital",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-66": {
+   "erlass": "DBG",
+   "nummer": "66",
+   "sachueberschrift": "Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-66a": {
+   "erlass": "DBG",
+   "nummer": "66a",
+   "sachueberschrift": "Gewinne von juristischen Personen mit ideellen Zwecken",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-67": {
+   "erlass": "DBG",
+   "nummer": "67",
+   "sachueberschrift": "Verluste",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-68": {
+   "erlass": "DBG",
+   "nummer": "68",
+   "sachueberschrift": "Kapitalgesellschaften und Genossenschaften",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-69": {
+   "erlass": "DBG",
+   "nummer": "69",
+   "sachueberschrift": "Ermässigung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-70": {
+   "erlass": "DBG",
+   "nummer": "70",
+   "sachueberschrift": "Nettoertrag aus Beteiligungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-71": {
+   "erlass": "DBG",
+   "nummer": "71",
+   "sachueberschrift": "Vereine, Stiftungen und übrige juristische Personen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-72": {
+   "erlass": "DBG",
+   "nummer": "72",
+   "sachueberschrift": "Kollektive Kapitalanlagen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-73–78": {
+   "erlass": "DBG",
+   "nummer": "73–78",
+   "sachueberschrift": "Dritter Titel: …",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-79": {
+   "erlass": "DBG",
+   "nummer": "79",
+   "sachueberschrift": "Steuerperiode",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-80": {
+   "erlass": "DBG",
+   "nummer": "80",
+   "sachueberschrift": "Bemessung des Reingewinns",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-81": {
+   "erlass": "DBG",
+   "nummer": "81",
+   "sachueberschrift": "Vierter Titel: Zeitliche Bemessung",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-82": {
+   "erlass": "DBG",
+   "nummer": "82",
+   "sachueberschrift": "Steuersätze",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-83": {
+   "erlass": "DBG",
+   "nummer": "83",
+   "sachueberschrift": "Der Quellensteuer unterworfene Arbeitnehmer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-84": {
+   "erlass": "DBG",
+   "nummer": "84",
+   "sachueberschrift": "Steuerbare Leistungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-85": {
+   "erlass": "DBG",
+   "nummer": "85",
+   "sachueberschrift": "Quellensteuerabzug",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-86–87": {
+   "erlass": "DBG",
+   "nummer": "86–87",
+   "sachueberschrift": "und",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-88": {
+   "erlass": "DBG",
+   "nummer": "88",
+   "sachueberschrift": "Pflichten des Schuldners der steuerbaren Leistung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-89": {
+   "erlass": "DBG",
+   "nummer": "89",
+   "sachueberschrift": "Obligatorische nachträgliche ordentliche Veranlagung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-89a": {
+   "erlass": "DBG",
+   "nummer": "89a",
+   "sachueberschrift": "Nachträgliche ordentliche Veranlagung auf Antrag",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-90": {
+   "erlass": "DBG",
+   "nummer": "90",
+   "sachueberschrift": "Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-91": {
+   "erlass": "DBG",
+   "nummer": "91",
+   "sachueberschrift": "Der Quellensteuer unterworfene Arbeitnehmer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-92": {
+   "erlass": "DBG",
+   "nummer": "92",
+   "sachueberschrift": "Künstler, Sportler und Referenten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-93": {
+   "erlass": "DBG",
+   "nummer": "93",
+   "sachueberschrift": "Verwaltungsräte",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-94": {
+   "erlass": "DBG",
+   "nummer": "94",
+   "sachueberschrift": "Hypothekargläubiger",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-95": {
+   "erlass": "DBG",
+   "nummer": "95",
+   "sachueberschrift": "Empfänger von Vorsorgeleistungen aus öffentlich-rechtlichem Arbeitsverhältnis",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-96": {
+   "erlass": "DBG",
+   "nummer": "96",
+   "sachueberschrift": "Empfänger von privatrechtlichen Vorsorgeleistungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-97": {
+   "erlass": "DBG",
+   "nummer": "97",
+   "sachueberschrift": "Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-97a": {
+   "erlass": "DBG",
+   "nummer": "97a",
+   "sachueberschrift": "Empfänger von Mitarbeiterbeteiligungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-98": {
+   "erlass": "DBG",
+   "nummer": "98",
+   "sachueberschrift": "Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-99": {
+   "erlass": "DBG",
+   "nummer": "99",
+   "sachueberschrift": "Abgegoltene Steuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-99a": {
+   "erlass": "DBG",
+   "nummer": "99a",
+   "sachueberschrift": "Nachträgliche ordentliche Veranlagung auf Antrag",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-99b": {
+   "erlass": "DBG",
+   "nummer": "99b",
+   "sachueberschrift": "Nachträgliche ordentliche Veranlagung von Amtes wegen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-100": {
+   "erlass": "DBG",
+   "nummer": "100",
+   "sachueberschrift": "Pflichten des Schuldners der steuerbaren Leistung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-101": {
+   "erlass": "DBG",
+   "nummer": "101",
+   "sachueberschrift": "Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-102": {
+   "erlass": "DBG",
+   "nummer": "102",
+   "sachueberschrift": "Organisation",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-103": {
+   "erlass": "DBG",
+   "nummer": "103",
+   "sachueberschrift": "Aufsicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-104": {
+   "erlass": "DBG",
+   "nummer": "104",
+   "sachueberschrift": "Organisation",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-104a": {
+   "erlass": "DBG",
+   "nummer": "104a",
+   "sachueberschrift": "Elektronische Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-104b": {
+   "erlass": "DBG",
+   "nummer": "104b",
+   "sachueberschrift": "Aufsicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-105": {
+   "erlass": "DBG",
+   "nummer": "105",
+   "sachueberschrift": "Bei persönlicher Zugehörigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-106": {
+   "erlass": "DBG",
+   "nummer": "106",
+   "sachueberschrift": "Bei wirtschaftlicher Zugehörigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-107": {
+   "erlass": "DBG",
+   "nummer": "107",
+   "sachueberschrift": "Bei Quellensteuern",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-108": {
+   "erlass": "DBG",
+   "nummer": "108",
+   "sachueberschrift": "Bei ungewisser oder streitiger Zuständigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-109": {
+   "erlass": "DBG",
+   "nummer": "109",
+   "sachueberschrift": "Ausstand",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-110": {
+   "erlass": "DBG",
+   "nummer": "110",
+   "sachueberschrift": "Geheimhaltungspflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-111": {
+   "erlass": "DBG",
+   "nummer": "111",
+   "sachueberschrift": "Amtshilfe unter Steuerbehörden",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-112": {
+   "erlass": "DBG",
+   "nummer": "112",
+   "sachueberschrift": "Amtshilfe anderer Behörden",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-112a": {
+   "erlass": "DBG",
+   "nummer": "112a",
+   "sachueberschrift": "Datenbearbeitung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-113": {
+   "erlass": "DBG",
+   "nummer": "113",
+   "sachueberschrift": "Verfahrensrechtliche Stellung der Ehegatten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-114": {
+   "erlass": "DBG",
+   "nummer": "114",
+   "sachueberschrift": "Akteneinsicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-115": {
+   "erlass": "DBG",
+   "nummer": "115",
+   "sachueberschrift": "Beweisabnahme",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-116": {
+   "erlass": "DBG",
+   "nummer": "116",
+   "sachueberschrift": "Eröffnung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-117": {
+   "erlass": "DBG",
+   "nummer": "117",
+   "sachueberschrift": "Vertragliche Vertretung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-118": {
+   "erlass": "DBG",
+   "nummer": "118",
+   "sachueberschrift": "Verfahrensrechte des Steuerpflichtigen",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-119": {
+   "erlass": "DBG",
+   "nummer": "119",
+   "sachueberschrift": "Fristen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-120": {
+   "erlass": "DBG",
+   "nummer": "120",
+   "sachueberschrift": "Veranlagungsverjährung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-121": {
+   "erlass": "DBG",
+   "nummer": "121",
+   "sachueberschrift": "Bezugsverjährung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-122": {
+   "erlass": "DBG",
+   "nummer": "122",
+   "sachueberschrift": "Vorbereitung der Veranlagung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-123": {
+   "erlass": "DBG",
+   "nummer": "123",
+   "sachueberschrift": "Aufgaben der Veranlagungsbehörden",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-124": {
+   "erlass": "DBG",
+   "nummer": "124",
+   "sachueberschrift": "Steuererklärung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-125": {
+   "erlass": "DBG",
+   "nummer": "125",
+   "sachueberschrift": "Beilagen zur Steuererklärung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-126": {
+   "erlass": "DBG",
+   "nummer": "126",
+   "sachueberschrift": "Weitere Mitwirkungspflichten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-126a": {
+   "erlass": "DBG",
+   "nummer": "126a",
+   "sachueberschrift": "Notwendige Vertretung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-127": {
+   "erlass": "DBG",
+   "nummer": "127",
+   "sachueberschrift": "Bescheinigungspflicht Dritter",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-128": {
+   "erlass": "DBG",
+   "nummer": "128",
+   "sachueberschrift": "Auskunftspflicht Dritter",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-129": {
+   "erlass": "DBG",
+   "nummer": "129",
+   "sachueberschrift": "Meldepflicht Dritter",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-130": {
+   "erlass": "DBG",
+   "nummer": "130",
+   "sachueberschrift": "Durchführung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-131": {
+   "erlass": "DBG",
+   "nummer": "131",
+   "sachueberschrift": "Eröffnung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-132": {
+   "erlass": "DBG",
+   "nummer": "132",
+   "sachueberschrift": "Voraussetzungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-133": {
+   "erlass": "DBG",
+   "nummer": "133",
+   "sachueberschrift": "Fristen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-134": {
+   "erlass": "DBG",
+   "nummer": "134",
+   "sachueberschrift": "Befugnisse der Steuerbehörden",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-135": {
+   "erlass": "DBG",
+   "nummer": "135",
+   "sachueberschrift": "Entscheid",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-136": {
+   "erlass": "DBG",
+   "nummer": "136",
+   "sachueberschrift": "Verfahrenspflichten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-136a": {
+   "erlass": "DBG",
+   "nummer": "136a",
+   "sachueberschrift": "Notwendige Vertretung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-137": {
+   "erlass": "DBG",
+   "nummer": "137",
+   "sachueberschrift": "Verfügung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-138": {
+   "erlass": "DBG",
+   "nummer": "138",
+   "sachueberschrift": "Nachforderung und Rückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-139": {
+   "erlass": "DBG",
+   "nummer": "139",
+   "sachueberschrift": "Rechtsmittel",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-140": {
+   "erlass": "DBG",
+   "nummer": "140",
+   "sachueberschrift": "Voraussetzungen für die Beschwerde des Steuerpflichtigen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-141": {
+   "erlass": "DBG",
+   "nummer": "141",
+   "sachueberschrift": "Voraussetzungen für die Beschwerde der Aufsichtsbehörden",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-142": {
+   "erlass": "DBG",
+   "nummer": "142",
+   "sachueberschrift": "Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-143": {
+   "erlass": "DBG",
+   "nummer": "143",
+   "sachueberschrift": "Entscheid",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-144": {
+   "erlass": "DBG",
+   "nummer": "144",
+   "sachueberschrift": "Kosten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-145": {
+   "erlass": "DBG",
+   "nummer": "145",
+   "sachueberschrift": "Vor einer weiteren kantonalen Beschwerdeinstanz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-146": {
+   "erlass": "DBG",
+   "nummer": "146",
+   "sachueberschrift": "Vor Bundesgericht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-147": {
+   "erlass": "DBG",
+   "nummer": "147",
+   "sachueberschrift": "Gründe",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-148": {
+   "erlass": "DBG",
+   "nummer": "148",
+   "sachueberschrift": "Frist",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-149": {
+   "erlass": "DBG",
+   "nummer": "149",
+   "sachueberschrift": "Verfahren und Entscheid",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-150": {
+   "erlass": "DBG",
+   "nummer": "150",
+   "sachueberschrift": "Berichtigung von Rechnungsfehlern und Schreibversehen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-151": {
+   "erlass": "DBG",
+   "nummer": "151",
+   "sachueberschrift": "Ordentliche Nachsteuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-152": {
+   "erlass": "DBG",
+   "nummer": "152",
+   "sachueberschrift": "Verwirkung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-153": {
+   "erlass": "DBG",
+   "nummer": "153",
+   "sachueberschrift": "Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-153a": {
+   "erlass": "DBG",
+   "nummer": "153a",
+   "sachueberschrift": "Vereinfachte Nachbesteuerung von Erben",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-154": {
+   "erlass": "DBG",
+   "nummer": "154",
+   "sachueberschrift": "Inventarpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-155": {
+   "erlass": "DBG",
+   "nummer": "155",
+   "sachueberschrift": "Gegenstand",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-156": {
+   "erlass": "DBG",
+   "nummer": "156",
+   "sachueberschrift": "Sicherung der Inventaraufnahme",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-157": {
+   "erlass": "DBG",
+   "nummer": "157",
+   "sachueberschrift": "Mitwirkungspflichten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-158": {
+   "erlass": "DBG",
+   "nummer": "158",
+   "sachueberschrift": "Auskunfts- und Bescheinigungspflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-159": {
+   "erlass": "DBG",
+   "nummer": "159",
+   "sachueberschrift": "Behörden",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-160": {
+   "erlass": "DBG",
+   "nummer": "160",
+   "sachueberschrift": "Bezugskanton",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-161": {
+   "erlass": "DBG",
+   "nummer": "161",
+   "sachueberschrift": "Fälligkeit der Steuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-162": {
+   "erlass": "DBG",
+   "nummer": "162",
+   "sachueberschrift": "Provisorischer und definitiver Bezug",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-163": {
+   "erlass": "DBG",
+   "nummer": "163",
+   "sachueberschrift": "Zahlung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-164": {
+   "erlass": "DBG",
+   "nummer": "164",
+   "sachueberschrift": "Verzugszins",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-165": {
+   "erlass": "DBG",
+   "nummer": "165",
+   "sachueberschrift": "Zwangsvollstreckung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-166": {
+   "erlass": "DBG",
+   "nummer": "166",
+   "sachueberschrift": "Zahlungserleichterungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-167": {
+   "erlass": "DBG",
+   "nummer": "167",
+   "sachueberschrift": "Voraussetzungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-167a": {
+   "erlass": "DBG",
+   "nummer": "167a",
+   "sachueberschrift": "Ablehnungsgründe",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-167b": {
+   "erlass": "DBG",
+   "nummer": "167b",
+   "sachueberschrift": "Erlassbehörde",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-167c": {
+   "erlass": "DBG",
+   "nummer": "167c",
+   "sachueberschrift": "Inhalt des Erlassgesuchs",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-167d": {
+   "erlass": "DBG",
+   "nummer": "167d",
+   "sachueberschrift": "Verfahrensrechte und Verfahrenspflichten der gesuchstellenden Person",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-167e": {
+   "erlass": "DBG",
+   "nummer": "167e",
+   "sachueberschrift": "Untersuchungsmittel der Erlassbehörde",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-167f": {
+   "erlass": "DBG",
+   "nummer": "167f",
+   "sachueberschrift": "Ausführungsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-167g": {
+   "erlass": "DBG",
+   "nummer": "167g",
+   "sachueberschrift": "Rechtsmittelverfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-168": {
+   "erlass": "DBG",
+   "nummer": "168",
+   "sachueberschrift": "Rückforderung bezahlter Steuern",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-169": {
+   "erlass": "DBG",
+   "nummer": "169",
+   "sachueberschrift": "Sicherstellung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-170": {
+   "erlass": "DBG",
+   "nummer": "170",
+   "sachueberschrift": "Arrest",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-171": {
+   "erlass": "DBG",
+   "nummer": "171",
+   "sachueberschrift": "Löschung im Handelsregister",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-172": {
+   "erlass": "DBG",
+   "nummer": "172",
+   "sachueberschrift": "Eintrag im Grundbuch",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-173": {
+   "erlass": "DBG",
+   "nummer": "173",
+   "sachueberschrift": "Sicherstellung der für die Vermittlungstätigkeit an Grundstücken geschuldeten Steuern",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-174": {
+   "erlass": "DBG",
+   "nummer": "174",
+   "sachueberschrift": "Verfahrenspflichten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-175": {
+   "erlass": "DBG",
+   "nummer": "175",
+   "sachueberschrift": "Vollendete Steuerhinterziehung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-176": {
+   "erlass": "DBG",
+   "nummer": "176",
+   "sachueberschrift": "Versuchte Steuerhinterziehung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-177": {
+   "erlass": "DBG",
+   "nummer": "177",
+   "sachueberschrift": "Anstiftung, Gehilfenschaft, Mitwirkung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-178": {
+   "erlass": "DBG",
+   "nummer": "178",
+   "sachueberschrift": "Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-179": {
+   "erlass": "DBG",
+   "nummer": "179",
+   "sachueberschrift": "Steuerhinterziehung",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-180": {
+   "erlass": "DBG",
+   "nummer": "180",
+   "sachueberschrift": "Steuerhinterziehung von Ehegatten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-181": {
+   "erlass": "DBG",
+   "nummer": "181",
+   "sachueberschrift": "Allgemeines",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-181a": {
+   "erlass": "DBG",
+   "nummer": "181a",
+   "sachueberschrift": "Selbstanzeige",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-182": {
+   "erlass": "DBG",
+   "nummer": "182",
+   "sachueberschrift": "Allgemeines",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-183": {
+   "erlass": "DBG",
+   "nummer": "183",
+   "sachueberschrift": "Bei Steuerhinterziehungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-184": {
+   "erlass": "DBG",
+   "nummer": "184",
+   "sachueberschrift": "Verjährung der Strafverfolgung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-185": {
+   "erlass": "DBG",
+   "nummer": "185",
+   "sachueberschrift": "Bezug und Verjährung der Bussen und Kosten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-186": {
+   "erlass": "DBG",
+   "nummer": "186",
+   "sachueberschrift": "Steuerbetrug",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-187": {
+   "erlass": "DBG",
+   "nummer": "187",
+   "sachueberschrift": "Veruntreuung von Quellensteuern",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-188": {
+   "erlass": "DBG",
+   "nummer": "188",
+   "sachueberschrift": "Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-189": {
+   "erlass": "DBG",
+   "nummer": "189",
+   "sachueberschrift": "Verjährung der Strafverfolgung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-190": {
+   "erlass": "DBG",
+   "nummer": "190",
+   "sachueberschrift": "Voraussetzungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-191": {
+   "erlass": "DBG",
+   "nummer": "191",
+   "sachueberschrift": "Verfahren gegen Täter, Gehilfen und Anstifter",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-192": {
+   "erlass": "DBG",
+   "nummer": "192",
+   "sachueberschrift": "Untersuchungsmassnahmen gegen am Verfahren nicht beteiligte Dritte",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-193": {
+   "erlass": "DBG",
+   "nummer": "193",
+   "sachueberschrift": "Abschluss der Untersuchung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-194": {
+   "erlass": "DBG",
+   "nummer": "194",
+   "sachueberschrift": "Antrag auf Weiterverfolgung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-195": {
+   "erlass": "DBG",
+   "nummer": "195",
+   "sachueberschrift": "Weitere Verfahrensvorschriften",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-196": {
+   "erlass": "DBG",
+   "nummer": "196",
+   "sachueberschrift": "Abrechnung mit dem Bund",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-197": {
+   "erlass": "DBG",
+   "nummer": "197",
+   "sachueberschrift": "Verteilung der kantonalen Anteile",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-198": {
+   "erlass": "DBG",
+   "nummer": "198",
+   "sachueberschrift": "Kosten der Kantone",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-199": {
+   "erlass": "DBG",
+   "nummer": "199",
+   "sachueberschrift": "Erster Titel: Ausführungsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-200": {
+   "erlass": "DBG",
+   "nummer": "200",
+   "sachueberschrift": "Zweiter Titel: Kantonale Stempelabgaben",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-201": {
+   "erlass": "DBG",
+   "nummer": "201",
+   "sachueberschrift": "Aufhebung des BdBSt",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-202": {
+   "erlass": "DBG",
+   "nummer": "202",
+   "sachueberschrift": "Änderung des MVG",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-203": {
+   "erlass": "DBG",
+   "nummer": "203",
+   "sachueberschrift": "Änderung des AHVG",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-204": {
+   "erlass": "DBG",
+   "nummer": "204",
+   "sachueberschrift": "Renten und Kapitalabfindungen aus Einrichtungen der beruflichen Vorsorge",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-205": {
+   "erlass": "DBG",
+   "nummer": "205",
+   "sachueberschrift": "Einkauf von Beitragsjahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-205a": {
+   "erlass": "DBG",
+   "nummer": "205a",
+   "sachueberschrift": "Altrechtliche Kapitalversicherungen mit Einmalprämien",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-205b": {
+   "erlass": "DBG",
+   "nummer": "205b",
+   "sachueberschrift": "Dringende Anpassungen bei der Unternehmensbesteuerung; Rückwirkung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-205c": {
+   "erlass": "DBG",
+   "nummer": "205c",
+   "sachueberschrift": "Natürliche Personen",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-205d": {
+   "erlass": "DBG",
+   "nummer": "205d",
+   "sachueberschrift": "d Übergangsbestimmung zur Änderung vom 28. September 2012",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-205e": {
+   "erlass": "DBG",
+   "nummer": "205e",
+   "sachueberschrift": "Übergangsbestimmung zur Änderung vom 20. Juni 2014",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-205f": {
+   "erlass": "DBG",
+   "nummer": "205f",
+   "sachueberschrift": "Übergangsbestimmung zur Änderung vom 26. September 2014",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-205bbis": {
+   "erlass": "DBG",
+   "nummer": "205bbis",
+   "sachueberschrift": "Übergangsbestimmung zur Änderung vom 20. März 2008",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-206": {
+   "erlass": "DBG",
+   "nummer": "206",
+   "sachueberschrift": "Juristische Personen",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-207": {
+   "erlass": "DBG",
+   "nummer": "207",
+   "sachueberschrift": "Steuerermässigung bei Liquidation von Immobiliengesellschaften",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-207a": {
+   "erlass": "DBG",
+   "nummer": "207a",
+   "sachueberschrift": "Übergangsbestimmung zur Änderung vom 10. Oktober 1997",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-207b": {
+   "erlass": "DBG",
+   "nummer": "207b",
+   "sachueberschrift": "Übergangsbestimmung zur Änderung vom 20. Juni 2014",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-208–220": {
+   "erlass": "DBG",
+   "nummer": "208–220",
+   "sachueberschrift": "Juristische Personen",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-220a": {
+   "erlass": "DBG",
+   "nummer": "220a",
+   "sachueberschrift": "Juristische Personen",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-221": {
+   "erlass": "DBG",
+   "nummer": "221",
+   "sachueberschrift": "Fünfter Titel: Referendum und Inkrafttreten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "DBG/art-222": {
+   "erlass": "DBG",
+   "nummer": "222",
+   "sachueberschrift": "Fünfter Titel: Referendum und Inkrafttreten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-1": {
+   "erlass": "StHG",
+   "nummer": "1",
+   "sachueberschrift": "Zweck und Geltungsbereich",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-2": {
+   "erlass": "StHG",
+   "nummer": "2",
+   "sachueberschrift": "Vorgeschriebene direkte Steuern",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-3": {
+   "erlass": "StHG",
+   "nummer": "3",
+   "sachueberschrift": "Steuerpflicht aufgrund persönlicher Zugehörigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-4": {
+   "erlass": "StHG",
+   "nummer": "4",
+   "sachueberschrift": "Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-4a": {
+   "erlass": "StHG",
+   "nummer": "4a",
+   "sachueberschrift": "Steuerbefreiung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-4b": {
+   "erlass": "StHG",
+   "nummer": "4b",
+   "sachueberschrift": "Wechsel der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-5": {
+   "erlass": "StHG",
+   "nummer": "5",
+   "sachueberschrift": "Steuererleichterungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-6": {
+   "erlass": "StHG",
+   "nummer": "6",
+   "sachueberschrift": "Besteuerung nach dem Aufwand",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-7": {
+   "erlass": "StHG",
+   "nummer": "7",
+   "sachueberschrift": "Grundsatz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-7a": {
+   "erlass": "StHG",
+   "nummer": "7a",
+   "sachueberschrift": "Besondere Fälle",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-7b": {
+   "erlass": "StHG",
+   "nummer": "7b",
+   "sachueberschrift": "Kapitaleinlagenprinzip",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-7c": {
+   "erlass": "StHG",
+   "nummer": "7c",
+   "sachueberschrift": "Mitarbeiterbeteiligungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-7d": {
+   "erlass": "StHG",
+   "nummer": "7d",
+   "sachueberschrift": "Einkünfte aus echten Mitarbeiterbeteiligungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-7e": {
+   "erlass": "StHG",
+   "nummer": "7e",
+   "sachueberschrift": "Einkünfte aus unechten Mitarbeiterbeteiligungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-7f": {
+   "erlass": "StHG",
+   "nummer": "7f",
+   "sachueberschrift": "Anteilsmässige Besteuerung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-8": {
+   "erlass": "StHG",
+   "nummer": "8",
+   "sachueberschrift": "Selbständige Erwerbstätigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-8a": {
+   "erlass": "StHG",
+   "nummer": "8a",
+   "sachueberschrift": "Einkommen aus Patenten und vergleichbaren Rechten bei selbstständiger Erwerbstätigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-9": {
+   "erlass": "StHG",
+   "nummer": "9",
+   "sachueberschrift": "Allgemeines",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-10": {
+   "erlass": "StHG",
+   "nummer": "10",
+   "sachueberschrift": "Selbständige Erwerbstätigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-10a": {
+   "erlass": "StHG",
+   "nummer": "10a",
+   "sachueberschrift": "Abzug von Forschungs- und Entwicklungsaufwand bei selbstständiger Erwerbstätigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-11": {
+   "erlass": "StHG",
+   "nummer": "11",
+   "sachueberschrift": "Steuerberechnung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-12": {
+   "erlass": "StHG",
+   "nummer": "12",
+   "sachueberschrift": "Grundstückgewinnsteuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-13": {
+   "erlass": "StHG",
+   "nummer": "13",
+   "sachueberschrift": "Steuerobjekt",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-14": {
+   "erlass": "StHG",
+   "nummer": "14",
+   "sachueberschrift": "Bewertung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-14a": {
+   "erlass": "StHG",
+   "nummer": "14a",
+   "sachueberschrift": "Bewertung von Mitarbeiterbeteiligungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-15": {
+   "erlass": "StHG",
+   "nummer": "15",
+   "sachueberschrift": "Steuerperiode",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-16": {
+   "erlass": "StHG",
+   "nummer": "16",
+   "sachueberschrift": "Bemessung des Einkommens",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-17": {
+   "erlass": "StHG",
+   "nummer": "17",
+   "sachueberschrift": "Bemessung des Vermögens",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-18": {
+   "erlass": "StHG",
+   "nummer": "18",
+   "sachueberschrift": "Veranlagung bei Begründung und Auflösung der Ehe",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-19": {
+   "erlass": "StHG",
+   "nummer": "19",
+   "sachueberschrift": "Grundstückgewinne",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-20": {
+   "erlass": "StHG",
+   "nummer": "20",
+   "sachueberschrift": "Steuerpflicht aufgrund persönlicher Zugehörigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-21": {
+   "erlass": "StHG",
+   "nummer": "21",
+   "sachueberschrift": "Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-22": {
+   "erlass": "StHG",
+   "nummer": "22",
+   "sachueberschrift": "Wechsel der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-23": {
+   "erlass": "StHG",
+   "nummer": "23",
+   "sachueberschrift": "Ausnahmen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-24": {
+   "erlass": "StHG",
+   "nummer": "24",
+   "sachueberschrift": "Allgemeines",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-24a": {
+   "erlass": "StHG",
+   "nummer": "24a",
+   "sachueberschrift": "Patente und vergleichbare Rechte: Begriffe",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-24b": {
+   "erlass": "StHG",
+   "nummer": "24b",
+   "sachueberschrift": "Patente und vergleichbare Rechte: Besteuerung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-24c": {
+   "erlass": "StHG",
+   "nummer": "24c",
+   "sachueberschrift": "Aufdeckung stiller Reserven bei Beginn der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-24d": {
+   "erlass": "StHG",
+   "nummer": "24d",
+   "sachueberschrift": "Besteuerung stiller Reserven am Ende der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-25": {
+   "erlass": "StHG",
+   "nummer": "25",
+   "sachueberschrift": "Aufwand",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-25a": {
+   "erlass": "StHG",
+   "nummer": "25a",
+   "sachueberschrift": "Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-25b": {
+   "erlass": "StHG",
+   "nummer": "25b",
+   "sachueberschrift": "Entlastungsbegrenzung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-25abis": {
+   "erlass": "StHG",
+   "nummer": "25abis",
+   "sachueberschrift": "Abzug auf Eigenfinanzierung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-26": {
+   "erlass": "StHG",
+   "nummer": "26",
+   "sachueberschrift": "Gewinn von Vereinen, Stiftungen und kollektiven Kapitalanlagen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-26a": {
+   "erlass": "StHG",
+   "nummer": "26a",
+   "sachueberschrift": "Gewinne von juristischen Personen mit ideellen Zwecken",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-27": {
+   "erlass": "StHG",
+   "nummer": "27",
+   "sachueberschrift": "Allgemeines",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-28": {
+   "erlass": "StHG",
+   "nummer": "28",
+   "sachueberschrift": "Besondere Fälle",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-29": {
+   "erlass": "StHG",
+   "nummer": "29",
+   "sachueberschrift": "Steuerobjekt; im Allgemeinen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-29a": {
+   "erlass": "StHG",
+   "nummer": "29a",
+   "sachueberschrift": "Steuerobjekt; verdecktes Eigenkapital",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-30": {
+   "erlass": "StHG",
+   "nummer": "30",
+   "sachueberschrift": "Steuerberechnung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-31": {
+   "erlass": "StHG",
+   "nummer": "31",
+   "sachueberschrift": "Zeitliche Bemessung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-32": {
+   "erlass": "StHG",
+   "nummer": "32",
+   "sachueberschrift": "Geltungsbereich",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-33": {
+   "erlass": "StHG",
+   "nummer": "33",
+   "sachueberschrift": "Ausgestaltung des Steuerabzuges",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-33a": {
+   "erlass": "StHG",
+   "nummer": "33a",
+   "sachueberschrift": "Obligatorische nachträgliche ordentliche Veranlagung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-33b": {
+   "erlass": "StHG",
+   "nummer": "33b",
+   "sachueberschrift": "Nachträgliche ordentliche Veranlagung auf Antrag",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-34": {
+   "erlass": "StHG",
+   "nummer": "34",
+   "sachueberschrift": "Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-35": {
+   "erlass": "StHG",
+   "nummer": "35",
+   "sachueberschrift": "Geltungsbereich",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-35a": {
+   "erlass": "StHG",
+   "nummer": "35a",
+   "sachueberschrift": "Nachträgliche ordentliche Veranlagung auf Antrag",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-35b": {
+   "erlass": "StHG",
+   "nummer": "35b",
+   "sachueberschrift": "Nachträgliche ordentliche Veranlagung von Amtes wegen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-36": {
+   "erlass": "StHG",
+   "nummer": "36",
+   "sachueberschrift": "Ausgestaltung des Steuerabzuges",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-36a": {
+   "erlass": "StHG",
+   "nummer": "36a",
+   "sachueberschrift": "Abgegoltene Steuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-37": {
+   "erlass": "StHG",
+   "nummer": "37",
+   "sachueberschrift": "Pflichten des Schuldners der steuerbaren Leistung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-38": {
+   "erlass": "StHG",
+   "nummer": "38",
+   "sachueberschrift": "Örtliche Zuständigkeit",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-38a": {
+   "erlass": "StHG",
+   "nummer": "38a",
+   "sachueberschrift": "Interkantonales Verhältnis",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-38b": {
+   "erlass": "StHG",
+   "nummer": "38b",
+   "sachueberschrift": "Elektronische Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-39": {
+   "erlass": "StHG",
+   "nummer": "39",
+   "sachueberschrift": "Amtspflichten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-39a": {
+   "erlass": "StHG",
+   "nummer": "39a",
+   "sachueberschrift": "Datenbearbeitung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-40": {
+   "erlass": "StHG",
+   "nummer": "40",
+   "sachueberschrift": "Verfahrensrechtliche Stellung der Ehegatten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-41": {
+   "erlass": "StHG",
+   "nummer": "41",
+   "sachueberschrift": "Verfahrensrechte des Steuerpflichtigen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-42": {
+   "erlass": "StHG",
+   "nummer": "42",
+   "sachueberschrift": "Verfahrenspflichten des Steuerpflichtigen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-43": {
+   "erlass": "StHG",
+   "nummer": "43",
+   "sachueberschrift": "Bescheinigungspflicht Dritter",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-44": {
+   "erlass": "StHG",
+   "nummer": "44",
+   "sachueberschrift": "Auskunftspflicht Dritter",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-45": {
+   "erlass": "StHG",
+   "nummer": "45",
+   "sachueberschrift": "Meldepflicht Dritter",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-46": {
+   "erlass": "StHG",
+   "nummer": "46",
+   "sachueberschrift": "Veranlagung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-47": {
+   "erlass": "StHG",
+   "nummer": "47",
+   "sachueberschrift": "Verjährung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-48": {
+   "erlass": "StHG",
+   "nummer": "48",
+   "sachueberschrift": "Einsprache",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-49": {
+   "erlass": "StHG",
+   "nummer": "49",
+   "sachueberschrift": "Verfahren bei Erhebung der Quellensteuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-50": {
+   "erlass": "StHG",
+   "nummer": "50",
+   "sachueberschrift": "Rekursverfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-51": {
+   "erlass": "StHG",
+   "nummer": "51",
+   "sachueberschrift": "Revision",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-52": {
+   "erlass": "StHG",
+   "nummer": "52",
+   "sachueberschrift": "Rechnungsfehler und Schreibversehen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-53": {
+   "erlass": "StHG",
+   "nummer": "53",
+   "sachueberschrift": "Ordentliche Nachsteuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-53a": {
+   "erlass": "StHG",
+   "nummer": "53a",
+   "sachueberschrift": "Vereinfachte Nachbesteuerung von Erben",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-54": {
+   "erlass": "StHG",
+   "nummer": "54",
+   "sachueberschrift": "Inventar",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-55": {
+   "erlass": "StHG",
+   "nummer": "55",
+   "sachueberschrift": "Verletzung von Verfahrenspflichten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-56": {
+   "erlass": "StHG",
+   "nummer": "56",
+   "sachueberschrift": "Steuerhinterziehung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-57": {
+   "erlass": "StHG",
+   "nummer": "57",
+   "sachueberschrift": "Besondere Fälle",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-57a": {
+   "erlass": "StHG",
+   "nummer": "57a",
+   "sachueberschrift": "Eröffnung des Strafverfahrens wegen Steuerhinterziehung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-57b": {
+   "erlass": "StHG",
+   "nummer": "57b",
+   "sachueberschrift": "Selbstanzeige juristischer Personen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-57bis": {
+   "erlass": "StHG",
+   "nummer": "57bis",
+   "sachueberschrift": "Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-58": {
+   "erlass": "StHG",
+   "nummer": "58",
+   "sachueberschrift": "Verjährung der Strafverfolgung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-59": {
+   "erlass": "StHG",
+   "nummer": "59",
+   "sachueberschrift": "Steuerbetrug",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-60": {
+   "erlass": "StHG",
+   "nummer": "60",
+   "sachueberschrift": "Verjährung der Strafverfolgung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-61": {
+   "erlass": "StHG",
+   "nummer": "61",
+   "sachueberschrift": "Verfahren und Vollzug",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-62–70": {
+   "erlass": "StHG",
+   "nummer": "62–70",
+   "sachueberschrift": "Siebter Titel: …",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-71": {
+   "erlass": "StHG",
+   "nummer": "71",
+   "sachueberschrift": "Mitwirkung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72": {
+   "erlass": "StHG",
+   "nummer": "72",
+   "sachueberschrift": "Anpassung der kantonalen Gesetzgebungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72a": {
+   "erlass": "StHG",
+   "nummer": "72a",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72b": {
+   "erlass": "StHG",
+   "nummer": "72b",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72c": {
+   "erlass": "StHG",
+   "nummer": "72c",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72d": {
+   "erlass": "StHG",
+   "nummer": "72d",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72e": {
+   "erlass": "StHG",
+   "nummer": "72e",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72f": {
+   "erlass": "StHG",
+   "nummer": "72f",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72g": {
+   "erlass": "StHG",
+   "nummer": "72g",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72h": {
+   "erlass": "StHG",
+   "nummer": "72h",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72i": {
+   "erlass": "StHG",
+   "nummer": "72i",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72j": {
+   "erlass": "StHG",
+   "nummer": "72j",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72k": {
+   "erlass": "StHG",
+   "nummer": "72k",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72l": {
+   "erlass": "StHG",
+   "nummer": "72l",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72m": {
+   "erlass": "StHG",
+   "nummer": "72m",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72n": {
+   "erlass": "StHG",
+   "nummer": "72n",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72o": {
+   "erlass": "StHG",
+   "nummer": "72o",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72p": {
+   "erlass": "StHG",
+   "nummer": "72p",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72q": {
+   "erlass": "StHG",
+   "nummer": "72q",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72r": {
+   "erlass": "StHG",
+   "nummer": "72r",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72s": {
+   "erlass": "StHG",
+   "nummer": "72s",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72t": {
+   "erlass": "StHG",
+   "nummer": "72t",
+   "sachueberschrift": "Anpassung der kantonalen Gesetzgebung an die Änderung vom 20. März 2015",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72u": {
+   "erlass": "StHG",
+   "nummer": "72u",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72v": {
+   "erlass": "StHG",
+   "nummer": "72v",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72w": {
+   "erlass": "StHG",
+   "nummer": "72w",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72x": {
+   "erlass": "StHG",
+   "nummer": "72x",
+   "sachueberschrift": "Anpassung der kantonalen Gesetzgebung an die Änderung vom 29. September 2017",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72y": {
+   "erlass": "StHG",
+   "nummer": "72y",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72z": {
+   "erlass": "StHG",
+   "nummer": "72z",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-72zbis": {
+   "erlass": "StHG",
+   "nummer": "72zbis",
+   "sachueberschrift": "Durchführung durch die Kantone",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-73": {
+   "erlass": "StHG",
+   "nummer": "73",
+   "sachueberschrift": "Beschwerde",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-74": {
+   "erlass": "StHG",
+   "nummer": "74",
+   "sachueberschrift": "Vollzugsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-75": {
+   "erlass": "StHG",
+   "nummer": "75",
+   "sachueberschrift": "Änderung des AHVG",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-76": {
+   "erlass": "StHG",
+   "nummer": "76",
+   "sachueberschrift": "Leistungen aus Militärversicherung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-77": {
+   "erlass": "StHG",
+   "nummer": "77",
+   "sachueberschrift": "Reingewinnsteuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-78": {
+   "erlass": "StHG",
+   "nummer": "78",
+   "sachueberschrift": "Arrest",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-78a": {
+   "erlass": "StHG",
+   "nummer": "78a",
+   "sachueberschrift": "Kapitalversicherungen mit Einmalprämie",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-78b": {
+   "erlass": "StHG",
+   "nummer": "78b",
+   "sachueberschrift": "Übergangsbestimmungen",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-78c": {
+   "erlass": "StHG",
+   "nummer": "78c",
+   "sachueberschrift": "Übergangsbestimmungen zur Änderung vom 8. Oktober 2004",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-78d": {
+   "erlass": "StHG",
+   "nummer": "78d",
+   "sachueberschrift": "Übergangsbestimmung zur Änderung vom 20. März 2008",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-78e": {
+   "erlass": "StHG",
+   "nummer": "78e",
+   "sachueberschrift": "e Übergangsbestimmung zur Änderung vom 28. September 2012",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-78f": {
+   "erlass": "StHG",
+   "nummer": "78f",
+   "sachueberschrift": "Übergangsbestimmung zur Änderung vom 26. September 2014",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-78g": {
+   "erlass": "StHG",
+   "nummer": "78g",
+   "sachueberschrift": "Übergangsbestimmungen zur Änderung vom 28. September 2018",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StHG/art-79": {
+   "erlass": "StHG",
+   "nummer": "79",
+   "sachueberschrift": "Referendum und Inkrafttreten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-1": {
+   "erlass": "VStG",
+   "nummer": "1",
+   "sachueberschrift": "Einleitung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-2": {
+   "erlass": "VStG",
+   "nummer": "2",
+   "sachueberschrift": "Einleitung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-3": {
+   "erlass": "VStG",
+   "nummer": "3",
+   "sachueberschrift": "Einleitung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-4": {
+   "erlass": "VStG",
+   "nummer": "4",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-4a": {
+   "erlass": "VStG",
+   "nummer": "4a",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-5": {
+   "erlass": "VStG",
+   "nummer": "5",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-6": {
+   "erlass": "VStG",
+   "nummer": "6",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-7": {
+   "erlass": "VStG",
+   "nummer": "7",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-8": {
+   "erlass": "VStG",
+   "nummer": "8",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-9": {
+   "erlass": "VStG",
+   "nummer": "9",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-10": {
+   "erlass": "VStG",
+   "nummer": "10",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-11": {
+   "erlass": "VStG",
+   "nummer": "11",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-12": {
+   "erlass": "VStG",
+   "nummer": "12",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-13": {
+   "erlass": "VStG",
+   "nummer": "13",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-14": {
+   "erlass": "VStG",
+   "nummer": "14",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-15": {
+   "erlass": "VStG",
+   "nummer": "15",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-16": {
+   "erlass": "VStG",
+   "nummer": "16",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-17": {
+   "erlass": "VStG",
+   "nummer": "17",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-18": {
+   "erlass": "VStG",
+   "nummer": "18",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-19": {
+   "erlass": "VStG",
+   "nummer": "19",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-20": {
+   "erlass": "VStG",
+   "nummer": "20",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-20a": {
+   "erlass": "VStG",
+   "nummer": "20a",
+   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-21": {
+   "erlass": "VStG",
+   "nummer": "21",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-22": {
+   "erlass": "VStG",
+   "nummer": "22",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-23": {
+   "erlass": "VStG",
+   "nummer": "23",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-24": {
+   "erlass": "VStG",
+   "nummer": "24",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-25": {
+   "erlass": "VStG",
+   "nummer": "25",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-26": {
+   "erlass": "VStG",
+   "nummer": "26",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-27": {
+   "erlass": "VStG",
+   "nummer": "27",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-28": {
+   "erlass": "VStG",
+   "nummer": "28",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-29": {
+   "erlass": "VStG",
+   "nummer": "29",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-30": {
+   "erlass": "VStG",
+   "nummer": "30",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-31": {
+   "erlass": "VStG",
+   "nummer": "31",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-32": {
+   "erlass": "VStG",
+   "nummer": "32",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-33": {
+   "erlass": "VStG",
+   "nummer": "33",
+   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-34": {
+   "erlass": "VStG",
+   "nummer": "34",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-34a": {
+   "erlass": "VStG",
+   "nummer": "34a",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-35": {
+   "erlass": "VStG",
+   "nummer": "35",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-35a": {
+   "erlass": "VStG",
+   "nummer": "35a",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-36": {
+   "erlass": "VStG",
+   "nummer": "36",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-36a": {
+   "erlass": "VStG",
+   "nummer": "36a",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-37": {
+   "erlass": "VStG",
+   "nummer": "37",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-38": {
+   "erlass": "VStG",
+   "nummer": "38",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-39": {
+   "erlass": "VStG",
+   "nummer": "39",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-40": {
+   "erlass": "VStG",
+   "nummer": "40",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-41": {
+   "erlass": "VStG",
+   "nummer": "41",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-42": {
+   "erlass": "VStG",
+   "nummer": "42",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-42a": {
+   "erlass": "VStG",
+   "nummer": "42a",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-43": {
+   "erlass": "VStG",
+   "nummer": "43",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-44": {
+   "erlass": "VStG",
+   "nummer": "44",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-45": {
+   "erlass": "VStG",
+   "nummer": "45",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-46": {
+   "erlass": "VStG",
+   "nummer": "46",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-47": {
+   "erlass": "VStG",
+   "nummer": "47",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-48": {
+   "erlass": "VStG",
+   "nummer": "48",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-49": {
+   "erlass": "VStG",
+   "nummer": "49",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-50": {
+   "erlass": "VStG",
+   "nummer": "50",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-51": {
+   "erlass": "VStG",
+   "nummer": "51",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-52": {
+   "erlass": "VStG",
+   "nummer": "52",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-53": {
+   "erlass": "VStG",
+   "nummer": "53",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-54": {
+   "erlass": "VStG",
+   "nummer": "54",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-55": {
+   "erlass": "VStG",
+   "nummer": "55",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-56": {
+   "erlass": "VStG",
+   "nummer": "56",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-57": {
+   "erlass": "VStG",
+   "nummer": "57",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-58": {
+   "erlass": "VStG",
+   "nummer": "58",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-59": {
+   "erlass": "VStG",
+   "nummer": "59",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-60": {
+   "erlass": "VStG",
+   "nummer": "60",
+   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-61": {
+   "erlass": "VStG",
+   "nummer": "61",
+   "sachueberschrift": "Vierter Abschnitt: Strafbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-62": {
+   "erlass": "VStG",
+   "nummer": "62",
+   "sachueberschrift": "Vierter Abschnitt: Strafbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-63": {
+   "erlass": "VStG",
+   "nummer": "63",
+   "sachueberschrift": "Vierter Abschnitt: Strafbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-64": {
+   "erlass": "VStG",
+   "nummer": "64",
+   "sachueberschrift": "Vierter Abschnitt: Strafbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-65–66": {
+   "erlass": "VStG",
+   "nummer": "65–66",
+   "sachueberschrift": "und",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-67": {
+   "erlass": "VStG",
+   "nummer": "67",
+   "sachueberschrift": "Vierter Abschnitt: Strafbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-68": {
+   "erlass": "VStG",
+   "nummer": "68",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-69": {
+   "erlass": "VStG",
+   "nummer": "69",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-70": {
+   "erlass": "VStG",
+   "nummer": "70",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-70a": {
+   "erlass": "VStG",
+   "nummer": "70a",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-70b": {
+   "erlass": "VStG",
+   "nummer": "70b",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-70c": {
+   "erlass": "VStG",
+   "nummer": "70c",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-70d": {
+   "erlass": "VStG",
+   "nummer": "70d",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-71": {
+   "erlass": "VStG",
+   "nummer": "71",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-72": {
+   "erlass": "VStG",
+   "nummer": "72",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-73": {
+   "erlass": "VStG",
+   "nummer": "73",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "VStG/art-74": {
+   "erlass": "VStG",
+   "nummer": "74",
+   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-1": {
+   "erlass": "MWSTG",
+   "nummer": "1",
+   "sachueberschrift": "Gegenstand und Grundsätze",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-2": {
+   "erlass": "MWSTG",
+   "nummer": "2",
+   "sachueberschrift": "Verhältnis zum kantonalen Recht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-3": {
+   "erlass": "MWSTG",
+   "nummer": "3",
+   "sachueberschrift": "Begriffe",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-4": {
+   "erlass": "MWSTG",
+   "nummer": "4",
+   "sachueberschrift": "Samnaun und Sampuoir",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-5": {
+   "erlass": "MWSTG",
+   "nummer": "5",
+   "sachueberschrift": "Indexierung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-6": {
+   "erlass": "MWSTG",
+   "nummer": "6",
+   "sachueberschrift": "Steuerüberwälzung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-7": {
+   "erlass": "MWSTG",
+   "nummer": "7",
+   "sachueberschrift": "Ort der Lieferung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-8": {
+   "erlass": "MWSTG",
+   "nummer": "8",
+   "sachueberschrift": "Ort der Dienstleistung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-9": {
+   "erlass": "MWSTG",
+   "nummer": "9",
+   "sachueberschrift": "Vermeidung von Wettbewerbsverzerrungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-10": {
+   "erlass": "MWSTG",
+   "nummer": "10",
+   "sachueberschrift": "Grundsatz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-11": {
+   "erlass": "MWSTG",
+   "nummer": "11",
+   "sachueberschrift": "Verzicht auf die Befreiung von der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-12": {
+   "erlass": "MWSTG",
+   "nummer": "12",
+   "sachueberschrift": "Gemeinwesen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-13": {
+   "erlass": "MWSTG",
+   "nummer": "13",
+   "sachueberschrift": "Gruppenbesteuerung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-14": {
+   "erlass": "MWSTG",
+   "nummer": "14",
+   "sachueberschrift": "Beginn und Ende der Steuerpflicht und der Befreiung von der Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-15": {
+   "erlass": "MWSTG",
+   "nummer": "15",
+   "sachueberschrift": "Mithaftung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-16": {
+   "erlass": "MWSTG",
+   "nummer": "16",
+   "sachueberschrift": "Steuernachfolge",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-17": {
+   "erlass": "MWSTG",
+   "nummer": "17",
+   "sachueberschrift": "Steuersubstitution",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-18": {
+   "erlass": "MWSTG",
+   "nummer": "18",
+   "sachueberschrift": "Grundsatz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-19": {
+   "erlass": "MWSTG",
+   "nummer": "19",
+   "sachueberschrift": "Mehrheit von Leistungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-20": {
+   "erlass": "MWSTG",
+   "nummer": "20",
+   "sachueberschrift": "Zuordnung von Leistungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-20a": {
+   "erlass": "MWSTG",
+   "nummer": "20a",
+   "sachueberschrift": "Zuordnung von Leistungen bei Lieferungen über elektronische Plattformen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-21": {
+   "erlass": "MWSTG",
+   "nummer": "21",
+   "sachueberschrift": "Von der Steuer ausgenommene Leistungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-22": {
+   "erlass": "MWSTG",
+   "nummer": "22",
+   "sachueberschrift": "Option für die Versteuerung der von der Steuer ausgenommenen Leistungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-23": {
+   "erlass": "MWSTG",
+   "nummer": "23",
+   "sachueberschrift": "Von der Steuer befreite Leistungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-24": {
+   "erlass": "MWSTG",
+   "nummer": "24",
+   "sachueberschrift": "Bemessungsgrundlage",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-24a": {
+   "erlass": "MWSTG",
+   "nummer": "24a",
+   "sachueberschrift": "Margenbesteuerung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-25": {
+   "erlass": "MWSTG",
+   "nummer": "25",
+   "sachueberschrift": "Steuersätze",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-26": {
+   "erlass": "MWSTG",
+   "nummer": "26",
+   "sachueberschrift": "Rechnung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-27": {
+   "erlass": "MWSTG",
+   "nummer": "27",
+   "sachueberschrift": "Unrichtiger oder unberechtigter Steuerausweis",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-28": {
+   "erlass": "MWSTG",
+   "nummer": "28",
+   "sachueberschrift": "Grundsatz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-28a": {
+   "erlass": "MWSTG",
+   "nummer": "28a",
+   "sachueberschrift": "Abzug fiktiver Vorsteuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-29": {
+   "erlass": "MWSTG",
+   "nummer": "29",
+   "sachueberschrift": "Ausschluss des Anspruchs auf Vorsteuerabzug",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-30": {
+   "erlass": "MWSTG",
+   "nummer": "30",
+   "sachueberschrift": "Gemischte Verwendung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-31": {
+   "erlass": "MWSTG",
+   "nummer": "31",
+   "sachueberschrift": "Eigenverbrauch",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-32": {
+   "erlass": "MWSTG",
+   "nummer": "32",
+   "sachueberschrift": "Einlageentsteuerung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-33": {
+   "erlass": "MWSTG",
+   "nummer": "33",
+   "sachueberschrift": "Kürzung des Vorsteuerabzugs",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-34": {
+   "erlass": "MWSTG",
+   "nummer": "34",
+   "sachueberschrift": "Steuerperiode",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-35": {
+   "erlass": "MWSTG",
+   "nummer": "35",
+   "sachueberschrift": "Abrechnungsperiode",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-35a": {
+   "erlass": "MWSTG",
+   "nummer": "35a",
+   "sachueberschrift": "Jährliche Abrechnung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-36": {
+   "erlass": "MWSTG",
+   "nummer": "36",
+   "sachueberschrift": "Effektive Abrechnungsmethode",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-37": {
+   "erlass": "MWSTG",
+   "nummer": "37",
+   "sachueberschrift": "Abrechnung nach Saldo- und nach Pauschalsteuersätzen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-38": {
+   "erlass": "MWSTG",
+   "nummer": "38",
+   "sachueberschrift": "Meldeverfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-39": {
+   "erlass": "MWSTG",
+   "nummer": "39",
+   "sachueberschrift": "Abrechnungsart",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-40": {
+   "erlass": "MWSTG",
+   "nummer": "40",
+   "sachueberschrift": "Entstehung der Steuerforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-41": {
+   "erlass": "MWSTG",
+   "nummer": "41",
+   "sachueberschrift": "Nachträgliche Änderung der Umsatzsteuerschuld und des Vorsteuerabzugs",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-42": {
+   "erlass": "MWSTG",
+   "nummer": "42",
+   "sachueberschrift": "Festsetzungsverjährung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-43": {
+   "erlass": "MWSTG",
+   "nummer": "43",
+   "sachueberschrift": "Rechtskraft der Steuerforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-44": {
+   "erlass": "MWSTG",
+   "nummer": "44",
+   "sachueberschrift": "Abtretung und Verpfändung der Steuerforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-45": {
+   "erlass": "MWSTG",
+   "nummer": "45",
+   "sachueberschrift": "Bezugsteuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-45a": {
+   "erlass": "MWSTG",
+   "nummer": "45a",
+   "sachueberschrift": "Nicht der Bezugsteuer unterliegende Leistungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-46": {
+   "erlass": "MWSTG",
+   "nummer": "46",
+   "sachueberschrift": "Steuerbemessung und Steuersätze",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-47": {
+   "erlass": "MWSTG",
+   "nummer": "47",
+   "sachueberschrift": "Steuer- und Abrechnungsperiode",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-48": {
+   "erlass": "MWSTG",
+   "nummer": "48",
+   "sachueberschrift": "Entstehung und Festsetzungsverjährung der Bezugsteuerschuld",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-49": {
+   "erlass": "MWSTG",
+   "nummer": "49",
+   "sachueberschrift": "Mithaftung, Steuernachfolge und Substitution",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-50": {
+   "erlass": "MWSTG",
+   "nummer": "50",
+   "sachueberschrift": "Anwendbares Recht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-51": {
+   "erlass": "MWSTG",
+   "nummer": "51",
+   "sachueberschrift": "Steuerpflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-52": {
+   "erlass": "MWSTG",
+   "nummer": "52",
+   "sachueberschrift": "Steuerobjekt",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-53": {
+   "erlass": "MWSTG",
+   "nummer": "53",
+   "sachueberschrift": "Steuerbefreite Einfuhren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-54": {
+   "erlass": "MWSTG",
+   "nummer": "54",
+   "sachueberschrift": "Bemessungsgrundlage",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-55": {
+   "erlass": "MWSTG",
+   "nummer": "55",
+   "sachueberschrift": "Steuersätze",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-56": {
+   "erlass": "MWSTG",
+   "nummer": "56",
+   "sachueberschrift": "Entstehung, Verjährung und Entrichtung der Einfuhrsteuerschuld",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-57": {
+   "erlass": "MWSTG",
+   "nummer": "57",
+   "sachueberschrift": "Verzugszins",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-58": {
+   "erlass": "MWSTG",
+   "nummer": "58",
+   "sachueberschrift": "Ausnahmen von der Verzugszinspflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-59": {
+   "erlass": "MWSTG",
+   "nummer": "59",
+   "sachueberschrift": "Anspruch auf Steuerrückerstattung und Verjährung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-60": {
+   "erlass": "MWSTG",
+   "nummer": "60",
+   "sachueberschrift": "Rückerstattung wegen Wiederausfuhr",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-61": {
+   "erlass": "MWSTG",
+   "nummer": "61",
+   "sachueberschrift": "Vergütungszins",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-62": {
+   "erlass": "MWSTG",
+   "nummer": "62",
+   "sachueberschrift": "Zuständigkeit und Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-63": {
+   "erlass": "MWSTG",
+   "nummer": "63",
+   "sachueberschrift": "Verlagerung der Steuerentrichtung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-64": {
+   "erlass": "MWSTG",
+   "nummer": "64",
+   "sachueberschrift": "Steuererlass",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-65": {
+   "erlass": "MWSTG",
+   "nummer": "65",
+   "sachueberschrift": "Grundsätze",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-65a": {
+   "erlass": "MWSTG",
+   "nummer": "65a",
+   "sachueberschrift": "Elektronische Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-66": {
+   "erlass": "MWSTG",
+   "nummer": "66",
+   "sachueberschrift": "An- und Abmeldung als steuerpflichtige Person",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-67": {
+   "erlass": "MWSTG",
+   "nummer": "67",
+   "sachueberschrift": "Steuervertretung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-68": {
+   "erlass": "MWSTG",
+   "nummer": "68",
+   "sachueberschrift": "Auskunftspflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-69": {
+   "erlass": "MWSTG",
+   "nummer": "69",
+   "sachueberschrift": "Auskunftsrecht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-70": {
+   "erlass": "MWSTG",
+   "nummer": "70",
+   "sachueberschrift": "Buchführung und Aufbewahrung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-71": {
+   "erlass": "MWSTG",
+   "nummer": "71",
+   "sachueberschrift": "Einreichung der Abrechnung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-72": {
+   "erlass": "MWSTG",
+   "nummer": "72",
+   "sachueberschrift": "Korrektur von Mängeln in der Abrechnung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-73": {
+   "erlass": "MWSTG",
+   "nummer": "73",
+   "sachueberschrift": "Auskunftspflicht von Drittpersonen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-74": {
+   "erlass": "MWSTG",
+   "nummer": "74",
+   "sachueberschrift": "Geheimhaltung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-75": {
+   "erlass": "MWSTG",
+   "nummer": "75",
+   "sachueberschrift": "Amtshilfe",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-75a": {
+   "erlass": "MWSTG",
+   "nummer": "75a",
+   "sachueberschrift": "Internationale Amtshilfe",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-76": {
+   "erlass": "MWSTG",
+   "nummer": "76",
+   "sachueberschrift": "Datenbearbeitung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-76a": {
+   "erlass": "MWSTG",
+   "nummer": "76a",
+   "sachueberschrift": "Informationssystem",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-76b": {
+   "erlass": "MWSTG",
+   "nummer": "76b",
+   "sachueberschrift": "Datenbekanntgabe",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-76c": {
+   "erlass": "MWSTG",
+   "nummer": "76c",
+   "sachueberschrift": "Aufbewahrung der Daten und Dokumente",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-76d": {
+   "erlass": "MWSTG",
+   "nummer": "76d",
+   "sachueberschrift": "Ausführungsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-77": {
+   "erlass": "MWSTG",
+   "nummer": "77",
+   "sachueberschrift": "Überprüfung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-78": {
+   "erlass": "MWSTG",
+   "nummer": "78",
+   "sachueberschrift": "Kontrolle",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-79": {
+   "erlass": "MWSTG",
+   "nummer": "79",
+   "sachueberschrift": "Ermessenseinschätzung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-79a": {
+   "erlass": "MWSTG",
+   "nummer": "79a",
+   "sachueberschrift": "Administrative Massnahmen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-80": {
+   "erlass": "MWSTG",
+   "nummer": "80",
+   "sachueberschrift": "Vereinfachungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-81": {
+   "erlass": "MWSTG",
+   "nummer": "81",
+   "sachueberschrift": "Grundsätze",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-82": {
+   "erlass": "MWSTG",
+   "nummer": "82",
+   "sachueberschrift": "Verfügungen der ESTV",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-83": {
+   "erlass": "MWSTG",
+   "nummer": "83",
+   "sachueberschrift": "Einsprache",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-84": {
+   "erlass": "MWSTG",
+   "nummer": "84",
+   "sachueberschrift": "Kosten und Entschädigungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-85": {
+   "erlass": "MWSTG",
+   "nummer": "85",
+   "sachueberschrift": "Revision, Erläuterung und Berichtigung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-86": {
+   "erlass": "MWSTG",
+   "nummer": "86",
+   "sachueberschrift": "Entrichtung der Steuer",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-86a": {
+   "erlass": "MWSTG",
+   "nummer": "86a",
+   "sachueberschrift": "Provisorischer Steuerbezug bei jährlicher Abrechnung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-87": {
+   "erlass": "MWSTG",
+   "nummer": "87",
+   "sachueberschrift": "Verzugszins",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-88": {
+   "erlass": "MWSTG",
+   "nummer": "88",
+   "sachueberschrift": "Vergütungen an die steuerpflichtige Person",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-89": {
+   "erlass": "MWSTG",
+   "nummer": "89",
+   "sachueberschrift": "Betreibung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-90": {
+   "erlass": "MWSTG",
+   "nummer": "90",
+   "sachueberschrift": "Zahlungserleichterungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-91": {
+   "erlass": "MWSTG",
+   "nummer": "91",
+   "sachueberschrift": "Bezugsverjährung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-92": {
+   "erlass": "MWSTG",
+   "nummer": "92",
+   "sachueberschrift": "Steuererlass",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-93": {
+   "erlass": "MWSTG",
+   "nummer": "93",
+   "sachueberschrift": "Sicherstellung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-93a": {
+   "erlass": "MWSTG",
+   "nummer": "93a",
+   "sachueberschrift": "Sicherstellung bei der Ausfuhr im Reiseverkehr",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-94": {
+   "erlass": "MWSTG",
+   "nummer": "94",
+   "sachueberschrift": "Andere Sicherungsmassnahmen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-95": {
+   "erlass": "MWSTG",
+   "nummer": "95",
+   "sachueberschrift": "Löschung im Handelsregister",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-96": {
+   "erlass": "MWSTG",
+   "nummer": "96",
+   "sachueberschrift": "Steuerhinterziehung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-97": {
+   "erlass": "MWSTG",
+   "nummer": "97",
+   "sachueberschrift": "Strafzumessung und qualifizierte Steuerhinterziehung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-98": {
+   "erlass": "MWSTG",
+   "nummer": "98",
+   "sachueberschrift": "Verletzung von Verfahrenspflichten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-99": {
+   "erlass": "MWSTG",
+   "nummer": "99",
+   "sachueberschrift": "Steuerhehlerei",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-100": {
+   "erlass": "MWSTG",
+   "nummer": "100",
+   "sachueberschrift": "Widerhandlung im Geschäftsbetrieb",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-101": {
+   "erlass": "MWSTG",
+   "nummer": "101",
+   "sachueberschrift": "Konkurrenz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-102": {
+   "erlass": "MWSTG",
+   "nummer": "102",
+   "sachueberschrift": "Selbstanzeige",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-103": {
+   "erlass": "MWSTG",
+   "nummer": "103",
+   "sachueberschrift": "Strafverfolgung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-104": {
+   "erlass": "MWSTG",
+   "nummer": "104",
+   "sachueberschrift": "Verfahrensgarantien",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-105": {
+   "erlass": "MWSTG",
+   "nummer": "105",
+   "sachueberschrift": "Verfolgungsverjährung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-106": {
+   "erlass": "MWSTG",
+   "nummer": "106",
+   "sachueberschrift": "Bezug und Verjährung der Bussen und Kosten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-107": {
+   "erlass": "MWSTG",
+   "nummer": "107",
+   "sachueberschrift": "Bundesrat",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-108": {
+   "erlass": "MWSTG",
+   "nummer": "108",
+   "sachueberschrift": "Eidgenössisches Finanzdepartement",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-109": {
+   "erlass": "MWSTG",
+   "nummer": "109",
+   "sachueberschrift": "Konsultativgremium",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-110": {
+   "erlass": "MWSTG",
+   "nummer": "110",
+   "sachueberschrift": "Aufhebung bisherigen Rechts",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-111": {
+   "erlass": "MWSTG",
+   "nummer": "111",
+   "sachueberschrift": "Änderung bisherigen Rechts",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-112": {
+   "erlass": "MWSTG",
+   "nummer": "112",
+   "sachueberschrift": "Anwendung bisherigen Rechts",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-113": {
+   "erlass": "MWSTG",
+   "nummer": "113",
+   "sachueberschrift": "Anwendung des neuen Rechts",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-114": {
+   "erlass": "MWSTG",
+   "nummer": "114",
+   "sachueberschrift": "Wahlmöglichkeiten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-115": {
+   "erlass": "MWSTG",
+   "nummer": "115",
+   "sachueberschrift": "Änderung der Steuersätze",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-115a": {
+   "erlass": "MWSTG",
+   "nummer": "115a",
+   "sachueberschrift": "Übergangsbestimmung zur Änderung vom 30. September 2016",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-115b": {
+   "erlass": "MWSTG",
+   "nummer": "115b",
+   "sachueberschrift": "Übergangsbestimmungen zur Änderung vom 16. Juni 2023",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "MWSTG/art-116": {
+   "erlass": "MWSTG",
+   "nummer": "116",
+   "sachueberschrift": "Referendum und Inkrafttreten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-1": {
+   "erlass": "StG",
+   "nummer": "1",
+   "sachueberschrift": "I. Gegenstand des Gesetzes",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-2": {
+   "erlass": "StG",
+   "nummer": "2",
+   "sachueberschrift": "II. …",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-3": {
+   "erlass": "StG",
+   "nummer": "3",
+   "sachueberschrift": "III. Verhältnis zum kantonalen Recht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-4": {
+   "erlass": "StG",
+   "nummer": "4",
+   "sachueberschrift": "IV. Begriffsbestimmungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-5": {
+   "erlass": "StG",
+   "nummer": "5",
+   "sachueberschrift": "Beteiligungsrechte",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-5a": {
+   "erlass": "StG",
+   "nummer": "5a",
+   "sachueberschrift": "I. Gegenstand der Abgabe",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-6": {
+   "erlass": "StG",
+   "nummer": "6",
+   "sachueberschrift": "Ausnahmen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-7": {
+   "erlass": "StG",
+   "nummer": "7",
+   "sachueberschrift": "II. Entstehung der Abgabeforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-8": {
+   "erlass": "StG",
+   "nummer": "8",
+   "sachueberschrift": "Beteiligungsrechte",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-9": {
+   "erlass": "StG",
+   "nummer": "9",
+   "sachueberschrift": "Besondere Fälle",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-9a": {
+   "erlass": "StG",
+   "nummer": "9a",
+   "sachueberschrift": "III. Abgabesätze und Berechnungsgrundlage",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-10": {
+   "erlass": "StG",
+   "nummer": "10",
+   "sachueberschrift": "IV. Abgabepflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-11": {
+   "erlass": "StG",
+   "nummer": "11",
+   "sachueberschrift": "V. Fälligkeit der Abgabeforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-12": {
+   "erlass": "StG",
+   "nummer": "12",
+   "sachueberschrift": "VI. Stundung und Erlass der Abgabeforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-13": {
+   "erlass": "StG",
+   "nummer": "13",
+   "sachueberschrift": "Regel",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-14": {
+   "erlass": "StG",
+   "nummer": "14",
+   "sachueberschrift": "Ausnahmen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-15": {
+   "erlass": "StG",
+   "nummer": "15",
+   "sachueberschrift": "II. Entstehung der Abgabeforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-16": {
+   "erlass": "StG",
+   "nummer": "16",
+   "sachueberschrift": "Regel",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-17": {
+   "erlass": "StG",
+   "nummer": "17",
+   "sachueberschrift": "Regel",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-17a": {
+   "erlass": "StG",
+   "nummer": "17a",
+   "sachueberschrift": "Von der Abgabe befreite Anleger",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-18": {
+   "erlass": "StG",
+   "nummer": "18",
+   "sachueberschrift": "Emissionsgeschäfte",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-19": {
+   "erlass": "StG",
+   "nummer": "19",
+   "sachueberschrift": "Geschäfte mit ausländischen Banken und Börsenagenten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-19a": {
+   "erlass": "StG",
+   "nummer": "19a",
+   "sachueberschrift": "Zum Zweck der Steuersicherung zwischengeschaltete Organisationen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-20": {
+   "erlass": "StG",
+   "nummer": "20",
+   "sachueberschrift": "V. Fälligkeit der Abgabeforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-21": {
+   "erlass": "StG",
+   "nummer": "21",
+   "sachueberschrift": "Regel",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-22": {
+   "erlass": "StG",
+   "nummer": "22",
+   "sachueberschrift": "Ausnahmen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-23": {
+   "erlass": "StG",
+   "nummer": "23",
+   "sachueberschrift": "II. Entstehung der Abgabeforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-24": {
+   "erlass": "StG",
+   "nummer": "24",
+   "sachueberschrift": "III. Abgabesätze und Berechnungsgrundlage",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-25": {
+   "erlass": "StG",
+   "nummer": "25",
+   "sachueberschrift": "IV. Abgabepflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-26": {
+   "erlass": "StG",
+   "nummer": "26",
+   "sachueberschrift": "V. Fälligkeit der Abgabeforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-27": {
+   "erlass": "StG",
+   "nummer": "27",
+   "sachueberschrift": "I. Festsetzung der Abgaben",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-28": {
+   "erlass": "StG",
+   "nummer": "28",
+   "sachueberschrift": "II. Umrechnung ausländischer Währungen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-29": {
+   "erlass": "StG",
+   "nummer": "29",
+   "sachueberschrift": "III. Verzugszins",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-30": {
+   "erlass": "StG",
+   "nummer": "30",
+   "sachueberschrift": "IV. Verjährung der Abgabeforderung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-31": {
+   "erlass": "StG",
+   "nummer": "31",
+   "sachueberschrift": "I. Eidgenössische Steuerverwaltung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-32": {
+   "erlass": "StG",
+   "nummer": "32",
+   "sachueberschrift": "II. Amtshilfe",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-32a": {
+   "erlass": "StG",
+   "nummer": "32a",
+   "sachueberschrift": "II a . Datenbearbeitung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-33": {
+   "erlass": "StG",
+   "nummer": "33",
+   "sachueberschrift": "III. Schweigepflicht",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-34": {
+   "erlass": "StG",
+   "nummer": "34",
+   "sachueberschrift": "Anmeldung als Abgabepflichtiger; Selbstveranlagung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-35": {
+   "erlass": "StG",
+   "nummer": "35",
+   "sachueberschrift": "Auskunft des Abgabepflichtigen",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-36": {
+   "erlass": "StG",
+   "nummer": "36",
+   "sachueberschrift": "Auskunft Dritter",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-37": {
+   "erlass": "StG",
+   "nummer": "37",
+   "sachueberschrift": "Überprüfung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-38": {
+   "erlass": "StG",
+   "nummer": "38",
+   "sachueberschrift": "II. Entscheide der ESTV",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-39": {
+   "erlass": "StG",
+   "nummer": "39",
+   "sachueberschrift": "…",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-39a": {
+   "erlass": "StG",
+   "nummer": "39a",
+   "sachueberschrift": "III. Einsprache",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-40": {
+   "erlass": "StG",
+   "nummer": "40",
+   "sachueberschrift": "III. Einsprache",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-41": {
+   "erlass": "StG",
+   "nummer": "41",
+   "sachueberschrift": "IV. Kosten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-41a": {
+   "erlass": "StG",
+   "nummer": "41a",
+   "sachueberschrift": "IV a . Elektronische Verfahren",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-42": {
+   "erlass": "StG",
+   "nummer": "42",
+   "sachueberschrift": "Betreibung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-43": {
+   "erlass": "StG",
+   "nummer": "43",
+   "sachueberschrift": "Sicherstellung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-44": {
+   "erlass": "StG",
+   "nummer": "44",
+   "sachueberschrift": "C. Revision und Erläuterung von Entscheiden",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-45": {
+   "erlass": "StG",
+   "nummer": "45",
+   "sachueberschrift": "I. Hinterziehung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-46": {
+   "erlass": "StG",
+   "nummer": "46",
+   "sachueberschrift": "II. Abgabegefährdung",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-47": {
+   "erlass": "StG",
+   "nummer": "47",
+   "sachueberschrift": "III. Ordnungswidrigkeiten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-48–49": {
+   "erlass": "StG",
+   "nummer": "48–49",
+   "sachueberschrift": "IV. Allgemeine Bestimmungen",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-50": {
+   "erlass": "StG",
+   "nummer": "50",
+   "sachueberschrift": "B. Verhältnis zum Verwaltungsstrafrechtsgesetz",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-51": {
+   "erlass": "StG",
+   "nummer": "51",
+   "sachueberschrift": "I. Anrechnung bezahlter Emissionsabgaben",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-52": {
+   "erlass": "StG",
+   "nummer": "52",
+   "sachueberschrift": "II. Änderung des Verrechnungssteuergesetzes",
+   "status": "aufgehoben",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-53": {
+   "erlass": "StG",
+   "nummer": "53",
+   "sachueberschrift": "III. Aufhebung bisherigen Rechts",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-54": {
+   "erlass": "StG",
+   "nummer": "54",
+   "sachueberschrift": "IV. Vollzug",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  },
+  "StG/art-55": {
+   "erlass": "StG",
+   "nummer": "55",
+   "sachueberschrift": "V. Inkrafttreten",
+   "status": "offen",
+   "entscheide": null,
+   "karten_fertig": 0,
+   "prioritaet": null,
+   "notiz": ""
+  }
+ }
+}
