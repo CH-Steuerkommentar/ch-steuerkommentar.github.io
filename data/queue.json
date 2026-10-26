@@ -99,11 +99,14 @@
    "erlass": "DBG",
    "nummer": "10",
    "sachueberschrift": "Erbengemeinschaften, Gesellschaften und kollektive Kapitalanlagen",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-26T19:24:55+00:00"
   },
   "DBG/art-11": {
    "erlass": "DBG",
