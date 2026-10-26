@@ -9,6 +9,23 @@ import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def _env_laden(pfad: Path) -> None:
+    """Liest KEY=WERT-Zeilen aus .env im Projektordner (ohne zusätzliches Paket).
+    Bereits gesetzte Umgebungsvariablen haben Vorrang."""
+    if not pfad.exists():
+        return
+    for zeile in pfad.read_text(encoding="utf-8").splitlines():
+        zeile = zeile.strip()
+        if not zeile or zeile.startswith("#") or "=" not in zeile:
+            continue
+        k, v = zeile.split("=", 1)
+        os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+
+
+_env_laden(ROOT / ".env")
+
 DATA = ROOT / "data"
 INVENTAR = DATA / "inventar"          # Artikellisten je Erlass (aus Fedlex)
 ENTSCHEIDE = DATA / "entscheide"      # Cache der Entscheide (Metadaten + Volltext)

@@ -27,7 +27,7 @@ pip install -r requirements.txt
 API-Key: Auf claude.ai unter Settings > Billing die Console-Organisation verknüpfen (dann kommen die monatlichen 100 USD dorthin), in der Console einen eigenen Workspace «Steuerkommentar» mit Ausgabenlimit anlegen, dort einen Key erzeugen und setzen:
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...      # oder in .env, die nicht ins Repo kommt
+cp .env.example .env      # dann in .env den Key eintragen (die Datei kommt nie ins Repo)
 ```
 
 ## Monatlicher Ablauf
