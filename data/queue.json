@@ -53,11 +53,14 @@
    "erlass": "DBG",
    "nummer": "5",
    "sachueberschrift": "Andere steuerbare Werte",
-   "status": "entscheide",
+   "status": "in_arbeit",
    "entscheide": 34,
    "karten_fertig": 0,
    "prioritaet": 34,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "entscheide",
+   "bearbeiter": "github-actions",
+   "seit": "2026-10-26T23:19:44+00:00"
   },
   "DBG/art-6": {
    "erlass": "DBG",
