@@ -1,26 +1,40 @@
 ---
 title: Über dieses Werk
-description: Wie die Kommentierungen entstehen, was sie leisten und was nicht.
+description: Wie die Kommentierungen entstehen, auf welche Quellen sie sich stützen und wo ihre Grenzen liegen.
 ---
 
 ## Was das Werk ist
 
-Ein frei zugänglicher Kommentar zu fünf Bundesgesetzen des Steuerrechts: DBG, StHG, VStG, MWSTG und Bundesgesetz über die Stempelabgaben. Jede Kommentierung stellt dar, was Gesetz, Rechtsprechung, Verwaltungspraxis und Lehre zu einer Norm sagen, und wo eine Frage offen ist.
+Ein frei zugänglicher Kommentar zu fünf Bundesgesetzen des Steuerrechts: DBG, StHG, VStG, MWSTG und Bundesgesetz über die Stempelabgaben. Jede Kommentierung stellt dar, was Gesetz, Rechtsprechung und Verwaltungspraxis zu einer Norm sagen, und wo eine Frage offen ist. Im Zentrum steht die Rechtsprechung des Bundesgerichts.
 
 ## Wie die Kommentierungen entstehen
 
-Die Kommentierungen haben keine Autor:innen. Sie werden mit Claude (Anthropic) erstellt, nach einem festen Verfahren:
+Die Kommentierungen haben keine Autor:innen. Sie werden mit dem Sprachmodell Claude (Anthropic) erstellt und ohne menschliche Durchsicht veröffentlicht, nach einem festen Verfahren:
 
-1. Alle Bundesgerichtsentscheide, die die Norm in den Erwägungen zitieren, werden gesucht und einzeln ausgewertet (Entscheidregister).
-2. Die Gliederung folgt dem Wortlaut und den Sachfragen, die die Rechtsprechung aufwirft.
-3. Der Text ist neutral: Er gibt die Auffassungen von Gerichten, Verwaltung und Lehre wieder, wertet aber nicht selbst.
-4. Jede Fundstelle wird am Volltext der Quelle geprüft. Was sich nicht belegen lässt, steht nicht im Text.
+1. **Entscheidregister.** Alle Entscheide des Bundesgerichts, die die Norm in den Erwägungen zitieren, werden gesammelt und nach ihrer Bedeutung eingeordnet: tragende Entscheide, Anwendungsfälle, blosse Erwähnungen. Tragende Entscheide werden an der einschlägigen Erwägung gelesen.
+2. **Gliederung.** Sie folgt dem Wortlaut der Norm und den Sachfragen, die die Rechtsprechung aufwirft, nicht den Quellenarten.
+3. **Neutralität.** Der Text gibt wieder, was Gerichte und Verwaltung sagen, und wertet nicht selbst: kein «unseres Erachtens», keine Vorschläge, keine Prognosen. Wo eine Frage nicht entschieden ist, steht das so im Text.
+4. **Fundstellenprüfung.** Eine eigene Prüfinstanz, die den Text nicht geschrieben hat, prüft jede Fussnote am Volltext der Quelle: Stimmt die Erwägung, trägt sie die Aussage? Was sich nicht belegen lässt, wird gestrichen.
+5. **Schlussprüfung.** Sprache, Zitierweise, Querverweise und Widersprüche werden geprüft und die Befunde behoben.
 
-Das Verfahren ist offen dokumentiert, ebenso der Quelltext jeder Kommentierung mit ihrer Versionsgeschichte.
+Das Verfahren und der Quelltext jeder Kommentierung sind mit ihrer Versionsgeschichte offen einsehbar ([GitHub](https://github.com/CH-Steuerkommentar/ch-steuerkommentar.github.io)).
+
+## Quellen
+
+| Quelle | Herkunft |
+|---|---|
+| Erlasse und Materialien | Fedlex (amtliche Fassungen, Botschaften) |
+| Entscheide des Bundesgerichts (BGE, BGer) | [Open Case Law](https://opencaselaw.ch), mit den amtlichen Zitierungen; gefunden über die Volltextsuche von [entscheidsuche.ch](https://entscheidsuche.ch) |
+| Entscheide kantonaler Gerichte | [entscheidsuche.ch](https://entscheidsuche.ch) |
+| Verwaltungspraxis | Kreisschreiben und Mitteilungen der ESTV, Kreisschreiben der Schweizerischen Steuerkonferenz, kantonale Steuerbücher und Weisungen |
+
+**Lehre wird nicht ausgewertet.** Die Kommentierungen stützen sich auf Gesetz, Rechtsprechung und Praxis. Lehrmeinungen erscheinen nur, soweit ein Gericht sie selbst anführt, und dann mit dem Entscheid als Fundstelle. Wer den Meinungsstand in der Lehre braucht, findet ihn in den gedruckten Kommentaren. Die ersten Kommentierungen (Art. 1, 3, 7, 9 und 10 DBG) sind vor dieser Umstellung entstanden und ziehen auch Lehre heran; sie haben ein Literaturverzeichnis.
 
 ## Grenzen
 
-Die Kommentierungen sind keine Rechtsberatung. Trotz der Prüfung können Fehler enthalten sein; Hinweise darauf sind willkommen. Massgebend sind die amtlichen Fassungen der Erlasse und die Originale der Entscheide.
+Die Kommentierungen sind keine Rechtsberatung. Sie werden maschinell erstellt und vor der Veröffentlichung von niemandem gegengelesen; trotz der Prüfung können Fehler enthalten sein. Hinweise darauf sind willkommen. Massgebend sind die amtlichen Fassungen der Erlasse und die Originale der Entscheide; jede Fussnote nennt die Fundstelle, an der sich eine Aussage überprüfen lässt.
+
+Jede Kommentierung gibt den Stand ihrer Bearbeitung an. Spätere Rechtsprechung und Gesetzesänderungen sind darin nicht berücksichtigt.
 
 ## Zitieren
 
