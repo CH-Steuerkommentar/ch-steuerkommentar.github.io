@@ -126,9 +126,13 @@ Rahmen dieses Laufs:
 - Fokus Rechtsprechung des Bundesgerichts (BGE, BGer): Sie trägt die Kommentierung. Quelle ist der Cache und Open Case Law
   (MCP-Server «open-case-law»; Zitierstrings nur mit `cite` bzw. aus zitat_de). Erlasse: data/inventar/ und Fedlex (WebFetch);
   Materialien nur, soweit die Übersicht (Entstehungsgeschichte, Harmonisierung) sie braucht.
-- Nicht recherchieren: Lehre, kantonale Entscheide, Verwaltungspraxis (ESTV, SSK, Kantone), Websuche. Diese Quellen erscheinen
-  nur, wenn ein Bundesgerichtsentscheid sie selbst anführt, und dann als dessen Aussage mit dem Entscheid als Fundstelle.
-  Die Abschnitte des Skills zu Lehre, kantonaler Praxis und Verwaltungspraxis entfallen; das Fehlen nicht im Text erwähnen.
+- Kantonale Gerichte: ausschliesslich Entscheidsuche (POST https://entscheidsuche.ch/_search.php mit Filter `hierarchy`,
+  Volltexte unter https://entscheidsuche.ch/docs/…). Verwaltungspraxis (ESTV-Kreisschreiben, MWST-Infos u.a.):
+  Open Case Law (search_practice, get_practice); SSK-Kreisschreiben und kantonale Praxis über Fedlex/ESTV/SSK-Seiten per WebFetch,
+  wenn die Adresse bekannt ist.
+- Nicht recherchieren: Lehre (Schrifttum) und allgemeine Websuche (kein WebSearch). Lehre erscheint nur, wenn ein Entscheid sie
+  selbst anführt, und dann als dessen Aussage mit dem Entscheid als Fundstelle. Der Abschnitt des Skills zur Lehre entfällt;
+  das Fehlen nicht im Text erwähnen.
   Lexplorer ist nicht verfügbar.
 - Schritt 8: Fundstellenprüfung vollständig mit Hilfsagenten (keine Batches).
 - Schreibe nach kommentare/{erlass}/{slug}.md; `python3 pipeline/kommentar.py kommentare/{erlass}/{slug}.md` muss ohne Befund durchlaufen.
