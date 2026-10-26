@@ -110,6 +110,21 @@ def schreibe_json(pfad: Path, daten) -> None:
     tmp.replace(pfad)
 
 
+# Nicht kommentiert: Übergangsbestimmungen, Referendum und Inkrafttreten (Fedlex-Gliederung, Stand 26.10.2026)
+AUSGENOMMEN = {
+    "DBG": ["204", "205", "205a", "205b", "205bbis", "205d", "205e", "205f", "207", "207a", "207b", "221", "222"],
+    "StHG": ["76", "77", "78", "78a", "78c", "78d", "78e", "78f", "78g", "79"],
+    "VStG": ["69", "70a", "70b", "70c", "70d", "74"],
+    "MWSTG": ["112", "113", "114", "115", "115a", "115b", "116"],
+    "StG": ["55"],
+}
+AUSGENOMMEN_GRUND = "Übergangsbestimmung, Referendum oder Inkrafttreten: wird nicht kommentiert"
+
+
+def ausgenommen(erlass: str, nummer: str) -> bool:
+    return nummer in AUSGENOMMEN.get(erlass, [])
+
+
 def art_slug(nummer: str) -> str:
     """'26' -> 'art-26', '37a' -> 'art-37a', '205bis' -> 'art-205bis'."""
     return "art-" + nummer.lower().replace(" ", "")

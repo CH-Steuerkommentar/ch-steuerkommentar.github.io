@@ -6,7 +6,7 @@
 
 Status eines Artikels, in dieser Reihenfolge:
   offen → entscheide → karten → bereit → in_arbeit → geschrieben → geprueft → veroeffentlicht
-  (aufgehoben: nicht zu kommentieren)
+  (aufgehoben, ausgenommen: nicht zu kommentieren)
 """
 from __future__ import annotations
 
@@ -20,7 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from config import BATCHES, BATCH_PREISE, ERLASSE, QUEUE, lade_json, schreibe_json  # noqa: E402
 
 STATUS = ["offen", "entscheide", "karten", "bereit", "in_arbeit", "geschrieben", "geprueft", "veroeffentlicht",
-          "aufgehoben"]
+          "aufgehoben", "ausgenommen"]
 
 
 def uebersicht(_a) -> None:

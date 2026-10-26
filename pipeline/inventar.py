@@ -18,7 +18,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
-from config import ERLASSE, INVENTAR, QUEUE, USER_AGENT, art_slug, art_sortkey, lade_json, schreibe_json  # noqa: E402
+from config import ausgenommen, ERLASSE, INVENTAR, QUEUE, USER_AGENT, art_slug, art_sortkey, lade_json, schreibe_json  # noqa: E402
 
 SPARQL = "https://fedlex.data.admin.ch/sparqlendpoint"
 
@@ -144,7 +144,7 @@ def main() -> None:
             if eintrag is None:
                 queue["artikel"][qid] = {
                     "erlass": key, "nummer": art["nummer"], "sachueberschrift": art["sachueberschrift"],
-                    "status": "aufgehoben" if art["aufgehoben"] else "offen",
+                    "status": "aufgehoben" if art["aufgehoben"] else ("ausgenommen" if ausgenommen(key, art["nummer"]) else "offen"),
                     "entscheide": None, "karten_fertig": 0, "prioritaet": None, "notiz": "",
                 }
                 neu += 1
@@ -152,6 +152,8 @@ def main() -> None:
                 eintrag["sachueberschrift"] = art["sachueberschrift"]
                 if art["aufgehoben"] and eintrag["status"] == "offen":
                     eintrag["status"] = "aufgehoben"
+                elif ausgenommen(key, art["nummer"]) and eintrag["status"] in ("offen", "entscheide", "karten", "bereit"):
+                    eintrag["status"] = "ausgenommen"
         aktiv = sum(1 for x in arts if not x["aufgehoben"])
         print(f"{key}: Fassung vom {datum}, {len(arts)} Artikel ({aktiv} in Kraft), {neu} neu in der Queue")
     schreibe_json(QUEUE, queue)

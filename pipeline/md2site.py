@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from config import ERLASSE, INVENTAR, KOMMENTARE, QUEUE, SITE_DOCS, WERK, WERK_KURZ, art_slug, art_sortkey, lade_json  # noqa: E402
+from config import ausgenommen, ERLASSE, INVENTAR, KOMMENTARE, QUEUE, SITE_DOCS, WERK, WERK_KURZ, art_slug, art_sortkey, lade_json  # noqa: E402
 from kommentar import FormatFehler, fussnoten_finden, lesen, pruefen  # noqa: E402
 
 # Nur Kommentierungen mit diesem Status kommen auf die Website (Entwürfe und laufende Arbeit nicht).
@@ -147,12 +147,16 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict]) -> str:
               f"description: {yaml_str(e['name'])}", "sidebar:", "  label: Übersicht", "  order: 0", "---\n",
               f"{e['name']} (SR {e['sr']}), Fassung vom {datum_ch(inv.get('fassung_vom', ''))} "
               f"([Fedlex](https://www.fedlex.admin.ch/eli/cc/{e['eli'].split('/eli/cc/')[1]}/de)).\n",
-              f"{len(kommentiert)} von {sum(1 for a in inv['artikel'] if not a['aufgehoben'])} geltenden Artikeln kommentiert.\n",
+              f"{len(kommentiert)} von {sum(1 for a in inv['artikel'] if not a['aufgehoben'] and not ausgenommen(erlass, a['nummer']))} "
+              "geltenden Artikeln kommentiert. Übergangsbestimmungen sowie Referendum und Inkrafttreten werden nicht kommentiert.\n",
               "| Artikel | Sachüberschrift | Stand |", "|---|---|---|"]
     for a in inv["artikel"]:
         if a["aufgehoben"]:
             continue
         slug = art_slug(a["nummer"])
+        if ausgenommen(erlass, a["nummer"]) and slug not in kommentiert:
+            zeilen.append(f"| Art. {a['nummer']} | {a['sachueberschrift']} | nicht kommentiert |")
+            continue
         if slug in kommentiert:
             zeilen.append(f"| [Art. {a['nummer']}](./{slug}/) | {a['sachueberschrift']} | {datum_ch(kommentiert[slug]['stand'])} |")
         else:
@@ -163,7 +167,7 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict]) -> str:
 def startseite(stand: dict[str, int]) -> str:
     gesamt_k = sum(stand.values())
     queue = lade_json(QUEUE, {"artikel": {}})
-    gesamt = sum(1 for v in queue["artikel"].values() if v["status"] != "aufgehoben")
+    gesamt = sum(1 for v in queue["artikel"].values() if v["status"] not in ("aufgehoben", "ausgenommen"))
     zeilen = ["---", f"title: {yaml_str(WERK)}",
               "description: Offener Online-Kommentar zum Steuerrecht des Bundes (DBG, StHG, VStG, MWSTG, StG)",
               "template: splash", "hero:",
