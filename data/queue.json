@@ -81,11 +81,14 @@
    "erlass": "DBG",
    "nummer": "8",
    "sachueberschrift": "Beginn und Ende der Steuerpflicht",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-26T19:58:26+00:00"
   },
   "DBG/art-9": {
    "erlass": "DBG",
