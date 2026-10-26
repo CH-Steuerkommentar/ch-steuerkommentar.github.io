@@ -251,10 +251,11 @@ def abholen(args) -> None:
             tokens_in += (msg.usage.input_tokens or 0) + (msg.usage.cache_read_input_tokens or 0)
             tokens_out += msg.usage.output_tokens or 0
             karte = next((blk.input for blk in msg.content if blk.type == "tool_use"), None)
-            if karte is None:
+            if not isinstance(karte, dict):
                 fehler += 1
                 fehlerliste.append(did)
                 continue
+            karte = karte_normalisieren(karte)
             e = lade_json(ENTSCHEIDE / f"{did}.json")
             karte["_entscheid_id"] = did
             karte["_url"] = e.get("url") if e else None
@@ -303,6 +304,25 @@ def fehler_zeigen(args) -> None:
             print(f"{meta_pfad.parent.name}: {b}")
 
 
+def karte_normalisieren(karte: dict) -> dict:
+    """Ohne erzwungenen Werkzeugaufruf liefert das Modell verschachtelte Felder teils als JSON-Text;
+    diese werden zurückgewandelt, Einträge in «normen», die keine Objekte sind, verworfen."""
+    import json
+    for feld, wert in list(karte.items()):
+        if isinstance(wert, str) and wert.strip()[:1] in "[{":
+            try:
+                karte[feld] = json.loads(wert)
+            except ValueError:
+                pass
+    normen = karte.get("normen")
+    if isinstance(normen, dict):
+        normen = [normen]
+    if not isinstance(normen, list):
+        normen = []
+    karte["normen"] = [n for n in normen if isinstance(n, dict)]
+    return karte
+
+
 def zitate_pruefen(karte: dict, text: str) -> dict:
     """Prüft maschinell, ob jedes Kurzzitat wörtlich im Entscheid steht (Leerraum normalisiert)."""
     import re
@@ -313,7 +333,7 @@ def zitate_pruefen(karte: dict, text: str) -> dict:
     erg = {}
     for n in karte.get("normen", []):
         z = n.get("zitat") or ""
-        if z:
+        if z and n.get("norm"):
             erg[n["norm"]] = norm(z) in t
     return erg
 
