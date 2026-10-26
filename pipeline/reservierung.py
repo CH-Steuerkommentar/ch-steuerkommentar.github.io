@@ -1,0 +1,158 @@
+"""Reservierung: verhindert, dass zwei Läufe (GitHub Actions, Claude-Cloud, Laptop) denselben
+Artikel gleichzeitig bearbeiten.
+
+Prinzip: Wer einen Artikel bearbeiten will, setzt dessen Status in data/queue.json auf
+«in_arbeit», committet das und pusht. Git nimmt von zwei gleichzeitigen Pushes nur einen an;
+der andere wird abgelehnt, holt den neuen Stand und nimmt den nächsten freien Artikel.
+Eine Reservierung, die älter als RESERVIERUNG_STUNDEN ist, gilt als verwaist (Lauf abgestürzt)
+und darf neu vergeben werden.
+
+    python3 pipeline/reservierung.py reservieren --wer github-actions [--status bereit] [--status offen]
+        → gibt die reservierte Artikel-ID aus (z.B. DBG/art-26) oder nichts
+    python3 pipeline/reservierung.py freigeben DBG/art-26 geprueft [--notiz "…"] [--dateien kommentare/DBG/art-26.md arbeit/DBG/art-26]
+    python3 pipeline/reservierung.py liste            # laufende Reservierungen
+
+Voraussetzung: sauberes Git-Arbeitsverzeichnis mit Push-Recht auf origin/main.
+"""
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import subprocess
+import sys
+import time
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from config import QUEUE, ROOT, art_sortkey, lade_json, schreibe_json  # noqa: E402
+
+RESERVIERUNG_STUNDEN = 12
+VERSUCHE = 8
+ZWEIG = "main"
+
+
+def git(*args, pruefen=True) -> subprocess.CompletedProcess:
+    return subprocess.run(["git", *args], cwd=ROOT, text=True, capture_output=True, check=pruefen)
+
+
+def jetzt() -> dt.datetime:
+    return dt.datetime.now(dt.timezone.utc)
+
+
+def verwaist(eintrag: dict) -> bool:
+    seit = eintrag.get("seit")
+    if not seit:
+        return True
+    try:
+        return jetzt() - dt.datetime.fromisoformat(seit) > dt.timedelta(hours=RESERVIERUNG_STUNDEN)
+    except ValueError:
+        return True
+
+
+def aendern_und_pushen(aenderung, nachricht: str, dateien: list[str] | None = None):
+    """Holt den neuesten Stand, wendet `aenderung(queue)` an und pusht. Wiederholt bei Konflikt.
+    `aenderung` gibt einen Wert zurück; None bedeutet «nichts zu tun» (kein Commit)."""
+    dateien = dateien or []
+    for versuch in range(VERSUCHE):
+        # Eigene, noch nicht gepushte Commits bleiben erhalten; sie werden auf den neuen Stand gesetzt.
+        r = git("pull", "--rebase", "--autostash", "origin", ZWEIG, pruefen=False)
+        if r.returncode != 0:
+            git("rebase", "--abort", pruefen=False)
+            git("fetch", "origin", ZWEIG)
+            git("reset", "--hard", f"origin/{ZWEIG}")
+        queue = lade_json(QUEUE)
+        ergebnis = aenderung(queue)
+        if ergebnis is None:
+            return None
+        schreibe_json(QUEUE, queue)
+        git("add", str(QUEUE.relative_to(ROOT)), *[d for d in dateien if (ROOT / d).exists()])
+        if git("diff", "--cached", "--quiet", pruefen=False).returncode == 0:
+            return ergebnis
+        git("commit", "-q", "-m", nachricht)
+        p = git("push", "origin", f"HEAD:{ZWEIG}", pruefen=False)
+        if p.returncode == 0:
+            return ergebnis
+        # Jemand war schneller: eigenen Commit zurücknehmen (Dateien bleiben im Arbeitsbaum) und neu versuchen
+        git("reset", "--soft", "HEAD~1")
+        git("restore", "--staged", ".", pruefen=False)
+        git("checkout", "--", str(QUEUE.relative_to(ROOT)), pruefen=False)
+        time.sleep(2 + versuch * 3)
+    raise RuntimeError(f"Push nach {VERSUCHE} Versuchen nicht möglich: {nachricht}")
+
+
+def reservieren(wer: str, status_reihenfolge: list[str]) -> str | None:
+    def aenderung(queue):
+        artikel = queue["artikel"]
+        kandidaten = []
+        for rang, st in enumerate(status_reihenfolge):
+            for qid, v in artikel.items():
+                if v["status"] == st:
+                    kandidaten.append((rang, -(v.get("prioritaet") or 0), v["erlass"], art_sortkey(v["nummer"]), qid))
+        # verwaiste Reservierungen zuerst wieder freigeben
+        for qid, v in artikel.items():
+            if v["status"] == "in_arbeit" and verwaist(v):
+                v["status"] = v.get("status_vorher") or "offen"
+                v["notiz"] = f"Reservierung von {v.get('bearbeiter')} verfallen"
+                if v["status"] in status_reihenfolge:
+                    kandidaten.append((status_reihenfolge.index(v["status"]), -(v.get("prioritaet") or 0), v["erlass"], art_sortkey(v["nummer"]), qid))
+        if not kandidaten:
+            return None
+        kandidaten.sort()
+        qid = kandidaten[0][-1]
+        v = artikel[qid]
+        v["status_vorher"] = v["status"]
+        v["status"] = "in_arbeit"
+        v["bearbeiter"] = wer
+        v["seit"] = jetzt().isoformat(timespec="seconds")
+        return qid
+
+    return aendern_und_pushen(aenderung, f"Reserviert für {wer}")
+
+
+def freigeben(qid: str, status: str, notiz: str = "", dateien: list[str] | None = None, wer: str = "",
+              felder: dict | None = None) -> None:
+    def aenderung(queue):
+        v = queue["artikel"][qid]
+        if v["status"] == "in_arbeit" and wer and v.get("bearbeiter") not in (wer, None):
+            raise RuntimeError(f"{qid} ist von {v.get('bearbeiter')} reserviert, nicht von {wer}")
+        v["status"] = status
+        v["notiz"] = notiz
+        v.update(felder or {})
+        v["geaendert"] = jetzt().date().isoformat()
+        v.pop("seit", None)
+        if status != "in_arbeit":
+            v.pop("bearbeiter", None)
+        return qid
+
+    aendern_und_pushen(aenderung, f"{qid}: {status}" + (f" ({notiz})" if notiz else ""), dateien)
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    r = sub.add_parser("reservieren")
+    r.add_argument("--wer", required=True)
+    r.add_argument("--status", action="append", help="zulässige Ausgangsstatus in Vorzugsreihenfolge (Standard: bereit)")
+    f = sub.add_parser("freigeben")
+    f.add_argument("artikel")
+    f.add_argument("status")
+    f.add_argument("--notiz", default="")
+    f.add_argument("--wer", default="")
+    f.add_argument("--dateien", nargs="*", default=[])
+    sub.add_parser("liste")
+    a = ap.parse_args()
+    if a.cmd == "reservieren":
+        qid = reservieren(a.wer, a.status or ["bereit"])
+        if qid:
+            print(qid)
+    elif a.cmd == "freigeben":
+        freigeben(a.artikel, a.status, a.notiz, a.dateien, a.wer)
+        print(f"{a.artikel}: {a.status}")
+    else:
+        for qid, v in lade_json(QUEUE)["artikel"].items():
+            if v["status"] == "in_arbeit":
+                print(f"{qid}\t{v.get('bearbeiter')}\tseit {v.get('seit')}\t{'verwaist' if verwaist(v) else ''}")
+
+
+if __name__ == "__main__":
+    main()

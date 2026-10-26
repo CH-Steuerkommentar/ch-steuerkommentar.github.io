@@ -121,3 +121,30 @@ docs/                Format der Kommentierungen und Beispiel
 ## Lizenz
 
 Text der Kommentierungen: CC BY 4.0. Code: MIT.
+
+## Automatik
+
+Zwei Läufe schreiben Kommentierungen ohne Zutun und veröffentlichen sie. Damit nie zwei Läufe denselben Artikel bearbeiten, reserviert jeder Lauf seinen Artikel zuerst über `pipeline/reservierung.py`: Status `in_arbeit` in `data/queue.json`, Commit und Push. Git nimmt von zwei gleichzeitigen Pushes nur einen an; der andere nimmt den nächsten freien Artikel. Eine Reservierung, die älter als 12 Stunden ist, verfällt (abgestürzter Lauf). Die Website zeigt nur Kommentierungen mit Status `geprueft` oder `veroeffentlicht`.
+
+### 1. GitHub Actions über das API-Guthaben (`Kommentar-Agent`)
+
+Täglich um 02:17 Uhr (`.github/workflows/kommentar-agent.yml`, Steuerskript `automation/lauf.py`):
+
+1. fertige Batches abholen, Register nachführen;
+2. Karteikarten für die nächsten Artikel per Batch erstellen, sobald weniger als drei Artikel `bereit` sind;
+3. bis zu drei Artikel schreiben (Agent SDK, Skill `steuerkommentar-selbstaendig`), Fundstellen per Batch prüfen, Befunde beheben, als `geprueft` freigeben;
+4. danach baut sich die Website neu.
+
+Einrichten: Unter Settings > Secrets and variables > Actions ein Repository-Secret `ANTHROPIC_API_KEY` mit dem Key aus dem Console-Workspace anlegen. Optional als Variables: `MONATSBUDGET_USD` (Standard 95), `BUDGET_JE_ARTIKEL_USD` (15), `MAX_ARTIKEL` (3), `MODELL_SCHREIBEN` (claude-opus-5-5).
+
+Budget: Das Skript hört auf, wenn im laufenden Monat das eigene Budget erreicht ist (`data/kosten.json`). Unabhängig davon stoppt die Console, wenn ihr Ausgabenlimit erreicht oder das Guthaben aufgebraucht ist; der Lauf bricht dann ab und versucht es am nächsten Tag wieder, bis das Guthaben erneuert ist.
+
+Ein/aus: Actions > Kommentar-Agent > «…» > Disable workflow bzw. Enable workflow. Von Hand starten: Run workflow.
+
+### 2. Geplante Aufgabe in der Claude-Cloud (Max-Abo)
+
+Eine geplante Aufgabe auf claude.ai reserviert ebenfalls einen Artikel (zuerst `bereit`, sonst `offen`), schreibt ihn mit dem Skill, prüft alle Fundstellen selbst und pusht. Ein/aus: auf claude.ai unter den geplanten Aufgaben.
+
+### Stand ansehen
+
+`python3 pipeline/stand.py` (Status je Erlass, Kosten), `python3 pipeline/reservierung.py liste` (laufende Reservierungen).

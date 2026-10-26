@@ -20,6 +20,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from config import ERLASSE, INVENTAR, KOMMENTARE, QUEUE, SITE_DOCS, WERK, WERK_KURZ, art_slug, art_sortkey, lade_json  # noqa: E402
 from kommentar import FormatFehler, fussnoten_finden, lesen, pruefen  # noqa: E402
 
+# Nur Kommentierungen mit diesem Status kommen auf die Website (Entwürfe und laufende Arbeit nicht).
+VEROEFFENTLICHEN = {"geprueft", "veroeffentlicht"}
+
 ROEMISCH = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV",
             "XVI", "XVII", "XVIII", "XIX", "XX"]
 
@@ -180,6 +183,7 @@ def main() -> None:
     ap.add_argument("--pruefen", action="store_true")
     a = ap.parse_args()
     dateien = sorted(KOMMENTARE.glob("*/art-*.md"))
+    queue_status = lade_json(QUEUE, {"artikel": {}})["artikel"]
     ok, abgelehnt = [], []
     for p in dateien:
         try:
@@ -188,6 +192,11 @@ def main() -> None:
             abgelehnt.append((p, [f"Formatfehler: {e}"]))
             continue
         bef = pruefen(k)
+        qid = f"{k.meta['erlass']}/{art_slug(k.meta['artikel'])}"
+        st = queue_status.get(qid, {}).get("status")
+        if not bef and st not in VEROEFFENTLICHEN:
+            print(f"zurückgehalten (Status «{st}»): {qid}")
+            continue
         (abgelehnt if bef else ok).append((p, bef) if bef else (p, k))
     for p, bef in abgelehnt:
         print(f"NICHT veröffentlicht: {p.relative_to(KOMMENTARE)}")

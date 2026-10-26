@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths: ["kommentare/**", "site/**", "pipeline/**", "data/inventar/**", "data/queue.json", ".github/workflows/**"]
   workflow_dispatch:
+  # Pushes des Kommentar-Agents (GITHUB_TOKEN) lösen keinen push-Trigger aus; deshalb danach bauen.
+  workflow_run:
+    workflows: ["Kommentar-Agent"]
+    types: [completed]
 
 permissions:
   contents: read

@@ -1,0 +1,55 @@
+name: Kommentar-Agent
+
+# Schreibt täglich Kommentierungen über die API (API-Guthaben der Console).
+# Ein- und ausschalten: Actions > Kommentar-Agent > «…» > Disable workflow / Enable workflow.
+# Von Hand starten: Actions > Kommentar-Agent > Run workflow.
+
+on:
+  schedule:
+    - cron: "17 1 * * *"          # täglich 02:17 Schweizer Zeit (Winter)
+  workflow_dispatch:
+    inputs:
+      max_artikel:
+        description: "Höchstens so viele Artikel in diesem Lauf"
+        default: "3"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kommentar-agent
+  cancel-in-progress: false
+
+jobs:
+  lauf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Git-Identität
+        run: |
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Pakete
+        run: pip install -r requirements.txt claude-agent-sdk
+      - name: Entscheid-Cache
+        uses: actions/cache@v4
+        with:
+          path: data/entscheide
+          key: entscheide-${{ github.run_id }}
+          restore-keys: entscheide-
+      - name: Lauf
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MAX_ARTIKEL: ${{ inputs.max_artikel || vars.MAX_ARTIKEL || '3' }}
+          MONATSBUDGET_USD: ${{ vars.MONATSBUDGET_USD || '95' }}
+          BUDGET_JE_ARTIKEL_USD: ${{ vars.BUDGET_JE_ARTIKEL_USD || '15' }}
+          MODELL_SCHREIBEN: ${{ vars.MODELL_SCHREIBEN || 'claude-opus-5-5' }}
+          WER: github-actions
+        run: python3 automation/lauf.py
