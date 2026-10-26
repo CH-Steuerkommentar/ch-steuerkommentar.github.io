@@ -29,7 +29,7 @@ from reservierung import freigeben, reservieren  # noqa: E402
 
 E = os.environ.get
 EINSTELLUNGEN = {
-    "TAGESBUDGET_USD": float(E("TAGESBUDGET_USD", "30")),
+    "TAGESBUDGET_USD": float(E("TAGESBUDGET_USD", "100")),
     "MONATSBUDGET_USD": float(E("MONATSBUDGET_USD", "100")),
     "BUDGET_JE_ARTIKEL_USD": float(E("BUDGET_JE_ARTIKEL_USD", "15")),
     "MIN_REST_USD": float(E("MIN_REST_USD", "5")),          # darunter kein neuer Artikel mehr an diesem Tag

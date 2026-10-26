@@ -2,7 +2,7 @@ name: Kommentar-Agent
 
 # Kommentiert Artikel um Artikel über die API (API-Guthaben der Console), Opus 5.5 mit hoher Stufe.
 # Startet stündlich; läuft schon ein Lauf, wartet der nächste (nie zwei gleichzeitig).
-# Tagesbudget 30 USD, Monatsbudget 100 USD (änderbar unter Settings > Secrets and variables > Actions > Variables).
+# Kein Tageslimit; Monatsbudget 100 USD (änderbar unter Settings > Secrets and variables > Actions > Variables).
 # Ein- und ausschalten: Actions > Kommentar-Agent > «…» > Disable workflow / Enable workflow.
 # Von Hand starten: Actions > Kommentar-Agent > Run workflow.
 
@@ -46,7 +46,7 @@ jobs:
       - name: Lauf
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          TAGESBUDGET_USD: ${{ vars.TAGESBUDGET_USD || '30' }}
+          TAGESBUDGET_USD: ${{ vars.TAGESBUDGET_USD || '100' }}
           MONATSBUDGET_USD: ${{ vars.MONATSBUDGET_USD || '100' }}
           BUDGET_JE_ARTIKEL_USD: ${{ vars.BUDGET_JE_ARTIKEL_USD || '15' }}
           MODELL_SCHREIBEN: ${{ vars.MODELL_SCHREIBEN || 'claude-opus-5-5' }}
