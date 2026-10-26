@@ -1,0 +1,17 @@
+{
+ "art": "karten",
+ "modell": "claude-sonnet-5-5",
+ "status": "eingereicht",
+ "artikel": [
+  "DBG/art-3",
+  "DBG/art-1",
+  "DBG/art-6",
+  "DBG/art-4",
+  "DBG/art-2",
+  "DBG/art-5"
+ ],
+ "anfragen": 378,
+ "kosten_geschaetzt_usd": 5.67,
+ "batch_id": "msgbatch_01A7BA2og97Cq4sJi9Cha3qx",
+ "eingereicht": "2026-10-26T18:00:14.168896"
+}
