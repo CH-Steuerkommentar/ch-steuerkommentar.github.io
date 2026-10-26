@@ -50,44 +50,98 @@ def verwaist(eintrag: dict) -> bool:
         return True
 
 
+def _sichern_kopie(dateien: list[str]) -> Path:
+    import shutil
+    import tempfile
+    tmp = Path(tempfile.mkdtemp(prefix="res-"))
+    for d in dateien:
+        quelle = ROOT / d
+        if quelle.is_dir():
+            shutil.copytree(quelle, tmp / d, dirs_exist_ok=True)
+        elif quelle.exists():
+            (tmp / d).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(quelle, tmp / d)
+    return tmp
+
+
+def _zurueckkopieren(tmp: Path) -> None:
+    import shutil
+    for quelle in tmp.rglob("*"):
+        if quelle.is_file():
+            ziel = ROOT / quelle.relative_to(tmp)
+            ziel.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(quelle, ziel)
+
+
 def aendern_und_pushen(aenderung, nachricht: str, dateien: list[str] | None = None):
-    """Holt den neuesten Stand, wendet `aenderung(queue)` an und pusht. Wiederholt bei Konflikt.
-    `aenderung` gibt einen Wert zurück; None bedeutet «nichts zu tun» (kein Commit)."""
-    dateien = dateien or []
+    """Holt den neuesten Stand von origin/main, wendet `aenderung(queue)` an und pusht – zusammen mit
+    `dateien` (eigene Dateien dieses Laufs, z.B. die Kommentierung). Bei Konflikt: neu versuchen.
+    `aenderung` gibt einen Wert zurück; None bedeutet «nichts zu tun» (kein Commit).
+
+    Robust für parallele Läufe: Die eigenen Dateien werden vor dem Abgleich kopiert und danach
+    zurückgelegt; der Arbeitsbaum wird hart auf origin/main gesetzt. Andere lokale Änderungen
+    gehen dabei verloren, deshalb immer alle eigenen Dateien in `dateien` angeben."""
+    dateien = [d for d in (dateien or []) if (ROOT / d).exists()]
+    tmp = _sichern_kopie(dateien)
+    queue_pfad = str(QUEUE.relative_to(ROOT))
     for versuch in range(VERSUCHE):
-        # Eigene, noch nicht gepushte Commits bleiben erhalten; sie werden auf den neuen Stand gesetzt.
-        r = git("pull", "--rebase", "--autostash", "origin", ZWEIG, pruefen=False)
-        if r.returncode != 0:
-            git("rebase", "--abort", pruefen=False)
-            git("fetch", "origin", ZWEIG)
-            git("reset", "--hard", f"origin/{ZWEIG}")
+        git("fetch", "-q", "origin", ZWEIG)
+        git("reset", "-q", "--hard", f"origin/{ZWEIG}")
+        _zurueckkopieren(tmp)
         queue = lade_json(QUEUE)
         ergebnis = aenderung(queue)
         if ergebnis is None:
             return None
         schreibe_json(QUEUE, queue)
-        git("add", str(QUEUE.relative_to(ROOT)), *[d for d in dateien if (ROOT / d).exists()])
+        git("add", queue_pfad, *dateien)
         if git("diff", "--cached", "--quiet", pruefen=False).returncode == 0:
             return ergebnis
         git("commit", "-q", "-m", nachricht)
-        p = git("push", "origin", f"HEAD:{ZWEIG}", pruefen=False)
-        if p.returncode == 0:
+        if git("push", "-q", "origin", f"HEAD:{ZWEIG}", pruefen=False).returncode == 0:
             return ergebnis
-        # Jemand war schneller: eigenen Commit zurücknehmen (Dateien bleiben im Arbeitsbaum) und neu versuchen
-        git("reset", "--soft", "HEAD~1")
-        git("restore", "--staged", ".", pruefen=False)
-        git("checkout", "--", str(QUEUE.relative_to(ROOT)), pruefen=False)
-        time.sleep(2 + versuch * 3)
+        time.sleep(2 + versuch * 3)   # jemand war schneller: neuer Stand, neuer Versuch
     raise RuntimeError(f"Push nach {VERSUCHE} Versuchen nicht möglich: {nachricht}")
 
 
-def reservieren(wer: str, status_reihenfolge: list[str]) -> str | None:
+def queue_uebernehmen(felder_je_artikel: dict[str, dict], nachricht: str, dateien: list[str],
+                      geschuetzt=("in_arbeit", "geschrieben", "geprueft", "veroeffentlicht", "fehler")) -> None:
+    """Überträgt Feldänderungen an Artikeln (z.B. aus register.py) auf den neuesten Stand, ohne die
+    Arbeit paralleler Läufe zu überschreiben: Der Status geschützter Artikel bleibt unverändert."""
+    def aenderung(queue):
+        for qid, felder in felder_je_artikel.items():
+            v = queue["artikel"].get(qid)
+            if v is None:
+                continue
+            for k, w in felder.items():
+                if k == "status" and v["status"] in geschuetzt:
+                    continue
+                v[k] = w
+        return True
+    aendern_und_pushen(aenderung, nachricht, dateien)
+
+
+def lokale_queue_aenderungen() -> dict[str, dict]:
+    """Unterschiede der lokalen data/queue.json zur Fassung in HEAD, je Artikel und Feld."""
+    import json
+    r = git("show", f"HEAD:{QUEUE.relative_to(ROOT)}", pruefen=False)
+    alt = json.loads(r.stdout)["artikel"] if r.returncode == 0 else {}
+    neu = lade_json(QUEUE)["artikel"]
+    diff = {}
+    for qid, v in neu.items():
+        a = alt.get(qid, {})
+        d = {k: w for k, w in v.items() if a.get(k) != w}
+        if d:
+            diff[qid] = d
+    return diff
+
+
+def reservieren(wer: str, status_reihenfolge: list[str], bedingung=None) -> str | None:
     def aenderung(queue):
         artikel = queue["artikel"]
         kandidaten = []
         for rang, st in enumerate(status_reihenfolge):
             for qid, v in artikel.items():
-                if v["status"] == st:
+                if v["status"] == st and (bedingung is None or bedingung(qid, v)):
                     kandidaten.append((rang, -(v.get("prioritaet") or 0), v["erlass"], art_sortkey(v["nummer"]), qid))
         # verwaiste Reservierungen zuerst wieder freigeben
         for qid, v in artikel.items():

@@ -147,7 +147,7 @@ def vorbereiten(args) -> None:
                                       f"\n\n{'Text der Erwägung' if genau else 'Ausschnitt (Erwägung nicht genau abgrenzbar)'}:"
                                       f"\n<quelle>\n{aus}\n</quelle>"}]}})
     erlass, slug = k.meta["erlass"], art_slug(k.meta["artikel"])
-    name = dt.datetime.now().strftime("%Y%m%d-%H%M%S") + "-pruefung"
+    name = dt.datetime.now().strftime("%Y%m%d-%H%M%S") + "-pruefung" + (f"-{args.name}" if getattr(args, "name", None) else "")
     ordner = BATCHES / name
     ordner.mkdir(parents=True)
     with open(ordner / "anfragen.jsonl", "w", encoding="utf-8") as f:
@@ -157,6 +157,7 @@ def vorbereiten(args) -> None:
     schreibe_json(ordner / "batch.json", {"art": "pruefung", "modell": MODELL_PRUEFUNG, "status": "vorbereitet",
                                           "artikel": [f"{erlass}/{slug}"], "anfragen": len(anfragen),
                                           "ohne_batch": liste, "fussnoten": fn_nr})
+    print(f"BATCH={name}")
     print(f"{fn_nr} Fussnoten: {len(anfragen)} Entscheid-Fundstellen im Batch {name}, "
           f"{len(liste)} für die Prüfung im Skill.")
 
@@ -165,6 +166,8 @@ def abholen(args) -> None:
     import anthropic
     c = anthropic.Anthropic()
     for meta_pfad in sorted(BATCHES.glob("*/batch.json")):
+        if getattr(args, "nur", None) and meta_pfad.parent.name != args.nur:
+            continue
         meta = lade_json(meta_pfad)
         if meta.get("art") != "pruefung" or meta["status"] != "eingereicht":
             continue
@@ -208,7 +211,9 @@ def main() -> None:
     sub = ap.add_subparsers(dest="cmd", required=True)
     v = sub.add_parser("vorbereiten")
     v.add_argument("datei")
-    sub.add_parser("abholen")
+    v.add_argument("--name", help="Zusatz zum Batch-Namen (z.B. Kennung des Laufs)")
+    ab = sub.add_parser("abholen")
+    ab.add_argument("--nur", help="nur diesen Batch-Ordner abholen")
     a = ap.parse_args()
     {"vorbereiten": vorbereiten, "abholen": abholen}[a.cmd](a)
 

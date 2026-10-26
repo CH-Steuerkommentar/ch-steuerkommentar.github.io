@@ -165,7 +165,7 @@ def vorbereiten(args) -> None:
     if not anfragen:
         print("Nichts vorzubereiten: alle Entscheide dieser Artikel haben schon eine Karte.")
         return
-    name = dt.datetime.now().strftime("%Y%m%d-%H%M%S")
+    name = dt.datetime.now().strftime("%Y%m%d-%H%M%S") + "-karten"
     ordner = BATCHES / name
     ordner.mkdir(parents=True)
     with open(ordner / "anfragen.jsonl", "w", encoding="utf-8") as f:
@@ -187,6 +187,8 @@ def client():
 def einreichen(args) -> None:
     c = client()
     for meta_pfad in sorted(BATCHES.glob("*/batch.json")):
+        if getattr(args, "nur", None) and meta_pfad.parent.name != args.nur:
+            continue
         meta = lade_json(meta_pfad)
         if meta["status"] != "vorbereitet":
             continue
@@ -290,7 +292,8 @@ def main() -> None:
     v = sub.add_parser("vorbereiten")
     v.add_argument("artikel", nargs="*")
     v.add_argument("--budget", type=float, default=40.0, help="Obergrenze in USD (geschätzt) je Batch")
-    sub.add_parser("einreichen")
+    e = sub.add_parser("einreichen")
+    e.add_argument("--nur", help="nur diesen Batch-Ordner einreichen")
     sub.add_parser("status")
     sub.add_parser("abholen")
     a = ap.parse_args()
