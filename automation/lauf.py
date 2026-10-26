@@ -1,14 +1,11 @@
 """Automatischer Lauf über die API (GitHub Actions, stündlich gestartet, nie zwei Läufe gleichzeitig).
 Bezahlt aus dem API-Guthaben der Console; Claude Code mit API-Key wäre nicht abgedeckt, das Agent SDK schon.
 
-Ein Lauf:
-1. Fertige Batches abholen: Karteikarten → Register; Fundstellenprüfungen → Korrektur durch den Agent
-   und Freigabe als «geprueft» (dann veröffentlicht die Website den Artikel).
-2. Vorrat sichern: Sind weniger als VORRAT Artikel «bereit», Entscheide laden und einen
-   Karteikarten-Batch einreichen (Opus 5.5, Batch-Preis); bis WARTEN_MIN Minuten auf das Ergebnis warten.
-3. Schreiben, solange Tages- und Monatsbudget reichen: Artikel reservieren, Skill
-   steuerkommentar-selbstaendig über das Agent SDK (Opus 5.5, hohe Stufe), Fundstellen-Batch einreichen,
-   Artikel als «geschrieben» freigeben. Die Prüfung schliesst der nächste Schritt 1 ab.
+Ein Lauf kommentiert Artikel um Artikel, solange Tages- und Monatsbudget und die Laufzeit reichen:
+nächsten Artikel reservieren, Bundesgerichtsentscheide in den Cache laden (Open Case Law, ohne API-Kosten),
+Skill steuerkommentar-selbstaendig über das Agent SDK (Opus 5.5, hohe Stufe) samt Fundstellenprüfung mit
+Hilfsagenten, Artikel als «geprueft» freigeben (dann veröffentlicht die Website ihn), nächster Artikel.
+Keine Karteikarten, keine Batches.
 
 Budget: TAGESBUDGET_USD je Kalendertag, MONATSBUDGET_USD je Monat (Zählung in data/kosten/).
 Unabhängig davon stoppt die Console bei ihrem Ausgabenlimit oder wenn das Guthaben aufgebraucht ist.
@@ -27,22 +24,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "pipeline"))
-from config import ARBEIT, BATCHES, BATCH_PREISE, DATA, QUEUE, lade_json, schreibe_json  # noqa: E402
-from reservierung import freigeben, lokale_queue_aenderungen, queue_uebernehmen, reservieren  # noqa: E402
+from config import BATCHES, BATCH_PREISE, DATA, QUEUE, lade_json, schreibe_json  # noqa: E402
+from reservierung import freigeben, reservieren  # noqa: E402
 
 E = os.environ.get
 EINSTELLUNGEN = {
     "TAGESBUDGET_USD": float(E("TAGESBUDGET_USD", "30")),
     "MONATSBUDGET_USD": float(E("MONATSBUDGET_USD", "100")),
     "BUDGET_JE_ARTIKEL_USD": float(E("BUDGET_JE_ARTIKEL_USD", "15")),
-    "BUDGET_KORREKTUR_USD": float(E("BUDGET_KORREKTUR_USD", "4")),
     "MIN_REST_USD": float(E("MIN_REST_USD", "5")),          # darunter kein neuer Artikel mehr an diesem Tag
     "MODELL_SCHREIBEN": E("MODELL_SCHREIBEN", "claude-opus-5-5"),
     "EFFORT": E("EFFORT", "high"),
-    "VORRAT": int(E("VORRAT", "3")),
-    "NEUE_ARTIKEL_JE_LAUF": int(E("NEUE_ARTIKEL_JE_LAUF", "6")),
-    "BATCH_BUDGET_USD": float(E("BATCH_BUDGET_USD", "15")),
-    "WARTEN_MIN": int(E("WARTEN_MIN", "60")),
     "LAUFZEIT_MIN": int(E("LAUFZEIT_MIN", "280")),           # danach kein neuer Artikel mehr in diesem Lauf
     "WER": E("WER", "github-actions"),
 }
@@ -128,22 +120,19 @@ AUFTRAG = """Führe den Skill steuerkommentar-selbstaendig für Art. {nummer} {e
 
 Rahmen dieses Laufs:
 - Unbeaufsichtigter Lauf über die API: keine Rückfragen; vernünftige Entscheide treffen und im Prüfbericht vermerken.
-- Register, Problemkarte und Karteikarten liegen in arbeit/{erlass}/{slug}/01_Recherche/. Volltexte im Cache data/entscheide/.
+- Es gibt keine Karteikarten und kein vorbereitetes Register: Schritt 2 «Ohne Vorarbeit», Register und Problemkarte selbst
+  in arbeit/{erlass}/{slug}/01_Recherche/ ablegen. Die Bundesgerichtsentscheide, die die Norm zitieren, liegen bereits
+  im Cache data/entscheide/ (JSON mit referenz, zitat_de, normen, text); `python3 pipeline/entscheide.py {erlass}/{slug}`
+  hat sie aus Open Case Law geladen.
 - Lexplorer ist nicht verfügbar. Bundesgericht (BGE, BGer): Open Case Law (MCP-Server «open-case-law»; Zitierstrings mit `cite`).
   Kantonale Gerichte: ausschliesslich Entscheidsuche (POST https://entscheidsuche.ch/_search.php mit Filter `hierarchy`,
   Volltexte unter https://entscheidsuche.ch/docs/…). Erlasse: data/inventar/ und Fedlex (WebFetch).
   Praxis und Lehre: Open Case Law (search_practice, search_scholarship) und Websuche.
-- Schritt 8: Fussnoten mit BGE/BGer-Entscheiden prüft nach dir ein eigener Batch. Du prüfst mit einem Hilfsagenten nur die übrigen Fundstellen.
+- Schritt 8: Fundstellenprüfung vollständig mit Hilfsagenten (keine Batches).
 - Schreibe nach kommentare/{erlass}/{slug}.md; `python3 pipeline/kommentar.py kommentare/{erlass}/{slug}.md` muss ohne Befund durchlaufen.
 - Kein `stand.py setze`, kein git, keine Word-Fassung. Status und Veröffentlichung übernimmt das Steuerskript.
-- Achte auf Kosten: Volltexte nur, wo die Karteikarte nicht reicht; Hilfsagenten sparsam.
+- Achte auf Kosten: Volltexte an der einschlägigen Erwägung lesen, nicht ganz; Hilfsagenten gezielt.
 Ende: drei bis fünf Sätze Zusammenfassung."""
-
-KORREKTUR = """Im Projekt {root} liegt die Kommentierung kommentare/{erlass}/{slug}.md und die Fundstellenliste {liste}.
-Behebe jede Zeile mit Ergebnis «teilweise», «erwaegung_falsch» oder «nicht_belegt»: Erwägung korrigieren, Aussage an die Quelle anpassen
-oder Aussage samt Fussnote streichen (Volltexte im Cache data/entscheide/, über Entscheidsuche oder Open Case Law). Nichts Neues hinzufügen.
-Danach `python3 pipeline/kommentar.py kommentare/{erlass}/{slug}.md` ohne Befund. Halte die Korrekturen im Prüfbericht
-arbeit/{erlass}/{slug}/Pruefbericht_{datum}.md fest. Kein git, kein stand.py. Ende: ein Satz, wie viele Fussnoten du geändert hast."""
 
 
 async def _agent(prompt: str, budget: float) -> tuple[float, str, str]:
@@ -193,139 +182,39 @@ def pfade_artikel(erlass: str, slug: str) -> list[str]:
 
 # ---------- Schritte ----------
 
-def offene_batches() -> dict[str, dict]:
-    return {p.parent.name: lade_json(p, {}) for p in BATCHES.glob("*/batch.json")
-            if lade_json(p, {}).get("status") == "eingereicht"}
-
-
-def beendete_batches(namen: list[str]) -> set[str]:
-    if not namen:
-        return set()
-    import anthropic
-    c = anthropic.Anthropic()
-    fertig = set()
-    for n in namen:
-        m = lade_json(BATCHES / n / "batch.json", {})
-        try:
-            if c.messages.batches.retrieve(m["batch_id"]).processing_status == "ended":
-                fertig.add(n)
-        except Exception as fehler:  # noqa: BLE001
-            log(f"Batch {n}: Status nicht abrufbar ({fehler})")
-    return fertig
-
-
-def karteikarten_abholen() -> None:
-    karten = [n for n, m in offene_batches().items() if m.get("art") == "karten"]
-    if not beendete_batches(karten):
-        return
-    py("pipeline/karteikarten.py", "abholen")
-    py("pipeline/register.py", "--alle")
-    aenderungen = lokale_queue_aenderungen()
-    queue_uebernehmen(aenderungen, "Karteikarten abgeholt, Register nachgeführt",
-                      ["data/karten", "data/zitate", "data/batches", "arbeit"])
-
-
-def pruefungen_abschliessen() -> None:
-    """Artikel «geschrieben», deren Fundstellen-Batch fertig ist: abholen, korrigieren, freigeben."""
-    q = lade_json(QUEUE)["artikel"]
-    kandidaten = {v.get("pruefung_batch") for v in q.values() if v["status"] == "geschrieben" and v.get("pruefung_batch")}
-    fertig = beendete_batches(sorted(k for k in kandidaten if k))
-    while fertig and rest() >= EINSTELLUNGEN["BUDGET_KORREKTUR_USD"]:
-        qid = reservieren(EINSTELLUNGEN["WER"], ["geschrieben"], lambda _q, v: v.get("pruefung_batch") in fertig)
-        if not qid:
-            return
-        erlass, slug = qid.split("/")
-        batch = lade_json(QUEUE)["artikel"][qid]["pruefung_batch"]
-        fertig.discard(batch)
-        py("pipeline/pruefung.py", "abholen", "--nur", batch)
-        listen = sorted((ARBEIT / erlass / slug).glob("Fundstellenliste_*.md"))
-        datei = ROOT / "kommentare" / erlass / f"{slug}.md"
-        pfade = pfade_artikel(erlass, slug) + [f"data/batches/{batch}"]
-        try:
-            if listen:
-                agent(KORREKTUR.format(root=ROOT, erlass=erlass, slug=slug, liste=listen[-1].relative_to(ROOT),
-                                       datum=heute()), min(EINSTELLUNGEN["BUDGET_KORREKTUR_USD"], rest()), qid, "korrektur")
-        except GuthabenAufgebraucht:
-            freigeben(qid, "geschrieben", "Korrektur abgebrochen: Guthaben", pfade, EINSTELLUNGEN["WER"])
-            raise
-        except Exception as fehler:  # noqa: BLE001
-            freigeben(qid, "geschrieben", f"Korrektur-Fehler: {str(fehler)[:100]}", pfade, EINSTELLUNGEN["WER"])
-            continue
-        if kommentar_ok(datei):
-            freigeben(qid, "geprueft", f"automatisch geprüft ({heute()})", pfade, EINSTELLUNGEN["WER"],
-                      {"pruefung_batch": None})
-            log(f"{qid}: geprüft und freigegeben → wird veröffentlicht")
-        else:
-            freigeben(qid, "fehler", "Nach Korrektur Format- oder Neutralitätsbefunde", pfade, EINSTELLUNGEN["WER"])
-
-
-def vorrat_sichern() -> None:
-    q = lade_json(QUEUE)["artikel"]
-    if sum(1 for v in q.values() if v["status"] == "bereit") >= EINSTELLUNGEN["VORRAT"]:
-        return
-    if any(m.get("art") == "karten" for m in offene_batches().values()):
-        return  # ein Batch läuft schon
-    if rest() < EINSTELLUNGEN["BATCH_BUDGET_USD"]:
-        log("Budget reicht heute nicht für neue Karteikarten.")
-        return
-    if not any(v["status"] in ("entscheide", "karten") for v in q.values()):
-        py("pipeline/entscheide.py", "--naechste", str(EINSTELLUNGEN["NEUE_ARTIKEL_JE_LAUF"]))
-    r = py("pipeline/karteikarten.py", "vorbereiten", "--budget", str(EINSTELLUNGEN["BATCH_BUDGET_USD"]))
-    if "Batch " in r.stdout:
-        name = r.stdout.split("Batch ", 1)[1].split(":", 1)[0].strip()
-        e = py("pipeline/karteikarten.py", "einreichen", "--nur", name)
-        if e.returncode != 0 and "credit" in e.stderr.lower():
-            raise GuthabenAufgebraucht()
-    queue_uebernehmen(lokale_queue_aenderungen(), "Entscheide geladen, Karteikarten-Batch eingereicht",
-                      ["data/zitate", "data/batches"])
-    ende = time.time() + EINSTELLUNGEN["WARTEN_MIN"] * 60
-    while time.time() < ende:
-        karten = [n for n, m in offene_batches().items() if m.get("art") == "karten"]
-        if not karten or beendete_batches(karten) == set(karten):
-            karteikarten_abholen()
-            return
-        log("warte auf Karteikarten-Batch …")
-        time.sleep(120)
-
-
 def artikel_schreiben(qid: str) -> None:
     erlass, slug = qid.split("/")
     nummer = lade_json(QUEUE)["artikel"][qid]["nummer"]
     datei = ROOT / "kommentare" / erlass / f"{slug}.md"
+    pfade = pfade_artikel(erlass, slug)
+    py("pipeline/entscheide.py", qid)   # Entscheide in den Cache (Open Case Law), ohne API-Kosten
     budget = min(EINSTELLUNGEN["BUDGET_JE_ARTIKEL_USD"], rest())
     log(f"Schreibe {qid} (Budget {budget:.2f} USD, {EINSTELLUNGEN['MODELL_SCHREIBEN']}, Effort {EINSTELLUNGEN['EFFORT']}) …")
-    pfade = pfade_artikel(erlass, slug)
     try:
         kosten, _, typ = agent(AUFTRAG.format(nummer=nummer, erlass=erlass, slug=slug, root=ROOT), budget, qid, "schreiben")
     except GuthabenAufgebraucht:
-        freigeben(qid, "bereit", "Abbruch: API-Guthaben aufgebraucht", pfade, EINSTELLUNGEN["WER"])
+        freigeben(qid, "zurueck", "Abbruch: API-Guthaben aufgebraucht", pfade, EINSTELLUNGEN["WER"])
         raise
     except Exception as fehler:  # noqa: BLE001
-        freigeben(qid, "bereit", f"Abbruch: {str(fehler)[:120]}", pfade, EINSTELLUNGEN["WER"])
+        freigeben(qid, "zurueck", f"Abbruch: {str(fehler)[:120]}", pfade, EINSTELLUNGEN["WER"])
         log(f"{qid}: Fehler im Agent-Lauf: {fehler}")
         return
     if not kommentar_ok(datei):
         versuche = lade_json(QUEUE)["artikel"][qid].get("versuche", 0) + 1
-        freigeben(qid, "fehler" if versuche >= 2 else "bereit",
+        freigeben(qid, "fehler" if versuche >= 2 else "zurueck",
                   f"Lauf {versuche} ohne gültige Kommentierung ({typ}, {kosten:.2f} USD)", pfade,
                   EINSTELLUNGEN["WER"], {"versuche": versuche})
         return
-    # Fundstellen per Batch prüfen lassen; die Korrektur folgt im nächsten Schritt 1
-    r = py("pipeline/pruefung.py", "vorbereiten", str(datei.relative_to(ROOT)), "--name", LAUF_ID)
-    name = next((z.split("=", 1)[1] for z in r.stdout.splitlines() if z.startswith("BATCH=")), None)
-    meta = lade_json(BATCHES / name / "batch.json", {}) if name else {}
-    if name and meta.get("anfragen", 0) > 0:
-        e = py("pipeline/karteikarten.py", "einreichen", "--nur", name)
-        if e.returncode != 0:
-            freigeben(qid, "geschrieben", "Prüf-Batch nicht eingereicht", pfade + [f"data/batches/{name}"], EINSTELLUNGEN["WER"])
-            if "credit" in e.stderr.lower():
-                raise GuthabenAufgebraucht()
-            return
-        freigeben(qid, "geschrieben", f"Entwurf ({kosten:.2f} USD), Fundstellenprüfung läuft",
-                  pfade + [f"data/batches/{name}"], EINSTELLUNGEN["WER"], {"pruefung_batch": name})
-    else:
-        freigeben(qid, "geprueft", f"automatisch ({heute()}); keine BGer-Fundstellen für den Batch", pfade,
-                  EINSTELLUNGEN["WER"])
+    freigeben(qid, "geprueft", f"GitHub Actions, {heute()} ({kosten:.2f} USD)", pfade, EINSTELLUNGEN["WER"])
+    log(f"{qid}: fertig und freigegeben → wird veröffentlicht")
+    website_bauen()
+
+
+def website_bauen() -> None:
+    """Pushes mit GITHUB_TOKEN lösen keinen Workflow aus; workflow_dispatch schon."""
+    if os.environ.get("GITHUB_ACTIONS"):
+        r = subprocess.run(["gh", "workflow", "run", "website.yml", "--ref", "main"], cwd=ROOT, text=True, capture_output=True)
+        log("Website-Build gestartet" if r.returncode == 0 else f"Website-Build nicht gestartet: {r.stderr.strip()[:200]}")
 
 
 def main() -> None:
@@ -334,22 +223,17 @@ def main() -> None:
         return
     log("Einstellungen:", json.dumps(EINSTELLUNGEN))
     log(f"Heute übrig: {tagesrest():.2f} USD, diesen Monat: {monatsrest():.2f} USD")
-    py("pipeline/karteikarten.py", "fehler")   # Fehlermeldungen früherer Batches ins Protokoll
     try:
-        karteikarten_abholen()
-        pruefungen_abschliessen()
-        vorrat_sichern()
         while True:
-            pruefungen_abschliessen()
             if minuten() > EINSTELLUNGEN["LAUFZEIT_MIN"]:
                 log("Laufzeit erreicht; der nächste stündliche Lauf macht weiter.")
                 break
             if rest() < EINSTELLUNGEN["MIN_REST_USD"]:
                 log(f"Tages- oder Monatsbudget erreicht (heute {tagesrest():.2f}, Monat {monatsrest():.2f} USD übrig).")
                 break
-            qid = reservieren(EINSTELLUNGEN["WER"], ["bereit"])
+            qid = reservieren(EINSTELLUNGEN["WER"], ["bereit", "karten", "entscheide", "offen"])
             if not qid:
-                log("Kein Artikel «bereit»; der nächste Lauf bereitet neue vor.")
+                log("Kein Artikel mehr offen.")
                 break
             artikel_schreiben(qid)
     except GuthabenAufgebraucht:

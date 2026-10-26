@@ -1,6 +1,6 @@
 name: Kommentar-Agent
 
-# Schreibt Kommentierungen über die API (API-Guthaben der Console), Opus 5.5 mit hoher Stufe.
+# Kommentiert Artikel um Artikel über die API (API-Guthaben der Console), Opus 5.5 mit hoher Stufe.
 # Startet stündlich; läuft schon ein Lauf, wartet der nächste (nie zwei gleichzeitig).
 # Tagesbudget 30 USD, Monatsbudget 100 USD (änderbar unter Settings > Secrets and variables > Actions > Variables).
 # Ein- und ausschalten: Actions > Kommentar-Agent > «…» > Disable workflow / Enable workflow.
@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: kommentar-agent
@@ -51,4 +52,5 @@ jobs:
           MODELL_SCHREIBEN: ${{ vars.MODELL_SCHREIBEN || 'claude-opus-5-5' }}
           EFFORT: ${{ vars.EFFORT || 'high' }}
           WER: github-actions
+          GH_TOKEN: ${{ github.token }}
         run: python3 automation/lauf.py

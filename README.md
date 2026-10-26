@@ -130,9 +130,7 @@ Zwei Läufe schreiben Kommentierungen ohne Zutun und veröffentlichen sie. Damit
 
 Startet stündlich; läuft noch ein Lauf, wartet der nächste. Es schreibt also immer nur ein Lauf (`.github/workflows/kommentar-agent.yml`, Steuerskript `automation/lauf.py`):
 
-1. fertige Batches abholen: Karteikarten → Register; Fundstellenprüfungen → Korrektur durch den Agent → Freigabe als `geprueft` (dann veröffentlicht die Website den Artikel);
-2. Karteikarten für die nächsten Artikel per Batch erstellen (Opus 5.5), sobald weniger als drei Artikel `bereit` sind;
-3. Artikel schreiben mit dem Skill `steuerkommentar-selbstaendig` (Agent SDK, Opus 5.5, Effort `high`), solange das Budget reicht; danach Fundstellen-Batch einreichen, Status `geschrieben`.
+Ein Lauf kommentiert Artikel um Artikel, in der Reihenfolge der Erlasse und Artikel: nächsten freien Artikel reservieren, Bundesgerichtsentscheide aus Open Case Law in den Cache laden, mit dem Skill `steuerkommentar-selbstaendig` schreiben (Agent SDK, Opus 5.5, Effort `high`, Fundstellenprüfung mit Hilfsagenten), als `geprueft` freigeben und die Website neu bauen; dann sofort der nächste Artikel. Keine Karteikarten, keine Batches. Ein Lauf endet nach gut vier Stunden oder wenn das Budget erreicht ist; der nächste stündliche Start macht weiter.
 
 Budget: 30 USD pro Tag, 100 USD pro Monat, höchstens 15 USD pro Artikel (Zählung in `data/kosten/`). Unabhängig davon stoppt die Console bei ihrem Ausgabenlimit oder wenn das Guthaben aufgebraucht ist; der Lauf versucht es dann stündlich wieder. API-Preise hängen nicht von der Tageszeit ab.
 
@@ -142,7 +140,7 @@ Ein/aus: Actions > Kommentar-Agent > «…» > Disable workflow bzw. Enable work
 
 ### 2. Geplante Aufgabe in der Claude-Cloud (Max-Abo)
 
-Eine geplante Aufgabe auf claude.ai reserviert ebenfalls einen Artikel (zuerst `bereit`, sonst `offen`), schreibt ihn mit dem Skill, prüft alle Fundstellen selbst und pusht. Ein/aus: auf claude.ai unter den geplanten Aufgaben.
+Eine geplante Aufgabe auf claude.ai reserviert ebenfalls den nächsten freien Artikel, schreibt ihn mit dem Skill, prüft alle Fundstellen selbst und pusht. Ein/aus: auf claude.ai unter den geplanten Aufgaben.
 
 ### Stand ansehen
 
