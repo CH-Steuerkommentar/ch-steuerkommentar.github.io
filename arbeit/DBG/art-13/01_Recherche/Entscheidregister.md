@@ -1,6 +1,6 @@
 # Entscheidregister Art. 13 DBG (SR 642.11)
 
-Stand der Recherche: 27.10.2026. Fassung: unverändert seit 1.1.1995, abgesehen vom Ausdruck «elterliche Sorge» statt «elterliche Gewalt» in Abs. 3 lit. a (Stand 15.2.2000 noch «elterlichen Gewalt»; geltende Fassung ohne Fedlex-Fussnote). Künftig: Aufhebung von Abs. 1 und 2 durch das BG über die Individualbesteuerung vom 20.6.2025 (BBl 2025 2033), Inkrafttreten 1.1.2032.
+Stand der Recherche: 27.10.2026. Fassung: unverändert seit 1.1.1995, abgesehen vom Ausdruck «elterliche Sorge» statt «elterliche Gewalt» in Abs. 3 lit. a (Stand 15.2.2000 noch «elterlichen Gewalt»; geltende Fassung ohne Fedlex-Fussnote). Künftig: Aufhebung von Abs. 1 und 2 durch das BG über die Individualbesteuerung vom 20.6.2025 (BBl 2025 2033); Volksabstimmung am 8.3.2026 (BBl 2025 3640); Inkrafttreten nach Ziff. II Abs. 3 am 1. Januar des sechsten Jahres nach Annahme (Datum in diesem Lauf nicht belegt, im Text nicht genannt).
 
 ## Suchwege und Trefferzahlen
 
