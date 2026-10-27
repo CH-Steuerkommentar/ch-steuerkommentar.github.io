@@ -7,7 +7,7 @@ der andere wird abgelehnt, holt den neuen Stand und nimmt den nächsten freien A
 Eine Reservierung, die älter als RESERVIERUNG_STUNDEN ist, gilt als verwaist (Lauf abgestürzt)
 und darf neu vergeben werden.
 
-    python3 pipeline/reservierung.py reservieren --wer github-actions [--status bereit] [--status offen]
+    python3 pipeline/reservierung.py reservieren --wer github-actions [--status bereit] [--status offen] [--erlass VStG]
         → gibt die reservierte Artikel-ID aus (z.B. DBG/art-26) oder nichts
     python3 pipeline/reservierung.py freigeben DBG/art-26 zurueck   # Status wie vor der Reservierung
     python3 pipeline/reservierung.py freigeben DBG/art-26 geprueft [--notiz "…"] [--dateien kommentare/DBG/art-26.md arbeit/DBG/art-26]
@@ -188,6 +188,7 @@ def main() -> None:
     r = sub.add_parser("reservieren")
     r.add_argument("--wer", required=True)
     r.add_argument("--status", action="append", help="zulässige Ausgangsstatus in Vorzugsreihenfolge (Standard: bereit)")
+    r.add_argument("--erlass", action="append", help="nur Artikel dieser Erlasse (z.B. --erlass VStG --erlass StG)")
     f = sub.add_parser("freigeben")
     f.add_argument("artikel")
     f.add_argument("status")
@@ -197,7 +198,9 @@ def main() -> None:
     sub.add_parser("liste")
     a = ap.parse_args()
     if a.cmd == "reservieren":
-        qid = reservieren(a.wer, a.status or ["bereit"])
+        erlasse = {e.lower() for e in (a.erlass or [])}
+        bedingung = (lambda _q, v: v["erlass"].lower() in erlasse) if erlasse else None
+        qid = reservieren(a.wer, a.status or ["bereit"], bedingung)
         if qid:
             print(qid)
     elif a.cmd == "freigeben":
