@@ -1,13 +1,13 @@
 ---
 name: "steuerkommentar-selbstaendig"
-description: "Verfasst eine Kommentierung zu einer Norm des Schweizer Steuerrechts ohne Autor:innen zur direkten Veröffentlichung auf der Website: neutral ohne U.E., Übersicht mit Entstehungsgeschichte und Harmonisierung; gestützt auf die Rechtsprechung des Bundesgerichts, kantonale Gerichte und Verwaltungspraxis, ohne Lehrrecherche und ohne Websuche; Ausgabe als Markdown, Word nur auf Wunsch."
+description: "Verfasst eine Kommentierung zu einer Norm des Schweizer Steuerrechts ohne Autor:innen zur direkten Veröffentlichung auf der Website: neutral ohne U.E., Übersicht mit Entstehungsgeschichte und Harmonisierung; gestützt auf die Rechtsprechung des Bundesgerichts, kantonale Gerichte, Verwaltungspraxis und die Literatur des ILE-HSG (Lexplorer Tax), ohne Websuche; Ausgabe als Markdown, Word nur auf Wunsch."
 ---
 
 # Steuerkommentar selbständig (Kommentierung ohne Autor:innen)
 
 Dieser Skill verfasst eine Kommentierung zu einer Norm des Schweizer Steuerrechts, die **ohne Autor:innen direkt veröffentlicht** wird. Er folgt der Arbeitsweise des Skills `steuerkommentar` (Entscheidregister, Gliederung aus der Rechtsprechung, Quellenrangfolge, knapper Text), mit drei Unterschieden, die aus dem fehlenden Autorenteam folgen:
 
-1. **Keine eigene Meinung.** Es gibt niemanden, dem eine Auffassung zugerechnet werden könnte. Deshalb gibt es kein «U.E.», keinen eigenen Vorschlag, keine Bewertung von Positionen und keine Prognosen. Der Kommentar stellt dar, was Gesetz, Gerichte und Verwaltung sagen, und wo eine Frage offen ist.
+1. **Keine eigene Meinung.** Es gibt niemanden, dem eine Auffassung zugerechnet werden könnte. Deshalb gibt es kein «U.E.», keinen eigenen Vorschlag, keine Bewertung von Positionen und keine Prognosen. Der Kommentar stellt dar, was Gesetz, Gerichte, Verwaltung und die Literatur des ILE sagen, und wo eine Frage offen ist.
 2. **Keine Überarbeitungsschleife.** Niemand prüft den Text vor der Veröffentlichung nach. Deshalb gibt es keine gelben Arbeitsmarkierungen und keine Prüfaufträge; was nicht am Volltext belegt ist, kommt nicht in den Text. Am Ende steht eine Schlussprüfung, deren Befunde Claude selbst behebt.
 3. **Übersicht als erstes Kapitel.** Entstehungsgeschichte und Harmonisierung stehen als je ein bis drei Randnoten in der Übersicht, nicht in eigenen Kapiteln.
 
@@ -22,7 +22,8 @@ Ziel ist die abstrakt-generelle Aufbereitung der Auslegungslage einer Norm, nich
 - **Kantonale Gerichte** (und BVGer): ausschliesslich Entscheidsuche.
 - **Verwaltungspraxis** (ESTV, SSK, kantonale Steuerbücher und Weisungen): Open Case Law `search_practice`/`get_practice`, Lexplorer Tax (navigiert, «Lexplorer sparsam»), Dokumente auf bekannten Seiten von ESTV und SSK.
 - **Erlasse und Materialien**: Fedlex, Open Case Law (`get_article_history`, `search_botschaft`); Materialien soweit Übersicht und Sachfragen sie brauchen.
-- **Nicht recherchiert:** Lehre (Schrifttum, Kommentare, Aufsätze) und allgemeine Websuche (kein WebSearch). Lehre erscheint nur, wenn ein Entscheid sie selbst anführt, und dann als dessen Aussage mit dem Entscheid als Fundstelle («Das Bundesgericht verweist auf die Lehre, wonach …»). Das Fehlen von Lehre wird im Text nicht erwähnt.
+- **Lehre: nur die Literatur des ILE-HSG** in Lexplorer Tax, Kategorie `08-institut-fuer-law-und-economics` (Kanton `CH`): Forum für Steuerrecht (FStR), IFF-Schriftenreihe, ILE Working Papers, ILE-Seminarunterlagen. Ausgenommen ist das «ILE-HSG — Lehrbuch Steuerrecht» (Hongler/Lorenz, Lehrbuch für Studierende). Vorgehen und Zitierweise in Abschnitt «ILE-Literatur» unten.
+- **Nicht recherchiert:** übrige Lehre (Kommentare, Lehrbücher, Aufsätze ausserhalb der ILE-Literatur) und allgemeine Websuche (kein WebSearch). Übrige Lehre erscheint nur, wenn ein Entscheid oder ein ILE-Beitrag sie selbst anführt, und dann als dessen Aussage mit diesem als Fundstelle. Das Fehlen weiterer Lehre wird im Text nicht erwähnt.
 
 **Dateien aus dem Plugin «OK-Steuerkommentar».** Zitierrichtlinie und (für die Word-Fassung auf Wunsch) Formatvorlage und Builder liegen im Skill `steuerkommentar` dieses Plugins. Den Ordner findet Claude mit `find / -path '*ok-steuerkommentar*/skills/steuerkommentar/scripts/kommentar_build.py' 2>/dev/null | head -1` (der Skill-Ordner ist zwei Ebenen darüber; bei mehreren Treffern den jüngsten). Darin: `references/anhang-b-formatvorlagen.md` (nur für die Word-Fassung), `references/anhang-c-zitierrichtlinie.md` (Zitierweise), `references/anhang-d-hongler-publikationen.md` (Publikationen von Peter Hongler), `scripts/kommentar_build.py` (Builder), `assets/Vorlage_Online_Kommentar.docx` (OK-Vorlage), ab Plugin-Version 0.3.0 `references/anhang-f-muster-grieder-hongler.md` (ausführliche Fassung von Anhang M) und `scripts/ok_muster.py` (holt die Musterkommentierungen als Markdown). Die ausführliche Zitierrichtlinie mit Beispielen enthält der Skill `ok-zitierung` desselben Plugins, die Prüfpunkte der Schlussprüfung der Skill `pruefung`. Den Skill `steuerkommentar` selbst nicht laden: Seine Regeln zu U.E., gelber Markierung und Hongler-Abgleich gelten hier nicht. Ist das Plugin nicht installiert, liegen Zitierrichtlinie, Hongler-Publikationen und die ausführliche Mustervorlage im Projekt unter `.claude/skills/steuerkommentar-selbstaendig/references/` (`anhang-c-zitierrichtlinie.md`, `anhang-d-hongler-publikationen.md`, `anhang-f-muster-grieder-hongler.md`); die Word-Fassung entfällt dann.
 
@@ -30,17 +31,17 @@ Ziel ist die abstrakt-generelle Aufbereitung der Auslegungslage einer Norm, nich
 
 ## Grundhaltung
 
-- **Der Adressat ist Jurist.** Wert schafft die Aufbereitung von Rechtsprechung und Praxis, nicht die Wiederholung des Normtexts. Kontrollfrage je Satz: *Steht das schon im Gesetz? Wenn ja, weglassen.*
+- **Der Adressat ist Jurist.** Wert schafft die Aufbereitung von Rechtsprechung, Praxis und Lehre, nicht die Wiederholung des Normtexts. Kontrollfrage je Satz: *Steht das schon im Gesetz? Wenn ja, weglassen.*
 - **Neutral.** Der Text sagt, wer was vertritt, und wertet nicht selbst. Verboten sind eigene Stellungnahmen in jeder Form: «U.E.», «u.E.», «unseres Erachtens», «nach der hier vertretenen Auffassung», «wir», «vorzugswürdig», «richtigerweise», «zu Recht» bzw. «zurecht», «zutreffend», «überzeugt (nicht)», «verfehlt», «sachgerecht», «wünschenswert», «de lege ferenda sollte». Ebenso verboten sind Prognosen («dürfte vor Bundesgericht kaum standhalten», «wird sich durchsetzen»). Wertungen anderer werden als deren Auffassung wiedergegeben, in indirekter Rede: «Ein Teil der Lehre hält den Ausschluss für nicht stichhaltig begründet, da der Elterntarif kein Sozialabzug sei.»
-- **Offene Fragen offen lassen.** Wo Rechtsprechung fehlt oder Gerichte und Praxis auseinandergehen, steht das ausdrücklich da: was entschieden ist, was nicht, welche Positionen es gibt und worauf sie sich stützen. «Höchstrichterlich ist die Frage, soweit ersichtlich, nicht entschieden.» Keine Auflösung durch eigene Wertung.
+- **Offene Fragen offen lassen.** Wo Rechtsprechung fehlt oder Gerichte, Praxis und Lehre auseinandergehen, steht das ausdrücklich da: was entschieden ist, was nicht, welche Positionen es gibt und worauf sie sich stützen. «Höchstrichterlich ist die Frage, soweit ersichtlich, nicht entschieden.» Keine Auflösung durch eigene Wertung.
 - **Gliederung nach Sachfragen.** Überschriften benennen Rechtsbegriffe und Einzelprobleme («Der Begriff der ‹Wohnstätte›», «Parkplatzgebühren»), mit Normstelle in Klammern («(Abs. 1 lit. a)»). Keine Überschriften wie «Rechtsprechung», «Praxis der Steuerbehörden», «Kritische Würdigung» oder «Offene Fragen» als Gliederung nach Quellenarten. Innerhalb *einer* Sachfrage sind sammelnde Überschriften wie in den Mustern zulässig («Kasuistik der bundesgerichtlichen Eingriffe», «Kantonale Bewertungssysteme», «Tragweite der harmonisierungsrechtlichen Vorgabe»; Anhang M.2).
 - **Gliederung aus Wortlaut und Entscheiden.** Der Wortlaut liefert das Gerüst, das Entscheidregister die Sachfragen. Eine eigene Überschrift erhält eine Sachfrage nur, wenn sie eine eigenständige Rechtsfrage ist und Stoff für mindestens drei Randnoten trägt; ein einzelner Entscheid, auch ein BGE, genügt dafür nicht (Regeln unter «Aufbau»).
-- **Quellenrangfolge innerhalb jeder Sachfrage** (in den Randnoten, nicht als Unterkapitel): Gesetz und Verordnung → BGE → unpublizierte BGer-Entscheide (Fünferbesetzung kennzeichnen) → kantonale Gerichte → Verwaltungspraxis (ESTV/SSK, dann Kantone gebündelt). Verwaltungspraxis wird nie als Rechtsprechung ausgegeben. Was eine Aussage an Autorität hat, muss erkennbar sein (höchstrichterlich, kantonal, Praxis), und ob sie aus dem Gesetz oder nur aus der Verordnung folgt.
+- **Quellenrangfolge innerhalb jeder Sachfrage** (in den Randnoten, nicht als Unterkapitel): Gesetz und Verordnung → BGE → unpublizierte BGer-Entscheide (Fünferbesetzung kennzeichnen) → kantonale Gerichte → Verwaltungspraxis (ESTV/SSK, dann Kantone gebündelt) → Lehre (ILE-Literatur). Verwaltungspraxis wird nie als Rechtsprechung ausgegeben; Lehre ersetzt nie die Rechtsprechung. Was eine Aussage an Autorität hat, muss erkennbar sein (höchstrichterlich, kantonal, Praxis, Lehre), und ob sie aus dem Gesetz oder nur aus der Verordnung folgt.
 - **Register vollständig, Text knapp.** Vollständig ist das Entscheidregister, nicht der Fliesstext. Im Text stehen die Regel und die Entscheide, die sie setzen oder ändern; je Sachfrage höchstens ein bis zwei Leitfälle mit Sachverhaltskern, weitere BGE in einem Satz; gleichlaufende Entscheide gebündelt in der Fussnote mit Ergebnis-Klammer («(Zeitgewinn von 50 Minuten genügt nicht; Steuerperiode 2021)»). Ratio und obiter trennen.
-- **Kantonale Praxis gebündelt.** Die Mehrheitslinie in einem Satz («so etwa in den Kantonen Zürich, Luzern, Solothurn …»), Abweichungen einzeln mit Fundstelle. Ob eine Abweichung bundesrechtskonform ist, sagt der Text nur, wenn ein Gericht es sagt, und dann als dessen Aussage.
-- **Lehre nur aus Entscheiden.** Lehre wird nicht recherchiert. Führt ein Entscheid Lehrmeinungen an (etwa «die Lehre ist geteilt»), gibt der Text das als Aussage des Gerichts wieder, mit dem Entscheid als Fundstelle; die zitierten Autoren werden nicht als eigene Fundstelle zitiert. Kein Literaturverzeichnis.
-- **Nur Belegtes, am Volltext geprüft.** Jede Fundstelle hat Claude im Volltext gelesen oder durch die Fundstellenprüfung (Schritt 8) bestätigt: Entscheide an der zitierten Erwägung, Erlasse und Materialien im Original, Verwaltungspraxis im Dokument. Was sich nicht belegen lässt, wird gestrichen.
-- **Hongler/Lorenz nicht zitieren.** Hongler Peter/Lorenz Tabea, Einführung in das schweizerische Steuerrecht, ist ein Lehrbuch für Studierende (in Lexplorer Tax «ILE-Lehrbuch») und wird nicht zitiert. Steht eine Aussage nur dort, einen anderen Beleg suchen oder die Aussage streichen.
+- **Kantonale Praxis gebündelt.** Die Mehrheitslinie in einem Satz («so etwa in den Kantonen Zürich, Luzern, Solothurn …»), Abweichungen einzeln mit Fundstelle. Ob eine Abweichung bundesrechtskonform ist, sagt der Text nur, wenn ein Gericht oder die Lehre es sagt, und dann als deren Aussage.
+- **Lehre als Meinungsstand (ILE-Literatur).** Positionen gegenüberstellen («Ein Teil der Lehre …», «Nach Oesterhelt/Opel …»). In der Fussnote steht zuerst der Entscheid, der die Aussage trägt; Lehre folgt mit «gl.M.», «a.M.» (die Gegenposition zusätzlich im Text) oder «vgl.». Lehre ist nie die einzige Stütze einer Aussage, die schon ein Entscheid trägt. Wertungen der Autor:innen («Dem ist zuzustimmen») werden als deren Auffassung wiedergegeben, nie übernommen. Urteilsbesprechungen im FStR («Rechtsprechung 20xx») sind Lehre zu dem besprochenen Entscheid; der Entscheid selbst wird nach dem Original zitiert.
+- **Nur Belegtes, am Volltext geprüft.** Jede Fundstelle hat Claude im Volltext gelesen oder durch die Fundstellenprüfung (Schritt 8) bestätigt: Entscheide an der zitierten Erwägung, Erlasse und Materialien im Original, Verwaltungspraxis im Dokument, ILE-Literatur im Chunk bzw. Dokument aus Lexplorer Tax. Was sich nicht belegen lässt, wird gestrichen.
+- **Hongler/Lorenz nicht zitieren.** Hongler Peter/Lorenz Tabea, Einführung in das schweizerische Steuerrecht, ist ein Lehrbuch für Studierende (in Lexplorer Tax «ILE-HSG — Lehrbuch Steuerrecht») und wird nicht zitiert, obwohl es in der ILE-Kategorie liegt. Steht eine Aussage nur dort, einen anderen Beleg suchen oder die Aussage streichen.
 - **Begriffe und Sprache.** Die Begriffe des Gesetzes («Maximalbetrag», nicht «Plafond»), kein Jargon und keine Schlagwörter in Anführungszeichen, keine unbestimmten Bezüge («solche», «dies»), Beschlossenes als Tatsache. Schweizer Hochdeutsch, «ss», Guillemets « », Halbgeviertstrich «–», kein «—».
 - **Nie aus dem Gedächtnis rekonstruieren.** Normtext, Urteile, Praxis und Materialien stammen aus recherchierten Quellen; Zitierstrings von Entscheiden nur aus Tool-Ergebnissen; keine Fundstellen erfinden.
 
@@ -68,21 +69,21 @@ Aus Gerüst und Problemkarte die Gliederung ableiten (Regeln unter «Aufbau»), 
 | Materialien, Revisionen | Open Case Law `get_article_history`, `search_botschaft`, `get_article_purpose`; Fedlex `list_amendments` |
 | kantonale Gerichte, BVGer | **Ausschliesslich Entscheidsuche, nie Lexplorer.** Entscheidsuche `search` mit `hierarchy` (z.B. `ZH_SRK`, `ZH_VG`, `BE_SRK`, `AG_SVWG`; alle Kennungen über `list_hierarchy`), Volltext über `fetch_document`; mehrere Begriffe ohne `AND` schreiben. Ohne Entscheidsuche-Werkzeug: POST https://entscheidsuche.ch/_search.php |
 | ESTV, SSK, Steuerbücher, Wegleitungen | ESTV-Kreisschreiben über Open Case Law `search_practice`/`get_practice`; SSK und kantonale Steuerbücher über Lexplorer Tax, navigiert statt gesucht («Lexplorer sparsam») |
-| Lehre, allgemeine Websuche | **nicht recherchieren** (siehe «Quellen, die recherchiert werden») |
+| Lehre | **nur ILE-Literatur** in Lexplorer Tax (Abschnitt «ILE-Literatur»); übrige Lehre und allgemeine Websuche nicht |
 
 Je Sachfrage recherchieren, bei vielen Sachfragen parallel (Hilfsagenten, unten). Die verlangten Kantone systematisch prüfen. Zeigt eine Quelle eine Sachfrage, die im Register fehlt, wird die Gliederung angepasst.
 
 ### 5. Kommentar schreiben (Aufbau unten)
 Vorher Anhang M lesen und die Musterkommentierung, die der Norm am nächsten ist, im Volltext (Anhang M.1). Je Sachfrage die Randnoten in der Quellenrangfolge setzen; wo strittig oder offen, den Meinungsstand darstellen und die Frage als offen bezeichnen. Pro Randnote ein Gedanke, drei bis sechs Sätze, genau ein fettes Stichwort. Text als **Markdown** in `kommentare/<Erlass>/art-<N>.md` schreiben, im Format von `docs/FORMAT.md` des Projekts (Kurzfassung in Anhang G unten): Randnoten als `{rn:label}` am Absatzanfang, Fussnoten inline als `^[…]`, Querverweise `N. {{N:label}}`. Bei langen Kommentierungen abschnittweise schreiben (Übersicht, dann je Hauptteil) und an die Datei anfügen. Danach den Kürzungsdurchgang (unter «Umfang») und einen **Neutralitätsdurchgang**: `python3 pipeline/kommentar.py kommentare/<Erlass>/art-<N>.md` meldet Formatfehler und die verbotenen Wendungen aus der Grundhaltung; ohne Projektordner dieselbe Suche mit `grep -niE "u\.e\.|unseres erachtens|hier vertretenen|vorzugswürdig|richtigerweise|zu ?recht|zutreffend|an anderer stelle|überzeug|verfehlt|sachgerecht|dürfte|wohl kaum|\bwir\b|\bunser"`. Jede eigene Wertung streichen oder als fremde Auffassung mit Fundstelle umschreiben.
 
-### 6. Praxis abgleichen
-Je Sachfrage prüfen, ob kantonale Gerichte und Verwaltungspraxis vollständig eingeordnet sind (Mehrheitslinie, Abweichungen). Keine Lehrrecherche.
+### 6. Praxis und ILE-Literatur abgleichen
+Je Sachfrage prüfen, ob kantonale Gerichte und Verwaltungspraxis vollständig eingeordnet sind (Mehrheitslinie, Abweichungen), und die ILE-Literatur zuordnen: bestätigend (gl.M.), abweichend (a.M., Gegenposition im Text) oder weiterführend (vgl.); nur aus gelesenen Chunks.
 
 ### 7. Zitieren
-Nach Anhang C (Zitierrichtlinie des Onlinekommentars), sofern für die Veröffentlichung nichts anderes vorgegeben ist: Erlass-Erstnennungen mit Titel, Datum und SR-Nummer, Seitenzahlen statt interner Ziffern (Anhang C.5), Materialienverzeichnis.
+Nach Anhang C (Zitierrichtlinie des Onlinekommentars), sofern für die Veröffentlichung nichts anderes vorgegeben ist: Erlass-Erstnennungen mit Titel, Datum und SR-Nummer, Seitenzahlen statt interner Ziffern (Anhang C.5), Literaturverzeichnis (nur zitierte ILE-Literatur) und Materialienverzeichnis.
 
 ### 8. Fundstellen prüfen
-**Hilfsagent (alle Fundstellen, keine Batches):** Ein eigener Hilfsagent ohne Kenntnis der Entstehung prüft jede Fundstelle gegen die Quelle: Entscheide an der zitierten Erwägung über Open Case Law (`get_erwaegung`; stimmt die E., stützt sie die Aussage?) und den Zitierstring (`cite`), Entscheide im Cache auch direkt im Cache-Text, kantonale Entscheide über Entscheidsuche `fetch_document`, Verwaltungspraxis im Dokument (Lexplorer-Tax-Kennungen in `01_Recherche/Lexplorer_Fundstellen.md`), Materialien über Fedlex bzw. `search_botschaft`. Bei vielen Fussnoten ein Prüfagent je Hauptteil. Ergebnis ist die **Fundstellenliste** (Fussnote · Fundstelle · Ergebnis: bestätigt, korrigiert, nicht belegbar · Hinweis). Claude korrigiert Fehler; was sich nicht belegen lässt, wird mit der Aussage, die es tragen sollte, gestrichen oder umformuliert, so dass die verbleibende Aussage belegt ist.
+**Hilfsagent (alle Fundstellen, keine Batches):** Ein eigener Hilfsagent ohne Kenntnis der Entstehung prüft jede Fundstelle gegen die Quelle: Entscheide an der zitierten Erwägung über Open Case Law (`get_erwaegung`; stimmt die E., stützt sie die Aussage?) und den Zitierstring (`cite`), Entscheide im Cache auch direkt im Cache-Text, kantonale Entscheide über Entscheidsuche `fetch_document`, Verwaltungspraxis und ILE-Literatur im Dokument (Chunk-IDs in `01_Recherche/Lexplorer_Fundstellen.md`; `get_chunk_content` zählt nicht als Suche), Materialien über Fedlex bzw. `search_botschaft`. Bei vielen Fussnoten ein Prüfagent je Hauptteil. Ergebnis ist die **Fundstellenliste** (Fussnote · Fundstelle · Ergebnis: bestätigt, korrigiert, nicht belegbar · Hinweis). Claude korrigiert Fehler; was sich nicht belegen lässt, wird mit der Aussage, die es tragen sollte, gestrichen oder umformuliert, so dass die verbleibende Aussage belegt ist.
 
 ### 9. Schlussprüfung
 Den ganzen Text nach den Prüfpunkten des Skills `pruefung` durchgehen (Rechtschreibung und Grammatik, Zitierrichtlinie, Rang der Aussagen und Aufbau, Widersprüche und Wiederholungen, Querverweise, Formatvorgaben, Begriffe und Klarheit, typische Fehlerquellen), ohne dessen Markup- und Kommentarschritt: Claude behebt die Befunde direkt in der Markdown-Datei. Dazu nochmals `pipeline/kommentar.py` (Format und Neutralität, muss ohne Befund durchlaufen). Die Befunde mit ihrer Erledigung kommen in `arbeit/<Erlass>/art-<N>/Pruefbericht_<Datum>.md`.
@@ -97,10 +98,17 @@ Im Chat drei bis fünf Sätze: Umfang (Randnoten, Fussnoten, Entscheide im Regis
 
 ### Lexplorer sparsam (Kontingent)
 Lexplorer und Lexplorer Tax zählen Suchen gegen das Monatskontingent der Person, deren Verbindung Claude nutzt (Pro 500 Suchen im Monat, Search Basic 150; Webapp und MCP zusammen).
-1. **Entscheide nie über Lexplorer**, auch nicht lesend; Bundesgericht über Open Case Law, kantonale Gerichte über Entscheidsuche. Lexplorer Tax nur für kantonale Steuerbücher und Weisungen und SSK; keine Literatur.
+1. **Entscheide nie über Lexplorer**, auch nicht lesend; Bundesgericht über Open Case Law, kantonale Gerichte über Entscheidsuche. Lexplorer Tax für kantonale Steuerbücher und Weisungen, SSK und die ILE-Literatur.
 2. **Navigieren statt suchen.** Steuerbücher sind nach Artikeln gegliedert: `nav_list_sources` mit Kanton → Steuerbuch-Quelle → `nav_list_documents`, in der Liste nach der Artikelnummer filtern (z.B. «ZStB 26.»), lesen mit `get_document_slice` bzw. `get_chunk_content`. Navigieren und Lesen zählen nicht (geprüft am 17.10.2026). Eine Suche (`search_chunks_*`) nur, wo die Navigation nicht hinführt, eine je Sachfrage und Kanton.
 3. **Einmal suchen, dann wiederverwenden.** Jeder gebrauchte Treffer kommt mit Abfrage, Werkzeug, Kanton, Kennung, `lexplorer_url`, tragendem Satz und Seite in `01_Recherche/Lexplorer_Fundstellen.md`; vor jeder Suche diese Datei prüfen.
-4. **Budget:** höchstens 60 Suchen je Kommentierung (`search_*` und `find_leading_cases` beider Dienste). Claude führt den Zähler; jeder Hilfsagent erhält ein Teilbudget und meldet seine Zahl. Ist das Budget erreicht, priorisiert Claude die offenen Sachfragen und fragt, bevor es weitersucht.
+4. **Budget:** Kontingent 3’000 Suchen im Monat. Höchstens 25 Suchen je Kommentierung (`search_*` und `find_leading_cases` beider Dienste), davon in der Regel 1–2 je Sachfrage für die ILE-Literatur. Claude führt den Zähler; jeder Hilfsagent erhält ein Teilbudget und meldet seine Zahl. Ist das Budget erreicht, priorisiert Claude die offenen Sachfragen und hört auf zu suchen (im unbeaufsichtigten Lauf ohne Rückfrage; im Prüfbericht vermerken).
+
+### ILE-Literatur (Lexplorer Tax)
+1. **Suchen:** je Sachfrage eine Suche `search_chunks_hybrid` (oder `search_chunks_keyword` für feste Begriffe) mit `filter_kanton: "CH"`, `filter_category: "08-institut-fuer-law-und-economics"`, `limit` 8–10; Abfrage aus Rechtsbegriff, Norm und Kernfrage («Absicht dauernden Verbleibens Art. 3 Abs. 2 DBG Lebensmittelpunkt»). Treffer aus «ILE-HSG — Lehrbuch Steuerrecht» übergehen.
+2. **Lesen:** die einschlägigen Treffer mit `get_chunk_content` ganz lesen (zählt nicht als Suche); bei Bedarf Umfeld mit `get_document_slice`. Die Autor:innen stehen am Ende des Chunks («— Autor:innen: …»); fehlt die Angabe, im Dokument suchen, sonst nicht zitieren.
+3. **Zitieren:** Kurzzitat in der Fussnote «Oesterhelt/Opel, FStR 2025, Rechtsprechung 2025-2, Ziff. 5.3.» (Name(n) – Fundort mit Jahr – Titel des Beitrags – Ziffer oder Abschnitt; Seitenzahl nur, wenn sie im Text steht). Im Literaturverzeichnis: «Oesterhelt Stefan/Opel Andrea, Rechtsprechung 2025-2, FStR 2025 [lexplorer_url]». Schriftenreihe und Working Papers entsprechend mit Titel und Jahr.
+4. **Ablage:** jeder verwendete Treffer mit Abfrage, Chunk-ID, Autor:innen, Titel, Ziffer, tragendem Satz und `lexplorer_url` in `01_Recherche/Lexplorer_Fundstellen.md`.
+5. **Gewicht:** ILE-Literatur ergänzt Rechtsprechung und Praxis; sie bestimmt nicht die Gliederung. Eigene Randnoten für Lehre nur, wo sie einen eigenen Meinungsstand trägt (Kritik, offene Frage, abweichende Auffassung).
 
 ### Hilfsagenten und Effort
 Hilfsagenten startet Claude mit dem Agent-Werkzeug und setzt `effort` nach dieser Tabelle; die Vorgabe gilt als ausdrückliche Anweisung dieses Skills.
@@ -134,6 +142,7 @@ Gliederung, Schreiben, Neutralitätsdurchgang, Widersprüche und das Beheben der
 # Abgrenzungsfragen                            (wo einschlägig)
 # Verfahren                                    (wo einschlägig)
 # Ausblick                                     (beschlossenes künftiges Recht, Reformen)
+# Literaturverzeichnis                         (nur zitierte ILE-Literatur)
 # Materialienverzeichnis
 ```
 
@@ -144,7 +153,7 @@ Gliederung, Schreiben, Neutralitätsdurchgang, Widersprüche und das Beheben der
 
 **Gliederung ableiten** (Schritt 3). Zwei Quellen bestimmen die Gliederung: der Wortlaut und das Entscheidregister.
 1. *Sachkomplexe aus dem Wortlaut:* je Absatz ein Kapitel der ersten Ebene («Zu Art. 10 Abs. 1 DBG», wie in den Mustern), bei einer Norm ohne Absätze je Tatbestandsmerkmal und am Schluss «Rechtsfolge», in der Reihenfolge der Norm; darunter die Rechtsbegriffe des Wortlauts. Gesetzesbegriffe in Guillemets, Normstelle in Klammern.
-2. *Sachfragen aus dem Register:* Jede Sachfrage kommt unter den Rechtsbegriff, an den sie anknüpft. Der Normalfall ist die Randnote mit fettem Stichwort. Eine eigene Überschrift erhält eine Sachfrage nur, wenn (a) sie eine eigenständige Rechtsfrage ist und (b) sie Stoff für mindestens drei Randnoten trägt (Entscheidreihe, Praxisänderung oder Auseinandergehen von Bundesgericht und kantonaler Praxis). Ein einzelner Entscheid, auch ein BGE, begründet keine eigene Überschrift.
+2. *Sachfragen aus dem Register:* Jede Sachfrage kommt unter den Rechtsbegriff, an den sie anknüpft. Der Normalfall ist die Randnote mit fettem Stichwort. Eine eigene Überschrift erhält eine Sachfrage nur, wenn (a) sie eine eigenständige Rechtsfrage ist und (b) sie Stoff für mindestens drei Randnoten trägt (Entscheidreihe, Praxisänderung oder Auseinandergehen von Bundesgericht, kantonaler Praxis und Lehre). Ein einzelner Entscheid, auch ein BGE, begründet keine eigene Überschrift.
 3. *Gewicht bestimmt die Tiefe, sparsam:* Unterüberschriften nach Fallgruppen nur, wenn jede die Schwelle aus Regel 2 erreicht; eine Überschrift mit weniger als drei Randnoten wird mit der benachbarten zusammengelegt. Ein Begriff ohne Rechtsprechung erhält eine Randnote mit Vermerk.
 4. *Reihenfolge:* innerhalb eines Sachkomplexes zuerst der Wortlaut, dann die Sachfragen nach Gewicht.
 5. *Querschnittsfragen* (Beweislast, Verfahren, Verhältnis zu anderen Normen) erhalten ein Rahmenkapitel nur, wenn sie mehrere Sachkomplexe betreffen.
@@ -158,7 +167,8 @@ Höchstens vier Ebenen unter dem Titel.
 2. Leitentscheid(e) des Bundesgerichts mit Sachverhaltskern; weitere BGer-Entscheide und Präzisierungen.
 3. Kantonale Gerichte, mit Hinweis, ob das Bundesgericht die Linie übernommen hat.
 4. Praxis: ESTV/SSK, dann Kantone gebündelt mit Abweichungen.
-5. Wo strittig oder ungeklärt: **Stand der Frage** – was entschieden ist, was offen bleibt, welche Positionen Gerichte und Praxis mit welcher Begründung vertreten. Kein eigener Vorschlag.
+5. Lehre (ILE-Literatur, Meinungsstand).
+6. Wo strittig oder ungeklärt: **Stand der Frage** – was entschieden ist, was offen bleibt, welche Positionen Gerichte, Praxis und Lehre mit welcher Begründung vertreten. Kein eigener Vorschlag.
 
 Fehlt zu einer Sachfrage Rechtsprechung oder Praxis, das ausdrücklich sagen («Höchstrichterliche Rechtsprechung liegt, soweit ersichtlich, nicht vor.»).
 
@@ -166,7 +176,7 @@ Fehlt zu einer Sachfrage Rechtsprechung oder Praxis, das ausdrücklich sagen («
 
 **Umfang.**
 - *Umfangsplan vor dem Schreiben* in der Gliederungsnotiz: je Überschrift die geplante Zahl der Randnoten und die Summe. Richtwert sind OK-Kommentierungen zu Normen mit ähnlich viel Stoff (im OK DBG rund 50 Randnoten bei Art. 14 DBG bis über 160 bei Art. 26 DBG); jede Überschrift mit mehr als etwa zehn Randnoten und eine Summe über dem Richtwert begründen.
-- *Was in den Text gehört:* die Regel, ihre Begründung durch Gesetz, Gericht oder Materialien, die Entscheide, die sie setzen oder ändern, Abweichungen der Praxis. Gleichlaufende Kasuistik gebündelt in die Fussnoten; was nichts belegt, bleibt im Register.
+- *Was in den Text gehört:* die Regel, ihre Begründung durch Gesetz, Gericht oder Materialien, die Entscheide, die sie setzen oder ändern, Abweichungen der Praxis und der Meinungsstand. Gleichlaufende Kasuistik gebündelt in die Fussnoten; was nichts belegt, bleibt im Register.
 - *Kürzungsdurchgang:* Randnoten streichen, die den Wortlaut oder eine andere Randnote wiederholen; Sätze, die nicht die kommentierte Norm betreffen; Sachverhaltsschilderungen ausser bei Leitfällen auf einen Halbsatz kürzen; Überschriften mit weniger als drei Randnoten zusammenlegen.
 
 ---
@@ -178,13 +188,13 @@ Fehlt zu einer Sachfrage Rechtsprechung oder Praxis, das ausdrücklich sagen («
 - [ ] Übersicht als erstes Kapitel mit Regelungsgegenstand, Entstehungsgeschichte (1–3 Randnoten) und Harmonisierung (1–3 Randnoten); keine eigenen Kapitel dafür?
 - [ ] Entscheidregister vollständig (Cache der Pipeline plus Leitentscheide und frühere Fassungen nach A.1, bzw. alle Suchwege aus A.1; A-Entscheide an der Erwägung gelesen)?
 - [ ] Gliederung aus Wortlaut und Register; eigene Überschriften nur über der Schwelle; Abdeckungsprobe; Umfangsplan eingehalten oder begründet; Kürzungsdurchgang gemacht?
-- [ ] Quellenrangfolge je Sachfrage; Rang jeder Aussage erkennbar; keine Lehrrecherche, Lehre nur als Aussage eines Entscheids; keine Websuche?
+- [ ] Quellenrangfolge je Sachfrage; Rang jeder Aussage erkennbar; Lehre nur aus der ILE-Literatur (ohne Lehrbuch Hongler/Lorenz), in der Fussnote nach dem Entscheid mit gl.M., a.M., vgl.; keine Websuche?
 - [ ] **Keine eigene Meinung:** kein U.E., keine Bewertung, keine Prognose; Neutralitätsdurchgang ohne Treffer; offene Fragen als offen dargestellt?
 - [ ] Keine gelbe Markierung, kein `==`?
 - [ ] Aufbau, Sprache und Fussnoten am Muster geprüft (Anhang M); wertende Stellen der Muster nicht übernommen, sondern neutral umgeschrieben (M.4); Hongler/Lorenz nirgends zitiert?
 - [ ] Jede Fundstelle am Volltext geprüft (Fundstellenliste des Hilfsagenten, alle Befunde behoben); Nicht-Belegbares gestrichen?
 - [ ] Schlussprüfung nach den Prüfpunkten von `pruefung` gemacht und Befunde behoben (Prüfbericht)?
-- [ ] Lexplorer-Budget eingehalten, Zahl der Suchen gemeldet?
+- [ ] ILE-Literatur je Sachfrage geprüft; Lexplorer-Budget (25) eingehalten, Zahl der Suchen gemeldet?
 
 **Zitierweise und Format**
 - [ ] Erlasse bei der Erstnennung mit Titel, Datum, SR-Nummer und «nachfolgend: …»; Kurzzitate lösen sich im Verzeichnis auf; Fussnoten enden mit Punkt; Datumsformate nach Richtlinie?
@@ -236,7 +246,7 @@ Das Register, nach Sachfragen verdichtet: Sachfrage · Normstelle und Rechtsbegr
 Die Gliederungsnotiz dient der späteren Nachführung (neue Rechtsprechung einordnen) und wird nicht veröffentlicht.
 
 ### A.6 Standardkommentare und übrige Lehre
-Werden nicht recherchiert und nicht als eigene Fundstelle zitiert. Gibt ein Entscheid eine Lehrmeinung wieder, ist der Entscheid die Fundstelle («Das Bundesgericht verweist auf die Lehre, wonach …»).
+Lehre ausserhalb der ILE-Literatur wird nicht recherchiert und nicht als eigene Fundstelle zitiert. Gibt ein Entscheid oder ein ILE-Beitrag eine solche Lehrmeinung wieder, ist dieser die Fundstelle («Das Bundesgericht verweist auf die Lehre, wonach …»).
 
 ---
 
@@ -286,10 +296,10 @@ Die Muster enthalten eigene Auffassungen der Autoren. In diesem Skill werden sie
 | «wie Teuscher/Lobsiger zurecht festhalten» | «wie Teuscher/Lobsiger festhalten» |
 | «Wie an anderer Stelle detailliert diskutiert wurde, …» (eigene Publikation) | «Hongler/Thirumamany weisen darauf hin, dass …» + Fussnote (gewöhnliche Lehre) |
 
-Die Beispiele mit Lehre zeigen nur die neutrale Sprache; Lehre erscheint in diesem Skill nur, soweit ein Entscheid sie anführt. Ein Rechtsvergleich (etwa § 15 Abs. 2 EStG) oder der Blick auf Doppelbesteuerungsabkommen bleibt zulässig, wenn er Lehre oder Rechtsprechung wiedergibt und nicht eine eigene Lösung stützt.
+Lehre stammt in diesem Skill nur aus der ILE-Literatur (A.6). Ein Rechtsvergleich (etwa § 15 Abs. 2 EStG) oder der Blick auf Doppelbesteuerungsabkommen bleibt zulässig, wenn er Lehre oder Rechtsprechung wiedergibt und nicht eine eigene Lösung stützt.
 
 ### M.5 Was die Muster zitieren
-Rechtsprechung dominiert (in Art. 14 StHG rund 60 verschiedene BGE und BGer-Entscheide), dazu kantonale Gerichte, Kreisschreiben von ESTV und SSK, kantonale Steuerbücher, Standardkommentare, Lehrbücher für die Praxis (Reich, Blumenstein/Locher, Simonek, von Ah), Aufsätze und Monografien. Lehre hier nur nach Anhang A.6 (über Entscheide). Hongler/Lorenz, Einführung in das schweizerische Steuerrecht, wird nicht zitiert.
+Rechtsprechung dominiert (in Art. 14 StHG rund 60 verschiedene BGE und BGer-Entscheide), dazu kantonale Gerichte, Kreisschreiben von ESTV und SSK, kantonale Steuerbücher, Standardkommentare, Lehrbücher für die Praxis (Reich, Blumenstein/Locher, Simonek, von Ah), Aufsätze und Monografien. Lehre hier nur aus der ILE-Literatur (Abschnitt «ILE-Literatur», Anhang A.6). Hongler/Lorenz, Einführung in das schweizerische Steuerrecht, wird nicht zitiert.
 
 ---
 
@@ -321,6 +331,10 @@ fassung: Fassung vom 2.9.2026
 {rn:fahrkosten-grundsatz} **Notwendige Kosten.** Eine Randnote darf eine Aufzählung enthalten:
 - erster Punkt;^[Beleg.]
 - zweiter Punkt.^[Beleg.]
+
+# Literaturverzeichnis
+
+- Oesterhelt Stefan/Opel Andrea, Rechtsprechung 2025-2, FStR 2025 [lexplorer_url].
 
 # Materialienverzeichnis
 

@@ -5,7 +5,7 @@ description: Wie die Kommentierungen entstehen, auf welche Quellen sie sich stü
 
 ## Was das Werk ist
 
-Ein frei zugänglicher Kommentar zu fünf Bundesgesetzen des Steuerrechts: DBG, StHG, VStG, MWSTG und Bundesgesetz über die Stempelabgaben. Jede Kommentierung stellt dar, was Gesetz, Rechtsprechung und Verwaltungspraxis zu einer Norm sagen, und wo eine Frage offen ist. Im Zentrum steht die Rechtsprechung des Bundesgerichts. Nicht kommentiert werden Übergangsbestimmungen sowie die Bestimmungen über Referendum und Inkrafttreten.
+Ein frei zugänglicher Kommentar zu fünf Bundesgesetzen des Steuerrechts: DBG, StHG, VStG, MWSTG und Bundesgesetz über die Stempelabgaben. Jede Kommentierung stellt dar, was Gesetz, Rechtsprechung, Verwaltungspraxis und Lehre zu einer Norm sagen, und wo eine Frage offen ist. Im Zentrum steht die Rechtsprechung des Bundesgerichts. Nicht kommentiert werden Übergangsbestimmungen sowie die Bestimmungen über Referendum und Inkrafttreten.
 
 ## Wie die Kommentierungen entstehen
 
@@ -13,7 +13,7 @@ Die Kommentierungen haben keine Autor:innen. Sie werden mit dem Sprachmodell Cla
 
 1. **Entscheidregister.** Alle Entscheide des Bundesgerichts, die die Norm in den Erwägungen zitieren, werden gesammelt und nach ihrer Bedeutung eingeordnet: tragende Entscheide, Anwendungsfälle, blosse Erwähnungen. Tragende Entscheide werden an der einschlägigen Erwägung gelesen.
 2. **Gliederung.** Sie folgt dem Wortlaut der Norm und den Sachfragen, die die Rechtsprechung aufwirft, nicht den Quellenarten.
-3. **Neutralität.** Der Text gibt wieder, was Gerichte und Verwaltung sagen, und wertet nicht selbst: kein «unseres Erachtens», keine Vorschläge, keine Prognosen. Wo eine Frage nicht entschieden ist, steht das so im Text.
+3. **Neutralität.** Der Text gibt wieder, was Gerichte, Verwaltung und Lehre sagen, und wertet nicht selbst: kein «unseres Erachtens», keine Vorschläge, keine Prognosen. Wo eine Frage nicht entschieden ist, steht das so im Text.
 4. **Fundstellenprüfung.** Eine eigene Prüfinstanz, die den Text nicht geschrieben hat, prüft jede Fussnote am Volltext der Quelle: Stimmt die Erwägung, trägt sie die Aussage? Was sich nicht belegen lässt, wird gestrichen.
 5. **Schlussprüfung.** Sprache, Zitierweise, Querverweise und Widersprüche werden geprüft und die Befunde behoben.
 
@@ -27,8 +27,9 @@ Das Verfahren und der Quelltext jeder Kommentierung sind mit ihrer Versionsgesch
 | Entscheide des Bundesgerichts (BGE, BGer) | [Open Case Law](https://opencaselaw.ch), mit den amtlichen Zitierungen; gefunden über die Volltextsuche von [entscheidsuche.ch](https://entscheidsuche.ch) |
 | Entscheide kantonaler Gerichte | [entscheidsuche.ch](https://entscheidsuche.ch) |
 | Verwaltungspraxis | Kreisschreiben und Mitteilungen der ESTV, Kreisschreiben der Schweizerischen Steuerkonferenz, kantonale Steuerbücher und Weisungen |
+| Lehre | Literatur des Instituts für Law and Economics der Universität St. Gallen (ILE-HSG): Forum für Steuerrecht (FStR), IFF-Schriftenreihe, Working Papers und Seminarunterlagen, über [Lexplorer](https://lexplorer.ch) |
 
-**Lehre wird nicht ausgewertet.** Die Kommentierungen stützen sich auf Gesetz, Rechtsprechung und Praxis. Lehrmeinungen erscheinen nur, soweit ein Gericht sie selbst anführt, und dann mit dem Entscheid als Fundstelle. Wer den Meinungsstand in der Lehre braucht, findet ihn in den gedruckten Kommentaren. Die ersten Kommentierungen (Art. 1, 3, 7, 9 und 10 DBG) sind vor dieser Umstellung entstanden und ziehen auch Lehre heran; sie haben ein Literaturverzeichnis.
+**Lehre.** Ausgewertet wird die Literatur des ILE-HSG. Sie wird als Meinungsstand wiedergegeben und ergänzt Rechtsprechung und Praxis, ersetzt sie aber nicht. Übrige Lehre erscheint nur, soweit ein Gericht oder ein ILE-Beitrag sie anführt. Wer den vollständigen Meinungsstand braucht, findet ihn in den gedruckten Kommentaren.
 
 ## Grenzen
 
