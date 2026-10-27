@@ -172,14 +172,13 @@
    "erlass": "DBG",
    "nummer": "15",
    "sachueberschrift": "Steuerbefreiung",
-   "status": "in_arbeit",
+   "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Abbruch: API-Guthaben aufgebraucht",
    "status_vorher": "offen",
-   "bearbeiter": "github-actions",
-   "seit": "2026-10-27T02:10:51+00:00"
+   "geaendert": "2026-10-27"
   },
   "DBG/art-16": {
    "erlass": "DBG",
