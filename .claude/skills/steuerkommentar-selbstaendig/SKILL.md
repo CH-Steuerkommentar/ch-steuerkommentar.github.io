@@ -149,7 +149,7 @@ Gliederung, Schreiben, Neutralitätsdurchgang, Widersprüche und das Beheben der
 **Übersicht (erstes Kapitel).** Keine eigenen Kapitel «Entstehungsgeschichte», «Harmonisierung», «Vorbemerkungen» oder «Begriff und Allgemeines»; das gehört in die Übersicht, je mit fettem Stichwort und in dieser Reihenfolge:
 1. **Regelungsgegenstand** (1–3 Randnoten): was die Norm regelt, ihr System und ihre Stellung im Gesetz, Zweck, konkretisierende Verordnung und Kreisschreiben.
 2. **Entstehungsgeschichte** (1–3 Randnoten): Herkunft (Vorgängernorm, Botschaft), wesentliche Revisionen mit Datum und Fundstelle (AS, BBl). Revisionen, die nur eine Einzelfrage betreffen, stehen bei dieser Frage (z.B. FABI beim Maximalbetrag für Fahrkosten).
-3. **Harmonisierung** (1–3 Randnoten): Parallelnorm im StHG, inhaltliche Übereinstimmung laut Rechtsprechung, Spielraum der Kantone.
+3. **Harmonisierung** (1–3 Randnoten): Parallelnorm im StHG, inhaltliche Übereinstimmung laut Rechtsprechung, Spielraum der Kantone. Bei VStG, MWSTG und StG gibt es keine Harmonisierung; an ihre Stelle tritt, wo einschlägig, **Verhältnis zu anderen Erlassen** (1–2 Randnoten, z.B. Verhältnis VStG–DBG, StG–VStG, Doppelbesteuerungsabkommen).
 
 **Gliederung ableiten** (Schritt 3). Zwei Quellen bestimmen die Gliederung: der Wortlaut und das Entscheidregister.
 1. *Sachkomplexe aus dem Wortlaut:* je Absatz ein Kapitel der ersten Ebene («Zu Art. 10 Abs. 1 DBG», wie in den Mustern), bei einer Norm ohne Absätze je Tatbestandsmerkmal und am Schluss «Rechtsfolge», in der Reihenfolge der Norm; darunter die Rechtsbegriffe des Wortlauts. Gesetzesbegriffe in Guillemets, Normstelle in Klammern.
