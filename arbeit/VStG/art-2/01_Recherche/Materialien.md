@@ -1,0 +1,18 @@
+# Materialien Art. 2 VStG (Recherche Hilfsagent, 27.10.2026)
+
+Quellen: Open Case Law search_botschaft/get_materialien (OCR-Texte vor 1999), Fedlex. OCR-Seiten: Dokumentseite laut Tool; gedruckte BBl-Seite = Anfangsseite + Dokumentseite − 1 (Kalibrierung an BBl 1963 II 953 aus Art. 1 VStG, Fundstellenliste Teil 1).
+
+- BBl 1963 II 953, Dok.-S. 15 (= S. 967): «Für eine Beteiligung der Kantone am Ertrag der Verrechnungssteuer durch eine Vorschrift des Verrechnungssteuergesetzes fehlt also die verfassungsrechtliche Grundlage.»; Mehrheit der Kantone für Anteil, zwei für Provision. Dok.-S. 16 (= S. 968): Gegebenheiten für Beteiligung oder Bezugsprovision «liegen offensichtlich bei der Verrechnungssteuer nicht vor».
+- BBl 1969 II 749, Dok.-S. 24 (= S. 772): Couponabgabe (Kantone 20 % beteiligt) auf 1.1.1967 aufgehoben; «Als Ersatz räumten die eidgenössischen Räte den Kantonen eine Provision von 6 Prozent am Reinertrag (Eingänge abzüglich Rückerstattungen) der Verrechnungssteuer ein (Art. 2 Verrechnungssteuergesetz». Dok.-S. 25 (= S. 773): Vorschlag Erhöhung 6 → 10 %.
+- BBl 1972 I 774, Dok.-S. 1 (= S. 774): Verteilung «im Verhältnis der durch die letzte Volkszählung ermittelten Wohnbevölkerung»; Räte erhöhten auf 12 %. Dok.-S. 18 f. (= S. 791 f.): Entwurf Art. 2: Abs. 1 12 %; Abs. 2 Verteilung nach Jahresende, Hälfte nach Bevölkerungszahl, Hälfte gleitende Skala auf Kantone unter Landesmittel der Finanzkraft; Abs. 3 Volkszählung und Indexzahlen der Finanzkraft. Dok.-S. 4 (= S. 777): Finanzkraft als weitere Komponente für wirksamen Ausgleich.
+- BBl 1970 II 1581, Dok.-S. 18 (= S. 1598): Art. 10 ÜB aBV: Provision 6 % durch Anteil 12 % ersetzt; Bundesgesetzgebung bestimmt Art der Verteilung.
+- BBl 1975 I 334, Dok.-S. 18 (= S. 351): Satz 30 → 35 % ab 1.1.1976 bei Reduktion des Anteils 12 → 10 %; Dok.-S. 23 (= S. 356): seit 1.1.1972 12 % (Art. 10 ÜB-BV; Art. 2 VStG).
+- BBl 1977 II 1453, Dok.-S. 31 (= S. 1483): «In den Jahren, in denen der Satz der Verrechnungssteuer 30 Prozent übersteigt, beträgt der Kantonsanteil 10 Prozent. Die Verteilung erfolgt je zur Hälfte nach Bevölkerungszahl und einem Finanzausgleichsschlüssel».
+- BBl 1980 II 927, Dok.-S. 39 (= S. 965): Kantone am erhöhten Reinertrag beteiligt; Anteil gegenwärtig 10 %.
+- BBl 1996 II 257, Dok.-S. 2 (= S. 258): Kosten würden Reinertrag schmälern; Kantonsanteil von 10 % würde sich proportional vermindern.
+- BBl 2002 2291 (Botschaft NFA 14.11.2001): S. 2388 bisheriger Schlüssel 50 % Bevölkerung, 50 % finanzschwache Kantone; S. 2463 zu Art. 132 Abs. 2 BV: Kantonsanteil «kann nun definitiv auf 10 Prozent festgeschrieben werden»; S. 2472 zu Art. 196 Ziff. 16 BV (12 %/10 %), entfällt mit NFA.
+- BBl 2005 6029 (Botschaft Ausführungsgesetzgebung NFA 7.9.2005): S. 6133 Wegfall der Abstufung nach Finanzkraft; S. 6134 «Die Neuregelung im Bereich der Verrechnungssteuer ist unbestritten.»; «Somit wird der Kantonsanteil am Reinertrag der Verrechnungssteuer unter den Kantonen künftig ausschliesslich nach der Bevölkerungszahl verteilt.»
+- EFV, Erläuternder Bericht NFA-Ausführungsverordnungen (April 2007), Ziff. 4 (PDF-S. 47 f.): V vom 2.12.1985 über den Finanzausgleich mit dem Kantonsanteil an der Verrechnungssteuer (AS 1985 1957) aufgehoben; Ziff. 22 (PDF-S. 118): «Der im Bundesgesetz festgehaltene Verteilschlüssel und der Zeitpunkt der Auszahlung an die Kantone bedürfen keiner weiteren Bestimmungen auf Verordnungsstufe.»
+- BBl 2021 976 (Botschaft Stärkung Fremdkapitalmarkt), S. 43: Kantone an Mindereinnahmen zu 10 % beteiligt.
+- Art. 132 Abs. 2 BV, Satz 2 in Kraft seit 1.1.2008 (AS 2007 5765).
+- VStV: keine Bestimmung zum Kantonsanteil.

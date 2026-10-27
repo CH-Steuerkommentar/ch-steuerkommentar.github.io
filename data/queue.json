@@ -3818,14 +3818,13 @@
    "erlass": "VStG",
    "nummer": "2",
    "sachueberschrift": "Einleitung",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Claude-Cloud, 27.10.2026",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-27T22:38:01+00:00"
+   "geaendert": "2026-10-27"
   },
   "VStG/art-3": {
    "erlass": "VStG",
