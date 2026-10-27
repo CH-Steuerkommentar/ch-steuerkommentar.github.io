@@ -4650,11 +4650,14 @@
    "erlass": "MWSTG",
    "nummer": "2",
    "sachueberschrift": "Verhältnis zum kantonalen Recht",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-27T21:36:23+00:00"
   },
   "MWSTG/art-3": {
    "erlass": "MWSTG",
