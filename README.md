@@ -101,7 +101,7 @@ cd site && npm install && npm run dev        # http://localhost:4321
 
 - Name des Werks und Kürzel im Zitiervorschlag: `WERK_NAME` und `WERK_KURZ` in `pipeline/config.py` (bzw. als Umgebungsvariablen) und `site/astro.config.mjs`.
 - Darstellung von Randnoten, Normtext und Fussnoten: `site/src/styles/kommentar.css`.
-- Seite «Über dieses Werk»: `site/src/content/docs/ueber.md`.
+- Seite «Über den Offenen Steuerrechtskommentar»: `site/src/content/docs/ueber.md`.
 
 ## Ordner
 

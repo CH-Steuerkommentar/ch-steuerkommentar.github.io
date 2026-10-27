@@ -40,7 +40,7 @@ export default defineConfig({
         { label: 'VStG', collapsed: true, items: [{ autogenerate: { directory: 'vstg' } }] },
         { label: 'MWSTG', collapsed: true, items: [{ autogenerate: { directory: 'mwstg' } }] },
         { label: 'StG', collapsed: true, items: [{ autogenerate: { directory: 'stg' } }] },
-        { label: 'Über dieses Werk', link: '/ueber/' },
+        { label: 'Über den Offenen Steuerrechtskommentar', link: '/ueber/' },
       ],
     }),
   ],

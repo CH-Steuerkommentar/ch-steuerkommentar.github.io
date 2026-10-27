@@ -1,5 +1,5 @@
 ---
-title: Über dieses Werk
+title: Über den Offenen Steuerrechtskommentar
 description: Wie die Kommentierungen entstehen, auf welche Quellen sie sich stützen und wo ihre Grenzen liegen.
 ---
 

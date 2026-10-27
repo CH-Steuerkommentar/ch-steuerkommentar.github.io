@@ -9,6 +9,7 @@ Eine Kommentierung mit Befunden aus der Formatprüfung wird nicht veröffentlich
 from __future__ import annotations
 
 import argparse
+import html
 import datetime as dt
 import json
 import re
@@ -173,12 +174,15 @@ def startseite(stand: dict[str, int]) -> str:
               "template: splash", "hero:",
               "  tagline: Kommentierungen zu DBG, StHG, VStG, MWSTG und Stempelabgabengesetz – frei zugänglich, "
               "neutral, jede Fundstelle am Volltext geprüft.",
-              "  actions:", "    - text: Zum DBG", "      link: ./dbg/", "      icon: right-arrow",
-              "    - text: Über dieses Werk", "      link: ./ueber/", "      variant: minimal", "---\n",
-              "## Stand der Kommentierung\n", "| Erlass | kommentiert |", "|---|---|"]
-    for key in ERLASSE:
-        zeilen.append(f"| [{key}](./{key.lower()}/) | {stand.get(key, 0)} |")
-    zeilen.append(f"\nInsgesamt {gesamt_k} von {gesamt or '–'} geltenden Artikeln.\n")
+              "  actions:", f"    - text: {yaml_str('Über den ' + WERK.replace('Offener ', 'Offenen ', 1))}", "      link: ./ueber/", "      icon: right-arrow",
+              "---\n",
+              '<nav class="erlass-raster" aria-label="Erlasse">']
+    for key, e in ERLASSE.items():
+        n = stand.get(key, 0)
+        zeilen.append(f'<a class="erlass-knopf" href="./{key.lower()}/"><strong>{key}</strong>'
+                      f'<span>{html.escape(e["name"])}</span><small>{n} Artikel kommentiert</small></a>')
+    zeilen.append("</nav>\n")
+    zeilen.append(f"Insgesamt {gesamt_k} von {gesamt or '–'} geltenden Artikeln kommentiert.\n")
     return "\n".join(zeilen)
 
 

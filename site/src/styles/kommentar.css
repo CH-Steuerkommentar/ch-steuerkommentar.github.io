@@ -152,3 +152,29 @@ p:has(> .rn:target) {
   font-size: 0.85rem;
   border-bottom: 1px solid var(--sl-color-gray-5);
 }
+
+/* Startseite: alle Erlasse gleichberechtigt nebeneinander */
+.erlass-raster {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 1.5rem;
+}
+@media (max-width: 60rem) { .erlass-raster { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.sl-markdown-content .erlass-knopf {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem 1rem 0.9rem;
+  border: 1px solid var(--sl-color-gray-5);
+  border-top: 4px solid var(--gruen);
+  background: #fff;
+  text-decoration: none;
+  color: var(--sl-color-text);
+  font-family: var(--sl-font);
+  transition: background 0.15s, border-color 0.15s;
+}
+.sl-markdown-content .erlass-knopf:hover { background: var(--grau-band); border-color: var(--gruen); }
+.erlass-knopf strong { font-size: 1.35rem; font-weight: 500; color: var(--gruen-dunkel); }
+.erlass-knopf span { font-size: 0.85rem; line-height: 1.35; }
+.erlass-knopf small { font-size: 0.75rem; color: var(--sl-color-gray-3); margin-top: auto; }
