@@ -22,6 +22,10 @@ export default defineConfig({
       locales: { root: { label: 'Deutsch', lang: 'de-CH' } },
       description: 'Offener Online-Kommentar zum Steuerrecht des Bundes',
       customCss: ['./src/styles/kommentar.css'],
+      components: {
+        ThemeSelect: './src/components/Leer.astro',
+        ThemeProvider: './src/components/NurHell.astro',
+      },
       head: [
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.googleapis.com' } },
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' } },

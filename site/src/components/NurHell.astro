@@ -1,0 +1,10 @@
+---
+// Erzwingt die helle Ansicht, unabhängig von Systemeinstellung und früherer Wahl.
+---
+<script is:inline>
+  document.documentElement.dataset.theme = 'light';
+  try { localStorage.removeItem('starlight-theme'); } catch (e) {}
+</script>
+<style is:global>
+  :root { color-scheme: light; }
+</style>

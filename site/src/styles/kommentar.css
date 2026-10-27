@@ -1,5 +1,5 @@
 /* Darstellung eines Rechtskommentars: Randnoten am Rand, Normtext abgesetzt, ruhige Typografie.
-   Farben und Schriften angelehnt an das akademische Erscheinungsbild (Grün, humanistische Grotesk, Palatino). */
+   Nur helle Ansicht. Farben und Schriften angelehnt an das akademische Erscheinungsbild (Grün, humanistische Grotesk, Palatino). */
 :root {
   --sl-content-width: 46rem;
   --rn-farbe: var(--sl-color-accent);
@@ -14,15 +14,6 @@
   --sl-color-accent: #00802f;
   --sl-color-accent-high: #0a5e2d;
   --sl-color-text-accent: #00802f;
-}
-:root[data-theme='dark'] {
-  --sl-color-accent-low: #0b2a17;
-  --sl-color-accent: #3fb36a;
-  --sl-color-accent-high: #bfe8cd;
-  --sl-color-text-accent: #6fd093;
-  --gruen: #3fb36a;
-  --gruen-dunkel: #8fd8a8;
-  --grau-band: #1d2420;
 }
 
 /* Kopfzeile: weiss, schmaler grüner Streifen oben, Titel in Grün */
