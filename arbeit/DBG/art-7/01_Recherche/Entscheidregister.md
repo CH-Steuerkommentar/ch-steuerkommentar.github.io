@@ -186,3 +186,12 @@ Hinweise: «n.v.» = Pinpoint nicht verifiziert; das Zitat der Erwägung lautet 
 - **Sachverhalt:** Ein in GE quellenbesteuerter, im Ausland wohnhafter Arbeitnehmer (Steuerperioden 2012/13) wehrte sich gegen die satzbestimmende Behandlung seiner Einkünfte. Das Bundesgericht hielt fest, dass definitiv Quellenbesteuerte nicht unter Art. 7 Abs. 1 fallen. Dieser Entscheid wird in BGE 152 II 98 E. 7.2 übernommen.
 - **Fassung:** Quellensteuerrecht vor der Revision 2021
 - **Link:** https://mcp.opencaselaw.ch/entscheid/bger_9C_676_2022#e-7-4-2
+
+## Nachtrag 27.10.2026 (beim Einbau der ILE-Literatur)
+
+| Entscheid | Datum | Besetzung | Normstelle | Sachfrage | Kernaussage (ein Satz) | E. | Ergebnis | Klasse | Fassung |
+|---|---|---|---|---|---|---|---|---|---|
+| BGE 151 II 154 (= BGer 9C_47/2024 vom 23. September 2024) | 23.09.2024 | – | Abs. 1 (i.V.m. Art. 9, 33, 35 Abs. 3 DBG) | Verlegung von Unterhaltsbeiträgen und Schuldzinsen bei Ehegatten mit Wohnsitz in verschiedenen Staaten | Verfügt nur der im Ausland ansässige Ehegatte über ausländische Einkünfte und Aktiven, sind Unterhaltsbeiträge und Schuldzinsen des in der Schweiz ansässigen Ehegatten nicht auszuscheiden; die Faktoren sind nur für die Satzbestimmung zu addieren (Abkehr von BGer 2C_354/2022 vom 20. März 2023). | 6 (6.2–6.5) | Beschwerde des StP in diesem Punkt gutgeheissen (E. 6.6) | A | geltend |
+| BGer 9C_689/2022 vom 12. April 2023 | 12.04.2023 | – | Art. 40 Abs. 3 DBG (Satzbestimmung) | Hochrechnung bei Quellenbesteuerten mit beschränkter Steuerpflicht | Art. 40 Abs. 3 DBG gilt nur, wenn eine unbeschränkte Steuerpflicht während der Periode beginnt oder endet; bei beschränkter Steuerpflicht ist die Hochrechnung ausgeschlossen. | 8.3.5 | Rückweisung an die Steuerverwaltung (E. 8.3.8) | B | Quellensteuerrecht vor 2021 |
+
+Zitierstrings aus Open Case Law (`cite`, `get_regeste`, `get_erwaegung`). BGE 151 II 154 zitiert Art. 7 DBG nicht ausdrücklich (vgl. Problemkarte Nr. 4), wird aber in der Kommentierung als Anlass des Meinungsstands zu N. abzuege-ehegatten zitiert.
