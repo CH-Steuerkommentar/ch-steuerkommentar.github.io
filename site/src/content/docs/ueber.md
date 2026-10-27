@@ -29,7 +29,7 @@ Das Verfahren und der Quelltext jeder Kommentierung sind mit ihrer Versionsgesch
 | Verwaltungspraxis | Kreisschreiben und Mitteilungen der ESTV, Kreisschreiben der Schweizerischen Steuerkonferenz, kantonale Steuerbücher und Weisungen |
 | Lehre | Literatur des Instituts für Law and Economics der Universität St. Gallen (ILE-HSG): Forum für Steuerrecht (FStR), IFF-Schriftenreihe, Working Papers und Seminarunterlagen, über [Lexplorer](https://lexplorer.ch); Kommentierungen auf [Onlinekommentar.ch](https://onlinekommentar.ch) |
 
-**Lehre.** Ausgewertet werden die Literatur des ILE-HSG und die Kommentierungen auf Onlinekommentar.ch. Sie wird als Meinungsstand wiedergegeben und ergänzt Rechtsprechung und Praxis, ersetzt sie aber nicht. Übrige Lehre erscheint nur, soweit ein Gericht oder einer dieser Beiträge sie anführt. Wer den vollständigen Meinungsstand braucht, findet ihn in den gedruckten Kommentaren.
+**Lehre.** Ausgewertet werden die Literatur des ILE-HSG und die Kommentierungen auf Onlinekommentar.ch. Sie werden als Meinungsstand wiedergegeben und ergänzen Rechtsprechung und Praxis, ersetzen sie aber nicht. Übrige Lehre erscheint nur, soweit ein Gericht oder einer dieser Beiträge sie anführt. Wer den vollständigen Meinungsstand braucht, findet ihn in den gedruckten Kommentaren.
 
 ## Grenzen
 
