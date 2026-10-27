@@ -2,11 +2,11 @@
 
 Stand der Recherche: 27.10.2026. Quelle: Lexplorer Tax (mcp-tax.lexplorer.ch). Alle Treffer wurden **navigierend** erreicht (nav_list_sources → nav_list_documents/nav_list_chunks/nav_find → get_document_slice/get_chunk_content). Wörtliche Zitate sind aus dem gelesenen Text kopiert; Silbentrennungen am Zeilenende sind zusammengezogen.
 
-**Suchzähler Lexplorer (search_chunks_*): 2 Aufrufe, beide vom Server abgelehnt** («Monatliches Kontingent erreicht (500/500 Suchen)»), also 0 ausgeführte Suchen und 0 Suchtreffer. Abgelehnt wurden:
+**Suchzähler Lexplorer (search_chunks_*) im Erstlauf: 2 Aufrufe, beide vom Server abgelehnt** («Monatliches Kontingent erreicht (500/500 Suchen)»), also 0 ausgeführte Suchen und 0 Suchtreffer. Abgelehnt wurden:
 1. search_chunks_keyword, Abfrage «0,9 % des Kaufpreises Privatanteil», filter_kanton CH
 2. search_chunks_hybrid, Abfrage «Arbeitspapier Kryptowährungen Initial Coin Offerings Mining Staking Airdrop Einkommenssteuer», filter_kanton CH
 
-find_leading_cases wurde nicht verwendet. Lehre (Kategorie 08-institut-fuer-law-und-economics, ILE) wurde nicht gelesen und wird nicht zitiert.
+find_leading_cases wurde nicht verwendet. Im Erstlauf wurde keine ILE-Literatur gelesen; Nachtrag dazu in Abschnitt E (27.10.2026).
 
 Abkürzungen: «Abfrage» = Navigationsweg (keine Suche).
 
@@ -276,3 +276,93 @@ Das zugehörige TaxInfo-Thema (Chunks 75–79) behandelt die Plattformökonomie 
 - Kennung: chunk 6d9a0d93-1549-4c2c-a7d4-d9facd1b9ceb
 - lexplorer_url: https://mcp-tax.lexplorer.ch/s/doc/28edeed9-27cf-4444-bb20-95a75a525785?chunk=6d9a0d93-1549-4c2c-a7d4-d9facd1b9ceb
 > «Gemäss Art. 16 Abs. 3 DBG bzw. Art. 29 Abs. 1 lit. k StG sind Kapitalgewinne aus der Veräusserung von Privatvermögen grundsätzlich steuerfrei. Dies gilt auch für Gewinne aus gelegentlichem Verkauf von Gegenständen über Online-Plattformen, sofern diese Tätigkeit nicht als gewerbsmässig einzustufen ist.»
+
+---
+
+## E. ILE-Literatur (Kategorie 08-institut-fuer-law-und-economics, Kanton CH) – Nachtrag 27.10.2026
+
+Lauf «ILE-Literatur einbauen» vom 27.10.2026. **Suchzähler: 20 Suchen** (search_chunks_hybrid 18, search_chunks_keyword 2), alle mit filter_kanton «CH» und filter_category «08-institut-fuer-law-und-economics», limit 8–10. Lesen mit get_chunk_content, get_document_slice und nav_list_chunks (zählt nicht als Suche). Treffer aus «ILE-HSG — Lehrbuch Steuerrecht» (Hongler/Lorenz) übergangen. Autor:innen jeweils am Kapitelkopf bzw. an der Autorenzeile des Chunks geprüft.
+
+Suchen (Abfrage → Ergebnis):
+1. hybrid «Forderungsverzicht privater Schuldner Einkommen Generalklausel Art. 16 Abs. 1 DBG BGE 142 II 197 Werthaltigkeit» → nur Gewinnsteuer/Sanierung, nicht verwendet
+2. keyword «Forderungsverzicht Privatvermögen Schuldner Einkommen» → E1
+3. hybrid «Einkommensgeneralklausel Art. 16 Abs. 1 DBG Reinvermögenszugangstheorie Gesamtreineinkommen» → E8 (Seminar 2024)
+4. hybrid «Entschädigung Dienstbarkeit Bauhöhenbeschränkung privater Kapitalgewinn Teilveräusserung vertikale Harmonisierung BGE 148 II 378» → E6
+5. hybrid «Entschädigung Rückzug Baueinsprache Einkommen BGE 139 II 363 Art. 23 lit. d DBG Verzicht auf Ausübung eines Rechts» → E3 (Lehrbuchtreffer übergangen)
+6. hybrid «Realisationszeitpunkt Einkommen fester Rechtsanspruch Fälligkeit Ist-Methode unsichere Erfüllung BGE 149 II 400 Aufhebungsvereinbarung» → E5
+7. hybrid «Entschädigung missbräuchliche Kündigung Art. 336a OR Genugtuung Art. 24 lit. g DBG steuerfrei BGE 148 II 551» → E4
+8. hybrid «Zuwendungen Dritter Schenkung Einkommen Generalklausel Crowdfunding Spenden BGE 146 II 6 Unterstützung Art. 24 DBG» → nichts Einschlägiges
+9. keyword «Zuwendungen Dritter Einkommensgeneralklausel Schenkung» → 0 Treffer
+10. hybrid «Rechtsprechung Bundesgericht Aktienzuwendung Mitarbeiter Schenkung oder Einkommen … Unternehmensnachfolge Vermächtnis» → nichts zu den im Text zitierten Entscheiden
+11. hybrid «Entschädigung Verzicht Nutzniessung Privatvermögen Kapitalgewinn Art. 23 lit. d DBG Aktiventausch Lock-up Prämie» → nichts Einschlägiges
+12. hybrid «Kryptowährungen Privatvermögen steuerfreier Kapitalgewinn Staking Airdrop Mining …» → nur Seminarfolien Unternehmenssteuer 2018/2020, nicht verwendet
+13. hybrid «Naturalbezüge Marktwert Art. 16 Abs. 2 DBG …» → nur Lehrbuch/Unternehmenssteuer, nicht verwendet
+14. hybrid «Vorzugsmiete Verwandte nicht verlangte Marktmiete Steuerumgehung … BGE 146 II 97 …» → nur Folien zum künftigen Recht (Unterhaltskosten), nicht verwendet
+15. hybrid «Besteuerung unrechtmässig erlangter Einkünfte Rückerstattungspflicht Neutralisation … Schneeballsystem» → E7
+16. hybrid «Schadenersatz kein Reinvermögenszugang damnum emergens lucrum cessans Haushaltschaden …» → E2
+17. hybrid «Baurechtszins Entgelt Übergang Bauten Baurecht Kapitalgewinn oder Vermögensertrag … BGE 141 II 326» → nichts Einschlägiges
+18. hybrid «Rechtsprechung 2016 Forderungsverzicht Bank Privatperson Sicht des Schuldners …» → nur E1 erneut
+19. hybrid «Steuerfreiheit privater Kapitalgewinne Durchbrechung Leistungsfähigkeitsprinzip …» → nichts Zusätzliches (Lehrbuch übergangen)
+20. hybrid «subjektive Zurechnung von Einkommen Zivilrecht Mäklerlohn Aktiengesellschaft des Steuerpflichtigen Zurechnung an natürliche Person Steuerumgehung» → nur Steuerumgehungsfälle zu Gesellschaften, nicht verwendet
+
+### E1. Waldburger, Rechtsprechung im Jahr 2008 (2. Teil), FStR 2009, Ziff. 4 (Bemerkungen und Schlussfolgerungen)
+- Abfrage: Nr. 2 (keyword)
+- Chunk-IDs: 0a799444-3c13-4ee6-bb3d-22a9ac22b789 (Bemerkungen; id 15630), Kapitelkopf 0ecdf8cc-7c49-4a46-af01-87e0c0469414 («4 Einkommensteuerfolgen eines Schulderlasses für eine Privatperson», Autor: Robert Waldburger), Sachverhalt 5cb9ec70-8421-44a2-9009-6582b82e62a5
+- doc_id 91e7801a-bba8-4257-9301-87bf36db20a0; Fn. 38 des Beitrags: BGer 2C_120/2008/2C_121/2008 vom 13.8.2008
+- lexplorer_url: https://app.lexplorer.ch/suche?e_chunks=15630&e_sys=ile (Dokument: https://app.lexplorer.ch/suche?e_id=407&e_sys=ile)
+- Tragende Sätze: «Durch diese Passivenabnahme realisierte Z. einen Kapitalgewinn. Ein solcher Kapitalgewinn liegt bei einer realisierten Wertminderung eines Passivums genau so vor wie bei einer realisierten Wertzunahme eines Aktivums.» – «Richtigerweise hätte somit das Bundesgericht feststellen müssen, dass Z. … einen steuerfreien privaten Kapitalgewinn gem. Art. 16 Abs. 3 DBG … erzielt hat.»
+- Verwendet: N. verzicht-grundsatz (a.M. in Fn.; Gegenposition im Text)
+
+### E2. Reich/Waldburger, Rechtsprechung im Jahr 2005 (1. Teil), FStR 2006, Ziff. 3 («Entschädigung für Haushaltschaden. Eigenleistungen»)
+- Abfrage: Nr. 16
+- Chunk-IDs: 2b8c2101-0a8a-42e8-bddd-decc23994ce5 (Inhaltsverzeichnis, Ziff. 3), 3a20e59e-2a7a-48d8-b413-5916308c6bd2 (Sachverhalt; Fn. 27 nennt den Entscheid vom 23.2.2006 [OCR «BGE 123 II 128», gemeint BGE 132 II 128]), 5437d20d-a6eb-4695-96ea-da9ee9681a83 (Bemerkungen), e1dc5b0e-a152-4cac-b501-a33218e702dc, 83940eeb-9981-464f-8db3-b54efd95ced8; Autor:innen: Markus Reich, Robert Waldburger
+- lexplorer_url: https://app.lexplorer.ch/suche?e_chunks=9386&e_sys=ile
+- Tragende Sätze: «Das Bundesgericht folgt mit diesen Überlegungen unkritisch der Lehrmeinung Locher, wonach Eigenleistungen grundsätzlich steuerbares Einkommen … bildeten und lediglich Praktikabilitätsgründe für die Nichtbesteuerung dieser Einkünfte sprächen.» – «Ein Grossteil der … Doktrin erklärt die Nichtbesteuerung der Eigenleistungen … So würden insbesondere die sog. zugerechneten Einkünfte, wozu auch die Eigenleistungen zu zählen seien, von der gesetzlichen Generalklausel nicht erfasst.» – «… die einen aus der Markteinkommenstheorie … die andern … in der Reinvermögenszuflusstheorie.» – «Folgt man seinen dogmatischen Überlegungen zur Steuerbarkeit von Eigenleistungen, hat es aber etwas geändert. Was gilt jetzt?» – «… aber die Leistungen aus der Sozialversicherung sind trotz ihrer partiell analogen Funktion kraft der ausdrücklichen gesetzlichen Regelung von Art. 22 Abs. 1 DBG steuerbar.»
+- Verwendet: neue N. haushaltschaden-lehre
+
+### E3. Oesterhelt/Opel, Rechtsprechung 2026/3, FStR 2026, Ziff. 4.3 (zu BGer vom 19.1.2026 = BGE 152 II 19)
+- Abfrage: Nr. 5 und 7
+- Chunk-IDs: 4e2b01af-2d72-4e4d-9a14-0e2229e5df6e (Ziff. 4, Sachverhalt BPG-Entschädigung), 792bd1af-d51e-470a-bd2b-586bcbd562a7 (4.3), 9e0b0f4a-aeef-40d5-bd87-8e651c5588cc, 12f433dc-3e11-460a-bf82-d39747c20207, 7af457ad-1282-4921-8522-8ca389796d5f, 891f793a-c686-4aa8-9a26-432d386466f8; Autor:innen: Stefan Oesterhelt, Andrea Opel (Seitenkopf «Stefan Oesterhelt/Andrea Opel, Rechtsprechung 2026/3»)
+- lexplorer_url: https://app.lexplorer.ch/suche?e_chunks=66241&e_sys=ile
+- Tragende Sätze: «Nach zivilrechtlichem Verständnis handelt es sich bei der immateriellen Unbill indes nicht um einen Schaden, womit bei Genugtuungszahlungen an sich ein Reinvermögenszugang vorliegt.» – «Aufgrund der Begründung des Bundesgerichts ist aber klar, dass dieselben Überlegungen auch für die ungerechtfertigte fristlose Entlassung iSv Art. 337c Abs. 3 OR gelten.» – «Es mutet indessen seltsam an, die Steuerbarkeit von der Schwere der Persönlichkeitsverletzung abhängig zu machen. Diese ist nämlich bereits bei der Bemessung der Entschädigung ausschlaggebend.» – «Es gilt folglich die Präponderanzmethode … Ein solcher Ansatz erscheint aus Praktikabilitätsgründen vertretbar …» – «Vor dem Hintergrund der Reinvermögenszugangstheorie ist in der Tat nicht ersichtlich, weshalb Genugtuungszahlungen nicht steuerbar sein sollten.» – «De lege lata ist aber klar, dass Genugtuungsleistungen aufgrund der Anordnung von Art. 24 lit. g DBG steuerfrei sein müssen.» – «Ob dies aber als Begründung genügt, um Leistungen nach Art. 337c Abs. 3 OR anders als solche nach Art. 336a OR zu behandeln, muss bezweifelt werden.»
+- Verwendet: N. genugtuung (gl.M. zu E. 3.1; a.M. zu E. 6.1–6.3), neue N. genugtuung-lehre
+
+### E4. Oesterhelt/Opel, Rechtsprechung im Steuerrecht 2023/1, FStR 2023, Ziff. 3.3 (zu BGer vom 31.10.2022 = BGE 148 II 551)
+- Abfrage: Nr. 7
+- Chunk-IDs: 0a703142-f757-4d5e-be8e-d1a158ce0359 (Ziff. 3 Kopf), 63c7c0eb-88d5-4435-8b5e-7fa21e034d11 (3.2), ea769fe1-7702-4518-9e2f-30fdf5e3d2e6 (3.3); Autor:innen: Stefan Oesterhelt, Andrea Opel
+- lexplorer_url: https://app.lexplorer.ch/suche?e_chunks=12772&e_sys=ile
+- Tragende Sätze: «Es ist zu begrüssen, dass sich das Bundesgericht der in der Literatur und kantonalen Rechtsprechung mehrheitlich vertretenen Auffassung angeschlossen und die Zahlung als steuerfreie Genugtuungszahlung iSv Art. 24 lit. g DBG … qualifiziert hat.» – «Da die Entschädigungszahlung wegen missbräuchlicher fristloser Entlassung iSv Art. 337c Abs. 3 OR von der Rechtsnatur mit der Entschädigungszahlung wegen missbräuchlicher Kündigung iSv Art. 336a OR vergleichbar ist, muss auch diese künftig vollumfänglich als steuerfreie Genugtuungszahlung … qualifiziert werden.»
+- Verwendet: N. genugtuung (gl.M. zu BGE 148 II 551), N. genugtuung-lehre
+
+### E5. Oesterhelt/Opel, Rechtsprechung im Steuerrecht 2023/4, FStR 2023, Ziff. 1.3 (zu BGer vom 23.6.2023 = BGE 149 II 400)
+- Abfrage: Nr. 6
+- Chunk-IDs: aa46a16b-585e-4aa4-b38e-6de5fa0b469c (1.3, «Zuflusszeitpunkt der Entschädigungszahlung»); Kapitelkopf und Inhaltsverzeichnis im Dokument a758ccb0-9365-451a-a57b-3c89a7ebe5af (Slice 0); Autor:innen: Stefan Oesterhelt, Andrea Opel
+- lexplorer_url: https://app.lexplorer.ch/suche?e_chunks=13531&e_sys=ile (Dokument: https://app.lexplorer.ch/suche?e_id=571&e_sys=ile)
+- Tragender Satz: «Das Bundesgericht ruft die Grundsätze zur Bestimmung des für die Einkommenssteuer massgebenden Zuflusszeitpunkts fast schon lehrbuchartig in Erinnerung. Dies war auch durchaus angezeigt, da sich die bisherige Rechtsprechung durch wenig Konsistenz auszeichnete.» – «Weiter muss die Forderung fällig sein und darf nicht mit aufschiebenden Bedingungen oder Einreden … belastet sein.»
+- Verwendet: N. soll (gl.M.)
+
+### E6. Oesterhelt, Aus der Rechtsprechung im Jahr 2021/2022 (Teil 2), FStR 2022, Ziff. 3.3 und 7.3
+- Abfrage: Nr. 4
+- Chunk-IDs: ad93d562-500a-46f1-a12b-8ae1cf07d0e3 (Kopf: Stefan Oesterhelt), 9fdb26af-1bf0-4f98-8a3b-51bc1cba2131 (3.3, SNF-Forschungsstipendium), fbb994d5-2c06-472f-a6e5-e72f0e493b1c (7.3), 942727a4-79b0-4ed1-8d2a-303819ab9f02 (7.3), 067a090a-5e24-4ab2-a8a6-7f55ac928d99 (7.3); Autor: Stefan Oesterhelt
+- lexplorer_url: https://app.lexplorer.ch/suche?e_chunks=12628&e_sys=ile
+- Tragende Sätze (3.3): «Da Letztere stets im Hinblick auf eine Forschungstätigkeit und somit nicht gegenleistungslos ausgerichtet werden, sind sie selbst dann steuerbar, wenn der Empfänger bedürftig ist.»
+- Tragende Sätze (7.3): «Die Literatur lehnt dies mehrheitlich ab …» – «Ab welcher Schwelle eine wesentliche Beeinträchtigung vorliegt, wird vom Bundesgericht nicht geklärt. … dass das Bundesgericht hier eine relative Betrachtung vornimmt und auf das Verhältnis zum Wert des Grundstücks abstellt. Eine in der Literatur vertretene Auffassung setzt die diesbezügliche Schwelle der Wesentlichkeit bei 10 % an …» – «Fraglich ist aber, ob der vom Bundesgericht vorgenommene Umkehrschluss, dass eine nicht von Art. 12 Abs. 2 lit. c StHG erfasste Entschädigung automatisch von der Einkommensgeneralklausel von Art. 16 Abs. 1 DBG erfasst ist, zutrifft. Da damit nämlich (zumindest teilweise) der Minderwert des Grundstücks ausgeglichen wird, könnte auch die Auffassung vertreten werden, dass gar kein Reinvermögenszugang … vorliegt.» – «Das Bundesgericht begründet diese Position unter anderem damit, dass ansonsten eine Besteuerungslücke entstehen würde. Dies ist aber nicht in jedem Fall zutreffend, da gemäss bisheriger Praxis die Entschädigung für den Minderwert in gewissen Kantonen bei der nächsten Handänderung von den Anlagekosten abgezogen werden konnte.»
+- Verwendet: N. stiftung (gl.M.), N. dienstbarkeit (a.M.), neue N. dienstbarkeit-lehre
+
+### E7. Reich, Die ungerechtfertigte Bereicherung und andere rechtsgrundlose Vermögensübergänge im Einkommenssteuerrecht, FStR 2004, Ziff. 4.3.1 und 4.3.2
+- Abfrage: Nr. 15
+- Chunk-IDs: 9ec62602-146a-460c-9498-1e98777c33f7 (4.3.1), dd4580ee-d2c6-4fb2-ac0e-cdec86db16f6 (4.3.2), 9f9b06e7-738d-44e4-9244-757992abbd4c (Ziff. 6, Zusammenfassung); Autor: Markus Reich
+- lexplorer_url: https://app.lexplorer.ch/suche?e_chunks=7912&e_sys=ile
+- Tragende Sätze: «Es kommt eben nicht darauf an, ob am Ende der Steuerperiode «ein liquider Anspruch auf Ablieferung, dessen Durchsetzung unmittelbar bevorsteht», vorhanden ist. Ausschlaggebend ist einzig, dass der Zufluss definitiv erworben ist, d.h., dass ihn der Erwerber tatsächlich behalten darf.» – «Aus diesen Gründen muss eine tatsächlich erfolgte Rückerstattung … zumindest dann berücksichtigt werden, wenn sie im Zeitpunkt der Veranlagung der Bereicherungsperiode bereits bekannt ist.» – «Das Leistungsfähigkeitsprinzip gebietet hier eine periodenübergreifende Betrachtungsweise.» – (4.3.2) «… dass die Revision bei nach Eintritt der Rechtskraft vollzogener Rückerstattung oder Herausgabe der ungerechtfertigten Einkünfte innert der soeben erwähnten Fristen ohne weiteres zulässig ist …»
+- Verwendet: N. neutralisation (vgl. in Fn. zu 2C_660/2017; Gegenposition zur Periodenbetrachtung im Text)
+
+### E8. Hongler/Margraf, Privater Kapitalgewinn vs. Einkommen und Vermögensertrag, Auswirkungen auf Sozialversicherungen, Seminar Einkommenssteuer, Vorsorge und Sozialversicherungen 2024 (Seminarunterlagen, St. Gallen 25.6.2024)
+- Abfrage: Nr. 3
+- Chunk-IDs: 667405c0-250c-46ca-a70c-cd9e8eda0831 (Titelfolie: «Peter Hongler, Olivier Margraf»), 79e91a11-3ac5-4a93-86db-30162ca9dc69 (Folie «Besteuerung von Marchzinsen: 2C_743/2019 – Beurteilung»), 16d03708-88ad-45b5-92b6-c9ebec3a122f (Folie «Besteuerung von strukturierten Produkten»), fc17b395-f6ba-4f64-b96c-d6ea298513c6, 7ba1c611-5dfb-47d4-813e-1c6701d70c34, bc0a1160-55db-4bd0-8fda-a4ad7dc18980 (Folien «Objektivierung der bundesgerichtlichen Abgrenzungspraxis»); Referent:innen: Peter Hongler, Olivier Margraf (nicht das Lehrbuch Hongler/Lorenz). Keine Randziffern; zitiert nach Folientitel.
+- lexplorer_url: https://app.lexplorer.ch/suche?e_id=1500&e_sys=ile (Chunks z.B. https://app.lexplorer.ch/suche?e_chunks=50929&e_sys=ile)
+- Tragende Sätze: «→ Führt zu Rechtsunsicherheit – es gilt neu das „objektive Herkunftsprinzip“ auch bei Art. 20 Abs. 1 lit. a DBG.» – «Praxis gemäss KS 15 ist etabliert – dogmatische Einordnung bereitetet aber Mühe.» – «In 12 der 50 Fälle subsumierte das Bundesgericht die Tätigkeit als private Vermögensverwaltung unter Art. 16 Abs. 3 DBG.» – «Aus den 38 Fällen der selbständigen Erwerbstätigkeit lässt sich kein eigentliches Königskriterium, das wenn es vorlag immer ausschlaggebend war, herauskristallisieren.» – «Die mangelnde Struktur in der Rechtsprechung führt zu einer fehlenden Vorhersehbarkeit, die aber im Typusbegriff begründet ist.» – «Der Faktor Arbeit geht völlig unter, müsste für Erwerbstätigkeit vermeintlich zentral sein.» – «Aus Rechtsgleichheitsüberlegung wäre weniger Zurückhaltung des Bundesgerichtes und Konkretisierungen von mindestens einzelner Fallgruppen wünschenswert.»
+- Verwendet: N. marchzins, N. finanzprodukte (vgl.), neue N. privatvermoegen-lehre
+
+### E9. Gelesen, nicht verwendet
+- von Ah, Buchbesprechung «Sparbereinigung der Einkommensteuer», FStR 2007 (Chunk f7bc164f-6928-4979-ba46-520679f3d46a): gibt nur die Auffassung des besprochenen Werks wieder; nicht zitiert.
+- Brülisauer, FStR 2017, Gewinnsteuerfolgen der Sanierungsleistungen; Seminarunterlagen zu KS 32: Geschäftsvermögen, nicht einschlägig.
