@@ -1,0 +1,19 @@
+# Problemkarte Art. 6 DBG
+
+| Sachfrage | Normstelle | A / B | Leitentscheid(e) | Linie in einem Satz | Brüche / offen |
+|---|---|---|---|---|---|
+| Totalität der unbeschränkten Steuerpflicht | Abs. 1 Teilsatz 1 | 2 / 6 | BGE 140 II 157 E. 7.4; BGE 151 II 154 E. 4.1 | Weltweites Einkommen, positive und negative Bestandteile; Freistellungen relativieren | – |
+| Unilaterale Freistellung, unbedingt | Abs. 1 Teilsatz 2 | 3 / 10 | 2C_123/2014 E. 11.1; 2C_1011/2012 E. 4.2.1; BGE 140 II 157 E. 7.5 | Freistellung unabhängig von ausländischer Besteuerung, mit Progressionsvorbehalt | BGE 139 II 78 (jur. P.): Nichtbesteuerung vermeiden – Kritik Brülisauer |
+| Begriff Geschäftsbetrieb | Abs. 1 | 5 / 3 | 2C_664/2013; 2C_738/2014; 9C_647/2024; 2A.119/2007 | wirtschaftlicher Begriff, feste Einrichtung, kaufmännische Tätigkeit, Substanz; selbständige Erwerbstätigkeit allein genügt nicht | Zurechnung bei intransparenten Rechtsträgern (SCI: 2C_729/2019; Kritik Schreiber/Semadeni) |
+| Begriff Betriebsstätte | Abs. 1 (Art. 4 Abs. 2) | 2 / 4 | BGE 139 II 78; 2C_123/2014; 2C_110/2018 | einheitlicher Begriff in- und ausländisch; höhere Anforderungen an ausländische BS | Kritik Brülisauer an «in dubio pro fisco» |
+| Ausländische Grundstücke | Abs. 1 | 1 / 10 | 2A.36/2007; Eigenmietwert-Reihe (2C_829/2016 … 9C_181/2025); BGE 150 II 417 | Freistellung samt Ertrag, Eigenmietwert nach CH-Regeln satzbestimmend; Händlergrundstücke keine BS; Veräusserungsgewinne nicht steuerbar | Bewertung (Kritik Oesterhelt/Opel) |
+| Beweislast | Abs. 1 | 3 / 3 | 2C_738/2014 E. 2.4; 2C_729/2019 E. 4.5; 2C_123/2014 | steuermindernde Tatsache, Pflichtige beweisbelastet | – |
+| Umfang beschränkte Steuerpflicht | Abs. 2 Satz 1 | 2 / 6 | 2C_18/2014 E. 2.2.2; 2C_799/2017 | nur, aber immerhin Werte unter schweizerischer Gebietshoheit; Ehegatten getrennt | – |
+| Mindestens das in der Schweiz erzielte Einkommen | Abs. 2 Satz 2 | 2 / 1 | 2C_1201/2013 E. 6.2; 2C_18/2014 | Untergrenze (mit Art. 7 Abs. 2); ausländischer Schuldzinsenüberschuss unbeachtlich; Art. 190 BV | FZA (Oesterhelt/Seiler); kantonal SVGer AG |
+| Verweis auf interkantonales Recht | Abs. 3 Satz 1 | 6 / 6 | BGE 139 II 78 E. 2.4.1; BGE 150 II 417 E. 3.3; 2C_625/2008; 2C_23/2019; 2C_465/2021 | Methoden der Ausscheidung (objektmässig, Schulden proportional; Verlegungskaskade outbound); keine integrale Übernahme; nur interkantonal sinnvolle Regeln (Ehegattenteilung, Schlechterstellungsverbot) nicht | – |
+| Verlegung von Abzügen | Abs. 1/3 | 2 / 2 | 2C_1154/2013; BGE 151 II 154; 2C_95/2015 | Gewinnungskosten objektmässig, allgemeine Abzüge proportional nach Reineinkommen | Praxisänderung BGE 151 II 154 ggü. 2C_354/2022 |
+| Betriebsstättenverluste | Abs. 3 Satz 2 | 2 / 1 | 2A.328/2002; 2C_1011/2012 E. 4.2.3; 2C_729/2019 | Ausnahme zu Satz 3; «schweizerisches Unternehmen» in der Schweiz steuerpflichtig (offen gelassen) | Lehre: ausl. Geschäftsbetrieb = BS (Reich/Waldburger; Brülisauer/Kriesi; Fenners/Schreiber) |
+| Übrige Auslandsverluste nur satzbestimmend | Abs. 3 Satz 3 | 6 / 10 | BGE 140 II 141; BGE 140 II 157; BGE 140 II 248; 2C_404/2017 | Schuldzinsen- und Gewinnungskostenüberschüsse ausländischer Grundstücke, Verluste ausländischer Geschäftsbetriebe nur satzbestimmend; Vortrag satzbestimmend; kein Verstoss gegen FZA/BV | Reich/Waldburger: Fremdkörper; Mauchle |
+| DBA-Vorbehalt | Abs. 3 Satz 4 | 3 / 4 | 2C_404/2017 E. 3.1; BGE 150 II 417 E. 2.2.2 | deklaratorisch; DBA regeln Verlegung von Schuldzinsen/Unterhalt nicht | – |
+| Bundesbedienstete im Ausland | Abs. 4 | 0 / 2 | BGE 150 II 244; 2C_839/2009 | Steuerpflicht am Heimatort, nur Bund | Umfang nach Abs. 4 nicht entschieden |
+| Harmonisierung | – | 5 / 5 | BGE 140 II 141 E. 8; BGE 140 II 157 E. 5.1; BGE 150 II 417 E. 2.3 | StHG ohne Regel; ob Gestaltungsspielraum, offen; Kantone haben Art. 6 meist übernommen | 2C_646/2021: Kantone grundsätzlich frei (nicht harmonisiert) |
