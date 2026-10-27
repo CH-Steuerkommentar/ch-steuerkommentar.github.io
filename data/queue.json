@@ -5986,11 +5986,14 @@
    "erlass": "StG",
    "nummer": "3",
    "sachueberschrift": "III. Verhältnis zum kantonalen Recht",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-27T20:43:43+00:00"
   },
   "StG/art-4": {
    "erlass": "StG",
