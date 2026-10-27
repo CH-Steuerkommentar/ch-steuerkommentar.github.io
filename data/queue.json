@@ -171,13 +171,15 @@
    "erlass": "DBG",
    "nummer": "15",
    "sachueberschrift": "Steuerbefreiung",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
    "notiz": "Abbruch: API-Guthaben aufgebraucht",
    "status_vorher": "offen",
-   "geaendert": "2026-10-27"
+   "geaendert": "2026-10-27",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-27T03:06:44+00:00"
   },
   "DBG/art-16": {
    "erlass": "DBG",
