@@ -2436,11 +2436,14 @@
    "erlass": "StHG",
    "nummer": "1",
    "sachueberschrift": "Zweck und Geltungsbereich",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-27T20:43:29+00:00"
   },
   "StHG/art-2": {
    "erlass": "StHG",
