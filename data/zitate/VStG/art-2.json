@@ -1,0 +1,74 @@
+{
+ "artikel": "VStG/art-2",
+ "abfrage": "\"Art. 2\" AND (VStG OR LIA OR LIP) (Kandidaten: Entscheidsuche; Entscheide: Open Case Law)",
+ "quelle": "ocl",
+ "suchtreffer": 76,
+ "entscheide": [
+  {
+   "id": "ocl_bge_94_I_151",
+   "referenz": [
+    "BGE 94 I 151"
+   ],
+   "datum": "1968-05-31",
+   "bge": true,
+   "ausschnitte": [
+    "llschafter ist aber unter keinen Umständen Zuwendung eines Ertrags im Sinne des Art. 4 Abs. 1 VStG , so dass sie nicht mit der Verrechnungssteuer belegt werden darf. Die EStV hält dafür, dass diese Betrachtungsweise mit Art. 4 Abs. 2, Art. 5 Abs. 1 lit. a, Art. 15 Abs. 1 lit. a und Art. 25 Abs. 2 VStG nicht vereinbar sei. Art. 4 Abs. 2 bestimmt, dass der \"Liquidation\" der Gesellschaft oder Genossenschaft die Verlegung des Sitzes ins Ausland gleichsteht. Art. 5 Abs. 1 lit. a nimmt die \"Reserven und Gewinne\" einer Gese"
+   ]
+  },
+  {
+   "id": "ocl_bger_2A.239_2005",
+   "referenz": [
+    "BGer 2A.239/2005 vom 28. November 2005"
+   ],
+   "datum": "2005-11-28",
+   "bge": false,
+   "ausschnitte": [
+    "Verrechnungssteuer zum Satz von 35 Prozent ab. 2.2 Die Verrechnungssteuer führt bei ausländischen Empfängern schweizerischer Dividenden grundsätzlich zu einer endgültigen, an der Quelle erhobenen steuerlichen Belastung (Art. 22 Abs. 1 und Art. 24 Abs. 2 VStG). Personen, die bei Fälligkeit der steuerbaren Leistung Sitz oder Wohnsitz im Ausland hatten, können die Rückerstattung der Verrechnungssteuer nur insoweit verlangen, als ihnen ein zwischenstaatliches Abkommen Anspruch "
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_249_2018",
+   "referenz": [
+    "BGer 2C_249/2018 vom 25. Juni 2019"
+   ],
+   "datum": "2019-06-25",
+   "bge": false,
+   "ausschnitte": [
+    "ital darstellt (u.a. Gratisaktien). 3.2. Die Verrechnungssteuer führt bei ausländischen Empfängern schweizerischer Dividenden - anders als bei (steuerehrlichen) Schweizer Empfängern (vgl. Art. 21 ff. VStG , insbesondere Art. 22 Abs. 1 und Art. 24 Abs. 2 VStG) - grundsätzlich zu einer endgültigen, an der Quelle erhobenen steuerlichen Belastung. Personen, die bei Fälligkeit der steuerbaren Leistung Sitz oder Wohnsitz im Ausland hatten, können die Rückerstattung der Verrechnun"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_344_2018",
+   "referenz": [
+    "BGer 2C_344/2018 vom 4. Februar 2020"
+   ],
+   "datum": "2020-02-04",
+   "bge": false,
+   "ausschnitte": [
+    "lt (u.a. Gratisaktien).  2.2. Die Verrechnungssteuer führt bei ausländischen Empfängern schweizerischer Dividenden und Zinsen - anders als bei (steuerehrlichen) Schweizer Empfängern (vgl. Art. 21 ff. VStG , insbesondere Art. 22 Abs. 1 und Art. 24 Abs. 2 VStG) grundsätzlich zu einer endgültigen, an der Quelle erhobenen steuerlichen Belastung. Personen, die bei Fälligkeit der steuerbaren Leistung Sitz oder Wohnsitz im Ausland hatten, können die Rückerstattung der Verrechnungs"
+   ]
+  },
+  {
+   "id": "ocl_bger_8C_335_2021",
+   "referenz": [
+    "BGer 8C_335/2021 vom 23. November 2021"
+   ],
+   "datum": "2021-11-23",
+   "bge": false,
+   "ausschnitte": [
+    " consid. 6.3 et les arrêts cités).  3.  3.1. Dans le canton de Genève, la loi sur l'instruction publique du 17 septembre 2015 (LIP; RS/GE C 1 10) a pour objet de définir les objectifs généraux de l'instruction publique (art. 2 LIP) et s'applique aux degrés primaire et secondaire I (scolarité obligatoire) et aux degrés II et tertiaire ne relevant pas des hautes écoles (degré tertiaire B) dans les établissements de l'instruction publique (art. 1 al"
+   ]
+  },
+  {
+   "id": "ocl_bger_8C_54_2023",
+   "referenz": [
+    "BGer 8C_54/2023 vom 30. August 2023"
+   ],
+   "datum": "2023-08-30",
+   "bge": false,
+   "ausschnitte": [
+    "daire de l'instruction publique (art. 1 al. 4 LIP). La LIP, qui a pour objet de définir les objectifs principaux de l'instruction publique, régit en particulier les principes généraux en matière de personnel enseignant (art. 2 let . j LIP). Les membres du personnel enseignant doivent observer dans leur attitude la dignité qui correspond aux missions, notamment d'éducation et d'instruction, qui leur incombent (art. 123 al. 1 LIP). Ils sont tenus au respec"
+   ]
+  }
+ ]
+}
