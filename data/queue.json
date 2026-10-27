@@ -4638,14 +4638,13 @@
    "erlass": "MWSTG",
    "nummer": "1",
    "sachueberschrift": "Gegenstand und Grundsätze",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Claude-Cloud, 27.10.2026",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-27T20:43:07+00:00"
+   "geaendert": "2026-10-27"
   },
   "MWSTG/art-2": {
    "erlass": "MWSTG",

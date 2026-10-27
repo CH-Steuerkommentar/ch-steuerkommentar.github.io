@@ -1,0 +1,26 @@
+# Prüfbericht Art. 1 MWSTG – 27.10.2026 (Claude-Cloud, unbeaufsichtigter Lauf)
+
+## Entscheide im unbeaufsichtigten Lauf
+- Reserviert: MWSTG/art-1 (reservierung.py). Kein stand.py, keine Word-Fassung (Vorgabe). Eine fremde Reservierung (DBG/art-6, claude-cloud, 20:34 UTC) bestand bereits; sie wurde nicht angetastet.
+- Register und Problemkarte selbst erstellt (keine Karteikarten): 124 Cache-Entscheide, Triage durch drei Hilfsagenten → 102 Einträge (A 25, B 36, C 41), 7 Fehltreffer; Nachträge BGE 123 II 295, 123 II 385, 124 II 193, 138 II 251 (Leitformeln aus der MWSTV-Zeit) und BGE 140 II 80 E. 2.5.
+- Vorgängernormen: Entscheide mit «Art. 1 Abs. 2 MWSTG» vor 2010 betreffen die Grundsätze in Art. 1 Abs. 2 aMWSTG (heute Abs. 3); im Text mit «zum aMWSTG» bzw. «unter der MWSTV 1994» gekennzeichnet.
+- Übersicht ohne «Harmonisierung», stattdessen «Verhältnis zu anderen Erlassen» (Art. 134 BV, direkte Steuern, Stempelabgaben, Zollrecht), gemäss Aufgabe.
+- Onlinekommentar.ch: keine Kommentierung zum MWSTG vorhanden (`onlinekommentar.py liste`: nur DBG und StHG); auch keine verwandte Norm einschlägig. Lehre daher nur ILE-Literatur.
+- Bundesverwaltungsgericht über Open Case Law/Entscheidsuche (16 Entscheide gelesen), kantonale Gerichte ausschliesslich über Entscheidsuche (6 Entscheide gelesen, v.a. zivilrechtliche und öffentlich-rechtliche Überwälzung).
+- Wortlaut Art. 1 MWSTV 1994 nicht im Original verfügbar (Fedlex ohne Text); im Text nur nach BGer 2C_16/2008 E. 5.2 wiedergegeben. Bericht WAK-N 1996 nur als OCR; Seiten 725 f. durch BGE 123 II 295, 123 II 385 und 124 II 193 bestätigt. Stellungnahme Bundesrat 1997 (Seite nur berechnet) nicht verwendet.
+- Handbuch zum MWSTG (IFF-Schriftenreihe 2024): Autor:innen in der von Lexplorer Tax angegebenen Reihenfolge (Frey/Honauer/Probst/Rohner) zitiert. Ein kantonaler Entscheid zitiert das Werk als Honauer/Probst/Rohner/Frey, 4. Aufl.; am Original nicht prüfbar – für die Nachführung vermerkt. Teile des Handbuchs haben Redaktionsstand vor 2024 (Normalsatz 7,7 %); nur systematische Aussagen übernommen.
+- Lorenz/Clavadetscher (FStR 2024): Reihenfolge nach der Byline im Volltext (Lexplorer-Metadaten nennen Clavadetscher zuerst).
+- MWST-Info 01 ist aufgehoben und wurde nicht zitiert. Die ESTV-Publikationen tragen in Lexplorer kein Datum; zitiert ohne Stand.
+- Vernehmlassung vom 5.12.2025 (Abs. 2 lit. b «im Inland») als Ausblick, ausdrücklich als Vorentwurf; keine Botschaft gefunden.
+- Lexplorer-Suchen: 11 von 25 (alle ILE-Literatur, Hilfsagent); Verwaltungspraxis navigiert bzw. über Open Case Law.
+
+## Fundstellenprüfung (Schritt 8, vier Hilfsagenten, vollständig)
+- Fundstellenliste_Teil1.md bis Teil4.md (Fn. 1–138 der Erstfassung sowie Normtext, Eckdaten und Verzeichnisse). Alle Zitierstrings bestätigt.
+- Behoben (Auswahl): BGE 144 II 412 aus Belastungskonzeption gestrichen; Erhebungskonzeption-Fussnote geteilt; Lehrmeinung zur Wirtschaftsverkehrssteuer Frey/Honauer/Probst/Rohner zugeordnet; 2A.520/2003 auf Wettbewerbsneutralität und Überwälzbarkeit beschränkt; Art. 134 BV vervollständigt (Kantone und Gemeinden, steuerfrei Erklärtes); 2C_891/2020 «grosse Bedeutung» statt «massgebend»; 9C_756/2023 auf den entschiedenen Fall beschränkt; BGE 152 II 250 auf Ortsregeln präzisiert; BVGE 2007/23 E. 4.3 und 4.8; 2C_1076/2015 E. 2.2.1, «Abrunden» nur 2C_680/2021 (FL); 2C_1003/2011 Wettbewerbsneutralität/Bestimmungslandprinzip; Baumgartner «vierte Erhebungsform» als referierte Auffassung mit Hinweis auf Clavadetscher/Imstepf; Blum/Zbinden und Baumgartner ohne «a.M.», Kontext je benannt; 2A.40/2007 E. 4.2 f.; 2C_16/2008 und A-1624/2006 nur «vgl.» für den Auslegungsteil; A-1371/2006 Verfassungsgeber/Parlament unter MWSTV; Anspruch direkter Konkurrenten als Rechtsprechung des BGer (2A.452/2003 E. 5.1, 2C_612/2007 E. 9.2); BGE 124 II 193 in die Vergangenheit (Art. 8 ÜbBest. aBV); A-3533/2017 nur Legalitätsprinzip als Einwand ausgeschlossen; A-623/2021 E. 2.9.2; 2C_166/2016 E. 5.5; A-5689/2017 als aufgehobene Vorinstanz; Baumgartner Ziff. 5.4.1 entflochten; KGer SG E. II.2.b; BGE 144 II 412 E. 3.3.4 f. (öffentlich-rechtliches Grundverhältnis); BGE 141 IV 344 E. 3.2; EntGer BL einem Gericht zugeordnet, E. 2.2.1.2–2.2.3; Einführungsdatum 1995 ohne Beleg gestrichen; Titel MWST-Info 17 und MWST-Branchen-Info 01 vervollständigt.
+- Nicht übernommen: Ergänzung von Heft/Seiten bei FStR-Beiträgen (in Lexplorer nicht einheitlich verfügbar); die Kurzzitate lösen sich im Literaturverzeichnis mit Link auf.
+
+## Schlussprüfung (Schritt 9)
+- Neutralität: keine eigene Wertung; Wertungen der Lehre (Handbuch Rz. 158 f. «fraglich») als deren Auffassung wiedergegeben; Zitat aus BGE 140 II 80 ohne die Wendung «überzeugt».
+- pipeline/kommentar.py: 38 Randnoten, 140 Fussnoten, 0 Befunde. md2site.py --pruefen: zurückgehalten nur wegen Status «in_arbeit» (setzt das Steuerskript beim Freigeben).
+- Aufbau: Abs. 2 ohne Unterüberschriften für lit. a und c (je eine Randnote), lit. b mit eigener Überschrift (drei Randnoten); jede Frage an einer Stelle, Querverweise auf Bestimmungslandprinzip und Vorsteuerabzug.
+- Offen ausgewiesen: Vorrang Bezug-/Inlandsteuer; Bezugsteuer auf Emissionsrechten ohne Rechtsprechung; «erhebungswirtschaftlichste Auslegung» (BGE 152 II 486); verfassungsmässiger Grundsatz der Überwälzbarkeit (Lehre).
