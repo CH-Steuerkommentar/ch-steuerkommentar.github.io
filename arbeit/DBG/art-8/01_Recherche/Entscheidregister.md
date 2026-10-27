@@ -73,3 +73,11 @@ Zählung: 21 Entscheide (ohne BGer-Dubletten der BGE); A = 8, B = 11, C = 2.
 | StRG ZH DB.2017.109 vom 18.4.2018 | Wegzug mit Liegenschaft | 3b/bb, 4b | Zürcher Praxis: ungeteilte Periode bei fortbestehender beschränkter Steuerpflicht. |
 | VGer ZH SB.2004.00054 vom 20.10.2004 | Wechsel (kantonal, altes Recht) | 3.3.1 | Ende der unbeschränkten bei fortbestehender beschränkter Steuerpflicht gilt als Beendigung. |
 | StRG ZH DB.2019.31 vom 28.1.2020 | Liquidation | 5c | interkantonal, für Art. 8 nur am Rand. |
+
+## Nachtrag 27.10.2026 (ILE-Lauf)
+
+| Entscheid | Datum | Besetzung | Normstelle | Sachfrage | Kernaussage (ein Satz) | E. | Ergebnis | Klasse | Fassung |
+|---|---|---|---|---|---|---|---|---|---|
+| BGE 149 II 177 (= BGer 9C_689/2022 vom 12. April 2023) | 12.4.2023 | – | Art. 40 Abs. 3 (Art. 209 Abs. 3 aDBG) i.V.m. Art. 8 | Satzbestimmung bei beschränkter Steuerpflicht | Die Umrechnung auf zwölf Monate gilt, wenn die unbeschränkte Steuerpflicht im Lauf der Periode entsteht oder endet; bei bloss beschränkter Steuerpflicht ist sie von vornherein ausgeschlossen. | 8.3.5 | – | B | aDBG (Quellensteuer bis 2020); Aussage zu Art. 40 Abs. 3 geltend |
+
+Herkunft: Besprechung Oesterhelt/Opel, FStR 2023/3, Ziff. 3 (Fn. 29); Zitierstring und Erwägung über Open Case Law (`cite`, `find_relevant_erwaegung`) geprüft.
