@@ -35,17 +35,6 @@ header.header {
 }
 h1#_top { font-weight: 300; }
 
-/* Startseite: grünes Band mit weisser Schrift */
-.hero {
-  background: var(--gruen);
-  color: #fff;
-  padding: 3rem 2rem;
-  margin-inline: calc(-1 * var(--sl-content-pad-x, 1rem));
-}
-.hero h1, .hero .tagline { color: #fff !important; font-weight: 300; }
-.hero .sl-link-button.primary { background: #fff; color: var(--gruen) !important; border-color: #fff; }
-.hero .sl-link-button.minimal { color: #fff !important; }
-.hero .sl-link-button.minimal svg { color: #fff; }
 
 .sl-markdown-content {
   font-family: var(--serif);
@@ -153,28 +142,74 @@ p:has(> .rn:target) {
   border-bottom: 1px solid var(--sl-color-gray-5);
 }
 
-/* Startseite: alle Erlasse gleichberechtigt nebeneinander */
-.erlass-raster {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 0.8rem;
-  margin: 1rem 0 1.5rem;
+
+/* ---------- Erscheinungsbild nach dem Vorbild der Institutsseite: eckig, ruhig, grün ---------- */
+:root { --linie: #d9d9d9; }
+.sl-link-button, site-search button, .sidebar-content a, .sl-markdown-content table,
+.normtext, .zitiervorschlag, dialog, .pagefind-ui__search-input, .pagefind-ui__result,
+starlight-toc a, .sl-markdown-content code { border-radius: 0 !important; }
+header.header { border-top: 0; border-bottom: 1px solid var(--linie); }
+.site-title { font-weight: 400; font-size: 1.35rem; }
+site-search button[data-open-modal] { border: 1px solid #b5b5b5; background: #fff; }
+/* Seitenleiste: aktiver Eintrag als grüner Text mit Linie statt farbiger Fläche */
+.sidebar-content a[aria-current='page'],
+.sidebar-content a[aria-current='page']:hover {
+  background: transparent !important;
+  color: var(--gruen) !important;
+  font-weight: 600;
+  box-shadow: inset 3px 0 0 var(--gruen);
 }
+.sidebar-content a:hover { color: var(--gruen); }
+/* Überschriften leicht wie auf der Institutsseite */
+h1#_top, .sl-markdown-content h2 { font-weight: 300; }
+.sl-markdown-content :is(.sl-heading-wrapper.level-h2, h2:not(.sl-heading-wrapper h2)) {
+  border-top: 1px solid var(--linie); padding-top: 1.2rem; display: block; width: 100%;
+}
+
+/* ---------- Startseite ---------- */
+main:has(.start) .content-panel:has(h1#_top) {
+  position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);
+}
+main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
+.start { font-family: var(--sl-font); margin-top: 1.5rem; }
+.start > * { margin-top: 0 !important; }
+.start-band { background: var(--gruen); color: #fff; padding: 3.2rem 2.4rem 3.4rem; }
+.sl-markdown-content .start-titel {
+  font-size: clamp(1.7rem, 5vw, 3.8rem); font-weight: 300; line-height: 1.15; color: #fff; margin: 0; hyphens: auto;
+}
+.start-intro { background: var(--grau-band); padding: 1.6rem 2.4rem 1.8rem; }
+.sl-markdown-content .start-intro p { color: var(--gruen); font-size: 1.2rem; line-height: 1.6; margin: 0 0 1rem; font-family: var(--sl-font); }
+.sl-markdown-content .start-link { color: var(--gruen); text-decoration: none; font-size: 1.1rem; }
+.sl-markdown-content .start-link::after { content: '  \2192'; }
+.sl-markdown-content .start-link:hover { text-decoration: underline; }
+.sl-markdown-content .start-zwischentitel {
+  font-size: 2rem; font-weight: 300; color: var(--gruen-dunkel); border-top: 1px solid var(--linie);
+  padding-top: 1.4rem; margin: 2.6rem 0 1.2rem !important;
+}
+.erlass-raster { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; }
 @media (max-width: 60rem) { .erlass-raster { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .sl-markdown-content .erlass-knopf {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  padding: 1rem 1rem 0.9rem;
-  border: 1px solid var(--sl-color-gray-5);
-  border-top: 4px solid var(--gruen);
-  background: #fff;
-  text-decoration: none;
-  color: var(--sl-color-text);
-  font-family: var(--sl-font);
-  transition: background 0.15s, border-color 0.15s;
+  display: flex; flex-direction: column; gap: 0.4rem; padding: 1.1rem 1.1rem 1rem;
+  border: 0; border-top: 2px solid var(--gruen) !important; background: var(--grau-band);
+  text-decoration: none; color: #000; font-family: var(--sl-font); margin: 0;
 }
-.sl-markdown-content .erlass-knopf:hover { background: var(--grau-band); border-color: var(--gruen); }
-.erlass-knopf strong { font-size: 1.35rem; font-weight: 500; color: var(--gruen-dunkel); }
-.erlass-knopf span { font-size: 0.85rem; line-height: 1.35; }
-.erlass-knopf small { font-size: 0.75rem; color: var(--sl-color-gray-3); margin-top: auto; }
+.sl-markdown-content .erlass-knopf:hover { background: var(--gruen); color: #fff; }
+.sl-markdown-content .erlass-knopf:hover strong, .sl-markdown-content .erlass-knopf:hover small { color: #fff; }
+.erlass-knopf strong { font-size: 1.6rem; font-weight: 300; color: var(--gruen-dunkel); }
+.erlass-knopf span { font-size: 0.9rem; line-height: 1.35; }
+.erlass-knopf small { font-size: 0.8rem; color: #555; margin-top: auto; padding-top: 0.6rem; }
+.start-zahl {
+  display: grid; grid-template-columns: auto 1fr auto; align-items: baseline; gap: 1.5rem;
+  border-top: 1px solid var(--linie); margin-top: 2.6rem !important; padding-top: 1.2rem;
+}
+.start-zahl-wert { grid-column: 3; grid-row: 1; font-size: 4rem; font-weight: 300; color: var(--gruen-dunkel); line-height: 1; }
+.start-zahl-text:first-child { font-size: 2rem; font-weight: 300; color: var(--gruen-dunkel); }
+.start-zahl-text:last-child { grid-column: 2; grid-row: 1; font-family: var(--serif); }
+@media (max-width: 40rem) {
+  .start-band { padding: 2rem 1.3rem 2.2rem; }
+  .start-intro { padding: 1.3rem 1.3rem 1.5rem; }
+  .sl-markdown-content .start-intro p { font-size: 1.05rem; }
+  .start-zahl { grid-template-columns: 1fr auto; }
+  .start-zahl-text:last-child { grid-column: 1 / -1; grid-row: 2; }
+  .start-zahl-wert { grid-column: 2; }
+}

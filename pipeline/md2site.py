@@ -169,20 +169,27 @@ def startseite(stand: dict[str, int]) -> str:
     gesamt_k = sum(stand.values())
     queue = lade_json(QUEUE, {"artikel": {}})
     gesamt = sum(1 for v in queue["artikel"].values() if v["status"] not in ("aufgehoben", "ausgenommen"))
+    ueber = "Über den " + WERK.replace("Offener ", "Offenen ", 1)
     zeilen = ["---", f"title: {yaml_str(WERK)}",
               "description: Offener Online-Kommentar zum Steuerrecht des Bundes (DBG, StHG, VStG, MWSTG, StG)",
-              "template: splash", "hero:",
-              "  tagline: Kommentierungen zu DBG, StHG, VStG, MWSTG und Stempelabgabengesetz – frei zugänglich, "
-              "neutral, jede Fundstelle am Volltext geprüft.",
-              "  actions:", f"    - text: {yaml_str('Über den ' + WERK.replace('Offener ', 'Offenen ', 1))}", "      link: ./ueber/", "      icon: right-arrow",
-              "---\n",
+              "template: splash", "---\n",
+              '<div class="start">',
+              f'<section class="start-band"><p class="start-titel">{html.escape(WERK)}</p></section>',
+              '<section class="start-intro"><p>Kommentierungen zum Bundesgesetz über die direkte Bundessteuer, zum '
+              'Steuerharmonisierungsgesetz, zum Verrechnungssteuergesetz, zum Mehrwertsteuergesetz und zum '
+              'Stempelabgabengesetz – frei zugänglich, neutral, jede Fundstelle am Volltext geprüft.</p>'
+              f'<a class="start-link" href="./ueber/">{html.escape(ueber)}</a></section>',
+              '<h2 class="start-zwischentitel">Erlasse</h2>',
               '<nav class="erlass-raster" aria-label="Erlasse">']
     for key, e in ERLASSE.items():
         n = stand.get(key, 0)
         zeilen.append(f'<a class="erlass-knopf" href="./{key.lower()}/"><strong>{key}</strong>'
                       f'<span>{html.escape(e["name"])}</span><small>{n} Artikel kommentiert</small></a>')
-    zeilen.append("</nav>\n")
-    zeilen.append(f"Insgesamt {gesamt_k} von {gesamt or '–'} geltenden Artikeln kommentiert.\n")
+    zeilen.append("</nav>")
+    zeilen.append(f'<div class="start-zahl"><span class="start-zahl-text">Kommentierte Artikel</span>'
+                  f'<span class="start-zahl-wert">{gesamt_k}</span>'
+                  f'<span class="start-zahl-text">von {gesamt or "–"} geltenden Artikeln</span></div>')
+    zeilen.append("</div>\n")
     return "\n".join(zeilen)
 
 
