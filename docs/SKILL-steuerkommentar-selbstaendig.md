@@ -97,7 +97,7 @@ Den ganzen Text nach den Prüfpunkten des Skills `pruefung` durchgehen (Rechtsch
 Im Chat drei bis fünf Sätze: Umfang (Randnoten, Fussnoten, Entscheide im Register, davon nachgetragen), offene Fragen, die der Text als offen ausweist, Stand der Fundstellenprüfung, Zahl der Lexplorer-Suchen.
 
 ### Lexplorer sparsam (Kontingent)
-Lexplorer und Lexplorer Tax zählen Suchen gegen das Monatskontingent der Person, deren Verbindung Claude nutzt (Pro 500 Suchen im Monat, Search Basic 150; Webapp und MCP zusammen).
+Lexplorer und Lexplorer Tax zählen Suchen gegen das Monatskontingent der Person, deren Verbindung Claude nutzt (derzeit 3’000 Suchen im Monat; Webapp und MCP zusammen).
 1. **Entscheide nie über Lexplorer**, auch nicht lesend; Bundesgericht über Open Case Law, kantonale Gerichte über Entscheidsuche. Lexplorer Tax für kantonale Steuerbücher und Weisungen, SSK und die ILE-Literatur.
 2. **Navigieren statt suchen.** Steuerbücher sind nach Artikeln gegliedert: `nav_list_sources` mit Kanton → Steuerbuch-Quelle → `nav_list_documents`, in der Liste nach der Artikelnummer filtern (z.B. «ZStB 26.»), lesen mit `get_document_slice` bzw. `get_chunk_content`. Navigieren und Lesen zählen nicht (geprüft am 17.10.2026). Eine Suche (`search_chunks_*`) nur, wo die Navigation nicht hinführt, eine je Sachfrage und Kanton.
 3. **Einmal suchen, dann wiederverwenden.** Jeder gebrauchte Treffer kommt mit Abfrage, Werkzeug, Kanton, Kennung, `lexplorer_url`, tragendem Satz und Seite in `01_Recherche/Lexplorer_Fundstellen.md`; vor jeder Suche diese Datei prüfen.
