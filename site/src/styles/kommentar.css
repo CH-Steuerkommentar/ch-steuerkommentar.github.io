@@ -1,3 +1,9 @@
+/* Schrift des Instituts (Nutzung mit der Universität abgesprochen), geladen vom Server des ILE-HSG */
+@font-face { font-family: 'Gill Sans MT Pro'; font-weight: 300; font-display: swap;
+  src: url('https://ile.unisg.ch/typo3conf/ext/cs2_prototypes/src/dist/fonts/GillSansMTPro-Light.woff2') format('woff2'); }
+@font-face { font-family: 'Gill Sans MT Pro'; font-weight: 500; font-display: swap;
+  src: url('https://ile.unisg.ch/typo3conf/ext/cs2_prototypes/src/dist/fonts/GillSansMTPro-Medium.woff2') format('woff2'); }
+
 /* Darstellung eines Rechtskommentars: Randnoten am Rand, Normtext abgesetzt, ruhige Typografie.
    Nur helle Ansicht. Farben und Schriften angelehnt an das akademische Erscheinungsbild (Grün, humanistische Grotesk, Palatino). */
 :root {
@@ -6,7 +12,7 @@
   --gruen: #00802f;
   --gruen-dunkel: #0a5e2d;
   --grau-band: #f3f3f3;
-  --sl-font: 'Gill Sans Nova', 'Gill Sans', 'Gill Sans MT', 'Cabin', system-ui, sans-serif;
+  --sl-font: 'Gill Sans MT Pro', 'Gill Sans', 'Gill Sans MT', 'Cabin', system-ui, sans-serif;
   --serif: Palatino, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', P052, Georgia, serif;
 }
 :root, :root[data-theme='light'] {
@@ -213,3 +219,34 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
   .start-zahl-text:last-child { grid-column: 1 / -1; grid-row: 2; }
   .start-zahl-wert { grid-column: 2; }
 }
+
+/* Zitiervorschlag mit Kopierknopf */
+.zitiervorschlag { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.sl-markdown-content button.kopieren {
+  font-family: var(--sl-font); font-size: 0.85rem; padding: 0.3rem 0.9rem; cursor: pointer;
+  background: var(--gruen); color: #fff; border: 0; white-space: nowrap; margin: 0;
+}
+.sl-markdown-content button.kopieren:hover { background: var(--gruen-dunkel); }
+
+/* Fusszeile: Angebote des ILE-HSG und Copyright */
+.ile-angebote { margin-top: 3rem; border-top: 1px solid var(--linie); padding-top: 1.2rem; font-family: var(--sl-font); }
+.ile-angebote-titel { font-size: 1.4rem; font-weight: 300; color: var(--gruen-dunkel); margin: 0 0 0.8rem; }
+.ile-angebote ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.8rem; }
+@media (max-width: 50rem) { .ile-angebote ul { grid-template-columns: 1fr; } }
+.ile-angebote a { display: flex; flex-direction: column; gap: 0.25rem; padding: 0.9rem 1rem; background: var(--grau-band);
+  border-top: 2px solid var(--gruen); text-decoration: none; color: #000; height: 100%; }
+.ile-angebote a:hover { background: var(--gruen); color: #fff; }
+.ile-angebote a:hover strong { color: #fff; }
+.ile-angebote strong { color: var(--gruen-dunkel); font-weight: 500; }
+.ile-angebote span { font-size: 0.85rem; }
+.copyright { font-family: var(--sl-font); font-size: 0.8rem; color: #555; margin-top: 1.5rem; }
+.copyright a { color: #555; }
+
+/* Startseite: Arbeitsweise in vier Schritten */
+.sl-markdown-content .start-schritte { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; counter-reset: schritt; }
+@media (max-width: 60rem) { .sl-markdown-content .start-schritte { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.sl-markdown-content .start-schritte li { counter-increment: schritt; display: flex; flex-direction: column; gap: 0.4rem; margin: 0; font-family: var(--sl-font); }
+.sl-markdown-content .start-schritte li::before { content: counter(schritt); font-size: 2.6rem; font-weight: 300; color: var(--gruen); line-height: 1; }
+.start-schritte strong { font-weight: 500; color: var(--gruen-dunkel); font-size: 1.1rem; }
+.start-schritte span { font-size: 0.95rem; line-height: 1.45; }
+.sl-markdown-content .start-mehr { margin-top: 1rem !important; }

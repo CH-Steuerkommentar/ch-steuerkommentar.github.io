@@ -37,8 +37,8 @@ KOMMENTARE = ROOT / "kommentare"      # kanonische Kommentierungen (Markdown)
 SITE_DOCS = ROOT / "site" / "src" / "content" / "docs"
 
 # Name des Werks, wie er auf der Website und im Zitiervorschlag erscheint.
-WERK = os.environ.get("WERK_NAME", "Offener Steuerrechtskommentar")
-WERK_KURZ = os.environ.get("WERK_KURZ", "OSK")
+WERK = os.environ.get("WERK_NAME", "ILE-HSG Steuerrechtskommentar")
+WERK_KURZ = os.environ.get("WERK_KURZ", "ILE-HSG StK")
 
 # Modelle der Batch-Schritte (siehe README, Abschnitt Kosten)
 MODELL_KARTEN = os.environ.get("MODELL_KARTEN", "claude-opus-5-5")

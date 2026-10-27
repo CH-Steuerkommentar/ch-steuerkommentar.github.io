@@ -3,7 +3,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-const WERK = process.env.WERK_NAME ?? 'Offener Steuerrechtskommentar';
+const WERK = process.env.WERK_NAME ?? 'ILE-HSG Steuerrechtskommentar';
 
 export default defineConfig({
   site: process.env.SITE ?? 'https://example.github.io',
@@ -25,11 +25,13 @@ export default defineConfig({
       components: {
         ThemeSelect: './src/components/Leer.astro',
         ThemeProvider: './src/components/NurHell.astro',
+        Footer: './src/components/Fusszeile.astro',
       },
       head: [
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.googleapis.com' } },
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' } },
         { tag: 'link', attrs: { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap' } },
+        { tag: 'link', attrs: { rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: '', href: 'https://ile.unisg.ch/typo3conf/ext/cs2_prototypes/src/dist/fonts/GillSansMTPro-Light.woff2' } },
       ],
       lastUpdated: true,
       pagination: false,
@@ -40,7 +42,7 @@ export default defineConfig({
         { label: 'VStG', collapsed: true, items: [{ autogenerate: { directory: 'vstg' } }] },
         { label: 'MWSTG', collapsed: true, items: [{ autogenerate: { directory: 'mwstg' } }] },
         { label: 'StG', collapsed: true, items: [{ autogenerate: { directory: 'stg' } }] },
-        { label: 'Über den Offenen Steuerrechtskommentar', link: '/ueber/' },
+        { label: 'Über den ILE-HSG Steuerrechtskommentar', link: '/ueber/' },
       ],
     }),
   ],

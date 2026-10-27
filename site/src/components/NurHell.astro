@@ -4,6 +4,20 @@
 <script is:inline>
   document.documentElement.dataset.theme = 'light';
   try { localStorage.removeItem('starlight-theme'); } catch (e) {}
+  document.addEventListener('DOMContentLoaded', () => {
+    // Links zu anderen Websites (Entscheide, Materialien, Literatur) im neuen Tab öffnen
+    document.querySelectorAll('a[href^="http"]').forEach((a) => {
+      if (a.host !== location.host) { a.target = '_blank'; a.rel = 'noopener'; }
+    });
+    // Zitiervorschlag kopieren
+    document.querySelectorAll('button.kopieren').forEach((b) => {
+      b.addEventListener('click', async () => {
+        try { await navigator.clipboard.writeText(b.dataset.text); b.textContent = 'Kopiert'; }
+        catch (e) { b.textContent = 'Bitte markieren'; }
+        setTimeout(() => { b.textContent = 'Kopieren'; }, 1800);
+      });
+    });
+  });
 </script>
 <style is:global>
   :root { color-scheme: light; }

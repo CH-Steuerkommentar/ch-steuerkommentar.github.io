@@ -56,6 +56,31 @@ def order(nummer_art: str) -> int:
     return k[0] * 100 + (k[1] if isinstance(k[1], int) else 99)
 
 
+OCL = "https://mcp.opencaselaw.ch/entscheid/"
+_BGE = re.compile(r"\bBGE\s+(\d{2,3})\s+(Ia|Ib|IV|V|III|II|I)\s+(\d{1,4})\b")
+_BGER = re.compile(r"(?<![\w/.])(\d{1,2}[A-Z]{1,2}[_.]\d{1,5}/\d{4})\b")
+
+
+def _link(text: str, url: str) -> str:
+    return f'<a href="{url}" target="_blank" rel="noopener">{text}</a>'
+
+
+def entscheid_links(text: str) -> str:
+    """BGE- und BGer-Zitate in Fussnoten auf den Entscheid bei Open Case Law verlinken (neuer Tab).
+    Bestehende Links (Markdown oder HTML) bleiben unverändert."""
+    teile = re.split(r"(\[[^\]]*\]\([^)]*\)|<a\b[^>]*>.*?</a>)", text)
+    aus = []
+    for i, t in enumerate(teile):
+        if i % 2:
+            aus.append(t)
+            continue
+        t = _BGE.sub(lambda m: _link(m.group(0), OCL + "bge_" + f"{m.group(1)} {m.group(2)} {m.group(3)}".replace(" ", "%20")), t)
+        t = re.sub(r"(<a\b[^>]*>.*?</a>)|" + _BGER.pattern,
+                   lambda m: m.group(1) or _link(m.group(2), OCL + "bger_" + m.group(2).replace("/", "_")), t)
+        aus.append(t)
+    return "".join(aus)
+
+
 class Umwandler:
     def __init__(self, k):
         self.k = k
@@ -66,7 +91,7 @@ class Umwandler:
         teile, pos = [], 0
         for s, e, inhalt in fussnoten_finden(text):
             teile.append(text[pos:s])
-            self.fn.append(self.querverweise(inhalt))
+            self.fn.append(entscheid_links(self.querverweise(inhalt)))
             teile.append(f"[^{len(self.fn)}]")
             pos = e
         teile.append(text[pos:])
@@ -88,12 +113,13 @@ class Umwandler:
         aus.append(f"  label: {yaml_str(f'Art. {art} – {titel}' if titel else f'Art. {art}')}")
         aus.append(f"  order: {order(art)}")
         aus.append("banner:")
-        aus.append(f"  content: {yaml_str(f'Ohne Autor:innen, mit KI erstellt und am Volltext der Quellen geprüft. Stand: {stand}. Keine Rechtsberatung.')}")
+        aus.append(f"  content: {yaml_str(f'Mit KI erstellt und am Volltext der Quellen geprüft. Stand: {stand}. Keine Rechtsberatung.')}")
         aus.append(f"lastUpdated: {m['stand']}")
         aus.append("---\n")
         zitat = f"{WERK_KURZ}, Art. {art} {erlass} N. [Randnote] (Stand {stand})"
-        aus.append(f'<aside class="zitiervorschlag"><strong>Zitiervorschlag:</strong> {zitat}'
-                   + (f' · {m["fassung"]}' if m.get("fassung") else "") + "</aside>\n")
+        aus.append(f'<aside class="zitiervorschlag"><span><strong>Zitiervorschlag:</strong> <span class="zitat">{zitat}</span>'
+                   + (f' · {m["fassung"]}' if m.get("fassung") else "")
+                   + f'</span><button type="button" class="kopieren" data-text="{html.escape(zitat, quote=True)}">Kopieren</button></aside>\n')
         # Normtext
         aus.append('<div class="normtext">\n')
         for i, z in enumerate(k.normtext):
@@ -186,6 +212,17 @@ def startseite(stand: dict[str, int]) -> str:
         zeilen.append(f'<a class="erlass-knopf" href="./{key.lower()}/"><strong>{key}</strong>'
                       f'<span>{html.escape(e["name"])}</span><small>{n} Artikel kommentiert</small></a>')
     zeilen.append("</nav>")
+    zeilen.append('<h2 class="start-zwischentitel">So entsteht der Kommentar</h2>')
+    zeilen.append('<ol class="start-schritte">'
+                  '<li><strong>Rechtsprechung</strong><span>Alle Entscheide des Bundesgerichts, die die Norm zitieren, '
+                  'werden gesammelt, eingeordnet und an der einschlägigen Erwägung gelesen.</span></li>'
+                  '<li><strong>Praxis und Lehre</strong><span>Dazu kommen kantonale Gerichte, die Verwaltungspraxis, '
+                  'die Literatur des ILE-HSG und Onlinekommentar.ch.</span></li>'
+                  '<li><strong>Neutraler Text</strong><span>Der Text gibt wieder, was Gerichte, Verwaltung und Lehre sagen, '
+                  'und wertet nicht selbst.</span></li>'
+                  '<li><strong>Prüfung</strong><span>Eine eigene Prüfinstanz kontrolliert jede Fussnote am Volltext der Quelle.</span></li>'
+                  '</ol>')
+    zeilen.append('<p class="start-mehr"><a class="start-link" href="./ueber/">Mehr zur Arbeitsweise</a></p>')
     zeilen.append(f'<div class="start-zahl"><span class="start-zahl-text">Kommentierte Artikel</span>'
                   f'<span class="start-zahl-wert">{gesamt_k}</span>'
                   f'<span class="start-zahl-text">von {gesamt or "–"} geltenden Artikeln</span></div>')

@@ -1,11 +1,11 @@
 ---
-title: Über den Offenen Steuerrechtskommentar
+title: Über den ILE-HSG Steuerrechtskommentar
 description: Wie die Kommentierungen entstehen, auf welche Quellen sie sich stützen und wo ihre Grenzen liegen.
 ---
 
 ## Was das Werk ist
 
-Ein frei zugänglicher Kommentar zu fünf Bundesgesetzen des Steuerrechts: DBG, StHG, VStG, MWSTG und Bundesgesetz über die Stempelabgaben. Jede Kommentierung stellt dar, was Gesetz, Rechtsprechung, Verwaltungspraxis und Lehre zu einer Norm sagen, und wo eine Frage offen ist. Im Zentrum steht die Rechtsprechung des Bundesgerichts. Nicht kommentiert werden Übergangsbestimmungen sowie die Bestimmungen über Referendum und Inkrafttreten.
+Der ILE-HSG Steuerrechtskommentar wird herausgegeben vom Institut für Law and Economics der Universität St.Gallen (ILE-HSG). Ein frei zugänglicher Kommentar zu fünf Bundesgesetzen des Steuerrechts: DBG, StHG, VStG, MWSTG und Bundesgesetz über die Stempelabgaben. Jede Kommentierung stellt dar, was Gesetz, Rechtsprechung, Verwaltungspraxis und Lehre zu einer Norm sagen, und wo eine Frage offen ist. Im Zentrum steht die Rechtsprechung des Bundesgerichts. Nicht kommentiert werden Übergangsbestimmungen sowie die Bestimmungen über Referendum und Inkrafttreten.
 
 ## Wie die Kommentierungen entstehen
 
@@ -39,8 +39,8 @@ Jede Kommentierung gibt den Stand ihrer Bearbeitung an. Spätere Rechtsprechung 
 
 ## Zitieren
 
-Kurzzitat: Werk, Artikel, Randnote, Stand – zum Beispiel «OSK, Art. 26 DBG N. 12 (Stand 26.10.2026)». Jede Randnote hat eine eigene Adresse (Klick auf die Randnotennummer).
+Kurzzitat: Werk, Artikel, Randnote, Stand – zum Beispiel «ILE-HSG StK, Art. 26 DBG N. 12 (Stand 26.10.2026)». Den Zitiervorschlag zu jeder Kommentierung kann man oben auf der Seite mit «Kopieren» übernehmen. Jede Randnote hat eine eigene Adresse (Klick auf die Randnotennummer).
 
-## Lizenz
+## Copyright und Lizenz
 
-Text: Creative Commons Namensnennung 4.0 International (CC BY 4.0). Erlasse und Entscheide sind als amtliche Werke frei (Art. 5 URG).
+© Institut für Law and Economics (ILE-HSG), Universität St.Gallen. Text: Creative Commons Namensnennung 4.0 International (CC BY 4.0). Erlasse und Entscheide sind als amtliche Werke frei (Art. 5 URG).
