@@ -1,11 +1,63 @@
-/* Darstellung eines Rechtskommentars: Randnoten am Rand, Normtext abgesetzt, ruhige Typografie. */
+/* Darstellung eines Rechtskommentars: Randnoten am Rand, Normtext abgesetzt, ruhige Typografie.
+   Farben und Schriften angelehnt an das akademische Erscheinungsbild (Grün, humanistische Grotesk, Palatino). */
 :root {
   --sl-content-width: 46rem;
   --rn-farbe: var(--sl-color-accent);
+  --gruen: #00802f;
+  --gruen-dunkel: #0a5e2d;
+  --grau-band: #f3f3f3;
+  --sl-font: 'Gill Sans Nova', 'Gill Sans', 'Gill Sans MT', 'Cabin', system-ui, sans-serif;
+  --serif: Palatino, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', P052, Georgia, serif;
+}
+:root, :root[data-theme='light'] {
+  --sl-color-accent-low: #e2f1e7;
+  --sl-color-accent: #00802f;
+  --sl-color-accent-high: #0a5e2d;
+  --sl-color-text-accent: #00802f;
+}
+:root[data-theme='dark'] {
+  --sl-color-accent-low: #0b2a17;
+  --sl-color-accent: #3fb36a;
+  --sl-color-accent-high: #bfe8cd;
+  --sl-color-text-accent: #6fd093;
+  --gruen: #3fb36a;
+  --gruen-dunkel: #8fd8a8;
+  --grau-band: #1d2420;
 }
 
+/* Kopfzeile: weiss, schmaler grüner Streifen oben, Titel in Grün */
+header.header {
+  background: var(--sl-color-bg);
+  border-top: 4px solid var(--gruen);
+  border-bottom: 1px solid var(--sl-color-gray-5);
+}
+.site-title {
+  color: var(--gruen) !important;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+/* Überschriften leicht und in Dunkelgrün */
+.sl-markdown-content :is(h2, h3, h4, h5), h1#_top {
+  font-weight: 400;
+  color: var(--gruen-dunkel);
+}
+h1#_top { font-weight: 300; }
+
+/* Startseite: grünes Band mit weisser Schrift */
+.hero {
+  background: var(--gruen);
+  color: #fff;
+  padding: 3rem 2rem;
+  margin-inline: calc(-1 * var(--sl-content-pad-x, 1rem));
+}
+.hero h1, .hero .tagline { color: #fff !important; font-weight: 300; }
+.hero .sl-link-button.primary { background: #fff; color: var(--gruen) !important; border-color: #fff; }
+.hero .sl-link-button.minimal { color: #fff !important; }
+.hero .sl-link-button.minimal svg { color: #fff; }
+
 .sl-markdown-content {
-  font-family: 'Source Serif 4', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  font-family: var(--serif);
   font-size: 1.04rem;
   line-height: 1.65;
 }
@@ -62,7 +114,8 @@ p:has(> .rn:target) {
   border-left: 3px solid var(--sl-color-gray-4);
   padding: 0.6rem 1rem;
   margin: 1.5rem 0 2rem;
-  background: var(--sl-color-gray-7, var(--sl-color-gray-6));
+  background: var(--grau-band);
+  border-left-color: var(--gruen);
   font-size: 0.97rem;
 }
 .normtext p { margin: 0.25rem 0; }
