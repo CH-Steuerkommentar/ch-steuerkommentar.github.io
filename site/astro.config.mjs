@@ -34,7 +34,6 @@ export default defineConfig({
       lastUpdated: true,
       pagination: false,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
-      editLink: process.env.EDIT_LINK ? { baseUrl: process.env.EDIT_LINK } : undefined,
       sidebar: [
         { label: 'DBG', collapsed: true, items: [{ autogenerate: { directory: 'dbg' } }] },
         { label: 'StHG', collapsed: true, items: [{ autogenerate: { directory: 'sthg' } }] },

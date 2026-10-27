@@ -43,7 +43,6 @@ jobs:
         env:
           SITE: ${{ steps.pages.outputs.origin }}
           BASE: ${{ steps.pages.outputs.base_path }}/
-          EDIT_LINK: https://github.com/${{ github.repository }}/edit/main/
         run: |
           npm ci
           npx astro build
