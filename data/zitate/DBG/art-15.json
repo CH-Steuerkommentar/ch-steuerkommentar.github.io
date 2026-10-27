@@ -1,0 +1,20 @@
+{
+ "artikel": "DBG/art-15",
+ "abfrage": "\"Art. 15\" AND (DBG OR LIFD) (Kandidaten: Entscheidsuche; Entscheide: Open Case Law)",
+ "quelle": "ocl",
+ "suchtreffer": 167,
+ "entscheide": [
+  {
+   "id": "ocl_bger_8F_6_2007",
+   "referenz": [
+    "BGer 8F_6/2007 vom 21. April 2008"
+   ],
+   "datum": "2008-04-21",
+   "bge": false,
+   "ausschnitte": [
+    "r Begründung und fehlenden Einspracheentscheides nicht ein. Dagegen führte F.________ beim Eidgenössischen Versicherungsgericht Verwaltungsgerichtsbeschwerde mit den Anträgen auf \"Recht auf Berichtigung bez. Vernichtung Art. 15 DBG \" und \"Recht auf Schadenersatz und Genugtuung Art. 41 + 49 OR\". Den ersten Antrag spezifizierte er in der Begründung dahingehend, dass das aus dem Jahre 1959 stammende, in den SUVA-Akten liegende Gutachten von Dr. med. ",
+    "ftlich mitgeteilt. Luzern, 21. April 2008 Im Namen der I. sozialrechtlichen Abteilung des Schweizerischen Bundesgerichts Der Präsident: Der Gerichtsschreiber: Ursprung Grünvogel Art. 100 BGG; Art. 121 BGG; Art. 124 BGG; Art. 15 DBG; Art. 25 Abs. 4 DSG; Art. 42 Abs. 2 BGG"
+   ]
+  }
+ ]
+}
