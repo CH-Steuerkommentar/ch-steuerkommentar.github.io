@@ -64,14 +64,13 @@
    "erlass": "DBG",
    "nummer": "6",
    "sachueberschrift": "Umfang der Steuerpflicht",
-   "status": "in_arbeit",
+   "status": "entscheide",
    "entscheide": 104,
    "karten_fertig": 0,
    "prioritaet": 104,
-   "notiz": "",
+   "notiz": "Lauf vom 26.10. abgebrochen (Nutzungslimit erreicht)",
    "status_vorher": "entscheide",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-26T20:34:06+00:00"
+   "geaendert": "2026-10-27"
   },
   "DBG/art-7": {
    "erlass": "DBG",
