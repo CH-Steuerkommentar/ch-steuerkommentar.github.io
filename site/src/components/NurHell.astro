@@ -4,17 +4,9 @@
 <script is:inline>
   document.documentElement.dataset.theme = 'light';
   try { localStorage.removeItem('starlight-theme'); } catch (e) {}
-  // Suche mit Strg+F bzw. Cmd+F öffnen und die Anzeige im Suchfeld anpassen
-  document.addEventListener('keydown', (e) => {
-    if ((e.ctrlKey || e.metaKey) && !e.altKey && !e.shiftKey && e.key.toLowerCase() === 'f') {
-      const knopf = document.querySelector('site-search button[data-open-modal]');
-      if (knopf) { e.preventDefault(); knopf.click(); }
-    }
-  });
-  document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('site-search button[data-open-modal] kbd kbd:last-child').forEach((k) => { k.textContent = 'F'; });
-  });
 </script>
 <style is:global>
   :root { color-scheme: light; }
+  /* Tastenkürzel-Hinweis im Suchfeld ausblenden; Strg+F bleibt die Suche des Browsers */
+  site-search button[data-open-modal] > kbd { display: none !important; }
 </style>
