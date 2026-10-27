@@ -5957,11 +5957,14 @@
    "erlass": "StG",
    "nummer": "1",
    "sachueberschrift": "I. Gegenstand des Gesetzes",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-27T12:37:29+00:00"
   },
   "StG/art-2": {
    "erlass": "StG",
