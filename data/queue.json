@@ -3886,14 +3886,13 @@
    "erlass": "VStG",
    "nummer": "5",
    "sachueberschrift": "Gegenstand der Steuer: Kapitalerträge, Ausnahmen",
-   "status": "in_arbeit",
+   "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Lauf 28.10. am Nutzungslimit abgebrochen",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-28T10:13:52+00:00"
+   "geaendert": "2026-10-28"
   },
   "VStG/art-6": {
    "erlass": "VStG",
