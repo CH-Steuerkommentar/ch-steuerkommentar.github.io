@@ -294,3 +294,9 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
 .kopf-home { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.75rem; border: 1px solid var(--gruen); color: var(--gruen-dunkel); text-decoration: none; font-size: 0.9rem; white-space: nowrap; flex-shrink: 0; }
 .kopf-home:hover { background: var(--gruen); color: #fff; }
 @media (max-width: 40rem) { .kopf-home { padding: 0.4rem 0.5rem; } .kopf-home span { display: none; } }
+
+/* Fusszeile: Impressum, Datenschutz, Haftungsausschluss */
+.rechtliches { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--linie); font-family: var(--sl-font); font-size: 0.85rem; }
+.rechtliches a { color: var(--gruen-dunkel); text-decoration: none; }
+.rechtliches a:hover { text-decoration: underline; }
+.rechtliches + .copyright { margin-top: 0.6rem; }

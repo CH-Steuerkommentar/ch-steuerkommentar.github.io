@@ -2,6 +2,12 @@
 // Fusszeile: Starlight-Standard (Datum der letzten Änderung) plus Copyright (Angebote des ILE-HSG: Seitenleiste, Startseite, unter jeder Kommentierung).
 import Default from '@astrojs/starlight/components/Footer.astro';
 const jahr = new Date().getFullYear();
+const basis = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <Default {...Astro.props}><slot /></Default>
+<nav class="rechtliches" aria-label="Rechtliches">
+  <a href={`${basis}/impressum/`}>Impressum</a>
+  <a href={`${basis}/datenschutz/`}>Datenschutz</a>
+  <a href={`${basis}/haftungsausschluss/`}>Haftungsausschluss</a>
+</nav>
 <p class="copyright">© {jahr} Institut für Law and Economics (ILE-HSG), Universität St.Gallen. Alle Rechte vorbehalten.</p>
