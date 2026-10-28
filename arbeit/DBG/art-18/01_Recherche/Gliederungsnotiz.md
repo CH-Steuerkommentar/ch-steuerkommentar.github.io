@@ -1,0 +1,4 @@
+# Gliederungsnotiz Art. 18 DBG
+Gliederung: Übersicht (3) – Abs. 1: Begriff (3), Gewinnstrebigkeit/Liebhaberei (2), Abgrenzung private Vermögensverwaltung: Liegenschaftenhandel (3), Wertschriften/andere Werte (3), Beginn/Ende (1) – Abs. 2: Geschäftsvermögen: Präponderanz (3), Beteiligungen (2), Personengesellschaften/Erbgang (2); Kapitalgewinne (1); Überführung (4) – Abs. 3 (1) – Abs. 4: Privileg (2), Begriff (3). Summe 33 Randnoten (Umfangsplan 30–40; kleiner als OK-Richtwerte wegen Kostenrahmen).
+Bewusst ohne eigene Überschrift: Überführung ins Ausland, 20-%-Erklärung (je Randnote mit Vermerk «nicht ausgelegt»). Aufschubtatbestände bei Art. 18a, Liquidationsgewinn bei Art. 37b, private Kapitalgewinne bei Art. 16 Abs. 3.
+Offen ausgewiesen: Aufteilung Wertschriftenportefeuille (2A.419/2001 E. 3.2); Tragweite Abs. 3 (2C_515/2010 E. 3.4); 20-%-Erklärung; Überführung ins Ausland.

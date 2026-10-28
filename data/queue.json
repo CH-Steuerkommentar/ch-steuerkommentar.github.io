@@ -254,15 +254,13 @@
    "erlass": "DBG",
    "nummer": "18",
    "sachueberschrift": "Grundsatz",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "Lauf 28.10. am Nutzungslimit abgebrochen",
+   "notiz": "GitHub Actions, 2026-10-28 (24.47 USD)",
    "status_vorher": "offen",
-   "geaendert": "2026-10-28",
-   "bearbeiter": "github-actions",
-   "seit": "2026-10-28T13:21:53+00:00"
+   "geaendert": "2026-10-28"
   },
   "DBG/art-18a": {
    "erlass": "DBG",
