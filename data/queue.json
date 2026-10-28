@@ -4772,14 +4772,13 @@
    "erlass": "MWSTG",
    "nummer": "9",
    "sachueberschrift": "Vermeidung von Wettbewerbsverzerrungen",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "GitHub Actions, 2026-10-28 (18.99 USD)",
    "status_vorher": "offen",
-   "bearbeiter": "github-actions",
-   "seit": "2026-10-28T13:21:56+00:00"
+   "geaendert": "2026-10-28"
   },
   "MWSTG/art-10": {
    "erlass": "MWSTG",
