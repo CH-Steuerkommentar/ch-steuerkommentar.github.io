@@ -4689,11 +4689,14 @@
    "erlass": "MWSTG",
    "nummer": "4",
    "sachueberschrift": "Samnaun und Sampuoir",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T03:30:57+00:00"
   },
   "MWSTG/art-5": {
    "erlass": "MWSTG",
