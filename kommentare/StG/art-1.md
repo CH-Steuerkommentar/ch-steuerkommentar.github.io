@@ -96,9 +96,9 @@ fassung: Fassung vom 1.1.2024
 
 - Baumgartner Heinz/Duss Pascal/Fenners Henk, Gesetzgebungs-Agenda 2022/3, FStR 2022 [https://app.lexplorer.ch/suche?e_chunks=11859&e_sys=ile].
 
-- Oesterhelt Stefan/Tschan David, § 8 Umsatzabgabe, in: Verrechnungssteuer und Stempelabgaben, IFF-Schriftenreihe, 2025 [https://app.lexplorer.ch/suche?e_id=1056&e_sys=ile].
+- Oesterhelt Stefan/Tschan David, § 8 Umsatzabgabe, in: Verrechnungssteuer und Stempelabgaben, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 128, 2025 [https://app.lexplorer.ch/suche?e_id=1056&e_sys=ile].
 
-- Oesterhelt Stefan/Tschan David, § 10 Sonstige Themen, in: Verrechnungssteuer und Stempelabgaben, IFF-Schriftenreihe, 2025 [https://app.lexplorer.ch/suche?e_chunks=30459&e_sys=ile].
+- Oesterhelt Stefan/Tschan David, § 10 Sonstige Themen, in: Verrechnungssteuer und Stempelabgaben, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 128, 2025 [https://app.lexplorer.ch/suche?e_chunks=30459&e_sys=ile].
 
 - Oesterhelt Stefan/Tschan David, Aktuelle Entwicklungen Verrechnungssteuer und Stempelabgaben, St.Galler Seminar zur Unternehmensbesteuerung 2025, Folien [https://app.lexplorer.ch/suche?e_chunks=48361&e_sys=ile].
 

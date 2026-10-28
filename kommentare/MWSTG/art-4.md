@@ -66,7 +66,7 @@ fassung: Fassung vom 1.1.2018
 
 # Literaturverzeichnis
 
-- Honauer Niklaus/Probst Simeon L./Rohner Tobias F./Frey Philip, Handbuch zum Mehrwertsteuergesetz (MWSTG), IFF-Schriftenreihe, 4. Aufl., Bern 2024 [https://app.lexplorer.ch/suche?e_chunks=20895&e_sys=ile].
+- Honauer Niklaus/Probst Simeon L./Rohner Tobias F./Frey Philip, Handbuch zum Mehrwertsteuergesetz (MWSTG), Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 100, 4. Aufl., Bern 2024 [https://app.lexplorer.ch/suche?e_chunks=20895&e_sys=ile].
 
 # Materialienverzeichnis
 

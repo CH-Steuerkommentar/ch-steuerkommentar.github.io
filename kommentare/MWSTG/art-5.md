@@ -60,7 +60,7 @@ fassung: Fassung vom 1.1.2025
 # Literaturverzeichnis
 
 - Baumgartner Ivo P., Betrachtungen zur Mehrwertsteuer, FStR 2026, Heft 3 [https://app.lexplorer.ch/suche?e_chunks=66110&e_sys=ile].
-- Honauer Niklaus/Probst Simeon L./Rohner Tobias F./Frey Philip, Handbuch zum Mehrwertsteuergesetz (MWSTG), IFF-Schriftenreihe, 4. Aufl., Bern 2024 [https://app.lexplorer.ch/suche?e_chunks=21765&e_sys=ile].
+- Honauer Niklaus/Probst Simeon L./Rohner Tobias F./Frey Philip, Handbuch zum Mehrwertsteuergesetz (MWSTG), Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 100, 4. Aufl., Bern 2024 [https://app.lexplorer.ch/suche?e_chunks=21765&e_sys=ile].
 
 # Materialienverzeichnis
 

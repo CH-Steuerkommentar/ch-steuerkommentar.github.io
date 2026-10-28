@@ -80,7 +80,7 @@ fassung: version du 1er janvier 2010
 
 # Bibliographie
 
-- Frey Philip/Honauer Niklaus/Probst Simeon L./Rohner Tobias F., Handbuch zum Mehrwertsteuergesetz (MWSTG), IFF-Schriftenreihe, 2024 [https://app.lexplorer.ch/suche?e_chunks=21028&e_sys=ile] (cité : Handbuch MWSTG).
+- Frey Philip/Honauer Niklaus/Probst Simeon L./Rohner Tobias F., Handbuch zum Mehrwertsteuergesetz (MWSTG), Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 100, 2024 [https://app.lexplorer.ch/suche?e_chunks=21028&e_sys=ile] (cité : Handbuch MWSTG).
 
 # Matériaux
 

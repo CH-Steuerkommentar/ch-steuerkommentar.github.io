@@ -142,9 +142,9 @@ fassung: Fassung vom 1.1.2025
 
 - Clavadetscher Diego, Zum Verhältnis von Mehrwertsteuer- und Privatrecht, St.Galler Seminar zur Mehrwertsteuer 2019, Folien [https://app.lexplorer.ch/suche?e_chunks=55920&e_sys=ile].
 
-- Frey Philip/Honauer Niklaus/Probst Simeon L./Rohner Tobias F., Handbuch zum Mehrwertsteuergesetz (MWSTG), IFF-Schriftenreihe, 2024 [https://app.lexplorer.ch/suche?e_chunks=21045&e_sys=ile] (zit. Handbuch MWSTG).
+- Frey Philip/Honauer Niklaus/Probst Simeon L./Rohner Tobias F., Handbuch zum Mehrwertsteuergesetz (MWSTG), Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 100, 2024 [https://app.lexplorer.ch/suche?e_chunks=21045&e_sys=ile] (zit. Handbuch MWSTG).
 
-- Imstepf Ralf, Die Komplexität des Steuerrechts, IFF-Schriftenreihe, 2023 [https://app.lexplorer.ch/suche?e_chunks=26754&e_sys=ile].
+- Imstepf Ralf, Die Komplexität des Steuerrechts, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 125, 2023 [https://app.lexplorer.ch/suche?e_chunks=26754&e_sys=ile].
 
 - Lorenz Tabea/Clavadetscher Diego, Überwälzung der Mehrwertsteuer, FStR 2024 [https://app.lexplorer.ch/suche?e_chunks=13370&e_sys=ile].
 

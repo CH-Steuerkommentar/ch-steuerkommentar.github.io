@@ -102,7 +102,7 @@ fassung: Fassung vom 2.9.2026
 
 ## Verwaltungsverordnungen der ESTV
 
-{rn:verwaltungsverordnungen} **Kreisschreiben und Rundschreiben.** Zur Erfüllung ihrer Aufgabe nach Art. 102 Abs. 2 DBG erlässt die ESTV Verwaltungsverordnungen in Form von Kreisschreiben, Rundschreiben, Merkblättern, Kurslisten oder Wegleitungen. Sie richten sich an die kantonalen Steuerbehörden und geben die nötigen Anordnungen zur korrekten Durchführung von Veranlagung und Bezug.^[BGE 121 II 473, E. 3b.] Nach dem Bundesgericht haben solche Weisungen keine Gesetzeskraft und binden weder die Steuerpflichtigen noch die Gerichte; die Gerichte weichen davon aber nur ab, soweit sie den Sinn des Gesetzes nicht wiedergeben.^[BGer 2C_95/2011 vom 11.10.2011, E. 2.3 (zur Verrechnungssteuer); gl.M. Teuscher, Konzerninterne Vermögensübertragung quo vadis, IFF-Schriftenreihe Bd. 120, 2021, N. 43.] Das Verwaltungsgericht des Kantons Glarus bezeichnete ein Kreisschreiben als rein generelle Dienstanweisung, die nur für die Vollzugsorgane verbindlich ist.^[VGer GL VG.2017.00088 vom 8.11.2018, E. II/7.2.]
+{rn:verwaltungsverordnungen} **Kreisschreiben und Rundschreiben.** Zur Erfüllung ihrer Aufgabe nach Art. 102 Abs. 2 DBG erlässt die ESTV Verwaltungsverordnungen in Form von Kreisschreiben, Rundschreiben, Merkblättern, Kurslisten oder Wegleitungen. Sie richten sich an die kantonalen Steuerbehörden und geben die nötigen Anordnungen zur korrekten Durchführung von Veranlagung und Bezug.^[BGE 121 II 473, E. 3b.] Nach dem Bundesgericht haben solche Weisungen keine Gesetzeskraft und binden weder die Steuerpflichtigen noch die Gerichte; die Gerichte weichen davon aber nur ab, soweit sie den Sinn des Gesetzes nicht wiedergeben.^[BGer 2C_95/2011 vom 11.10.2011, E. 2.3 (zur Verrechnungssteuer); gl.M. Teuscher, Konzerninterne Vermögensübertragung quo vadis, N. 43.] Das Verwaltungsgericht des Kantons Glarus bezeichnete ein Kreisschreiben als rein generelle Dienstanweisung, die nur für die Vollzugsorgane verbindlich ist.^[VGer GL VG.2017.00088 vom 8.11.2018, E. II/7.2.]
 
 {rn:verwaltungsverordnungen-funktion} **Funktion im Vollzugsföderalismus.** Die Verwaltungsverordnungen sollen sicherstellen, dass das DBG trotz kantonalem Vollzug einheitlich angewendet wird. So erliess die ESTV gestützt auf Art. 102 Abs. 2 DBG beim Eigenmietwert ein Rundschreiben mit einer Liste der Kantone, deren Werte für die direkte Bundessteuer zu korrigieren sind.^[OGer AR O5V 14 7 vom 13.5.2015, E. 2.1.5; BGer 2C_843/2016 vom 31.1.2019, E. 2.1 und 3.4.5 f.] Die Behörde, welche die Verwaltungsverordnung erlässt, ist nach Treu und Glauben an sie gebunden, soweit sie mittelbar auf die Rechtsstellung der Steuerpflichtigen wirkt; Änderungen unterliegen den Voraussetzungen einer Praxisänderung.^[BGer 2C_95/2011 vom 11.10.2011, E. 2.3.]
 
@@ -130,7 +130,7 @@ fassung: Fassung vom 2.9.2026
 
 - Schreiber Susanne/Wolfensberger Thomas, Entwicklungen im interkantonalen Steuerrecht, St.Galler Seminar zur Unternehmensbesteuerung 2019 [https://app.lexplorer.ch/suche?e_chunks=64182&e_sys=ile].
 
-- Teuscher Hannes, Konzerninterne Vermögensübertragung quo vadis, IFF-Schriftenreihe Bd. 120, 2021 [https://app.lexplorer.ch/suche?e_id=827&e_sys=ile].
+- Teuscher Hannes, Konzerninterne Vermögensübertragung quo vadis, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 120, 2021 [https://app.lexplorer.ch/suche?e_id=827&e_sys=ile].
 
 # Materialienverzeichnis
 

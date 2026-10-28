@@ -220,9 +220,9 @@ fassung: version du 1er janvier 2025
 - Cagienard Mark, Entgelt/Kostenersatz versus Durchlaufposten, FStR 2015 [https://app.lexplorer.ch/suche?e_chunks=276&e_sys=ile] (cité : Cagienard, FStR 2015).
 - Denzler Urs/Frey Philip, Abgrenzungsfragen zu Leistung und Entgelt, Folien zum St.Galler Seminar zur Mehrwertsteuer 2026, consultable sous https://app.lexplorer.ch/suche?e_chunks=68005&e_sys=ile, consulté le 28 octobre 2026 (cité : Denzler/Frey, Seminar 2026).
 - Fröhlich Peter, Die selbstständige Erwerbstätigkeit im Bereich der MWST, FStR 2019 [https://app.lexplorer.ch/suche?e_chunks=5987&e_sys=ile] (cité : Fröhlich, FStR 2019).
-- Honauer Niklaus/Probst Simeon L./Rohner Tobias F./Frey Philip, Handbuch zum Mehrwertsteuergesetz (MWSTG), IFF-Schriftenreihe, 4. Aufl., Bern 2024 [https://app.lexplorer.ch/suche?e_chunks=21063&e_sys=ile].
+- Honauer Niklaus/Probst Simeon L./Rohner Tobias F./Frey Philip, Handbuch zum Mehrwertsteuergesetz (MWSTG), Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 100, 4. Aufl., Bern 2024 [https://app.lexplorer.ch/suche?e_chunks=21063&e_sys=ile].
 - Jöhri Jessica, Plattformbesteuerung auf Beherbergungs- und Personenbeförderungsleistungen in der Schweiz – Rechtliche und praktische Umsetzbarkeit im schweizerischen MWST-Recht, ILE-HSG Working Paper No. 2026-31, St. Gallen April 2026 [https://app.lexplorer.ch/suche?e_chunks=60670&e_sys=ile].
-- Robinson Philip, Der Drittvergleich im Schweizer Mehrwertsteuerrecht – Überlegungen zum Grundsatz des «dealing at arm’s length» von Art. 24 Abs. 2 MWSTG, in: Panoptikum des Steuerrechts, IFF-Schriftenreihe, 2024, S. 371 ff. [https://app.lexplorer.ch/suche?e_chunks=19173&e_sys=ile].
+- Robinson Philip, Der Drittvergleich im Schweizer Mehrwertsteuerrecht – Überlegungen zum Grundsatz des «dealing at arm’s length» von Art. 24 Abs. 2 MWSTG, in: Panoptikum des Steuerrechts, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 126, 2024, S. 371 ff. [https://app.lexplorer.ch/suche?e_chunks=19173&e_sys=ile].
 
 # Matériaux
 

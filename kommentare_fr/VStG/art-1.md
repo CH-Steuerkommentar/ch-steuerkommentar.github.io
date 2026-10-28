@@ -86,7 +86,7 @@ fassung: version du 1er janvier 2025
 
 - Oesterhelt Stefan/Opel Andrea, Rechtsprechung 2025/3, FStR 2025 [https://app.lexplorer.ch/suche?e_chunks=41407&e_sys=ile].
 
-- Oesterhelt Stefan/Oppliger Oliver, Rückerstattung der Verrechnungssteuer, IFF-Schriftenreihe, 2024 [https://app.lexplorer.ch/suche?e_chunks=26094&e_sys=ile].
+- Oesterhelt Stefan/Oppliger Oliver, Rückerstattung der Verrechnungssteuer, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 124, 2024 [https://app.lexplorer.ch/suche?e_chunks=26094&e_sys=ile].
 
 - Oesterhelt Stefan/Tschan David, Aktuelle Entwicklungen Verrechnungssteuer und Stempelabgaben, St.Galler Seminar zur Unternehmensbesteuerung 2022 (support de séminaire) [https://app.lexplorer.ch/suche?e_chunks=54998&e_sys=ile].
 
@@ -94,7 +94,7 @@ fassung: version du 1er janvier 2025
 
 - Scherrer Bruno, Rezension zu Bauer-Balmelli Maja, Der Sicherungszweck der Verrechnungssteuer, Diss. Zürich 2001, FStR 2001/3, Literatur-Forum [https://app.lexplorer.ch/suche?e_chunks=2042&e_sys=ile].
 
-- Teuscher Hannes, Konzerninterne Vermögensübertragung quo vadis, IFF-Schriftenreihe, 2021, Kapitel 20: Exkurs: Verrechnungssteuerliche Aspekte [https://app.lexplorer.ch/suche?e_chunks=24407&e_sys=ile].
+- Teuscher Hannes, Konzerninterne Vermögensübertragung quo vadis, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 120, 2021, Kapitel 20: Exkurs: Verrechnungssteuerliche Aspekte [https://app.lexplorer.ch/suche?e_chunks=24407&e_sys=ile].
 
 # Matériaux
 

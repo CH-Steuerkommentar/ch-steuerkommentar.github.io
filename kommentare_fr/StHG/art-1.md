@@ -133,7 +133,7 @@ fassung: version du 1er janvier 2025
 
 - Oesterhelt Stefan/Opel Andrea, Rechtsprechung 2025/3, FStR 2025 [https://app.lexplorer.ch/suche?e_chunks=41442&e_sys=ile].
 
-- Rostetter Marco, Die Verjährung im Recht der direkten Bundessteuer und der harmonisierten kantonalen Steuern, IFF-Schriftenreihe Bd. 115, 2019 [https://app.lexplorer.ch/suche?e_chunks=29540&e_sys=ile].
+- Rostetter Marco, Die Verjährung im Recht der direkten Bundessteuer und der harmonisierten kantonalen Steuern, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 115, 2019 [https://app.lexplorer.ch/suche?e_chunks=29540&e_sys=ile].
 
 - Waldburger Robert, Rechtsprechung im Jahr 2009 (2. Teil), FStR 2010 [https://app.lexplorer.ch/suche?e_chunks=16149&e_sys=ile].
 

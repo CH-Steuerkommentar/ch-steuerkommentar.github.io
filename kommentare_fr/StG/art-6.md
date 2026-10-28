@@ -221,11 +221,11 @@ fassung: version du 1er janvier 2024
 
 - Oesterhelt Stefan/Schreiber Susanne, Umstrukturierungen mit zeitnaher Absorption, FStR 2020 [https://app.lexplorer.ch/suche?e_chunks=6564&e_sys=ile].
 
-- Oesterhelt Stefan/Tschan David, § 1 Umstrukturierungen, in: Verrechnungssteuer und Stempelabgaben, IFF-Schriftenreihe, 2025 [https://app.lexplorer.ch/suche?e_chunks=29845&e_sys=ile].
+- Oesterhelt Stefan/Tschan David, § 1 Umstrukturierungen, in: Verrechnungssteuer und Stempelabgaben, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 128, 2025 [https://app.lexplorer.ch/suche?e_chunks=29845&e_sys=ile].
 
-- Oesterhelt Stefan/Tschan David, § 6 Sanierung, in: Verrechnungssteuer und Stempelabgaben, IFF-Schriftenreihe, 2025 [https://app.lexplorer.ch/suche?e_id=1054&e_sys=ile].
+- Oesterhelt Stefan/Tschan David, § 6 Sanierung, in: Verrechnungssteuer und Stempelabgaben, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 128, 2025 [https://app.lexplorer.ch/suche?e_id=1054&e_sys=ile].
 
-- Oesterhelt Stefan/Tschan David, § 7 Emissionsabgabe, in: Verrechnungssteuer und Stempelabgaben, IFF-Schriftenreihe, 2025 [https://app.lexplorer.ch/suche?e_id=1055&e_sys=ile].
+- Oesterhelt Stefan/Tschan David, § 7 Emissionsabgabe, in: Verrechnungssteuer und Stempelabgaben, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 128, 2025 [https://app.lexplorer.ch/suche?e_id=1055&e_sys=ile].
 
 - Oesterhelt Stefan/Tschan David, Aktuelle Entwicklungen Verrechnungssteuer und Stempelabgaben, St.Galler Seminar zur Unternehmensbesteuerung 2022, Folien (support de séminaire) [https://app.lexplorer.ch/suche?e_chunks=54992&e_sys=ile].
 
@@ -235,7 +235,7 @@ fassung: version du 1er janvier 2024
 
 - Riedweg Peter/Rütsche Jakob/Uebelhart Peter, Umstrukturierungen, St.Galler Seminar zur Unternehmensbesteuerung 2016, Folien (support de séminaire) [https://app.lexplorer.ch/suche?e_chunks=64125&e_sys=ile].
 
-- Robert Yves, Das nichtstreitige Verfahren in Bezug auf Stempelsteuer und Verrechnungssteuer, IFF-Schriftenreihe, 2021 [https://app.lexplorer.ch/suche?e_chunks=19799&e_sys=ile].
+- Robert Yves, La procédure non-contentieuse en matière de droits de timbre et d'impôt anticipé, in: Die Verfahren im Steuerrecht, 4. Aufl., Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 82, 2021 [https://app.lexplorer.ch/suche?e_chunks=19799&e_sys=ile].
 
 - Rohner Tobias F., Quasifusionen – Eine Bestandesaufnahme aus steuerrechtlicher Sicht, FStR 2017 [https://app.lexplorer.ch/suche?e_chunks=4945&e_sys=ile].
 

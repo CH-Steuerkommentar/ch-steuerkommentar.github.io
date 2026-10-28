@@ -79,9 +79,9 @@ fassung: Fassung vom 2.9.2026
 
 - Oesterhelt Stefan, Spontane Information über Steuervorbescheide, FStR 2018 [https://app.lexplorer.ch/suche?e_id=205&e_sys=ile].
 
-- Rostetter Marco, Die Verjährung im Recht der direkten Bundessteuer und der harmonisierten kantonalen Steuern, IFF-Schriftenreihe Bd. 115, 2019 [https://app.lexplorer.ch/suche?e_id=1031&e_sys=ile].
+- Rostetter Marco, Die Verjährung im Recht der direkten Bundessteuer und der harmonisierten kantonalen Steuern, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 115, 2019 [https://app.lexplorer.ch/suche?e_id=1031&e_sys=ile].
 
-- Stocker Raoul/Schmid Patrick A., § 16 Personengesellschaften, in: Internationales Steuerrecht der Schweiz, IFF-Schriftenreihe Bd. 122, 2023 [https://app.lexplorer.ch/suche?e_chunks=25032&e_sys=ile].
+- Stocker Raoul/Schmid Patrick A., § 16 Personengesellschaften, in: Internationales Steuerrecht der Schweiz, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 122, 2023 [https://app.lexplorer.ch/suche?e_chunks=25032&e_sys=ile].
 
 - Vallender Klaus A./Cavelti Ulrich, in: Ehrenzeller Bernhard et al. (Hrsg.), Die schweizerische Bundesverfassung, St. Galler Kommentar, 3. Aufl., Zürich/St. Gallen 2014, Art. 128 BV (nur zitiert nach BGE 142 II 182, E. 2.2.5).
 

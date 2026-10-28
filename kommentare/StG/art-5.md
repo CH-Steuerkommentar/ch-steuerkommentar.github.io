@@ -186,11 +186,11 @@ fassung: Fassung vom 1.1.2024
 
 - Oesterhelt Stefan/Opel Andrea, Rechtsprechung 2024/3, FStR 2024 [https://app.lexplorer.ch/suche?e_chunks=18651&e_sys=ile].
 
-- Oesterhelt Stefan/Tschan David, § 1 Umstrukturierungen, in: Verrechnungssteuer und Stempelabgaben, IFF-Schriftenreihe, 2025 [https://app.lexplorer.ch/suche?e_chunks=29845&e_sys=ile].
+- Oesterhelt Stefan/Tschan David, § 1 Umstrukturierungen, in: Verrechnungssteuer und Stempelabgaben, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 128, 2025 [https://app.lexplorer.ch/suche?e_chunks=29845&e_sys=ile].
 
-- Oesterhelt Stefan/Tschan David, § 6 Sanierung, in: Verrechnungssteuer und Stempelabgaben, IFF-Schriftenreihe, 2025 [https://app.lexplorer.ch/suche?e_id=1054&e_sys=ile].
+- Oesterhelt Stefan/Tschan David, § 6 Sanierung, in: Verrechnungssteuer und Stempelabgaben, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 128, 2025 [https://app.lexplorer.ch/suche?e_id=1054&e_sys=ile].
 
-- Oesterhelt Stefan/Tschan David, § 7 Emissionsabgabe, in: Verrechnungssteuer und Stempelabgaben, IFF-Schriftenreihe, 2025 [https://app.lexplorer.ch/suche?e_id=1055&e_sys=ile].
+- Oesterhelt Stefan/Tschan David, § 7 Emissionsabgabe, in: Verrechnungssteuer und Stempelabgaben, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 128, 2025 [https://app.lexplorer.ch/suche?e_id=1055&e_sys=ile].
 
 - Oesterhelt Stefan/Tschan David, Aktuelle Entwicklungen Verrechnungssteuer und Stempelabgaben, St.Galler Seminar zur Unternehmensbesteuerung 2025, Folien [https://app.lexplorer.ch/suche?e_chunks=48376&e_sys=ile].
 

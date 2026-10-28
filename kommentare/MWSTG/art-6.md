@@ -85,7 +85,7 @@ fassung: Fassung vom 31.3.2025
 
 - Bodemann Clara, Aus der Rechtsprechung zur Mehrwertsteuer in den Jahren 2018, 2019, FStR 2019 [https://app.lexplorer.ch/suche?e_chunks=30760&e_sys=ile].
 
-- Frey Philip/Honauer Niklaus/Probst Simeon L./Rohner Tobias F., Handbuch zum Mehrwertsteuergesetz (MWSTG), IFF-Schriftenreihe, 2024 [https://app.lexplorer.ch/suche?e_chunks=21031&e_sys=ile] (zit. Handbuch MWSTG).
+- Frey Philip/Honauer Niklaus/Probst Simeon L./Rohner Tobias F., Handbuch zum Mehrwertsteuergesetz (MWSTG), Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 100, 2024 [https://app.lexplorer.ch/suche?e_chunks=21031&e_sys=ile] (zit. Handbuch MWSTG).
 
 - Kocher Martin, Entwicklungen in der Rechtsprechung, St.Galler Seminar zur Mehrwertsteuer 2015, Folien [https://app.lexplorer.ch/suche?e_chunks=63286&e_sys=ile].
 

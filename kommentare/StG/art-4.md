@@ -131,13 +131,13 @@ fassung: Fassung vom 1.1.2024
 
 - Oesterhelt Stefan, Aus der Rechtsprechung in den Jahren 2019/2020 (Teil 2), FStR 2021 [https://app.lexplorer.ch/suche?e_chunks=7921&e_sys=ile].
 
-- Oesterhelt Stefan/Tschan David, § 3 Drittfinanzierungen, in: Verrechnungssteuer und Stempelabgaben, IFF-Schriftenreihe, 2025 [https://app.lexplorer.ch/suche?e_chunks=30156&e_sys=ile].
+- Oesterhelt Stefan/Tschan David, § 3 Drittfinanzierungen, in: Verrechnungssteuer und Stempelabgaben, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 128, 2025 [https://app.lexplorer.ch/suche?e_chunks=30156&e_sys=ile].
 
-- Oesterhelt Stefan/Tschan David, § 9 Finanzprodukte, in: Verrechnungssteuer und Stempelabgaben, IFF-Schriftenreihe, 2025 [https://app.lexplorer.ch/suche?e_chunks=30520&e_sys=ile].
+- Oesterhelt Stefan/Tschan David, § 9 Finanzprodukte, in: Verrechnungssteuer und Stempelabgaben, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 128, 2025 [https://app.lexplorer.ch/suche?e_chunks=30520&e_sys=ile].
 
 - Oesterhelt Stefan/Winzap Maurus, Besteuerung kollektiver Kapitalanlagen und ihrer Anleger (2. Teil), FStR 2009 [https://app.lexplorer.ch/suche?e_chunks=9767&e_sys=ile].
 
-- Schmid Patrick A./Stocker Raoul, § 16 Personengesellschaften, in: Stocker Raoul/Oesterhelt Stefan (Hrsg.), Internationales Steuerrecht der Schweiz, IFF-Schriftenreihe, Bern 2023 [https://app.lexplorer.ch/suche?e_chunks=25040&e_sys=ile].
+- Schmid Patrick A./Stocker Raoul, § 16 Personengesellschaften, in: Stocker Raoul/Oesterhelt Stefan (Hrsg.), Internationales Steuerrecht der Schweiz, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. 122, Bern 2023 [https://app.lexplorer.ch/suche?e_chunks=25040&e_sys=ile].
 
 - Spori Peter/Storck Alfred, Konzernfinanzierung in der Schweiz – Fakten und Steuern, FStR 2008 [https://app.lexplorer.ch/suche?e_chunks=15214&e_sys=ile].
 

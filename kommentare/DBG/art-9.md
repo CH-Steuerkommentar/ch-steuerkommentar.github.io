@@ -186,17 +186,17 @@ stand: 2026-10-21
 # Literaturverzeichnis
 
 - Bornick Thierry, Impôts directs et familles: état des lieux et perspectives législatives – Plaidoyer pour une imposition individuelle en concordance avec le principe de l'égalité de traitement et la garantie du minimum vital, Neuchâtel 2020, DOI: 10.35662/unine-thesis-2878.
-- Cavelti Ulrich, Systementscheid bei der Ehepaarbesteuerung, FStR 2007, S. 292–298.
+- Cavelti Ulrich, Systementscheid bei der Ehepaarbesteuerung, FStR 2007, S. 292–298 [https://app.lexplorer.ch/suche?e_id=369&e_sys=ile].
 - De Vries Reilingh Daniel, Le droit fiscal intercantonal et le droit fiscal international de la Suisse: systèmes, relations, comparaison et examen de la jurisprudence, Neuchâtel 2010, abrufbar unter https://libra.unine.ch/bitstreams/93354dea-b67a-4957-8d90-95902947b679/download, besucht am 21.10.2026.
 - Grieder Nicolas/Hongler Peter, Kommentierung zu Art. 10 DBG, in: Hongler Peter/Sutter Fabian (Hrsg.), Onlinekommentar zum Bundesgesetz über die direkte Bundessteuer, St.Gallen et al. 2026, abrufbar unter https://onlinekommentar.ch/de/kommentare/dbg10, besucht am 21.10.2026.
-- Grieder Nicolas/Hongler Peter/Lorenz Tabea, Konkubinat und Steuern – Faktisch vereint, steuerlich getrennt?, FStR 2025, S. 232–254.
-- Hongler Peter/Eggel Martin, Die Bedeutung des Zivilrechts für die Individualbesteuerung – Eine kursorische Übersicht, FStR 2026, S. 34–44.
-- Hongler Peter/Margadant Elina, Gleichbehandlung im Steuerrecht, FStR 2023, S. 3–23.
-- Oesterhelt Stefan/Opel Andrea, Rechtsprechung im Steuerrecht 2023/3, FStR 2023, S. 253–280 (zit. Oesterhelt/Opel, Rechtsprechung 2023/3).
-- Oesterhelt Stefan/Opel Andrea, Rechtsprechung im Steuerrecht 2024/1, FStR 2024, S. 52–77 (zit. Oesterhelt/Opel, Rechtsprechung 2024/1).
-- Oesterhelt Stefan/Opel Andrea, Rechtsprechung im Steuerrecht 2025/1, FStR 2025, S. 44–72 (zit. Oesterhelt/Opel, Rechtsprechung 2025/1).
-- Rajower Felix/Weber Rajower Ursula, Ehegatten- und Erbenhaftung im Recht der direkten Steuern, FStR 2009, S. 168–195.
-- Reich Markus, Neuordnung der Familienbesteuerung, FStR 2001, S. 251–269.
+- Grieder Nicolas/Hongler Peter/Lorenz Tabea, Konkubinat und Steuern – Faktisch vereint, steuerlich getrennt?, FStR 2025, S. 232–254 [https://app.lexplorer.ch/suche?e_id=1301&e_sys=ile].
+- Hongler Peter/Eggel Martin, Die Bedeutung des Zivilrechts für die Individualbesteuerung – Eine kursorische Übersicht, FStR 2026, S. 34–44 [https://app.lexplorer.ch/suche?e_id=1423&e_sys=ile].
+- Hongler Peter/Margadant Elina, Gleichbehandlung im Steuerrecht, FStR 2023, S. 3–23 [https://app.lexplorer.ch/suche?e_id=551&e_sys=ile].
+- Oesterhelt Stefan/Opel Andrea, Rechtsprechung im Steuerrecht 2023/3, FStR 2023, S. 253–280 (zit. Oesterhelt/Opel, Rechtsprechung 2023/3) [https://app.lexplorer.ch/suche?e_id=565&e_sys=ile].
+- Oesterhelt Stefan/Opel Andrea, Rechtsprechung im Steuerrecht 2024/1, FStR 2024, S. 52–77 (zit. Oesterhelt/Opel, Rechtsprechung 2024/1) [https://app.lexplorer.ch/suche?e_id=577&e_sys=ile].
+- Oesterhelt Stefan/Opel Andrea, Rechtsprechung im Steuerrecht 2025/1, FStR 2025, S. 44–72 (zit. Oesterhelt/Opel, Rechtsprechung 2025/1) [https://app.lexplorer.ch/suche?e_id=599&e_sys=ile].
+- Rajower Felix/Weber Rajower Ursula, Ehegatten- und Erbenhaftung im Recht der direkten Steuern, FStR 2009, S. 168–195 [https://app.lexplorer.ch/suche?e_id=403&e_sys=ile].
+- Reich Markus, Neuordnung der Familienbesteuerung, FStR 2001, S. 251–269 [https://app.lexplorer.ch/suche?e_id=85&e_sys=ile].
 - Richner Felix/Frei Walter/Kaufmann Stefan/Meuter Hans Ulrich, Handkommentar zum DBG, 3. Aufl., Zürich 2016.
 - Salom Jessica, L'attribution du revenu en droit fiscal suisse et international, Neuchâtel 2010, abrufbar unter https://libra.unine.ch/bitstreams/06e68842-d158-460c-b3f8-1da43dc8b905/download, besucht am 21.10.2026.
 
