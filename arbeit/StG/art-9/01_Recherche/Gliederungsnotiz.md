@@ -1,0 +1,2 @@
+# Gliederungsnotiz Art. 9 StG
+Übersicht (4 Rn.) – Abs. 1: aufgehobene lit. a–c (4), lit. d (3), lit. e: Zweck/Verhältnis (4), Rechtsträger (3), Bestand (1), Nennwert (1), Nachabrechnung (3) – Abs. 2 (2) – Abs. 3 (2). Summe 27 Rn. (Plan 25–30). Quasifusion nur mit Verweis auf Art. 6 StG (keine Doppelung). Abdeckung: alle A-Entscheide im Text. Offen ausgewiesen: lit. d Unentgeltlichkeit; lit. e Reichweite, Frist, Nachabrechnung; Abs. 2 Begriffe; Abs. 3 Zuschüsse (nur Lehre).

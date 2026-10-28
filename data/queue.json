@@ -6118,14 +6118,13 @@
    "erlass": "StG",
    "nummer": "9",
    "sachueberschrift": "Besondere Fälle",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "GitHub Actions, 2026-10-28 (24.79 USD)",
    "status_vorher": "offen",
-   "bearbeiter": "github-actions",
-   "seit": "2026-10-28T13:21:55+00:00"
+   "geaendert": "2026-10-28"
   },
   "StG/art-9a": {
    "erlass": "StG",
