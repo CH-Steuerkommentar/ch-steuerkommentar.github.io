@@ -206,11 +206,14 @@
    "erlass": "DBG",
    "nummer": "17a",
    "sachueberschrift": "Mitarbeiterbeteiligungen",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T03:30:39+00:00"
   },
   "DBG/art-17b": {
    "erlass": "DBG",
