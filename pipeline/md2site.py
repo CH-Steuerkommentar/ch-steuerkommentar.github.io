@@ -232,7 +232,7 @@ def fehler_melden(erlass: str, art: str, lang: str = "de") -> str:
 
 
 def ile_hinweis(k, lang: str = "de") -> str:
-    """Kasten unter der Kommentierung: wie viele FStR-Beiträge und Seminarunterlagen sie stützen, mit Links."""
+    """Kasten unter der Kommentierung: wie viele Publikationen des ILE-HSG sie stützen, mit Links."""
     d = ile_daten()
     if not d:
         return ""
@@ -242,31 +242,40 @@ def ile_hinweis(k, lang: str = "de") -> str:
             in_lit = b.text.strip().lower().startswith(("literatur", "bibliographie"))
         elif in_lit and b.art == "verzeichnis_eintrag":
             eintraege.append(b.text)
-    fstr = sum(1 for e in eintraege if re.search(r"\bFStR\s+\d{4}", e))
-    sem = sum(1 for e in eintraege if re.search(r"Seminarunterlage|support de séminaire", e))
+    # Publikationen des ILE-HSG im Literaturverzeichnis zählen (alle Arten, nicht nur FStR)
+    ARTEN = [  # (Muster, deutsch, französisch)
+        (r"\bFStR\s+\d{4}", "Forum für Steuerrecht", "Forum für Steuerrecht"),
+        (r"IFF-Schriftenreihe|IFF-Forum|Schriftenreihe IFF", "IFF-Schriftenreihe", "collection IFF"),
+        (r"Working Paper", "ILE Working Papers", "ILE Working Papers"),
+        (r"Seminarunterlage|support de séminaire", "St.Galler Seminare", "séminaires de Saint-Gall"),
+    ]
+    n, arten = 0, []
+    for e in eintraege:
+        treffer = next((a for a in ARTEN if re.search(a[0], e)), None)
+        if treffer is None and "e_sys=ile" in e:
+            treffer = ("", "", "")
+        if treffer is None:
+            continue
+        n += 1
+        name = treffer[2] if lang == "fr" else treffer[1]
+        if name and name not in arten:
+            arten.append(name)
+    arten.sort(key=lambda a: [x[2] if lang == "fr" else x[1] for x in ARTEN].index(a))
+    klammer = f" ({', '.join(arten)})" if arten else ""
     if lang == "fr":
         titel, abo, sem_knopf = "Approfondir avec l'ILE-HSG", "S'abonner à la FStR", "Séminaires"
-        if fstr or sem:
-            teile = []
-            if fstr:
-                teile.append(f"{fstr} contribution{'s' if fstr > 1 else ''} du Forum für Steuerrecht (FStR)")
-            if sem:
-                teile.append(f"{sem} support{'s' if sem > 1 else ''} des séminaires de Saint-Gall")
-            satz = ("Ce commentaire s'appuie sur " + " et ".join(teile) + ". La FStR est la revue spécialisée de "
-                    "l'ILE-HSG ; les séminaires de Saint-Gall traitent des questions actuelles de la pratique.")
+        if n:
+            satz = (f"Ce commentaire s'appuie sur {n} publication{'s' if n > 1 else ''} de l'ILE-HSG{klammer}. "
+                    "La FStR est la revue spécialisée de l'ILE-HSG ; les séminaires de Saint-Gall traitent des questions "
+                    "actuelles de la pratique.")
         else:
             satz = ("Le Forum für Steuerrecht (FStR) est la revue spécialisée de l'ILE-HSG en droit fiscal suisse et "
                     "international ; les séminaires de Saint-Gall traitent des questions actuelles de la pratique.")
     else:
         titel, abo, sem_knopf = "Vertiefung beim ILE-HSG", "FStR abonnieren", "Seminare"
-        if fstr or sem:
-            teile = []
-            if fstr:
-                teile.append(f"{fstr} {'Beitrag' if fstr == 1 else 'Beiträge'} aus dem Forum für Steuerrecht (FStR)")
-            if sem:
-                teile.append(f"{sem} {'Unterlage' if sem == 1 else 'Unterlagen'} der St.Galler Seminare")
-            satz = ("Diese Kommentierung stützt sich auf " + " und ".join(teile)
-                    + ". Das FStR ist die Fachzeitschrift des ILE-HSG; die St.Galler Seminare greifen aktuelle Fragen der Praxis auf.")
+        if n:
+            satz = (f"Diese Kommentierung stützt sich auf {n} {'Publikation' if n == 1 else 'Publikationen'} des ILE-HSG{klammer}. "
+                    "Das FStR ist die Fachzeitschrift des ILE-HSG; die St.Galler Seminare greifen aktuelle Fragen der Praxis auf.")
         else:
             satz = ("Das Forum für Steuerrecht (FStR) ist die Fachzeitschrift des ILE-HSG zum Schweizer und internationalen "
                     "Steuerrecht; die St.Galler Seminare greifen aktuelle Fragen der Praxis auf.")
