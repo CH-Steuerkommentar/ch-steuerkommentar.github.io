@@ -4719,11 +4719,14 @@
    "erlass": "MWSTG",
    "nummer": "6",
    "sachueberschrift": "Steuerüberwälzung",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T07:02:47+00:00"
   },
   "MWSTG/art-7": {
    "erlass": "MWSTG",
