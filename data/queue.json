@@ -6112,11 +6112,14 @@
    "erlass": "StG",
    "nummer": "9",
    "sachueberschrift": "Besondere Fälle",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "github-actions",
+   "seit": "2026-10-28T13:21:55+00:00"
   },
   "StG/art-9a": {
    "erlass": "StG",
