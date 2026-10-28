@@ -1,0 +1,75 @@
+# Fundstellenprüfung Art. 4 StG – Teil D (Fn 93–110) und Literatur-/Materialienverzeichnis
+
+Stand: 28.10.2026. Geprüft an: Lexplorer Tax (get_chunk_content, nav_list_chunks, get_document_slice; **keine** search_chunks-Suche), Open Case Law (search_practice/get_practice, search_botschaft), Entscheidsuche (search/fetch_document), Fedlex (get_article), lokale Dateien (OK_DBG_art-10.md, Botschaft KAG 2005_1000.txt). Die Kommentardatei wurde nicht verändert.
+
+## A. Fussnoten 93–110
+
+| Fn | Fundstelle | Ergebnis | Hinweis |
+|---|---|---|---|
+| 93 | KS 12 ESTV, Ziff. 2.6.2 N. 15 | bestätigt | Letzter Absatz N. 15: Kriterien für Obligationen gelten auch für Konsortialdarlehen, Unterbeteiligungen, Buchforderungen, Wechsel, wechselähnliche Schuldverschreibungen und andere Diskontpapiere; «steuerbar, sobald sie die für Obligationen geltenden Erfordernisse erfüllen». Aussage getragen. Vorschlag: zusätzlich KS 12 ESTV, Ziff. 7 N. 84 (gleichgestellte Urkunden). |
+| 93 | KS 46 ESTV, Ziff. 1.1 | bestätigt | «… wie Anleihens- und Kassenobligationen oder Geldmarktpapiere zu behandeln», sofern sie der kollektiven Kapitalbeschaffung bzw. Konsolidierung dienen. Rang Praxis korrekt. |
+| 94 | Glauser, FStR 2008, Ziff. 2.3 | bestätigt | Ziff. 2.3 «Sous-participations» (Inhaltsverzeichnis und Chunk 14940/14941): keine eigene Kategorie («Il n'en est cependant rien»); Qualifikation als Anleihens- oder Kassenobligation nach deren Merkmalen. Als Folgerung Glausers zutreffend wiedergegeben. |
+| 95 | Botschaft StG 1972, S. 1279 | bestätigt | OCR page 2 = S. 1279: Emissionsabgabe auf inländischen Obligationen «sowie der Wechselstempel sollen aufgehoben werden». Die Botschaft belegt den Vorschlag; dass das StG 1973 ihn umsetzte, ist zutreffend, ergibt sich aber nicht aus dieser Stelle. Ergänzend passend: S. 1297 (page 20, Wechselstempel nach Art. 37 Abs. 1 StG 1917). |
+| 95 | Botschaft StG 1972, S. 1285 | bestätigt | OCR page 8 = S. 1285, Ziff. 232.1: «Nach geltendem Recht unterliegen Diskontpapiere, je nach den Umständen, entweder dem Wechselstempel oder dem Obligationenstempel und der Umsatzabgabe.» Aussage getragen. |
+| 96 | MB ESTV S-02.130.1, Ziff. 1 lit. a | bestätigt | Aufzählung «inländische Wechsel, Treasury bills, Banker's acceptances, Commercial papers, Certificates of deposit usw.» wörtlich vorhanden. Nuance: Das Merkblatt sagt, Geldmarktpapiere «gelten unabhängig ihrer Bezeichnung als Obligationen». Wiedergabe sinngemäss vertretbar. |
+| 96 | KS 15 ESTV, Ziff. 2.1.3 | bestätigt | Nennt Geldmarktbuchforderungen von Bund, Kantonen und Gemeinden, Treasury Bills und Bankers Acceptances (nicht Commercial Papers/CD). Als Zusatzbeleg tragfähig. |
+| 96 | (ohne Fn) Art. 15 Abs. 1 lit. b VStV | Hinweis | Fedlex (Stand 1.1.2025): lit. b nennt nur «wechselähnliche Schuldverschreibungen und andere Diskontopapiere», nicht die Wechsel selbst; die Voraussetzung (Mehrzahl, Unterbringung im Publikum) stimmt. Gegebenenfalls «eine entsprechende Voraussetzung» formulieren. |
+| 97 | KS 12 ESTV, Ziff. 2.6.5 N. 18 | bestätigt | «bei Ausweisen über Unterbeteiligungen an Darlehensforderungen und Wechseln deren Emittenten». Aussage für Wechsel getragen. Hinweis: KS 12 N. 86 rechnet steuerbare Unterbeteiligungen dagegen «immer dem Schuldner gemäss Kreditvertrag» zu, was mit N. 18 nicht übereinstimmt. Für Wechsel ist das ohne Bedeutung. |
+| 98 | KS 46 ESTV, Ziff. 1.4 | bestätigt | Beide Teile der Aussage (Begriff der Unterbeteiligung, Zustandekommen/Zeitpunkt unerheblich, Notifikation unschädlich; Refinanzierung durch Abtretung von Teilforderungen, Zedent begründet Obligationen) wörtlich gestützt. |
+| 98 | KS 12 ESTV, Ziff. 7.2 N. 86 | bestätigt | Gleichlautend. |
+| 99 | Glauser, FStR 2008, Ziff. 2.3 | bestätigt | Praxis «très peu claire … voire même contradictoire»; Lehre Duss/von Ah, Meister (Emission bei dem, der Schuldner der Unterbeteiligten wird) und Risi (wirtschaftliche Betrachtung, Kriterien beim ursprünglichen Schuldner). Eigene Unterscheidung Zession/Refinanzierung, Refinanzierung nur bei inländischem Gläubiger mit überschrittenen Zahlengrenzen (10/20). Wiedergabe korrekt; Lehrmeinungen als Wiedergabe, Glausers Position als eigene richtig getrennt. |
+| 99 | Glauser, FStR 2008, Ziff. 3.1.1 | bestätigt | Zession von Kredittranchen begründet nicht automatisch eine schriftliche Schuldanerkennung des Schuldners; anders, wenn der Vertrag die Zession ab initio vorsieht. |
+| 99 | Glauser, FStR 2008, Ziff. 3.1.2 | bestätigt | Nachträgliche, im Kreditvertrag nicht vorgesehene Unterbeteiligungen begründen beim ursprünglichen Schuldner keine Obligation («nous sommes pour notre part beaucoup plus réservé»). |
+| 100 | Oesterhelt/Tschan, § 3 Drittfinanzierungen, N. 41 ff. | korrigiert | N. 41 gehört noch zu Variante 7 (Joint-Venture-Gesellschaft, Steuerumgehung). Variante 8 «Unterbeteiligung» ist Ziff. I.10 (S. 129); die Beurteilung steht in Ziff. I.10.2, dazwischen N. 42–45 (Randnummern im Lexplorer-Text nicht ausgewiesen; Ziff. II beginnt mit N. 46). Richtig: «Oesterhelt/Tschan, § 3 Drittfinanzierungen, Ziff. I.10.2» (allenfalls «N. 42 ff.»). Inhalt getragen: keine direkte Forderung, Insolvenzrisiko des Hauptgläubigers, «selbst dann, wenn es sich um eine sog. Voting Sub-Participation handelt». |
+| 101 | MB ESTV S-02.130.1, Ziff. 1 lit. b | bestätigt | Keine Wertpapiere, Register, Laufzeit höchstens zwölf Monate, «insbesondere die Geldmarktbuchforderungen». Die Gegenüberstellung mit lit. c ist zutreffende eigene Beobachtung. Stütze: MB S-02.132 behandelt überjährige Festgelder als Buchforderungen. |
+| 102 | MB ESTV S-02.130.1, Ziff. 3 | bestätigt | lit. a serienmässige Ausgabe → Kriterien der Anleihensobligation; lit. b fortlaufende Ausgabe → Kriterien der Kassenobligation. Gilt nach dem Merkblatt für Geldmarktpapiere und Buchforderungen. |
+| 103 | MB ESTV S-02.132, Ziff. 1 | bestätigt | «Darunter fallen grundsätzlich auch die Festgeldanlagen bei inländischen Banken.» Hinweis: Merkblatt «vom 1. April 1993» zur früheren Emissionsabgabe; erfasst wurden nur überjährige Festgelder, ausgenommen Festgelder von Banken als Gläubigern, Laufzeiten bis zwölf Monate und individuell ausgehandelte Einzeldarlehen (Ziff. 2). Vorschlag: «Nach einem Merkblatt der ESTV von 1993 zur früheren Emissionsabgabe …». |
+| 104 | MB ESTV S-02.130.1, Ziff. 5 | bestätigt | lit. a Emissionsabgabe (0,6 ‰ pro rata, Art. 5a/9a StG aF), lit. b Verrechnungssteuer, daher «zum Teil» zutreffend. |
+| 105 | KS 46 ESTV, Ziff. 1.3 | bestätigt | Vertragliche Laufzeit; Berechnung von der Begründung bis zur Fälligkeit, nicht nach der Restlaufzeit. |
+| 105 | KS 12 ESTV, Ziff. 2.6.3 N. 16 | bestätigt | Trägt den Zusatz «auch für die gleichgestellten Schuldverhältnisse» («Obligationen und die ihnen gleichgestellten Schuldverhältnisse»). |
+| 106 | Oesterhelt/Tschan, § 9 Finanzprodukte, Ziff. I.2.3 | bestätigt (Rang präzisieren) | Text stützt die Aussage, bezeichnet die Regel aber ausdrücklich als «Praxis ESTV» (Wochenend-/Feiertagsverschiebung). Vorschlag: «Nach der von Oesterhelt/Tschan wiedergegebenen Praxis der ESTV …». |
+| 106 | vgl. KS 12 ESTV, Ziff. 2.6.3 N. 16 | bestätigt mit Hinweis | KS 12 nennt «(360/365 Tage resp. nächster Werktag)». Der Werktag stützt den zweiten Satzteil. Die Tagesangabe steht in einem Spannungsverhältnis zu «nicht nach einer 365-Tage-Regel». Vorschlag: «vgl. aber KS 12 ESTV, Ziff. 2.6.3 N. 16 (360/365 Tage bzw. nächster Werktag)». |
+| 107 | KS 12 ESTV, Ziff. 6.1.5 N. 76 | bestätigt | «Der Handel mit in- und ausländischen Geldmarktpapieren ist ungeachtet der Währung von der Umsatzabgabe ausgenommen». Die Unterziffer heisst 6.1.5. «Ziff. 6.1 N. 76» ist nicht falsch, genauer wäre «Ziff. 6.1.5 N. 76». |
+| 107 | Oesterhelt/Tschan, § 9 Finanzprodukte, Ziff. I.2.3 | bestätigt | N. 9 (Ausgabe inländischer Obligationen und Geldmarktpapiere, Art. 14 Abs. 1 lit. a StG) und N. 10 (Handel mit Geldmarktpapieren, lit. g). Umformulierung empfohlen: Art. 14 Abs. 1 lit. a StG erfasst nur die Ausgabe **inländischer** Geldmarktpapiere (Fedlex, Stand 1.1.2024). «ihre Ausgabe nach lit. a» daher ersetzen durch «die Ausgabe inländischer Geldmarktpapiere nach lit. a». Für ausländische Geldmarktpapiere: KS 12 N. 28. «Ungeachtet der Währung» ist eine Formulierung der Praxis (KS 12), nicht des Gesetzes. |
+| 108 | Oesterhelt/Tschan, § 9 Finanzprodukte, Ziff. II.2.2 | bestätigt (präzisieren) | N. 52: kein Geldmarktpapier, weil überjährig. Sekundärmarkttransaktionen unterliegen der Umsatzabgabe von 0,15 %, «wenn ein Effektenhändler … als Vertragspartei oder Vermittler involviert ist». Vorschlag: «… ihr Handel unterliegt der Umsatzabgabe, sofern ein Effektenhändler beteiligt ist» und «N. 52» ergänzen. |
+| 109 | Bericht Kommission NR 1991, Ziff. 232.2 | bestätigt (ergänzen) | page 13 = S. 509: «die von Inländern ausgegebenen Geldmarktpapiere … mit einer nach Massgabe der Laufzeit berechneten Emissionsabgabe» (Vorschlag der Kommission). Der Bericht belegt die Einführung, nicht das Ende am 28.2.2012. Ergänzen: «Fedlex, SR 641.10, Art. 5a, Fn. (aufgehoben mit Wirkung seit 1.3.2012, AS 2012 811)». Gegebenenfalls S. 509 angeben. |
+| 110 | BVGer A-515/2007 vom 26.3.2010, E. 3.4.1 f. | bestätigt (Aussage abschwächen) | Zitierstring und E. stimmen (Entscheidsuche CH_BVGE_001_A-515-2007_2010-03-26). E. 3.4.1: lit. g und Abs. 5. E. 3.4.2: Die Beschwerdeführerin behauptete selbst nicht, es handle sich um Geldmarktpapiere; lit. g betreffe «einzig den Handel mit Geldmarktpapieren»; die Beilagen wiesen auf einen «Anlagefondsanteil und nicht auf ein Geldmarktpapier im Sinn von Art. 4 Abs. 5 StG» hin. Das Gericht trifft keine allgemeine Feststellung, Geldmarktfondsanteile seien «Anteile an einer kollektiven Kapitalanlage», und spricht von Anlagefondsanteil. Vorschlag: «Das Bundesverwaltungsgericht verneinte die Ausnahme von Art. 14 Abs. 1 lit. g StG für den Handel mit Anteilen eines (ausländischen) Geldmarktfonds; lit. g erfasse nur Geldmarktpapiere im Sinne von Abs. 5, die streitigen Titel seien Anlagefondsanteile.» |
+
+## B. Literaturverzeichnis
+
+| Eintrag | Ergebnis | Hinweis |
+|---|---|---|
+| Athanas/Bürgy, FStR 2003, Link e_chunks=3625 | bestätigt | Titel und Autoren gemäss Lexplorer (FStR 2003/4). Chunk 3625 ist der Beginn von Abschn. 4 «Stempelabgaben», also passend. Seitenzahl fehlt; Waldburger zitiert «246», das ILE-Register nennt «241 ff.» (nicht am Original geprüft). |
+| Duttweiler/Schreiber, Internationales Steuerseminar 2017, Folien, e_chunks=61010 | bestätigt | Referent:innen und Titel stimmen; Folie 45. |
+| Glauser, La notion fiscale d'obligation, en particulier dans le cadre des financements internationaux, FStR 2008, e_chunks=14930 | bestätigt | Titel und Untertitel stimmen (Lexplorer-Dokumenttitel irreführend «Die steuerliche Verpflichtung»). Der Link führt auf Ziff. 2.1, nicht auf den Beitragsanfang; für den Beitragsanfang wäre e_id=377 möglich. Heft 2008/2. |
+| Grieder/Hongler, Art. 10 DBG, OK, Version vom 18.5.2026 | bestätigt | Autoren, Hrsg. (Hongler/Sutter), Stand 2026-05-18 und Link stimmen mit OK_DBG_art-10.md überein. |
+| Hess, «Das neue Kollektivanlagengesetz aus steuerrechtlicher Sicht», FStR 2005, e_chunks=9528 | Hinweis | Lexplorer führt den Titel als «Das neue Kollektivanlage**gesetz** aus steuerrechtlicher Sicht» (ohne «n»). Am Original-PDF klären. Heft 2005/4; der Link führt auf Ziff. 3.3.2.5 (SICAF), passend. |
+| Oesterhelt, Aus der Rechtsprechung in den Jahren 2019/2020 (Teil 2), FStR 2021, e_chunks=7921 | bestätigt (Schreibweise) | Lexplorer: «… in den Jahren 2019, 2020 (Teil 2)», FStR 2021/1. Schreibweise angleichen oder belassen. |
+| Oesterhelt/Tschan, § 3 Drittfinanzierungen, IFF-Schriftenreihe 2025, e_chunks=30156 | bestätigt (unvollständig) | Autoren und Kapitel stimmen; Band «Verrechnungssteuer und Stempelabgaben» (Lexplorer-Pfad doc_0127_128). Hrsg., Ort und Seiten (§ 3 S. 119 ff. laut Inhaltsverzeichnis) fehlen und sind über die Quellen nicht vollständig prüfbar. |
+| Oesterhelt/Tschan, § 9 Finanzprodukte, IFF-Schriftenreihe 2025, e_chunks=30520 | bestätigt (unvollständig) | Wie oben; § 9 S. 281 ff. laut Inhaltsverzeichnis. |
+| Oesterhelt/Winzap, Besteuerung kollektiver Kapitalanlagen und ihrer Anleger (2. Teil), FStR 2009, e_chunks=9767 | bestätigt | FStR 2009/1. |
+| Schmid/Stocker, § 16 Personengesellschaften, in: Internationales Steuerrecht der Schweiz, IFF-Schriftenreihe, 2023, e_chunks=25040 | bestätigt (ergänzen) | Autorenreihenfolge gemäss Lexplorer (Patrick A. Schmid, Raoul Stocker). Hrsg. fehlen; OK Art. 10 DBG zitiert «Stocker Raoul/Oesterhelt Stefan (Hrsg.), Internationales Steuerrecht der Schweiz, Bern 2023». Ergänzung empfohlen. |
+| Spori/Storck, Konzernfinanzierung in der Schweiz – Fakten und Steuern, FStR 2008, e_chunks=15214 | bestätigt | FStR 2008/4. |
+| Waldburger, Rückerstattung der Verrechnungssteuer bei Sitz im Ausland und tatsächlicher Verwaltung (Geschäftsleitung) in der Schweiz, FStR 2010, e_chunks=15804 | bestätigt | FStR 2010/3. |
+
+## C. Materialienverzeichnis
+
+| Eintrag | Ergebnis | Hinweis |
+|---|---|---|
+| Botschaft StG 1972, 25.10.1972, BBl 1972 II 1278, ELI 1972/2_1278_1275_1068 | bestätigt | Titel, Datum und ELI gemäss Open Case Law. |
+| Bericht Kommission NR 1991, 16.9.1991, BBl 1991 IV 497, ELI 1991/4_497__ | bestätigt | Titel «Parlamentarische Initiative Bundesgesetz über die Stempelabgaben. Änderung …» und Datum stimmen. |
+| Botschaft KAG, 23.9.2005, BBl 2005 6395, ELI 2005/1000 | bestätigt | Titel lautet vollständig «… (Kollektivanlagengesetz)»; Datum und Anfangsseite 6395 stimmen. |
+| KS 12 ESTV, Umsatzabgabe, 10.3.2011, URL …/fAxNm-AJNOVW/dbst-ks-2011-1-012-s-de.pdf | bestätigt | Titel, Datum und URL stimmen mit dem Open-Case-Law-Datensatz überein. |
+| KS 15 ESTV, 3.10.2017, URL …/2H5NhZhB6Evl/… | bestätigt | Titel, Datum («Bern, 3. Oktober 2017») und URL stimmen. |
+| KS 24 ESTV, 20.11.2017, URL …/C12aSfKWCw2X/… | bestätigt | Titel, Datum und URL stimmen. |
+| KS 46 ESTV, 24.7.2019, URL …/sYgmbFUTZPvn/… | bestätigt | Titel, Datum und URL stimmen. |
+| KS 47 ESTV, Obligationen, 25.7.2019, URL …/IIuZfnbYf1Dv/… | bestätigt | Titel, Datum und URL stimmen. |
+| MB ESTV S-02.130.1, «vom April 1999», URL …/tzohPMjZmO4y/… | bestätigt (URL nicht prüfbar) | Kopf des Merkblatts: «vom April 1999», Fusszeile «S-02.130.1 (4.99)». KS 47 Ziff. 7 nennt «vom 1. Mai 1999», eine Abweichung, auf die nur hingewiesen wird. Die URL ist über die zugelassenen Quellen nicht prüfbar. |
+| MB ESTV S-02.132, Emissionsabgabe auf Festgeldanlagen bei inländischen Banken, ohne Datum, URL …/1VUpMdruCUKh/… | korrigiert (Datum ergänzen; URL nicht prüfbar) | Kopf des Merkblatts: «vom 1. April 1993». Ergänzen: «…, vom 1.4.1993, abrufbar unter …». Die URL ist über die zugelassenen Quellen nicht prüfbar. |
+
+## D. Werkzeugnutzung
+
+- Lexplorer search_chunks_*: 0 Suchen (nur get_chunk_content, nav_list_chunks, get_document_slice).
+- Open Case Law: search_practice (3), get_practice (KS 15), search_botschaft (3).
+- Entscheidsuche: search (1), fetch_document (A-515/2007).
+- Fedlex: Art. 14 und 5a StG (SR 641.10), Art. 15 VStV (SR 642.211).

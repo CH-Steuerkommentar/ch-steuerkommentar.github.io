@@ -6003,14 +6003,13 @@
    "erlass": "StG",
    "nummer": "4",
    "sachueberschrift": "IV. Begriffsbestimmungen",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Claude-Cloud, 28.10.2026",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-28T00:38:32+00:00"
+   "geaendert": "2026-10-28"
   },
   "StG/art-5": {
    "erlass": "StG",
