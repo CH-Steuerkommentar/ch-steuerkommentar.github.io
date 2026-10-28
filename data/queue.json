@@ -6055,14 +6055,13 @@
    "erlass": "StG",
    "nummer": "6",
    "sachueberschrift": "Ausnahmen",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Claude-Cloud, 28.10.2026",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-28T04:36:01+00:00"
+   "geaendert": "2026-10-28"
   },
   "StG/art-7": {
    "erlass": "StG",
