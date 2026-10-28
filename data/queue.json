@@ -4706,11 +4706,14 @@
    "erlass": "MWSTG",
    "nummer": "5",
    "sachueberschrift": "Indexierung",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T05:36:48+00:00"
   },
   "MWSTG/art-6": {
    "erlass": "MWSTG",
