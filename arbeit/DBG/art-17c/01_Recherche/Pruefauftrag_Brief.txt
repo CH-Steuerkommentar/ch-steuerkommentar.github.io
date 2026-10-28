@@ -1,0 +1,14 @@
+Du bist Prüfagent (Fundstellenprüfung) für eine Kommentierung zu Art. 17c DBG im Projekt /home/claude/ch-steuerkommentar.github.io. Du kennst die Entstehung nicht und prüfst unabhängig. Kommentartext: kommentare/DBG/art-17c.md. Fussnoten mit der jeweils gestützten Aussage: arbeit/DBG/art-17c/Fussnoten_zur_Pruefung.md. Prüfe JEDE Fundstelle in deinem Bereich einzeln gegen die Quelle (keine Stichproben): Stimmt die Fundstelle (Erwägung/Ziffer/Seite/Randnote/Folie), und stützt sie die Aussage im Text?
+
+Quellen und Wege (keine Websuche, kein git, Dateien NICHT ändern ausser deiner Ergebnisdatei):
+- BGer: Open Case Law (mcp__Open_Case_Law__get_erwaegung, get_decision, cite – via ToolSearch laden) bzw. Cache data/entscheide/ocl_bger_*.json (Feld text). Zitierstring mit cite/citation_string_de prüfen.
+- Kantonale Entscheide und BVGer: Entscheidsuche (mcp__Entscheidsuche__search_by_case_number, fetch_document). Fundorte stehen in arbeit/DBG/art-17c/01_Recherche/Kantonale_Entscheide.md.
+- Botschaft BBl 2005 575: Textdatei arbeit/DBG/art-17b/01_Recherche/quellen/Botschaft_BBl_2005_575.txt; die Seitenzahl-Marken (z.B. Zeile «595») stehen am ENDE der jeweiligen Seite (Text vor der Marke 595 = S. 595, Text nach Marke 596 = S. 597). Vernehmlassungsbericht 2003: Auszüge in arbeit/DBG/art-17a/01_Recherche/Materialien.md Ziff. 5 (dort als am PDF bestätigt vermerkt; wenn möglich über Open Case Law get_materialien/search_materialien gegenprüfen).
+- KS 37 ESTV: arbeit/DBG/art-17b/01_Recherche/quellen/KS37_ESTV_2020.txt; Anhänge und kantonale Steuerbücher sowie ILE-Literatur über Lexplorer Tax (mcp__Lexplorer_Tax__get_chunk_content, get_document_slice, nav_*; Chunk-IDs in arbeit/DBG/art-17c/01_Recherche/Lexplorer_Fundstellen.md, ILE_Literatur.md, Verwaltungspraxis.md sowie arbeit/DBG/art-17b/01_Recherche/Lexplorer_Fundstellen.md). get_chunk_content und nav zählen nicht als Suche; search_* höchstens 2 Suchen, nur wenn eine Stelle sonst nicht auffindbar ist, und melde die Zahl.
+- MBV, DBG, StHG, AHVV: Fedlex (mcp__Fedlex__get_article) bzw. Open Case Law get_law.
+- OK-Kommentierung: arbeit/DBG/art-17c/01_Recherche/OK_StHG_art-14a.md.
+Lexplorer nie für Rechtsprechung.
+
+Prüfe auch: Gerichtsbezeichnung, Datum, Steuerperiode-Angaben, wörtliche Zitate im Text (exakt?), und ob der Text eine Aussage dem richtigen Urheber zuschreibt (Gericht vs. Verwaltung vs. Lehre). Lies auch die Randnotentexte im Kommentar ganz, um Aussagen ohne Beleg in deinem Bereich zu melden.
+
+Ausgabe: Datei arbeit/DBG/art-17c/Fundstellenliste_Teil_<X>.md mit Tabelle: Fn. | Fundstelle | Ergebnis (bestätigt / korrigiert / nicht belegbar) | Hinweis (bei korrigiert: richtige Fundstelle bzw. nötige Umformulierung; wörtlicher Beleg kurz). Antwort: nur die Befunde, die nicht «bestätigt» sind, knapp, plus Zahl der Lexplorer-Suchen.
