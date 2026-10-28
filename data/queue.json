@@ -6098,14 +6098,13 @@
    "erlass": "StG",
    "nummer": "8",
    "sachueberschrift": "Beteiligungsrechte",
-   "status": "in_arbeit",
+   "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Lauf 28.10. am Nutzungslimit abgebrochen",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-28T10:13:46+00:00"
+   "geaendert": "2026-10-28"
   },
   "StG/art-9": {
    "erlass": "StG",
