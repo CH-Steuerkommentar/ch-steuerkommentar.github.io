@@ -3,6 +3,22 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+
+// Externe Links in allen Markdown-Seiten bereits beim Bau mit target="_blank" versehen.
+function externeLinksNeuerTab() {
+  const besuchen = (knoten) => {
+    if (knoten.type === 'element' && knoten.tagName === 'a') {
+      const href = String(knoten.properties?.href ?? '');
+      if (/^https?:\/\//.test(href)) {
+        knoten.properties.target = '_blank';
+        knoten.properties.rel = ['noopener'];
+      }
+    }
+    (knoten.children ?? []).forEach(besuchen);
+  };
+  return (baum) => besuchen(baum);
+}
+
 const WERK = process.env.WERK_NAME ?? 'ILE-HSG Steuerrechtskommentar';
 
 export default defineConfig({
@@ -10,6 +26,7 @@ export default defineConfig({
   base: process.env.BASE ?? '/',
   trailingSlash: 'always',
   markdown: {
+    rehypePlugins: [externeLinksNeuerTab],
     remarkRehype: {
       footnoteLabel: 'Fussnoten',
       footnoteBackLabel: 'Zurück zum Text',

@@ -289,3 +289,8 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
 .sl-markdown-content .start-ile-karte li small { display: block; color: var(--sl-color-gray-3); }
 .sl-markdown-content .start-ile-karte .ile-knopf { margin-top: auto; align-self: flex-start; padding: 0.45rem 0.9rem; background: var(--gruen); color: #fff; text-decoration: none; font-size: 0.9rem; }
 .sl-markdown-content .start-ile-karte .ile-knopf:hover { background: var(--gruen-dunkel); }
+
+/* Knopf «Startseite» im Kopf */
+.kopf-home { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.75rem; border: 1px solid var(--gruen); color: var(--gruen-dunkel); text-decoration: none; font-size: 0.9rem; white-space: nowrap; flex-shrink: 0; }
+.kopf-home:hover { background: var(--gruen); color: #fff; }
+@media (max-width: 40rem) { .kopf-home { padding: 0.4rem 0.5rem; } .kopf-home span { display: none; } }

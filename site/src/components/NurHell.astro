@@ -4,6 +4,11 @@
 <script is:inline>
   document.documentElement.dataset.theme = 'light';
   try { localStorage.removeItem('starlight-theme'); } catch (e) {}
+  // Jeder Link zu einer anderen Website öffnet in einem neuen Tab, auch nachträglich erzeugte (Suche)
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest && e.target.closest('a[href]');
+    if (a && /^https?:/.test(a.href) && a.host !== location.host) { a.target = '_blank'; a.rel = 'noopener'; }
+  }, true);
   document.addEventListener('DOMContentLoaded', () => {
     // Links zu anderen Websites (Entscheide, Materialien, Literatur) im neuen Tab öffnen
     document.querySelectorAll('a[href^="http"]').forEach((a) => {
