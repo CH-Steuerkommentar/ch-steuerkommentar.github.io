@@ -245,13 +245,17 @@ def ile_hinweis(k, lang: str = "de") -> str:
     # Publikationen des ILE-HSG im Literaturverzeichnis zählen (alle Arten, nicht nur FStR)
     ARTEN = [  # (Muster, deutsch, französisch)
         (r"\bFStR\s+\d{4}", "Forum für Steuerrecht", "Forum für Steuerrecht"),
-        (r"IFF-Schriftenreihe|IFF-Forum|Schriftenreihe IFF", "IFF-Schriftenreihe", "collection IFF"),
+        (r"IFF-Schriftenreihe|IFF-Forum|Schriftenreihe IFF|Handbuch zum Mehrwertsteuergesetz", "IFF-Schriftenreihe", "collection IFF"),  # IFF = Vorgänger des ILE
         (r"Working Paper", "ILE Working Papers", "ILE Working Papers"),  # z.B. «ILE Working Paper 2024-19», «ILE-HSG Working Paper No. 2026-31»
         (r"Seminarunterlage|support de séminaire|Steuerseminar|Seminar\b", "St.Galler Seminare", "séminaires de Saint-Gall"),
     ]
     n, arten = 0, []
     for e in eintraege:
         treffer = next((a for a in ARTEN if re.search(a[0], e)), None)
+        if treffer is None and "e_sys=ile" in e:
+            # übrige Werke aus der ILE-Sammlung in Lexplorer sind Bände der IFF-Schriftenreihe
+            # (das Lehrbuch Hongler/Lorenz wird nicht zitiert)
+            treffer = ARTEN[1]
         if treffer is None:
             continue
         n += 1
