@@ -230,11 +230,14 @@
    "erlass": "DBG",
    "nummer": "17c",
    "sachueberschrift": "Einkünfte aus unechten Mitarbeiterbeteiligungen",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T05:34:35+00:00"
   },
   "DBG/art-17d": {
    "erlass": "DBG",
