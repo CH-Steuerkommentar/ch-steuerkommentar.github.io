@@ -219,7 +219,7 @@ fassung: Fassung vom 1.1.2025
 - Cagienard Mark, Entgelt/Kostenersatz versus Durchlaufposten, FStR 2015 [https://app.lexplorer.ch/suche?e_chunks=276&e_sys=ile] (zit. Cagienard, FStR 2015).
 - Denzler Urs/Frey Philip, Abgrenzungsfragen zu Leistung und Entgelt, Folien zum St.Galler Seminar zur Mehrwertsteuer 2026, abrufbar unter https://app.lexplorer.ch/suche?e_chunks=68005&e_sys=ile, besucht am 28.10.2026 (zit. Denzler/Frey, Seminar 2026).
 - Fröhlich Peter, Die selbstständige Erwerbstätigkeit im Bereich der MWST, FStR 2019 [https://app.lexplorer.ch/suche?e_chunks=5987&e_sys=ile] (zit. Fröhlich, FStR 2019).
-- Honauer Niklaus/Probst Simeon L./Rohner Tobias F./Frey Philip, Handbuch zum Mehrwertsteuergesetz (MWSTG), 4. Aufl., Bern 2024 [https://app.lexplorer.ch/suche?e_chunks=21063&e_sys=ile].
+- Honauer Niklaus/Probst Simeon L./Rohner Tobias F./Frey Philip, Handbuch zum Mehrwertsteuergesetz (MWSTG), IFF-Schriftenreihe, 4. Aufl., Bern 2024 [https://app.lexplorer.ch/suche?e_chunks=21063&e_sys=ile].
 - Jöhri Jessica, Plattformbesteuerung auf Beherbergungs- und Personenbeförderungsleistungen in der Schweiz – Rechtliche und praktische Umsetzbarkeit im schweizerischen MWST-Recht, ILE-HSG Working Paper No. 2026-31, St. Gallen April 2026 [https://app.lexplorer.ch/suche?e_chunks=60670&e_sys=ile].
 - Robinson Philip, Der Drittvergleich im Schweizer Mehrwertsteuerrecht – Überlegungen zum Grundsatz des «dealing at arm's length» von Art. 24 Abs. 2 MWSTG, in: Panoptikum des Steuerrechts, IFF-Schriftenreihe, 2024, S. 371 ff. [https://app.lexplorer.ch/suche?e_chunks=19173&e_sys=ile].
 
