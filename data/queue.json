@@ -4750,11 +4750,14 @@
    "erlass": "MWSTG",
    "nummer": "8",
    "sachueberschrift": "Ort der Dienstleistung",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T10:13:26+00:00"
   },
   "MWSTG/art-9": {
    "erlass": "MWSTG",
