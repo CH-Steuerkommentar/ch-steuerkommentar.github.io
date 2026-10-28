@@ -1,0 +1,12 @@
+# Problemkarte Art. 6 MWSTG (Stand 28.10.2026)
+
+| Sachfrage | Normstelle | A/B (BGer) | Leitentscheid(e) | Linie | Brüche | offen/strittig |
+|---|---|---|---|---|---|---|
+| Privatautonomie: keine Pflicht, kein Anspruch auf Überwälzung | Abs. 1 (i.V.m. Art. 1 Abs. 3 lit. c) | 5/2 | BGE 140 II 80 E. 2.3.2, 2.4.1; 2A.320/2002 E. 5.2.1; BGE 123 II 385 E. 8 | gefestigt seit MWSTV 1994; Abs. 1 kodifiziert sie (Botschaft) | – | Lehre (Handbuch) kritisiert Verneinung eines verfassungsmässigen Grundsatzes (→ Art. 1) |
+| Steuerschuld unabhängig von der Überwälzung (Abrechnungs- vs. Überwälzungsbeziehung) | Abs. 1 | 3/2 | BGE 144 II 412 E. 2.2; BGE 152 II 250 E. 11.3 | Nachforderung trotz unmöglicher Überwälzung; Rückerstattung durch ESTV nicht an Weitergabe geknüpft | – | – |
+| Inhalt und Auslegung der Vereinbarung (inkl./exkl., Beweislast, Option, AGB, Nachverrechnung) | Abs. 1 | 1/0 (4A_349/2013) | 4A_349/2013; HGer ZH HG190129; KGer SG BZ.2001.95 | kantonal: ohne Abrede kein Zuschlag; Vertrauensprinzip; Beweislast beim Gläubiger | – | höchstrichterlich zur Auslegungsregel nicht entschieden; ESTV-Praxis: Nachverrechnung bei Einverständnis |
+| Öffentlich-rechtliche Leistungsverhältnisse (teleologische Reduktion) | Abs. 1 und 2 | 3/0 | BGE 140 II 80 E. 2.5; BGE 141 IV 344 E. 3; BGE 144 II 412 E. 2.2.3, 3.3.4 | Überwälzung nach öffentlichem Recht, Verfügungsweg; im Billag-Fall zwingende Überwälzung | BVGer A-4130/2013 (Wortlaut) aufgehoben | Reichweite (welche Verhältnisse) nur kantonal konkretisiert |
+| Rückforderung zu Unrecht überwälzter Steuer | Abs. 1/2, Art. 27 | 2/1 | BGE 144 II 412 E. 3 | öffentlich-rechtlich: Bereicherungsgrundsatz, Grenzen aus Abrechnungsbeziehung; privatrechtlich: Zivilweg | – | Übertragung von BGE 144 II 412 auf privatrechtliche Verhältnisse nur kantonal (MietGer ZH) |
+| Zuständigkeit der Zivilgerichte; ESTV unzuständig | Abs. 2 | 3/1 | BGE 140 II 80 E. 2.4, 2.5.4; 2A.534/2003 E. 3 | deklaratorisch: nicht die ESTV entscheidet | – | – |
+| Vorfrage der Steuerbarkeit; Aussetzung; Bindung | Abs. 2 | 2/0 | BGE 140 II 80 E. 2.4.2; BGE 144 II 412 E. 2.2.2 | Zivilrichter entscheidet vorfrageweise oder setzt aus | – | Bindung an Steuerentscheid nur kantonal (CDAP VD) |
+| Keine Legitimation des Leistungsempfängers | Abs. 2 (Art. 81 MWSTG) | 1/1 | BGE 140 II 80 E. 2.4.3 f.; 2C_727/2016 E. 4.3 | Empfänger nicht beschwerdelegitimiert | – | BGer erwägt Drittbeschwerde als «denkbar», lehnt aber ab |
