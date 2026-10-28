@@ -3872,14 +3872,13 @@
    "erlass": "VStG",
    "nummer": "4a",
    "sachueberschrift": "Erster Abschnitt: Steuererhebung",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Claude-Cloud, 28.10.2026",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-28T06:36:08+00:00"
+   "geaendert": "2026-10-28"
   },
   "VStG/art-5": {
    "erlass": "VStG",
