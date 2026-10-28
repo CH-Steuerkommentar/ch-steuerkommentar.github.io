@@ -120,7 +120,7 @@ docs/                Format der Kommentierungen und Beispiel
 
 ## Lizenz
 
-Text der Kommentierungen: CC BY 4.0. Code: MIT.
+Texte der Kommentierungen: © Institut für Law and Economics (ILE-HSG), Universität St.Gallen, alle Rechte vorbehalten. Code: MIT.
 
 ## Automatik
 

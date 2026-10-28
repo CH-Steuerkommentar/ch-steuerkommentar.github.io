@@ -41,6 +41,6 @@ Jede Kommentierung gibt den Stand ihrer Bearbeitung an. Spätere Rechtsprechung 
 
 Kurzzitat: Werk, Artikel, Randnote, Stand – zum Beispiel «ILE-HSG StK, Art. 26 DBG N. 12 (Stand 26.10.2026)». Den Zitiervorschlag zu jeder Kommentierung kann man oben auf der Seite mit «Kopieren» übernehmen. Jede Randnote hat eine eigene Adresse (Klick auf die Randnotennummer).
 
-## Copyright und Lizenz
+## Copyright
 
-© Institut für Law and Economics (ILE-HSG), Universität St.Gallen. Text: Creative Commons Namensnennung 4.0 International (CC BY 4.0). Erlasse und Entscheide sind als amtliche Werke frei (Art. 5 URG).
+© Institut für Law and Economics (ILE-HSG), Universität St.Gallen. Alle Rechte an den Texten der Kommentierungen liegen beim ILE-HSG. Zitieren mit Quellenangabe ist gestattet (Art. 25 URG); für weitergehende Nutzungen ist die Zustimmung des ILE-HSG nötig. Erlasse und Entscheide sind als amtliche Werke frei (Art. 5 URG).
