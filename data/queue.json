@@ -6074,14 +6074,13 @@
    "erlass": "StG",
    "nummer": "7",
    "sachueberschrift": "Entstehung der Abgabeforderung",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Claude-Cloud, 28.10.2026",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-28T07:36:13+00:00"
+   "geaendert": "2026-10-28"
   },
   "StG/art-8": {
    "erlass": "StG",
