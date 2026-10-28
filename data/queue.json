@@ -6048,11 +6048,14 @@
    "erlass": "StG",
    "nummer": "6",
    "sachueberschrift": "Ausnahmen",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T04:36:01+00:00"
   },
   "StG/art-7": {
    "erlass": "StG",
