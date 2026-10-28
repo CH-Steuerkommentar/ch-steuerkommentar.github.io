@@ -6077,11 +6077,14 @@
    "erlass": "StG",
    "nummer": "7",
    "sachueberschrift": "II. Entstehung der Abgabeforderung",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T07:36:13+00:00"
   },
   "StG/art-8": {
    "erlass": "StG",
