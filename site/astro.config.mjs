@@ -63,6 +63,7 @@ export default defineConfig({
         ThemeProvider: './src/components/NurHell.astro',
         Footer: './src/components/Fusszeile.astro',
         Sidebar: './src/components/Seitenleiste.astro',
+        TableOfContents: './src/components/Inhaltsverzeichnis.astro',
         SiteTitle: './src/components/Seitentitel.astro',
         LanguageSelect: './src/components/Sprachwahl.astro',
         MobileMenuFooter: './src/components/Leer.astro',

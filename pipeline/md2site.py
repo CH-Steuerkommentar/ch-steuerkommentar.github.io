@@ -307,7 +307,7 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", de
                 "| Artikel | Sachüberschrift | Stand |", "|---|---|---|"]
         label, nicht = "Übersicht", "nicht kommentiert"
     zeilen = ["---", f"title: {yaml_str(ab)}", f"description: {yaml_str(erlass_name(erlass, lang))}",
-              "sidebar:", f"  label: {label}", "  order: 0", "tableOfContents: false", "prev: false", "---\n"] + kopf
+              "sidebar:", f"  label: {label}", "  order: 0", "prev: false", "---\n"] + kopf
     for a in inv["artikel"]:
         if a["aufgehoben"]:
             continue

@@ -357,3 +357,7 @@ div.header > div:nth-child(2) { margin-inline-start: auto; }
 }
 .pagination-links .link-title { font-size: 1.05rem !important; font-weight: 400; }
 .pagination-links a { padding: 0.8rem 1rem !important; }
+
+/* Kasten «Vom ILE-HSG»: rechts unter dem Inhaltsverzeichnis, sobald die rechte Spalte sichtbar ist; sonst links */
+.ile-box-rechts .ile-box { margin-top: 2rem; }
+@media (min-width: 72rem) { :root[data-has-toc] .ile-box-links { display: none; } }

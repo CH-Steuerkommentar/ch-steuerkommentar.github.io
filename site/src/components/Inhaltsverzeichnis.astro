@@ -1,0 +1,7 @@
+---
+// Rechte Spalte (Desktop): Inhaltsverzeichnis «Auf dieser Seite», darunter der Kasten «Vom ILE-HSG».
+import Default from '@astrojs/starlight/components/TableOfContents.astro';
+import IleBox from './IleBox.astro';
+---
+<Default {...Astro.props}><slot /></Default>
+<div class="ile-box-rechts"><IleBox /></div>
