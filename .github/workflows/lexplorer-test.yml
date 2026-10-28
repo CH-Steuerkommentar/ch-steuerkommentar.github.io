@@ -1,0 +1,28 @@
+name: Lexplorer-Test
+
+# Prüft nur, ob der Schlüssel LEXPLORER_API_KEY am MCP-Server von Lexplorer Tax angenommen wird.
+# Kostet kein API-Guthaben und keine Lexplorer-Suche. Von Hand starten: Actions > Lexplorer-Test > Run workflow.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: initialize und tools/list
+        env:
+          KEY: ${{ secrets.LEXPLORER_API_KEY }}
+        run: |
+          test -n "$KEY" || { echo "Secret LEXPLORER_API_KEY fehlt"; exit 1; }
+          URL=https://mcp-tax.lexplorer.ch/mcp
+          H=(-H "Authorization: Bearer $KEY" -H "Content-Type: application/json" -H "Accept: application/json, text/event-stream")
+          curl -sS -D kopf.txt "${H[@]}" "$URL" -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"ile-test","version":"1"}}}' | head -c 600; echo
+          head -1 kopf.txt
+          SID=$(grep -i '^mcp-session-id:' kopf.txt | cut -d' ' -f2 | tr -d '\r')
+          [ -n "$SID" ] && H+=(-H "Mcp-Session-Id: $SID")
+          curl -sS "${H[@]}" "$URL" -d '{"jsonrpc":"2.0","method":"notifications/initialized"}' >/dev/null
+          curl -sS "${H[@]}" "$URL" -d '{"jsonrpc":"2.0","id":2,"method":"tools/list"}' | grep -o '"name":"[a-z_]*"' | head -30

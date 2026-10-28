@@ -37,6 +37,15 @@ jobs:
           cache: pip
       - name: Pakete
         run: pip install -r requirements.txt claude-agent-sdk
+      - name: Skill aus Secret (liegt nicht im Repository)
+        env:
+          BUNDLE: ${{ secrets.STEUERKOMMENTAR_BUNDLE }}
+        run: |
+          test -n "$BUNDLE" || { echo "Secret STEUERKOMMENTAR_BUNDLE fehlt"; exit 1; }
+          mkdir -p /tmp/bundle .claude/skills
+          echo "$BUNDLE" | base64 -d | tar xJ -C /tmp/bundle
+          cp -r /tmp/bundle/skills/steuerkommentar-selbstaendig .claude/skills/
+          cp -r /tmp/bundle/ok-steuerkommentar "$HOME/ok-steuerkommentar"
       - name: Entscheid-Cache
         uses: actions/cache@v4
         with:
@@ -46,6 +55,7 @@ jobs:
       - name: Lauf
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LEXPLORER_API_KEY: ${{ secrets.LEXPLORER_API_KEY }}
           TAGESBUDGET_USD: ${{ vars.TAGESBUDGET_USD || '100' }}
           MONATSBUDGET_USD: ${{ vars.MONATSBUDGET_USD || '100' }}
           MODELL_SCHREIBEN: ${{ vars.MODELL_SCHREIBEN || 'claude-opus-5-5' }}

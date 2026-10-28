@@ -128,17 +128,27 @@ Rahmen dieses Laufs:
   Materialien nur, soweit die Übersicht (Entstehungsgeschichte, Harmonisierung) sie braucht.
 - Kantonale Gerichte: ausschliesslich Entscheidsuche (POST https://entscheidsuche.ch/_search.php mit Filter `hierarchy`,
   Volltexte unter https://entscheidsuche.ch/docs/…). Verwaltungspraxis (ESTV-Kreisschreiben, MWST-Infos u.a.):
-  Open Case Law (search_practice, get_practice); SSK-Kreisschreiben und kantonale Praxis über Fedlex/ESTV/SSK-Seiten per WebFetch,
-  wenn die Adresse bekannt ist.
-- Nicht recherchieren: Lehre (Schrifttum) und allgemeine Websuche (kein WebSearch). Lehre erscheint nur, wenn ein Entscheid sie
-  selbst anführt, und dann als dessen Aussage mit dem Entscheid als Fundstelle. Der Abschnitt des Skills zur Lehre entfällt;
-  das Fehlen nicht im Text erwähnen.
-  Lexplorer ist nicht verfügbar.
+  Open Case Law (search_practice, get_practice) und Lexplorer Tax (navigiert: SSK-Kreisschreiben, kantonale Steuerbücher,
+  ESTV-Publikationen, MWST-Infos).
+- Lehre: ILE-Literatur über Lexplorer Tax (MCP-Server «lexplorer-tax», Kategorie 08-institut-fuer-law-und-economics, Kanton CH,
+  ohne Lehrbuch Hongler/Lorenz; höchstens 25 Suchen) und Onlinekommentar.ch (`python3 pipeline/onlinekommentar.py liste`/`holen`),
+  wie im Skill beschrieben. Lexplorer nie für Rechtsprechung. Keine allgemeine Websuche (kein WebSearch).
+  Ist Lexplorer nicht erreichbar, Lehre nur aus Onlinekommentar.ch und im Prüfbericht vermerken.
 - Schritt 8: Fundstellenprüfung vollständig mit Hilfsagenten (keine Batches).
 - Schreibe nach kommentare/{erlass}/{slug}.md; `python3 pipeline/kommentar.py kommentare/{erlass}/{slug}.md` muss ohne Befund durchlaufen.
 - Kein `stand.py setze`, kein git, keine Word-Fassung. Status und Veröffentlichung übernimmt das Steuerskript.
 - Achte auf Kosten: Volltexte an der einschlägigen Erwägung lesen, nicht ganz; Hilfsagenten gezielt.
 Ende: drei bis fünf Sätze Zusammenfassung."""
+
+
+def mcp_server() -> dict:
+    """Open Case Law immer; Lexplorer Tax, wenn der Schlüssel als Secret LEXPLORER_API_KEY gesetzt ist."""
+    server = {"open-case-law": {"type": "http", "url": "https://mcp.opencaselaw.ch/mcp"}}
+    schluessel = os.environ.get("LEXPLORER_API_KEY", "").strip()
+    if schluessel:
+        server["lexplorer-tax"] = {"type": "http", "url": "https://mcp-tax.lexplorer.ch/mcp",
+                                   "headers": {"Authorization": f"Bearer {schluessel}"}}
+    return server
 
 
 async def _agent(prompt: str, budget: float) -> tuple[float, str, str]:
@@ -152,7 +162,7 @@ async def _agent(prompt: str, budget: float) -> tuple[float, str, str]:
         permission_mode="bypassPermissions",
         disallowed_tools=["WebSearch"],   # keine allgemeine Websuche
         max_budget_usd=budget,
-        mcp_servers={"open-case-law": {"type": "http", "url": "https://mcp.opencaselaw.ch/mcp"}},
+        mcp_servers=mcp_server(),
     )
     kosten, ergebnis, art = 0.0, "", ""
     async for m in query(prompt=prompt, options=optionen):
