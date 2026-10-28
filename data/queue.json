@@ -254,11 +254,14 @@
    "erlass": "DBG",
    "nummer": "18",
    "sachueberschrift": "Grundsatz",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T10:12:44+00:00"
   },
   "DBG/art-18a": {
    "erlass": "DBG",
