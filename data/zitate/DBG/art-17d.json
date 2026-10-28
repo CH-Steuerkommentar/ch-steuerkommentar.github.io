@@ -1,0 +1,34 @@
+{
+ "artikel": "DBG/art-17d",
+ "abfrage": "\"Art. 17d\" AND (DBG OR LIFD) (Kandidaten: Entscheidsuche; Entscheide: Open Case Law)",
+ "quelle": "ocl",
+ "suchtreffer": 1,
+ "entscheide": [
+  {
+   "id": "ocl_bger_9C_86_2021",
+   "referenz": [
+    "BGer 9C_86/2021 vom 14. Juni 2021"
+   ],
+   "datum": "2021-06-14",
+   "bge": false,
+   "ausschnitte": [
+    "atte ein Steuerpflichtiger nicht während der gesamten Zeitspanne zwischen Erwerb und Entstehen des Ausübungsrechts gesperrter Mitarbeiteroptionen steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz, so werden nach Art. 17d DBG bzw. Art. 7f StHG die geldwerten Vorteile daraus anteilsmässig im Verhältnis zwischen der gesamten zu der in der Schweiz verbrachten Zeitspanne besteuert. 4. Die Beschwerdeführerin macht geltend, ihr Arbeitnehmer, ein c",
+    "iche Grundlage, woran auch der Umstand nichts zu ändern vermag, dass Art. 7 lit. c AHVV im Gegensatz zu Art. 7 lit. c bis AHVV zur Festsetzung der Bemessungsgrundlagen nicht ausdrücklich auf die Steuergesetzgebung (vgl. Art. 17d DBG und Art. 7f StHG) verweist. 5.2. Im verwaltungsgerichtlichen Beschwerdeverfahren sind grundsätzlich nur Rechtsverhältnisse zu überprüfen und zu beurteilen, zu denen die zuständige Verwaltungsbehörde vorgängig verbindlic",
+    "chriftlich mitgeteilt. Luzern, 14. Juni 2021 Im Namen der II. sozialrechtlichen Abteilung des Schweizerischen Bundesgerichts Der Präsident: Parrino Der Gerichtsschreiber: Nabold Art. 105 Abs. 2 BGG; Art. 106 Abs. 1 BGG; Art. 17d DBG; Art. 18 Abs. 3 AHVG; Art. 2 Abs. 1 RV; Art. 26 Abs. 1 ATSG; Art. 4 Abs. 1 AHVG; Art. 4 Abs. 1 RV"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_13_2025",
+   "referenz": [
+    "BGer 9C_13/2025 vom 1. Mai 2025"
+   ],
+   "datum": "2025-05-01",
+   "bge": false,
+   "ausschnitte": [
+    "non cotées en bourse sont imposés au moment de l'exercice des options. La prestation imposable est égale à la valeur vénale de l'action moins le prix d'exercice\".  Sous le titre marginal \"imposition proportionnelle\", l' art. 17d LIFD prévoit que \"si le contribuable n'était ni domicilié ni en séjour en Suisse au regard du droit fiscal pendant tout l'intervalle entre l'acquisition et la naissance du droit d'exercice de l'option de collaborateur non né",
+    "collaborateur en cause étaient imposables (à la source) au moment de leur exercice.  Se pose cependant la question de la détermination de la période de référence à retenir pour l'imposition proportionnelle au sens de l' art. 17d LIFD , puisque la recourante conteste la constatation cantonale selon laquelle cette période s'était terminée le jour ouvrable suivant la fin des rapports de travail, soit le 16 août 2018.  9.3. Sans remettre en cause la con",
+    " sous revue. En effet, les art. 18A, 18B et 18D de la loi genevoise du 27 septembre 2009 sur l'imposition des personnes physiques (LIPP; rs/GE D 3 08), conformes aux art. 7c, 7d et 7f LHID , ont une teneur similaire aux art. 17a, 17b et 17d LIFD . Il en va de même de l'art. 13A de la loi genevoise du 23 septembre 1994 sur l'imposition à la source des personnes physiques et morales (LISP; rs/GE D 3 20), en lien avec l' art. 96 al. 1 LIFD , et dont la teneur est "
+   ]
+  }
+ ]
+}
