@@ -310,3 +310,6 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
   div.header > .title-wrapper { flex-shrink: 0; }
   .kopf-logo-rechts img { height: 2.1rem; }
 }
+
+/* Desktop: mehr Abstand zwischen Werktitel und Suchfeld */
+@media (min-width: 50rem) { div.header > .title-wrapper { margin-inline-end: 2.5rem; } }
