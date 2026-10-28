@@ -1,0 +1,32 @@
+{
+  "_hinweis": "Angebote des ILE-HSG, angezeigt auf Startseite, in der Seitenleiste und unter jeder Kommentierung. Seminare nach Ablauf des Datums «bis» werden beim nächsten Website-Bau automatisch ausgeblendet; neue Seminare hier ergänzen.",
+  "fstr": {
+    "titel": "Forum für Steuerrecht (FStR)",
+    "text": "Die Fachzeitschrift des ILE-HSG zum Schweizer und internationalen Steuerrecht, viermal jährlich.",
+    "url": "https://ile.unisg.ch/de/forum-fuer-steuerrecht/"
+  },
+  "seminare_url": "https://ile.unisg.ch/de/seminare/",
+  "weiterbildung": {
+    "titel": "Weiterbildung",
+    "text": "Weiterbildungsprogramme des Instituts im Steuerrecht.",
+    "url": "https://ile.unisg.ch/de/weiterbildung/"
+  },
+  "seminare": [
+    {
+      "kurz": "ISTR",
+      "titel": "St.Galler Seminar zum Internationalen Steuerrecht 2026",
+      "datum": "10.–11. November 2026",
+      "bis": "2026-11-11",
+      "ort": "Einstein St.Gallen",
+      "url": "https://ile.unisg.ch/de/newsdetail-1/events/stgaller-seminar-zum-internationalen-steuerrecht-2026-1/"
+    },
+    {
+      "kurz": "USTR",
+      "titel": "St.Galler Seminar zur Unternehmensbesteuerung 2026 (Wiederholung)",
+      "datum": "12.–13. Januar 2027",
+      "bis": "2027-01-13",
+      "ort": "Weiterbildungszentrum Holzweid, St.Gallen",
+      "url": "https://ile.unisg.ch/de/newsdetail-1/events/stgaller-seminar-zur-unternehmensbesteuerung-2026-wiederholung/"
+    }
+  ]
+}

@@ -1,15 +1,7 @@
 ---
-// Fusszeile: Starlight-Standard (Datum der letzten Änderung) plus Hinweise auf Angebote des ILE-HSG und Copyright.
+// Fusszeile: Starlight-Standard (Datum der letzten Änderung) plus Copyright (Angebote des ILE-HSG: Seitenleiste, Startseite, unter jeder Kommentierung).
 import Default from '@astrojs/starlight/components/Footer.astro';
 const jahr = new Date().getFullYear();
 ---
 <Default {...Astro.props}><slot /></Default>
-<aside class="ile-angebote" aria-label="Angebote des ILE-HSG">
-  <p class="ile-angebote-titel">Vom ILE-HSG</p>
-  <ul>
-    <li><a href="https://ile.unisg.ch/de/forum-fuer-steuerrecht/" target="_blank" rel="noopener"><strong>Forum für Steuerrecht (FStR)</strong><span>Die Fachzeitschrift des Instituts im Abonnement</span></a></li>
-    <li><a href="https://ile.unisg.ch/de/seminare/" target="_blank" rel="noopener"><strong>Seminare</strong><span>St.Galler Seminare zum Steuerrecht und zur Unternehmensbesteuerung</span></a></li>
-    <li><a href="https://ile.unisg.ch/de/weiterbildung/" target="_blank" rel="noopener"><strong>Weiterbildung</strong><span>Weiterbildungsprogramme des Instituts</span></a></li>
-  </ul>
-</aside>
 <p class="copyright">© {jahr} Institut für Law and Economics (ILE-HSG), Universität St.Gallen. Alle Rechte vorbehalten.</p>

@@ -26,6 +26,8 @@ export default defineConfig({
         ThemeSelect: './src/components/Leer.astro',
         ThemeProvider: './src/components/NurHell.astro',
         Footer: './src/components/Fusszeile.astro',
+        Sidebar: './src/components/Seitenleiste.astro',
+        SiteTitle: './src/components/Seitentitel.astro',
       },
       head: [
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.googleapis.com' } },

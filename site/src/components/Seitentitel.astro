@@ -1,0 +1,12 @@
+---
+// Kopf: ILE-Logo (Link zur Website des ILE-HSG) und Titel des Werks (Link zur Startseite).
+import logo from '../assets/ile-logo.png';
+const titel = Astro.locals.starlightRoute?.siteTitle ?? 'ILE-HSG Steuerrechtskommentar';
+const start = Astro.locals.starlightRoute?.siteTitleHref ?? import.meta.env.BASE_URL;
+---
+<span class="kopf">
+  <a class="kopf-logo" href="https://ile.unisg.ch/de/" target="_blank" rel="noopener" aria-label="Institut für Law and Economics der Universität St.Gallen">
+    <img src={logo.src} width="140" height="40" alt="Universität St.Gallen – Institute for Law and Economics" />
+  </a>
+  <a class="kopf-titel site-title" href={start}>{titel}</a>
+</span>

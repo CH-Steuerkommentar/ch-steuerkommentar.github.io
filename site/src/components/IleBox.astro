@@ -1,0 +1,25 @@
+---
+// Kasten «Vom ILE-HSG» in der Seitenleiste: FStR, die nächsten Seminare, Weiterbildung.
+import ile from '../data/ile.json';
+const heute = new Date().toISOString().slice(0, 10);
+const seminare = ile.seminare.filter((s) => s.bis >= heute).slice(0, 2);
+---
+<aside class="ile-box" aria-label="Angebote des ILE-HSG">
+  <p class="ile-box-titel">Vom ILE-HSG</p>
+  <a class="ile-box-eintrag" href={ile.fstr.url} target="_blank" rel="noopener">
+    <strong>{ile.fstr.titel}</strong><span>Jetzt abonnieren</span>
+  </a>
+  {seminare.map((s) => (
+    <a class="ile-box-eintrag" href={s.url} target="_blank" rel="noopener">
+      <strong>{s.titel}</strong><span>{s.datum}</span>
+    </a>
+  ))}
+  {seminare.length === 0 && (
+    <a class="ile-box-eintrag" href={ile.seminare_url} target="_blank" rel="noopener">
+      <strong>St.Galler Seminare</strong><span>Programm und Anmeldung</span>
+    </a>
+  )}
+  <a class="ile-box-eintrag" href={ile.weiterbildung.url} target="_blank" rel="noopener">
+    <strong>{ile.weiterbildung.titel}</strong><span>Programme des Instituts</span>
+  </a>
+</aside>

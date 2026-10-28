@@ -1,0 +1,7 @@
+---
+// Seitenleiste: Starlight-Navigation plus Kasten «Vom ILE-HSG».
+import Default from '@astrojs/starlight/components/Sidebar.astro';
+import IleBox from './IleBox.astro';
+---
+<Default {...Astro.props}><slot /></Default>
+<IleBox />

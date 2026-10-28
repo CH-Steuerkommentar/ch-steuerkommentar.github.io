@@ -9,6 +9,7 @@ Eine Kommentierung mit Befunden aus der Formatprüfung wird nicht veröffentlich
 from __future__ import annotations
 
 import argparse
+from datetime import date
 import html
 import datetime as dt
 import json
@@ -137,9 +138,13 @@ class Umwandler:
         aus.append("</div>\n")
         # Text
         zaehler = [0, 0, 0, 0]
+        hinweis_gesetzt = False
         for b in k.bloecke:
             if b.art == "ueberschrift":
                 if b.verzeichnis and b.ebene == 1:
+                    if not hinweis_gesetzt:
+                        aus.append(ile_hinweis(k))
+                        hinweis_gesetzt = True
                     aus.append(f"## {b.text}\n")
                     continue
                 zaehler[b.ebene - 1] += 1
@@ -161,10 +166,57 @@ class Umwandler:
                 aus.append(self.inline(b.text) + "\n")
                 if b.zeilen:
                     aus.append("\n".join(f"- {self.inline(z)}" for z in b.zeilen) + "\n")
+        if not hinweis_gesetzt:
+            aus.append(ile_hinweis(k))
         text = "\n".join(aus)
         text = re.sub(r"(\n- [^\n]*)\n(?=[^-\n])", r"\1\n\n", text)
         text += "\n\n" + "\n".join(f"[^{i}]: {inh}" for i, inh in enumerate(self.fn, 1)) + "\n"
         return text
+
+
+ILE_DATEN = Path(__file__).resolve().parent.parent / "site" / "src" / "data" / "ile.json"
+
+
+def ile_daten() -> dict:
+    d = lade_json(ILE_DATEN, {})
+    heute = date.today().isoformat()
+    d["naechste"] = [s for s in d.get("seminare", []) if s.get("bis", "") >= heute][:2]
+    return d
+
+
+def ile_hinweis(k) -> str:
+    """Kasten unter der Kommentierung: wie viele FStR-Beiträge und Seminarunterlagen sie stützen, mit Links."""
+    d = ile_daten()
+    if not d:
+        return ""
+    eintraege, in_lit = [], False
+    for b in k.bloecke:
+        if b.art == "ueberschrift" and b.verzeichnis and b.ebene == 1:
+            in_lit = b.text.strip().lower().startswith("literatur")
+        elif in_lit and b.art == "verzeichnis_eintrag":
+            eintraege.append(b.text)
+    fstr = sum(1 for e in eintraege if re.search(r"\bFStR\s+\d{4}", e))
+    sem = sum(1 for e in eintraege if "Seminarunterlage" in e)
+    if fstr or sem:
+        teile = []
+        if fstr:
+            teile.append(f"{fstr} {'Beitrag' if fstr == 1 else 'Beiträge'} aus dem Forum für Steuerrecht (FStR)")
+        if sem:
+            teile.append(f"{sem} {'Unterlage' if sem == 1 else 'Unterlagen'} der St.Galler Seminare")
+        satz = ("Diese Kommentierung stützt sich auf " + " und ".join(teile)
+                + ". Das FStR ist die Fachzeitschrift des ILE-HSG; die St.Galler Seminare greifen aktuelle Fragen der Praxis auf.")
+    else:
+        satz = ("Das Forum für Steuerrecht (FStR) ist die Fachzeitschrift des ILE-HSG zum Schweizer und internationalen "
+                "Steuerrecht; die St.Galler Seminare greifen aktuelle Fragen der Praxis auf.")
+    knoepfe = [f'<a class="ile-knopf" href="{d["fstr"]["url"]}" target="_blank" rel="noopener">FStR abonnieren</a>']
+    for s in d["naechste"]:
+        knoepfe.append(f'<a class="ile-knopf zweit" href="{s["url"]}" target="_blank" rel="noopener">'
+                       f'{html.escape(s["kurz"])} · {html.escape(s["datum"])}</a>')
+    if not d["naechste"]:
+        knoepfe.append(f'<a class="ile-knopf zweit" href="{d["seminare_url"]}" target="_blank" rel="noopener">Seminare</a>')
+    return ('\n<aside class="ile-hinweis" aria-label="Vertiefung beim ILE-HSG">'
+            '<p class="ile-hinweis-titel">Vertiefung beim ILE-HSG</p>'
+            f'<p>{html.escape(satz)}</p><p class="ile-knoepfe">{"".join(knoepfe)}</p></aside>\n')
 
 
 def erlass_seite(erlass: str, kommentiert: dict[str, dict]) -> str:
@@ -212,6 +264,23 @@ def startseite(stand: dict[str, int]) -> str:
         zeilen.append(f'<a class="erlass-knopf" href="./{key.lower()}/"><strong>{key}</strong>'
                       f'<span>{html.escape(e["name"])}</span><small>{n} Artikel kommentiert</small></a>')
     zeilen.append("</nav>")
+    d = ile_daten()
+    if d:
+        sem = "".join(f'<li><a href="{s["url"]}" target="_blank" rel="noopener">{html.escape(s["titel"])}</a>'
+                      f'<small>{html.escape(s["datum"])}, {html.escape(s["ort"])}</small></li>' for s in d["naechste"])
+        zeilen.append('<h2 class="start-zwischentitel">Vom ILE-HSG</h2>')
+        zeilen.append('<div class="start-ile">'
+                      f'<section class="start-ile-karte"><strong>{html.escape(d["fstr"]["titel"])}</strong>'
+                      f'<p>{html.escape(d["fstr"]["text"])} Viele Kommentierungen stützen sich auf seine Beiträge.</p>'
+                      f'<a class="ile-knopf" href="{d["fstr"]["url"]}" target="_blank" rel="noopener">FStR abonnieren</a></section>'
+                      '<section class="start-ile-karte"><strong>St.Galler Seminare</strong>'
+                      '<p>Die nächsten Seminare des Instituts:</p>'
+                      f'<ul>{sem}</ul>' if sem else '<section class="start-ile-karte"><strong>St.Galler Seminare</strong><p>Seminare zum internationalen Steuerrecht und zur Unternehmensbesteuerung.</p>')
+        zeilen[-1] += (f'<a class="ile-knopf" href="{d["seminare_url"]}" target="_blank" rel="noopener">Alle Seminare</a></section>'
+                       f'<section class="start-ile-karte"><strong>{html.escape(d["weiterbildung"]["titel"])}</strong>'
+                       f'<p>{html.escape(d["weiterbildung"]["text"])}</p>'
+                       f'<a class="ile-knopf" href="{d["weiterbildung"]["url"]}" target="_blank" rel="noopener">Zur Weiterbildung</a></section>'
+                       '</div>')
     zeilen.append('<h2 class="start-zwischentitel">So entsteht der Kommentar</h2>')
     zeilen.append('<ol class="start-schritte">'
                   '<li><strong>Rechtsprechung</strong><span>Alle Entscheide des Bundesgerichts, die die Norm zitieren, '
