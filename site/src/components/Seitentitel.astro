@@ -1,16 +1,16 @@
 ---
-// Kopf: ILE-Logo (Link zur Website des ILE-HSG), Titel des Werks und Knopf «Startseite».
+// Kopf: Knopf «Startseite», ILE-Logo (Link zur Website des ILE-HSG), Titel des Werks.
 import logo from '../assets/ile-logo.png';
 const titel = Astro.locals.starlightRoute?.siteTitle ?? 'ILE-HSG Steuerrechtskommentar';
 const start = Astro.locals.starlightRoute?.siteTitleHref ?? import.meta.env.BASE_URL;
 ---
 <span class="kopf">
-  <a class="kopf-logo" href="https://ile.unisg.ch/de/" target="_blank" rel="noopener" aria-label="Institut für Law and Economics der Universität St.Gallen">
-    <img src={logo.src} width="140" height="40" alt="Universität St.Gallen – Institute for Law and Economics" />
-  </a>
-  <a class="kopf-titel site-title" href={start}>{titel}</a>
   <a class="kopf-home" href={start} aria-label="Zur Startseite" title="Zur Startseite">
     <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V21h-6.5v-6h-5v6H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
     <span>Startseite</span>
   </a>
+  <a class="kopf-logo" href="https://ile.unisg.ch/de/" target="_blank" rel="noopener" aria-label="Institut für Law and Economics der Universität St.Gallen">
+    <img src={logo.src} width="140" height="40" alt="Universität St.Gallen – Institute for Law and Economics" />
+  </a>
+  <a class="kopf-titel site-title" href={start}>{titel}</a>
 </span>
