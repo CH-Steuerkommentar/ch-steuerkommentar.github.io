@@ -19,7 +19,7 @@ jobs:
         run: |
           test -n "$KEY" || { echo "Secret LEXPLORER_API_KEY fehlt"; exit 1; }
           URL=https://mcp-tax.lexplorer.ch/mcp
-          H=(-H "Authorization: Bearer $KEY" -H "Content-Type: application/json" -H "Accept: application/json, text/event-stream")
+          H=(-H "X-API-KEY: $KEY" -H "Content-Type: application/json" -H "Accept: application/json, text/event-stream")
           curl -sS -D kopf.txt "${H[@]}" "$URL" -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"ile-test","version":"1"}}}' | head -c 600; echo
           head -1 kopf.txt
           SID=$(grep -i '^mcp-session-id:' kopf.txt | cut -d' ' -f2 | tr -d '\r')

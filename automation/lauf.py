@@ -146,8 +146,9 @@ def mcp_server() -> dict:
     server = {"open-case-law": {"type": "http", "url": "https://mcp.opencaselaw.ch/mcp"}}
     schluessel = os.environ.get("LEXPLORER_API_KEY", "").strip()
     if schluessel:
-        server["lexplorer-tax"] = {"type": "http", "url": "https://mcp-tax.lexplorer.ch/mcp",
-                                   "headers": {"Authorization": f"Bearer {schluessel}"}}
+        kopf = {"X-API-KEY": schluessel}
+        server["lexplorer-tax"] = {"type": "http", "url": "https://mcp-tax.lexplorer.ch/mcp", "headers": kopf}
+        server["lexplorer-law"] = {"type": "http", "url": "https://law.lexplorer.ch/mcp", "headers": kopf}
     return server
 
 
