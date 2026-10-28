@@ -360,12 +360,14 @@ div.header > div:nth-child(2) { margin-inline-start: auto; }
 
 /* Kasten «Vom ILE-HSG»: rechts unter dem Inhaltsverzeichnis, sobald die rechte Spalte sichtbar ist; sonst links */
 .right-sidebar-panel .sl-container {
-  /* Breite der rechten Spalte (wie Starlight) abzüglich Innenabstand, höchstens 26rem */
-  width: min(26rem, max(var(--sl-sidebar-width), var(--sl-sidebar-width) + (100vw - 2 * var(--sl-sidebar-width) - var(--sl-content-width)) / 2) - 2 * var(--sl-sidebar-pad-x) - 0.5rem);
+  /* Breite der rechten Spalte (wie Starlight) abzüglich Innenabstand */
+  width: calc(max(var(--sl-sidebar-width), var(--sl-sidebar-width) + (100vw - 2 * var(--sl-sidebar-width) - var(--sl-content-width)) / 2) - 2 * var(--sl-sidebar-pad-x));
+  max-width: none;
 }
 /* rechts: kompakt, breit, immer sichtbar am unteren Rand der rechten Spalte */
-.ile-box-rechts { position: sticky; bottom: 0; margin-top: 1.5rem; padding-bottom: 1rem; background: var(--sl-color-bg); }
-.ile-box-kompakt { margin: 0; padding: 0.6rem 0.8rem 0.3rem; }
+/* volle Spaltenbreite; oben ein unsichtbarer Streifen, hinter dem das Inhaltsverzeichnis verschwindet */
+.ile-box-rechts { position: sticky; bottom: 0; margin: 1rem calc(-1 * var(--sl-sidebar-pad-x)) 0; padding-top: 1.25rem; background: var(--sl-color-bg); }
+.ile-box-kompakt { margin: 0; padding: 0.6rem var(--sl-sidebar-pad-x) 0.5rem; }
 .ile-box-kompakt .ile-box-titel { margin-bottom: 0.3rem; }
 .ile-box-kompakt .ile-box-eintrag { flex-direction: row; justify-content: space-between; align-items: baseline; gap: 0.6rem; padding: 0.35rem 0; }
 .ile-box-kompakt .ile-box-eintrag strong { font-size: 0.82rem; }

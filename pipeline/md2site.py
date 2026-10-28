@@ -327,8 +327,9 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", de
 START = {
     "de": {
         "intro": "Kommentierungen zum Bundesgesetz über die direkte Bundessteuer, zum Steuerharmonisierungsgesetz, zum "
-                 "Verrechnungssteuergesetz, zum Mehrwertsteuergesetz und zum Stempelabgabengesetz – frei zugänglich, "
-                 "neutral, jede Fundstelle am Volltext geprüft.",
+                 "Verrechnungssteuergesetz, zum Mehrwertsteuergesetz und zum Stempelabgabengesetz – frei zugänglich "
+                 "und neutral, vollständig von KI verfasst und ohne menschliche Durchsicht veröffentlicht; jede Fundstelle "
+                 "hat die KI am Volltext geprüft.",
         "ueber": "Über den ILE-HSG Steuerrechtskommentar", "erlasse": "Erlasse", "n_kommentiert": "{n} Artikel kommentiert",
         "ile": "Vom ILE-HSG", "fstr_zusatz": " Viele Kommentierungen stützen sich auf seine Beiträge.",
         "abo": "FStR abonnieren", "sem_titel": "St.Galler Seminare", "sem_naechste": "Die nächsten Seminare des Instituts:",
@@ -344,8 +345,9 @@ START = {
     },
     "fr": {
         "intro": "Commentaires de la loi sur l'impôt fédéral direct, de la loi sur l'harmonisation des impôts directs, de la loi "
-                 "sur l'impôt anticipé, de la loi sur la TVA et de la loi sur les droits de timbre – en libre accès, neutres, "
-                 "chaque référence vérifiée sur le texte intégral. Traduits de la version allemande.",
+                 "sur l'impôt anticipé, de la loi sur la TVA et de la loi sur les droits de timbre – en libre accès et neutres, "
+                 "entièrement rédigés par une IA et publiés sans relecture humaine ; chaque référence a été vérifiée "
+                 "par l'IA sur le texte intégral. Traduits de la version allemande.",
         "ueber": "À propos du Commentaire de droit fiscal ILE-HSG", "erlasse": "Lois", "n_kommentiert": "{n} articles commentés",
         "ile": "L'ILE-HSG", "fstr_zusatz": " De nombreux commentaires s'appuient sur ses contributions.",
         "abo": "S'abonner à la FStR", "sem_titel": "Séminaires de Saint-Gall", "sem_naechste": "Les prochains séminaires de l'institut :",
