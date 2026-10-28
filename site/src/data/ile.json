@@ -6,11 +6,6 @@
     "url": "https://ile.unisg.ch/de/forum-fuer-steuerrecht/"
   },
   "seminare_url": "https://ile.unisg.ch/de/seminare/",
-  "weiterbildung": {
-    "titel": "Weiterbildung",
-    "text": "Weiterbildungsprogramme des Instituts im Steuerrecht.",
-    "url": "https://ile.unisg.ch/de/weiterbildung/"
-  },
   "seminare": [
     {
       "kurz": "ISTR",
@@ -28,5 +23,10 @@
       "ort": "Weiterbildungszentrum Holzweid, St.Gallen",
       "url": "https://ile.unisg.ch/de/newsdetail-1/events/stgaller-seminar-zur-unternehmensbesteuerung-2026-wiederholung/"
     }
-  ]
+  ],
+  "tax": {
+    "titel": "ILE-HSG Tax Law",
+    "text": "Der Fachbereich Steuerrecht des ILE-HSG forscht und lehrt im Steuerrecht und führt die St.Galler Seminare durch.",
+    "url": "https://ile.unisg.ch/de/fachbereiche/tax-law/"
+  }
 }

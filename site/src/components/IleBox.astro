@@ -1,5 +1,5 @@
 ---
-// Kasten «Vom ILE-HSG» in der Seitenleiste: FStR, die nächsten Seminare, Weiterbildung.
+// Kasten «Vom ILE-HSG» in der Seitenleiste: FStR, die nächsten Seminare, Fachbereich Tax Law.
 import ile from '../data/ile.json';
 const heute = new Date().toISOString().slice(0, 10);
 const seminare = ile.seminare.filter((s) => s.bis >= heute).slice(0, 2);
@@ -19,7 +19,7 @@ const seminare = ile.seminare.filter((s) => s.bis >= heute).slice(0, 2);
       <strong>St.Galler Seminare</strong><span>Programm und Anmeldung</span>
     </a>
   )}
-  <a class="ile-box-eintrag" href={ile.weiterbildung.url} target="_blank" rel="noopener">
-    <strong>{ile.weiterbildung.titel}</strong><span>Programme des Instituts</span>
+  <a class="ile-box-eintrag" href={ile.tax.url} target="_blank" rel="noopener">
+    <strong>{ile.tax.titel}</strong><span>Fachbereich Steuerrecht</span>
   </a>
 </aside>

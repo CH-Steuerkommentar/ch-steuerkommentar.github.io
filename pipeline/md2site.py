@@ -277,9 +277,9 @@ def startseite(stand: dict[str, int]) -> str:
                       '<p>Die nächsten Seminare des Instituts:</p>'
                       f'<ul>{sem}</ul>' if sem else '<section class="start-ile-karte"><strong>St.Galler Seminare</strong><p>Seminare zum internationalen Steuerrecht und zur Unternehmensbesteuerung.</p>')
         zeilen[-1] += (f'<a class="ile-knopf" href="{d["seminare_url"]}" target="_blank" rel="noopener">Alle Seminare</a></section>'
-                       f'<section class="start-ile-karte"><strong>{html.escape(d["weiterbildung"]["titel"])}</strong>'
-                       f'<p>{html.escape(d["weiterbildung"]["text"])}</p>'
-                       f'<a class="ile-knopf" href="{d["weiterbildung"]["url"]}" target="_blank" rel="noopener">Zur Weiterbildung</a></section>'
+                       f'<section class="start-ile-karte"><strong>{html.escape(d["tax"]["titel"])}</strong>'
+                       f'<p>{html.escape(d["tax"]["text"])}</p>'
+                       f'<a class="ile-knopf" href="{d["tax"]["url"]}" target="_blank" rel="noopener">Zum Fachbereich</a></section>'
                        '</div>')
     zeilen.append('<h2 class="start-zwischentitel">So entsteht der Kommentar</h2>')
     zeilen.append('<ol class="start-schritte">'
