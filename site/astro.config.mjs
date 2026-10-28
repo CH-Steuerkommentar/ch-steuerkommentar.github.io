@@ -45,7 +45,6 @@ export default defineConfig({
         Footer: './src/components/Fusszeile.astro',
         Sidebar: './src/components/Seitenleiste.astro',
         SiteTitle: './src/components/Seitentitel.astro',
-        SocialIcons: './src/components/LogoRechts.astro',
       },
       head: [
         { tag: 'link', attrs: { rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: '', href: 'https://ile.unisg.ch/typo3conf/ext/cs2_prototypes/src/dist/fonts/GillSansMTPro-Light.woff2' } },

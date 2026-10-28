@@ -1,12 +1,19 @@
 ---
-// Kopf links: Knopf «Startseite» und Titel des Werks. Das ILE-Logo steht rechts (LogoRechts.astro).
-const titel = Astro.locals.starlightRoute?.siteTitle ?? 'ILE-HSG Steuerrechtskommentar';
-const start = Astro.locals.starlightRoute?.siteTitleHref ?? import.meta.env.BASE_URL;
+// Kopf links. Startseite: ILE-Logo in der Mitte (ohne Link). Übrige Seiten: Werkname und ILE-Logo als Link zur Startseite.
+import logo from '../assets/ile-logo.png';
+const route = Astro.locals.starlightRoute;
+const start = route?.siteTitleHref ?? import.meta.env.BASE_URL;
+const istStart = route?.entry?.id === 'index' || route?.entry?.data?.template === 'splash';
+const alt = 'Universität St.Gallen – Institute for Law and Economics';
 ---
-<span class="kopf">
-  <a class="kopf-home" href={start} aria-label="Zur Startseite" title="Zur Startseite">
-    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V21h-6.5v-6h-5v6H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
-    <span>Startseite</span>
+{istStart ? (
+  <span class="kopf kopf-start">
+    <img class="kopf-logo" src={logo.src} width="140" height="40" alt={alt} />
+  </span>
+) : (
+  <a class="kopf kopf-link" href={start} aria-label="ILE-HSG Steuerrechtskommentar – zur Startseite">
+    <span class="kopf-werk"><span>ILE-HSG </span><span>Steuerrechtskommentar</span></span>
+    <span class="kopf-trenner" aria-hidden="true"></span>
+    <img class="kopf-logo" src={logo.src} width="140" height="40" alt={alt} />
   </a>
-  <a class="kopf-titel site-title" href={start}>{titel}</a>
-</span>
+)}

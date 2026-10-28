@@ -251,16 +251,6 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
 .start-schritte span { font-size: 0.95rem; line-height: 1.45; }
 .sl-markdown-content .start-mehr { margin-top: 1rem !important; }
 
-/* Kopf: ILE-Logo links, Werktitel daneben */
-.kopf { display: flex; align-items: center; gap: 1rem; min-width: 0; }
-.kopf-logo { display: flex; flex-shrink: 0; }
-.kopf-logo img { height: 2.8rem; width: auto; }
-.kopf-titel { text-decoration: none; padding-left: 1rem; border-left: 1px solid var(--linie); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-@media (max-width: 40rem) {
-  .kopf-logo img { height: 2.2rem; }
-  .kopf-titel { display: none; }
-}
-
 /* Seitenleiste: Kasten «Vom ILE-HSG» */
 .ile-box { margin: 1.5rem 0 1rem; border-top: 3px solid var(--gruen); background: var(--grau-band); padding: 0.8rem 0.9rem 0.4rem; font-family: var(--sl-font); }
 .ile-box-titel { margin: 0 0 0.5rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gruen-dunkel); font-weight: 500; }
@@ -290,26 +280,36 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
 .sl-markdown-content .start-ile-karte .ile-knopf { margin-top: auto; align-self: flex-start; padding: 0.45rem 0.9rem; background: var(--gruen); color: #fff; text-decoration: none; font-size: 0.9rem; }
 .sl-markdown-content .start-ile-karte .ile-knopf:hover { background: var(--gruen-dunkel); }
 
-/* Knopf «Startseite» im Kopf */
-.kopf-home { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.75rem; border: 1px solid var(--gruen); color: var(--gruen-dunkel); text-decoration: none; font-size: 0.9rem; white-space: nowrap; flex-shrink: 0; }
-.kopf-home:hover { background: var(--gruen); color: #fff; }
-@media (max-width: 40rem) { .kopf-home { padding: 0.4rem 0.5rem; } .kopf-home span { display: none; } }
-
 /* Fusszeile: Impressum, Datenschutz, Haftungsausschluss */
 .rechtliches { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--linie); font-family: var(--sl-font); font-size: 0.85rem; }
 .rechtliches a { color: var(--gruen-dunkel); text-decoration: none; }
 .rechtliches a:hover { text-decoration: underline; }
 .rechtliches + .copyright { margin-top: 0.6rem; }
 
-/* ILE-Logo rechts im Kopf; auf dem Handy: Haus, Lupe, rechts Logo (vor dem Menüknopf) */
+/* ---------- Kopf ----------
+   Startseite: ILE-Logo in der Mitte, Suche rechts.
+   Übrige Seiten: links Werkname (klein) und ILE-Logo, beides Link zur Startseite; rechts Suche (und auf dem Handy der Menüknopf). */
 .header .social-icons::after { display: none; }
-.kopf-logo-rechts img { height: 2.8rem; width: auto; }
-@media (max-width: 49.99rem) {
-  div.header > .right-group.sl-hidden { display: flex; }
-  div.header > div:nth-child(2) { margin-inline-end: auto; }
-  div.header > .title-wrapper { flex-shrink: 0; }
-  .kopf-logo-rechts img { height: 2.1rem; }
+.kopf { display: flex; align-items: center; min-width: 0; text-decoration: none; }
+.kopf-link { gap: 0.75rem; color: var(--gruen-dunkel); }
+.kopf-werk { font-family: var(--sl-font); font-weight: 400; font-size: 0.95rem; line-height: 1.15; color: var(--gruen-dunkel); white-space: nowrap; }
+.kopf-werk span { display: inline; }
+.kopf-trenner { width: 1px; align-self: stretch; background: var(--linie); margin: 0.2rem 0; }
+.kopf-logo { height: 2.6rem; width: auto; display: block; }
+.kopf-link:hover .kopf-werk { color: var(--gruen); }
+.kopf-start { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.kopf-start .kopf-logo { height: 2.9rem; }
+/* Suche immer rechts */
+div.header > div:nth-child(2) { margin-inline-start: auto; }
+@media (min-width: 50rem) {
+  site-search > button[data-open-modal] { width: 20rem; max-width: 20rem; }
+  :root:not([data-has-sidebar]) site-search > button[data-open-modal] { width: 16rem; }
 }
-
-/* Desktop: mehr Abstand zwischen Werktitel und Suchfeld */
-@media (min-width: 50rem) { div.header > .title-wrapper { margin-inline-end: 2.5rem; } }
+@media (max-width: 49.99rem) {
+  .kopf-werk { font-size: 0.8rem; white-space: normal; }
+  .kopf-werk span { display: block; }
+  .kopf-link { gap: 0.55rem; }
+  .kopf-logo { height: 2rem; }
+  .kopf-start .kopf-logo { height: 2.4rem; }
+}
+@media (max-width: 23rem) { .kopf-link .kopf-logo, .kopf-link .kopf-trenner { display: none; } }
