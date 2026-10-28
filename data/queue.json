@@ -6095,11 +6095,14 @@
    "erlass": "StG",
    "nummer": "8",
    "sachueberschrift": "Beteiligungsrechte",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T10:13:46+00:00"
   },
   "StG/art-9": {
    "erlass": "StG",
