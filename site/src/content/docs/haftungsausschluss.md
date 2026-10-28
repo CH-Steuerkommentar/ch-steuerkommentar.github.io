@@ -21,4 +21,4 @@ Die Kommentierungen verweisen auf Websites Dritter, namentlich auf Entscheide, M
 
 ## Hinweise auf Fehler
 
-Hinweise auf Fehler sind willkommen: [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch).
+Hinweise auf Fehler sind willkommen: [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch?subject=%5BILE-StK%5D%20Hinweis).

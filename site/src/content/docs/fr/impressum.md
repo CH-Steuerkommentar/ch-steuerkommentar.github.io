@@ -12,7 +12,7 @@ Varnbüelstrasse 19
 Suisse
 
 Téléphone : +41 71 224 25 20  
-E-mail : [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch)  
+E-mail : [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch?subject=%5BILE-StK%5D%20Contact)  
 Site web : [ile.unisg.ch](https://ile.unisg.ch/de/)
 
 L'Université de Saint-Gall est un établissement autonome de droit public du canton de Saint-Gall.

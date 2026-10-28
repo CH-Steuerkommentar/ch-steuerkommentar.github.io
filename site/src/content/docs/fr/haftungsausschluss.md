@@ -21,4 +21,4 @@ Les commentaires renvoient à des sites de tiers. Seuls leurs exploitants répon
 
 ## Signaler une erreur
 
-Les signalements d'erreurs sont les bienvenus : [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch).
+Les signalements d'erreurs sont les bienvenus : [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch?subject=%5BILE-StK%5D%20Signalement).

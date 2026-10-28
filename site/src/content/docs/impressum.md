@@ -12,7 +12,7 @@ Varnbüelstrasse 19
 Schweiz
 
 Telefon: +41 71 224 25 20  
-E-Mail: [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch)  
+E-Mail: [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch?subject=%5BILE-StK%5D%20Kontakt)  
 Website: [ile.unisg.ch](https://ile.unisg.ch/de/)
 
 Die Universität St.Gallen ist eine selbständige öffentlich-rechtliche Anstalt des Kantons St.Gallen.
