@@ -19,6 +19,25 @@ function externeLinksNeuerTab() {
   return (baum) => besuchen(baum);
 }
 
+// Französische Seiten: Überschrift der Fussnoten auf Französisch.
+function fussnotenFranzoesisch() {
+  return (baum, datei) => {
+    const pfad = String(datei?.path ?? datei?.history?.[0] ?? '').replace(/\\/g, '/');
+    if (!pfad.includes('/content/docs/fr/')) return;
+    const suchen = (k) => {
+      if (k.type === 'element' && k.properties?.id === 'footnote-label') {
+        k.children = [{ type: 'text', value: 'Notes' }];
+      }
+      if (k.type === 'element' && k.tagName === 'a' && k.properties?.ariaLabel === 'Zurück zum Text') {
+        k.properties.ariaLabel = 'Retour au texte';
+      }
+      (k.children ?? []).forEach(suchen);
+    };
+    suchen(baum);
+  };
+}
+
+const OG_BILD = (process.env.SITE ?? 'https://example.github.io') + (process.env.BASE ?? '/') + 'og.png';
 const WERK = process.env.WERK_NAME ?? 'ILE-HSG Steuerrechtskommentar';
 
 export default defineConfig({
@@ -26,7 +45,7 @@ export default defineConfig({
   base: process.env.BASE ?? '/',
   trailingSlash: 'always',
   markdown: {
-    rehypePlugins: [externeLinksNeuerTab],
+    rehypePlugins: [externeLinksNeuerTab, fussnotenFranzoesisch],
     remarkRehype: {
       footnoteLabel: 'Fussnoten',
       footnoteBackLabel: 'Zurück zum Text',
@@ -50,12 +69,14 @@ export default defineConfig({
       },
       favicon: '/favicon-32.png',
       head: [
+        { tag: 'meta', attrs: { property: 'og:image', content: OG_BILD } },
+        { tag: 'meta', attrs: { name: 'twitter:card', content: 'summary_large_image' } },
         { tag: 'link', attrs: { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' } },
         { tag: 'link', attrs: { rel: 'icon', type: 'image/png', sizes: '512x512', href: '/favicon-512.png' } },
         { tag: 'link', attrs: { rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: '', href: 'https://ile.unisg.ch/typo3conf/ext/cs2_prototypes/src/dist/fonts/GillSansMTPro-Light.woff2' } },
       ],
       lastUpdated: true,
-      pagination: false,
+      pagination: true,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
       sidebar: [
         { label: 'DBG', translations: { fr: 'LIFD' }, collapsed: true, items: [{ autogenerate: { directory: 'dbg' } }] },

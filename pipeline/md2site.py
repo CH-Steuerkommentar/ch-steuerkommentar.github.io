@@ -174,6 +174,7 @@ class Umwandler:
             if b.art == "ueberschrift":
                 if b.verzeichnis and b.ebene == 1:
                     if not hinweis_gesetzt:
+                        aus.append(fehler_melden(erlass, art, self.lang))
                         aus.append(ile_hinweis(k, self.lang))
                         hinweis_gesetzt = True
                     aus.append(f"## {b.text}\n")
@@ -186,7 +187,7 @@ class Umwandler:
                 aus.append(f"### {b.text}\n")
             elif b.art == "randnote":
                 n = b.nummer
-                aus.append(f'<span class="rn" id="n{n}"><a href="#n{n}" aria-label="{tx['randnote']} {n}">{n}</a></span> '
+                aus.append(f'<span class="rn" id="n{n}" data-pagefind-ignore><a href="#n{n}" aria-label="{tx['randnote']} {n}">{n}</a></span> '
                            f"{self.inline(b.text)}")
                 if b.zeilen:
                     aus.append("\n" + "\n".join(f"- {self.inline(z)}" for z in b.zeilen))
@@ -198,6 +199,7 @@ class Umwandler:
                 if b.zeilen:
                     aus.append("\n".join(f"- {self.inline(z)}" for z in b.zeilen) + "\n")
         if not hinweis_gesetzt:
+            aus.append(fehler_melden(erlass, art, self.lang))
             aus.append(ile_hinweis(k, self.lang))
         text = "\n".join(aus)
         text = re.sub(r"(\n- [^\n]*)\n(?=[^-\n])", r"\1\n\n", text)
@@ -213,6 +215,21 @@ def ile_daten() -> dict:
     heute = date.today().isoformat()
     d["naechste"] = [s for s in d.get("seminare", []) if s.get("bis", "") >= heute][:2]
     return d
+
+
+def fehler_melden(erlass: str, art: str, lang: str = "de") -> str:
+    """Kleiner Hinweis am Ende des Kommentartexts: Fehler per E-Mail melden (Betreff vorausgefüllt)."""
+    from urllib.parse import quote
+    if lang == "fr":
+        betreff = f"Commentaire ILE-HSG, art. {art} {abk(erlass, lang)} : signalement"
+        text = "Vous avez trouvé une erreur ? "
+        link = "Signalez-la-nous"
+    else:
+        betreff = f"ILE-HSG Steuerrechtskommentar, Art. {art} {erlass}: Hinweis"
+        text = "Fehler gefunden? "
+        link = "Hinweis an das ILE-HSG senden"
+    return (f'\n<p class="fehler-melden">{text}<a href="mailto:sekretariat-ile@unisg.ch?subject={quote(betreff)}">'
+            f'{link}</a></p>\n')
 
 
 def ile_hinweis(k, lang: str = "de") -> str:
@@ -279,19 +296,19 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", de
         kopf = [f"{e['name_fr']} (RS {e['sr']}), version du {datum_ch(inv.get('fassung_vom', ''))} "
                 f"([Fedlex](https://www.fedlex.admin.ch/eli/cc/{eli}/fr)).\n",
                 f"{len(kommentiert)} articles commentés en français et {len(deutsch)} en allemand, sur {gesamt} articles en vigueur. "
-                "Les dispositions transitoires ainsi que celles relatives au référendum et à l'entrée en vigueur ne sont pas commentées.\n",
+                "Les dispositions finales et transitoires ainsi que celles relatives au référendum et à l'entrée en vigueur ne sont pas commentées.\n",
                 "| Article | Titre | État |", "|---|---|---|"]
         label, nicht = "Aperçu", "non commenté"
     else:
         ab = erlass
         kopf = [f"{e['name']} (SR {e['sr']}), Fassung vom {datum_ch(inv.get('fassung_vom', ''))} "
                 f"([Fedlex](https://www.fedlex.admin.ch/eli/cc/{eli}/de)).\n",
-                f"{len(kommentiert)} von {gesamt} geltenden Artikeln kommentiert. Übergangsbestimmungen sowie Referendum "
-                "und Inkrafttreten werden nicht kommentiert.\n",
+                f"{len(kommentiert)} von {gesamt} geltenden Artikeln kommentiert. Schluss- und Übergangsbestimmungen sowie "
+                "Referendum und Inkrafttreten werden nicht kommentiert.\n",
                 "| Artikel | Sachüberschrift | Stand |", "|---|---|---|"]
         label, nicht = "Übersicht", "nicht kommentiert"
     zeilen = ["---", f"title: {yaml_str(ab)}", f"description: {yaml_str(erlass_name(erlass, lang))}",
-              "sidebar:", f"  label: {label}", "  order: 0", "---\n"] + kopf
+              "sidebar:", f"  label: {label}", "  order: 0", "tableOfContents: false", "prev: false", "---\n"] + kopf
     for a in inv["artikel"]:
         if a["aufgehoben"]:
             continue

@@ -339,3 +339,21 @@ div.header > div:nth-child(2) { margin-inline-start: auto; }
   :root:not([data-has-sidebar]) .kopf-start .kopf-logo { height: 1.75rem; }
   :root:not([data-has-sidebar]) .kopf-trenner-start { margin: 0.2rem 0.45rem; }
 }
+
+/* Fehler melden */
+.sl-markdown-content .fehler-melden { margin-top: 2rem; font-family: var(--sl-font); font-size: 0.9rem; color: var(--sl-color-gray-3); }
+
+/* Weiter/Zurück zwischen Artikeln */
+.pagination-links a { border-radius: 0 !important; box-shadow: none !important; border-color: var(--linie) !important; }
+.pagination-links a:hover { border-color: var(--gruen) !important; }
+
+/* Druck: nur Kommentar, keine Navigation und Werbung */
+@media print {
+  header.header, .sidebar-pane, .right-sidebar-container, starlight-toc, mobile-starlight-toc, .ile-hinweis, .ile-box,
+  .sprachwahl, .pagination-links, .fehler-melden, .zitiervorschlag button, .rechtliches, site-search { display: none !important; }
+  .main-frame { padding-top: 0 !important; padding-inline-start: 0 !important; }
+  .sl-markdown-content { font-size: 10.5pt; }
+  .sl-markdown-content a { color: inherit; text-decoration: none; }
+}
+.pagination-links .link-title { font-size: 1.05rem !important; font-weight: 400; }
+.pagination-links a { padding: 0.8rem 1rem !important; }
