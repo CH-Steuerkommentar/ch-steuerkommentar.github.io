@@ -343,7 +343,7 @@ START = {
                  "und neutral, vollständig von KI verfasst und ohne menschliche Durchsicht veröffentlicht; jede Fundstelle "
                  "hat die KI am Volltext geprüft.",
         "ueber": "Über den ILE-HSG Steuerrechtskommentar", "erlasse": "Erlasse", "n_kommentiert": "{n} Artikel kommentiert",
-        "ile": "Vom ILE-HSG", "fstr_zusatz": " Die Kommentierungen stützen sich auf Publikationen des ILE-HSG.",
+        "ile": "Vom ILE-HSG", "fstr_zusatz": " Die Kommentierungen stützen sich auf Publikationen des ILE-HSG. Abonnenten des FStR haben digitalen Zugriff auf diese Publikationen.",
         "abo": "FStR abonnieren", "sem_titel": "St.Galler Seminare", "sem_naechste": "Die nächsten Seminare des Instituts:",
         "sem_alle": "Alle Seminare", "tax_knopf": "Zum Fachbereich",
         "so": "So entsteht der Kommentar",
