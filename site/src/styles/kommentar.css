@@ -307,9 +307,16 @@ div.header > div:nth-child(2) { margin-inline-start: auto; }
 }
 @media (max-width: 49.99rem) {
   .kopf-werk { font-size: 0.72rem; white-space: normal; }
-  .kopf-werk span { display: block; }
+  .kopf-werk span { display: block; white-space: nowrap; hyphens: none; }
+  .kopf-link { flex-shrink: 0; }
   .kopf-link { gap: 0.55rem; }
   .kopf-logo { height: 2rem; }
   .kopf-start .kopf-logo { height: 2.1rem; }
 }
-@media (max-width: 23rem) { .kopf-link .kopf-logo, .kopf-link .kopf-trenner, .kopf-start { display: none; } }
+@media (max-width: 49.99rem) {
+  /* Startseite Handy: Logo mittig im freien Raum zwischen Werkname und Lupe */
+  :root:not([data-has-sidebar]) div.header > .title-wrapper { flex: 1; }
+  .kopf-start { position: static; transform: none; margin-inline: auto; padding-inline: 0.5rem; }
+}
+@media (max-width: 23rem) { .kopf-link .kopf-logo, .kopf-link .kopf-trenner { display: none; } }
+@media (max-width: 21.5rem) { .kopf-start { display: none; } }
