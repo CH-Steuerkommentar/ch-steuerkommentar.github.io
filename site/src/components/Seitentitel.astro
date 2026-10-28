@@ -1,5 +1,6 @@
 ---
-// Kopf links. Startseite: ILE-Logo in der Mitte (ohne Link). Übrige Seiten: Werkname und ILE-Logo als Link zur Startseite.
+// Kopf links: Werkname (Link zur Startseite), auf allen Seiten am gleichen Ort.
+// Startseite: ILE-Logo in der Mitte, Link zur Website des ILE-HSG. Übrige Seiten: ILE-Logo neben dem Werknamen, Teil des Startseiten-Links.
 import logo from '../assets/ile-logo.png';
 const route = Astro.locals.starlightRoute;
 const start = route?.siteTitleHref ?? import.meta.env.BASE_URL;
@@ -7,9 +8,14 @@ const istStart = route?.entry?.id === 'index' || route?.entry?.data?.template ==
 const alt = 'Universität St.Gallen – Institute for Law and Economics';
 ---
 {istStart ? (
-  <span class="kopf kopf-start">
-    <img class="kopf-logo" src={logo.src} width="140" height="40" alt={alt} />
-  </span>
+  <>
+    <a class="kopf kopf-link" href={start}>
+      <span class="kopf-werk"><span>ILE-HSG </span><span>Steuerrechtskommentar</span></span>
+    </a>
+    <a class="kopf-start" href="https://ile.unisg.ch/de/" target="_blank" rel="noopener" aria-label="Institut für Law and Economics der Universität St.Gallen (neuer Tab)">
+      <img class="kopf-logo" src={logo.src} width="140" height="40" alt={alt} />
+    </a>
+  </>
 ) : (
   <a class="kopf kopf-link" href={start} aria-label="ILE-HSG Steuerrechtskommentar – zur Startseite">
     <span class="kopf-werk"><span>ILE-HSG </span><span>Steuerrechtskommentar</span></span>

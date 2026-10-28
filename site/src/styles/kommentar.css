@@ -306,10 +306,10 @@ div.header > div:nth-child(2) { margin-inline-start: auto; }
   :root:not([data-has-sidebar]) site-search > button[data-open-modal] { width: 16rem; }
 }
 @media (max-width: 49.99rem) {
-  .kopf-werk { font-size: 0.8rem; white-space: normal; }
+  .kopf-werk { font-size: 0.72rem; white-space: normal; }
   .kopf-werk span { display: block; }
   .kopf-link { gap: 0.55rem; }
   .kopf-logo { height: 2rem; }
-  .kopf-start .kopf-logo { height: 2.4rem; }
+  .kopf-start .kopf-logo { height: 2.1rem; }
 }
-@media (max-width: 23rem) { .kopf-link .kopf-logo, .kopf-link .kopf-trenner { display: none; } }
+@media (max-width: 23rem) { .kopf-link .kopf-logo, .kopf-link .kopf-trenner, .kopf-start { display: none; } }
