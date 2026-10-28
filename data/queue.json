@@ -3898,11 +3898,14 @@
    "erlass": "VStG",
    "nummer": "6",
    "sachueberschrift": "Gegenstand der Steuer: Gewinne aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T10:14:04+00:00"
   },
   "VStG/art-7": {
    "erlass": "VStG",
