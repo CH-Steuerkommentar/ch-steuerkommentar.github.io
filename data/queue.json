@@ -2224,7 +2224,7 @@
    "erlass": "DBG",
    "nummer": "199",
    "sachueberschrift": "Erster Titel: Ausführungsbestimmungen",
-   "status": "offen",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -2234,7 +2234,7 @@
    "erlass": "DBG",
    "nummer": "200",
    "sachueberschrift": "Zweiter Titel: Kantonale Stempelabgaben",
-   "status": "offen",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -2244,7 +2244,7 @@
    "erlass": "DBG",
    "nummer": "201",
    "sachueberschrift": "Aufhebung des BdBSt",
-   "status": "offen",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -2254,7 +2254,7 @@
    "erlass": "DBG",
    "nummer": "202",
    "sachueberschrift": "Änderung des MVG",
-   "status": "offen",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -3692,7 +3692,7 @@
    "erlass": "StHG",
    "nummer": "74",
    "sachueberschrift": "Vollzugsbestimmungen",
-   "status": "offen",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -3821,7 +3821,7 @@
   "VStG/art-1": {
    "erlass": "VStG",
    "nummer": "1",
-   "sachueberschrift": "Einleitung",
+   "sachueberschrift": "Einleitung: Gegenstand des Gesetzes",
    "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3833,7 +3833,7 @@
   "VStG/art-2": {
    "erlass": "VStG",
    "nummer": "2",
-   "sachueberschrift": "Einleitung",
+   "sachueberschrift": "Einleitung: Provision der Kantone",
    "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3845,7 +3845,7 @@
   "VStG/art-3": {
    "erlass": "VStG",
    "nummer": "3",
-   "sachueberschrift": "Einleitung",
+   "sachueberschrift": "Einleitung: Verhältnis zum kantonalen Recht",
    "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3857,7 +3857,7 @@
   "VStG/art-4": {
    "erlass": "VStG",
    "nummer": "4",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Gegenstand der Steuer: Kapitalerträge, Regel",
    "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3869,7 +3869,7 @@
   "VStG/art-4a": {
    "erlass": "VStG",
    "nummer": "4a",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Gegenstand der Steuer: Kapitalerträge, Erwerb eigener Beteiligungsrechte",
    "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3881,7 +3881,7 @@
   "VStG/art-5": {
    "erlass": "VStG",
    "nummer": "5",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Gegenstand der Steuer: Kapitalerträge, Ausnahmen",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3891,7 +3891,7 @@
   "VStG/art-6": {
    "erlass": "VStG",
    "nummer": "6",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Gegenstand der Steuer: Gewinne aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3901,7 +3901,7 @@
   "VStG/art-7": {
    "erlass": "VStG",
    "nummer": "7",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Gegenstand der Steuer: Versicherungsleistungen, Regel",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3911,7 +3911,7 @@
   "VStG/art-8": {
    "erlass": "VStG",
    "nummer": "8",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Gegenstand der Steuer: Versicherungsleistungen, Ausnahmen",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3921,7 +3921,7 @@
   "VStG/art-9": {
    "erlass": "VStG",
    "nummer": "9",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Gegenstand der Steuer: Begriffsbestimmungen",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3931,7 +3931,7 @@
   "VStG/art-10": {
    "erlass": "VStG",
    "nummer": "10",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Steuerpflichtiger",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3941,7 +3941,7 @@
   "VStG/art-11": {
    "erlass": "VStG",
    "nummer": "11",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Art der Erfüllung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3951,7 +3951,7 @@
   "VStG/art-12": {
    "erlass": "VStG",
    "nummer": "12",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Steuerentrichtung, Entstehung der Steuerforderung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3961,7 +3961,7 @@
   "VStG/art-13": {
    "erlass": "VStG",
    "nummer": "13",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Steuerentrichtung, Steuersätze",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3971,7 +3971,7 @@
   "VStG/art-14": {
    "erlass": "VStG",
    "nummer": "14",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Steuerentrichtung, Überwälzung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3981,7 +3981,7 @@
   "VStG/art-15": {
    "erlass": "VStG",
    "nummer": "15",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Steuerentrichtung, Mithaftung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -3991,7 +3991,7 @@
   "VStG/art-16": {
    "erlass": "VStG",
    "nummer": "16",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Steuerentrichtung, Fälligkeit; Verzugszins",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4001,7 +4001,7 @@
   "VStG/art-17": {
    "erlass": "VStG",
    "nummer": "17",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Steuerentrichtung, Untergang der Steuerforderung, Verjährung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4011,7 +4011,7 @@
   "VStG/art-18": {
    "erlass": "VStG",
    "nummer": "18",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Steuerentrichtung, Untergang der Steuerforderung, Erlass",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4021,7 +4021,7 @@
   "VStG/art-19": {
    "erlass": "VStG",
    "nummer": "19",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Meldung statt Steuerentrichtung, Bei Versicherungsleistungen",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4031,7 +4031,7 @@
   "VStG/art-20": {
    "erlass": "VStG",
    "nummer": "20",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Meldung statt Steuerentrichtung, Bei Kapitalerträgen",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4041,7 +4041,7 @@
   "VStG/art-20a": {
    "erlass": "VStG",
    "nummer": "20a",
-   "sachueberschrift": "Erster Abschnitt: Steuererhebung",
+   "sachueberschrift": "Steuerpflicht: Meldung statt Steuerentrichtung, Bei Naturalgewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4051,7 +4051,7 @@
   "VStG/art-21": {
    "erlass": "VStG",
    "nummer": "21",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Allgemeine Voraussetzungen des Anspruchs",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4061,7 +4061,7 @@
   "VStG/art-22": {
    "erlass": "VStG",
    "nummer": "22",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Berechtigte, Natürliche Personen, Anspruch",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4071,7 +4071,7 @@
   "VStG/art-23": {
    "erlass": "VStG",
    "nummer": "23",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Berechtigte, Natürliche Personen, Verwirkung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4081,7 +4081,7 @@
   "VStG/art-24": {
    "erlass": "VStG",
    "nummer": "24",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Berechtigte, Juristische Personen, Geschäftsbetriebe u. dgl., Anspruch",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4091,7 +4091,7 @@
   "VStG/art-25": {
    "erlass": "VStG",
    "nummer": "25",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Berechtigte, Juristische Personen, Geschäftsbetriebe u. dgl., Verwirkung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4101,7 +4101,7 @@
   "VStG/art-26": {
    "erlass": "VStG",
    "nummer": "26",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Berechtigte, Kollektive Kapitalanlagen",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4111,7 +4111,7 @@
   "VStG/art-27": {
    "erlass": "VStG",
    "nummer": "27",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Berechtigte, Ausländische Inhaber von Anteilen an kollektiven Kapitalanlagen",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4121,7 +4121,7 @@
   "VStG/art-28": {
    "erlass": "VStG",
    "nummer": "28",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Berechtigte, Ausländische Staaten, internationale Organisationen, Diplomaten u. dgl.",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4131,7 +4131,7 @@
   "VStG/art-29": {
    "erlass": "VStG",
    "nummer": "29",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Geltendmachung des Anspruchs, Antrag",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4141,7 +4141,7 @@
   "VStG/art-30": {
    "erlass": "VStG",
    "nummer": "30",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Geltendmachung des Anspruchs, Zuständige Behörden",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4151,7 +4151,7 @@
   "VStG/art-31": {
    "erlass": "VStG",
    "nummer": "31",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Befriedigung des Anspruchs",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4161,7 +4161,7 @@
   "VStG/art-32": {
    "erlass": "VStG",
    "nummer": "32",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Kapitalerträgen und auf Gewinnen aus Geldspielen sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung: Untergang des Anspruchs infolge Zeitablaufs",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4171,7 +4171,7 @@
   "VStG/art-33": {
    "erlass": "VStG",
    "nummer": "33",
-   "sachueberschrift": "Zweiter Abschnitt: Steuerrückerstattung",
+   "sachueberschrift": "Rückerstattung der Steuer auf Versicherungsleistungen",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4181,7 +4181,7 @@
   "VStG/art-34": {
    "erlass": "VStG",
    "nummer": "34",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Behörden: Organisation, ESTV",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4191,7 +4191,7 @@
   "VStG/art-34a": {
    "erlass": "VStG",
    "nummer": "34a",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Behörden: Organisation, Elektronische Verfahren",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4201,7 +4201,7 @@
   "VStG/art-35": {
    "erlass": "VStG",
    "nummer": "35",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Behörden: Organisation, Kantonale Behörden",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4211,7 +4211,7 @@
   "VStG/art-35a": {
    "erlass": "VStG",
    "nummer": "35a",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Behörden: Organisation, Elektronische Verfahren im Kanton",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4221,7 +4221,7 @@
   "VStG/art-36": {
    "erlass": "VStG",
    "nummer": "36",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Behörden: Amtshilfe",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4231,7 +4231,7 @@
   "VStG/art-36a": {
    "erlass": "VStG",
    "nummer": "36a",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Behörden: II a . Datenbearbeitung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4241,7 +4241,7 @@
   "VStG/art-37": {
    "erlass": "VStG",
    "nummer": "37",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Behörden: Schweigepflicht",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4251,7 +4251,7 @@
   "VStG/art-38": {
    "erlass": "VStG",
    "nummer": "38",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Anmeldung als Steuerpflichtiger; Selbstveranlagung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4261,7 +4261,7 @@
   "VStG/art-39": {
    "erlass": "VStG",
    "nummer": "39",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Auskunftspflicht",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4271,7 +4271,7 @@
   "VStG/art-40": {
    "erlass": "VStG",
    "nummer": "40",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Überprüfung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4281,7 +4281,7 @@
   "VStG/art-41": {
    "erlass": "VStG",
    "nummer": "41",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Entscheide der ESTV",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4291,7 +4291,7 @@
   "VStG/art-42": {
    "erlass": "VStG",
    "nummer": "42",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Einsprache",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4301,7 +4301,7 @@
   "VStG/art-42a": {
    "erlass": "VStG",
    "nummer": "42a",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Einsprache",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4311,7 +4311,7 @@
   "VStG/art-43": {
    "erlass": "VStG",
    "nummer": "43",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Einsprache",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4321,7 +4321,7 @@
   "VStG/art-44": {
    "erlass": "VStG",
    "nummer": "44",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Kosten",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4331,7 +4331,7 @@
   "VStG/art-45": {
    "erlass": "VStG",
    "nummer": "45",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Zwangsvollstreckung, Betreibung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4341,7 +4341,7 @@
   "VStG/art-46": {
    "erlass": "VStG",
    "nummer": "46",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Zwangsvollstreckung, Übergang der Rückgriffsansprüche",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4351,7 +4351,7 @@
   "VStG/art-47": {
    "erlass": "VStG",
    "nummer": "47",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuererhebung, Zwangsvollstreckung, Sicherstellung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4361,7 +4361,7 @@
   "VStG/art-48": {
    "erlass": "VStG",
    "nummer": "48",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuerrückerstattung, Allgemeine Bestimmungen, Pflichten des Antragstellers",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4371,7 +4371,7 @@
   "VStG/art-49": {
    "erlass": "VStG",
    "nummer": "49",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuerrückerstattung, Allgemeine Bestimmungen, Pflichten Dritter",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4381,7 +4381,7 @@
   "VStG/art-50": {
    "erlass": "VStG",
    "nummer": "50",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuerrückerstattung, Allgemeine Bestimmungen, Überprüfung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4391,7 +4391,7 @@
   "VStG/art-51": {
    "erlass": "VStG",
    "nummer": "51",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuerrückerstattung, Rückerstattung durch den Bund",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4401,7 +4401,7 @@
   "VStG/art-52": {
    "erlass": "VStG",
    "nummer": "52",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuerrückerstattung, Rückerstattung durch den Kanton, Entscheid des Verrechnungssteueramtes",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4411,7 +4411,7 @@
   "VStG/art-53": {
    "erlass": "VStG",
    "nummer": "53",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuerrückerstattung, Rückerstattung durch den Kanton, Einsprache",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4421,7 +4421,7 @@
   "VStG/art-54": {
    "erlass": "VStG",
    "nummer": "54",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuerrückerstattung, Rückerstattung durch den Kanton, Beschwerde an die kantonale Rekurskommission",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4431,7 +4431,7 @@
   "VStG/art-55": {
    "erlass": "VStG",
    "nummer": "55",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuerrückerstattung, Rückerstattung durch den Kanton, Ergänzendes kantonales Recht",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4441,7 +4441,7 @@
   "VStG/art-56": {
    "erlass": "VStG",
    "nummer": "56",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Verfahren: Steuerrückerstattung, Rückerstattung durch den Kanton, Beschwerde an das Bundesgericht",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4451,7 +4451,7 @@
   "VStG/art-57": {
    "erlass": "VStG",
    "nummer": "57",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Abrechnung zwischen Bund und Kantonen: Rechnungstellung; Überprüfung; Kürzung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4461,7 +4461,7 @@
   "VStG/art-58": {
    "erlass": "VStG",
    "nummer": "58",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Abrechnung zwischen Bund und Kantonen: Folgen der Kürzung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4471,7 +4471,7 @@
   "VStG/art-59": {
    "erlass": "VStG",
    "nummer": "59",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Revision und Erläuterung von Entscheiden",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4481,7 +4481,7 @@
   "VStG/art-60": {
    "erlass": "VStG",
    "nummer": "60",
-   "sachueberschrift": "Dritter Abschnitt: Behörden und Verfahren",
+   "sachueberschrift": "Berichtigung von kantonalen Abrechnungen",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4491,7 +4491,7 @@
   "VStG/art-61": {
    "erlass": "VStG",
    "nummer": "61",
-   "sachueberschrift": "Vierter Abschnitt: Strafbestimmungen",
+   "sachueberschrift": "Widerhandlungen: Hinterziehung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4501,7 +4501,7 @@
   "VStG/art-62": {
    "erlass": "VStG",
    "nummer": "62",
-   "sachueberschrift": "Vierter Abschnitt: Strafbestimmungen",
+   "sachueberschrift": "Widerhandlungen: Steuergefährdung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4511,7 +4511,7 @@
   "VStG/art-63": {
    "erlass": "VStG",
    "nummer": "63",
-   "sachueberschrift": "Vierter Abschnitt: Strafbestimmungen",
+   "sachueberschrift": "Widerhandlungen: Verletzung der Überwälzungsvorschrift",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4521,7 +4521,7 @@
   "VStG/art-64": {
    "erlass": "VStG",
    "nummer": "64",
-   "sachueberschrift": "Vierter Abschnitt: Strafbestimmungen",
+   "sachueberschrift": "Widerhandlungen: Ordnungswidrigkeiten",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4541,7 +4541,7 @@
   "VStG/art-67": {
    "erlass": "VStG",
    "nummer": "67",
-   "sachueberschrift": "Vierter Abschnitt: Strafbestimmungen",
+   "sachueberschrift": "Verhältnis zum Bundesgesetz über die Verwaltungsstrafrecht; Besonderheiten für Widerhandlungen im kantonalen Verfahren",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4551,7 +4551,7 @@
   "VStG/art-68": {
    "erlass": "VStG",
    "nummer": "68",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "sachueberschrift": "Änderung bisherigen Rechts",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4561,7 +4561,7 @@
   "VStG/art-69": {
    "erlass": "VStG",
    "nummer": "69",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "sachueberschrift": "Übergangsrecht: Für Ausländer",
    "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4571,7 +4571,7 @@
   "VStG/art-70": {
    "erlass": "VStG",
    "nummer": "70",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "sachueberschrift": "Übergangsrecht: …",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4581,7 +4581,7 @@
   "VStG/art-70a": {
    "erlass": "VStG",
    "nummer": "70a",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "sachueberschrift": "Übergangsrecht: Übergangsbestimmung zur Änderung vom 10. Oktober 1997",
    "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4591,7 +4591,7 @@
   "VStG/art-70b": {
    "erlass": "VStG",
    "nummer": "70b",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "sachueberschrift": "Übergangsrecht: Übergangsbestimmung zur Änderung vom 15. Dezember 2000",
    "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4601,7 +4601,7 @@
   "VStG/art-70c": {
    "erlass": "VStG",
    "nummer": "70c",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "sachueberschrift": "Übergangsrecht: Übergangsbestimmungen zur Änderung vom 30. September 2016",
    "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4611,7 +4611,7 @@
   "VStG/art-70d": {
    "erlass": "VStG",
    "nummer": "70d",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "sachueberschrift": "Übergangsrecht: Übergangsbestimmung zur Änderung vom 28. September 2018",
    "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -4621,8 +4621,8 @@
   "VStG/art-71": {
    "erlass": "VStG",
    "nummer": "71",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
-   "status": "offen",
+   "sachueberschrift": "Aufhebung der Couponabgabe",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -4631,8 +4631,8 @@
   "VStG/art-72": {
    "erlass": "VStG",
    "nummer": "72",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
-   "status": "offen",
+   "sachueberschrift": "Aufhebung bisherigen Rechts",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -4641,8 +4641,8 @@
   "VStG/art-73": {
    "erlass": "VStG",
    "nummer": "73",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
-   "status": "offen",
+   "sachueberschrift": "Vollzug",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -4651,7 +4651,7 @@
   "VStG/art-74": {
    "erlass": "VStG",
    "nummer": "74",
-   "sachueberschrift": "Fünfter Abschnitt: Schluss- und Übergangsbestimmungen",
+   "sachueberschrift": "Inkrafttreten",
    "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -5904,7 +5904,7 @@
    "erlass": "MWSTG",
    "nummer": "110",
    "sachueberschrift": "Aufhebung bisherigen Rechts",
-   "status": "offen",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -5914,7 +5914,7 @@
    "erlass": "MWSTG",
    "nummer": "111",
    "sachueberschrift": "Änderung bisherigen Rechts",
-   "status": "offen",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -5993,7 +5993,7 @@
   "StG/art-1": {
    "erlass": "StG",
    "nummer": "1",
-   "sachueberschrift": "I. Gegenstand des Gesetzes",
+   "sachueberschrift": "Einleitung: Gegenstand des Gesetzes",
    "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6005,7 +6005,7 @@
   "StG/art-2": {
    "erlass": "StG",
    "nummer": "2",
-   "sachueberschrift": "II. …",
+   "sachueberschrift": "Einleitung: …",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6015,7 +6015,7 @@
   "StG/art-3": {
    "erlass": "StG",
    "nummer": "3",
-   "sachueberschrift": "III. Verhältnis zum kantonalen Recht",
+   "sachueberschrift": "Einleitung: Verhältnis zum kantonalen Recht",
    "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6027,7 +6027,7 @@
   "StG/art-4": {
    "erlass": "StG",
    "nummer": "4",
-   "sachueberschrift": "IV. Begriffsbestimmungen",
+   "sachueberschrift": "Einleitung: Begriffsbestimmungen",
    "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6051,7 +6051,7 @@
   "StG/art-5a": {
    "erlass": "StG",
    "nummer": "5a",
-   "sachueberschrift": "I. Gegenstand der Abgabe",
+   "sachueberschrift": "Gegenstand der Abgabe",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6073,7 +6073,7 @@
   "StG/art-7": {
    "erlass": "StG",
    "nummer": "7",
-   "sachueberschrift": "II. Entstehung der Abgabeforderung",
+   "sachueberschrift": "Entstehung der Abgabeforderung",
    "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6106,7 +6106,7 @@
   "StG/art-9a": {
    "erlass": "StG",
    "nummer": "9a",
-   "sachueberschrift": "III. Abgabesätze und Berechnungsgrundlage",
+   "sachueberschrift": "Abgabesätze und Berechnungsgrundlage",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6116,7 +6116,7 @@
   "StG/art-10": {
    "erlass": "StG",
    "nummer": "10",
-   "sachueberschrift": "IV. Abgabepflicht",
+   "sachueberschrift": "Abgabepflicht",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6126,7 +6126,7 @@
   "StG/art-11": {
    "erlass": "StG",
    "nummer": "11",
-   "sachueberschrift": "V. Fälligkeit der Abgabeforderung",
+   "sachueberschrift": "Fälligkeit der Abgabeforderung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6136,7 +6136,7 @@
   "StG/art-12": {
    "erlass": "StG",
    "nummer": "12",
-   "sachueberschrift": "VI. Stundung und Erlass der Abgabeforderung",
+   "sachueberschrift": "Stundung und Erlass der Abgabeforderung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6166,7 +6166,7 @@
   "StG/art-15": {
    "erlass": "StG",
    "nummer": "15",
-   "sachueberschrift": "II. Entstehung der Abgabeforderung",
+   "sachueberschrift": "Entstehung der Abgabeforderung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6236,7 +6236,7 @@
   "StG/art-20": {
    "erlass": "StG",
    "nummer": "20",
-   "sachueberschrift": "V. Fälligkeit der Abgabeforderung",
+   "sachueberschrift": "Fälligkeit der Abgabeforderung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6266,7 +6266,7 @@
   "StG/art-23": {
    "erlass": "StG",
    "nummer": "23",
-   "sachueberschrift": "II. Entstehung der Abgabeforderung",
+   "sachueberschrift": "Entstehung der Abgabeforderung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6276,7 +6276,7 @@
   "StG/art-24": {
    "erlass": "StG",
    "nummer": "24",
-   "sachueberschrift": "III. Abgabesätze und Berechnungsgrundlage",
+   "sachueberschrift": "Abgabesätze und Berechnungsgrundlage",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6286,7 +6286,7 @@
   "StG/art-25": {
    "erlass": "StG",
    "nummer": "25",
-   "sachueberschrift": "IV. Abgabepflicht",
+   "sachueberschrift": "Abgabepflicht",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6296,7 +6296,7 @@
   "StG/art-26": {
    "erlass": "StG",
    "nummer": "26",
-   "sachueberschrift": "V. Fälligkeit der Abgabeforderung",
+   "sachueberschrift": "Fälligkeit der Abgabeforderung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6306,7 +6306,7 @@
   "StG/art-27": {
    "erlass": "StG",
    "nummer": "27",
-   "sachueberschrift": "I. Festsetzung der Abgaben",
+   "sachueberschrift": "Festsetzung der Abgaben",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6316,7 +6316,7 @@
   "StG/art-28": {
    "erlass": "StG",
    "nummer": "28",
-   "sachueberschrift": "II. Umrechnung ausländischer Währungen",
+   "sachueberschrift": "Umrechnung ausländischer Währungen",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6326,7 +6326,7 @@
   "StG/art-29": {
    "erlass": "StG",
    "nummer": "29",
-   "sachueberschrift": "III. Verzugszins",
+   "sachueberschrift": "Verzugszins",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6336,7 +6336,7 @@
   "StG/art-30": {
    "erlass": "StG",
    "nummer": "30",
-   "sachueberschrift": "IV. Verjährung der Abgabeforderung",
+   "sachueberschrift": "Verjährung der Abgabeforderung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6346,7 +6346,7 @@
   "StG/art-31": {
    "erlass": "StG",
    "nummer": "31",
-   "sachueberschrift": "I. Eidgenössische Steuerverwaltung",
+   "sachueberschrift": "Behörden: Eidgenössische Steuerverwaltung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6356,7 +6356,7 @@
   "StG/art-32": {
    "erlass": "StG",
    "nummer": "32",
-   "sachueberschrift": "II. Amtshilfe",
+   "sachueberschrift": "Behörden: Amtshilfe",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6366,7 +6366,7 @@
   "StG/art-32a": {
    "erlass": "StG",
    "nummer": "32a",
-   "sachueberschrift": "II a . Datenbearbeitung",
+   "sachueberschrift": "Behörden: II a . Datenbearbeitung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6376,7 +6376,7 @@
   "StG/art-33": {
    "erlass": "StG",
    "nummer": "33",
-   "sachueberschrift": "III. Schweigepflicht",
+   "sachueberschrift": "Behörden: Schweigepflicht",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6426,7 +6426,7 @@
   "StG/art-38": {
    "erlass": "StG",
    "nummer": "38",
-   "sachueberschrift": "II. Entscheide der ESTV",
+   "sachueberschrift": "Verfahren: Entscheide der ESTV",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6446,7 +6446,7 @@
   "StG/art-39a": {
    "erlass": "StG",
    "nummer": "39a",
-   "sachueberschrift": "III. Einsprache",
+   "sachueberschrift": "Verfahren: Einsprache",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6456,7 +6456,7 @@
   "StG/art-40": {
    "erlass": "StG",
    "nummer": "40",
-   "sachueberschrift": "III. Einsprache",
+   "sachueberschrift": "Verfahren: Einsprache",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6466,7 +6466,7 @@
   "StG/art-41": {
    "erlass": "StG",
    "nummer": "41",
-   "sachueberschrift": "IV. Kosten",
+   "sachueberschrift": "Verfahren: Kosten",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6476,7 +6476,7 @@
   "StG/art-41a": {
    "erlass": "StG",
    "nummer": "41a",
-   "sachueberschrift": "IV a . Elektronische Verfahren",
+   "sachueberschrift": "Verfahren: IV a . Elektronische Verfahren",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6506,7 +6506,7 @@
   "StG/art-44": {
    "erlass": "StG",
    "nummer": "44",
-   "sachueberschrift": "C. Revision und Erläuterung von Entscheiden",
+   "sachueberschrift": "Revision und Erläuterung von Entscheiden",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6516,7 +6516,7 @@
   "StG/art-45": {
    "erlass": "StG",
    "nummer": "45",
-   "sachueberschrift": "I. Hinterziehung",
+   "sachueberschrift": "Widerhandlungen: Hinterziehung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6526,7 +6526,7 @@
   "StG/art-46": {
    "erlass": "StG",
    "nummer": "46",
-   "sachueberschrift": "II. Abgabegefährdung",
+   "sachueberschrift": "Widerhandlungen: Abgabegefährdung",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6536,7 +6536,7 @@
   "StG/art-47": {
    "erlass": "StG",
    "nummer": "47",
-   "sachueberschrift": "III. Ordnungswidrigkeiten",
+   "sachueberschrift": "Widerhandlungen: Ordnungswidrigkeiten",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6546,7 +6546,7 @@
   "StG/art-48–49": {
    "erlass": "StG",
    "nummer": "48–49",
-   "sachueberschrift": "IV. Allgemeine Bestimmungen",
+   "sachueberschrift": "Widerhandlungen: Allgemeine Bestimmungen",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6556,7 +6556,7 @@
   "StG/art-50": {
    "erlass": "StG",
    "nummer": "50",
-   "sachueberschrift": "B. Verhältnis zum Verwaltungsstrafrechtsgesetz",
+   "sachueberschrift": "Verhältnis zum Verwaltungsstrafrechtsgesetz",
    "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6566,7 +6566,7 @@
   "StG/art-51": {
    "erlass": "StG",
    "nummer": "51",
-   "sachueberschrift": "I. Anrechnung bezahlter Emissionsabgaben",
+   "sachueberschrift": "Anrechnung bezahlter Emissionsabgaben",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6576,7 +6576,7 @@
   "StG/art-52": {
    "erlass": "StG",
    "nummer": "52",
-   "sachueberschrift": "II. Änderung des Verrechnungssteuergesetzes",
+   "sachueberschrift": "Änderung des Verrechnungssteuergesetzes",
    "status": "aufgehoben",
    "entscheide": null,
    "karten_fertig": 0,
@@ -6586,8 +6586,8 @@
   "StG/art-53": {
    "erlass": "StG",
    "nummer": "53",
-   "sachueberschrift": "III. Aufhebung bisherigen Rechts",
-   "status": "offen",
+   "sachueberschrift": "Aufhebung bisherigen Rechts",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -6596,8 +6596,8 @@
   "StG/art-54": {
    "erlass": "StG",
    "nummer": "54",
-   "sachueberschrift": "IV. Vollzug",
-   "status": "offen",
+   "sachueberschrift": "Vollzug",
+   "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
@@ -6606,7 +6606,7 @@
   "StG/art-55": {
    "erlass": "StG",
    "nummer": "55",
-   "sachueberschrift": "V. Inkrafttreten",
+   "sachueberschrift": "Inkrafttreten",
    "status": "ausgenommen",
    "entscheide": null,
    "karten_fertig": 0,

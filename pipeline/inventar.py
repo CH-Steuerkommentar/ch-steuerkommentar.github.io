@@ -108,6 +108,23 @@ def parse(html: str) -> list[dict]:
         aufgehoben = (not normtext.strip(" .…")) or bool(re.fullmatch(r"(…\s*)+", normtext.strip())) \
             or normtext.strip().lower().startswith("aufgehoben")
         bereich = bool(re.search(r"\d[–-]\d", nr_roh)) or aid.count("_") >= 2 and re.fullmatch(r"art_\d+_\d+", aid)
+        if not sach:
+            # Erlasse ohne Sachüberschriften (z. B. VStG): Randtitel der übergeordneten Gliederung unterhalb des Kapitels
+            stufen = []
+            for sec in el.find_parents("section"):
+                sid = sec.get("id", "")
+                if "lvl_" not in sid.split("/")[-1]:
+                    break
+                kopf_g = sec.find("div", class_="heading", recursive=False) or sec.find(class_="heading")
+                if kopf_g is not None:
+                    kopf_g = BeautifulSoup(str(kopf_g), "html.parser")
+                    for sup in kopf_g.find_all("sup"):
+                        sup.decompose()
+                    g = re.sub(r"^(\d+\s*[a-z]{0,6}|[A-Z]|[IVX]+|[a-z])\s*\.\s*", "", text(kopf_g)).strip()
+                    if g:
+                        stufen.insert(0, g)
+            if stufen:
+                sach = stufen[0] + (": " + ", ".join(stufen[1:]) if len(stufen) > 1 else "")
         artikel.append({
             "id": aid,
             "nummer": nr_roh,

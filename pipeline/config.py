@@ -126,16 +126,21 @@ def schreibe_json(pfad: Path, daten) -> None:
 # Nicht kommentiert: Übergangsbestimmungen, Referendum und Inkrafttreten (Fedlex-Gliederung, Stand 26.10.2026)
 AUSGENOMMEN = {
     "DBG": ["204", "205", "205a", "205b", "205bbis", "205d", "205e", "205f", "207", "207a", "207b", "221", "222"],
-    "StHG": ["76", "77", "78", "78a", "78c", "78d", "78e", "78f", "78g", "79"],
-    "VStG": ["69", "70a", "70b", "70c", "70d", "74"],
+    "StHG": ["74", "76", "77", "78", "78a", "78c", "78d", "78e", "78f", "78g", "79"],
+    "VStG": ["69", "70a", "70b", "70c", "70d", "71", "72", "73", "74"],
     "MWSTG": ["112", "113", "114", "115", "115a", "115b", "116"],
-    "StG": ["55"],
+    "StG": ["53", "54", "55"],
 }
-AUSGENOMMEN_GRUND = "Übergangsbestimmung, Referendum oder Inkrafttreten: wird nicht kommentiert"
+# Ab dieser Artikelnummer wird nichts mehr kommentiert (Schlussbestimmungen)
+AUSGENOMMEN_AB = {"DBG": 199, "MWSTG": 110}
+AUSGENOMMEN_GRUND = "Schluss- oder Übergangsbestimmung, Referendum oder Inkrafttreten: wird nicht kommentiert"
 
 
 def ausgenommen(erlass: str, nummer: str) -> bool:
-    return nummer in AUSGENOMMEN.get(erlass, [])
+    if nummer in AUSGENOMMEN.get(erlass, []):
+        return True
+    ab = AUSGENOMMEN_AB.get(erlass)
+    return ab is not None and art_sortkey(nummer)[0] >= ab
 
 
 def art_slug(nummer: str) -> str:
