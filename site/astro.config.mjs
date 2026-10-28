@@ -48,7 +48,10 @@ export default defineConfig({
         LanguageSelect: './src/components/Sprachwahl.astro',
         MobileMenuFooter: './src/components/Leer.astro',
       },
+      favicon: '/favicon-32.png',
       head: [
+        { tag: 'link', attrs: { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' } },
+        { tag: 'link', attrs: { rel: 'icon', type: 'image/png', sizes: '512x512', href: '/favicon-512.png' } },
         { tag: 'link', attrs: { rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: '', href: 'https://ile.unisg.ch/typo3conf/ext/cs2_prototypes/src/dist/fonts/GillSansMTPro-Light.woff2' } },
       ],
       lastUpdated: true,
