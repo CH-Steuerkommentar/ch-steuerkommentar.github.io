@@ -278,14 +278,13 @@
    "erlass": "DBG",
    "nummer": "18b",
    "sachueberschrift": "Teilbesteuerung der Einkünfte aus Beteiligungen des Geschäftsvermögens",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "GitHub Actions, 2026-10-28 (24.28 USD)",
    "status_vorher": "offen",
-   "bearbeiter": "github-actions",
-   "seit": "2026-10-28T13:22:07+00:00"
+   "geaendert": "2026-10-28"
   },
   "DBG/art-19": {
    "erlass": "DBG",
