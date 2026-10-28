@@ -1,0 +1,832 @@
+{
+ "artikel": "StHG/art-4",
+ "abfrage": "\"Art. 4\" AND (StHG OR LHID OR LAID) (Kandidaten: Entscheidsuche; Entscheide: Open Case Law)",
+ "quelle": "ocl",
+ "suchtreffer": 380,
+ "entscheide": [
+  {
+   "id": "ocl_bge_125_I_458",
+   "referenz": [
+    "BGE 125 I 458"
+   ],
+   "datum": "1999-10-27",
+   "bge": true,
+   "ausschnitte": [
+    "rincipes posés par la jurisprudence du Tribunal fédéral en matière d'assujettissement à raison du rattachement personnel (art. 3 LHID) et d'assujettissement - admis restrictivement - à raison du rattachement économique (art. 4 al. 1 LHID): ne sont assujetties à raison du rattachement économique que les personnes physiques qui, au regard du droit fiscal, ne sont ni domiciliées ni en séjour dans un canton mais y exploitent une entreprise ou un établisseme",
+    "e entreprise ou un établissement stable, y possèdent des immeubles, en ont BGE 125 I 458 S. 469 la jouissance, servent d'intermédiaires dans des opérations immobilières ou font du commerce immobilier. L'articulation des art. 3 et 4 LHID montre que le législateur fédéral a voulu réduire encore, voire supprimer le morcellement de la souveraineté fiscale cantonale à l'égard d'un même contribuable. 3. a) Le canton de Vaud soutient que la décision de l'auto",
+    "t des principes contenus dans la loi (ATF 124 I 101); il n'est donc pas question pour lui de développer, en application de l' art. 46 al. 2 Cst. , des principes qui pourraient s'avérer difficilement compatibles avec les art. 3 et 4 LHID (cf. P. LOCHER, Steuerharmonisierung und interkantonales Steuerrecht, ASA 65 p. 609-639, 612-615). Pour ces raisons, aucun motif sérieux et objectif ne justifie une modification de la jurisprudence fixant les principes "
+   ]
+  },
+  {
+   "id": "ocl_bger_2P.289_2000",
+   "referenz": [
+    "BGer 2P.289/2000 vom 8. Januar 2002"
+   ],
+   "datum": "2002-01-08",
+   "bge": false,
+   "ausschnitte": [
+    "n-Blaise Paschoud, Quelques aspects de l'imposition des gains immobiliers en droit fiscal intercantonal, in: RDAF 1970, p. 285 ss, 296). La Conférence suisse des impôts adopte la même position dans son commentaire de l' art. 4 al. 1 LHID . Dans l'arrêt attaqué, le Tribunal administratif a jugé en revanche que, lorsque la commission de courtage immobilier excède le tarif usuel, l'intégralité de la commission doit être considérée comme gain immobilier imp",
+    "ution du droit d'imposer une commission de courtage immobilier, de sorte qu'il ne saurait préjuger la solution résultant d'un examen complet de la question. bb) La recourante invoque aussi, à l'appui de sa position, les art. 4 al. 1 et 21 al. 2 LHID. Art. 4 al. 1 LHID . \"Les personnes physiques qui, au regard du droit fiscal, ne sont ni domiciliées ni en séjour dans le canton sont assujetties à l'impôt à raison du rattachement économique lorsqu'elles [...] servent ",
+    "mmission de courtage immobilier, de sorte qu'il ne saurait préjuger la solution résultant d'un examen complet de la question. bb) La recourante invoque aussi, à l'appui de sa position, les art. 4 al. 1 et 21 al. 2 LHID. Art. 4 al. 1 LHID . \"Les personnes physiques qui, au regard du droit fiscal, ne sont ni domiciliées ni en séjour dans le canton sont assujetties à l'impôt à raison du rattachement économique lorsqu'elles [...] servent d'intermédiaires da"
+   ]
+  },
+  {
+   "id": "ocl_bger_2P.2_2003",
+   "referenz": [
+    "BGer 2P.2/2003 vom 7. Januar 2004"
+   ],
+   "datum": "2004-01-07",
+   "bge": false,
+   "ausschnitte": [
+    " mehr erfüllt, da dort kein Wohnsitz und auch kein Aufenthalt bestehe. Eine Anknüpfung könne nur noch auf wirtschaftlicher Zugehörigkeit beruhen, z.B. auf der Gemeinschaftlichkeit der Mittel. Diesbezüglich enthalte aber Art. 4 StHG eine abschliessende Liste der weiterhin zulässigen Nebensteuerdomizile. Der Familienort befinde sich nicht darunter und habe somit als Sekundärdomizil keine Berechtigung mehr (vgl. u.a. Peter Locher, Steuerharmonisierun",
+    "sigen, zumeist hälftigen Teilung der Steuerhoheit. Diese umfasst alle der Besteuerung unterliegenden Elemente mit Ausnahme ausserkantonaler Geschäftsbetriebe und Betriebsstätten und ausserkantonalen Grundeigentums (vgl. Art. 4 Abs. 1 StHG). Die hälftige Teilung rechtfertigt sich namentlich für weitgehend getrennt lebende Ehegatten, welche die Kosten für Lebensunterhalt und Wohnung indessen aus gemeinsamen Mitteln bestreiten. Dieselbe Ausscheidung scheint"
+   ]
+  },
+  {
+   "id": "ocl_bger_2A.54_2003",
+   "referenz": [
+    "BGer 2A.54/2003 vom 30. April 2004"
+   ],
+   "datum": "2004-04-30",
+   "bge": false,
+   "ausschnitte": [
+    "er endgültigen Ausreise ins Ausland die unbeschränkte Steuerpflicht in der Schweiz nicht mehr besteht, braucht es eine besondere gesetzliche Grundlage, um Kapitalleistungen nach diesem Zeitpunkt besteuern zu können. Mit Art. 4 Abs. 2 lit. e StHG (wie auch Art. 5 Abs. 1 lit. e DBG) wurde diese Grundlage geschaffen. Die Vorschrift sieht vor, dass natürliche Personen ohne Wohnsitz oder Aufenthalt in der Schweiz für Leistungen aus schweizerischen privatrechtlichen ",
+    "em Vertragsstaat ansässige Person für frühere unselbständige Arbeit erhält, dem Ansässigkeitsstaat zu (s. auch Bauer-Balmelli/Nyffenegger, in: Kommentar zum schweizerischen Steuerrecht, Bd. I/1, 2. Aufl., N 17 und 28 zu Art. 4 StHG ; Peter Locher, Kommentar zum DBG, N 39 zu Art. 5). Sofern die Abkommensbestimmung Anwendung findet, kann die Quellensteuer zurückverlangt werden. Voraussetzung für ein allfälliges Rückerstattungsbegehren, für welches z"
+   ]
+  },
+  {
+   "id": "ocl_bger_2P.188_2005",
+   "referenz": [
+    "BGer 2P.188/2005 vom 12. Mai 2006"
+   ],
+   "datum": "2006-05-12",
+   "bge": false,
+   "ausschnitte": [
+    "determinazione dei relativi elementi imponibili. In riferimento alle imposte cantonali, si tratta di aspetti regolamentati innanzitutto dal titolo secondo della legge sull'armonizzazione fiscale e più precisamente dagli art. 4 e 7 LAID . Per il biennio fiscale 2001/2002 il gravame concernente l'imposta cantonale va perciò trattato quale ricorso di diritto amministrativo. Poco importa, sotto questo profilo, che il giudizio impugnato direttamente sia di"
+   ]
+  },
+  {
+   "id": "ocl_bger_2A.23_2007",
+   "referenz": [
+    "BGer 2A.23/2007 vom 19. Februar 2008"
+   ],
+   "datum": "2008-02-19",
+   "bge": false,
+   "ausschnitte": [
+    "Vernehmlassung (S. 2) damit, dass der fragliche Steuerpflichtige während der ersten Monate aufgrund wirtschaftlicher Zugehörigkeit nur beschränkt steuerpflichtig gewesen sei (Art. 5 Abs. 1 lit. a und Art. 6 Abs. 2 DBG ; Art. 4 Abs. 2 lit. a StHG ; § 4 Abs. 2 lit. a und § 5 Abs. 2 StG /ZG), wogegen er in der Folge aufgrund persönlicher Zugehörigkeit (Aufenthalt und Erwerbstätigkeit) zur unbeschränkten Steuerpflicht mutiert habe (Art. 3 Abs. 3 und Art. 6 Abs. 1 D"
+   ]
+  },
+  {
+   "id": "ocl_bge_134_I_303",
+   "referenz": [
+    "BGE 134 I 303"
+   ],
+   "datum": "2008-06-17",
+   "bge": true,
+   "ausschnitte": [
+    "R, in: Zweifel/Athanas [Hrsg.], Kommentar zum schweizerischen Steuerrecht, Bd. I/1: Bundesgesetz über die Harmonisierung der direkten Steuern der Kantone und Gemeinden, 2. Aufl., BGE 134 I 303 S. 306 Basel 2002, N. 5 zu Art. 4 StHG). Bei diesen Gegebenheiten muss auch ein bloss formaler Bezug zum Steuerharmonisierungsrecht, wie er bei Fragen der subjektiven Steuerpflicht letztlich immer gegeben ist, genügen, um der nach kantonalem Recht zuständige"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_625_2008",
+   "referenz": [
+    "BGer 2C_625/2008 vom 30. Januar 2009"
+   ],
+   "datum": "2009-01-30",
+   "bge": false,
+   "ausschnitte": [
+    "yffenegger, in Kommentar zum schweizerischen Steuerrecht, vol. I/1, Bundesgesetz über die Harmonisierung der direkten Steuern der Kantone und Gemeinden [StHG], 2e éd. 2002, n° 33 ad art. 3 LHID ainsi que nos 32 et 35 ad art. 4 LHID ; Jean-Blaise Paschoud, in Commentaire romand, Impôt fédéral direct, 2008, n° 4 ad art. 6 LIFD).  Le litige relève ainsi exclusivement du droit cantonal. Or, le Tribunal fédéral ne peut revoir librement la violation de "
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_215_2009",
+   "referenz": [
+    "BGer 2C_215/2009 vom 1. Oktober 2009"
+   ],
+   "datum": "2009-10-01",
+   "bge": false,
+   "ausschnitte": [
+    "che Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sind aufgrund wirtschaftlicher Zugehörigkeit steuerpflichtig, wenn sie in der Schweiz eine Erwerbstätigkeit ausüben (Art. 5 Abs. 1 lit. a DBG ; Art. 4 Abs. 2 lit. a StHG ; § 5 Abs. 1 lit. a des Gesetzes über die direkten Steuern des Kantons Basel-Stadt vom 12. April 2000, StG/BS). Diese Bestimmungen sind grundsätzlich so zu interpretieren, dass die Arbeit dort ausgeübt wird, wo der Arbe"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_235_2009",
+   "referenz": [
+    "BGer 2C_235/2009 vom 30. Oktober 2009"
+   ],
+   "datum": "2009-10-30",
+   "bge": false,
+   "ausschnitte": [
+    "fugt, gegen den angefochtenen Entscheid beim Bundesgericht in der Sache Beschwerde zu führen, so hätte auch das Verwaltungsgericht auf ihr Rechtsmittel eintreten müssen (vgl. etwa BGE 135 II 145 E. 5 S. 149). 4.2 Gemäss Art. 4 Abs. 1 und 21 Abs. 1 lit. b StHG begründet das Unterhalten von Betriebsstätten für natürliche wie juristische Personen eine \"Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit\". Diese Bestimmungen befinden sich im Zweiten bzw. Dritten Teil des Steue",
+    "G ausschliessen könnte. Indessen darf nicht übersehen werden, dass Art. 254 StG /BE an den Betriebsstättenbegriff anknüpft, wie er in Art. 5 resp. Art. 77 StG /BE - gestützt auf die harmonisierungsrechtlichen Normen von Art. 4 resp. Art. 21 StHG - umschrieben ist. Rechtsbegriffe sind wegen der Rechtssicherheit grundsätzlich für die ganze Rechtsordnung - zumindest aber im selben kantonalen Erlass - gleich auszulegen (vgl. BGE 115 II 181 E. 2a S. 185). Mit der Qu",
+    "II 181 E. 2a S. 185). Mit der Qualifikation einer Einrichtung als Betriebsstätte gestützt auf Art. 254 StG /BE sind daher notwendigerweise auch die entsprechenden, harmonisierten Begriffe von Art. 5 und 77 StG /BE resp. Art. 4 und 21 StHG angesprochen. Dazu kommt, dass sich hier das Auslegungsergebnis direkt (und nicht etwa nur mittelbar) auf die subjektive Steuerpflicht der Steuerpflichtigen (E.________ AG) auswirkt. Für diese resultieren, je nach steue"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_518_2010",
+   "referenz": [
+    "BGer 2C_518/2010 vom 9. Februar 2011"
+   ],
+   "datum": "2011-02-09",
+   "bge": false,
+   "ausschnitte": [
+    "n: Zweifel/Athanas [a cura di], Kommentar zum schweizerischen Steuerrecht vol. I/1, Bundesgesetz über die Harmonisierung der direkten Steuern der Kantone und Gemeinden [StHG], 2a ed. Basilea/Ginevra/Monaco 2002, n. 5 ad art. 4 LAID ; Felix Richner/Walter Frei/Stefan Kaufmann/Hans Ulrich Meuter, Kommentar zum harmonisierten Zürcher Steuergesetz, 2a ed., Zurigo 2006, n. 12 segg. ad art. 4). Conformemente alla giurisprudenza federale richiamata, si è"
+   ]
+  },
+  {
+   "id": "ocl_bge_137_II_246",
+   "referenz": [
+    "BGE 137 II 246"
+   ],
+   "datum": "2011-03-25",
+   "bge": true,
+   "ausschnitte": [
+    "l der II. öffentlich-rechtlichen Abteilung i.S. Kantonales Steueramt Zürich gegen X. AG (Beschwerde in öffentlich-rechtlichen Angelegenheiten) 2C_662/2010 vom 25. März 2011 Regeste Art. 5 Abs. 1 lit. a und Art. 91 DBG ; Art. 4 Abs. 2 lit. a und Art. 35 Abs. 1 lit. a StHG ; Quellensteuer der natürlichen Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz; persönliche Anwesenheit bei Erwerbstätigkeit in der Schweiz. Anders als unter dem früheren Bundesratsbeschluss (Ar",
+    "Anwesenheit bei Erwerbstätigkeit in der Schweiz. Anders als unter dem früheren Bundesratsbeschluss (Art. 3 Ziff. 3 lit. e BdBSt) setzt die Ausübung einer Erwerbstätigkeit in der Schweiz nach Art. 5 Abs. 1 lit. a DBG und Art. 4 Abs. 2 lit. a StHG eine physische Anwesenheit voraus (E. 4 und 5). Eine extensive Auslegung von Art. 5 Abs. 1 lit. a DBG verbietet sich im Hinblick auf die detaillierte Regelung in Art. 4 und 5 DBG und könnte auch steuersystematisch keine"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_662_2010",
+   "referenz": [
+    "BGer 2C_662/2010 vom 25. März 2011"
+   ],
+   "datum": "2011-03-25",
+   "bge": false,
+   "ausschnitte": [
+    "und wirtschaftlicher Zugehörigkeit und der Quellensteuerpflicht der natürlichen Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz eine den Art. 4 und 5 sowie 91 ff. DBG entsprechende Regelung (vgl. Art. 4 und 35 StHG). Namentlich macht Art. 3 Abs. 1 StHG den steuerrechtlichen Aufenthalt von der gleichen Verweildauer in der Schweiz abhängig wie Art. 3 Abs. 3 DBG , und auch Art. 4 Abs. 2 lit. a StHG setzt für die beschränkte Steuerpfl",
+    "ie 91 ff. DBG entsprechende Regelung (vgl. Art. 4 und 35 StHG). Namentlich macht Art. 3 Abs. 1 StHG den steuerrechtlichen Aufenthalt von der gleichen Verweildauer in der Schweiz abhängig wie Art. 3 Abs. 3 DBG , und auch Art. 4 Abs. 2 lit. a StHG setzt für die beschränkte Steuerpflicht von Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz voraus, dass diese im Kanton eine Erwerbstätigkeit ausüben (analog Art. 5 Abs. 1 lit. a DBG). Es gelten"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_199_2011",
+   "referenz": [
+    "BGer 2C_199/2011 vom 14. November 2011"
+   ],
+   "datum": "2011-11-14",
+   "bge": false,
+   "ausschnitte": [
+    "rt. 4 E-StHG bzw. 108 ad Art. 24 E-StHG; BAUER-BALMELLI/NYFFENEGGER, Kommentar zum Schweizerischen Steuerrecht, Bundesgesetz über die Harmonisierung der direkten Steuern der Kantone und Gemeinden, 2. Aufl. 2002, N. 5 zu Art. 4 StHG ; ATHANAS/WIDMER, Kommentar zum Schweizerischen Steuerrecht, Bundesgesetz über die Harmonisierung der direkten Steuern der Kantone und Gemeinden, 2. Aufl. 2002, N. 35 zu Art. 21 StHG ; ATHANAS/GIGLIO, Kommentar zum Aarg",
+    "r Steuergesetz, 2. Aufl. 2006, N. 12 ff. zu § 4 StG /ZH; a.M. DANIEL DE VRIES REILINGH, Le droit fiscal intercantonal et le droit fiscal international de la Suisse, 2011, S. 177, wonach der Betriebsstättenbegriff gemäss Art. 4 Abs. 1 bzw. Art. 21 Abs. 1 lit. b StHG im internationalen und interkantonalen Verhältnis gleich zu deuten sei und insbesondere die Merkmale der qualitativen und quantitativen Erheblichkeit aufzugeben seien). 3.2. Vorliegend ist umstritten, ob die Beschwerdef"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_436_2011",
+   "referenz": [
+    "BGer 2C_436/2011 vom 13. Dezember 2011"
+   ],
+   "datum": "2011-12-13",
+   "bge": false,
+   "ausschnitte": [
+    "a LHID ne le mentionne pas expressément, le même principe s'applique aux impôts cantonaux et communaux (cf. MAJA BAUER-BALMELLI/MARKUS NYFFENEGGER, in Kommentar zum Schweizerischen Steuerrecht I/1, 2e éd. 2002, n° 17 ad art. 4 LHID).  Lorsque le bénéficiaire d'une prestation en capital provenant d'une institution suisse de droit privé de prévoyance professionnelle est domicilié à l'étranger, cette prestation est soumise à un impôt à la source (art",
+    "11  Au nom de la IIe Cour de droit public  du Tribunal fédéral suisse  Le Président: Zünd  La Greffière: Beti Art. 1 CDI; Art. 10 Abs. 2 RISP; Art. 100 Abs. 1 LIFD; Art. 100 Abs. 1 LTF; Art. 11 OIS; Art. 37 Abs. 1 LHID; Art. 4 LHID; Art. 6 Abs. 2 LIFD"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_708_2012",
+   "referenz": [
+    "BGer 2C_708/2012 vom 21. Dezember 2012"
+   ],
+   "datum": "2012-12-21",
+   "bge": false,
+   "ausschnitte": [
+    "ach die Einzelunternehmung seit 2006 aktiv sei, über drei Kunden verfüge und im Einfamilienhaus untergebracht sei, welches der Steuerpflichtige im Kanton Basel-Landschaft besitzt, von einem Geschäftsbetrieb im Sinne von Art. 4 Abs. 1 StHG (bzw. Art. 4 Abs. 1 lit. a DBG) auszugehen. Ein solcher setzt doppelbesteuerungs- und harmonisierungsrechtlich ständige Anlagen und Einrichtungen zum Ausüben einer selbständigen Erwerbstätigkeit voraus (Urteile 2C_396/ "
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_1011_2012",
+   "referenz": [
+    "BGer 2C_1011/2012 vom 5. Mai 2014"
+   ],
+   "datum": "2014-05-05",
+   "bge": false,
+   "ausschnitte": [
+    "BER, a.a.O., § 9 Nr. 1). Auch hier handelt es sich um eine Massnahme des Kantons zur Vermeidung einer Doppelbesteuerung im interkantonalen Verhältnis bzw. im Verhältnis zum Ausland. Im interkantonalen Verhältnis erklärt Art. 4 Abs. 1 StHG natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt im Kanton aufgrund wirtschaftlicher Zugehörigkeit für (beschränkt) steuerpflichtig, wenn sie im Kanton Geschäftsbetriebe oder Betriebsstätten unterhalt"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_18_2014",
+   "referenz": [
+    "BGer 2C_18/2014 vom 15. Januar 2015"
+   ],
+   "datum": "2015-01-15",
+   "bge": false,
+   "ausschnitte": [
+    "an Grundstücken in der Schweiz Eigentum, dingliche oder diesen wirtschaftlich gleichkommende persönliche Nutzungsrechte haben oder in der Schweiz gelegene Grundstücke vermitteln oder damit handeln (Art. 4 Abs. 1 DBG und Art. 4 Abs. 1 StHG). Bei wirtschaftlicher Zugehörigkeit ist die Steuerpflicht beschränkt. 2.2.2. Nach dem Bundessteuergesetz erstreckt die Steuerpflicht sich bei wirtschaftlicher Zugehörigkeit auf die Teile des Einkommens, für die nach de"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_888_2014",
+   "referenz": [
+    "BGer 2C_888/2014 vom 7. Juni 2015"
+   ],
+   "datum": "2015-06-07",
+   "bge": false,
+   "ausschnitte": [
+    "ommunal 8. Les principes juridiques précités qui concernent la détermination de l'état de fait pertinent et l'assujettissement à l'impôt fondé sur le rattachement économique trouvent leur parallèle en matière d'ICC (cf. art. 4 al. 1 LHID ; art. 3 al. 1 let. a de l'ancienne loi genevoise du 22 septembre 2000 sur l'imposition des personnes physiques - Objet de l'impôt - Assujettissement à l'impôt [aLIPP-I/GE; RS/GE D 3 11], applicable à la période fiscale"
+   ]
+  },
+  {
+   "id": "ocl_bge_141_II_318",
+   "referenz": [
+    "BGE 141 II 318"
+   ],
+   "datum": "2015-07-16",
+   "bge": true,
+   "ausschnitte": [
+    "etenen Meinung, wonach ein BGE 141 II 318 S. 322 Ehegatte bei den kantonalen Steuern für jene Teile des Einkommens und Vermögens selbständig besteuert werde, für die nur er aufgrund wirtschaftlicher Zugehörigkeit gemäss Art. 4 StHG in einem Kanton steuerpflichtig sei (ISLER/SUTER, in: Interkantonales Steuerrecht, Zweifel/Beusch/Mäusli-Allenspach [Hrsg.], 2011, § 27 Rz. 26; KÄSTLI/TEUSCHER, in: Praxis-Kommentar zum Berner Steuergesetz, Kästli/Leuch",
+    "auf hin, dass die Ehepaarbesteuerung harmonisierungsrechtlich nur im Gesetzesartikel zur persönlichen Zugehörigkeit (d.h. Art. 3 Abs. 3 StHG) verankert sei, nicht jedoch in demjenigen zur wirtschaftlichen Zugehörigkeit (Art. 4 StHG). Dagegen ist festzuhalten, dass die gesetzliche Regelung der Familienbesteuerung in Art. 20 Abs. 1 StG /SG (ebenso in Art. 9 Abs. 1 DBG) im Gegenteil den Schluss nahelegt, sie beziehe sich auf alle - weiter vorne im Ge"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_309_2014",
+   "referenz": [
+    "BGer 2C_309/2014 vom 16. Juli 2015"
+   ],
+   "datum": "2015-07-16",
+   "bge": false,
+   "ausschnitte": [
+    "verschiedentlich vertretenen Meinung, wonach ein Ehegatte bei den kantonalen Steuern für jene Teile des Einkommens und Vermögens selbständig besteuert werde, für die nur er aufgrund wirtschaftlicher Zugehörigkeit gemäss Art. 4 StHG in einem Kanton steuerpflichtig sei (LEANA ISLER/CLAUDIA SUTER, in: Zweifel/ Beusch/Mäusli-Allenspach, Kommentar zum Schweizerischen Steuerrecht, Band III/1, Interkantonales Steuerrecht, 2011, Rz. 26 zu § 27; PETER KÄST",
+    "auf hin, dass die Ehepaarbesteuerung harmonisierungsrechtlich nur im Gesetzesartikel zur persönlichen Zugehörigkeit (d.h. Art. 3 Abs. 3 StHG) verankert sei, nicht jedoch in demjenigen zur wirtschaftlichen Zugehörigkeit (Art. 4 StHG).  Dagegen ist festzuhalten, dass die gesetzliche Regelung der Familienbesteuerung in Art. 20 Abs. 1 StG /SG (ebenso in Art. 9 Abs. 1 DBG) im Gegenteil den Schluss nahelegt, sie beziehe sich auf alle - weiter vorne im G"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_202_2014",
+   "referenz": [
+    "BGer 2C_202/2014 vom 19. August 2015"
+   ],
+   "datum": "2015-08-19",
+   "bge": false,
+   "ausschnitte": [
+    " hin berichtigen oder ergänzen, wenn sie offensichtlich unrichtig ist oder auf einer Rechtsverletzung im Sinne von Art. 95 BGG beruht (Art. 97 Abs. 1 und Art. 105 Abs. 2 BGG).  2.  2.1. Gemäss Art. 5 Abs. 1 lit. e DBG , Art. 4 Abs. 2 lit. e StHG sowie § 5 Abs. 2 lit. f. StG/SZ sind natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz aufgrund wirtschaftlicher Zugehörigkeit steuerpflichtig, wenn sie Leistungen aus schweizerischen pr"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_827_2014",
+   "referenz": [
+    "BGer 2C_827/2014 vom 1. September 2015"
+   ],
+   "datum": "2015-09-01",
+   "bge": false,
+   "ausschnitte": [
+    "legitimiert, wenn es um die innerkantonale interkommunale Steuerteilung (Art. 252 ff. StG /BE) geht, soweit diese an harmonisierte Rechtsbegriffe anknüpft wie z.B. den Begriff der Betriebsstätte (Art. 254 StG /BE i.V.m. Art. 4 und 21 StHG); damit besteht ein hinreichender formaler Bezug zum Harmonisierungsrecht, zumal sich die Qualifizierung auf die harmonisierungsrechtlich geregelte subjektive Steuerpflicht auswirkt (Urteil 2C_235/2009 vom 30. Oktober 2"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_712_2015",
+   "referenz": [
+    "BGer 2C_712/2015 vom 22. Februar 2016"
+   ],
+   "datum": "2016-02-22",
+   "bge": false,
+   "ausschnitte": [
+    "den geäussert. Ergänzend ist zu bemerken, dass auch die Eigentümer von Ferienhäusern und -wohnungen aufgrund ihrer wirtschaftlichen Zugehörigkeit Vermögens- und Einkommenssteuern für ihre Grundstücke im Kanton bezahlen (Art. 4 Abs. 1 StHG) und damit einen Beitrag an die allgemeinen Staatsaufgaben leisten. Dieser fällt zwar geringer aus als bei unbeschränkt Steuerpflichtigen, doch beanspruchen sie normalerweise auch die allgemeinen Leistungen des Kantons "
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_794_2015",
+   "referenz": [
+    "BGer 2C_794/2015 vom 22. Februar 2016"
+   ],
+   "datum": "2016-02-22",
+   "bge": false,
+   "ausschnitte": [
+    "den geäussert. Ergänzend ist zu bemerken, dass auch die Eigentümer von Ferienhäusern und -wohnungen aufgrund ihrer wirtschaftlichen Zugehörigkeit Vermögens- und Einkommenssteuern für ihre Grundstücke im Kanton bezahlen (Art. 4 Abs. 1 StHG) und damit einen Beitrag an die allgemeinen Staatsaufgaben leisten. Dieser fällt zwar geringer aus als bei unbeschränkt Steuerpflichtigen, doch beanspruchen sie normalerweise auch die allgemeinen Leistungen des Kantons "
+   ]
+  },
+  {
+   "id": "ocl_bge_142_II_182",
+   "referenz": [
+    "BGE 142 II 182"
+   ],
+   "datum": "2016-05-24",
+   "bge": true,
+   "ausschnitte": [
+    "on nur \"über Umwege\" von der Kapitalleistung. Anders als im Fall der üblichen Anknüpfungspunkte, die eine Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit begründen (Geschäftsbetriebe, Betriebsstätten, Grundstücke; Art. 4 Abs. 1 StHG) fehlt im Fall von Kapitalleistungen aus Vorsorge jede Anknüpfung, aufgrund deren der Fälligkeitskanton von der Kapitalleistung erfahren könnte. 3.2.4 Hauptsächliches Informationsmittel des Wegzugskantons ist daher die "
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_76_2015",
+   "referenz": [
+    "BGer 2C_76/2015 vom 24. Mai 2016"
+   ],
+   "datum": "2016-05-24",
+   "bge": false,
+   "ausschnitte": [
+    "on nur \"über Umwege\" von der Kapitalleistung. Anders als im Fall der üblichen Anknüpfungspunkte, die eine Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit begründen (Geschäftsbetriebe, Betriebsstätten, Grundstücke; Art. 4 Abs. 1 StHG) fehlt im Fall von Kapitalleistungen aus Vorsorge jede Anknüpfung, aufgrund deren der Fälligkeitskanton von der Kapitalleistung erfahren könnte.  3.2.4. Hauptsächliches Informationsmittel des Wegzugskantons ist daher di"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_199_2015",
+   "referenz": [
+    "BGer 2C_199/2015 vom 31. Mai 2016"
+   ],
+   "datum": "2016-05-31",
+   "bge": false,
+   "ausschnitte": [
+    "le canton; (...). Cette disposition correspond à l' art. 21 al. 1 let. b LHID . L'établissement stable constitue également un critère de rattachement économique permettant l'assujettissement des personnes physiques (cf. art. 4 al. 1 LHID ; cf. arrêt 2C_235/2009 du 30 octobre 2009 consid. 4.2, in StE 2010 A 23.21 Nr. 1).  4.  La Cour de justice, confirmant la position des autorités cantonales précédentes, a admis l'existence d'un établissement stable au "
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_228_2015",
+   "referenz": [
+    "BGer 2C_228/2015 vom 7. Juni 2016"
+   ],
+   "datum": "2016-06-07",
+   "bge": false,
+   "ausschnitte": [
+    "s de jouissance réels, portant sur un immeuble sis dans le canton (cf. art. 4 al. 1 let . c de la loi vaudoise du 4 juillet 2000 sur les impôts directs cantonaux [LI/VD; RS/VD 642.11]). Cette disposition correspond à l' art. 4 al. 1 LHID qui prévoit, pour sa part, que les personnes physiques qui, au regard du droit fiscal, ne sont ni domiciliées ni en séjour dans le canton, sont assujetties à l'impôt à raison du rattachement économique notamment lorsqu'",
+    "pôt à raison du rattachement économique notamment lorsqu'elles ont la \"jouissance\" d'un immeuble sis dans le canton. Le canton de Vaud a donc choisi de reprendre dans la LI/VD la notion de \"jouissance d'immeubles\" de l' art. 4 al. 1 LHID sous une forme large, en incluant les \"droits personnels assimilables économiquement à des droits de jouissance réels\". 5.2. En l'occurrence, il sied de déterminer si la participation du recourant à la société simple cr"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_1046_2015",
+   "referenz": [
+    "BGer 2C_1046/2015 vom 10. August 2016"
+   ],
+   "datum": "2016-08-10",
+   "bge": false,
+   "ausschnitte": [
+    "renden geltend machen, der Geschäftsort der Y.________ befinde sich im Kanton Zug, eine  Verlegung des Geschäftsorts und damit die Neubegründung eines Spezialsteuerdomizils aufgrund wirtschaftlicher Zugehörigkeit gemäss Art. 4 Abs. 1 StHG . Im Einklang mit der Rechtsprechung (vgl. Urteil 2C_794/2013 vom 2. Mai 2014 E. 4.4) auferlegt sie den Beschwerdeführenden die Beweislast für die Verlegung des Geschäftsorts und kommt zum Schluss, der Beweis sei nicht ",
+    "steuerdomizils zu erbringen haben. Nach dem Gesagten tragen aber die aargauischen Steuerbehörden die Beweislast für den Geschäftsort in U.________. Ein Spezialsteuerdomizil aufgrund wirtschaftlicher Zugehörigkeit gemäss Art. 4 Abs. 1 StHG konnte nur begründet werden, wenn der Beschwerdeführer 1 im massgeblichen Zeitraum selbständig erwerbstätig war. Diese Frage ist daher vorgängig abzuklären. Ist von einer unselbständigen Erwerbstätigkeit auszugehen, erü"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_666_2015",
+   "referenz": [
+    "BGer 2C_666/2015 vom 7. Oktober 2016"
+   ],
+   "datum": "2016-10-07",
+   "bge": false,
+   "ausschnitte": [
+    "1 al. 1 let. c LHID et 86 al. 1 let. c LI/VD n'est pas clair sur le sens qu'il faut donner à la notion en question. Il y a donc lieu de l'interpréter. Ce faisant, il convient de s'inspirer de l'interprétation donnée aux articles 4 al. 1 LHID et 4 al. 1 LI/VD, qui concernent le rattachement économique pour les personnes physiques et qui ont, sur la question litigieuse, une teneur analogue à celle des articles 21 al. 1 let. c LHID et 86 al. 1 let. c LI/VD (cf",
+    "r la notion de \"droits personnels assimilables économiquement à des droits de jouissance réels\"; il se limite à se référer au rattachement économique constitué par la \"propriété immobilière\" (message, p. 93 et 115). Les articles 4 al. 1 LHID et 21 al. 1 (à l'époque: 24 al. 1) LHID ont été adoptés sans débat au Conseil des Etats (cf. BO 1986 CE 130 et 147) et au Conseil national (cf. BO 1989 CN 27 s. et 73). 4.6. Sur le plan systématique, il sied de relever ",
+    "us-location devaient donc être imposés dans le canton de situation des immeubles, soit le canton de Neuchâtel (arrêt 2C_41/2012 du 12 octobre 2012 consid. 3.3). Récemment, le Tribunal fédéral a examiné, sous l'angle des articles 4 al. 1 LHID et 4 al. 1 let. c LI/VD (qui se réfère aux \"droits personnels assimilables économiquement à des droits de jouissance réels\" appartenant à des personnes physiques), le cas d'un contribuable domicilié dans le canton de Zu"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_32_2016",
+   "referenz": [
+    "BGer 2C_32/2016 vom 24. November 2016"
+   ],
+   "datum": "2016-11-24",
+   "bge": false,
+   "ausschnitte": [
+    "sanctionnait l'omission intentionnelle de déclarer des revenus et correspondait à 50 % des impôts que les recourants avaient tenté de soustraire, soit à 2/3 du montant d'une amende pour soustraction consommée. Comme les art. 56, 57 al. 4 et 57a al. 2 LHID ont une teneur similaire à celle des art. 175, 176, 180 et 183 al. 1bis LIFD, les considérants relatifs à l'impôt fédéral direct valent également pour l'impôt cantonal et communal. 17.3. Les considérations qui précèdent"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_216_2014",
+   "referenz": [
+    "BGer 2C_216/2014 vom 15. Dezember 2016"
+   ],
+   "datum": "2016-12-15",
+   "bge": false,
+   "ausschnitte": [
+    " ATHANAS/STEFAN WIDMER in: Zweifel/Athanas [a cura di], Kommentar zum schweizerischen Steuerrecht vol. I/1, Bundesgesetz über die Harmonisierung der direkten Steuern der Kantone und Gemeinden [StHG], 2aed. 2002, n. 5 ad art. 4 LAID ; FELIX RICHNER/WALTER FREI/STEFAN KAUFMANN/HANS ULRICH MEUTER, Kommentar zum harmonisierten Zürcher Steuergesetz, 2aed., Zurigo 2006, n. 12 segg. ad art. 4). Conformemente alla giurisprudenza federale richiamata, si è "
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_606_2016",
+   "referenz": [
+    "BGer 2C_606/2016 vom 25. Januar 2017"
+   ],
+   "datum": "2017-01-25",
+   "bge": false,
+   "ausschnitte": [
+    "s est rejeté en ce qui concerne l'impôt fédéral direct prélevé sur les deux prestations en capital touchées par le recourant.  II. Impôts cantonal et communal  6.  Conformément à l' art. 35 al. 1 let . g LHID (cf. aussi art. 4 al. 2 let . e LHID), l'art. 11 al. 1 de la loi genevoise du 23 septembre 1984 sur l'imposition à la source des personnes physiques et morales (LISP; RS/GE D 3 20) soumet à l'impôt à la source les bénéficiaires, domiciliés à l'étranger, de"
+   ]
+  },
+  {
+   "id": "ocl_bge_143_II_402",
+   "referenz": [
+    "BGE 143 II 402"
+   ],
+   "datum": "2017-06-21",
+   "bge": true,
+   "ausschnitte": [
+    "nité pour la renonciation du droit d'usufruit par le recourant comme un gain immobilier et pas comme un gain en capital exonéré (art. 12 al. 3 LF/VS), celui-ci devrait être imposé au lieu de situation de l'immeuble (cf. art. 4 al. 1 LHID ; art. 3 al. 1 let . c LF/VS), c'est-à-dire dans le canton de Genève, ce qui exclut d'emblée une imposition par le canton du Valais. Connaître le sort réservé en droit genevois à ce type de situation ne fait pas partie "
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_82_2017",
+   "referenz": [
+    "BGer 2C_82/2017 vom 21. Juni 2017"
+   ],
+   "datum": "2017-06-21",
+   "bge": false,
+   "ausschnitte": [
+    "nité pour la renonciation du droit d'usufruit par le recourant comme un gain immobilier et pas comme un gain en capital exonéré (art. 12 al. 3 LF/VS), celui-ci devrait être imposé au lieu de situation de l'immeuble (cf. art. 4 al. 1 LHID ; art. 3 al. 1 let . c LF/VS), c'est-à-dire dans le canton de Genève, ce qui exclut d'emblée une imposition par le canton du Valais. Connaître le sort réservé en droit genevois à ce type de situation ne fait pas partie "
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_735_2017",
+   "referenz": [
+    "BGer 2C_735/2017 vom 6. Februar 2018"
+   ],
+   "datum": "2018-02-06",
+   "bge": false,
+   "ausschnitte": [
+    " par une disposition conventionnelle visant à restreindre ou éliminer une éventuelle double imposition internationale (ATF 143 II 257 consid. 5.1 p. 259 et les références citées). 3.1. En l'occurrence, conformément à l' art. 4 al. 2 let. a LHID , les personnes physiques qui, au regard du droit fiscal, ne sont ni domiciliées ni en séjour en Suisse sont assujetties à l'impôt à raison du rattachement économique lorsqu'elles exercent une activité lucrative dans le"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_133_2018",
+   "referenz": [
+    "BGer 2C_133/2018 vom 21. Februar 2018"
+   ],
+   "datum": "2018-02-21",
+   "bge": false,
+   "ausschnitte": [
+    "der Aufenthalt im Kanton sind aufgrund  wirtschaftlicher Zugehörigkeit steuerpflichtig, wenn sie im Kanton Geschäftsbetriebe oder Betriebsstätten unterhalten, Grundstücke besitzen, nutzen, vermitteln oder damit handeln (Art. 4 Abs. 1 StHG). Die wirtschaftliche Zugehörigkeit führt zur  beschränkten Steuerpflicht (analog dazu Art. 6 Abs. 2 DBG [SR 642.11]). Die beschränkte Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit besteht für die gesamte Steuer",
+    " den tatsächlichen Besitzantritt aus, nicht aber auf die rechtliche Verfügungsmacht (Näheres zu Art. 220 OR zuletzt im Urteil 2C_469/2017 vom 1. Dezember 2017 E. 3.2.4, in: ASA 86 S. 503).  2.2.4. Wie dargelegt, spricht Art. 4 Abs. 1 StHG namentlich vom \"Besitzen\" und \"Nutzen\". Das Harmonisierungsrecht geht damit dem Wortlaut nach weniger weit als Art. 4 Abs. 1 lit. c DBG , denn dort wird ausgeführt, dass in der Schweiz aufgrund wirtschaftlicher Zugehöri",
+    "he Nutzungsrechte\" hat (dazu JEAN-BLAISE PASCHOUD/DANIEL DE VRIES REILINGH, in: Yves Noël/Florence Aubry Girardin [Hrsg.], Commentaire romand zum LIFD, 2. Aufl. 2017, N. 50 ff. zu Art. 4 DBG). Auch wenn der Wortlaut von Art. 4 Abs. 1 StHG damit enger gefasst ist, stimmen die beiden Normen ihrem Sinne nach überein (STEFAN OESTERHELT/MORITZ SEILER, in: Martin Zweifel/Michael Beusch [Hrsg.], Kommentar StHG, 3. Aufl. 2017, N. 17 zu Art. 4 StHG). Anlass für d"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_315_2017",
+   "referenz": [
+    "BGer 2C_315/2017 vom 26. März 2018"
+   ],
+   "datum": "2018-03-26",
+   "bge": false,
+   "ausschnitte": [
+    "en in der Steuerperiode 2003 vom Geschäfts- ins Privatvermögen überführt worden. Umstritten sei nur, ob es sich dabei um land- oder forstwirtschaftliche Grundstücke gehandelt habe, so dass die privilegierte Besteuerung (Art. 8 Abs. 1, Art. 12 Abs. 4 StHG) zur Anwendung käme (was sie verneinte). Entgegen der Auffassung der Beschwerdeführer lässt der Umstand, dass die drei streitbetroffenen Grundstücke vor der Hofübergabe im Jahr 2003 Teil des Geschäftsvermögens eines Lan",
+    "des Geschäftsvermögens eines Landwirtschaftsbetriebs gebildet haben, noch nicht zwingend darauf schliessen, dass es sich bei diesen drei Grundstücken auch um land- und forstwirtschaftliche Grundstücke im engen Sinne von Art. 8 Abs. 1 und Art. 12 Abs. 4 StHG gehandelt hat.  4.2. Der Begriff des land- oder forstwirtschaftlichen Grundstückes wird im harmonisierten Recht nicht definiert. Das Bundesgericht hat in freier Prüfung dieses harmonisierten Begriffs erkannt, dass er ni"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_980_2017",
+   "referenz": [
+    "BGer 2C_980/2017 vom 28. Juni 2018"
+   ],
+   "datum": "2018-06-28",
+   "bge": false,
+   "ausschnitte": [
+    "qui concernent l'assujettissement à l'impôt fondé sur le rattachement économique et l'obligation du contribuable de collaborer afin d'assurer une taxation complète et exacte trouvent leur parallèle en matière d'ICC (cf. art. 4 al. 1 LHID et 42 LHID; art. 5 al. 2 et 3 de la loi genevoise du 27 septembre 2009 sur l'imposition des personnes physiques [LIPP/GE; RSGE D 3 08]; art. 26 de la loi de procédure fiscale genevoise du 4 octobre 2001 [LPFisc/GE; RSGE"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_644_2018",
+   "referenz": [
+    "BGer 2C_644/2018 vom 10. August 2018"
+   ],
+   "datum": "2018-08-10",
+   "bge": false,
+   "ausschnitte": [
+    " 2.3. 2.3.1. Dem Steuerpflichtigen ist zunächst entgegenzuhalten, dass der Kanton Schaffhausen zur Besteuerung der Mieteinkünfte nicht berechtigt ist. Grundeigentum wird ausnahmslos am Ort der gelegenen Sache besteuert (Art. 4 Abs. 1 StHG ; Belegenheitsprinzip). Die interkantonale Ausscheidung erfolgt anhand der Befreiungsmethode , wobei diese unter dem Progressionsvorbehalt steht (réserve de progressivité; Urteil 2C_708/2012 vom 21. Dezember 2012 E. 2.2"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_129_2018",
+   "referenz": [
+    "BGer 2C_129/2018 vom 24. September 2018"
+   ],
+   "datum": "2018-09-24",
+   "bge": false,
+   "ausschnitte": [
+    "nts soustraits pour tenir compte de la situation personnelle du recourant ainsi que de sa bonne collaboration, ce point n'étant du reste pas contesté par ce dernier.  II.       Impôt cantonal et communal  11.  11.1. Les art. 4 al. 1, 42, 46 al. 3, 53 et 56 LHID correspondent aux dispositions de teneur similaire de la loi sur l'impôt fédéral direct et du droit cantonal genevois (art. 3 al. 1 let . c, 5 al. 2 et 6 al. 1 de la loi genevoise du 27 septembre 2009 sur l'imposition d"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_263_2018",
+   "referenz": [
+    "BGer 2C_263/2018 vom 11. Februar 2019"
+   ],
+   "datum": "2019-02-11",
+   "bge": false,
+   "ausschnitte": [
+    "ein durch eine Unterbesteuerung verursachter Steuerausfall. Vorliegend ist unbestritten, dass im Kanton St. Gallen in der Steuerperiode 2006 eine Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit bestanden hat (vgl. Art. 4 Abs. 1 StHG). Das in den Kanton St. Gallen ausgeschiedene Einkommen und Vermögen ist aufgrund der Veranlagungsverjährung jedoch unbesteuert geblieben. Ein Steuerausfall liegt demnach vor.  5.2. Aus dem Wortlaut von Art. 53 Abs. 1 S"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_553_2018",
+   "referenz": [
+    "BGer 2C_553/2018 vom 17. Juni 2019"
+   ],
+   "datum": "2019-06-17",
+   "bge": false,
+   "ausschnitte": [
+    "ontribuable, qui l'admet, est assujetti à l'impôt cantonal et communal genevois en raison d'un rattachement économique dans ce canton depuis le 1 er janvier 2010, puisqu'il y exerce l'activité indépendante d'avocat (cf. art. 4 al. 1 LHID ; art. 3 al. 1 let. b de la loi genevoise sur l'imposition des personnes physiques du 27 septembre 2009 [LIPP; RS/GE D 3 08]). Il résulte de l'arrêt entrepris que le contribuable, qui ne le conteste pas non plus, n'a dé"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_689_2018",
+   "referenz": [
+    "BGer 2C_689/2018 vom 20. Juni 2019"
+   ],
+   "datum": "2019-06-20",
+   "bge": false,
+   "ausschnitte": [
+    "errecht, Interkantonales Steuerrecht, 2011, § 10 N. 1). Die Ausübung einer selbstständigen Erwerbstätigkeit in einer Geschäftsniederlassung mit ständigen Einrichtungen begründet somit einen Geschäftsbetrieb im Sinne von Art. 4 Abs. 1 StHG (DE VRIES REILINGH, a.a.O., § 10 N. 20; MÄUSLI-ALLENSPACH, a.a.O., § 18 N. 32), wobei daraus nicht abgeleitet werden kann, es liege durchwegs auch ein Betrieb im umstrukturierungsrechtlichen Sinn vor (vgl. ausführlich B",
+    "vgl. ausführlich BGE 142 II 283 E. 3 S. 287 ff.). Sofern die dafür aufgestellten Voraussetzungen erfüllt sind (BGE 134 I 303 E. 2.2 S. 307), begründet die selbstständige Erwerbstätigkeit eine Betriebsstätte im Sinne von Art. 4 Abs. 1 StHG (vgl. zur Abgrenzung der Begriffe DE VRIES REILINGH, a.a.O., § 10 N. 21).  3.3. Gemäss den vorinstanzlichen Sachverhaltsfeststellungen hat die Klinik Y.________ die Arzthonorare des Beschwerdeführers abgerechnet, wobei "
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_510_2017",
+   "referenz": [
+    "BGer 2C_510/2017 vom 16. September 2019"
+   ],
+   "datum": "2019-09-16",
+   "bge": false,
+   "ausschnitte": [
+    "en sind oder von der Besteuerung ausgenommen sind oder ob dafür allenfalls ein gewisser kantonaler Spielraum besteht, ist eine andere Frage und kann ebenfalls offenbleiben. 8.2. Aus dem Bundesrecht (Art. 127 Abs. 3 BV ; Art. 4 Abs. 1 StHG) ergibt sich zwar der Ort der Vermögensbesteuerung, ebenso der Ort der Einkommensbesteuerung bei Gebrauchsüberlassung einer Photovoltaik-Anlage als Ganzes, der sich am Lageort befindet bei immobilen Anlagen und am Wohns"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_511_2017",
+   "referenz": [
+    "BGer 2C_511/2017 vom 16. September 2019"
+   ],
+   "datum": "2019-09-16",
+   "bge": false,
+   "ausschnitte": [
+    "en sind oder von der Besteuerung ausgenommen sind oder ob dafür allenfalls ein gewisser kantonaler Spielraum besteht, ist eine andere Frage und kann ebenfalls offenbleiben. 8.2. Aus dem Bundesrecht (Art. 127 Abs. 3 BV ; Art. 4 Abs. 1 StHG) ergibt sich zwar der Ort der Vermögensbesteuerung, ebenso der Ort der Einkommensbesteuerung bei Gebrauchsüberlassung einer Photovoltaik-Anlage als Ganzes, der sich am Lageort befindet bei immobilen Anlagen und am Wohns"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_171_2019",
+   "referenz": [
+    "BGer 2C_171/2019 vom 11. Oktober 2019"
+   ],
+   "datum": "2019-10-11",
+   "bge": false,
+   "ausschnitte": [
+    "hen Regelungsinhalt wie Art. 48 Abs. 2 StHG und Art. 132 Abs. 3 DBG . Gleiches gilt für die kantonale Regelung der beschränkten Steuerpflicht. Diesbezüglich entspricht § 4 Abs. 1 StG ZH der bundesrechtlichen Regelung in Art. 4 Abs. 1 StHG und Art. 4 Abs. 1 DBG . Als detaillierte Regelungen belassen Art. 4 Abs. 1 StHG , Art. 46 Abs. 3 StHG und Art. 48 Abs. 2 StHG dem kantonalen Gesetzgeber keinen Gestaltungsspielraum. Die Bestimmungen kämen gemäss Art. 72",
+    "ilt für die kantonale Regelung der beschränkten Steuerpflicht. Diesbezüglich entspricht § 4 Abs. 1 StG ZH der bundesrechtlichen Regelung in Art. 4 Abs. 1 StHG und Art. 4 Abs. 1 DBG . Als detaillierte Regelungen belassen Art. 4 Abs. 1 StHG , Art. 46 Abs. 3 StHG und Art. 48 Abs. 2 StHG dem kantonalen Gesetzgeber keinen Gestaltungsspielraum. Die Bestimmungen kämen gemäss Art. 72 Abs. 2 StHG direkt zur Anwendung, falls sich erweisen sollte, dass das kantonal",
+    "teilt werden (vgl. BGE 133 II 114 E. 3.2 S. 116; 130 II 65 E. 5.2 S. 72 ff.; Urteil 2C_263/2018 vom 11. Februar 2019 E. 2; vgl. auch BGE 139 II 363 E. 3.2 S. 370 f.). Ausgangspunkt der nachfolgenden Erwägungen ist damit Art. 4 Abs. 1 StHG , Art. 46 Abs. 3 StHG und Art. 48 Abs. 2 StHG , wobei die erfolgte Rechtsanwendung mit freier Kognition und unter Berücksichtigung von Art. 4 Abs. 1 DBG , Art. 130 Abs. 2 DBG und Art. 132 Abs. 3 DBG überprüft werden kan"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_713_2019",
+   "referenz": [
+    "BGer 2C_713/2019 vom 30. April 2020"
+   ],
+   "datum": "2020-04-30",
+   "bge": false,
+   "ausschnitte": [
+    "teuerpflicht aufgrund wirtschaftlicher Zugehörigkeit von natürlichen Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz für eine in der Schweiz ausgeübte Erwerbstätigkeit (Art. 5 Abs. 1 lit. a DBG ; Art. 4 Abs. 2 lit. a StHG). Dabei ist nicht nur umstritten, ob - wie die Vorinstanz angenommen hat - eine Quellensteuerpflicht für E.________ und F.________ als von der Beschwerdeführerin an die CS ausgeliehene Arbeitnehmer besteht. Die Beschwer",
+    "n hat, hat sie indessen im Ergebnis angenommen, bei E.________ und F.________ handle es sich um internationale Wochenaufenthalter. Davon kann - unter der Voraussetzung, dass sie gestützt auf Art. 5 Abs. 1 lit. a DBG und Art. 4 Abs. 2 lit. a StHG in der Schweiz steuerpflichtig geworden sind - denn auch ohne weiteres ausgegangen werden, verfügten doch beide Personen über Kurzaufenthaltsbewilligungen in der Schweiz und kehrten unbestrittenermassen während ihrer Er",
+    "EIFEL/MICHAEL BEUSCH/RENÉ MATTEOTTI [Hrsg.] Internationales Steuerrecht, 2015, Art. 15 N 100 ff.).  3.3. Für die Erhebung der Quellensteuer bei aufgrund wirtschaftlicher Zugehörigkeit gemäss Art. 5 Abs. 1 lit. a DBG und Art. 4 Abs. 2 lit. a StHG in der Schweiz steuerpflichtigen internationalen Wochenaufenthaltern fragt sich zunächst, welcher Kanton für die Erhebung der direkten Bundessteuer \"zuständig\" ist. Dabei ist zwischen zwei Fragen zu unterscheiden, nämli"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_939_2019",
+   "referenz": [
+    "BGer 2C_939/2019 vom 25. Mai 2020"
+   ],
+   "datum": "2020-05-25",
+   "bge": false,
+   "ausschnitte": [
+    "rmögen der Einzelunternehmung zuzuweisen wäre, würde sie harmonisierungsrechtlich unter die Steuerhoheit des Kantons Zürich fallen, da die Einzelunternehmung dort ansässig ist (wirtschaftliche Zugehörigkeit im Sinne von Art. 4 Abs. 1 StHG), andernfalls unter jene des Kantons Schwyz (persönliche Zugehörigkeit gemäss Art. 3 Abs. 1 und 2 StHG). Dasselbe ergibt sich aus der bundesgerichtlichen Rechtsprechung zum Verbot der interkantonalen Doppelbesteuerung ("
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_684_2019",
+   "referenz": [
+    "BGer 2C_684/2019 vom 11. November 2020"
+   ],
+   "datum": "2020-11-11",
+   "bge": false,
+   "ausschnitte": [
+    "ich verbindlich festgestellt, dass der Steuerpflichtige auch in der streitbetroffenen Steuerperiode 2016 Grundeigentümer in W.________/LU gewesen ist, weshalb er zumindest wirtschaftlich dem Kanton Luzern zugehörig war (Art. 4 Abs. 1 StHG). Der Steuerpflichtige hatte daher auch im Kanton Luzern eine Steuererklärung einzureichen (Art. 42 StHG), mindestens indem er eine Kopie der Steuererklärung des von ihm behaupteten Wohnsitzkantons Zug einreicht (Art. 2"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_864_2020",
+   "referenz": [
+    "BGer 2C_864/2020 vom 8. März 2021"
+   ],
+   "datum": "2021-03-08",
+   "bge": false,
+   "ausschnitte": [
+    "2010 du 21 octobre 2010 consid. 4.1.1, in SVR 2011 AHV 12 39; 2P.300/2002 du 15 avril 2003 consid. 3.3). C'est en principe le propriétaire de l'immeuble qui sera assujetti à l'impôt en raison du rattachement économique (art. 4 al. 1 LHID). Selon la jurisprudence, il est présumé que les opérations effectuées en son nom propre sont conclues pour le compte de la personne qui agit. En principe, les autorités fiscales peuvent imputer les rapports de droit et",
+    "oit public du Tribunal fédéral suisse Le Président : Seiler Le Greffier : de Chambrier Art. 100 Abs. 1 LTF; Art. 105 Abs. 1 LTF; Art. 105 Abs. 2 LTF; Art. 106 Abs. 1 LTF; Art. 106 Abs. 2 LTF; Art. 13 STHG; Art. 151a LF; Art. 4 Abs. 1 LHID"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_1016_2019",
+   "referenz": [
+    "BGer 2C_1016/2019 vom 5. Oktober 2021"
+   ],
+   "datum": "2021-10-05",
+   "bge": false,
+   "ausschnitte": [
+    "s dans le canton de Genève.  5.1. Sous l'angle du droit interne, il n'est pas contesté que les revenus provenant des immeubles du recourant et sa fortune immobilière sont imposables dans le canton de Genève en vertu des art. 4 al. 1 et 13 al. 1 LHID et des art. 3 al. 1 let . c, 24 al. 1 let. a et 47 let. a de la loi genevoise du 27 septembre 2009 sur l'imposition des personnes physiques (LIPP; RSGE D 3 08). Toutefois, conformément à l'art. 5 al. 3 LIPP, l'étendue d"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_952_2020",
+   "referenz": [
+    "BGer 2C_952/2020 vom 6. Oktober 2021"
+   ],
+   "datum": "2021-10-06",
+   "bge": false,
+   "ausschnitte": [
+    "sigen, zumeist hälftigen Teilung der Steuerhoheit. Diese umfasst alle der Besteuerung unterliegenden Elemente mit Ausnahme ausserkantonaler Geschäftsbetriebe und Betriebsstätten und ausserkantonalen Grundeigentums (vgl. Art. 4 Abs. 1 StHG). Die hälftige Teilung rechtfertigt sich namentlich für weitgehend getrennt lebende Ehegatten, welche die Kosten für Lebensunterhalt und Wohnung indessen aus gemeinsamen Mitteln bestreiten oder falls einer der Gatten üb"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_646_2021",
+   "referenz": [
+    "BGer 2C_646/2021 vom 7. Oktober 2021"
+   ],
+   "datum": "2021-10-07",
+   "bge": false,
+   "ausschnitte": [
+    "dem Aspekt der Staats- und Gemeindesteuern des Kantons Zürich. Die direkte Bundessteuer ist nicht streitig.  3.2.  3.2.1. Die Steuerpflichtige ist im Kanton Zürich aufgrund ihres Grundeigentums wirtschaftlich zugehörig (Art. 4 Abs. 1 StHG bzw. § 4 Abs. 1 lit. b des Steuergesetzes [des Kantons Zürich] vom 8. Juni 1997 [StG/ZH; SR ZH 631.1]) und folglich beschränkt steuerpflichtig (§ 5 Abs. 2 StG /ZH). Zur internationalen Steuerausscheidung finden sich in ",
+    "ich um nicht harmonisiertes kantonales Recht (Urteil 2C_23/2019 vom 29. Januar 2019 E. 4; vgl. auch Stefan Oesterhelt/Moritz Seiler, in: Martin Zweifel/Michael Beusch [Hrsg.], Kommentar zum StHG, 3. Aufl. 2017, N. 79 zu Art. 4 StHG). Dies führt zur Prüfung unter dem Gesichtspunkt der verfassungsrechtlichen Haltbarkeit (vorne E. 2.3).  3.2.2. Der Kanton Zürich hat in § 5 Abs. 3 StG /ZH festgelegt, dass die Abgrenzung der Steuerpflicht für Geschäfts"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_615_2021",
+   "referenz": [
+    "BGer 2C_615/2021 vom 23. September 2022"
+   ],
+   "datum": "2022-09-23",
+   "bge": false,
+   "ausschnitte": [
+    "und in einem anderen Kanton einen Geschäftsbetrieb oder eine Betriebsstätte unterhalten, sind gemäss Steuerharmonisierungsgesetz im erstgenannten Kanton unbeschränkt, im zweitgenannten Kanton beschränkt steuerpflichtig (Art. 3 Abs. 1 und Art. 4 Abs. 1 StHG ; vgl. auch Urteil 2C_553/2018 vom 17. Juni 2019 E. 5.1). Nach den Grundsätzen zur Vermeidung der interkantonalen Doppelbesteuerung sind das Einkommen aus selbständiger Erwerbstätigkeit, das in einer Geschäftsniederlass"
+   ]
+  },
+  {
+   "id": "ocl_bge_149_II_177",
+   "referenz": [
+    "BGE 149 II 177"
+   ],
+   "datum": "2023-04-12",
+   "bge": true,
+   "ausschnitte": [
+    "as d'espèce. En outre, la plupart des médecins employés par la recourante étaient résidents français et donc assujettis à l'impôt de manière limitée en Suisse (cf. art. 5 al. 1 let. a en lien avec l' art. 6 al. 2 LIFD ; art. 4 al. 2 let. a LHID), ce qui exclut de toute manière d'emblée pour eux l'application des anciens art. 209 al. 3 LIFD et 63 al. 3 LHID. Il n'y a donc pas de base légale pour l'annualisation litigieuse dans la LIFD et la LHID dans leur teneu",
+    "nale pour qu'elle y procède (pour les détails, voir aussi consid. 13 non publié). Art. 1 Abs. 3 OIS; Art. 127 Abs. 1 BV; Art. 127 Abs. 1 CST; Art. 127 Abs. 2 CST; Art. 127 CST; Art. 15 Abs. 3 LHID; Art. 209 Abs. 3 LIFD; Art. 4 Abs. 2 LHID"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_689_2022",
+   "referenz": [
+    "BGer 9C_689/2022 vom 12. April 2023"
+   ],
+   "datum": "2023-04-12",
+   "bge": false,
+   "ausschnitte": [
+    "as d'espèce. En outre, la plupart des médecins employés par la recourante étaient résidents français et donc assujettis à l'impôt de manière limitée en Suisse (cf. art. 5 al. 1 let. a en lien avec l' art. 6 al. 2 LIFD ; art. 4 al. 2 let. a LHID), ce qui exclut de toute manière d'emblée pour eux l'application des art. 209 al. 3 aLIFD et 63 al. 3 aLHID. Il n'y a donc pas de base légale pour l'annualisation litigieuse dans l'aLIFD et l'aLHID. Cette conclusion est"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_676_2022",
+   "referenz": [
+    "BGer 9C_676/2022 vom 24. April 2023"
+   ],
+   "datum": "2023-04-24",
+   "bge": false,
+   "ausschnitte": [
+    "pour son activité de médecin au sein de la Société. Il a donc rempli un critère de rattachement économique à l'impôt, qui a entraîné un assujettissement à l'impôt limité à ce revenu (art. 5 al. 1 let. a et 6 al. 2 LIFD; art. 4 al. 2 let. a LHID). 6.1. Le revenu de l'activité lucrative dépendante réalisé en Suisse par un travailleur qui n'est ni domicilié ni en séjour en Suisse est soumis à une imposition à la source (art. 91 aLIFD; art. 36 al. 1 aLHID art. 7 a"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_10_2023",
+   "referenz": [
+    "BGer 9C_10/2023 vom 26. Juli 2023"
+   ],
+   "datum": "2023-07-26",
+   "bge": false,
+   "ausschnitte": [
+    "allem in Bezug auf Immobilien-Aktiengesellschaften kontrovers diskutiert, ob respektive unter welchen Umständen die Mitgliedschaft in einer Gesellschaft ausreicht, um gestützt auf die kantonale Umsetzungsvorschriften zu Art. 4 Abs. 1 und Art. 21 Abs. 1 lit. c StHG sowie Art. 4 Abs. 1 lit. c und Art. 51 Abs. 1 lit. c des Bundesgesetzes vom 14. Dezember 1990 über die direkte Bundessteuer (DBG; SR 642.11) die beschränkte Steuerpflicht von Personen zu begründen, die selbst nicht unmi",
+    "iengesellschaften, FStR 2023 S. 123 ff.; OESTERHELT/SEILER, in: Bundesgesetz über die Harmonisierung der direkten Steuern der Kantone und Gemeinden, Kommentar zum Schweizerischen Steuerrecht, 4. Aufl. 2022, N. 23 ff. zu Art. 4 StHG ; ANDREA PEDROLI, Wirtschaftliche Handänderung von Liegenschaften, ASA 88 S. 16; ANNE-CHRISTINE SCHWAB, La vente des actions de la société immobilière en droit fiscal suisse, 2019, S. 232; vgl. auch Urteil 2C_666/2015 v"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_608_2022",
+   "referenz": [
+    "BGer 9C_608/2022 vom 13. November 2023"
+   ],
+   "datum": "2023-11-13",
+   "bge": false,
+   "ausschnitte": [
+    " (Gewinn- und Kapitalbesteuerung), die höhere Anforderungen an das Vorliegen eines Betriebs stellt (vgl. Urteil 2P.323/2004 vom 2. März 2005 E. 2.2). Ebenso wie die Begriffe des Geschäftsbetriebs und der Betriebsstätte (Art. 4 Abs. 1 StHG bzw. Art. 4 Abs. 1 lit. a und b DBG) indiziert der Begriff des Betriebs nach Art. 8 Abs. 3 lit. b StHG und Art. 19 Abs. 1 lit. b DBG (frz. \"exploitation\"; ital. \"esercizio\") aber auch im Zusammenhang mit Umstrukturierun"
+   ]
+  },
+  {
+   "id": "ocl_bge_150_II_40",
+   "referenz": [
+    "BGE 150 II 40"
+   ],
+   "datum": "2023-11-13",
+   "bge": true,
+   "ausschnitte": [
+    "Urteilskopf 150 II 40 5. Auszug aus dem Urteil der III. öffentlich-rechtlichen Abteilung i.S. A. gegen Gemeinde X. (Beschwerde in öffentlich-rechtlichen Angelegenheiten) 9C_608/2022 vom 13. November 2023 Regeste Art. 8 Abs. 3 lit. b und Art. 12 Abs. 4 lit. a StHG ; Aufschub der Grundstückgewinnsteuer infolge Umstrukturierung eines Personenunternehmens; Immobilienverwaltung; Betriebsbegriff. Damit Liegenschaften einen Betrieb im Sinn von Art. 8 Abs. 3 lit. b StHG darstellen könne",
+    " (Gewinn- und Kapitalbesteuerung), die höhere Anforderungen an das Vorliegen eines Betriebs stellt (vgl. Urteil 2P.323/2004 vom 2. März 2005 E. 2.2). Ebenso wie die Begriffe des Geschäftsbetriebs und der Betriebsstätte (Art. 4 Abs. 1 StHG bzw. Art. 4 Abs. 1 lit. a und b DBG) indiziert der Begriff des Betriebs nach Art. 8 Abs. 3 lit. b StHG und Art. 19 Abs. 1 lit. b DBG (frz. \"exploitation\"; ital. \"esercizio\") aber auch im Zusammenhang mit Umstrukturierun"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_70_2023",
+   "referenz": [
+    "BGer 9C_70/2023 vom 13. Februar 2024"
+   ],
+   "datum": "2024-02-13",
+   "bge": false,
+   "ausschnitte": [
+    " - et sur lequel la commission de recours a fondé sa décision -, prévoit le rattachement à l'impôt en raison de la possession d'un établissement stable, notion qui est prévue par le droit fédéral sur l'harmonisation aux art. 4 et 21 LHID (cf. ATF 134 I 303 consid. 1.2).  2.  Le recours est par ailleurs dirigé contre une décision finale (art. 90 LTF) qui a été rendue en dernière instance cantonale par un tribunal supérieur (art. 86 al. 1 let . d et al. 2",
+    " 4.2; 2C_518/2010 du 9 février 2011 consid. 4.1 et les références). Dans cette mesure, la notion d'établissement stable dans un litige relatif à la répartition intercommunale est calquée sur les dispositions de la LHID (art. 4 et 21 LHID).  Selon la jurisprudence, en matière intercantonale, il faut entendre par établissement stable toute installation fixe et permanente dans laquelle s'exerce une partie quantitativement et qualitativement importante de l"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_496_2023",
+   "referenz": [
+    "BGer 9C_496/2023 vom 29. Februar 2024"
+   ],
+   "datum": "2024-02-29",
+   "bge": false,
+   "ausschnitte": [
+    "n mehreren Kantonen regelmässig der Steuer- und Veranlagungshoheit mehrerer Kantone unterstehen (z.B. unbeschränkte Steuerpflicht kraft Wohnsitz im Kanton A, beschränkte Steuerpflicht kraft Grundbesitz im Kanton B; vgl. Art. 3 Abs. 1 und Art. 4 Abs. 1 StHG). Der Steuerdomizilentscheid für die kantonalen Steuern schliesst also nicht zwangsläufig die Veranlagungszuständigkeit anderer Kantone aus und greift nicht zwangsläufig in ihre Kompetenzen ein. Er schützt alleine die s"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_305_2023",
+   "referenz": [
+    "BGer 9C_305/2023 vom 10. Oktober 2024"
+   ],
+   "datum": "2024-10-10",
+   "bge": false,
+   "ausschnitte": [
+    "le reste de toute manière soumis à la souveraineté fiscale du canton de situation de l'immeuble, puisque son propriétaire y est assujetti au paiement de l'impôt sur la fortune indépendamment de son lieu de domicile (cf. art. 4 al. 1 LHID). On ne saurait donc voir dans la constitution d'un droit d'habitation une structure potentiellement constitutive d'évasion fiscale destinée à éluder l'impôt sur la fortune (supra consid. 7.1). Les autorités cantonales "
+   ]
+  },
+  {
+   "id": "ocl_bge_151_II_262",
+   "referenz": [
+    "BGE 151 II 262"
+   ],
+   "datum": "2024-10-10",
+   "bge": true,
+   "ausschnitte": [
+    "le reste de toute manière soumis à la souveraineté fiscale du canton de situation de l'immeuble, puisque son propriétaire y est assujetti au paiement de l'impôt sur la fortune indépendamment de son lieu de domicile (cf. art. 4 al. 1 LHID). On ne saurait donc voir dans la constitution d'un droit d'habitation une structure potentiellement constitutive d'évasion fiscale destinée à éluder l'impôt sur la fortune (supra consid. 7.1). Les autorités cantonales "
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_131_2025",
+   "referenz": [
+    "BGer 9C_131/2025 vom 4. April 2025"
+   ],
+   "datum": "2025-04-04",
+   "bge": false,
+   "ausschnitte": [
+    " der Kanton, in welchem die persönliche Zugehörigkeit besteht; Art. 3 StHG) habe die Steuererklärung von Gesetzes wegen an das \"Nebensteuerdomizil\" (also den Kanton, in welchem die wirtschaftliche Zugehörigkeit besteht; Art. 4 StHG) weiterzuleiten. Daher frage sich, ob die Pflicht, das Nebensteuerdomizil mit einer Kopie der am Hauptsteuerdomizil eingereichten Steuererklärung zu bedienen, \"rechtlich haltbar bzw. zumutbar\" sei (Beschwerdeschrift Zif"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_472_2024",
+   "referenz": [
+    "BGer 9C_472/2024 vom 15. September 2025"
+   ],
+   "datum": "2025-09-15",
+   "bge": false,
+   "ausschnitte": [
+    "rechtlichen Wohnsitz oder Aufenthalt im Kanton sind aufgrund wirtschaftlicher Zugehörigkeit u.a. dann (beschränkt) steuerpflichtig, wenn sie, wie die Beschwerdeführer, in diesem Kanton Grundstücke besitzen resp. nutzen (Art. 4 Abs. 1 StHG und Art. 7 Abs. 1 lit. c des Steuergesetzes für den Kanton Graubünden vom 8. Juni 1986 [StG/GR], BR 720.000). Die streitgegenständliche Liegenschaft ist Teil des Reinvermögens der Beschwerdeführer und unterliegt als sol"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_352_2025",
+   "referenz": [
+    "BGer 9C_352/2025 vom 11. Oktober 2025"
+   ],
+   "datum": "2025-10-11",
+   "bge": false,
+   "ausschnitte": [
+    "2017 et 2018.  4.  La juridiction cantonale a exposé de manière complète les dispositions légales et principes jurisprudentiels applicables, notamment concernant l'assujettissement limité (cf. art. 5 al. 1 let. a LIFD ; art. 4 al. 2 LHID ; art. 5 al. 1 let. a de la loi vaudoise sur les impôts directs cantonaux du 4 juillet 2000 [LI; rs/VD 642.11]), l'imposition du revenu et le moment de sa réalisation (art. 16 al. 1 LIFD , 7 al. 1 LHID et 19 al. 1 LI), "
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_315_2023",
+   "referenz": [
+    "BGer 9C_315/2023 vom 1. Dezember 2025"
+   ],
+   "datum": "2025-12-01",
+   "bge": false,
+   "ausschnitte": [
+    "örigkeit erhobenen Kantons- und Gemeindesteuern 2018 zu verpflichten. Die aufgrund wirtschaftlicher Zugehörigkeit (Art. 7 Abs. 1 lit. c des Steuergesetzes vom 8. Juni 1986 für den Kanton Graubünden [StG/GR; BR 720.000]; Art. 4 Abs. 1 StHG) dem Kanton Graubünden verbleibenden Kantons- und Gemeindesteuern 2018 bleiben davon ausgenommen und sind neu zu veranlagen. Der Eventualantrag gegenüber dem Kanton Zürich wird dadurch gegenstandslos (vgl. BGE 149 II 35"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_349_2025",
+   "referenz": [
+    "BGer 9C_349/2025 vom 18. Dezember 2025"
+   ],
+   "datum": "2025-12-18",
+   "bge": false,
+   "ausschnitte": [
+    "en [ein nach schweizerischem Recht errichtetes Einzelunternehmen oder eine Personengesellschaft]), sind harmonisierungsrechtlich im erstgenannten Kanton unbeschränkt, im zweitgenannten Kanton beschränkt steuerpflichtig (Art. 3 Abs. 1 und Art. 4 Abs. 1 StHG ; für den Kanton Zürich: zur persönlichen Zugehörigkeit § 3 Abs. 1 des kantonalen Steuergesetzes [StG/ZH; LS 631.1] und zum Umfang der Steuerpflicht § 5 Abs. 1 StG /ZH; vgl. auch Urteile 2C_615/2021 vom 23. September 20"
+   ]
+  },
+  {
+   "id": "ocl_bger_9C_538_2025",
+   "referenz": [
+    "BGer 9C_538/2025 vom 23. Dezember 2025"
+   ],
+   "datum": "2025-12-23",
+   "bge": false,
+   "ausschnitte": [
+    "n und in einem anderen Kanton einen Geschäftsbetrieb oder eine Betriebsstätte unterhalten, gemäss Steuerharmonisierungsgesetz im erstgenannten Kanton unbeschränkt und im zweitgenannten Kanton beschränkt steuerpflichtig (Art. 3 Abs. 1 und Art. 4 Abs. 1 StHG ; vgl. auch Urteile 2C_615/2021 vom 23. September 2022 E. 3.3; 2C_553/2018 vom 17. Juni 2019 E. 5.1). Dabei wird in jedem der beteiligten Kantone ein Veranlagungsverfahren durchgeführt und ermittelt jeder der beteiligte"
+   ]
+  }
+ ]
+}
