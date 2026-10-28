@@ -1,0 +1,44 @@
+# Materialien zu Art. 5 MWSTG (Indexierung)
+
+Stand: 28.10.2026. Quellen: Fedlex (MCP `get_article`, `list_amendments`; amtliche PDF aus dem Fedlex-Filestore, Text-Layer mit `pdftotext`), Open Case Law (`get_article_history`, `search_botschaft`, `get_practice`). Seitenzahlen am Kopf/Fuss der PDF-Seite abgelesen; BBl ab 2021 dokumentweise («BBl 2021 2363, S. 39»). [OCR] = Ausschnitt aus der OCR-Schicht (Bundesblatt vor 1999), nicht am Scan geprüft.
+
+## Fassungen
+
+| Fassung | Wortlaut (verwiesene Beträge) | Fundstelle |
+|---|---|---|
+| Art. 4 aMWSTG vom 2.9.1999 (in Kraft 1.1.2001–31.12.2009) | «Der Bundesrat beschliesst die Anpassung der in den Artikeln 9, 21, 23–25, 27, 28, 38 und 59 genannten Frankenbeträge, sobald sich der Landesindex der Konsumentenpreise seit der letzten Festlegung um mehr als 30 Prozent erhöht hat.» | AS 2000 1301 [PDF] |
+| erfasste Beträge aMWSTG (Auswahl) | Art. 9 Abs. 1 lit. c Geschenke bis 300 Fr.; Art. 21 Abs. 1 Umsatzgrenze 75 000 Fr.; Art. 24 Bezug von Dienstleistungen 10 000 Fr.; Art. 25 Abs. 1 lit. a 250 000 Fr./4000 Fr.; Art. 59 Abs. 1 Saldosteuersatz 3 Mio. Fr./60 000 Fr. | AS 2000 1300 ff. [PDF] |
+| Art. 8 VE-MWSTG vom Februar 2007 | verweist auf Art. 11, 23, 27, 33 und 54 VE | Vernehmlassungsvorlage, proj/2006/125 doc_6, S. 6 [PDF] |
+| Art. 5 E-MWSTG 2008 (Teil A und B) | «… der in den Artikeln 32 Absatz 2 Buchstabe c, 38 Absatz 1 und 44 Absatz 2 Buchstabe b genannten Frankenbeträge …» (Geschenke, Saldosteuersatz, Bezugsteuer) | BBl 2008 7135 (Teil A), 7187 (Teil B) [PDF] |
+| Meldeverfahren im Entwurf | Art. 72 E-MWSTG ohne Frankenbetrag | BBl 2008 7135 ff. (Art. 72 E) [PDF] |
+| Art. 5 MWSTG vom 12.6.2009 (in Kraft 1.1.2010) | «… der in den Artikeln 31 Absatz 2 Buchstabe c, 37 Absatz 1, 38 Absatz 1 und 45 Absatz 2 Buchstabe b genannten Frankenbeträge …» | AS 2009 5205 [PDF] |
+| Art. 5 E-MWSTG 2021 | zusätzlich «35 Absatz 1bis Buchstabe b» | BBl 2021 2364, S. 1 [PDF] |
+| Art. 5 MWSTG geltend (BG vom 16.6.2023, in Kraft 1.1.2025) | «… in den Artikeln 31 Absatz 2 Buchstabe c, 35 Absatz 1bis Buchstabe b, 37 Absatz 1, 38 Absatz 1 und 45 Absatz 2 Buchstabe b …» | AS 2024 438; Fedlex Fassung 31.3.2025 [Tool] |
+| Fassung 1.1.2024 | ohne Art. 35 Abs. 1bis Bst. b | Fedlex 2024-01-01 [Tool] |
+
+## Erläuterungen
+
+1. **Bericht WAK-N 1996** (BBl 1996 V 713, Dokumentseite 16 → S. 728) [OCR]: «…im Mehrwertsteuergesetz (MWSTG) enthaltenen Frankenbeträge an die Teuerung durch den Bundesrat vor. Diese Angleichung soll ohne Änderung des formellen Gesetzes erfolgen, wenn sich der Landesindex der Konsumenten preise seit der letzten Festlegung um mehr als 30 …» – «Mit dieser Anpassung wird verhindert, dass sich die durch die Frankenbeträge zum Ausdruck gebrachten Schwellenwerte kaufkraftmässig völlig von den heutigen Werten entfernen. Das Ausmass…». Art. 4 E-WAK: «…23, 25, 26 und 36 genannten Frankenbeträge, sobald sich der Landesindex der Konsumentenpreise seit der letzten Festlegung um mehr als 30 Prozent erhöht hat.» (Dokumentseite 179, OCR).
+2. **Erläuternder Bericht 2007** (proj/2006/125 doc_1), S. 66 f. [PDF]: «Art. 8 Indexierung – Dieser Artikel entspricht im Wesentlichen dem heutigen Artikel 4 MWSTG. Die Fundstellen solcher Beträge im Gesetz werden explizit aufgeführt. … Die Anpassung erfolgt beispielsweise nicht für die Umsatzlimite von 100’000 Franken in Artikel 9 Absatz 1 … Ebenfalls ausgenommen von der Indexierung sind die Bussenbeträge.»
+3. **Ergebnisbericht Vernehmlassung Dezember 2007** (proj/2006/125 doc_7), S. 27 [PDF]: «Der Autogewerbeverband (73) und die Schweizerische Metall-Union (520) möchten die Anpassung der genannten Artikel bereits bei einem Anstieg des Landesindexes der Konsumentenpreise um mehr als 10 %, höchstens jedoch bei 20 %.»
+4. **Botschaft 2008** (BBl 2008 6885), S. 6943 [PDF], wörtlich: «Dieser Artikel entspricht im Wesentlichen dem heutigen Artikel 4 MWSTG. Die Fundstellen der zu indizierenden Beträge im Gesetz werden explizit aufgeführt. Mit dieser Anpassung wird verhindert, dass sich die durch die Frankenbeträge zum Ausdruck gebrachten Schwellenwerte kaufkraftmässig völlig von den heutigen Werten entfernen. Die Anpassung erfolgt beispielsweise nicht für die Umsatzlimite von 100 000 Franken in Artikel 10 Absatz 2 Buchstabe a E-MWSTG, mit deren Überschreiten die die Befreiung von der Mehrwertsteuerpflicht endet. Durch die Festsetzung der Limite auf 100 000 Franken wird diese Limite mit derjenigen des Handelsrechts, welche die Eintragungspflicht in das Handelsregister auslöst, harmonisiert. Es wäre daher nicht opportun, wenn diese Limite aufgrund der in diesem Artikel statuierten Anpassungspflicht in absehbarer Zeit wieder uneinheitlich würde. Ausserdem ist hier zu beachten, dass aus Gründen der Wettbewerbsneutralität neben der Teuerung insbesondere die Steuersätze zu berücksichtigen sind. Allfällige höhere Steuersätze können die aus diesem Schwellenwert resultierenden Wettbewerbsverzerrungen verstärken. Ebenfalls ausgenommen von der Indexierung sind die Bussenbeträge. Die Bussen sollten im Kontext mit dem übrigen Steuerstrafrecht und mit dem Verwaltungsstrafrecht vom Gesetzgeber angepasst werden.»
+5. **Botschaft 2015** (BBl 2015 2615): Art. 5 nicht geändert (kein Treffer); Art. 115 Abs. 1 erster Satz geändert (S. 2666 f.).
+6. **Botschaft 2021** (BBl 2021 2363) [PDF]: S. 22 Ziff. 2.1.21 «Auf die Anpassung in Artikel 5 VE-MWSTG wird in keiner Stellungnahme eingegangen.» – S. 39 zu Art. 5: «Die jährliche Abrechnung ist wie die Saldosteuersatzmethode bis zu einem Umsatz von 5 005 000 Franken wählbar. Damit diese Übereinstimmung auch dann gewährleistet bleibt, wenn die Umsatzlimite für die Anwendung der Saldosteuersätze infolge der Teuerung angepasst wird, wird Artikel 35 Absatz 1bis Buchstabe b E-MWSTG hier ebenfalls aufgeführt.» – S. 74 Ziff. 7.5: «Artikel 5: Der Bundesrat wird neu die Umsatzlimite für die Anwendung der jährlichen Abrechnung (Art. 35 Abs. 1bis Bst. b E-MWSTG) anpassen, sobald sich der Landesindex der Konsumentenpreise seit der letzten Festlegung um mehr als 30 Prozent erhöht hat.»
+7. **VE 2020** (proj/2020/35 doc_1): Art. 5 VE zusätzlich mit «45a Absatz 3 und 45b Absatz 2 Buchstabe b» (nicht verwendet).
+
+## Art. 115 Abs. 1 MWSTG und Anpassungen von Art. 37 Abs. 1
+
+- Art. 115 Abs. 1 Satz 2 MWSTG (seit 2010): «Der Bundesrat passt die in Artikel 37 Absatz 1 festgelegten Höchstbeträge angemessen an.» (AS 2009 5256; Fedlex 2025).
+- Art. 37 Abs. 1 MWSTG: 2010: 5 000 000 Fr./100 000 Fr. (AS 2009 5225); ab 1.1.2011: 5 020 000/109 000 (V vom 21.4.2010, AS 2010 2055); ab 1.1.2018: 5 005 000/103 000 (V vom 8.11.2017, AS 2017 6305); ab 1.1.2024: 5 024 000/108 000 (V vom 9.12.2022, AS 2022 863; Ingress: «gestützt auf Artikel 130 Absatz 3ter der Bundesverfassung sowie auf Artikel 115 Absatz 1 des Mehrwertsteuergesetzes»; Ziff. I: «Das Mehrwertsteuergesetz vom 12. Juni 2009 wird wie folgt geändert: … Art. 37 Abs. 1»). Belege: Fussnoten der konsolidierten Fassungen 1.1.2011 (Fn. 18), 1.1.2018 (Fn. 68), 31.3.2025 (Fn. 105) [PDF/Tool].
+- Art. 35 Abs. 1bis Bst. b MWSTG (seit 1.1.2025): 5 005 000 Fr. [Tool].
+- Unverändert seit 2010: Art. 31 Abs. 2 Bst. c (500 Fr.), Art. 38 Abs. 1 (10 000 Fr.), Art. 45 Abs. 2 Bst. b (10 000 Fr.) – AS 2009 5223 (Art. 31), 5225 (Art. 38), 5228 (Art. 45) verglichen mit Fedlex 2025 [PDF/Tool].
+
+## Vorlagen 2025/2026
+
+- **VE MWSTG vom 5.12.2025** (proj/2025/41): doc_1 Art. 35 Abs. 1bis Bst. b «5 024 000 Franken»; Art. 115 Abs. 1 zweiter Satz «Der Bundesrat passt die in den Artikeln 35 Absatz 1bis Buchstabe b und 37 Absatz 1 festgelegten Höchstbeträge angemessen an.»; Art. 5 nicht geändert. doc_2 (Erläuternder Bericht): S. 18 «Dieser Artikel wurde bei der letzten Revision versehentlich nicht angepasst. Für die Anwendung der jährlichen Abrechnung soll die gleiche Umsatzlimite wie bei der Saldosteuersatzmethode gelten. Die Limite soll der Steuersatzerhöhung, die am 1. Januar 2024 in Kraft getreten ist, angepasst werden»; S. 21 zu Art. 115; S. 28 Delegation.
+- **VE MWSTG/StG vom 19.6.2026** (proj/2026/5): doc_2 Art. 35 Abs. 1bis: «Auf Antrag der steuerpflichtigen Person erfolgt die Abrechnung jährlich oder, bei regelmässigem Vorsteuerüberschuss, monatlich.» – Art. 5 nicht geändert. doc_4 (Erläuternder Bericht) S. 9: «Die Umsatzgrenze von 5 005 000 Franken für die Anwendung der jährlichen Mehrwertsteuerabrechnung soll ersatzlos aufgehoben werden.»; S. 6 (Nutzungszahlen).
+- Botschaft Rüstungsfinanzierung (BBl 2026 2354/2356): ändert Art. 115 (Abs. 1bis/1ter), nicht Art. 5 und nicht Art. 37 Abs. 1.
+
+## Vergleichsnorm
+
+- Art. 39 Abs. 2 DBG (Fassung seit 1.1.2011): «Das EFD passt die Tarifstufen und die Abzüge jährlich an den Landesindex der Konsumentenpreise an. Massgebend ist der Indexstand am 30. Juni vor Beginn der Steuerperiode. Bei negativem Teuerungsverlauf ist eine Anpassung ausgeschlossen. …» [Tool].
