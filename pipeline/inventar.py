@@ -85,6 +85,11 @@ def parse(html: str) -> list[dict]:
         for tag in kopf.find_all(["b", "i"]):
             tag.decompose()
         sach = text(kopf).replace("Art.", "").strip(" ;:")
+        # Fedlex setzt einzelne Nummernzusätze (z. B. 205d) als unformatierten Text.
+        # Nur den zur Artikelnummer gehörenden, freistehenden Zusatz entfernen.
+        zusatz = re.search(r"[a-z]+$", nr_roh)
+        if zusatz:
+            sach = re.sub(rf"^{re.escape(zusatz.group())}(?:\s+|$)", "", sach)
         koerper = el.find("div", class_="collapseable")
         absaetze, fussnoten = [], []
         if koerper is not None:
