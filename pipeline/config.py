@@ -150,10 +150,15 @@ def art_slug(nummer: str) -> str:
 
 def art_sortkey(nummer: str) -> tuple:
     import re
-    m = re.match(r"(\d+)\s*([a-z]*)", nummer.lower())
+    m = re.match(r"(\d+)\s*([a-z]*)", nummer.lower().replace(" ", ""))
     if not m:
         return (10**6, nummer)
     zusatz = m.group(2)
-    reihe = ["", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",
-             "bis", "ter", "quater", "quinquies", "sexies", "septies", "octies", "novies", "decies"]
+    lateinisch = ["bis", "ter", "quater", "quinquies", "sexies", "septies", "octies", "novies", "decies"]
+    reihe = ["", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s"] + lateinisch
+    # Eingeschobene Artikel gehören zum Grundbuchstaben: 205b, 205bbis, 205c.
+    for latein in lateinisch:
+        grund = zusatz.removesuffix(latein)
+        if grund != zusatz and len(grund) == 1 and grund in reihe:
+            return (int(m.group(1)), reihe.index(grund), f"{grund}{reihe.index(latein):02}")
     return (int(m.group(1)), reihe.index(zusatz) if zusatz in reihe else 99, zusatz)

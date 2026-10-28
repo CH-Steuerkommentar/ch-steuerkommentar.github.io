@@ -319,19 +319,20 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", de
         label, nicht = "Übersicht", "nicht kommentiert"
     zeilen = ["---", f"title: {yaml_str(ab)}", f"description: {yaml_str(erlass_name(erlass, lang))}",
               "sidebar:", f"  label: {label}", "  order: 0", "prev: false", "---\n"] + kopf
-    for a in inv["artikel"]:
+    for a in sorted(inv["artikel"], key=lambda a: art_sortkey(a["nummer"])):
         if a["aufgehoben"]:
             continue
         slug = art_slug(a["nummer"])
+        artikel_nr = f'<span class="artikel-nummer">Art. {html.escape(a["nummer"])}</span>'
         if slug in kommentiert:
             titel = kommentiert[slug].get("titel") or a["sachueberschrift"]
-            zeilen.append(f"| [Art. {a['nummer']}](./{slug}/) | {titel} | {datum_ch(kommentiert[slug]['stand'])} |")
+            zeilen.append(f"| [{artikel_nr}](./{slug}/) | {titel} | {datum_ch(kommentiert[slug]['stand'])} |")
         elif slug in deutsch:
-            zeilen.append(f"| [Art. {a['nummer']}](./{slug}/) | {a['sachueberschrift']} | en allemand, {datum_ch(deutsch[slug]['stand'])} |")
+            zeilen.append(f"| [{artikel_nr}](./{slug}/) | {a['sachueberschrift']} | en allemand, {datum_ch(deutsch[slug]['stand'])} |")
         elif ausgenommen(erlass, a["nummer"]):
-            zeilen.append(f"| Art. {a['nummer']} | {a['sachueberschrift']} | {nicht} |")
+            zeilen.append(f"| {artikel_nr} | {a['sachueberschrift']} | {nicht} |")
         else:
-            zeilen.append(f"| Art. {a['nummer']} | {a['sachueberschrift']} | – |")
+            zeilen.append(f"| {artikel_nr} | {a['sachueberschrift']} | – |")
     return "\n".join(zeilen) + "\n"
 
 
