@@ -6098,11 +6098,11 @@
    "erlass": "StG",
    "nummer": "8",
    "sachueberschrift": "Beteiligungsrechte",
-   "status": "offen",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "Lauf 28.10. am Nutzungslimit abgebrochen",
+   "notiz": "Claude-Cloud, 28.10.2026",
    "status_vorher": "offen",
    "geaendert": "2026-10-28"
   },
