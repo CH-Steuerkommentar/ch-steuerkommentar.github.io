@@ -4669,14 +4669,13 @@
    "erlass": "MWSTG",
    "nummer": "3",
    "sachueberschrift": "Begriffe",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Claude-Cloud, 28.10.2026",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-28T01:36:58+00:00"
+   "geaendert": "2026-10-28"
   },
   "MWSTG/art-4": {
    "erlass": "MWSTG",
