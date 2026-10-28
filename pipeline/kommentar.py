@@ -12,7 +12,9 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 VERZEICHNISSE = ("literaturverzeichnis", "materialienverzeichnis", "abkürzungsverzeichnis",
-                 "entscheidverzeichnis")
+                 "entscheidverzeichnis",
+                 # französische Fassungen
+                 "bibliographie", "matériaux", "liste des matériaux", "liste des abréviations", "liste des arrêts")
 
 
 class FormatFehler(Exception):
@@ -153,7 +155,15 @@ VERBOTEN = re.compile(
     re.IGNORECASE)
 
 
+VERBOTEN_FR = re.compile(
+    r"à notre avis|selon nous|\bnous\b|\bnotre\b|\bnos\b|à (juste|bon) titre|à tort|convaincant|préférable|"
+    r"souhaitable|erroné|judicieu|\bil convient\b|\bdevrait\b|\bsans doute\b",
+    re.IGNORECASE)
+
+
 def pruefen(k: Kommentar) -> list[str]:
+    fr = k.meta.get("sprache", "de") == "fr"
+    verboten = VERBOTEN_FR if fr else VERBOTEN
     befunde = []
     for b in k.bloecke:
         if b.art == "randnote":
@@ -170,15 +180,16 @@ def pruefen(k: Kommentar) -> list[str]:
                 if not inh.rstrip().endswith((".", ".»", ".)")):
                     befunde.append(f"Fussnote ohne Schlusspunkt: {inh[:60]!r}")
                 ohne_fn = ohne_fn[:s] + ohne_fn[e:]
-            for m in VERBOTEN.finditer(ohne_fn):
+            for m in verboten.finditer(ohne_fn):
                 if b.art != "verzeichnis_eintrag":
                     befunde.append(f"Wertende Wendung «{m.group(0)}»: {ohne_fn[max(0, m.start()-50):m.end()+30]!r}")
             if "—" in teil:
                 befunde.append(f"Geviertstrich «—» statt «–»: {teil[:60]!r}")
             if "ß" in teil:
                 befunde.append(f"«ß» statt «ss»: {teil[:60]!r}")
-    if not k.bloecke or k.bloecke[0].art != "ueberschrift" or k.bloecke[0].text.lower() != "übersicht":
-        befunde.append("Erstes Kapitel muss «# Übersicht» heissen")
+    erstes = "aperçu" if fr else "übersicht"
+    if not k.bloecke or k.bloecke[0].art != "ueberschrift" or k.bloecke[0].text.lower() != erstes:
+        befunde.append(f"Erstes Kapitel muss «# {erstes.capitalize()}» heissen")
     if not k.normtext:
         befunde.append("Normtext fehlt")
     return befunde

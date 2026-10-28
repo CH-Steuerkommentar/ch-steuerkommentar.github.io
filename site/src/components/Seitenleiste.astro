@@ -1,7 +1,9 @@
 ---
-// Seitenleiste: Starlight-Navigation plus Kasten «Vom ILE-HSG».
+// Seitenleiste: Sprachumschalter (nur Handy-Menü, zuoberst), Starlight-Navigation, Kasten «Vom ILE-HSG».
 import Default from '@astrojs/starlight/components/Sidebar.astro';
 import IleBox from './IleBox.astro';
+import Sprachwahl from './Sprachwahl.astro';
 ---
+<Sprachwahl variante="menue" />
 <Default {...Astro.props}><slot /></Default>
 <IleBox />

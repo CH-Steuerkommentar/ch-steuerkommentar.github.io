@@ -34,11 +34,14 @@ BATCHES = DATA / "batches"            # eingereichte Batches und Rohergebnisse
 QUEUE = DATA / "queue.json"           # Warteschlange und Status je Artikel
 ARBEIT = ROOT / "arbeit"              # Arbeitsordner je Artikel (Register, Prüfberichte)
 KOMMENTARE = ROOT / "kommentare"      # kanonische Kommentierungen (Markdown)
+KOMMENTARE_FR = ROOT / "kommentare_fr"  # französische Fassungen (Übersetzungen der deutschen Kommentierungen)
 SITE_DOCS = ROOT / "site" / "src" / "content" / "docs"
 
 # Name des Werks, wie er auf der Website und im Zitiervorschlag erscheint.
 WERK = os.environ.get("WERK_NAME", "ILE-HSG Steuerrechtskommentar")
 WERK_KURZ = os.environ.get("WERK_KURZ", "ILE-HSG StK")
+WERK_FR = "Commentaire de droit fiscal ILE-HSG"
+WERK_KURZ_FR = "ILE-HSG CDF"
 
 # Modelle der Batch-Schritte (siehe README, Abschnitt Kosten)
 MODELL_KARTEN = os.environ.get("MODELL_KARTEN", "claude-opus-5-5")
@@ -58,6 +61,8 @@ BATCH_PREISE = {
 ERLASSE = {
     "DBG": {
         "name": "Bundesgesetz über die direkte Bundessteuer",
+        "kurz_fr": "LIFD",
+        "name_fr": "Loi fédérale sur l'impôt fédéral direct",
         "sr": "642.11",
         "eli": "https://fedlex.data.admin.ch/eli/cc/1991/1184_1184_1184",
         "abk": ["DBG", "LIFD"],
@@ -65,6 +70,8 @@ ERLASSE = {
     },
     "StHG": {
         "name": "Bundesgesetz über die Harmonisierung der direkten Steuern der Kantone und Gemeinden",
+        "kurz_fr": "LHID",
+        "name_fr": "Loi fédérale sur l'harmonisation des impôts directs des cantons et des communes",
         "sr": "642.14",
         "eli": "https://fedlex.data.admin.ch/eli/cc/1991/1256_1256_1256",
         "abk": ["StHG", "LHID", "LAID"],
@@ -72,6 +79,8 @@ ERLASSE = {
     },
     "VStG": {
         "name": "Bundesgesetz über die Verrechnungssteuer",
+        "kurz_fr": "LIA",
+        "name_fr": "Loi fédérale sur l'impôt anticipé",
         "sr": "642.21",
         "eli": "https://fedlex.data.admin.ch/eli/cc/1966/371_385_384",
         "abk": ["VStG", "LIA", "LIP"],
@@ -79,6 +88,8 @@ ERLASSE = {
     },
     "MWSTG": {
         "name": "Bundesgesetz über die Mehrwertsteuer",
+        "kurz_fr": "LTVA",
+        "name_fr": "Loi fédérale régissant la taxe sur la valeur ajoutée",
         "sr": "641.20",
         "eli": "https://fedlex.data.admin.ch/eli/cc/2009/615",
         "abk": ["MWSTG", "LTVA", "LIVA"],
@@ -86,6 +97,8 @@ ERLASSE = {
     },
     "StG": {
         "name": "Bundesgesetz über die Stempelabgaben",
+        "kurz_fr": "LT",
+        "name_fr": "Loi fédérale sur les droits de timbre",
         "sr": "641.10",
         "eli": "https://fedlex.data.admin.ch/eli/cc/1974/11_11_11",
         "abk": ["LT", "LTB"],

@@ -3,7 +3,8 @@
   "fstr": {
     "titel": "Forum für Steuerrecht (FStR)",
     "text": "Die Fachzeitschrift des ILE-HSG zum Schweizer und internationalen Steuerrecht, viermal jährlich.",
-    "url": "https://ile.unisg.ch/de/forum-fuer-steuerrecht/"
+    "url": "https://ile.unisg.ch/de/forum-fuer-steuerrecht/",
+    "text_fr": "La revue spécialisée de l'ILE-HSG en droit fiscal suisse et international, quatre numéros par an."
   },
   "seminare_url": "https://ile.unisg.ch/de/seminare/",
   "seminare": [
@@ -13,7 +14,8 @@
       "datum": "10.–11. November 2026",
       "bis": "2026-11-11",
       "ort": "Einstein St.Gallen",
-      "url": "https://ile.unisg.ch/de/newsdetail-1/events/stgaller-seminar-zum-internationalen-steuerrecht-2026-1/"
+      "url": "https://ile.unisg.ch/de/newsdetail-1/events/stgaller-seminar-zum-internationalen-steuerrecht-2026-1/",
+      "datum_fr": "10–11 novembre 2026"
     },
     {
       "kurz": "USTR",
@@ -21,12 +23,14 @@
       "datum": "12.–13. Januar 2027",
       "bis": "2027-01-13",
       "ort": "Weiterbildungszentrum Holzweid, St.Gallen",
-      "url": "https://ile.unisg.ch/de/newsdetail-1/events/stgaller-seminar-zur-unternehmensbesteuerung-2026-wiederholung/"
+      "url": "https://ile.unisg.ch/de/newsdetail-1/events/stgaller-seminar-zur-unternehmensbesteuerung-2026-wiederholung/",
+      "datum_fr": "12–13 janvier 2027"
     }
   ],
   "tax": {
     "titel": "ILE-HSG Tax Law",
     "text": "Der Fachbereich Steuerrecht des ILE-HSG forscht und lehrt im Steuerrecht und führt die St.Galler Seminare durch.",
-    "url": "https://ile.unisg.ch/de/fachbereiche/tax-law/"
+    "url": "https://ile.unisg.ch/de/fachbereiche/tax-law/",
+    "text_fr": "Le domaine de droit fiscal de l'ILE-HSG mène des recherches et enseigne en droit fiscal ; il organise les séminaires de Saint-Gall."
   }
 }

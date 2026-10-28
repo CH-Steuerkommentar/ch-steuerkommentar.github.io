@@ -34,9 +34,9 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: WERK,
+      title: { 'de-CH': WERK, fr: 'Commentaire de droit fiscal ILE-HSG' },
       defaultLocale: 'root',
-      locales: { root: { label: 'Deutsch', lang: 'de-CH' } },
+      locales: { root: { label: 'Deutsch', lang: 'de-CH' }, fr: { label: 'Français', lang: 'fr' } },
       description: 'Offener Online-Kommentar zum Steuerrecht des Bundes',
       customCss: ['./src/styles/kommentar.css'],
       components: {
@@ -45,6 +45,8 @@ export default defineConfig({
         Footer: './src/components/Fusszeile.astro',
         Sidebar: './src/components/Seitenleiste.astro',
         SiteTitle: './src/components/Seitentitel.astro',
+        LanguageSelect: './src/components/Sprachwahl.astro',
+        MobileMenuFooter: './src/components/Leer.astro',
       },
       head: [
         { tag: 'link', attrs: { rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: '', href: 'https://ile.unisg.ch/typo3conf/ext/cs2_prototypes/src/dist/fonts/GillSansMTPro-Light.woff2' } },
@@ -53,12 +55,12 @@ export default defineConfig({
       pagination: false,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
       sidebar: [
-        { label: 'DBG', collapsed: true, items: [{ autogenerate: { directory: 'dbg' } }] },
-        { label: 'StHG', collapsed: true, items: [{ autogenerate: { directory: 'sthg' } }] },
-        { label: 'VStG', collapsed: true, items: [{ autogenerate: { directory: 'vstg' } }] },
-        { label: 'MWSTG', collapsed: true, items: [{ autogenerate: { directory: 'mwstg' } }] },
-        { label: 'StG', collapsed: true, items: [{ autogenerate: { directory: 'stg' } }] },
-        { label: 'Über den ILE-HSG Steuerrechtskommentar', link: '/ueber/' },
+        { label: 'DBG', translations: { fr: 'LIFD' }, collapsed: true, items: [{ autogenerate: { directory: 'dbg' } }] },
+        { label: 'StHG', translations: { fr: 'LHID' }, collapsed: true, items: [{ autogenerate: { directory: 'sthg' } }] },
+        { label: 'VStG', translations: { fr: 'LIA' }, collapsed: true, items: [{ autogenerate: { directory: 'vstg' } }] },
+        { label: 'MWSTG', translations: { fr: 'LTVA' }, collapsed: true, items: [{ autogenerate: { directory: 'mwstg' } }] },
+        { label: 'StG', translations: { fr: 'LT' }, collapsed: true, items: [{ autogenerate: { directory: 'stg' } }] },
+        { label: 'Über den ILE-HSG Steuerrechtskommentar', translations: { fr: 'À propos du Commentaire' }, slug: 'ueber' },
       ],
     }),
   ],

@@ -12,6 +12,12 @@ site/src/content/docs/sthg/
 site/src/content/docs/vstg/
 site/src/content/docs/mwstg/
 site/src/content/docs/stg/
+site/src/content/docs/fr/index.md
+site/src/content/docs/fr/dbg/
+site/src/content/docs/fr/sthg/
+site/src/content/docs/fr/vstg/
+site/src/content/docs/fr/mwstg/
+site/src/content/docs/fr/stg/
 # Word-Fassungen und Markup (aus kommentare/ erzeugbar)
 arbeit/**/*.docx
 arbeit/**/markup.txt

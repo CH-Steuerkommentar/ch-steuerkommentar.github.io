@@ -317,3 +317,25 @@ div.header > div:nth-child(2) { margin-inline-start: auto; }
   .kopf-trenner-start { margin: 0.2rem 0.55rem; }
 }
 @media (max-width: 23rem) { .kopf-link .kopf-logo, .kopf-trenner, .kopf-start { display: none; } }
+@media (max-width: 23.9rem) { :root:not([data-has-sidebar]) .kopf-start, :root:not([data-has-sidebar]) .kopf-trenner-start { display: none; } }
+
+/* Sprachumschalter DE | FR */
+.sprachwahl { display: flex; align-items: center; gap: 0.35rem; font-family: var(--sl-font); font-size: 0.9rem; }
+.sprachwahl a { color: var(--sl-color-gray-3); text-decoration: none; }
+.sprachwahl a:hover { color: var(--gruen); }
+.sprachwahl .aktiv { color: var(--gruen-dunkel); font-weight: 500; }
+.sprachwahl .sw-trenn { color: var(--linie); }
+.sprachwahl-kopf { margin-inline-start: 0.5rem; }
+/* im Handy-Menü zuoberst, auf dem Desktop ausgeblendet (dort im Kopf) */
+.sprachwahl-menue { margin: 0 0 1rem; padding-bottom: 0.8rem; border-bottom: 1px solid var(--linie); font-size: 1rem; }
+@media (min-width: 50rem) { .sprachwahl-menue { display: none; } }
+.rechtliches .sprachwahl-fuss { margin-inline-start: auto; font-size: 0.85rem; }
+/* Handy-Startseite (kein Menü): Umschalter links neben der Lupe */
+@media (max-width: 49.99rem) {
+  :root:not([data-has-sidebar]) div.header > .right-group.sl-hidden { display: flex; order: 2; margin-inline-start: auto; }
+  :root:not([data-has-sidebar]) div.header > div:nth-child(2) { order: 3; margin-inline-start: 0.6rem; }
+  :root:not([data-has-sidebar]) .sprachwahl-kopf { margin: 0 0 0 0.4rem; font-size: 0.8rem; gap: 0.25rem; }
+  :root:not([data-has-sidebar]) div.header { gap: 0.5rem; }
+  :root:not([data-has-sidebar]) .kopf-start .kopf-logo { height: 1.75rem; }
+  :root:not([data-has-sidebar]) .kopf-trenner-start { margin: 0.2rem 0.45rem; }
+}

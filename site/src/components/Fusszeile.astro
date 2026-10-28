@@ -1,13 +1,19 @@
 ---
 // Fusszeile: Starlight-Standard (Datum der letzten Änderung) plus Copyright (Angebote des ILE-HSG: Seitenleiste, Startseite, unter jeder Kommentierung).
 import Default from '@astrojs/starlight/components/Footer.astro';
+import Sprachwahl from './Sprachwahl.astro';
 const jahr = new Date().getFullYear();
-const basis = import.meta.env.BASE_URL.replace(/\/$/, '');
+const fr = Astro.locals.starlightRoute?.locale === 'fr';
+const basis = import.meta.env.BASE_URL.replace(/\/$/, '') + (fr ? '/fr' : '');
+const t = fr
+  ? { impressum: 'Mentions légales', datenschutz: 'Protection des données', haftung: 'Clause de non-responsabilité', recht: 'Informations juridiques', copy: 'Institut für Law and Economics (ILE-HSG), Université de Saint-Gall. Tous droits réservés.' }
+  : { impressum: 'Impressum', datenschutz: 'Datenschutz', haftung: 'Haftungsausschluss', recht: 'Rechtliches', copy: 'Institut für Law and Economics (ILE-HSG), Universität St.Gallen. Alle Rechte vorbehalten.' };
 ---
 <Default {...Astro.props}><slot /></Default>
-<nav class="rechtliches" aria-label="Rechtliches">
-  <a href={`${basis}/impressum/`}>Impressum</a>
-  <a href={`${basis}/datenschutz/`}>Datenschutz</a>
-  <a href={`${basis}/haftungsausschluss/`}>Haftungsausschluss</a>
+<nav class="rechtliches" aria-label={t.recht}>
+  <a href={`${basis}/impressum/`}>{t.impressum}</a>
+  <a href={`${basis}/datenschutz/`}>{t.datenschutz}</a>
+  <a href={`${basis}/haftungsausschluss/`}>{t.haftung}</a>
+  <Sprachwahl variante="fuss" />
 </nav>
-<p class="copyright">© {jahr} Institut für Law and Economics (ILE-HSG), Universität St.Gallen. Alle Rechte vorbehalten.</p>
+<p class="copyright">© {jahr} {t.copy}</p>

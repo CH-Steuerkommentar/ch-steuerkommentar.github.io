@@ -17,9 +17,9 @@
     // Zitiervorschlag kopieren
     document.querySelectorAll('button.kopieren').forEach((b) => {
       b.addEventListener('click', async () => {
-        try { await navigator.clipboard.writeText(b.dataset.text); b.textContent = 'Kopiert'; }
-        catch (e) { b.textContent = 'Bitte markieren'; }
-        setTimeout(() => { b.textContent = 'Kopieren'; }, 1800);
+        try { await navigator.clipboard.writeText(b.dataset.text); b.textContent = b.dataset.ok || 'Kopiert'; }
+        catch (e) { b.textContent = document.documentElement.lang.startsWith('fr') ? 'Sélectionner' : 'Bitte markieren'; }
+        setTimeout(() => { b.textContent = b.dataset.label || 'Kopieren'; }, 1800);
       });
     });
   });

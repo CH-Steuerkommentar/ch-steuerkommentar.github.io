@@ -1,0 +1,19 @@
+---
+// Sprachumschalter «DE | FR»: führt zur gleichen Seite in der anderen Sprache.
+// Ersetzt die Sprachauswahl von Starlight (Kopf rechts); zusätzlich in der Seitenleiste (Handy-Menü) und in der Fusszeile.
+interface Props { variante?: 'kopf' | 'menue' | 'fuss' }
+const { variante = 'kopf' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const pfad = Astro.url.pathname;
+const rel = pfad.startsWith(base) ? pfad.slice(base.length) : pfad.replace(/^\//, '');
+const istFr = rel === 'fr' || rel === 'fr/' || rel.startsWith('fr/');
+const relDe = istFr ? rel.replace(/^fr\/?/, '') : rel;
+const zuDe = base + relDe;
+const zuFr = base + 'fr/' + relDe;
+const lang = variante === 'fuss' ? ['Deutsch', 'Français'] : ['DE', 'FR'];
+---
+<nav class={`sprachwahl sprachwahl-${variante}`} aria-label={istFr ? 'Langue' : 'Sprache'}>
+  {istFr ? <a href={zuDe} lang="de" hreflang="de">{lang[0]}</a> : <span class="aktiv" aria-current="true">{lang[0]}</span>}
+  <span class="sw-trenn" aria-hidden="true">{variante === 'fuss' ? '·' : '|'}</span>
+  {istFr ? <span class="aktiv" aria-current="true">{lang[1]}</span> : <a href={zuFr} lang="fr" hreflang="fr">{lang[1]}</a>}
+</nav>

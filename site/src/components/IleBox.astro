@@ -3,23 +3,27 @@
 import ile from '../data/ile.json';
 const heute = new Date().toISOString().slice(0, 10);
 const seminare = ile.seminare.filter((s) => s.bis >= heute).slice(0, 2);
+const fr = Astro.locals.starlightRoute?.locale === 'fr';
+const t = fr
+  ? { titel: "L'ILE-HSG", abo: "S'abonner", sem: 'Séminaires de Saint-Gall', prog: 'Programme et inscription', tax: 'Domaine droit fiscal', aria: "Offres de l'ILE-HSG" }
+  : { titel: 'Vom ILE-HSG', abo: 'Jetzt abonnieren', sem: 'St.Galler Seminare', prog: 'Programm und Anmeldung', tax: 'Fachbereich Steuerrecht', aria: 'Angebote des ILE-HSG' };
 ---
-<aside class="ile-box" aria-label="Angebote des ILE-HSG">
-  <p class="ile-box-titel">Vom ILE-HSG</p>
+<aside class="ile-box" aria-label={t.aria}>
+  <p class="ile-box-titel">{t.titel}</p>
   <a class="ile-box-eintrag" href={ile.fstr.url} target="_blank" rel="noopener">
-    <strong>{ile.fstr.titel}</strong><span>Jetzt abonnieren</span>
+    <strong>{ile.fstr.titel}</strong><span>{t.abo}</span>
   </a>
   {seminare.map((s) => (
     <a class="ile-box-eintrag" href={s.url} target="_blank" rel="noopener">
-      <strong>{s.titel}</strong><span>{s.datum}</span>
+      <strong>{s.titel}</strong><span>{fr ? (s.datum_fr ?? s.datum) : s.datum}</span>
     </a>
   ))}
   {seminare.length === 0 && (
     <a class="ile-box-eintrag" href={ile.seminare_url} target="_blank" rel="noopener">
-      <strong>St.Galler Seminare</strong><span>Programm und Anmeldung</span>
+      <strong>{t.sem}</strong><span>{t.prog}</span>
     </a>
   )}
   <a class="ile-box-eintrag" href={ile.tax.url} target="_blank" rel="noopener">
-    <strong>{ile.tax.titel}</strong><span>Fachbereich Steuerrecht</span>
+    <strong>{ile.tax.titel}</strong><span>{t.tax}</span>
   </a>
 </aside>
