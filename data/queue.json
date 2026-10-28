@@ -254,14 +254,13 @@
    "erlass": "DBG",
    "nummer": "18",
    "sachueberschrift": "Grundsatz",
-   "status": "in_arbeit",
+   "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Lauf 28.10. am Nutzungslimit abgebrochen",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-28T10:12:44+00:00"
+   "geaendert": "2026-10-28"
   },
   "DBG/art-18a": {
    "erlass": "DBG",
