@@ -301,7 +301,12 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
 .rechtliches a:hover { text-decoration: underline; }
 .rechtliches + .copyright { margin-top: 0.6rem; }
 
-/* ILE-Logo: Desktop rechts im Kopf, Handy links neben dem Startseite-Knopf */
+/* ILE-Logo rechts im Kopf; auf dem Handy: Haus, Lupe, rechts Logo (vor dem Menüknopf) */
 .header .social-icons::after { display: none; }
-@media (min-width: 50rem) { .kopf-logo-links { display: none; } }
 .kopf-logo-rechts img { height: 2.8rem; width: auto; }
+@media (max-width: 49.99rem) {
+  div.header > .right-group.sl-hidden { display: flex; }
+  div.header > div:nth-child(2) { margin-inline-end: auto; }
+  div.header > .title-wrapper { flex-shrink: 0; }
+  .kopf-logo-rechts img { height: 2.1rem; }
+}
