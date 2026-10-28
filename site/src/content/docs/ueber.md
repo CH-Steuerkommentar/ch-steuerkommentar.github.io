@@ -17,8 +17,6 @@ Die Kommentierungen haben keine Autor:innen. Sie werden mit dem Sprachmodell Cla
 4. **Fundstellenprüfung.** Eine eigene Prüfinstanz, die den Text nicht geschrieben hat, prüft jede Fussnote am Volltext der Quelle: Stimmt die Erwägung, trägt sie die Aussage? Was sich nicht belegen lässt, wird gestrichen.
 5. **Schlussprüfung.** Sprache, Zitierweise, Querverweise und Widersprüche werden geprüft und die Befunde behoben.
 
-Das Verfahren und der Quelltext jeder Kommentierung sind mit ihrer Versionsgeschichte offen einsehbar ([GitHub](https://github.com/CH-Steuerkommentar/ch-steuerkommentar.github.io)).
-
 ## Quellen
 
 | Quelle | Herkunft |

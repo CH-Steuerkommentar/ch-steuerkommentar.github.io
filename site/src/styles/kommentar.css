@@ -366,7 +366,15 @@ div.header > div:nth-child(2) { margin-inline-start: auto; }
 }
 /* rechts: kompakt, breit, immer sichtbar am unteren Rand der rechten Spalte */
 /* volle Spaltenbreite; oben ein unsichtbarer Streifen, hinter dem das Inhaltsverzeichnis verschwindet */
-.ile-box-rechts { position: sticky; bottom: 0; margin: 1rem calc(-1 * var(--sl-sidebar-pad-x)) 0; padding-top: 1.25rem; background: var(--sl-color-bg); }
+/* fest unten in der rechten Spalte, unabhängig vom Scrollen; Breite wie Starlights rechte Spalte
+   (100% = Viewport ohne Scrollbalken, da position: fixed) */
+.ile-box-rechts {
+  position: fixed; right: 0; bottom: 0; z-index: 2; margin: 0;
+  width: max(var(--sl-sidebar-width), var(--sl-sidebar-width) + (100% - 2 * var(--sl-sidebar-width) - var(--sl-content-width)) / 2);
+  padding-top: 1.25rem; background: var(--sl-color-bg); border-inline-start: 1px solid var(--sl-color-hairline-shade);
+}
+/* Platz unter dem Inhaltsverzeichnis, damit sein Ende über dem Kasten liegt */
+.right-sidebar-panel { padding-bottom: 18rem; }
 .ile-box-kompakt { margin: 0; padding: 0.6rem var(--sl-sidebar-pad-x) 0.5rem; }
 .ile-box-kompakt .ile-box-titel { margin-bottom: 0.3rem; }
 .ile-box-kompakt .ile-box-eintrag { flex-direction: row; justify-content: space-between; align-items: baseline; gap: 0.6rem; padding: 0.35rem 0; }
