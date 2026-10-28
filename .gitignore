@@ -23,3 +23,7 @@ arbeit/**/*.docx
 arbeit/**/markup.txt
 __pycache__/
 .env
+
+# Der Skill liegt nur im Claude-Konto, nie im Repository
+.claude/skills/
+docs/SKILL-*

@@ -1,6 +1,6 @@
 # Offener Steuerrechtskommentar
 
-Kommentierungen zu DBG, StHG, VStG, MWSTG und Stempelabgabengesetz, erstellt mit dem Skill `steuerkommentar-selbstaendig`, veröffentlicht als freie Website.
+Kommentierungen zu DBG, StHG, VStG, MWSTG und Stempelabgabengesetz, erstellt mit dem Skill `steuerkommentar-selbstaendig`, veröffentlicht als freie Website. Der Skill liegt im Claude-Konto, nicht in diesem Repository.
 
 Die Arbeit ist geteilt:
 
