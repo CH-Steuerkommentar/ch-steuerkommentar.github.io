@@ -267,11 +267,14 @@
    "erlass": "DBG",
    "nummer": "18a",
    "sachueberschrift": "Aufschubstatbestände",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T10:14:24+00:00"
   },
   "DBG/art-18b": {
    "erlass": "DBG",
