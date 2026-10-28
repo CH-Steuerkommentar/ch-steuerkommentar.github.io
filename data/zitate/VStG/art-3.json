@@ -1,0 +1,52 @@
+{
+ "artikel": "VStG/art-3",
+ "abfrage": "\"Art. 3\" AND (VStG OR LIA OR LIP) (Kandidaten: Entscheidsuche; Entscheide: Open Case Law)",
+ "quelle": "ocl",
+ "suchtreffer": 73,
+ "entscheide": [
+  {
+   "id": "ocl_bger_2C_333_2007",
+   "referenz": [
+    "BGer 2C_333/2007 vom 22. Februar 2008"
+   ],
+   "datum": "2008-02-22",
+   "bge": false,
+   "ausschnitte": [
+    "IA; RS 642.21) n'étaient remplies. Le 14 mai 2004, X.________, succursale de Genève a déposé une réclamation contre la décision rendue le 6 avril 2004. Elle fondait son droit au remboursement de l'impôt anticipé sur les art. 9 al. 1, 24 al. 2 et 3 LIA, l'absence d'intention d'éluder l'impôt au sens de l' art. 21 al. 2 LIA et la clause de non discrimination de l'art. 10 § 3 de la convention du 12 novembre 1951 entre la Confédération suisse et le Royaume des Pays-Bas e"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_320_2018",
+   "referenz": [
+    "BGer 2C_320/2018 vom 11. Oktober 2018"
+   ],
+   "datum": "2018-10-11",
+   "bge": false,
+   "ausschnitte": [
+    "ci professioni nel ramo dell'artigianato (cfr. Allegato al regolamento del 20 gennaio 2016 della legge sulle imprese artigianali [RLIA; RL/TI 7.1.5.4.1]) e, di riflesso, è stato creato un albo delle imprese artigianali (art. 3 LIA), gestito dalla Commissione di vigilanza sulle imprese artigianali (CV-LIA; art. 13 LIA), nel quale le ditte hanno diritto a essere iscritte (art. 4 cpv. 1 LIA) se dispongono dei requisiti professionali (art. 6 LIA) e p"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_328_2018",
+   "referenz": [
+    "BGer 2C_328/2018 vom 11. Oktober 2018"
+   ],
+   "datum": "2018-10-11",
+   "bge": false,
+   "ausschnitte": [
+    "ci professioni nel ramo dell'artigianato (cfr. Allegato al regolamento del 20 gennaio 2016 della legge sulle imprese artigianali [RLIA; RL/TI 7.1.5.4.1]) e, di riflesso, è stato creato un albo delle imprese artigianali (art. 3 LIA), gestito dalla Commissione di vigilanza sulle imprese artigianali (CV-LIA; art. 13 LIA), nel quale le ditte hanno diritto a essere iscritte (art. 4 cpv. 1 LIA) se dispongono dei requisiti professionali (art. 6 LIA) e p"
+   ]
+  },
+  {
+   "id": "ocl_bger_2C_342_2018",
+   "referenz": [
+    "BGer 2C_342/2018 vom 11. Oktober 2018"
+   ],
+   "datum": "2018-10-11",
+   "bge": false,
+   "ausschnitte": [
+    "ci professioni nel ramo dell'artigianato (cfr. Allegato al regolamento del 20 gennaio 2016 della legge sulle imprese artigianali [RLIA; RL/TI 7.1.5.4.1]) e, di riflesso, è stato creato un albo delle imprese artigianali (art. 3 LIA), gestito dalla Commissione di vigilanza sulle imprese artigianali (CV-LIA; art. 13 LIA), nel quale le ditte hanno diritto a essere iscritte (art. 4 cpv. 1 LIA) se dispongono dei requisiti professionali (art. 6 LIA) e p"
+   ]
+  }
+ ]
+}
