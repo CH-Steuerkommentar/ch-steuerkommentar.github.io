@@ -1,0 +1,21 @@
+# Problemkarte Art. 17 DBG (Stand 28.10.2026)
+
+Grundlage: Entscheidregister (147 Zeilen; A 44, B 23, C 79, Parallelfassungen BGE/BGer doppelt gezählt), Kantonale_Entscheide.md (39 Entscheide), Verwaltungspraxis.md, ILE_Literatur.md, Materialien.md.
+
+| Sachfrage | Normstelle | A/B | Leitentscheide | Linie | Brüche / Präzisierungen | offen / strittig |
+|---|---|---|---|---|---|---|
+| Begriff der unselbständigen Erwerbstätigkeit, Abgrenzung zu Art. 18 | Abs. 1 | 2/1 | 2C_929/2019; 2C_353/2022; BGE 142 II 293 (B) | wirtschaftliche Gegebenheiten, Abhängigkeit, kein Unternehmerrisiko; Art. 319 OR Ausgangspunkt; Gleichlauf mit AHV | Abweichung von AHV nur aus ausschlaggebenden Gründen (2C_353/2022) | TaxInfo BE: Qualifikation losgelöst vom AHV-Recht |
+| VR-Honorare, subjektive Zurechnung | Abs. 1 | 2/2 | BGE 121 I 259; 2C_292/2007; 2C_95/2013; 2C_978/2014 | unselbständig; Vermutung zugunsten Mandatsträger (Art. 707 OR) | – | – |
+| Wirtschaftlicher Zusammenhang (Grundformel), Katalog | Abs. 1 | 4/4 | 2A.381/2006; 2C_618/2014; 2C_357/2014 | Folge der Tätigkeit, im Hinblick darauf; Bezeichnung, Rechtspflicht unerheblich | 2C_616/2016: Abgrenzung zu Art. 16 offengelassen | – |
+| Leistungen Dritter | Abs. 1 | 6/1 | 2C_357/2014; 2C_618/2014; 2C_703/2017; 2C_379/2020; 2C_1057/2018; 9C_604/2022 | Dritter gleich Arbeitgeber, wenn Zusammenhang | 2C_703/2017 E. 3.2.3: Konnex nicht «immer» Einkommen; 9C_463/2025 E. 4.3 (Trinkgelder) | – |
+| Abgrenzung zur Schenkung | Abs. 1/Art. 24 lit. a | 3/0 | 2C_379/2020; 2C_703/2017; 9C_463/2025 | überwiegendes Motiv; Dienstaltersgeschenk keine Schenkung | 9C_463/2025: Nachfolgeregelung = Vermächtnis | AG: SVG 2023 vs. VGer 2025 |
+| Abgrenzung zum Kapitalgewinn (Beteiligungsverkauf, Earn-out) | Abs. 1/Art. 16 Abs. 3 | 4/1 | 2C_618/2014; 2C_357/2014; 2C_731/2017; 9C_604/2022; 9C_666/2024 (B) | Kapitalgewinnprivileg restriktiv; Antrittsgeld, Treueprämie, Holdback | – | Lehre: Mehrheitserwerb als Nachfolge (Oesterhelt); Praxis zurückhaltend (Hongler/Margraf) |
+| Geldwerte Vorteile, Naturalleistungen | Abs. 1 | 3/2 | 2C_168/2012 E. 2.1; 2C_57/2019; 2C_592/2014 | Marktwert; Wohnung; Umzug | – | Rabatte nur kantonal (VGer ZH 2010) |
+| Spesen | Abs. 1 | 3/3 | 2C_316/2020; BGE 148 II 504; 2C_214/2014; 2C_804/2021 E. 6.1; BGE 149 II 454 (B) | Einsatzkosten steuerfrei, Überschuss Einkommen; genehmigtes Reglement bindet | – | Lehre kritisiert Begründung (Oesterhelt/Opel); SO 2021 kürzt ZH-Reglement (vor BGE 148 II 504) |
+| Mitarbeiterbeteiligungen (bis 2012), Überleitung zu Art. 17a ff. | Abs. 1 | 9/2 | 2A.517/2002; 2C_168/2012; 2C_138/2010; 2C_236/2010; 2C_397/2015; 2C_974/2019; 9C_1/2023; 9C_226/2024 | unwiderruflicher Erwerb; Sperre/Verfall | Praxisänderung KS 5/1997; Übergangsrecht 2A.358/2001 | – (Art. 17a ff.) |
+| Zufluss von Lohn und Bonus | Abs. 1 | 7/2 | 2C_214/2014; 2C_152/2015; 2A.471/2003; 2C_144/2008; 2C_319/2012; 9C_663/2022 | Periode der Arbeitsleistung, Praxis Auszahlung; beherrschende Stellung | 2C_144/2008 beschränkt 2A.471/2003 auf Missbrauch | Lehre: Rechtsprechung uneinheitlich (Oesterhelt/Opel) |
+| Rückleistung, Neutralisation | Abs. 1 | 2/0 | 2C_692/2013; 2C_214/2014 | Neutralisation nicht leichthin; allenfalls Berufskosten | – | – |
+| Abgangsentschädigung, Konkurrenzverbot, Freistellung | Abs. 1/Art. 23 | 3/3 | 2C_692/2013; 2C_731/2017; 2C_604/2011; BGE 145 II 2 E. 4.1 | Einkommen nach Art. 17 Abs. 1 oder Art. 23 lit. a/c | – | Zuordnung Art. 17 Abs. 1 vs. Art. 23 lit. c (Hongler/Margraf offen) |
+| Genugtuung (Art. 24 lit. g) | Abgrenzung | 0/0 (C) | BGE 148 II 551; BGE 152 II 19 | Art. 336a OR = Genugtuung; Art. 337c Abs. 3 OR nur bei schwerer Persönlichkeitsverletzung | – | Kritik Oesterhelt/Opel |
+| Weiterbildungskosten | Abs. 1bis | 0/0 (vor 2016: 2A.381/2006 A) | – (kantonal VGer ZH SB.2021.00038) | KS 42 | – | höchstrichterlich nicht behandelt |
+| Gleichartige Kapitalabfindungen des Arbeitgebers | Abs. 2 | 8/3 | 2A.50/2000; 2C_538/2009; 2C_931/2013; 2C_86/2017; BGE 145 II 2; 2C_520/2019; 2C_809/2013 | überwiegender Vorsorgecharakter; KS 1 nur Weisung | 2C_538/2009 hält trotz Lehrkritik fest | Lehre: KS-Kriterien als safe harbour (von Streng/Vuilleumier); 9C_421/2025 Sperrwirkung (Kritik Oesterhelt/Opel) |

@@ -194,14 +194,13 @@
    "erlass": "DBG",
    "nummer": "17",
    "sachueberschrift": "Grundsatz",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Claude-Cloud, 28.10.2026",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-27T23:35:59+00:00"
+   "geaendert": "2026-10-28"
   },
   "DBG/art-17a": {
    "erlass": "DBG",
