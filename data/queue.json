@@ -3913,14 +3913,14 @@
    "erlass": "VStG",
    "nummer": "7",
    "sachueberschrift": "Gegenstand der Steuer: Versicherungsleistungen, Regel",
-   "status": "in_arbeit",
+   "status": "offen",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Lauf 1 ohne gültige Kommentierung (success, 11.02 USD)",
    "status_vorher": "offen",
-   "bearbeiter": "github-actions",
-   "seit": "2026-10-28T13:22:00+00:00"
+   "versuche": 1,
+   "geaendert": "2026-10-28"
   },
   "VStG/art-8": {
    "erlass": "VStG",
