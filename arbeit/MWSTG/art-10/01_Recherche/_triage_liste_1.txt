@@ -1,0 +1,36 @@
+2002-04-09	ocl_bger_2A.400_2001.json	BGer 2A.400/2001 vom 9. April 2002
+2008-01-08	ocl_bger_2A.34_2007.json	BGer 2A.34/2007 vom 8. Januar 2008
+2009-12-22	ocl_bger_2C_904_2008.json	BGer 2C_904/2008 vom 22. Dezember 2009
+2012-03-19	ocl_bger_2C_476_2010.json	BGer 2C_476/2010 vom 19. März 2012
+2012-03-19	ocl_bger_2C_638_2010.json	BGer 2C_638/2010 vom 19. März 2012
+2012-04-13	ocl_bge_138_II_251.json	BGE 138 II 251
+2012-04-13	ocl_bger_2C_399_2011.json	BGer 2C_399/2011 vom 13. April 2012
+2013-05-20	ocl_bge_139_II_346.json	BGE 139 II 346
+2013-05-20	ocl_bger_2C_1100_2012.json	BGer 2C_1100/2012 vom 20. Mai 2013
+2013-11-01	ocl_bger_2C_518_2013.json	BGer 2C_518/2013 vom 1. November 2013
+2014-01-31	ocl_bge_140_II_80.json	BGE 140 II 80
+2014-01-31	ocl_bger_2C_936_2013.json	BGer 2C_936/2013 vom 31. Januar 2014
+2014-02-02	ocl_bger_2C_415_2013.json	BGer 2C_415/2013 vom 2. Februar 2014
+2014-03-03	ocl_bger_2C_814_2013.json	BGer 2C_814/2013 vom 3. März 2014
+2014-05-24	ocl_bger_2C_1077_2012.json	BGer 2C_1077/2012 vom 24. Mai 2014
+2014-12-01	ocl_bger_2C_723_2013.json	BGer 2C_723/2013 vom 1. Dezember 2014
+2015-04-13	ocl_bge_141_II_182.json	BGE 141 II 182
+2015-04-13	ocl_bger_2C_882_2014.json	BGer 2C_882/2014 vom 13. April 2015
+2015-04-19	ocl_bge_141_II_199.json	BGE 141 II 199
+2015-04-19	ocl_bger_2C_781_2014.json	BGer 2C_781/2014 vom 19. April 2015
+2015-05-28	ocl_bger_2C_1002_2014.json	BGer 2C_1002/2014 vom 28. Mai 2015
+2015-09-09	ocl_bge_141_IV_344.json	BGE 141 IV 344
+2015-09-09	ocl_bger_6B_498_2014.json	BGer 6B_498/2014 vom 9. September 2015
+2015-12-22	ocl_bger_2C_321_2015.json	BGer 2C_321/2015 vom 22. Dezember 2015
+2016-05-31	ocl_bge_142_II_113.json	BGE 142 II 113
+2016-05-31	ocl_bger_2C_93_2015.json	BGer 2C_93/2015 vom 31. Mai 2016
+2016-06-03	ocl_bger_2C_788_2015.json	BGer 2C_788/2015 vom 3. Juni 2016
+2016-06-10	ocl_bger_2C_850_2014.json	BGer 2C_850/2014 vom 10. Juni 2016
+2016-07-05	ocl_bger_2C_1001_2015.json	BGer 2C_1001/2015 vom 5. Juli 2016
+2016-08-29	ocl_bge_142_II_488.json	BGE 142 II 488
+2016-08-29	ocl_bger_2C_1115_2014.json	BGer 2C_1115/2014 vom 29. August 2016
+2016-10-04	ocl_bger_2C_359_2016.json	BGer 2C_359/2016 vom 4. Oktober 2016
+2016-11-17	ocl_bger_2C_373_2016.json	BGer 2C_373/2016 vom 17. November 2016
+2016-11-17	ocl_bger_2C_687_2016.json	BGer 2C_687/2016 vom 17. November 2016
+2016-12-09	ocl_bger_2C_1076_2015.json	BGer 2C_1076/2015 vom 9. Dezember 2016
+2017-03-07	ocl_bger_2C_1079_2016.json	BGer 2C_1079/2016 vom 7. März 2017

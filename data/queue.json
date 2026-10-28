@@ -4783,14 +4783,13 @@
    "erlass": "MWSTG",
    "nummer": "10",
    "sachueberschrift": "Grundsatz",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "GitHub Actions, 2026-10-28 (25.39 USD)",
    "status_vorher": "offen",
-   "bearbeiter": "github-actions",
-   "seit": "2026-10-28T14:41:36+00:00"
+   "geaendert": "2026-10-28"
   },
   "MWSTG/art-11": {
    "erlass": "MWSTG",

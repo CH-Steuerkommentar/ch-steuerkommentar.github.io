@@ -1,0 +1,34 @@
+2022-12-15	ocl_bger_2C_217_2022.json	BGer 2C_217/2022 vom 15. Dezember 2022
+2022-12-15	ocl_bger_2C_846_2022.json	BGer 2C_846/2022 vom 15. Dezember 2022
+2022-12-16	ocl_bger_2C_368_2022.json	BGer 2C_368/2022 vom 16. Dezember 2022
+2023-06-13	ocl_bge_149_II_255.json	BGE 149 II 255
+2023-06-13	ocl_bger_9C_609_2022.json	BGer 9C_609/2022 vom 13. Juni 2023
+2023-06-21	ocl_bge_149_II_290.json	BGE 149 II 290
+2023-06-21	ocl_bger_9C_698_2022.json	BGer 9C_698/2022 vom 21. Juni 2023
+2023-08-18	ocl_bger_9C_612_2022.json	BGer 9C_612/2022 vom 18. August 2023
+2023-08-24	ocl_bge_149_II_385.json	BGE 149 II 385
+2023-08-24	ocl_bger_9C_87_2023.json	BGer 9C_87/2023 vom 24. August 2023
+2023-10-05	ocl_bger_9C_651_2022.json	BGer 9C_651/2022 vom 5. Oktober 2023
+2024-01-03	ocl_bger_9C_154_2023.json	BGer 9C_154/2023 vom 3. Januar 2024
+2024-06-24	ocl_bger_9C_775_2023.json	BGer 9C_775/2023 vom 24. Juni 2024
+2024-07-31	ocl_bger_9C_756_2023.json	BGer 9C_756/2023 vom 31. Juli 2024
+2024-10-25	ocl_bger_9C_482_2024.json	BGer 9C_482/2024 vom 25. Oktober 2024
+2024-11-28	ocl_bger_9C_296_2024.json	BGer 9C_296/2024 vom 28. November 2024
+2024-11-28	ocl_bger_9C_363_2024.json	BGer 9C_363/2024 vom 28. November 2024
+2024-12-02	ocl_bger_9C_479_2024.json	BGer 9C_479/2024 vom 2. Dezember 2024
+2024-12-20	ocl_bger_9C_578_2024.json	BGer 9C_578/2024 vom 20. Dezember 2024
+2025-04-14	ocl_bger_9C_149_2024.json	BGer 9C_149/2024 vom 14. April 2025
+2025-08-04	ocl_bger_9C_671_2024.json	BGer 9C_671/2024 vom 4. August 2025
+2025-08-06	ocl_bger_9C_152_2025.json	BGer 9C_152/2025 vom 6. August 2025
+2025-08-20	ocl_bger_9C_616_2024.json	BGer 9C_616/2024 vom 20. August 2025
+2025-08-27	ocl_bge_152_II_250.json	BGE 152 II 250
+2025-08-27	ocl_bger_9C_590_2024.json	BGer 9C_590/2024 vom 27. August 2025
+2026-01-20	ocl_bger_9F_23_2025.json	BGer 9F_23/2025 vom 20. Januar 2026
+2026-01-26	ocl_bger_9C_107_2025.json	BGer 9C_107/2025 vom 26. Januar 2026
+2026-02-27	ocl_bger_9C_274_2024.json	BGer 9C_274/2024 vom 27. Februar 2026
+2026-03-18	ocl_bger_9C_331_2024.json	BGer 9C_331/2024 vom 18. März 2026
+2026-04-23	ocl_bge_152_II_486.json	BGE 152 II 486
+2026-04-23	ocl_bger_9C_503_2024.json	BGer 9C_503/2024 vom 23. April 2026
+2026-08-04	ocl_bger_9C_698_2024.json	BGer 9C_698/2024 vom 4. August 2026
+2026-08-05	ocl_bger_9C_492_2025.json	BGer 9C_492/2025 vom 5. August 2026
+2026-08-27	ocl_bger_9C_494_2025.json	BGer 9C_494/2025 vom 27. August 2026

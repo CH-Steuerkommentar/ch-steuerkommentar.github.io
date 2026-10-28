@@ -1,0 +1,36 @@
+2017-10-16	ocl_bger_2C_537_2016.json	BGer 2C_537/2016 vom 16. Oktober 2017
+2018-04-06	ocl_bger_2C_826_2016.json	BGer 2C_826/2016 vom 6. April 2018
+2018-08-21	ocl_bger_2C_476_2017.json	BGer 2C_476/2017 vom 21. August 2018
+2018-09-18	ocl_bge_144_II_412.json	BGE 144 II 412
+2018-09-18	ocl_bger_2C_240_2017.json	BGer 2C_240/2017 vom 18. September 2018
+2018-10-05	ocl_bger_2C_119_2017.json	BGer 2C_119/2017 vom 5. Oktober 2018
+2018-11-02	ocl_bger_2C_355_2017.json	BGer 2C_355/2017 vom 2. November 2018
+2018-12-21	ocl_bger_2C_1010_2018.json	BGer 2C_1010/2018 vom 21. Dezember 2018
+2019-04-09	ocl_bger_2C_488_2017.json	BGer 2C_488/2017 vom 9. April 2019
+2019-07-17	ocl_bger_2C_943_2017.json	BGer 2C_943/2017 vom 17. Juli 2019
+2019-07-23	ocl_bger_2C_159_2019.json	BGer 2C_159/2019 vom 23. Juli 2019
+2020-01-29	ocl_bger_2C_962_2018.json	BGer 2C_962/2018 vom 29. Januar 2020
+2020-02-10	ocl_bger_2C_927_2019.json	BGer 2C_927/2019 vom 10. Februar 2020
+2020-04-21	ocl_bger_2C_135_2020.json	BGer 2C_135/2020 vom 21. April 2020
+2020-06-30	ocl_bger_2C_996_2019.json	BGer 2C_996/2019 vom 30. Juni 2020
+2020-08-18	ocl_bger_2C_255_2020.json	BGer 2C_255/2020 vom 18. August 2020
+2020-08-28	ocl_bger_5A_20_2020.json	BGer 5A_20/2020 vom 28. August 2020
+2020-10-21	ocl_bger_2C_356_2020.json	BGer 2C_356/2020 vom 21. Oktober 2020
+2020-11-23	ocl_bger_2C_387_2020.json	BGer 2C_387/2020 vom 23. November 2020
+2021-01-19	ocl_bger_2C_620_2020.json	BGer 2C_620/2020 vom 19. Januar 2021
+2021-04-14	ocl_bger_2C_345_2020.json	BGer 2C_345/2020 vom 14. April 2021
+2021-05-21	ocl_bger_2C_562_2020.json	BGer 2C_562/2020 vom 21. Mai 2021
+2021-05-25	ocl_bger_9C_578_2020.json	BGer 9C_578/2020 vom 25. Mai 2021
+2021-09-03	ocl_bger_2C_414_2021.json	BGer 2C_414/2021 vom 3. September 2021
+2021-10-05	ocl_bger_2C_891_2020.json	BGer 2C_891/2020 vom 5. Oktober 2021
+2021-10-19	ocl_bger_2C_629_2021.json	BGer 2C_629/2021 vom 19. Oktober 2021
+2021-11-08	ocl_bger_2C_660_2020.json	BGer 2C_660/2020 vom 8. November 2021
+2021-12-10	ocl_bge_148_II_233.json	BGE 148 II 233
+2021-12-10	ocl_bger_2C_263_2020.json	BGer 2C_263/2020 vom 10. Dezember 2021
+2022-05-11	ocl_bger_2C_727_2021.json	BGer 2C_727/2021 vom 11. Mai 2022
+2022-05-31	ocl_bger_2C_680_2021.json	BGer 2C_680/2021 vom 31. Mai 2022
+2022-09-07	ocl_bger_2C_401_2021.json	BGer 2C_401/2021 vom 7. September 2022
+2022-09-13	ocl_bge_149_II_147.json	BGE 149 II 147
+2022-09-13	ocl_bger_2C_876_2020.json	BGer 2C_876/2020 vom 13. September 2022
+2022-12-12	ocl_bger_2C_403_2022.json	BGer 2C_403/2022 vom 12. Dezember 2022
+2022-12-15	ocl_bge_149_II_53.json	BGE 149 II 53
