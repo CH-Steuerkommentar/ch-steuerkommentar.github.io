@@ -300,3 +300,8 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
 .rechtliches a { color: var(--gruen-dunkel); text-decoration: none; }
 .rechtliches a:hover { text-decoration: underline; }
 .rechtliches + .copyright { margin-top: 0.6rem; }
+
+/* ILE-Logo: Desktop rechts im Kopf, Handy links neben dem Startseite-Knopf */
+.header .social-icons::after { display: none; }
+@media (min-width: 50rem) { .kopf-logo-links { display: none; } }
+.kopf-logo-rechts img { height: 2.8rem; width: auto; }
