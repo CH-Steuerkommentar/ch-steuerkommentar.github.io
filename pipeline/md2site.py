@@ -220,11 +220,11 @@ def fehler_melden(erlass: str, art: str, lang: str = "de") -> str:
     """Kleiner Hinweis am Ende des Kommentartexts: Fehler per E-Mail melden (Betreff vorausgefüllt)."""
     from urllib.parse import quote
     if lang == "fr":
-        betreff = f"Commentaire ILE-HSG, art. {art} {abk(erlass, lang)} : signalement"
+        betreff = f"[ILE-StK] Signalement art. {art} {abk(erlass, lang)}"
         text = "Vous avez trouvé une erreur ? "
         link = "Signalez-la-nous"
     else:
-        betreff = f"ILE-HSG Steuerrechtskommentar, Art. {art} {erlass}: Hinweis"
+        betreff = f"[ILE-StK] Hinweis Art. {art} {erlass}"
         text = "Fehler gefunden? "
         link = "Hinweis an das ILE-HSG senden"
     return (f'\n<p class="fehler-melden">{text}<a href="mailto:sekretariat-ile@unisg.ch?subject={quote(betreff)}">'
