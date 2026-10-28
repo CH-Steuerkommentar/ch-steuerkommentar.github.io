@@ -149,7 +149,6 @@ class Umwandler:
         aus.append("---\n")
         zitat = tx["zitat"].format(werk=WERK_KURZ_FR if self.lang == "fr" else WERK_KURZ, art=art, abk=ab, stand=stand)
         aus.append(f'<aside class="zitiervorschlag"><span><strong>{tx["zitat_label"]}</strong> <span class="zitat">{zitat}</span>'
-                   + (f' · {m["fassung"]}' if m.get("fassung") else "")
                    + f'</span><button type="button" class="kopieren" data-text="{html.escape(zitat, quote=True)}" '
                    f'data-label="{tx["kopieren"]}" data-ok="{tx["kopiert"]}">{tx["kopieren"]}</button></aside>\n')
         # Normtext
