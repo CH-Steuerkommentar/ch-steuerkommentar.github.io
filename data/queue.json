@@ -2478,11 +2478,14 @@
    "erlass": "StHG",
    "nummer": "4",
    "sachueberschrift": "Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit",
-   "status": "offen",
+   "status": "in_arbeit",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": ""
+   "notiz": "",
+   "status_vorher": "offen",
+   "bearbeiter": "claude-cloud",
+   "seit": "2026-10-28T07:02:52+00:00"
   },
   "StHG/art-4a": {
    "erlass": "StHG",
