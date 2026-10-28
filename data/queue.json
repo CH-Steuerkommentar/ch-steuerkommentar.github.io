@@ -2453,14 +2453,13 @@
    "erlass": "StHG",
    "nummer": "2",
    "sachueberschrift": "Vorgeschriebene direkte Steuern",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Claude-Cloud, 28.10.2026",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-28T03:30:34+00:00"
+   "geaendert": "2026-10-28"
   },
   "StHG/art-3": {
    "erlass": "StHG",
