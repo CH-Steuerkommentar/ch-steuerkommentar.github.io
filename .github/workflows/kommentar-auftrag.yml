@@ -1,0 +1,66 @@
+name: Kommentar-Auftrag
+
+# Einmaliger Auftrag: je Eintrag im Plan ein paralleler Job, der genau einen Artikel des Erlasses kommentiert.
+# Bezahlt mit API-Guthaben (Console). Von Hand starten: Actions > Kommentar-Auftrag > Run workflow.
+
+on:
+  workflow_dispatch:
+    inputs:
+      plan:
+        description: 'Erlasse als JSON-Liste, je Eintrag ein Artikel'
+        default: '["DBG","DBG","VStG","MWSTG","StG"]'
+      max_usd:
+        description: 'Obergrenze je Artikel in USD'
+        default: '26'
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  artikel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        erlass: ${{ fromJSON(inputs.plan) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Git-Identität
+        run: |
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Pakete
+        run: pip install -r requirements.txt claude-agent-sdk
+      - name: Skill aus Secret (liegt nicht im Repository)
+        env:
+          BUNDLE: ${{ secrets.STEUERKOMMENTAR_BUNDLE }}
+        run: |
+          test -n "$BUNDLE" || { echo "Secret STEUERKOMMENTAR_BUNDLE fehlt"; exit 1; }
+          mkdir -p /tmp/bundle .claude/skills
+          echo "$BUNDLE" | base64 -d | tar xJ -C /tmp/bundle
+          cp -r /tmp/bundle/skills/steuerkommentar-selbstaendig .claude/skills/
+          cp -r /tmp/bundle/ok-steuerkommentar "$HOME/ok-steuerkommentar"
+      - name: Lauf
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LEXPLORER_API_KEY: ${{ secrets.LEXPLORER_API_KEY }}
+          # Gesamtkosten begrenzt durch Anzahl Einträge × max_usd (Standard 5 × 26 = 130 USD)
+          TAGESBUDGET_USD: "100000"
+          MONATSBUDGET_USD: "100000"
+          MAX_ARTIKEL_USD: ${{ inputs.max_usd }}
+          MAX_ARTIKEL: "1"
+          ERLASS: ${{ matrix.erlass }}
+          LAUF_TEIL: ${{ strategy.job-index }}
+          MODELL_SCHREIBEN: ${{ vars.MODELL_SCHREIBEN || 'claude-opus-5-5' }}
+          EFFORT: ${{ vars.EFFORT || 'high' }}
+          WER: github-actions
+          GH_TOKEN: ${{ github.token }}
+        run: python3 automation/lauf.py

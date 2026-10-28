@@ -36,10 +36,13 @@ EINSTELLUNGEN = {
     "EFFORT": E("EFFORT", "high"),
     "LAUFZEIT_MIN": int(E("LAUFZEIT_MIN", "280")),           # danach kein neuer Artikel mehr in diesem Lauf
     "WER": E("WER", "github-actions"),
+    "ERLASS": E("ERLASS", ""),                               # nur Artikel dieses Erlasses (leer: alle)
+    "MAX_ARTIKEL": int(E("MAX_ARTIKEL", "0")),               # höchstens so viele Artikel in diesem Lauf (0: unbegrenzt)
+    "MAX_ARTIKEL_USD": float(E("MAX_ARTIKEL_USD", "0")),     # Obergrenze je Artikel (0: nur Restbudget)
 }
 START = time.time()
 KOSTEN_DIR = DATA / "kosten"
-LAUF_ID = E("GITHUB_RUN_ID", dt.datetime.now().strftime("%H%M%S"))
+LAUF_ID = E("GITHUB_RUN_ID", dt.datetime.now().strftime("%H%M%S")) + (f"-{E('LAUF_TEIL')}" if E("LAUF_TEIL") else "")
 
 
 def log(*a):
@@ -206,7 +209,9 @@ def artikel_schreiben(qid: str) -> None:
     datei = ROOT / "kommentare" / erlass / f"{slug}.md"
     pfade = pfade_artikel(erlass, slug)
     py("pipeline/entscheide.py", qid)   # Entscheide in den Cache (Open Case Law), ohne API-Kosten
-    budget = rest()   # kein Limit je Artikel, nur das verbleibende Monatsbudget
+    budget = rest()   # verbleibendes Budget, höchstens MAX_ARTIKEL_USD je Artikel
+    if EINSTELLUNGEN["MAX_ARTIKEL_USD"] > 0:
+        budget = min(budget, EINSTELLUNGEN["MAX_ARTIKEL_USD"])
     log(f"Schreibe {qid} (Budget {budget:.2f} USD, {EINSTELLUNGEN['MODELL_SCHREIBEN']}, Effort {EINSTELLUNGEN['EFFORT']}) …")
     try:
         kosten, _, typ = agent(AUFTRAG.format(nummer=nummer, erlass=erlass, slug=slug, root=ROOT), budget, qid, "schreiben")
@@ -241,6 +246,7 @@ def main() -> None:
         return
     log("Einstellungen:", json.dumps(EINSTELLUNGEN))
     log(f"Heute übrig: {tagesrest():.2f} USD, diesen Monat: {monatsrest():.2f} USD")
+    geschrieben = 0
     try:
         while True:
             if minuten() > EINSTELLUNGEN["LAUFZEIT_MIN"]:
@@ -249,7 +255,13 @@ def main() -> None:
             if rest() < EINSTELLUNGEN["MIN_REST_USD"]:
                 log(f"Tages- oder Monatsbudget erreicht (heute {tagesrest():.2f}, Monat {monatsrest():.2f} USD übrig).")
                 break
-            qid = reservieren(EINSTELLUNGEN["WER"], ["bereit", "karten", "entscheide", "offen"])
+            if EINSTELLUNGEN["MAX_ARTIKEL"] and geschrieben >= EINSTELLUNGEN["MAX_ARTIKEL"]:
+                log(f"{geschrieben} Artikel geschrieben; Lauf beendet.")
+                break
+            erlass = EINSTELLUNGEN["ERLASS"]
+            qid = reservieren(EINSTELLUNGEN["WER"], ["bereit", "karten", "entscheide", "offen"],
+                              (lambda q, v: v["erlass"] == erlass) if erlass else None)
+            geschrieben += 1
             if not qid:
                 log("Kein Artikel mehr offen.")
                 break
