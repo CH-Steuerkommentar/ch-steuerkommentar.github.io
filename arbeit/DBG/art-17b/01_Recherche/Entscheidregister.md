@@ -1,0 +1,55 @@
+# Entscheidregister zu Art. 17b DBG
+
+Stand: 28.10.2026. Grundlage: Cache der Pipeline (`python3 pipeline/entscheide.py DBG/art-17b`, 12 Entscheide), Entscheidsuche-Gegenprobe (`"Art. 17b DBG" OR "art. 17b LIFD" OR "Art. 7d StHG" OR "art. 7d LHID" …`, CH_BGer: 23 Treffer, davon 13 zum Steuerrecht), Entscheidsuche-Volltextsuche nach Mitarbeiteraktien/-optionen/-beteiligungen in BGer ab 2013 (42 Treffer), Open Case Law `find_leading_cases` (Mitarbeiteraktien/Sperrfrist/Optionen), Open Case Law `get_article_history` (642.11, Art. 17b). Ältere Entscheide zu Art. 17 Abs. 1 DBG aF (Mitarbeiterbeteiligungen vor 2013) aus dem verifizierten Register zu Art. 17 DBG (arbeit/DBG/art-17/01_Recherche/Entscheidregister.md) übernommen, soweit für die Entstehungsgeschichte oder als heute noch zitierte Grundsätze einschlägig. Zitierstrings aus `citation_string_de` bzw. `zitat_de`.
+
+Zusammengeführt: BGE 151 II 545 = BGer 9C_168/2023 vom 25. November 2024 (mit 9C_176/2023); BGE 149 II 400 = BGer 9C_682/2022 vom 23. Juni 2023; BGE 133 V 346 = BGer H_97/2006 vom 15. Mai 2007.
+
+Klasse: A tragend (legt Art. 17b oder die Grundsätze aus, die Art. 17b kodifiziert), B Anwendung/Erwähnung mit Aussage, C blosse Erwähnung.
+
+## A. Entscheide unter Art. 17b DBG / Art. 7d StHG (seit 2013) und Entscheide, die Art. 17b auslegen
+
+| Entscheid | Datum | Besetzung | Normstelle | Sachfrage | Kernaussage | E. | Ergebnis | Klasse | Fassung |
+|---|---|---|---|---|---|---|---|---|---|
+| BGer 9C_13/2025 vom 1. Mai 2025 | 2025-05-01 | 3 | Abs. 3; Art. 17a, 17d, 97a DBG | Optionen und RSU, Zeitpunkt, Quellensteuer, Vesting | RSU (Anwartschaften) sind nach KS 37 Ziff. 2.3.1.3 den Optionen gleichgestellt und mit diesen echte Mitarbeiterbeteiligungen; sie sind im Zeitpunkt der Ausübung steuerbar (Art. 17b Abs. 3), bei Wegzug anteilsmässig nach Art. 17d/97a; Ende des Vesting ist Tatfrage (hier Tag nach Ende des Arbeitsverhältnisses). | 8, 9.1.1–9.3 | abgewiesen | A | SP 2020 |
+| BGE 151 II 545 (= 9C_168/2023, 9C_176/2023) | 2024-11-25 | 5 (BGE) | Abs. 1 (Bemessung) | Mitarbeiteraktien als Naturallohn; Umsatzabgabe | Mitarbeiteraktien sind zivil- und steuerrechtlich Naturallohn; der Lohn entspricht dem Verkehrswert abzüglich Erwerbspreis (Art. 17b Abs. 1 DBG, Art. 7d Abs. 1 StHG, Art. 5 Abs. 1 MBV); Verkehrswert kotierter Aktien = Schlusskurs am Erwerbstag (KS 37 Ziff. 3.2.1); Gratiszuteilung unter RSU/PSU nicht entgeltlich i.S.v. Art. 13 StG. | 9.1.1, 9.4.1 | gutgeheissen (StG) | A (für Abs. 1: obiter, aber Grundsatz) | Umsatzabgabe 2011–2016 |
+| BGer 2C_285/2019 vom 9. März 2020 | 2020-03-09 | 3 | Abs. 1, 3; Art. 17a, 17c | Systematik, Vesting, Anwartschaften (Performance Shares), Zurechnung | Echte Beteiligungen ausser gesperrten/nicht kotierten Optionen bei Erwerb, Letztere bei Ausübung; Vesting = Zeitraum, in dem die Option «verdient» werden muss; Anwartschaften auf Aktien werden bei Umwandlung besteuert; Einkommen aus Performance Shares ist dem Arbeitnehmer zuzurechnen, auch wenn er die Hälfte im Scheidungsvergleich der Ex-Ehefrau versprochen hat. | 5.2.1–5.2.3, 6 | abgewiesen (Pkt.) | A | SP 2013 |
+| BGer 2C_1057/2018 vom 7. April 2020 | 2020-04-07 | 5 | Art. 7d Abs. 1–3 StHG (Parallelnorm) | Bewertung nicht kotierter Aktien; Erwerb vom Aktionär; Verfügungsbeschränkung (ABV) | An der Ordnung (Erwerbsbesteuerung trotz Sperre/Rückkaufsrecht; Diskont) hat sich 2013 im Grundsatz nichts geändert; vom Aktionär gelieferte Aktien sind «mit Mitarbeiteraktien vergleichbar»; Verkehrswert nicht kotierter Aktien grundsätzlich nach KS 28 SSK (Drittpreis vor Formel); ein Vorkaufsrecht zum Substanzwert im ABV mindert das Einkommen (Abstellen auf Substanzwert), dann kein zusätzlicher Diskont; Wegfall der Beschränkung löst weiteres Einkommen aus (Art. 11 MBV); Vermögenssteuer: ABV unbeachtlich, Auseinanderfallen zulässig. | 2.3.1, 2.3.2, 3, 4.1–4.3, 8.2–8.6, 10 | abgewiesen (Steueramt AG) | A | KGS 2011 (altes Recht; mit Bezug auf Art. 7d StHG) |
+| BGer 2C_974/2019 vom 17. Dezember 2020 | 2020-12-17 | 3 | Art. 17a ff. intertemporal | Rückwirkungsverbot; Optionen vor 2013 | Art. 17a ff. DBG und KS 37 sind auf Optionen, die vor 2013 erhalten und ausgeübt wurden, nicht anwendbar (Verbot echter Rückwirkung); Hinweise der Vorinstanz auf Art. 17b «maladroites», aber ohne Folgen. | 5.1, 5.2, 8.1, 8.2 | teilw. gutgeheissen (anderes) | A (Übergang) | SP 2005–2007 |
+| BGer 2C_168/2012 vom 1. März 2013 | 2013-03-01 | 3 | altes Recht; obiter zum neuen Art. 17b | Gesperrte Aktien mit Verfallklausel; Kodifikation | Gesperrte Aktien mit Verfall-/Rückgabeklausel sind bei Zuteilung steuerbar; das neue Gesetz bestätigt die Praxis, dass Sperre und Rückgabepflicht die Besteuerung nicht aufschieben, sondern bei der Bewertung (6 % pro Sperrjahr) zu berücksichtigen sind; massgebend ist der zivilrechtliche Erwerb. | 2.3, 2.6, 2.7, 2.8, 4.3 | abgewiesen | A | SP 2004/2005 |
+| BGer 2C_889/2019 vom 14. November 2019 | 2019-11-14 | 3 | Art. 129 Abs. 1 lit. d DBG | Bescheinigung | Arbeitgeber müssen für jede Steuerperiode Bescheinigungen über geldwerte Vorteile aus echten Beteiligungen sowie Zuteilung und Ausübung von Optionen einreichen; Lohnausweis Ziff. 5 mit Beiblatt; Bescheinigung ist Wissenserklärung. | 3.2.3, 3.2.4 | – | B | – |
+| BGer 2C_77/2017 vom 16. Januar 2019 | 2019-01-16 | 3 | Art. 7d Abs. 1 StHG (Vergleich) | Wandlung von Aktien | Für die Bewertung des Vermögenszugangs naheliegend der Verkehrswert der Aktien im Wandlungszeitpunkt, «wie dies beispielsweise für die Zuteilung echter Mitarbeiterbeteiligungen … in Art. 7d Abs. 1 StHG ausdrücklich vorgeschrieben ist». | 5.1.1 | – | B | – |
+| BGer 2C_705/2017 vom 10. August 2018 | 2018-08-10 | 3 | Art. 17a DBG (Erwähnung) | Suspensivbedingung | Suspensiv bedingte Ansprüche begründen bis zum Bedingungseintritt nur eine Anwartschaft, etwa Mitarbeiterbeteiligungen mit Vestingklausel. | 2.2.2 | – | B | – |
+| BGer 5A_90/2017 vom 24. August 2017 | 2017-08-24 | 3 | Art. 17b DBG (vgl.) | Vesting (Unterhaltsrecht) | Bis zum Ablauf der Vestingperiode ist der Rechtserwerb aufschiebend bedingt; Aktien werden erst mit dem Vesting erworben und steuerbar (vgl. Art. 17b DBG; 7d StHG). | 7.2.2 | abgewiesen | B | – |
+| BGE 149 II 400 (= 9C_682/2022) | 2023-06-23 | 5 (BGE) | Abs. 1 (Erwähnung) | Zufluss; Sonderregel | Zuflussprinzip mit Vorbehalt abweichender Regelungen bei einzelnen Einkommensarten, «vgl. etwa Art. 17b Abs. 1 DBG». | 4.2 | – | B | – |
+| BGer 9C_793/2023 vom 19. März 2025 | 2025-03-19 | 3 | Abs. 1 (Erwähnung) | Zufluss | Wie BGE 149 II 400 E. 4.2. | 5.2 | – | C | – |
+| BGer 9C_604/2022 vom 1. Mai 2024 | 2024-05-01 | 3 | Art. 17 Abs. 1 i.V.m. 17a–17d (Art. 17b nicht angewendet) | Erwerb vom Dritten | Verbilligter Aktienerwerb von einem Dritten ist Arbeitseinkommen, wenn damit Arbeit abgegolten werden soll; massgebend allein der Grund der Vermögensverschiebung (Art. 17 Abs. 1). | 3.2–3.2.2, 4.1, 5 | abgewiesen | A (für Anwendungsbereich) | SP 2020 |
+| BGer 9C_666/2024 vom 26. Februar 2025 | 2025-02-26 | 3 | Art. 17 Abs. 1 | Erwerb vom Dritten | wie 9C_604/2022 (Aufpreis Fr. 220'000 als Erwerbseinkommen). | 2.2–2.3, 4.4 | abgewiesen | B | SP 2017 |
+| BGer 9C_463/2025 vom 17. Juni 2026 | 2026-06-17 | 3 | Art. 17 (Abgrenzung Vermächtnis) | Nachfolgeregelung | Aktienvermächtnis an Geschäftsführer willkürfrei als Vermächtnis statt Mitarbeiterbeteiligung (KGS). | 4.5–4.6 | – | B | KGS |
+
+## B. Recht vor 2013 (Art. 17 Abs. 1 DBG aF), für Entstehungsgeschichte und fortgeltende Grundsätze
+
+| Entscheid | Datum | Normstelle | Sachfrage | Kernaussage | E. | Klasse |
+|---|---|---|---|---|---|---|
+| BGer 2A.358/2001 vom 25. Januar 2002 (Parallel 2A.360/2001) | 2002-01-25 | Art. 17 aF | Freigabe gesperrter Aktien | Nicht bei Erwerb besteuerte gesperrte Aktien sind bei Freigabe zum Verkehrswert zu erfassen; Pauschaldiskont gebilligt. | 2–6 | B |
+| BGer 2A.517/2002 vom 21. Mai 2003 (Parallel 2A.573/2002) | 2003-05-21 | Art. 17 aF | Optionen; Zufluss; Sperre bei Aktien | Mitarbeiteroptionen sind Naturaleinkünfte; Einkommen erst mit unbedingtem Rechtsanspruch; Sperre und Rückkaufsrecht schliessen den Zufluss bei Zuteilung der Aktien nicht aus. | 2.1, 2.2, 3.3 | A |
+| BGer 2P.181/2005 vom 8. Februar 2006 | 2006-02-08 | (kantonal) | Diskont bei Freigabe | gebilligt, bei Freigabe ursprünglich gesperrter Aktien einen Diskont zu gewähren (OCL-Pinpoint E. 2.4, medium) | 2.4 | C (nicht verwendet) |
+| BGE 133 V 346 (= H_97/2006) | 2007-05-15 | AHV; Art. 17 aF; E-Art. 17b Abs. 3 | Optionen mit Vesting | Praxis seit Mai 2003: Optionen mit Vesting erst bei Ausübung; Gesetzgeber will dies in E-Art. 17b Abs. 3 verankern. | 5.3.3 | B |
+| BGer 2C_138/2010 vom 2. Juni 2010 | 2010-06-02 | Art. 17 aF | Vesting | Vestingperiode, Optionen mit Verfallklausel fliessen erst mit unwiderruflichem Rechtserwerb zu. | 2.1, 2.2, 3.2.2 | A |
+| BGer 2C_236/2010 vom 14. Oktober 2010 | 2010-10-14 | Art. 17 aF | Vesting | wie 2C_138/2010. | 2.2, 2.3 | B |
+| BGer 2C_397/2015 vom 26. Januar 2016 | 2016-01-26 | Art. 17 aF | Vesting; Übergangsrecht | Art. 17a ff. ratione temporis nicht anwendbar; Optionen mit Vesting erst mit Rechtserwerb. | 3.1–3.4 | B |
+| BGer 2C_357/2014 vom 23. Mai 2016 | 2016-05-23 | Art. 17 aF | Parallelgesellschaft, Put-Option | Gewinne als Erwerbseinkommen; keine Mitarbeiteraktien im herkömmlichen Sinn. | 2.1, 5.1–5.3, 6 | B |
+| BGer 9C_1/2023 vom 26. September 2023 | 2023-09-26 | Art. 17 aF | Optionen vor 2013 | Art. 17a ff. nicht anwendbar; Optionen mit Sperre/Vesting/Verfall bei Ausübung. | 8.2.1–8.3 | B |
+| BGer 9C_216/2023 vom 31. Oktober 2023 | 2023-10-31 | Art. 17 aF | Optionen vor 2013 | wie 2C_974/2019. | 5, 6.1, 6.2 | C |
+| BGer 9C_226/2024 vom 27. Januar 2025 | 2025-01-27 | Art. 17 aF | Rückverkaufspflicht | Realisation grundsätzlich bei Annahme des Angebots; bei Rückverkaufspflicht an Konzerngesellschaft fehlt wirtschaftliche Verfügungsmacht, Einkommen beim Rückverkauf. | 7.1.1–7.5 | A (für Abs. 1, Abgrenzung) |
+| BGer 2A.341/1993 vom 6. November 1995 (ASA 65, 739) | 1995-11-06 | BdBSt | Diskontierung | Nicht im Korpus (Open Case Law `cite`: nie online publiziert); nur als in der Botschaft (S. 581, 588) und in BGer 2C_1057/2018 E. 2.3.1 zitiert verwendbar. | 3b | – |
+
+## C. Nur gezählt (C) bzw. nicht einschlägig
+
+- BGer 9C_136/2025 vom 20. Juli 2026 (AHV; echte Mitarbeiterbeteiligungen nur als Vorbringen; E. 4.1): nicht einschlägig.
+- BGer 5A_54/2024, 5A_749/2023, 5A_591/2021, 5A_804/2018 (Familienrecht, Mitarbeiterbeteiligungen im Unterhalt/Güterrecht); 4A_601/2025, 4A_340/2021, 4A_155/2019, 4A_187/2015, 4A_149/2014 (Arbeits-/Gesellschaftsrecht); 8C_427/2018, 9C_86/2021 (Sozialversicherung); 1B_107/2018 (Strafprozess); 2C_1129/2018, 2C_1205/2012, 2C_393/2015 (Verfahren/altes Recht); 2C_707/2016 (OCL: kein Treffer zur Analogie); Treffer zu Art. 17b ArG, AsylG, ETH-Gesetz, COVID-19-Gesetz, LSP/BE (Fehltreffer).
+
+## Zahlen
+
+- Steuerrechtlich einschlägige BGer-Entscheide mit Bezug auf Art. 17b DBG / Art. 7d StHG: 15 Einträge in Teil A (davon 7 A, 7 B, 1 C).
+- Altes Recht (Teil B): 12 Einträge.
+- Insgesamt im Register: 27 Einträge.

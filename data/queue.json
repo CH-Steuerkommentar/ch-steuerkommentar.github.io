@@ -218,14 +218,13 @@
    "erlass": "DBG",
    "nummer": "17b",
    "sachueberschrift": "Einkünfte aus echten Mitarbeiterbeteiligungen",
-   "status": "in_arbeit",
+   "status": "geprueft",
    "entscheide": null,
    "karten_fertig": 0,
    "prioritaet": null,
-   "notiz": "",
+   "notiz": "Claude-Cloud, 28.10.2026",
    "status_vorher": "offen",
-   "bearbeiter": "claude-cloud",
-   "seit": "2026-10-28T03:36:21+00:00"
+   "geaendert": "2026-10-28"
   },
   "DBG/art-17c": {
    "erlass": "DBG",

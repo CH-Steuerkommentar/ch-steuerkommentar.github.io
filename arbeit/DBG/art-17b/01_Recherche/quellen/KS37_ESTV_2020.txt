@@ -1,0 +1,1379 @@
+# Kreisschreiben Nr. 37: Besteuerung von Mitarbeiterbeteiligungen Besteuerung von Mitarbeiterbeteiligungen in aktualisierter Version vom 30.10.2020 (Direkte Bundessteuer). Dieses Kreisschreiben hat mehrere Dateien als Anhang PDF 362.75 kB 10. Oktober 2023
+
+**Source**: ESTV (estv_ks)
+**Type**: kreisschreiben
+**Document number**: KS Nr. 37
+**Date**: 2020-10-30
+**Language**: de
+**PDF**: [KS Nr. 37](https://www.estv.admin.ch/dam/de/sd-web/IUU3cAaknqvw/dbst-ks-2020-1-037-d-de.pdf)
+**Source page**: [Quelle](https://www.estv.admin.ch/de/kreisschreiben-direkten-bundessteuer)
+**Topics**: Direkte Bundessteuer
+
+---
+
+Eidgenössisches Finanzdepartement EFD 
+Eidgenössische Steuerverwaltung ESTV 
+Hauptabteilung Direkte Bundessteuer, 
+Verrechnungssteuer, Stempelabgaben 
+ 
+ 
+ 
+Eidgenössische Steuerverwaltung ESTV 
+Eigerstrasse 65 
+3003 Bern 
+www.estv.admin.ch 
+1- 037-D-2020-d 
+  
+ 
+Direkte Bundessteuer 
+ 
+Bern, 30. Oktober 2020 
+ 
+ 
+ 
+ 
+ 
+Kreisschreiben Nr. 371, Version vom 30. Oktober 2020 
+Besteuerung von Mitarbeiterbeteiligungen 
+ 
+Inhaltsverzeichnis 
+1 
+Allgemeines und Gegenstand des Kreisschreibens ................................. 3 
+2 
+Begriffe ......................................................................................................... 3 
+2.1 
+Mitarbeitende ................................................................................................ 3 
+2.2 
+Arbeitgeber ................................................................................................... 3 
+2.3 
+Mitarbeiterbeteiligungen .............................................................................. 4 
+2.3.1 
+Echte Mitarbeiterbeteiligungen ....................................................................... 4 
+2.3.1.1 Mitarbeiteraktien ...................................................................................................... 4 
+2.3.1.1.1 Freie Mitarbeiteraktien ............................................................................ 4 
+2.3.1.1.2 Gesperrte Mitarbeiteraktien .................................................................... 4 
+2.3.1.2 Mitarbeiteroptionen .................................................................................................. 4 
+2.3.1.2.1 Freie Mitarbeiteroptionen ........................................................................ 4 
+2.3.1.2.2 Börsenkotierte Mitarbeiteroptionen ......................................................... 5 
+2.3.1.2.3 Gesperrte Mitarbeiteroptionen ................................................................ 5 
+2.3.1.3 Anwartschaften auf Mitarbeiteraktien ....................................................................... 5 
+2.3.2 
+Unechte Mitarbeiterbeteiligungen ................................................................... 5 
+2.3.2.1 Phantom Stocks ...................................................................................................... 5 
+2.3.2.2 Stock Appreciation Rights ........................................................................................ 5 
+2.3.2.3 Co-Investments ....................................................................................................... 5 
+2.3.3 
+Künftige Entwicklungen .................................................................................. 6 
+2.4 
+Sperrfrist sowie Vesting / Vestingperiode ................................................. 6 
+2.5 
+Realisation .................................................................................................... 6 
+2.6 
+Umrechnung von Fremdwährungen ........................................................... 6 
+3 
+Besteuerung von Mitarbeiteraktien (Art. 17b DBG) .................................. 6 
+3.1 
+Grundsatz ..................................................................................................... 6 
+3.2 
+Verkehrswert ................................................................................................ 7 
+3.2.1 
+Börsenkotierte Mitarbeiteraktien ..................................................................... 7 
+                                               
+1 Angepasst an das Bundesgesetz über die formelle Bereinigung der zeitlichen Bemessung der direkten Steuern 
+bei den natürlichen Personen vom 22. März 2013 (in Kraft seit 1. Januar 2014). 
+
+
+ 
+2/22 
+ 
+ 
+3.2.2 
+Nicht börsenkotierte Mitarbeiteraktien ............................................................ 7 
+3.3 
+Ermittlung des steuerbaren Einkommens ................................................. 8 
+3.4 
+Besondere Fälle............................................................................................ 8 
+3.4.1 
+Vorzeitiger Wegfall der Sperrfrist (Art. 11 MBV) ............................................. 8 
+3.4.2 
+Rückgabe von Mitarbeiteraktien (Art. 12 MBV) .............................................. 9 
+3.4.3 
+Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien ........... 10 
+3.4.4 
+Hinweise zu weiteren Sachverhalten............................................................ 10 
+4 
+Besteuerung von Mitarbeiteroptionen (Art. 17b DBG) ............................ 10 
+4.1 
+Freie börsenkotierte Mitarbeiteroptionen ................................................ 10 
+4.2 
+Übrige Mitarbeiteroptionen ....................................................................... 10 
+5 
+Besteuerung von Anwartschaften auf Mitarbeiteraktien ........................ 11 
+6 
+Besteuerung von unechten Mitarbeiterbeteiligungen (Art. 17c DBG) ... 11 
+7 
+Besteuerung von Mitarbeiterbeteiligungen im internationalen 
+Verhältnis (Art. 7 bis 9 MBV) ..................................................................... 11 
+7.1 
+Allgemeines ................................................................................................ 11 
+7.2 
+Quellenbesteuerung von Mitarbeiteraktien und freien börsenkotierten 
+Mitarbeiteroptionen .................................................................................... 12 
+7.2.1 
+Allgemeines .................................................................................................. 12 
+7.2.2 
+Quellenbesteuerung ..................................................................................... 12 
+7.3 
+Besteuerung von gesperrten oder nicht börsenkotierten 
+Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien sowie 
+unechten Mitarbeiterbeteiligungen im internationalen Verhältnis ......... 14 
+7.3.1 
+Allgemeines .................................................................................................. 14 
+7.3.2 
+„Import“ von Mitarbeiterbeteiligungen (Art. 7 MBV) ...................................... 14 
+7.3.2.1 „Import“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel............................ 14 
+7.3.2.2 „Import“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel ........................ 14 
+7.3.3 
+„Export“ von Mitarbeiterbeteiligungen (Art. 8 MBV) ...................................... 15 
+7.3.3.1 „Export“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel ........................... 15 
+7.3.3.2 „Export“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel ........................ 15 
+7.3.4 
+Überblick zur Quellenbesteuerung von geldwerten Vorteilen aus 
+Mitarbeiterbeteiligungen, die erst bei Realisierung steuerbar sind ............... 16 
+8 
+Mitwirkungs- und Bescheinigungspflichten ............................................ 18 
+8.1 
+Arbeitgeber ................................................................................................. 18 
+8.1.1 
+Allgemeines .................................................................................................. 18 
+8.1.2 
+Bescheinigungen bei Mitarbeiteraktien (Art. 4 MBV) .................................... 19 
+8.1.2.1 Freigabe von Mitarbeiteraktien vor Ablauf der Sperrfrist (Art. 11 MBV) .................. 19 
+8.1.2.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV) ...................................................... 19 
+8.1.3 
+Bescheinigung über Mitarbeiteroptionen, Anwartschaften auf 
+Mitarbeiteraktien und unechte Mitarbeiterbeteiligungen (Art. 5 und 6 MBV) 20 
+8.1.3.1 Freie, börsenkotierte Mitarbeiteroptionen ............................................................... 20 
+8.1.3.2 Übrige Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien und unechte 
+Mitarbeiterbeteiligungen......................................................................................... 20 
+8.1.4 
+Weitere Auskünfte (Art. 17 MBV) ................................................................. 20 
+8.2 
+Steuerpflichtige .......................................................................................... 20 
+9 
+Vorbescheid zwischen dem Arbeitgeber und der Steuerbehörde 
+(Ruling) ....................................................................................................... 21 
+9.1 
+Allgemeines ................................................................................................ 21 
+9.2 
+Voraussetzungen ....................................................................................... 21 
+9.3 
+Zuständigkeit .............................................................................................. 21 
+10 
+Inkrafttreten, Aufhebungen und Übergangsrecht ................................... 21 
+
+
+ 
+3/22 
+ 
+ 
+1 
+Allgemeines und Gegenstand des Kreisschreibens 
+Mit dem Bundesgesetz vom 17. Dezember 2010 über die Besteuerung von Mitarbeiterbeteili-
+gungen (vgl. Sammlung der Eidg. Gesetze [AS] 2011 3259) wurden für die Besteuerung von 
+Mitarbeiterbeteiligungen verschiedene Neuerungen eingeführt. In ihrer Gesamtheit zielen die 
+neuen Bestimmungen darauf ab, die Rechtssicherheit wiederherzustellen und zwar insbe-
+sondere in Bezug auf den jeweiligen Besteuerungszeitpunkt und – in Anlehnung an den 
+Kommentar zum OECD-Musterabkommen zur Vermeidung der Doppelbesteuerung auf dem 
+Gebiete der Steuern vom Einkommen und vom Vermögen (nachfolgend OECD-Kommentar) 
+– die Steuerbemessung bei internationalen Sachverhalten. In diesem Zusammenhang ist 
+insbesondere Artikel 15 des OECD-Musterabkommens 2010 zur Vermeidung der Doppelbe-
+steuerung auf dem Gebiete der Steuern vom Einkommen und vom Vermögen (nachfolgend 
+OECD-MA) zu berücksichtigen. 
+Die in Artikel 129 Absatz 1 Buchstabe d des Bundesgesetzes vom 14. Dezember 1990 über 
+die direkte Bundessteuer (DBG, SR 642.11) vorgesehenen neuen Bescheinigungs- und Mel-
+depflichten werden in der Verordnung vom 27. Juni 2012 über die Bescheinigungspflichten 
+bei Mitarbeiterbeteiligungen (Mitarbeiterbeteiligungsverordnung [MBV], SR 642.115.325.1) 
+näher ausgeführt. 
+Die Botschaft (vgl. Bundesblatt [BBl] 2005 575) zum neuen Bundesgesetz datiert bereits vom 
+17. November 2004. Damit vermag der neue Erlass den in der Zwischenzeit eingetretenen 
+Entwicklungen im Bereich der Mitarbeiterbeteiligungen nicht mehr in allen Punkten Rech-
+nung zu tragen. Das vorliegende Kreisschreiben sowie die Anhänge I bis IV sollen einen 
+Überblick über die steuerlichen Auswirkungen der neuen Bestimmungen verschaffen. 
+Die Änderungen des vorliegenden Kreisschreibens in seiner Version vom 30. Oktober 
+2020 sind in diesem Dokument mit einem Balken auf der linken Seite gekennzeichnet. 
+2 
+Begriffe 
+2.1 
+Mitarbeitende 
+Als Mitarbeitende im Sinne dieses Kreisschreibens gelten Arbeitnehmende, die im Dienste 
+eines Arbeitgebers stehen (vgl. Art. 319 Abs. 1 des Bundesgesetzes betreffend die Ergän-
+zung des Schweizerischen Zivilgesetzbuches [Fünfter Teil: Obligationenrecht; OR, SR 220] 
+und Art. 17 DBG) sowie Mitglieder der Verwaltung oder der Geschäftsführung ungeachtet 
+deren Wohnsitz respektive Ansässigkeit. Massgebend ist dabei, ob die Einkünfte aus dem 
+zugrundeliegenden Rechtsverhältnis als Einkommen aus unselbständiger Erwerbstätigkeit 
+gemäss Artikel 17 Absatz 1 DBG qualifizieren. 
+Ebenfalls als Mitarbeitende gelten künftige Angestellte, wenn der künftige Arbeitgeber ihnen 
+mit Blick auf das bevorstehende Arbeitsverhältnis bereits Mitarbeiterbeteiligungen einräumt, 
+bzw. ehemalige Mitarbeitende, denen der ehemalige Arbeitgeber während der Anstellungs-
+dauer Mitarbeiterbeteiligungen eingeräumt hat. 
+Nicht als Mitarbeitende gelten Unternehmer (vgl. Art. 363 OR), Beauftragte, Mäkler oder Ge-
+neralagenten im Sinne von Artikel 394 ff. OR sowie Aktionäre, die in keinem Arbeitsverhält-
+nis zum Unternehmen stehen. 
+2.2 
+Arbeitgeber 
+Als Arbeitgeber im Sinne dieses Kreisschreibens gilt die Gesellschaft, eine Gruppengesell-
+schaft oder Betriebsstätte, bei welcher der Mitarbeitende angestellt ist. Darunter fallen auch 
+sogenannte faktische Arbeitgeber. Zu denken ist dabei etwa an Sachverhalte, bei welchen 
+ein Mitarbeitender einer ausländischen Tochtergesellschaft zur Muttergesellschaft in die 
+Schweiz entsandt wird, welche die Kosten für den Mitarbeitenden übernimmt. Diesfalls wird 
+die schweizerische Muttergesellschaft zur faktischen Arbeitgeberin. 
+
+
+ 
+4/22 
+ 
+ 
+2.3 
+Mitarbeiterbeteiligungen 
+Ist das Beteiligungsrecht auf das ehemalige, das aktuelle oder das künftige Arbeitsverhältnis 
+mit dem Arbeitgeber zurückzuführen, dann qualifiziert es entweder als echte oder unechte 
+Mitarbeiterbeteiligung. 
+Wird die Beteiligung dem Mitarbeitenden nicht durch den Arbeitgeber, sondern durch eine 
+natürliche Person (z.B. aus dem Eigenbestand eines Aktionärs) abgegeben, handelt es sich 
+zwar nicht um eine Mitarbeiterbeteiligung nach Artikel 17a DBG im engeren Sinne. Es recht-
+fertigt sich aber, für die Bemessung des geldwerten Vorteils die Bestimmungen für Mitarbei-
+terbeteiligungen sinngemäss anzuwenden. 
+2.3.1 Echte Mitarbeiterbeteiligungen 
+Echte Mitarbeiterbeteiligungen beteiligen den Mitarbeitenden im Ergebnis am Eigenkapital 
+des Arbeitgebers. Die Beteiligung kann dabei direkt mittels Einräumung von Beteiligungspa-
+pieren erfolgen oder indirekt mittels Einräumung von Optionen oder Anwartschaften zum Be-
+zug von Beteiligungspapieren. 
+Häufigste Formen echter Mitarbeiterbeteiligungen sind Mitarbeiteraktien und Mitarbeiteroptio-
+nen. 
+2.3.1.1 Mitarbeiteraktien 
+Als Mitarbeiteraktien im Sinne dieses Kreisschreibens gelten Aktien des Arbeitgebers oder 
+ihm nahestehender Gesellschaften (vgl. Art. 17a Abs. 1 Bst. a DBG und Art. 1 Abs. 2 Bst. a 
+MBV), die dem Mitarbeitenden von seinem Arbeitgeber aufgrund seines Arbeitsverhältnisses 
+in der Regel zu Vorzugsbedingungen übertragen werden. 
+Andere Beteiligungspapiere, die den Mitarbeitenden direkt am Gesellschaftskapital beteiligen 
+– insbesondere Partizipationsscheine oder Genossenschaftsanteile – werden wie Mitarbei-
+teraktien behandelt. Nachfolgend wird der Einfachheit halber ausschliesslich von Mitarbeiter-
+aktien gesprochen. 
+2.3.1.1.1 Freie Mitarbeiteraktien 
+Als freie Mitarbeiteraktien gelten Mitarbeiteraktien, über welche ein Mitarbeitender ohne Ein-
+schränkung verfügen kann. 
+2.3.1.1.2 Gesperrte Mitarbeiteraktien 
+Als gesperrte Mitarbeiteraktien gelten Mitarbeiteraktien mit einer in der Regel zeitlich befris-
+teten Verfügungssperre (Sperrfrist), während welcher der Mitarbeitende diese Aktien weder 
+veräussern, verpfänden noch anderweitig belasten darf. Der Rechtsgrund für die Sperrfrist ist 
+regelmässig das Beteiligungsreglement bzw. der Kaufvertrag zwischen dem Arbeitgeber und 
+dem Mitarbeitenden. Nicht als Sperrfristen gelten blosse Zeitfenster, während welchen der 
+Mitarbeitende beispielsweise aus betriebsinternen oder börsenrechtlichen Gründen (sog. 
+closed window period) die Aktien nicht veräussern darf. 
+2.3.1.2 Mitarbeiteroptionen 
+Eine Mitarbeiteroption ist das einem Mitarbeitenden aufgrund seines ehemaligen, aktuellen 
+oder künftigen Arbeitsverhältnisses in der Regel zu Vorzugsbedingungen eingeräumte 
+Recht, ein Beteiligungspapier des Arbeitgebers innerhalb eines definierten Zeitraums (Aus-
+übungsfrist) zu einem bestimmten Preis (Ausübungspreis) zu erwerben, um sich am Gesell-
+schaftskapital des Arbeitgebers zu beteiligen. 
+2.3.1.2.1 Freie Mitarbeiteroptionen 
+Freie Mitarbeiteroptionen können nach ihrer Abgabe ohne Einschränkung ausgeübt oder ver-
+kauft werden. 
+
+
+ 
+5/22 
+ 
+ 
+2.3.1.2.2 Börsenkotierte Mitarbeiteroptionen 
+Eine Mitarbeiteroption gilt im Sinne dieses Kreisschreibens als börsenkotiert, wenn sie an ei-
+ner Börse notiert ist und einen liquiden Handel aufweist, wobei sich der Handel nicht nur auf 
+Mitarbeitende beschränken darf. 
+2.3.1.2.3 Gesperrte Mitarbeiteroptionen 
+Gesperrte Mitarbeiteroptionen können nach ihrer Abgabe während einer bestimmten Zeit 
+(Sperrfrist) weder veräussert noch ausgeübt werden. 
+2.3.1.3 Anwartschaften auf Mitarbeiteraktien 
+Anwartschaften auf Mitarbeiteraktien stellen dem Mitarbeitenden in Aussicht, in einem späte-
+ren Zeitpunkt eine bestimmte Anzahl Aktien entweder unentgeltlich oder zu Vorzugsbedin-
+gungen erwerben zu können. Die Übertragung der Aktien wird dabei in der Regel von Bedin-
+gungen abhängig gemacht, wie beispielsweise vom Bestehen eines Arbeitsverhältnisses. 
+Mithin enthalten Anwartschaften auf Mitarbeiteraktien eine Entschädigung für künftige Leis-
+tungen, weshalb sie den echten Mitarbeiteroptionen gleichgestellt werden können (vgl. 
+hierzu auch Ziff. 2.3.1 hievor). Restricted Stock Units (RSU) sind typische Anwendungsfälle 
+solcher Anwartschaften. 
+2.3.2 Unechte Mitarbeiterbeteiligungen 
+Als unechte Mitarbeiterbeteiligungen gelten eigenkapital- bzw. aktienkursbezogene Anreiz-
+systeme, welche dem Mitarbeitenden im Ergebnis keine Beteiligung am Eigenkapital des Ar-
+beitgebers, sondern in der Regel nur eine Geldleistung in Aussicht stellen, welche sich an 
+der Wertentwicklung des Basistitels bestimmt. Weil diese Instrumente dem Mitarbeitenden 
+regelmässig keine weiteren Rechte wie Stimm- und Dividendenrechte einräumen, gelten die 
+unechten Mitarbeiterbeteiligungen bis zu ihrer Realisation steuerlich als blosse Anwartschaf-
+ten. 
+Als häufigste Formen unechter Mitarbeiterbeteiligungen gelten die sog. Phantom Stocks 
+(synthetische Aktien) und die sog. Stock Appreciation Rights (synthetische Optionen) sowie 
+Formen von Co-Investments. 
+2.3.2.1 Phantom Stocks 
+Die Phantomaktie (Phantom Stock) ist ein fiktives Beteiligungspapier, welches eine be-
+stimmte Aktie wertmässig spiegelt und dessen Inhaber vermögensrechtlich einem Aktionär 
+gleichstellt. Dementsprechend erhält der Inhaber in der Regel Zahlungen, welche betrags-
+mässig den jeweiligen Dividendenausschüttungen entsprechen. Die Phantomaktie repräsen-
+tiert jedoch keine Beteiligung am Eigenkapital des Arbeitgebers und daher auch keine Mit-
+gliedschaftsrechte, wie diese ein Beteiligungsinhaber besitzt. 
+2.3.2.2 Stock Appreciation Rights 
+Ein Stock Appreciation Right (SAR) berechtigt die Mitarbeitenden, den Wertzuwachs eines 
+bestimmten Basistitels in einem zukünftigen Zeitpunkt vom Arbeitgeber in bar ausbezahlt zu 
+erhalten. Im Unterschied zu den Phantomaktien erfolgen hier in der Regel keine Zahlungen, 
+welche betragsmässig den jeweiligen Dividenden entsprechen. Die physische Lieferung von 
+Aktien – und damit die Beteiligung am Eigenkapital des Arbeitgebers – entfallen. 
+2.3.2.3 Co-Investments 
+Co-Investments von Mitarbeitenden sind insbesondere anzutreffen im Rahmen von Private 
+Equity-Strukturen. Dabei werden häufig Instrumente zugeteilt, welche den Mitarbeitenden in 
+der Regel erst dann entschädigen, wenn der Arbeitgeber verkauft wird oder an die Börse ge-
+bracht werden kann. Solche Co-Investments gelten insbesondere dann als unechte Mitarbei-
+terbeteiligungen, wenn die Beteiligungstitel dem Mitarbeitenden keine umfassenden Eigentü-
+merrechte (unbeschränktes Stimm- und Dividendenrecht, Recht auf Gewinn- und Liquidati-
+onsanteil) am Arbeitgeber einräumen.  
+
+
+ 
+6/22 
+ 
+ 
+2.3.3 Künftige Entwicklungen 
+Die Eidgenössische Steuerverwaltung (nachfolgend ESTV) kann neue Arten von Mitarbeiter-
+beteiligungen, welche ihr nach Inkrafttreten des vorliegenden Kreisschreibens unterbreitet 
+werden, in Anwendung von Artikel 16 MBV in einem separaten Anhang auflisten und die ent-
+sprechende Liste publizieren. 
+2.4 
+Sperrfrist sowie Vesting / Vestingperiode   
+Unter einer Sperrfrist ist eine in der Regel zeitlich befristete Verfügungssperre auf vertragli-
+cher Basis zu verstehen, während welcher der Mitarbeitende die betreffenden Mitarbeiterbe-
+teiligungen insbesondere weder ausüben, veräussern, verpfänden noch anderweitig belasten 
+darf.   
+Die Vestingperiode stellt die Zeitspanne dar, während welcher der Mitarbeitende eine Option 
+verdienen bzw. „abverdienen“ muss, insbesondere indem er gewisse berufliche Ziele erfüllt 
+oder auch indem er seinen Arbeitsvertrag nicht vor Ablauf einer bestimmten Dauer kündigt. 
+Das Ende dieser Zeitspanne wird als „Vesting“ bezeichnet (vgl. Urteil des Bundesgerichts 
+2C_138/2010 vom 2. Juni 2010, Erw. 2.2) Dementsprechend gelten solche Mitarbeiterbeteili-
+gungen bis zum Eintritt des Vesting lediglich als aufschiebend bedingt zugeteilt. 
+Das Vesting, also das Ende der Vestingperiode, wird in der Regel im jeweiligen Beteiligungs-
+plan bzw. -vertrag festgehalten, ebenso wie die Gründe, welche zu einem vorzeitigen Ves-
+ting führen können. Läuft die Vestingperiode ab und werden sämtliche Vestingbedingungen 
+erfüllt, führt dies zum Erwerb des Rechtsanspruchs an der entsprechenden Mitarbeiterbeteili-
+gung. Der Besteuerungszeitpunkt richtet sich dabei nach Ziffer 3 ff. dieses Kreisschreibens.  
+2.5 
+Realisation 
+Wird in diesem Kreisschreiben von Realisation von Mitarbeiterbeteiligungen gesprochen, 
+dann deckt dies insbesondere die Ausübung oder den Verkauf von Mitarbeiteroptionen ab, 
+ebenso wie die Umwandlung von Anwartschaften in Aktien sowie den Bezug von Bargeld 
+aus aktienkursbezogenen Bargeldanreizsystemen (vgl. Anhang I, Übersicht über Mitarbeiter-
+beteiligungen). 
+2.6 
+Umrechnung von Fremdwährungen 
+Lautet eine Mitarbeiterbeteiligung auf eine ausländische Währung, so sind die jeweils zu be-
+scheinigenden Angaben in Schweizerfranken (nachfolgend Franken) umzurechnen. Der Um-
+rechnung ist das Mittel der Geld- und Briefschlusskurse am Tage der Abgabe, dem Erwerb 
+oder der Realisation des geldwerten Vorteils aus der Mitarbeiterbeteiligung zu Grunde zu le-
+gen. In begründeten Fällen und in Absprache mit der zuständigen Steuerbehörde kann von 
+dieser Umrechnung abgewichen werden.  
+ 
+3 
+Besteuerung von Mitarbeiteraktien (Art. 17b DBG)  
+3.1 
+Grundsatz 
+Werden Mitarbeiteraktien unentgeltlich oder zu Vorzugsbedingungen abgegeben, stellt die 
+positive Differenz zwischen dem Verkehrswert und dem Abgabepreis bei den Mitarbeitenden 
+einen geldwerten Vorteil und damit Einkommen aus unselbständiger Erwerbstätigkeit dar 
+(vgl. Art. 17 Abs. 1 DBG). Mitarbeiteraktien sind bei Abgabe, d.h. im Zeitpunkt des Rechtser-
+werbs zu besteuern. 
+
+
+ 
+7/22 
+ 
+ 
+3.2 
+Verkehrswert 
+3.2.1 Börsenkotierte Mitarbeiteraktien 
+Bei börsenkotierten Mitarbeiteraktien gilt als Verkehrswert grundsätzlich der Börsenschluss-
+kurs am Tage des Rechtserwerbs. 
+Der Rechtserwerb von Mitarbeiteraktien erfolgt regelmässig in einem Zeitpunkt, in welchem 
+der Mitarbeitende das Angebot des Arbeitgebers zum Bezug von Aktien annimmt. Insbeson-
+dere aus administrativen Gründen kann der Beteiligungsplan eine bestimmte Bezugsfrist vor-
+sehen, während welcher der Mitarbeitende die Annahme der Offerte bestätigen muss. Lie-
+gen solche Bezugsfristen vor, gilt Folgendes: 
+ 
+Bei Bezugsfristen von mehr als 60 Kalendertagen gilt als steuerlich massgebender 
+Verkehrswert der Schlusskurs am Tage der Annahme der Offerte. 
+ 
+Bei Bezugsfristen von bis zu 60 Kalendertagen gilt als steuerlich massgebender Ver-
+kehrswert der Schlusskurs des ersten Tages der Bezugsfrist. In begründeten Fällen 
+und in Absprache mit der zuständigen Steuerbehörde kann von dieser Verkehrswert-
+berechnung abgewichen werden. 
+3.2.2 Nicht börsenkotierte Mitarbeiteraktien 
+Bei nicht an einer Börse kotierten Mitarbeiteraktien fehlt es in der Regel an einem Verkehrs-
+wert. Daher gilt als massgeblicher Wert grundsätzlich der nach einer für den entsprechenden 
+Arbeitgeber tauglichen und anerkannten Methode ermittelte Formelwert. Dabei kann die Be-
+rechnung des entsprechenden Werts im Zeitpunkt der Zuteilung den Regelungen gemäss 
+dem Kreisschreiben Nr. 28 der Schweizerischen Steuerkonferenz von 28. August 2008 
+(Wegleitung zur Bewertung von Wertpapieren ohne Kurswert für die Vermögenssteuer) fol-
+gen. Die einmal gewählte Berechnungsmethode muss für den entsprechenden Mitarbeiter-
+beteiligungsplan zwingend beibehalten werden. 
+ 
+Wird der Formelwert nur einmal pro Jahr berechnet, gilt er nur dann als steuerlich massge-
+bender Wert, wenn die Abgabe der Mitarbeiteraktien innert sechs Monaten nach dem betref-
+fenden Bewertungsstichtag erfolgt. Andernfalls ist der Formelwert des kommenden Bewer-
+tungsstichtags angemessen zu berücksichtigen. 
+Ist für nicht börsenkotierte Aktien ausnahmsweise ein Verkehrswert verfügbar, ist grundsätz-
+lich dieser anwendbar. Im Einzelfall kann auf entsprechenden Antrag des Arbeitgebers trotz 
+Verfügbarkeit eines Verkehrswerts auf einen Formelwert abgestellt werden. Dies setzt vo-
+raus, dass der Arbeitgeber ein unbeschränktes Kaufrecht hat, die Mitarbeiteraktien zum iden-
+tisch berechneten Formelwert zurück zu kaufen. 
+Beispiel:  
+A und B gründen die Newtec AG mit einem AK von 100'000 Franken (100 
+Aktien à nom. 1'000 Franken). Im Zuge einer Kapitalerhöhung zeichnet die 
+Z Bank als Investorin weitere 100 Aktien à nom. 1'000 Franken zuzüglich 
+eines Agios von 9'000 Franken pro Aktie. Damit beträgt der Verkehrswert 
+10'000 Franken pro Aktie. 
+Ein halbes Jahr später möchte die Newtec AG ihren Mitarbeiter C mittels 
+einer unentgeltlichen Abgabe von 10 Aktien beteiligen. Bei einem Verkehrs-
+wert von 10'000 Franken pro Aktie würde dies bei C zu einem steuerbaren 
+Einkommen von 100'000 Franken führen. 
+
+
+ 
+8/22 
+ 
+ 
+Weil sein übriger Lohn sehr bescheiden ist, wäre C nicht in der Lage, die 
+durch die Mitarbeiterbeteiligung anfallenden Einkommenssteuern zu bezah-
+len. Aus diesem Grunde beantragt die Newtec AG bei der zuständigen 
+Steuerbehörde, den Verkehrswert zu negieren und statt dessen zu Steuer-
+zwecken inskünftig auf den Formelwert abzustellen. Dieses Vorgehen wird 
+von den Steuerbehörden akzeptiert, wenn der Arbeitgeber ein unbe-
+schränktes Kaufrecht hat, die Mitarbeiteraktien zum identisch berechneten 
+Formelwert zurück zu kaufen. 
+3.3 
+Ermittlung des steuerbaren Einkommens 
+Der Besteuerung unterliegt die positive Differenz zwischen dem Verkehrswert der Mitarbei-
+teraktien und deren Abgabepreis. 
+Gesperrte Mitarbeiteraktien weisen gegenüber frei verfügbaren Aktien einen Minderwert auf. 
+Artikel 17b Absatz 2 DBG trägt diesem Umstand mit einem Diskont von sechs Prozent pro 
+Sperrjahr Rechnung, wobei maximal zehn Sperrjahre berücksichtigt werden können. Dies 
+führt zur folgenden Diskontierungstabelle: 
+Sperrfrist 
+Einschlag 
+Reduzierter  
+Verkehrswert 
+1 Jahr 
+5,660 % 
+94,340 % 
+2 Jahre 
+11,000 % 
+89,000 % 
+3 Jahre 
+16,038 % 
+83,962 % 
+4 Jahre 
+20,791 % 
+79,209 % 
+5 Jahre 
+25,274 % 
+74,726 % 
+6 Jahre 
+29,504 % 
+70,496 % 
+7 Jahre 
+33,494 % 
+66,506 % 
+8 Jahre 
+37,259 % 
+62,741 % 
+9 Jahre 
+40,810 % 
+59,190 % 
+10 Jahre 
+44,161 % 
+55,839 % 
+ 
+Angebrochene Sperrfristjahre werden pro rata temporis berücksichtigt (vgl. Art. 11 Abs. 3 
+und Art. 12 Abs. 2 MBV). Der reduzierte (prozentuale) Verkehrswert berechnet sich nach der 
+Formel (100 : 1.06 n), wobei (n) der Anzahl am Bewertungsstichtag noch ausstehender Sperr-
+jahre entspricht. 
+Die positive Differenz zwischen dem reduzierten Verkehrswert und dem tieferen Erwerbs-
+preis stellt beim Mitarbeitenden steuerbares Einkommen aus unselbständiger Erwerbstätig-
+keit dar (Art. 17b Abs. 1 DBG). 
+3.4 
+Besondere Fälle 
+3.4.1 Vorzeitiger Wegfall der Sperrfrist (Art. 11 MBV) 
+Fällt die Sperrfrist vorzeitig weg, realisiert der Mitarbeitende in diesem Zeitpunkt einen im Ar-
+beitsverhältnis begründeten geldwerten Vorteil, d.h. Einkommen aus unselbständiger Er-
+werbstätigkeit (Art. 17 Abs. 1 DBG). Der Grund für den vorzeitigen Wegfall der Sperrfrist ist 
+ebenso wenig von Bedeutung wie die allfällige Tatsache, dass die Mitarbeiteraktie seinerzeit 
+zu einem über dem steuerlich diskontierten Verkehrswert bezogen wurde. 
+Das steuerbare Einkommen entspricht der Differenz zwischen dem nicht diskontierten Ver-
+kehrswert der Aktie im Zeitpunkt des Wegfalls der Sperrfrist und dem entsprechend der ver-
+bleibenden Restsperrfrist diskontierten Wert. Angebrochene Restsperrfristjahre sind pro rata 
+temporis zu berücksichtigen. 
+Beispiel:  
+Mitarbeiter A hat am 15. März 2010 eine für 10 Jahre gesperrte Mitarbeiter-
+
+
+ 
+9/22 
+ 
+ 
+aktie unentgeltlich zugeteilt erhalten. Am 30. September 2013 geht Mitar-
+beiter A vorzeitig in Pension. Entsprechend dem Beteiligungsplan fällt bei 
+diesem Ereignis eine noch bestehende Sperrfrist vorzeitig weg. Damit wird 
+per 30. September 2013 die grundsätzlich noch bis zum 15. März 2020 ge-
+sperrte Mitarbeiteraktie sofort frei verfügbar. Anders ausgedrückt wird in 
+diesem Zeitpunkt die noch für 6,46 Jahre (n) gesperrte Aktie in eine unge-
+sperrte Aktie umgewandelt. Beträgt der (volle) Börsenkurs am 30. Septem-
+ber 2013 beispielsweise Fr 1’500.00 pro Aktie (x), dann beträgt der – unter 
+Berücksichtigung der noch ausstehenden 6,46 Sperrfristjahre – reduzierte 
+Verkehrswert in Anwendung von Artikel 17b Absatz 2 DBG lediglich 68,632 
+Prozent (100 : 1,06 6,46) des vollen Verkehrswerts, d.h. 1'029.50 Franken. 
+Diese Differenz zwischen dem vollen Verkehrswert (1'500) und dem redu-
+zierten Verkehrswert (1'029.50) stellt das im Zeitpunkt des vorzeitigen 
+Wegfalls der Sperrfrist zu bescheinigende steuerbare Erwerbseinkommen 
+von 470.50 Franken dar. Mathematisch entspricht diese Berechnung der 
+Formel (x – x : 1,06 n), bzw. (1'500 – 1'500 : 1,06 6,46). 
+ 
+Datum 
+Sperrung bei 
+Ausgabe 
+(Rest-) 
+Sperrfrist 
+Verkehrswert 
+Einschlag 
+CHF 
+Wegfall Sperr-
+frist per 
+30.09.2013 
+ 
+ 
+1‘500 
+- 
+1‘500 
+Diskontierung 
+per 
+30.09.2013 
+10 Jahre 
+6.46 Jahre 
+1‘500 
+68.632% 
+1‘029 
+steuerbares Erwerbseinkommen 
+ 
+ 
+471 
+ 
+3.4.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV) 
+Muss ein Mitarbeitender bei Beendigung des Arbeitsverhältnisses aufgrund einer reglemen-
+tarischen bzw. vertraglichen Verpflichtung Mitarbeiteraktien an seinen Arbeitgeber zurückge-
+ben, kann daraus entweder eine im Arbeitsverhältnis begründete Vermögenseinbusse oder 
+steuerbares Einkommen resultieren. In der positiven Differenz zwischen dem Rücknahme-
+preis und dem (entsprechend der Restsperrfrist diskontierten) Verkehrs- resp. Formelwert re-
+alisiert der Mitarbeitende steuerbares Einkommen aus Erwerbstätigkeit und nicht etwa einen 
+steuerfreien privaten Kapitalgewinn. Deshalb ist in diesen Fällen eine Bescheinigung sinnge-
+mäss mit den Angaben nach Artikel 11 Absatz 4 MBV zu erstellen. Das steuerbare Einkom-
+men im Zeitpunkt der Rückgabe bemisst sich diesfalls nach der Differenz zwischen dem 
+(entsprechend der Restsperrfrist diskontierten) Verkehrs- resp. Formelwert der zurückgege-
+benen Mitarbeiteraktien und dem höheren Rückgabepreis. Im Falle einer entschädigungslo-
+sen oder unter dem aktuellen Verkehrswert liegenden Rückgabe der Mitarbeiteraktien kann 
+der Mitarbeitende die Vermögenseinbusse in der Steuerperiode der Rückgabe der Mitarbei-
+teraktien durch einen Gewinnungskostenabzug vom Einkommen geltend machen (vgl. Art. 
+12 Abs. 1 MBV).  
+Beispiel:  
+Mitarbeiter A hat am 15. März 2010 eine für 10 Jahre gesperrte Mitarbeiter-
+aktie erworben. Am 30. September 2013 kündigt der Mitarbeiter A sein Ar-
+beitsverhältnis. Entsprechend dem Beteiligungsplan hat er die Aktie zum 
+ursprünglichen Erwerbspreis von 800 Franken zurückzugeben. Könnte Mit-
+arbeiter A frei über die Mitarbeiteraktie verfügen, würde die noch für 6,46 
+Jahre (n) gesperrte Aktie in eine ungesperrte Aktie umgewandelt. Beträgt 
+der (volle) Börsenkurs am 30. September 2013 beispielsweise 1'500 Fran-
+ken pro Aktie (x), dann beträgt der – unter Berücksichtigung der noch aus-
+stehenden 6,46 Sperrfristjahre – reduzierte Verkehrswert in Anwendung 
+von Artikel 17b Absatz 2 DBG lediglich 68,632 Prozent (100 : 1,06 6,46) des 
+vollen Verkehrswertes, d.h. 1'029 Franken. Da er die Mitarbeiteraktie zum 
+
+
+ 
+10/22 
+ 
+ 
+Preis von 800 Franken (y) zurückzugeben hat, kann er in der Steuererklä-
+rung die Differenz von 229 Franken als Gewinnungskosten abziehen. Ma-
+thematisch entspricht diese Berechnung der Formel (x : 1,06 n – y), bzw. 
+(1'500 : 1,06 6,46 – 800). 
+ 
+Datum 
+Sperrfrist 
+(Rest-) 
+Sperrfrist 
+Verkehrs-
+wert 
+Rückgabe-
+preis 
+Ein-
+schlag 
+Reduzierter 
+Verkehrs-
+wert 
+Zuteilung 
+15.03.2010 
+10 Jahre 
+ 
+ 
+ 
+ 
+ 
+Kündigung 
+30.09.2013 
+- 
+6.46 Jahre 
+1‘500 
+800 
+68.637% 
+(= 1‘029) 
+1‘029 
+Da der Rückgabepreis 800 Franken und der reduzierte Verkehrswert 1‘029 Franken betragen, belau-
+fen sich die steuerlich massgebenden Gewinnungskosten auf 229 Franken.  
+ 
+3.4.3 Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien 
+Aus der Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien resultiert für die 
+Belange der direkten Steuern grundsätzlich ein steuerfreier privater Kapitalgewinn (vgl. 
+Art. 16 Abs. 3 DBG) oder ein steuerlich unbeachtlicher Kapitalverlust. Der Umfang des steu-
+erfreien Kapitalgewinns entspricht der Differenz zwischen dem Verkehrswert im Zeitpunkt 
+der Abgabe und dem Verkehrswert im Zeitpunkt der Veräusserung bzw. der Differenz zwi-
+schen dem Formelwert im Zeitpunkt der Abgabe und dem nach der gleichen Bewertungsme-
+thode ermittelten Formelwert im Zeitpunkt der Veräusserung. Ein allfälliger Mehrwert, der 
+beispielsweise auf eine veränderte Bewertungsmethodik oder auf einen Wechsel vom For-
+mel- zum Verkehrswertprinzip zurückzuführen ist, ist in der Regel als Einkommen im Zeit-
+punkt der Veräusserung zu besteuern. Tritt das den Wechsel vom Formel- zum Verkehrs-
+wertprinzip auslösende Ereignis erst nach Ablauf einer fünfjährigen Haltedauer der jeweiligen 
+Mitarbeiteraktien ein, realisiert der Mitarbeitende bei einer nachfolgenden Veräusserung der 
+im Privatvermögen gehaltenen Mitarbeiteraktien einen steuerfreien Kapitalgewinn. 
+3.4.4 Hinweise zu weiteren Sachverhalten 
+Aktien, die im Zeitpunkt der Gründung einer Gesellschaft erworben werden, qualifizieren 
+nicht als Mitarbeiterbeteiligungen im Sinne von Artikel 17a DBG. Erwirbt ein Mitarbeitender 
+Beteiligungsrechte zu Konditionen, wie diese einer unabhängigen Drittperson gewährt wer-
+den, gelten diese Wertschriften nicht als Mitarbeiterbeteiligungen im Sinne von Artikel 17a 
+DBG.  
+ 
+4 
+Besteuerung von Mitarbeiteroptionen (Art. 17b DBG) 
+4.1 
+Freie börsenkotierte Mitarbeiteroptionen 
+Freie börsenkotierte Mitarbeiteroptionen werden im Zeitpunkt der Abgabe besteuert. Werden 
+solche Mitarbeiteroptionen unentgeltlich oder zu Vorzugsbedingungen abgegeben, stellt die 
+positive Differenz zwischen dem Verkehrswert und dem Abgabepreis bei den Mitarbeitenden 
+einen geldwerten Vorteil und damit Einkommen aus unselbständiger Erwerbstätigkeit dar 
+(vgl. Art. 17b Abs. 1 DBG). 
+In Bezug auf den Verkehrswert der Mitarbeiteroptionen gelten die Bestimmungen gemäss 
+Ziffer 3.2.1 dieses Kreisschreibens sinngemäss. 
+4.2 
+Übrige Mitarbeiteroptionen 
+Sämtliche Mitarbeiteroptionen, die nicht gemäss Ziffer 4.1 hievor bei Abgabe zu besteuern 
+sind, werden im Zeitpunkt der Veräusserung oder der Ausübung besteuert (vgl. Art. 17b 
+
+
+ 
+11/22 
+ 
+ 
+Abs. 3 DBG). Steuerbar ist der gesamte Veräusserungserlös bzw. Ausübungsgewinn nach 
+Abzug allfälliger Gestehungskosten. 
+ 
+5 
+Besteuerung von Anwartschaften auf Mitarbeiteraktien 
+Anwartschaften auf Mitarbeiteraktien werden im Zeitpunkt der Umwandlung in Mitarbeiterak-
+tien besteuert. Die Besteuerung richtet sich in diesem Zeitpunkt nach den für die Mitarbeiter-
+aktien geltenden Vorgaben (vgl. Ziff. 3 hievor). 
+ 
+6 
+Besteuerung von unechten Mitarbeiterbeteiligungen (Art. 17c DBG) 
+Geldwerte Vorteile aus der Einräumung von unechten Mitarbeiterbeteiligungen sind im Zeit-
+punkt ihres Zuflusses steuerbar. Als Erwerbseinkommen unterliegt der gesamte geldwerte 
+Vorteil der Einkommenssteuer, d.h. aus unechten Mitarbeiterbeteiligungen kann diesfalls 
+kein steuerfreier privater Kapitalgewinn resultieren. 
+ 
+7 
+Besteuerung von Mitarbeiterbeteiligungen im internationalen Verhältnis 
+(Art. 7 bis 9 MBV) 
+7.1 
+Allgemeines 
+Die anteilsmässige Besteuerung, welche in den Artikeln 17d DBG sowie 7 und 8 MBV fest-
+gehalten wird, ist auf zwei Sachverhalte anwendbar. Der erste Sachverhalt betrifft Fälle, in 
+welchen der Mitarbeitende aus dem Ausland in die Schweiz zuzieht (Zuzug; Art. 7 MBV). Der 
+Zweite betrifft Mitarbeitende, die aus der Schweiz ins Ausland ziehen (Wegzug; Art. 8 MBV). 
+Dabei werden die Mitarbeiterbeteiligungen jeweils in einem Land abgegeben und in einem 
+anderen Land realisiert. Bei diesen Mitarbeiterbeteiligungen handelt es sich in der Regel um 
+Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien oder um unechte Mitarbeiterbeteili-
+gungen.  
+Aufgrund verschiedener Doppelbesteuerungsabkommen (DBA) kann die Schweiz in der Re-
+gel nicht den gesamten geldwerten Vorteil aus der Realisation besteuern. Die Besteuerung 
+ist vielmehr aufgrund der Arbeitstage auf die Länder zu verteilen, in denen der Mitarbeitende 
+seit der Zuteilung der Mitarbeiterbeteiligung bis zum Entstehen des Ausübungsrechts ansäs-
+sig war (Art. 7 und 8 MBV). Keine Rolle spielt dabei, ob ein anderes Land den geldwerten 
+Vorteil anteilsmässig besteuert oder nicht. Vielmehr ist entscheidend, welches Land das an-
+teilige Besteuerungsrecht für das Einkommen aus der zugrundeliegenden Erwerbstätigkeit 
+besitzt. 
+Artikel 7 wie auch Artikel 8 MBV schreiben dem Arbeitgeber vor, welche Angaben er in den 
+Fällen der anteilsmässigen Besteuerung nach Artikel 17d DBG zu bescheinigen hat. Anzu-
+merken ist, dass die Artikel 7 und 8 MBV auf Grund des ausdrücklichen Verweises in Arti-
+kel 9 MBV in analoger Weise auch auf weitere Sachverhalte anzuwenden sind, wie beispiels-
+weise, wenn ein Mitarbeitender aus dem Ausland in die Schweiz zuzieht, für kurze Zeit hier 
+ansässig ist und noch vor dem Vesting wieder wegzieht oder umgekehrt. Die örtliche Zustän-
+digkeit der Besteuerung richtet sich nach den Artikeln 107 und 105 DBG. Die Bescheinigung 
+bei Wegzug eines Mitarbeitenden ist der nach diesen Bestimmungen zuständigen kantona-
+len Behörde zuzustellen. Der Arbeitgeber hat in seiner Eigenschaft als Schuldner der steuer-
+baren Leistung die Quellensteuer jeweils bloss auf dem schweizerischen Anteil abzurech-
+nen. 
+
+
+ 
+12/22 
+ 
+ 
+Als Arbeitstage im Sinne von Artikel 7 und 8 MBV gilt der Zeitraum, in welchem zwischen ei-
+nem Mitarbeitenden und seinem Arbeitgeber ein Arbeitsvertragsverhältnis besteht. Die in 
+diese Zeitspanne fallenden Ferien, Wochenenden, gesetzlichen Feiertage und sonstigen Ab-
+wesenheiten (Reisetage, Krankheit, Militärdienst, Mutterschaftsurlaub etc.) werden dabei 
+nicht in Abzug gebracht. 
+Generell vorbehalten bleiben Bestimmungen in DBA oder weiteren Abkommen mit anderen 
+Staaten, die das Besteuerungsrecht der Schweiz beschränken oder aufheben (so etwa Art. 
+15a DBA Deutschland über die Besteuerung von Grenzgängern). 
+7.2 Quellenbesteuerung von Mitarbeiteraktien und freien börsenkotierten 
+Mitarbeiteroptionen  
+7.2.1 Allgemeines 
+Mitarbeiteraktien im Sinne von Artikel 1 Absatz 2 Buchstabe a MBV sind gemäss Artikel 17b 
+Absatz 1 DBG immer im Zeitpunkt des Erwerbs als Einkommen aus unselbstständiger Er-
+werbstätigkeit steuerbar. Allfällige Sperrfristen werden mit einem Diskont von 6 Prozent pro 
+Sperrjahr auf deren Verkehrswert berücksichtigt (vgl. auch Ziff. 3.3 hievor). Eine anteilsmäs-
+sige Besteuerung ist ausgeschlossen, da Mitarbeiteraktien mit ihrer Abgabe erworben wer-
+den. Vorbehalten bleiben Fälle, in welchen die Mitarbeiteraktien als Entschädigung für eine 
+im Ausland erbrachte Arbeitsleistung (Bonus) abgegeben werden. 
+Freie börsenkotierte Mitarbeiteroptionen im Sinne von Artikel 1 Absatz 2 Buchstabe b MBV 
+sind ebenfalls gemäss Artikel 17b Absatz 1 DBG im Zeitpunkt des Erwerbs als Einkommen 
+aus unselbständiger Erwerbstätigkeit zu besteuern.  
+7.2.2 Quellenbesteuerung 
+Im internationalen Verhältnis ist zu berücksichtigen, dass der Empfänger der Mitarbeiterak-
+tien im Zeitpunkt des Erwerbs seine Ansässigkeit entweder in der Schweiz oder im Ausland 
+haben kann. In beiden Fällen kann die Besteuerung an der Quelle erfolgen, sofern die Vor-
+aussetzungen der Artikel 83 respektive 91 oder 97 DBG erfüllt sind. Daraus ergeben sich fol-
+gende Möglichkeiten der Besteuerung:  
+ 
+ 
+ 
+
+
+ 
+13/22 
+ 
+ 
+Art der Erwerbstätigkeit 
+im Besteuerungszeit-
+punkt 
+steuerrechtlicher Wohnsitz im Zeitpunkt der Besteuerung 
+Schweiz 
+Ausland2 
+Ausschliesslich Arbeit-
+nehmer (AN) 
+Fälle von Art. 83 DBG: 
+Einkünfte aus Mitarbeiterak-
+tien sind zusammen mit dem 
+übrigen Einkommen aus un-
+selbstständiger Erwerbstätig-
+keit an der Quelle zu besteu-
+ern. 
+Fälle von Art. 91 oder 97 
+DBG: 
+ 
+Einkünfte aus Mitarbeiterak-
+tien sind zusammen mit dem 
+übrigen Einkommen aus un-
+selbstständiger Erwerbstätig-
+keit an der Quelle zu besteu-
+ern. Vorbehalten bleibt eine 
+anteilsmässige Besteuerung 
+von Mitarbeiterbeteiligungen, 
+die als Bonus abgegeben 
+werden (sinngemäss Art. 17d 
+DBG) 
+Ausschliesslich Verwal-
+tungsrat (VR) 
+Fälle von Art. 83 DBG: 
+ 
+Einkünfte aus Mitarbeiterak-
+tien sind zusammen mit dem 
+übrigen Einkommen aus un-
+selbstständiger Erwerbstätig-
+keit an der Quelle zu besteu-
+ern. 
+Fälle von Art. 93 DBG: 
+ 
+Verwaltungsräte, die Mitar-
+beiteraktien erhalten, werden 
+für diese Leistung an der 
+Quelle besteuert werden. 
+Zugleich Arbeitnehmer 
+(AN) und Verwaltungsrat 
+(VR) 
+Fälle von Art. 83 DBG: 
+ 
+Einkünfte aus Mitarbeiterak-
+tien sind zusammen mit dem 
+übrigen Einkommen aus un-
+selbstständiger Erwerbstätig-
+keit an der Quelle zu besteu-
+ern. 
+Fälle von Art. 91 oder 97 so-
+wie 93 DBG: 
+ 
+In diesen Fällen ist vorgängig 
+zu bestimmen, für welche Art 
+der Erwerbstätigkeit (AN o-
+der VR) die Mitarbeiteraktien 
+ausgegeben werden. Die Be-
+steuerung richtet sich an-
+schliessend nach der Art der 
+Erwerbstätigkeit. Vorbehalten 
+bleibt eine anteilsmässige 
+Besteuerung bei Mitarbeiter-
+beteiligungen, die als Bonus 
+abgegeben werden (sinnge-
+mäss Art. 17d DBG). 
+ 
+                                               
+2 Massgebend, ob die Besteuerung nach internem Recht erfolgen kann, ist die Zuweisung der Besteuerungsho-
+heit durch ein allfällig anwendbares DBA und weitere bilaterale Abkommen mit anderen Staaten. Im Falle eines 
+Wegzugs aus der Schweiz ist somit eine Besteuerung durch die Schweiz dennoch nicht ausgeschlossen. 
+
+
+ 
+14/22 
+ 
+ 
+7.3 Besteuerung von gesperrten oder nicht börsenkotierten Mitarbeiteropti-
+onen, Anwartschaften auf Mitarbeiteraktien sowie unechten Mitarbeiter-
+beteiligungen im internationalen Verhältnis 
+7.3.1 Allgemeines 
+Geldwerte Vorteile aus gesperrten oder nicht börsenkotierten Mitarbeiteroptionen, aus An-
+wartschaften auf Mitarbeiteraktien sowie aus unechten Mitarbeiterbeteiligungen werden im 
+Zeitpunkt ihrer Realisation besteuert (vgl. auch Ziff. 4.2, Ziff. 5 und Ziff. 6 hievor). 
+ 
+7.3.2 „Import“ von Mitarbeiterbeteiligungen (Art. 7 MBV) 
+Als „importierte“ Mitarbeiterbeteiligungen gelten Mitarbeiteroptionen, Anwartschaften auf Mit-
+arbeiteraktien oder unechte Mitarbeiterbeteiligungen, die der Mitarbeitende während einer 
+Zeit erworben hat, in der er im Ausland ansässig war, und welche er nach seinem Zuzug in 
+die Schweiz hier realisiert (vgl. Art. 7 Abs. 1 MBV). 
+„Importierte“ Mitarbeiterbeteiligungen, die nach schweizerischem Recht im Zeitpunkt der Ab-
+gabe besteuert werden (vgl. Ziff. 2.3.1.1.1 und 2.3.1.1.2, sowie Ziff. 4.1 hievor), können in 
+der Schweiz steuerfrei realisiert werden. Die Besteuerung von Erwerbseinkünften infolge vor-
+zeitigen Wegfalls der Sperrfrist bleibt vorbehalten. 
+7.3.2.1 
+„Import“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel 
+Das Erwerbseinkommen von „importierten“ Mitarbeiterbeteiligungen, die nach schweizeri-
+schem Recht im Zeitpunkt der Realisation besteuert werden, wird – unter Progressionsvor-
+behalt – nur anteilsmässig besteuert, sofern zwischen dem Zeitpunkt der Abgabe und der 
+Realisation der Mitarbeiterbeteiligung ein Ansässigkeitswechsel erfolgt ist. Der in der 
+Schweiz steuerbare geldwerte Vorteil berechnet sich dabei wie folgt (Art. 17d DBG): 
+Gesamthaft erhaltener geldwerter Vorteil  x  Anzahl Arbeitstage in der Schweiz innerhalb der Vestingperiode 
+Anzahl Tage der Vestingperiode 
+Die Besteuerung kann dabei im ordentlichen Verfahren oder im Quellensteuerverfahren er-
+folgen und es sind die Bescheinigungen gemäss Artikel 7 MBV beizubringen. 
+Zur Veranschaulichung dienen die Fallbeispiele 1 und 3 im Anhang II dieses Kreisschrei-
+bens. 
+7.3.2.2 
+ „Import“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel 
+Das Erwerbseinkommen von „importierten“ Mitarbeiterbeteiligungen, die nach schweizeri-
+schem Recht im Zeitpunkt der Realisation besteuert werden, wird – unter Progressionsvor-
+behalt – auch bei unveränderter Ansässigkeit im Ausland anteilsmässig besteuert, sofern 
+sich der Mitarbeitende zwischen dem Zeitpunkt der Abgabe und Realisation einer Mitarbei-
+terbeteiligung bei einem Arbeitgeber mit Sitz in der Schweiz anstellen lässt. In diesen Fällen 
+erfolgt die anteilsmässige Besteuerung nach dem Verhältnis der Arbeitsverträge (Arbeits-
+tage) Schweiz / Ausland innerhalb der Vestingperiode (sinngemässe Anwendung von Art. 
+17d DBG). Die in diese Zeitspanne fallenden Ferien, Wochenenden, gesetzlichen Feiertage 
+und sonstigen Abwesenheiten (Reisetage, Krankheiten, Militärdienst, Mutterschaftsurlaub 
+etc.) sind für die Berechnung der massgebenden Arbeitstage unerheblich. Die Arbeitstage 
+Schweiz sind um allfällige Drittstaattage zu kürzen. Die Berechnung ist wie folgt vorzuneh-
+men: 
+Gesamthaft erhaltener geldwerter Vorteil  x  Anzahl Arbeitstage* in der Schweiz innerhalb der Vestingperiode 
+Anzahl Tage der Vestingperiode 
+* allenfalls unter Berücksichtigung von Drittstaattagen 
+
+
+ 
+15/22 
+ 
+ 
+Da der Mitarbeitende in der Schweiz bloss beschränkt steuerpflichtig ist, hat die Besteuerung 
+des geldwerten Vorteils aus Mitarbeiterbeteiligungen im Quellensteuerverfahren zu erfolgen. 
+Die Vorschriften in den verschiedenen DBA oder weiteren Abkommen mit anderen Staaten, 
+die das Besteuerungsrecht der Schweiz beschränken oder aufheben (so etwa in Art. 15a 
+DBA Deutschland über die Besteuerung von Grenzgängern), sind zu beachten. 
+7.3.3 „Export“ von Mitarbeiterbeteiligungen (Art. 8 MBV) 
+Als „exportierte“ Mitarbeiterbeteiligungen gelten Mitarbeiteroptionen, Anwartschaften auf Mit-
+arbeiteraktien oder unechten Mitarbeiterbeteiligungen, die der Mitarbeitende während einer 
+Zeit zugeteilt erhalten hat, in der er in der Schweiz ansässig war, und die er nach seinem 
+Wegzug ins Ausland dort realisiert (vgl. Art. 8 Abs. 1 MBV).  
+Der „Export“ von Mitarbeiterbeteiligungen, die nach schweizerischem Recht im Zeitpunkt der 
+Abgabe besteuert werden (vgl. Ziff. 2.3.1.1.1 und 2.3.1.1.2, sowie Ziff. 4.1 hievor), ist steuer-
+lich unbeachtlich. Vorbehalten bleiben diejenigen Fälle, in welchen die Mitarbeiterbeteiligun-
+gen als Bonus für die in der Schweiz erbrachte Leistung ausgerichtet werden und dement-
+sprechend der Quellensteuer unterliegen. 
+Die Besteuerung hat in jedem Fall über das Quellensteuerverfahren zu erfolgen und der 
+Quellensteuerabrechnung sind die Bescheinigungen gemäss Artikel 8 MBV beizulegen. 
+7.3.3.1 
+„Export“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel 
+Der „Export“ von Mitarbeiterbeteiligungen, welche nach schweizerischem Recht bei Realisa-
+tion besteuert werden, zieht in diesem Zeitpunkt in der Schweiz Einkommenssteuerfolgen 
+nach sich. Verlegt dabei der Mitarbeitende vor Realisation der Mitarbeiterbeteiligungen sei-
+nen Wohnsitz ins Ausland, hat die Quellenbesteuerung in Anwendung von Artikel 97a DBG 
+zu erfolgen. Der in der Schweiz steuerbare geldwerte Vorteil berechnet sich dabei wie folgt 
+(vgl. Art. 17d DBG): 
+Gesamthaft erhaltener geldwerter Vorteil  x  Anzahl Arbeitstage in der Schweiz innerhalb der Vestingperiode 
+Anzahl Tage der Vestingperiode 
+Die Steuer (Anteil direkte Bundessteuer) beträgt 11,5 Prozent des in der Schweiz steuerba-
+ren geldwerten Vorteils (Art. 97a Abs. 2 DBG).  
+Die anfallenden Steuern sind als Quellensteuer – diese wird auch als erweiterte Quellen-
+steuer bezeichnet – durch den (ehemaligen) schweizerischen Arbeitgeber abzuführen. Diese 
+Verpflichtung gilt insbesondere auch dann, wenn der geldwerte Vorteil von einer ausländi-
+schen Konzerngesellschaft ausgerichtet wird. Der Quellensteuerabrechnung ist die Beschei-
+nigung über die Mitarbeiterbeteiligung beizulegen (vgl. Art. 10 MBV). 
+Die Besteuerung hat trotz Ansässigkeitswechsel nicht nach Artikel 97a DBG zu erfolgen, 
+wenn der Mitarbeitende bei Realisation der Mitarbeiterbeteiligung weiterhin beim gleichen 
+Leistungsschuldner angestellt bzw. als Verwaltungsrat tätig ist. In diesen Fällen hat die Quel-
+lenbesteuerung gemäss den Artikeln 91, 97 und 93 DBG zu erfolgen. Eine Ausscheidung ge-
+mäss Artikel 17d DBG hat dabei zu unterbleiben (vgl. Art. 13 Abs. 1 und Art. 14 Abs. 1 MBV). 
+Vorbehalten bleiben die Bestimmungen in den Doppelbesteuerungsabkommen oder weite-
+ren Abkommen mit anderen Staaten, die das Besteuerungsrecht der Schweiz beschränken 
+oder aufheben (so etwa in Art. 15a DBA Deutschland über die Besteuerung von Grenzgän-
+gern). 
+7.3.3.2 
+„Export“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel 
+Die Quellenbesteuerung hat nach den Artikeln 91, 97 und 93 DBG zu erfolgen, wenn der Mit-
+arbeitende bereits bei Abgabe der Mitarbeiterbeteiligungen im Ausland ansässig war und 
+
+
+ 
+16/22 
+ 
+ 
+zwischen dem Zeitpunkt der Abgabe und Realisation der Mitarbeiterbeteiligung kein Ansäs-
+sigkeitswechsel stattgefunden hat.  
+Bestand das Arbeitsverhältnis während der ganzen Vestingperiode unverändert in der 
+Schweiz, so sind einzig allfällige Drittstaattage (d.h. Arbeitstage ausserhalb der Schweiz) von 
+der Besteuerung auszuscheiden. Dies trifft vor allem auf die Fälle zu, bei welchen der Steu-
+erpflichtige nach Artikel 91 DBG quellensteuerpflichtig ist. Bei der Besteuerung nach Artikel 
+97 DBG sind in der Regel Drittstaattage nur für bestimmte Fallgruppen auszuscheiden (etwa 
+Fälle im internationalen Transportgewerbe), währenddem die Quellenbesteuerung gemäss 
+Artikel 93 DGB uneingeschränkt vorgenommen werden kann. 
+Hat der im Ausland ansässige Mitarbeitende innerhalb der Vestingperiode einen Arbeitgeber-
+wechsel ins Ausland vollzogen bzw. sein Arbeitsverhältnis in der Schweiz beendet, so hat 
+die Quellenbesteuerung gemäss den Artikeln 91 und 97 DBG anteilsmässig zu erfolgen. 
+Dies gilt dementsprechend auch für Fälle, die nach Artikel 93 DBG quellensteuerpflichtig 
+sind. Die Besteuerung ist dabei nach dem Verhältnis der Arbeitstage (Tage des Verwaltungs-
+ratsmandats) Schweiz / Ausland während der Vestingperiode anteilsmässig vorzunehmen 
+(sinngemässe Anwendung von Art. 17d DBG). Die in diese Zeitspanne fallenden Ferien, Wo-
+chenenden, gesetzlichen Feiertage und sonstigen Abwesenheiten (Reisetage, Krankheiten, 
+Militärdienst, Mutterschaftsurlaub etc.) sind für die Berechnung der massgebenden Arbeits-
+tage unerheblich. Die Arbeitstage Schweiz sind allenfalls noch um allfällige Drittstaattage zu 
+kürzen (vgl. voranstehender Absatz). Die Berechnung ist wie folgt vorzunehmen:  
+Gesamthaft erhaltener geldwerter Vorteil  x  Anzahl Arbeitstage* Schweiz innerhalb der Vestingperiode 
+Anzahl Tage der Vestingperiode 
+* allenfalls unter Berücksichtigung von Drittstaattagen 
+Generell vorbehalten bleiben Bestimmungen in den DBA oder weiteren Abkommen mit ande-
+ren Staaten, die das Besteuerungsrecht der Schweiz beschränken oder aufheben (so etwa 
+Art. 15a DBA Deutschland über die Besteuerung von Grenzgängern). 
+Zur Veranschaulichung dient das Fallbeispiel 5 im Anhang II dieses Kreisschreibens. 
+7.3.4 Überblick zur Quellenbesteuerung von geldwerten Vorteilen aus Mitarbeiterbe-
+teiligungen, die erst bei Realisierung steuerbar sind 
+Im internationalen Verhältnis ist zu berücksichtigen, dass der Empfänger von Mitarbeiterbe-
+teiligungen, welche im Zeitpunkt der Realisation steuerbar sind, dannzumal seine Ansässig-
+keit entweder in der Schweiz oder im Ausland haben kann. In beiden Fällen kann die Besteu-
+erung an der Quelle erfolgen, sofern die Voraussetzungen der Artikel 83 bzw. Artikel 91, 97 
+oder 93 sowie des Artikel 97a DBG erfüllt sind. Daraus ergeben sich folgende Möglichkeiten 
+zur Besteuerung: 
+ 
+ 
+
+
+ 
+17/22 
+ 
+ 
+Art der Erwerbstätigkeit 
+im Besteuerungszeit-
+punkt 
+steuerrechtlicher Wohnsitz im Zeitpunkt der Besteuerung 
+Schweiz 
+Ausland3 
+Ausschliesslich Arbeit-
+nehmer (AN) 
+Fälle von Art. 83 DBG: 
+ 
+Einkünfte aus diesen Mitar-
+beiterbeteiligungen sind zu-
+sammen mit dem übrigen Ein-
+kommen aus unselbstständi-
+ger Erwerbstätigkeit an der 
+Quelle zu besteuern. 
+ 
+Eine anteilsmässige Besteue-
+rung (Art. 17d DBG) kann nur 
+dann erfolgen, wenn die steu-
+erpflichtige Person nicht wäh-
+rend der ganzen Zeitspanne 
+für ihr Einkommen in der 
+Schweiz steuerpflichtig war. 
+Fälle von Art. 91 und 97 
+DBG: 
+ 
+Einkünfte aus diesen Mitar-
+beiterbeteiligungen sind zu-
+sammen mit dem übrigen 
+Einkommen aus unselbst-
+ständiger Erwerbstätigkeit an 
+der Quelle zu besteuern. 
+ 
+Die Besteuerung erfolgt nach 
+Art. 84 DBG, wobei eine an-
+teilsmässige Besteuerung 
+gemäss Art. 17d DBG ausge-
+schlossen ist (vgl. Art. 13 
+Abs. 1 MBV). Vorbehalten 
+bleiben Bestimmungen aus 
+DBA oder Abkommen mit an-
+deren Staaten. 
+Ausschliesslich Verwal-
+tungsrat (VR) 
+Fälle von Art. 83 DBG: 
+ 
+Einkünfte aus diesen Mitar-
+beiterbeteiligungen sind zu-
+sammen mit dem übrigen Ein-
+kommen aus unselbstständi-
+ger Erwerbstätigkeit an der 
+Quelle zu besteuern. 
+ 
+Eine anteilsmässige Besteue-
+rung (Art. 17d DBG) kann nur 
+dann erfolgen, wenn die steu-
+erpflichtige Person nicht wäh-
+rend der ganzen Zeitspanne 
+für ihr Einkommen in der 
+Schweiz steuerpflichtig war. 
+Fälle von Art. 93 DBG: 
+ 
+Einkünfte aus Mitarbeiterbe-
+teiligungen sind zusammen 
+mit den anderen Einkünften 
+aus Verwaltungsratstätigkeit 
+quellensteuerpflichtig, sofern 
+die Abgabe der Mitarbeiter-
+beteiligung im Zusammen-
+hang mit dem Verwaltungs-
+ratsmandat erfolgte. 
+ 
+Die Besteuerung erfolgt nach 
+Art. 93 DBG, wobei eine an-
+teilsmässige Besteuerung 
+gemäss Art. 17d DBG 
+(Art. 14 Abs. 1 MBV) ausge-
+schlossen ist. Auch die Best-
+immungen aus DBA oder Ab-
+kommen mit anderen Staa-
+ten weisen die Besteuerung 
+dem Staat zu, in welchem 
+der Leistungsschuldner sei-
+nen Sitz hat. 
+                                               
+3 Massgebend, ob die Besteuerung nach internem Recht erfolgen kann, ist die Zuweisung der Besteuerungsho-
+heit durch ein allfällig anwendbares DBA und weitere bilaterale Abkommen mit anderen Staaten. Im Falle eines 
+Wegzugs aus der Schweiz ist somit eine Besteuerung durch die Schweiz dennoch nicht ausgeschlossen.  
+
+
+ 
+18/22 
+ 
+ 
+Zugleich Arbeitnehmer 
+(AN) und Verwaltungsrat 
+(VR) 
+Fälle von Art. 83 DBG: 
+ 
+Einkünfte aus diesen Mitar-
+beiterbeteiligungen sind zu-
+sammen mit dem übrigen Ein-
+kommen aus unselbstständi-
+ger Erwerbstätigkeit an der 
+Quelle zu besteuern. 
+ 
+Eine anteilsmässige Besteue-
+rung (Art. 17d DBG) kann nur 
+dann erfolgen, wenn die steu-
+erpflichtige Person nicht wäh-
+rend der ganzen Zeitspanne 
+für ihr Einkommen in der 
+Schweiz steuerpflichtig war. 
+Fälle von Art. 91, 97 oder 93 
+DBG: 
+ 
+In diesen Fällen ist vorgängig 
+zu bestimmen, für welche Art 
+der Erwerbstätigkeit (AN o-
+der VR) die Mitarbeiterbeteili-
+gungen ausgegeben wurde.  
+ 
+Die Besteuerung richtet sich 
+anschliessend nach der Art 
+der Erwerbstätigkeit, d.h. im 
+Zusammenhang mit einem 
+Arbeitsverhältnis nach Art. 
+91, 97 DBG bzw. in Zusam-
+menhang mit einem Verwal-
+tungsratsmandat nach 
+Art. 93 DBG. 
+Weder Arbeitnehmer 
+(AN) noch Verwaltungs-
+rat (VR) 
+Fälle von Art. 83 DBG: 
+ 
+Bei quellensteuerpflichtigen 
+Personen, die im Zeitpunkt 
+der Realisation einer Mitarbei-
+terbeteiligung weder Arbeit-
+nehmer noch Verwaltungsrat 
+des Leistungsschuldners sind, 
+erfolgt die Besteuerung durch 
+den seinerzeitigen Leistungs-
+schuldner in Anwendung von 
+Art. 83 DBG. 
+ 
+Eine anteilsmässige Besteue-
+rung (Art. 17d DBG) kann nur 
+dann erfolgen, wenn die steu-
+erpflichtige Person nicht wäh-
+rend der ganzen Zeitspanne 
+für ihr Einkommen in der 
+Schweiz steuerpflichtig war. 
+Fälle von Art. 97a DBG: 
+ 
+In diesen Fällen sind geld-
+werten Vorteile aus „expor-
+tierten“ Mitarbeiterbeteiligun-
+gen gemäss Art. 97a DBG 
+quellensteuerpflichtig, sofern 
+der Wohnsitz vor Realisie-
+rung ins Ausland verlegt 
+wurde.  
+ 
+Eine anteilsmässige Besteu-
+erung ist in Anwendung von 
+Art. 17d DBG sicherzustel-
+len. Massgebend sind die in 
+der Vestingperiode der 
+Schweiz zuzurechnenden 
+„Arbeitstage“ und dies im 
+Vergleich zur gesamten An-
+zahl Tage während der Ves-
+tingperiode. Liegt kein ent-
+sprechender Ansässigkeits-
+wechsel vor, erfolgt die Be-
+steuerung gemäss Art. 91, 
+97 oder 93 DBG. 
+ 
+8 
+Mitwirkungs- und Bescheinigungspflichten 
+8.1 
+Arbeitgeber 
+8.1.1 Allgemeines 
+Der Arbeitgeber unterliegt ab dem 1. Januar 2013 im Zusammenhang mit Mitarbeiterbeteil-
+gungen einer besonderen Bescheinigungspflicht nach Artikel 129 Absatz 1 Buchstabe d 
+DBG. Einzelheiten hat der Bundesrat in der MBV geregelt. Danach hat der Arbeitgeber so-
+wohl für jede Steuerperiode eine Bescheinigung auszustellen, in welcher er dem Mitarbeiten-
+
+
+ 
+19/22 
+ 
+ 
+den Mitarbeiterbeteiligungen einräumt, als auch für jede Steuerperiode in welcher der Mitar-
+beitende Mitarbeiterbeteiligungen einkommenssteuerlich relevant realisiert (vgl. Ziff. 3 bis 6 
+hievor). Diese Verpflichtung gilt auch dann, wenn der Mitarbeiterbeteiligungsplan von einer 
+ausländischen Konzerngesellschaft oder durch einen Dritten verwaltet wird. 
+Die Bescheinigung dient insbesondere dazu, die Berechnungsgrundlagen für die im Lohn-
+ausweis ausgewiesene geldwerte Leistung rechnerisch nachvollziehbar offen zu legen. Ge-
+mäss Artikel 129 Absatz 1 Buchstabe d DBG müssen Arbeitgeber den Veranlagungsbehör-
+den für jede Steuerperiode eine Bescheinigung einreichen, in welcher sie ihren Angestellten 
+Mitarbeiterbeteiligungen einräumen. Ferner hat der Arbeitgeber die Bescheinigung dem Mit-
+arbeitenden als Beilage zum Lohnausweis abzugeben bzw. der Quellensteuerabrechnung 
+beizulegen (vgl. Art. 10 MBV). Vorbehalten bleiben hiervon abweichende kantonale Regelun-
+gen. Eine direkte Zustellung an die kantonale Steuerbehörde des Wohnsitzkantons des Mit-
+arbeitenden ist aber immer dann notwendig, wenn der geldwerte Vorteil aus Mitarbeiterbetei-
+ligungen nach Beendigung des Arbeitsverhältnisses realisiert wird (vgl. Art. 15 MBV). 
+Die Arbeitgeber sind in der Gestaltung der Bescheinigung grundsätzlich frei, soweit diese die 
+Minimalanforderungen gemäss der MBV erfüllt. Musterbescheinigungen finden sich im An-
+hang III dieses Kreisschreibens. Die ESTV und die kantonalen Steuerbehörden können zu-
+sätzlich zu den in der MBV vorgeschriebenen Angaben weitere Informationen von den Ar-
+beitgebern verlangen, soweit dies für die vorschriftsgemässe Veranlagung notwendig ist (vgl. 
+Art. 17 MBV). 
+Sofern ein Vorbescheid betreffend die Besteuerung der Mitarbeiterbeteiligungen vorliegt, 
+sind auf der Bescheinigung die kantonale Amtsstelle, die den Vorbescheid getroffen hat und 
+das Datum der Vereinbarung (Abschlussdatum) zu vermerken. 
+8.1.2 Bescheinigungen bei Mitarbeiteraktien (Art. 4 MBV) 
+Bei Mitarbeiteraktien muss die Bescheinigung für die Steuerperiode erstellt werden, in wel-
+cher der Mitarbeitende die Mitarbeiteraktien erwirbt. Sie muss die Angaben nach Artikel 4 
+MBV enthalten.  
+Wird bei nicht börsenkotierten Mitarbeiteraktien ein Verkehrswert ausgewiesen, dann muss 
+auf der Bescheinigung vermerkt sein, aus welcher Transaktion sich dieser Verkehrswert ab-
+leitet. Wird demgegenüber ein Formelwert ausgewiesen, muss auf der Bescheinigung die 
+angewandte Bewertungsformel angegeben werden. 
+Ausnahmsweise drängt sich bei Mitarbeiteraktien eine weitere Bescheinigung auf. Das ist 
+namentlich dann der Fall, wenn sich während der Haltedauer der Aktien ein einkommens-
+steuerlich relevanter Sachverhalt ereignet. Solche Anwendungsfälle werden nachfolgend 
+dargestellt. 
+8.1.2.1 Freigabe von Mitarbeiteraktien vor Ablauf der Sperrfrist (Art. 11 MBV) 
+Die Bescheinigung bei Freigabe von Mitarbeiteraktien vor Ablauf der Sperrfirst muss für die 
+Steuerperiode erstellt werden, in welcher die Sperrfrist vorzeitig wegfällt. Sie muss die Anga-
+ben nach Artikel 11 MBV enthalten. 
+8.1.2.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV) 
+Bei der Rückgabe von Mitarbeiteraktien muss die Bescheinigung für diejenige Steuerperiode 
+erstellt werden, in welcher der Mitarbeitende die Mitarbeiteraktien entweder überpreislich o-
+der aber unentgeltlich/unterpreislich zurückzugeben hat. Die Bescheinigung muss die Anga-
+ben nach Artikel 12 MBV enthalten. 
+Im Falle einer unterpreislichen Rückgabe darf der Arbeitgeber den geldwerten Nachteil je-
+doch nicht im Sinne eines Minuslohnes in den Lohnausweis einfliessen lassen und mit ande-
+ren steuerbaren Erwerbseinkünften verrechnen. Vielmehr dient diese Bescheinigung dem 
+
+
+ 
+20/22 
+ 
+ 
+Mitarbeiter dafür, diesen geldwerten Nachteil in seiner Steuererklärung als Gewinnungskos-
+ten geltend zu machen. 
+8.1.3 Bescheinigung über Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien 
+und unechte Mitarbeiterbeteiligungen (Art. 5 und 6 MBV) 
+8.1.3.1 Freie, börsenkotierte Mitarbeiteroptionen 
+Für freie, börsenkotierte Mitarbeiteroptionen, die im Zeitpunkt der Abgabe besteuert werden, 
+genügt in der Regel eine einzige Bescheinigung. Sie erfolgt für die Steuerperiode, in welcher 
+der Mitarbeitende die Mitarbeiteroptionen erwirbt und muss die Angaben nach Artikel 5 MBV 
+enthalten. 
+Eine weitere Bescheinigung wäre nur dann angezeigt, wenn Mitarbeiteroptionen während ih-
+rer Haltedauer inhaltlich zugunsten des Mitarbeitenden abgeändert würden, was beispiels-
+weise bei einem Repricing der Fall ist. 
+8.1.3.2 Übrige Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien und un-
+echte Mitarbeiterbeteiligungen 
+Für Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien und unechte Mitarbeiterbeteili-
+gungen, die im Zeitpunkt der Realisation des geldwerten Vorteils besteuert werden, sind für 
+die Belange der direkten Bundessteuer stets zwei Bescheinigungen erforderlich: Die Erste im 
+Zeitpunkt der Abgabe der Mitarbeiterbeteiligung und die Zweite im Zeitpunkt der Realisation 
+(vgl. Art. 5 Abs. 2 Bst. a und b MBV).  
+Im internationalen Verhältnis ist es unter Umständen möglich, dass diese Mitarbeiterbeteili-
+gungsformen nur anteilsmässig besteuert werden. Sind die entsprechenden Voraussetzun-
+gen als Folge eines Zuzugs in die Schweiz (vgl. Ziff. 7.3.2.1) erfüllt, stellt der Arbeitgeber 
+dem Mitarbeitenden im Zeitpunkt der Realisation des geldwerten Vorteils eine Bescheinigung 
+aus, welche die Vorgaben von Artikel 7 MBV erfüllt. Dabei ist zu beachten, dass in den Lohn-
+ausweis stets die volle geldwerte Leistung einfliessen muss. Der auf das Ausland entfallende 
+Anteil kann der Mitarbeitende erst in seiner Steuererklärung als „im Ausland steuerbare Ein-
+künfte“ in Abzug bringen.  
+Sind die entsprechenden Voraussetzungen als Folge eines Wegzugs aus der Schweiz (vgl. 
+Ziff. 7.3.3.1) erfüllt, ist die Bescheinigung entsprechend den Vorgaben von Artikel 8 MBV der 
+Quellensteuerabrechnung beizulegen. Eine eigenständige, isolierte Meldung der Realisation 
+an die kantonale Steuerbehörde ist nicht notwendig. 
+8.1.4 Weitere Auskünfte (Art. 17 MBV) 
+Der Arbeitgeber ist verpflichtet, jederzeit weitere Angaben zu der abgegebenen Mitarbeiter-
+beteiligung zu machen. Für die Beurteilung eines Mitarbeiterbeteiligungsplans können Aktio-
+närsbindungsverträge, Verträge mit Drittinvestoren oder mit kreditgebenden Banken u. dgl. 
+von Bedeutung sein. 
+8.2 
+Steuerpflichtige 
+Die Steuerpflichtigen sind für die vollständige und richtige Deklaration von erhaltenen Mitar-
+beiterbeteiligungen in der Steuererklärung und für die Einreichung der Bescheinigung des 
+Arbeitgebers verantwortlich. 
+Sämtliche echten und unechten Mitarbeiterbeteiligungen sind im Wertschriften- und Gutha-
+benverzeichnis zu deklarieren. Diese Deklarationspflicht gilt insbesondere auch dann, wenn 
+die Einkommensbesteuerung (noch) nicht aktuell bevorsteht. 
+ 
+
+
+ 
+21/22 
+ 
+ 
+9 
+Vorbescheid zwischen dem Arbeitgeber und der Steuerbehörde (Ruling) 
+9.1 
+Allgemeines  
+Die Einholung eines Vorbescheids bezweckt nicht nur die einheitliche Veranlagung der Mitar-
+beitenden, sondern auch die steuerlich korrekte Handhabung des Mitarbeiterbeteiligungspla-
+nes durch den Arbeitgeber in interkantonalen und internationalen Beziehungen mit den Steu-
+erbehörden. Im Ergebnis sollen sich die Mitarbeitenden, der Arbeitgeber und die Steuerbe-
+hörden auf die zugesicherten steuerlichen Konsequenzen verlassen können. 
+9.2 
+Voraussetzungen 
+Der zuständigen Steuerbehörde sind für die Einholung eines Vorbescheids sämtliche rele-
+vanten Plan- bzw. Vertragsunterlagen einzureichen. Aufgrund dieser Unterlagen ist unter ge-
+nauem Verweis auf die massgebenden Unterlagen vom Arbeitgeber eine steuerliche Beurtei-
+lung vorzunehmen und ein entsprechender Antrag zu stellen. 
+Der Vorbescheid der Steuerbehörde bezieht sich einzig auf den im Antrag dargestellten 
+Sachverhalt. Eine darüber hinaus gehende Prüfung des Beteiligungsplans durch die Steuer-
+behörde findet grundsätzlich nicht statt. 
+9.3 
+Zuständigkeit 
+Für einen Vorbescheid ist grundsätzlich die kantonale Steuerbehörde des Sitzkantons des 
+Arbeitgebers zuständig. Ein Vorbescheid der kantonalen Steuerbehörde ist für andere Kan-
+tone nicht zwingend verbindlich. Sind Mitarbeitende mit Wohnsitz in mehreren Kantonen be-
+troffen, empfiehlt sich zusätzlich, den Vorbescheid auch der ESTV einzureichen, welche ge-
+gebenenfalls ihr Einverständnis im Sinne einer allgemeinen Stellungnahme für die Zwecke 
+der direkten Bundessteuer abgibt. 
+ 
+10 
+Inkrafttreten, Aufhebungen und Übergangsrecht 
+Dieses Kreisschreiben tritt auf den 1. Januar 2013 in Kraft. Gleichzeitig werden das Kreis-
+schreiben Nr. 5 der ESTV vom 30. April 1997 über die Besteuerung von Mitarbeiteraktien 
+und Mitarbeiteroptionen und das Rundschreiben vom 6. Mai 2003 der ESTV über die Be-
+steuerung von Mitarbeiteroptionen mit Vesting-Klauseln aufgehoben. 
+Das vorliegende Kreisschreiben gilt für: 
+- 
+sämtliche nach dem 1. Januar 2013 abgegebenen Mitarbeiterbeteiligungen; 
+- 
+sämtliche vor dem 1. Januar 2013 abgegebenen Mitarbeiterbeteiligungen, bei denen 
+auch nach bisherigem Recht der geldwerte Vorteil erst bei Realisation (nach dem 
+1. Januar 2013) der Einkommensbesteuerung unterliegt sowie  
+- 
+sämtliche vor dem 1. Januar 2013 abgegebenen Mitarbeiterbeteiligungen, die nach 
+bisherigem Recht im Zeitpunkt der Abgabe oder beim Rechtserwerb (Vesting) hätten 
+besteuert werden müssen, aus irgendwelchen Gründen jedoch nicht besteuert wur-
+den, sofern die Veranlagungsverjährung noch nicht eingetreten ist und kein Nach-
+steuergrund gemäss Artikel 151 DBG vorliegt.  
+Altrechtliche Vorbescheide (Rulings), die einem Arbeitgeber und ihren Mitarbeitenden für Mit-
+arbeiteroptionen die Zuteilungs- oder Vestingbesteuerung zusicherten, behalten ihre Gültig-
+keit insoweit die Besteuerung (bei Zuteilung oder Vesting) bis und mit Steuerperiode 2012 
+erfolgte; d.h. ab der Steuerperiode 2013 ist bei Mitarbeiteroptionen keine derartige (altrechtli-
+che) Zuteilungs- oder Vestingbesteuerung mehr zulässig.  
+
+
+ 
+22/22 
+ 
+ 
+Altrechtliche Vorbescheide (Rulings), die dem Inhalt dieses Kreisschreibens nicht entspre-
+chen, entfalten ab der Steuerperiode 2013 keine Wirkung mehr.  
+Die Anpassungen in den Ziffern 3.2.2, 3.4.3 sowie die neue Ziffer 3.4.4 des Kreisschreibens 
+in der Version vom 30. Oktober 2020 treten auf den 1. Januar 2021 in Kraft und entfalten ihre 
+Wirkung ab diesem Zeitpunkt. Der zusätzliche Anhang V des vorliegenden Kreisschreibens 
+findet ebenfalls ab dem 1. Januar 2021 Anwendung. 
+ 
+ 
+ 
+Anhang I: Übersicht über Mitarbeiterbeteiligungen  
+Anhang II: Beispiele 
+Anhang III: Musterbescheinigungen in Papierform 
+Anhang IV: Fallbeispiele zur Quellenbesteuerung 
+Anhang V: Elektronische Musterbescheinigungen
