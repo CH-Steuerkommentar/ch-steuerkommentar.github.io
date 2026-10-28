@@ -15,7 +15,9 @@
       "bis": "2026-11-11",
       "ort": "Einstein St.Gallen",
       "url": "https://ile.unisg.ch/de/newsdetail-1/events/stgaller-seminar-zum-internationalen-steuerrecht-2026-1/",
-      "datum_fr": "10–11 novembre 2026"
+      "datum_fr": "10–11 novembre 2026",
+      "titel_kurz": "Seminar Internationales Steuerrecht",
+      "titel_kurz_fr": "Séminaire droit fiscal international"
     },
     {
       "kurz": "USTR",
@@ -24,7 +26,9 @@
       "bis": "2027-01-13",
       "ort": "Weiterbildungszentrum Holzweid, St.Gallen",
       "url": "https://ile.unisg.ch/de/newsdetail-1/events/stgaller-seminar-zur-unternehmensbesteuerung-2026-wiederholung/",
-      "datum_fr": "12–13 janvier 2027"
+      "datum_fr": "12–13 janvier 2027",
+      "titel_kurz": "Seminar Unternehmensbesteuerung",
+      "titel_kurz_fr": "Séminaire imposition des entreprises"
     }
   ],
   "tax": {

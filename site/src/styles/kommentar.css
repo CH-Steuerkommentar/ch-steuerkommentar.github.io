@@ -359,5 +359,21 @@ div.header > div:nth-child(2) { margin-inline-start: auto; }
 .pagination-links a { padding: 0.8rem 1rem !important; }
 
 /* Kasten «Vom ILE-HSG»: rechts unter dem Inhaltsverzeichnis, sobald die rechte Spalte sichtbar ist; sonst links */
-.ile-box-rechts .ile-box { margin-top: 2rem; }
+.right-sidebar-panel .sl-container {
+  /* Breite der rechten Spalte (wie Starlight) abzüglich Innenabstand, höchstens 26rem */
+  width: min(26rem, max(var(--sl-sidebar-width), var(--sl-sidebar-width) + (100vw - 2 * var(--sl-sidebar-width) - var(--sl-content-width)) / 2) - 2 * var(--sl-sidebar-pad-x) - 0.5rem);
+}
+/* rechts: kompakt, breit, immer sichtbar am unteren Rand der rechten Spalte */
+.ile-box-rechts { position: sticky; bottom: 0; margin-top: 1.5rem; padding-bottom: 1rem; background: var(--sl-color-bg); }
+.ile-box-kompakt { margin: 0; padding: 0.6rem 0.8rem 0.3rem; }
+.ile-box-kompakt .ile-box-titel { margin-bottom: 0.3rem; }
+.ile-box-kompakt .ile-box-eintrag { flex-direction: row; justify-content: space-between; align-items: baseline; gap: 0.6rem; padding: 0.35rem 0; }
+.ile-box-kompakt .ile-box-eintrag strong { font-size: 0.82rem; }
+.ile-box-kompakt .ile-box-eintrag span { font-size: 0.75rem; white-space: nowrap; flex-shrink: 0; }
 @media (min-width: 72rem) { :root[data-has-toc] .ile-box-links { display: none; } }
+/* Schmale rechte Spalte: Titel und Datum untereinander statt abgeschnitten */
+.ile-box-kompakt { container-type: inline-size; }
+@container (max-width: 19rem) {
+  .ile-box-kompakt .ile-box-eintrag { flex-direction: column; align-items: flex-start; gap: 0.1rem; padding: 0.3rem 0; }
+  .ile-box-kompakt .ile-box-eintrag strong { hyphens: manual; }
+}

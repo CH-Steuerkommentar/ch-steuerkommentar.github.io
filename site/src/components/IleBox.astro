@@ -1,6 +1,8 @@
 ---
 // Kasten «Vom ILE-HSG» in der Seitenleiste: FStR, die nächsten Seminare, Fachbereich Tax Law.
 import ile from '../data/ile.json';
+interface Props { kompakt?: boolean }
+const { kompakt = false } = Astro.props;
 const heute = new Date().toISOString().slice(0, 10);
 const seminare = ile.seminare.filter((s) => s.bis >= heute).slice(0, 2);
 const fr = Astro.locals.starlightRoute?.locale === 'fr';
@@ -8,14 +10,14 @@ const t = fr
   ? { titel: "L'ILE-HSG", abo: "S'abonner", sem: 'Séminaires de Saint-Gall', prog: 'Programme et inscription', tax: 'Domaine droit fiscal', aria: "Offres de l'ILE-HSG" }
   : { titel: 'Vom ILE-HSG', abo: 'Jetzt abonnieren', sem: 'St.Galler Seminare', prog: 'Programm und Anmeldung', tax: 'Fachbereich Steuerrecht', aria: 'Angebote des ILE-HSG' };
 ---
-<aside class="ile-box" aria-label={t.aria}>
+<aside class:list={["ile-box", { "ile-box-kompakt": kompakt }]} aria-label={t.aria}>
   <p class="ile-box-titel">{t.titel}</p>
   <a class="ile-box-eintrag" href={ile.fstr.url} target="_blank" rel="noopener">
     <strong>{ile.fstr.titel}</strong><span>{t.abo}</span>
   </a>
   {seminare.map((s) => (
     <a class="ile-box-eintrag" href={s.url} target="_blank" rel="noopener">
-      <strong>{s.titel}</strong><span>{fr ? (s.datum_fr ?? s.datum) : s.datum}</span>
+      <strong>{kompakt ? (fr ? s.titel_kurz_fr : s.titel_kurz) : s.titel}</strong><span>{fr ? (s.datum_fr ?? s.datum) : s.datum}</span>
     </a>
   ))}
   {seminare.length === 0 && (
