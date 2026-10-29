@@ -408,6 +408,7 @@ def startseite(stand: dict[str, int], lang: str = "de", stand_gesamt: dict[str, 
                     f'<small>{html.escape(datum)}, {html.escape(x["ort"])}</small></li>')
         fstr_text = d["fstr"].get("text_fr", d["fstr"]["text"]) if lang == "fr" else d["fstr"]["text"]
         tax_text = d["tax"].get("text_fr", d["tax"]["text"]) if lang == "fr" else d["tax"]["text"]
+        tax_titel = "ILE-HSG Steuerrecht" if lang == "de" else d["tax"]["titel"]
         zeilen.append(f'<h2 class="start-zwischentitel">{s["ile"]}</h2>')
         zeilen.append('<div class="start-ile">'
                       f'<section class="start-ile-karte"><strong>{html.escape(d["fstr"]["titel"])}</strong>'
@@ -416,7 +417,7 @@ def startseite(stand: dict[str, int], lang: str = "de", stand_gesamt: dict[str, 
                       f'<section class="start-ile-karte"><strong>{s["sem_titel"]}</strong>'
                       + (f'<p>{s["sem_naechste"]}</p><ul>{sem}</ul>' if sem else "")
                       + f'<a class="ile-knopf" href="{d["seminare_url"]}" target="_blank" rel="noopener">{s["sem_alle"]}</a></section>'
-                      f'<section class="start-ile-karte"><strong>{html.escape(d["tax"]["titel"])}</strong>'
+                      f'<section class="start-ile-karte"><strong>{html.escape(tax_titel)}</strong>'
                       f'<p>{html.escape(tax_text)}</p>'
                       '<div class="start-ile-knoepfe">'
                       f'<a class="ile-knopf" href="{d["tax"]["url"]}" target="_blank" rel="noopener">{s["tax_knopf"]}</a>'
