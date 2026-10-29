@@ -418,7 +418,10 @@ def startseite(stand: dict[str, int], lang: str = "de", stand_gesamt: dict[str, 
                       + f'<a class="ile-knopf" href="{d["seminare_url"]}" target="_blank" rel="noopener">{s["sem_alle"]}</a></section>'
                       f'<section class="start-ile-karte"><strong>{html.escape(d["tax"]["titel"])}</strong>'
                       f'<p>{html.escape(tax_text)}</p>'
-                      f'<a class="ile-knopf" href="{d["tax"]["url"]}" target="_blank" rel="noopener">{s["tax_knopf"]}</a></section>'
+                      '<div class="start-ile-knoepfe">'
+                      f'<a class="ile-knopf" href="{d["tax"]["url"]}" target="_blank" rel="noopener">{s["tax_knopf"]}</a>'
+                      f'<a class="ile-knopf" href="{d["newsletter_url"]}" target="_blank" rel="noopener">Newsletter</a>'
+                      '</div></section>'
                       '</div>')
     zeilen.append(f'<h2 class="start-zwischentitel">{s["so"]}</h2>')
     zeilen.append('<ol class="start-schritte">' + "".join(f"<li><strong>{a}</strong><span>{b}</span></li>" for a, b in s["schritte"]) + "</ol>")

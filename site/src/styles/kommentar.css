@@ -286,6 +286,8 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
 .sl-markdown-content .start-ile-karte li small { display: block; color: var(--sl-color-gray-3); }
 .sl-markdown-content .start-ile-karte .ile-knopf { margin-top: auto; align-self: flex-start; padding: 0.45rem 0.9rem; background: var(--gruen); color: #fff; text-decoration: none; font-size: 0.9rem; }
 .sl-markdown-content .start-ile-karte .ile-knopf:hover { background: var(--gruen-dunkel); }
+.sl-markdown-content .start-ile-knoepfe { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: auto; }
+.sl-markdown-content .start-ile-knoepfe .ile-knopf { margin-top: 0; }
 
 /* Fusszeile: Impressum, Datenschutz, Haftungsausschluss */
 .rechtliches { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--linie); font-family: var(--sl-font); font-size: 0.85rem; }
@@ -410,13 +412,13 @@ site-search > button[data-open-modal] > span { display: block; }
 .right-sidebar-panel { padding-bottom: 18rem; }
 .ile-box-kompakt { margin: 0; padding: 0.6rem var(--sl-sidebar-pad-x) 0.5rem; }
 .ile-box-kompakt .ile-box-titel { margin-bottom: 0.3rem; }
-.ile-box-kompakt .ile-box-eintrag { flex-direction: row; justify-content: space-between; align-items: baseline; gap: 0.6rem; padding: 0.35rem 0; }
+.ile-box-kompakt .ile-box-eintrag { flex-direction: row; justify-content: space-between; align-items: baseline; gap: 0.6rem; padding: 0.25rem 0; }
 .ile-box-kompakt .ile-box-eintrag strong { font-size: 0.82rem; }
 .ile-box-kompakt .ile-box-eintrag span { font-size: 0.75rem; white-space: nowrap; flex-shrink: 0; }
 @media (min-width: 72rem) { :root[data-has-toc] .ile-box-links { display: none; } }
 /* Schmale rechte Spalte: Titel und Datum untereinander statt abgeschnitten */
 .ile-box-kompakt { container-type: inline-size; }
 @container (max-width: 19rem) {
-  .ile-box-kompakt .ile-box-eintrag { flex-direction: column; align-items: flex-start; gap: 0.1rem; padding: 0.3rem 0; }
+  .ile-box-kompakt .ile-box-eintrag { flex-direction: column; align-items: flex-start; gap: 0.1rem; padding: 0.2rem 0; }
   .ile-box-kompakt .ile-box-eintrag strong { hyphens: manual; }
 }
