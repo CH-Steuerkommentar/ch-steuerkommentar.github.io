@@ -205,6 +205,7 @@ def main() -> int:
     (WURZEL / "roh").mkdir(parents=True, exist_ok=True)
 
     werke: dict[str, dict] = {}
+    ile: dict[str, dict] = {}  # die ILE-Publikationen selbst (Schriftenreihe: je Band, sonst je Dokument)
     statistik = collections.Counter()
     for kurz in args.quellen.split(","):
         source_id, reihe = QUELLEN[kurz]
@@ -221,6 +222,26 @@ def main() -> int:
                 continue
             titel = dok["title"]
             fundort = {"q": kurz, "t": titel, "u": dok.get("lexplorer_url", "")}
+            pfad = dok.get("relative_path", "")
+            band = re.search(r"/(doc_\d+_(\d+)_([^/]+))/segments/", pfad) if kurz == "schriftenreihe" else None
+            schl_ile = band.group(1) if band else dok["doc_id"]
+            werk = ile.setdefault(schl_ile, {
+                "reihe": reihe, "quelle": kurz,
+                "titel": band.group(3).replace("_", " ") if band else titel.split(" · ", 1)[-1],
+                "heft": titel.split(" · ", 1)[0], "band": int(band.group(2)) if band else None,
+                "jahr": (dok.get("doc_date") or "")[:4], "url": dok.get("lexplorer_url", ""),
+                "autoren": [], "teile": []})
+            if band:
+                werk["teile"].append(titel.split(" · ", 1)[-1])
+                if not werk["url"]:
+                    werk["url"] = dok.get("lexplorer_url", "")
+            for a in re.findall(r"Autor(?::innen|en|in)?:\s*([^\n]+?)\.?\s*(?:\n|$)", text)[:3]:
+                for n in re.split(r",\s*|\s+und\s+|\s*/\s*|\s+et\s+", a):
+                    n = n.strip(" .–—")
+                    if 3 <= len(n) <= 60 and n not in werk["autoren"]:
+                        werk["autoren"].append(n)
+            if not band:
+                werk["teile"] = [kopf for kopf, _ in chunks(text) if kopf][:25]
             for kopf, inhalt in chunks(text):
                 ist_verz = bool(VERZEICHNIS.search(titel.split(" · ")[-1]) or VERZEICHNIS.search(kopf)
                                 or VERZEICHNIS.search(inhalt[:200]))
@@ -267,8 +288,22 @@ def main() -> int:
         with open(pakete / f"paket_{i // args.paket + 1:02d}.jsonl", "w", encoding="utf-8") as f:
             for e in liste[i:i + args.paket]:
                 f.write(json.dumps(e, ensure_ascii=False) + "\n")
+    # die ILE-Publikationen selbst: eigene Liste und eigene Pakete (ile_NN)
+    ile_liste = sorted(ile.values(), key=lambda w: (w["quelle"], w["heft"], w["titel"]))
+    for w in ile_liste:
+        w["teile"] = w["teile"][:40]
+    with open(WURZEL / "roh" / "ile_werke.jsonl", "w", encoding="utf-8") as f:
+        for w in ile_liste:
+            f.write(json.dumps(w, ensure_ascii=False) + "\n")
+    for alt in pakete.glob("ile_*.jsonl"):
+        alt.unlink()
+    for i in range(0, len(ile_liste), 250):
+        with open(pakete / f"ile_{i // 250 + 1:02d}.jsonl", "w", encoding="utf-8") as f:
+            for w in ile_liste[i:i + 250]:
+                f.write(json.dumps(w, ensure_ascii=False) + "\n")
     bericht = {"fundstellen": dict(statistik), "werke_roh": len(werke), "kandidaten": len(liste),
-               "ausgesondert": dict(aus), "pakete": -(-len(liste) // args.paket)}
+               "ausgesondert": dict(aus), "pakete": -(-len(liste) // args.paket),
+               "ile_publikationen": len(ile_liste), "ile_pakete": -(-len(ile_liste) // 250)}
     (WURZEL / "roh" / "bericht.json").write_text(json.dumps(bericht, indent=2, ensure_ascii=False))
     print(json.dumps(bericht, indent=2, ensure_ascii=False))
     return 0

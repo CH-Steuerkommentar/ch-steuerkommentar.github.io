@@ -221,38 +221,76 @@ def _werkschluessel(zitat: str) -> tuple[str, str]:
     return (name[0].lower() if name else "", wort.lower())
 
 
-def weiterfuehrende_literatur(k, lang: str = "de") -> str:
-    """Schlussabschnitt: Werke aus dem ILE-Literaturkatalog zu diesem Artikel, die nicht schon zitiert sind."""
+def katalog_je_artikel() -> dict[str, list[dict]]:
+    """ILE-Literaturkatalog je Bestimmung («DBG 18» -> Werke), ILE-Werke zuerst."""
     global _katalog
     if _katalog is None:
         _katalog = {}
         for e in lade_json(KATALOG, []):
-            if e.get("ile"):
-                continue  # ILE-Werke stehen bereits im Literaturverzeichnis der Kommentierung
             for a in e.get("artikel", []):
-                _katalog.setdefault(a, []).append(e["zitat"])
-    werke = _katalog.get(f"{k.meta['erlass']} {k.meta['artikel']}", [])
+                _katalog.setdefault(a, []).append(e)
+        for ws in _katalog.values():
+            ws.sort(key=lambda e: (not e.get("ile"), e["zitat"].lower()))
+    return _katalog
+
+
+def _literatur_zeile(e: dict) -> str:
+    z = html.escape(e["zitat"], quote=False)
+    if e.get("ile") and e.get("url"):
+        return f'- <a href="{html.escape(e["url"])}" target="_blank" rel="noopener">{z}</a> <span class="ile-marke">ILE</span>'
+    if e.get("ile"):
+        return f'- {z} <span class="ile-marke">ILE</span>'
+    return f"- {z}"
+
+
+def weiterfuehrende_literatur(k, lang: str = "de") -> str:
+    """Schlussabschnitt: Werke aus dem ILE-Literaturkatalog zu diesem Artikel, die nicht schon zitiert sind."""
+    werke = katalog_je_artikel().get(f"{k.meta['erlass']} {k.meta['artikel']}", [])
     if not werke:
         return ""
     zitiert = " ".join(b.text for b in k.bloecke).lower()
     neu = []
-    for z in sorted(set(werke), key=str.lower):
-        name, wort = _werkschluessel(z)
+    for e in werke:
+        name, wort = _werkschluessel(e["zitat"])
         if name and name in zitiert and (not wort or wort in zitiert):
             continue
-        neu.append(z)
+        if e.get("url") and e["url"].lower() in zitiert:
+            continue
+        neu.append(e)
     if not neu:
         return ""
     if lang == "fr":
         titel = "Bibliographie complémentaire"
-        satz = ("Autres publications pertinentes pour cette disposition, tirées des bibliographies et notes des "
-                "publications de l'ILE-HSG et non citées ci-dessus.")
+        satz = ("Autres publications pertinentes pour cette disposition, tirées des publications de l'ILE-HSG et de leurs "
+                "bibliographies, non citées ci-dessus.")
     else:
         titel = "Weiterführende Literatur"
-        satz = ("Weitere einschlägige Publikationen zu dieser Bestimmung aus den Literaturverzeichnissen und "
-                "Fussnoten der Publikationen des ILE-HSG, die oben nicht zitiert sind.")
+        satz = ("Weitere einschlägige Publikationen zu dieser Bestimmung aus den Publikationen des ILE-HSG und deren "
+                "Literaturverzeichnissen und Fussnoten, die oben nicht zitiert sind.")
     return (f"\n## {titel}\n\n<p class=\"weiterfuehrend-hinweis\">{satz}</p>\n\n"
-            + "\n".join(f"- {html.escape(z, quote=False)}" for z in neu) + "\n")
+            + "\n".join(_literatur_zeile(e) for e in neu) + "\n")
+
+
+def literatur_seite(erlass: str, nummer: str, sachueberschrift: str, lang: str = "de") -> str:
+    """Seite für einen noch nicht kommentierten Artikel: nur die Literatur aus dem ILE-Katalog."""
+    werke = katalog_je_artikel().get(f"{erlass} {nummer}", [])
+    ab = abk(erlass, lang)
+    if lang == "fr":
+        hinweis = ("Cet article n'est pas encore commenté. En attendant, voici les publications pertinentes tirées des "
+                   "publications de l'ILE-HSG et de leurs bibliographies.")
+        titel = "Bibliographie"
+    else:
+        hinweis = ("Dieser Artikel ist noch nicht kommentiert. Bis dahin finden Sie hier die einschlägige Literatur aus "
+                   "den Publikationen des ILE-HSG und deren Literaturverzeichnissen.")
+        titel = "Literatur"
+    zeilen = ["---", f"title: {yaml_str(f'Art. {nummer} {ab}')}",
+              f"description: {yaml_str(f'{titel} – Art. {nummer} {ab}' + (f' – {sachueberschrift}' if sachueberschrift else ''))}",
+              "sidebar:", f"  label: {yaml_str(f'Art. {nummer} – {sachueberschrift}' if sachueberschrift else f'Art. {nummer}')}",
+              f"  order: {order(nummer)}", "  attrs:", "    class: nur-literatur", "---\n",
+              f'<p class="weiterfuehrend-hinweis">{hinweis}</p>\n', f"## {titel}\n"]
+    zeilen += [_literatur_zeile(e) for e in werke]
+    zeilen.append(fehler_melden(erlass, nummer, lang))
+    return "\n".join(zeilen) + "\n"
 
 
 def ile_daten() -> dict:
@@ -339,7 +377,8 @@ def ile_hinweis(k, lang: str = "de") -> str:
             f'<p>{html.escape(satz)}</p><p class="ile-knoepfe">{"".join(knoepfe)}</p></aside>\n')
 
 
-def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", deutsch: dict[str, dict] | None = None) -> str:
+def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", deutsch: dict[str, dict] | None = None,
+                 literatur: set[str] | None = None) -> str:
     """Übersicht je Erlass. `kommentiert`: Kommentierungen in dieser Sprache; `deutsch` (nur fr): deutsche Kommentierungen,
     die noch nicht übersetzt sind und auf der französischen Seite deutsch angezeigt werden."""
     inv = lade_json(INVENTAR / f"{erlass}.json", {"artikel": [], "fassung_vom": "", "quelle": ""})
@@ -354,7 +393,7 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", de
                 f"{len(kommentiert)} articles commentés en français et {len(deutsch)} en allemand, sur {gesamt} articles en vigueur. "
                 "Les dispositions finales et transitoires ainsi que celles relatives au référendum et à l'entrée en vigueur ne sont pas commentées.\n",
                 "| Article | Titre | État |", "|---|---|---|"]
-        label, nicht = "Aperçu", "non commenté"
+        label, nicht, nur_lit = "Aperçu", "non commenté", "bibliographie"
     else:
         ab = erlass
         kopf = [f"{e['name']} (SR {e['sr']}), Fassung vom {datum_ch(inv.get('fassung_vom', ''))} "
@@ -362,7 +401,7 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", de
                 f"{len(kommentiert)} von {gesamt} geltenden Artikeln kommentiert. Schluss- und Übergangsbestimmungen sowie "
                 "Referendum und Inkrafttreten werden nicht kommentiert.\n",
                 "| Artikel | Sachüberschrift | Stand |", "|---|---|---|"]
-        label, nicht = "Übersicht", "nicht kommentiert"
+        label, nicht, nur_lit = "Übersicht", "nicht kommentiert", "Literatur"
     zeilen = ["---", f"title: {yaml_str(ab)}", f"description: {yaml_str(erlass_name(erlass, lang))}",
               "sidebar:", f"  label: {label}", "  order: 0", "prev: false", "---\n"] + kopf
     for a in sorted(inv["artikel"], key=lambda a: art_sortkey(a["nummer"])):
@@ -377,6 +416,8 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", de
             zeilen.append(f"| [{artikel_nr}](./{slug}/) | {a['sachueberschrift']} | en allemand, {datum_ch(deutsch[slug]['stand'])} |")
         elif ausgenommen(erlass, a["nummer"]):
             zeilen.append(f"| {artikel_nr} | {a['sachueberschrift']} | {nicht} |")
+        elif literatur and slug in literatur:
+            zeilen.append(f"| [{artikel_nr}](./{slug}/) | {a['sachueberschrift']} | {nur_lit} |")
         else:
             zeilen.append(f"| {artikel_nr} | {a['sachueberschrift']} | – |")
     return "\n".join(zeilen) + "\n"
@@ -535,10 +576,24 @@ def main() -> None:
     ok_fr = [(p, k) for p, k in ok_fr if art_slug(k.meta["artikel"]) in kommentiert.get(k.meta["erlass"], {})]
     stand_fr, kommentiert_fr = schreiben(ok_fr, "fr")
     for key in ERLASSE:
-        (SITE_DOCS / key.lower() / "index.md").write_text(erlass_seite(key, kommentiert[key]), encoding="utf-8")
+        # noch nicht kommentierte Artikel mit Literatur aus dem ILE-Katalog: eigene Literaturseite
+        inv = lade_json(INVENTAR / f"{key}.json", {"artikel": []})
+        literatur: set[str] = set()
+        for a in inv["artikel"]:
+            slug = art_slug(a["nummer"])
+            if a["aufgehoben"] or ausgenommen(key, a["nummer"]) or slug in kommentiert[key]:
+                continue
+            if katalog_je_artikel().get(f"{key} {a['nummer']}"):
+                literatur.add(slug)
+                (SITE_DOCS / key.lower() / f"{slug}.md").write_text(
+                    literatur_seite(key, a["nummer"], a["sachueberschrift"]), encoding="utf-8")
+                (SITE_DOCS / "fr" / key.lower() / f"{slug}.md").write_text(
+                    literatur_seite(key, a["nummer"], a["sachueberschrift"], "fr"), encoding="utf-8")
+        (SITE_DOCS / key.lower() / "index.md").write_text(erlass_seite(key, kommentiert[key], literatur=literatur),
+                                                         encoding="utf-8")
         nur_de = {s: m for s, m in kommentiert[key].items() if s not in kommentiert_fr[key]}
         (SITE_DOCS / "fr" / key.lower() / "index.md").write_text(
-            erlass_seite(key, kommentiert_fr[key], "fr", nur_de), encoding="utf-8")
+            erlass_seite(key, kommentiert_fr[key], "fr", nur_de, literatur), encoding="utf-8")
     (SITE_DOCS / "index.md").write_text(startseite(stand), encoding="utf-8")
     (SITE_DOCS / "fr" / "index.md").write_text(startseite(stand_fr, "fr", stand), encoding="utf-8")
     print(f"{len(ok)} Kommentierungen veröffentlicht, {len(ok_fr)} auf Französisch, {len(abgelehnt) + len(abgelehnt_fr)} zurückgehalten.")

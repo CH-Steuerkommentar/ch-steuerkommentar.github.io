@@ -52,7 +52,8 @@ sammeln, damit jede Kommentierung am Schluss einen Abschnitt «Weiterführende L
    Bezug zu einer Bundesnorm), bekommen `"artikel": []` und bleiben drin.
    Prüfe die Artikelnummern gegen die geltende Fassung (Fedlex/Lexplorer), wenn unsicher.
 7. Schreibe `daten/ile-literatur/ergebnis/paket_NN.json` als JSON-Liste von Objekten:
-   `{"zitat", "jahr", "ile", "artikel", "nennungen", "fundorte"}`, alphabetisch nach `zitat`.
+   `{"zitat", "jahr", "ile", "url", "artikel", "nennungen", "fundorte"}`, alphabetisch nach `zitat`
+   (`url`: Lexplorer-Link, wenn das Werk ein ILE-Werk ist und ein Fundort/Link dazu bekannt ist, sonst "").
    Dazu eine Zeile Statistik in `daten/ile-literatur/ergebnis/paket_NN.log`
    (Kandidaten, verworfen nach Grund, zusammengeführt, Einträge, davon mit Artikel).
 8. Commit (`ILE-Literatur: Paket NN bereinigt`) und Push auf main (bei Konflikt `git pull --rebase`).
@@ -61,3 +62,31 @@ sammeln, damit jede Kommentierung am Schluss einen Abschnitt «Weiterführende L
 Keine Lexplorer-Suchen nötig; nur bei Zweifeln an einer Artikelnummer Fedlex/Lexplorer lesen.
 Arbeite das Paket vollständig ab. Wenn das Kontingent knapp wird: bisherigen Stand als
 `paket_NN.json` mit `"unvollstaendig_ab": "<zitat>"` im Log speichern und pushen.
+
+## Sonderfall: ILE-Pakete (`pakete/ile_NN.jsonl`)
+
+Diese Pakete enthalten **die ILE-Publikationen selbst** (FStR-Beiträge, Bände der Schriftenreihe,
+Working Papers, Seminarunterlagen, Lehrbuch), je Zeile: `reihe`, `quelle`, `titel`, `heft`
+(z.B. «FStR 2015/1»), `band`, `jahr`, `url` (Lexplorer), `autoren` (aus dem Text, kann leer oder
+unsauber sein), `teile` (Kapitel-/Abschnittstitel als Inhaltshinweis).
+
+- Nichts verwerfen ausser Leerstücken (Editorial, Impressum, Inhaltsverzeichnis eines Hefts,
+  Register, reine Anhänge ohne eigenen Titel). Rechtsprechungsübersichten («Rechtsprechung im Jahr …»)
+  bleiben drin, bekommen aber nur Artikel, wenn ein Entscheid zu einer Bestimmung im Titel steht.
+  Die Jahresregel (ab 2000) gilt für ILE-Werke **nicht**.
+- Zitat bilden: `Nachname Vorname[/…], Titel, FStR 2015, …` (ohne Seitenzahl, wenn unbekannt);
+  Schriftenreihe: `Autor, Titel, Schriftenreihe Finanzwissenschaft und Finanzrecht Bd. N, Jahr`
+  (Autor aus `autoren`; fehlt er, ohne Autor); Working Paper: `Autor, Titel, ILE Working Paper Nr., Jahr`;
+  Seminar: `Autor, Titel, in: <Seminarname> <Jahr>, St.Gallen`.
+- `"ile": true`, `url` übernehmen, `nennungen`: 1, `fundorte`: [].
+- Artikel nach Titel **und** `teile` zuordnen; bei Bänden der Schriftenreihe alle Bestimmungen, die
+  ein Kapitel zentral behandelt (ein Band kann viele Artikel haben). Seminarunterlagen und
+  FStR-Beiträge mit allgemeinem Titel: über `teile` entscheiden.
+- Ausgabe `daten/ile-literatur/ergebnis/ile_NN.json` und `ile_NN.log`, sonst wie oben.
+
+## Reihenfolge und Zuteilung
+
+Nimm das Paket mit der kleinsten Nummer, für das es noch kein `ergebnis/<name>.json` und keine
+Sperrdatei `ergebnis/<name>.in_arbeit` gibt; zuerst alle `ile_NN`, dann `paket_NN`. Lege sofort die
+Sperrdatei an (Inhalt: Startzeit), committe und pushe sie, bevor du arbeitest; entferne sie mit dem
+Ergebnis-Commit. Ist eine Sperrdatei älter als 5 Stunden, gilt das Paket als frei.

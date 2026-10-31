@@ -422,3 +422,10 @@ site-search > button[data-open-modal] > span { display: block; }
   .ile-box-kompakt .ile-box-eintrag { flex-direction: column; align-items: flex-start; gap: 0.1rem; padding: 0.2rem 0; }
   .ile-box-kompakt .ile-box-eintrag strong { hyphens: manual; }
 }
+
+/* Weiterführende Literatur (ILE-Literaturkatalog) */
+.weiterfuehrend-hinweis { font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); }
+.ile-marke { font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; padding: 0.05em 0.35em; border-radius: 0.25em;
+  border: 1px solid var(--sl-color-hairline-shade); color: var(--sl-color-gray-3); vertical-align: 0.1em; }
+/* Artikel, für die es erst Literatur gibt: in der Seitenleiste zurückhaltend */
+.sidebar-content a.nur-literatur { opacity: 0.6; }
