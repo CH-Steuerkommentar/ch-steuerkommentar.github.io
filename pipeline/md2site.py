@@ -280,8 +280,8 @@ def weiterfuehrende_literatur(k, lang: str = "de") -> str:
                 "bibliographies, non citées ci-dessus.")
     else:
         titel = "Weiterführende Literatur"
-        satz = ("Weitere einschlägige Publikationen zu dieser Bestimmung aus den Publikationen des ILE-HSG und deren "
-                "Literaturverzeichnissen und Fussnoten, die oben nicht zitiert sind.")
+        satz = ("Weitere einschlägige Publikationen zu dieser Bestimmung, die oben nicht zitiert sind, "
+                "da sie nicht im Original gelesen wurden.")
     return (f"\n## {titel}\n\n<p class=\"weiterfuehrend-hinweis\">{satz}</p>\n\n"
             + "\n".join(_literatur_zeile(e) for e in neu) + "\n")
 
