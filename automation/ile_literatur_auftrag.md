@@ -90,3 +90,14 @@ Nimm das Paket mit der kleinsten Nummer, für das es noch kein `ergebnis/<name>.
 Sperrdatei `ergebnis/<name>.in_arbeit` gibt; zuerst alle `ile_NN`, dann `paket_NN`. Lege sofort die
 Sperrdatei an (Inhalt: Startzeit), committe und pushe sie, bevor du arbeitest; entferne sie mit dem
 Ergebnis-Commit. Ist eine Sperrdatei älter als 5 Stunden, gilt das Paket als frei.
+
+## Ablauf einer geplanten Sitzung
+
+1. `git pull`. Wenn `daten/ile-literatur/roh/bericht.json` fehlt oder nicht `"vollstaendig": true` enthält,
+   oder wenn es kein offenes Paket gibt (alle haben ein `ergebnis/<name>.json`): sofort beenden, nichts ändern.
+2. Bis zu **drei** Pakete nacheinander nach obiger Reihenfolge abarbeiten (je Paket Sperrdatei, Ergebnis,
+   Commit, Push).
+3. Danach `python automation/ile_literatur_zusammenfuehren.py` ausführen und `daten/ile-literatur/katalog.json`,
+   `daten/ile-literatur/artikel/`, `daten/ile-literatur/nach_artikel.md` committen
+   (`ILE-Literatur: Katalog aktualisiert`) und pushen. Die Website baut sich danach selbst neu.
+4. Der vorläufige Katalog aus dem Pilot (Bd. 116) wird dabei ersetzt; das ist gewollt.
