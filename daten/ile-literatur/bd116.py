@@ -104,3 +104,24 @@ AUSGESCHLOSSEN = {
     ],
     "Materialien, Kreisschreiben, OECD, kantonale Praxis": ["Kapitel 3–6 der Bibliographie (separat über Lexplorer abgedeckt)"],
 }
+
+# Regeln (Entscheid 31.10.2026): ILE-Werke selbst stehen bereits im Literaturverzeichnis der
+# Kommentierung und werden hier nicht zusätzlich geführt. Werke vor 2000 nur, wenn grundlegend.
+GRUNDLEGEND = {
+    "Höhn Ernst, Die Besteuerung der privaten Gewinne",
+    "Reich Markus, Die Abgrenzung von Geschäfts- und Privatvermögen",
+    "Yersin Danielle, Apports et retraits de capital propre",
+    "Zuppinger Ferdinand, Die wirtschaftliche Handänderung im Steuerrecht",
+}
+
+def jahr(zitat):
+    import re
+    j = [int(x) for x in re.findall(r"\b(19\d\d|20\d\d)\b", zitat)]
+    if j:
+        return max(j)
+    m = re.search(r"ASA (\d+),", zitat)  # ASA-Band ohne Jahr: Bd. 1 = 1932/33
+    return 1931 + int(m.group(1)) if m else None
+
+def katalog():
+    return [(z, a) for z, a in AUFGENOMMEN
+            if (jahr(z) or 0) >= 2000 or any(z.startswith(g) for g in GRUNDLEGEND)]
