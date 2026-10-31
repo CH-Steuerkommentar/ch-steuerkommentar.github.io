@@ -200,6 +200,7 @@ class Umwandler:
         if not hinweis_gesetzt:
             aus.append(fehler_melden(erlass, art, self.lang))
             aus.append(ile_hinweis(k, self.lang))
+        aus.append(weiterfuehrende_literatur(k, self.lang))
         text = "\n".join(aus)
         text = re.sub(r"(\n- [^\n]*)\n(?=[^-\n])", r"\1\n\n", text)
         text += "\n\n" + "\n".join(f"[^{i}]: {inh}" for i, inh in enumerate(self.fn, 1)) + "\n"
@@ -207,6 +208,51 @@ class Umwandler:
 
 
 ILE_DATEN = Path(__file__).resolve().parent.parent / "site" / "src" / "data" / "ile.json"
+KATALOG = Path(__file__).resolve().parent.parent / "daten" / "ile-literatur" / "katalog.json"
+_katalog: dict[str, list[str]] | None = None
+
+
+def _werkschluessel(zitat: str) -> tuple[str, str]:
+    """Erster Nachname und erstes längeres Titelwort, klein geschrieben (für den Abgleich mit dem Literaturverzeichnis)."""
+    teile = [t.strip() for t in zitat.split(",")]
+    name = re.findall(r"[A-Za-zÄÖÜäöüßéèêàâçëïôûñ'’\-]+", teile[0])
+    titel = teile[1] if len(teile) > 1 else ""
+    wort = next((w for w in re.findall(r"[A-Za-zÄÖÜäöüßéèêàâç\-]{6,}", titel)), "")
+    return (name[0].lower() if name else "", wort.lower())
+
+
+def weiterfuehrende_literatur(k, lang: str = "de") -> str:
+    """Schlussabschnitt: Werke aus dem ILE-Literaturkatalog zu diesem Artikel, die nicht schon zitiert sind."""
+    global _katalog
+    if _katalog is None:
+        _katalog = {}
+        for e in lade_json(KATALOG, []):
+            if e.get("ile"):
+                continue  # ILE-Werke stehen bereits im Literaturverzeichnis der Kommentierung
+            for a in e.get("artikel", []):
+                _katalog.setdefault(a, []).append(e["zitat"])
+    werke = _katalog.get(f"{k.meta['erlass']} {k.meta['artikel']}", [])
+    if not werke:
+        return ""
+    zitiert = " ".join(b.text for b in k.bloecke).lower()
+    neu = []
+    for z in sorted(set(werke), key=str.lower):
+        name, wort = _werkschluessel(z)
+        if name and name in zitiert and (not wort or wort in zitiert):
+            continue
+        neu.append(z)
+    if not neu:
+        return ""
+    if lang == "fr":
+        titel = "Bibliographie complémentaire"
+        satz = ("Autres publications pertinentes pour cette disposition, tirées des bibliographies et notes des "
+                "publications de l'ILE-HSG et non citées ci-dessus.")
+    else:
+        titel = "Weiterführende Literatur"
+        satz = ("Weitere einschlägige Publikationen zu dieser Bestimmung aus den Literaturverzeichnissen und "
+                "Fussnoten der Publikationen des ILE-HSG, die oben nicht zitiert sind.")
+    return (f"\n## {titel}\n\n<p class=\"weiterfuehrend-hinweis\">{satz}</p>\n\n"
+            + "\n".join(f"- {html.escape(z, quote=False)}" for z in neu) + "\n")
 
 
 def ile_daten() -> dict:

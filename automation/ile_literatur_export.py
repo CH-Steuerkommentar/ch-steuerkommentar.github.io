@@ -131,7 +131,8 @@ STANDARD = re.compile(
     r"Kommentar DBG|Kommentar StHG|Commentaire (?:LIFD|LHID)|System des schweizerischen Steuerrechts|"
     r"Die Praxis der Bundessteuern|Einführung in das (?:inter)?(?:kantonale|nationale) Steuerrecht|"
     r"Droit fiscal suisse|Précis de droit fiscal|Steuerrecht I{1,2}\b|Schweizerisches Steuerrecht|"
-    r"Höhn/Waldburger|Blumenstein/Locher|Locher, Kommentar", re.I)
+    r"Höhn/Waldburger|Blumenstein/Locher|Locher, Kommentar|Das schweizerische Steuerrecht|"
+    r"^Reich Markus, Steuerrecht|^Oberson Xavier, Droit fiscal|Interkantonales Steuerrecht, \d+\. Aufl", re.I)
 
 
 def saeubern(t: str) -> str:
@@ -141,7 +142,8 @@ def saeubern(t: str) -> str:
     t = re.sub(r"\[\^\d+\]:?", " ", t)
     t = re.sub(r"<[^>]+>", " ", t)
     t = re.sub(r"[*_`#|]+", " ", t)
-    return re.sub(r"\s+", " ", t).strip()
+    t = re.sub(r"\s+", " ", t).strip()
+    return re.sub(r"^(?:[-•–·]|\d{1,3}[.)])\s+", "", t)
 
 
 def fragmente_fliesstext(text: str):
