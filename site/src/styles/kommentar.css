@@ -188,7 +188,7 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
 .start > * { margin-top: 0 !important; }
 .start-band { background: var(--gruen); color: #fff; padding: 3.2rem 2.4rem 3.4rem; }
 .sl-markdown-content .start-titel {
-  font-size: clamp(1.7rem, 5vw, 3.8rem); font-weight: 300; line-height: 1.15; color: #fff; margin: 0; hyphens: auto;
+  font-size: clamp(1.7rem, 5vw, 3.8rem); font-weight: 300; line-height: 1.15; color: #fff; margin: 0; hyphens: auto; overflow-wrap: anywhere;
 }
 .start-intro { background: var(--grau-band); padding: 1.6rem 2.4rem 1.8rem; }
 .sl-markdown-content .start-intro p { color: var(--gruen); font-size: 1.2rem; line-height: 1.6; margin: 0 0 1rem; font-family: var(--sl-font); }
@@ -250,12 +250,12 @@ main:has(.start) .content-panel { border-top: 0; padding-top: 0; }
 .copyright a { color: #555; }
 
 /* Startseite: Arbeitsweise in vier Schritten */
-.sl-markdown-content .start-schritte { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; counter-reset: schritt; }
-@media (max-width: 60rem) { .sl-markdown-content .start-schritte { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-.sl-markdown-content .start-schritte li { counter-increment: schritt; display: flex; flex-direction: column; gap: 0.4rem; margin: 0; font-family: var(--sl-font); }
-.sl-markdown-content .start-schritte li::before { content: counter(schritt); font-size: 2.6rem; font-weight: 300; color: var(--gruen); line-height: 1; }
-.start-schritte strong { font-weight: 500; color: var(--gruen-dunkel); font-size: 1.1rem; }
-.start-schritte span { font-size: 0.95rem; line-height: 1.45; }
+.sl-markdown-content .start-leitsatz { font-weight: 500; }
+.sl-markdown-content .start-angebote { padding-inline-start: 1.4rem; margin: 0; font-size: 1.05rem; line-height: 1.6; }
+.sl-markdown-content .start-angebote li { margin-top: 0.75rem; padding-inline-start: 0.15rem; }
+.start-angebote strong { font-weight: 500; color: var(--gruen-dunkel); }
+.sl-markdown-content .start-zielgruppe { margin-top: 1.4rem !important; font-size: 1.05rem; line-height: 1.6; }
+.sl-markdown-content .start-hinweis { font-size: 1.05rem; line-height: 1.6; }
 .sl-markdown-content .start-mehr { margin-top: 1rem !important; }
 
 /* Seitenleiste: Kasten «Vom ILE-HSG» */

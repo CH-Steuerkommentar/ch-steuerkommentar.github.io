@@ -38,10 +38,10 @@ KOMMENTARE_FR = ROOT / "kommentare_fr"  # französische Fassungen (Übersetzunge
 SITE_DOCS = ROOT / "site" / "src" / "content" / "docs"
 
 # Name des Werks, wie er auf der Website und im Zitiervorschlag erscheint.
-WERK = os.environ.get("WERK_NAME", "ILE-HSG Steuerrechtskommentar")
-WERK_KURZ = os.environ.get("WERK_KURZ", "ILE-HSG StK")
-WERK_FR = "Commentaire de droit fiscal ILE-HSG"
-WERK_KURZ_FR = "ILE-HSG CDF"
+WERK = os.environ.get("WERK_NAME", "St. Galler Steuerrechtsenzyklopädie")
+WERK_KURZ = os.environ.get("WERK_KURZ", WERK)
+WERK_FR = "Encyclopédie de droit fiscal de Saint-Gall"
+WERK_KURZ_FR = WERK_FR
 
 # Modelle der Batch-Schritte (siehe README, Abschnitt Kosten)
 MODELL_KARTEN = os.environ.get("MODELL_KARTEN", "claude-opus-5-5")

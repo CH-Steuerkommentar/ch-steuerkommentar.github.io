@@ -5,11 +5,11 @@ description: Hinweise zu Richtigkeit, Rechtsberatung, Haftung und externen Links
 
 ## Keine Rechtsberatung
 
-Die Kommentierungen dienen der allgemeinen Information über das Steuerrecht des Bundes. Sie sind keine Rechtsberatung und ersetzen nicht die Beratung durch eine Fachperson im Einzelfall.
+Die Beiträge dienen der allgemeinen Information über das Steuerrecht des Bundes. Sie sind keine Rechtsberatung und ersetzen nicht die Beratung durch eine Fachperson im Einzelfall.
 
 ## Maschinell erstellte Inhalte
 
-Die Kommentierungen werden mit dem Sprachmodell Claude (Anthropic) erstellt und vor der Veröffentlichung von niemandem gegengelesen. Jede Fussnote wird zwar maschinell am Volltext der Quelle geprüft; trotzdem können die Texte Fehler, Lücken oder veraltete Angaben enthalten. Massgebend sind allein die amtlichen Fassungen der Erlasse und die Originale der Entscheide und Verwaltungsanweisungen. Jede Kommentierung gibt den Stand ihrer Bearbeitung an; spätere Gesetzesänderungen und Rechtsprechung sind darin nicht berücksichtigt.
+Die Beiträge werden mit dem Sprachmodell Claude (Anthropic) erstellt und vor der Veröffentlichung von niemandem gegengelesen. Jede Fussnote wird zwar maschinell am Volltext der Quelle geprüft; trotzdem können die Texte Fehler, Lücken oder veraltete Angaben enthalten. Massgebend sind allein die amtlichen Fassungen der Erlasse und die Originale der Entscheide und Verwaltungsanweisungen. Jeder Beitrag gibt den Stand seiner Bearbeitung an; spätere Gesetzesänderungen und Rechtsprechung werden erst mit einer Aktualisierung berücksichtigt.
 
 ## Haftung
 
@@ -17,8 +17,8 @@ Das Institut für Law and Economics (ILE-HSG) und die Universität St.Gallen üb
 
 ## Links auf andere Websites
 
-Die Kommentierungen verweisen auf Websites Dritter, namentlich auf Entscheide, Materialien und Literatur. Für deren Inhalte sind ausschliesslich die jeweiligen Betreiber verantwortlich. Das ILE-HSG hat keinen Einfluss auf diese Inhalte und übernimmt dafür keine Verantwortung. Links auf andere Websites öffnen sich in einem neuen Tab.
+Die Beiträge verweisen auf Websites Dritter, namentlich auf Entscheide, Materialien und Literatur. Für deren Inhalte sind ausschliesslich die jeweiligen Betreiber verantwortlich. Das ILE-HSG hat keinen Einfluss auf diese Inhalte und übernimmt dafür keine Verantwortung. Links auf andere Websites öffnen sich in einem neuen Tab.
 
 ## Hinweise auf Fehler
 
-Hinweise auf Fehler sind willkommen: [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch?subject=%5BILE-StK%5D%20Hinweis).
+Hinweise auf Fehler sind willkommen: [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch?subject=%5BStE%5D%20Hinweis).

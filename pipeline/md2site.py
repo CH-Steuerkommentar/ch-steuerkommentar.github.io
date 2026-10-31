@@ -66,14 +66,14 @@ T = {
         "banner": "Mit KI erstellt und am Volltext der Quellen geprüft. Stand: {stand}. Keine Rechtsberatung.",
         "zitat": "{werk}, Art. {art} {abk} N. [Randnote] (Stand {stand})",
         "zitat_label": "Zitiervorschlag:", "kopieren": "Kopieren", "kopiert": "Kopiert",
-        "beschreibung": "Kommentierung zu Art. {art} {abk}",
+        "beschreibung": "Beitrag zu Art. {art} {abk}",
         "randnote": "Randnote",
     },
     "fr": {
         "banner": "Rédigé par une IA et vérifié sur le texte intégral des sources. État : {stand}. Ne constitue pas un conseil juridique.",
         "zitat": "{werk}, art. {art} {abk} N [note marginale] (état au {stand})",
         "zitat_label": "Proposition de citation :", "kopieren": "Copier", "kopiert": "Copié",
-        "beschreibung": "Commentaire de l'art. {art} {abk}",
+        "beschreibung": "Contribution à l'art. {art} {abk}",
         "randnote": "Note marginale",
     },
 }
@@ -85,6 +85,20 @@ def abk(erlass: str, lang: str) -> str:
 
 def erlass_name(erlass: str, lang: str) -> str:
     return ERLASSE[erlass]["name_fr"] if lang == "fr" else ERLASSE[erlass]["name"]
+
+
+def beitragsverweise(text: str) -> str:
+    """Eigenverweise auf Beiträge umbenennen; Titel zitierter Werke bleiben erhalten."""
+    text = re.sub(r"\bdie Kommentierung(?= zu Art\.)", "den Beitrag", text)
+    text = re.sub(r"\bdie Kommentierungen(?= zu Art\.)", "die Beiträge", text)
+    text = re.sub(
+        r"\ble commentaire de (l[’']art\.\s*\d+[a-z]*(?:,\s*al\.\s*\d+)?[,]?\s+(?:LIFD|LHID|LIA|LTVA|LT)\b)",
+        r"la contribution relative à \1", text)
+    return re.sub(
+        r"\bles commentaires des (art\.\s*\d+[a-z]*(?:\s+et\s+\d+[a-z]*)?\s+(?:LIFD|LHID|LIA|LTVA|LT)\b)",
+        r"les contributions relatives aux \1", text)
+
+
 _BGE = re.compile(r"\b(?:BGE|ATF)\s+(\d{2,3})\s+(Ia|Ib|IV|V|III|II|I)\s+(\d{1,4})\b")
 _BGER = re.compile(r"(?<![\w/.])(\d{1,2}[A-Z]{1,2}[_.]\d{1,5}/\d{4})\b")
 
@@ -116,6 +130,7 @@ class Umwandler:
         self.fn: list[str] = []
 
     def inline(self, text: str) -> str:
+        text = beitragsverweise(text)
         # Fussnoten durch [^n] ersetzen (von hinten, damit Positionen stimmen)
         teile, pos = [], 0
         for s, e, inhalt in fussnoten_finden(text):
@@ -276,11 +291,11 @@ def literatur_seite(erlass: str, nummer: str, sachueberschrift: str, lang: str =
     werke = katalog_je_artikel().get(f"{erlass} {nummer}", [])
     ab = abk(erlass, lang)
     if lang == "fr":
-        hinweis = ("Cet article n'est pas encore commenté. En attendant, voici les publications pertinentes tirées des "
+        hinweis = ("Aucune contribution n'est encore disponible pour cet article. En attendant, voici les publications pertinentes tirées des "
                    "publications de l'ILE-HSG et de leurs bibliographies.")
         titel = "Bibliographie"
     else:
-        hinweis = ("Dieser Artikel ist noch nicht kommentiert. Bis dahin finden Sie hier die einschlägige Literatur aus "
+        hinweis = ("Zu diesem Artikel liegt noch kein Beitrag vor. Bis dahin finden Sie hier die einschlägige Literatur aus "
                    "den Publikationen des ILE-HSG und deren Literaturverzeichnissen.")
         titel = "Literatur"
     zeilen = ["---", f"title: {yaml_str(f'Art. {nummer} {ab}')}",
@@ -304,11 +319,11 @@ def fehler_melden(erlass: str, art: str, lang: str = "de") -> str:
     """Kleiner Hinweis am Ende des Kommentartexts: Fehler per E-Mail melden (Betreff vorausgefüllt)."""
     from urllib.parse import quote
     if lang == "fr":
-        betreff = f"[ILE-StK] Signalement art. {art} {abk(erlass, lang)}"
+        betreff = f"[StE] Signalement art. {art} {abk(erlass, lang)}"
         text = "Vous avez trouvé une erreur ? "
         link = "Signalez-la-nous"
     else:
-        betreff = f"[ILE-StK] Hinweis Art. {art} {erlass}"
+        betreff = f"[StE] Hinweis Art. {art} {erlass}"
         text = "Fehler gefunden? "
         link = "Hinweis an das ILE-HSG senden"
     return (f'\n<p class="fehler-melden">{text}<a href="mailto:sekretariat-ile@unisg.ch?subject={quote(betreff)}">'
@@ -351,7 +366,7 @@ def ile_hinweis(k, lang: str = "de") -> str:
     if lang == "fr":
         titel, abo, sem_knopf = "Approfondir avec l'ILE-HSG", "S'abonner à la FStR", "Séminaires"
         if n:
-            satz = (f"Ce commentaire s'appuie sur {n} publication{'s' if n > 1 else ''} de l'ILE-HSG{klammer}. "
+            satz = (f"Cette contribution s'appuie sur {n} publication{'s' if n > 1 else ''} de l'ILE-HSG{klammer}. "
                     "La FStR est la revue spécialisée de l'ILE-HSG ; les séminaires de Saint-Gall traitent des questions "
                     "actuelles de la pratique.")
         else:
@@ -360,7 +375,7 @@ def ile_hinweis(k, lang: str = "de") -> str:
     else:
         titel, abo, sem_knopf = "Vertiefung beim ILE-HSG", "FStR abonnieren", "Seminare"
         if n:
-            satz = (f"Diese Kommentierung stützt sich auf {n} {'Publikation' if n == 1 else 'Publikationen'} des ILE-HSG{klammer}. "
+            satz = (f"Dieser Beitrag stützt sich auf {n} {'Publikation' if n == 1 else 'Publikationen'} des ILE-HSG{klammer}. "
                     "Das FStR ist die Fachzeitschrift des ILE-HSG; die St.Galler Seminare greifen aktuelle Fragen der Praxis auf.")
         else:
             satz = ("Das Forum für Steuerrecht (FStR) ist die Fachzeitschrift des ILE-HSG zum Schweizer und internationalen "
@@ -390,18 +405,18 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", de
         ab = e["kurz_fr"]
         kopf = [f"{e['name_fr']} (RS {e['sr']}), version du {datum_ch(inv.get('fassung_vom', ''))} "
                 f"([Fedlex](https://www.fedlex.admin.ch/eli/cc/{eli}/fr)).\n",
-                f"{len(kommentiert)} articles commentés en français et {len(deutsch)} en allemand, sur {gesamt} articles en vigueur. "
-                "Les dispositions finales et transitoires ainsi que celles relatives au référendum et à l'entrée en vigueur ne sont pas commentées.\n",
+                f"{len(kommentiert)} articles traités en français et {len(deutsch)} en allemand, sur {gesamt} articles en vigueur. "
+                "Les dispositions finales et transitoires ainsi que celles relatives au référendum et à l'entrée en vigueur ne sont pas traitées.\n",
                 "| Article | Titre | État |", "|---|---|---|"]
-        label, nicht, nur_lit = "Aperçu", "non commenté", "bibliographie"
+        label, nicht, nur_lit = "Aperçu", "non traité", "bibliographie"
     else:
         ab = erlass
         kopf = [f"{e['name']} (SR {e['sr']}), Fassung vom {datum_ch(inv.get('fassung_vom', ''))} "
                 f"([Fedlex](https://www.fedlex.admin.ch/eli/cc/{eli}/de)).\n",
-                f"{len(kommentiert)} von {gesamt} geltenden Artikeln kommentiert. Schluss- und Übergangsbestimmungen sowie "
-                "Referendum und Inkrafttreten werden nicht kommentiert.\n",
+                f"{len(kommentiert)} von {gesamt} geltenden Artikeln bearbeitet. Schluss- und Übergangsbestimmungen sowie "
+                "Referendum und Inkrafttreten werden nicht bearbeitet.\n",
                 "| Artikel | Sachüberschrift | Stand |", "|---|---|---|"]
-        label, nicht, nur_lit = "Übersicht", "nicht kommentiert", "Literatur"
+        label, nicht, nur_lit = "Übersicht", "nicht bearbeitet", "Literatur"
     zeilen = ["---", f"title: {yaml_str(ab)}", f"description: {yaml_str(erlass_name(erlass, lang))}",
               "sidebar:", f"  label: {label}", "  order: 0", "prev: false", "---\n"] + kopf
     for a in sorted(inv["artikel"], key=lambda a: art_sortkey(a["nummer"])):
@@ -425,42 +440,65 @@ def erlass_seite(erlass: str, kommentiert: dict[str, dict], lang: str = "de", de
 
 START = {
     "de": {
-        "intro": "Kommentierungen zum Bundesgesetz über die direkte Bundessteuer, zum Steuerharmonisierungsgesetz, zum "
-                 "Verrechnungssteuergesetz, zum Mehrwertsteuergesetz und zum Stempelabgabengesetz – frei zugänglich "
-                 "und neutral, vollständig von KI verfasst und ohne menschliche Durchsicht veröffentlicht; jede Fundstelle "
-                 "hat die KI am Volltext geprüft.",
-        "ueber": "Über den ILE-HSG Steuerrechtskommentar", "erlasse": "Erlasse", "n_kommentiert": "{n} Artikel kommentiert",
-        "ile": "Vom ILE-HSG", "fstr_zusatz": " Die Kommentierungen stützen sich auf die Publikationen des ILE-HSG. Abonnenten des FStR haben über die Plattform Lexplorer Zugriff auf diese Publikationen.",
+        "leitsatz": "Rechtsprechung, Verwaltungspraxis und Lehre – bei der jeweiligen Norm.",
+        "intro": "Die St. Galler Steuerrechtsenzyklopädie ist ein frei zugängliches Nachschlagewerk zum Schweizer Steuerrecht. "
+                 "Zu den bearbeiteten Gesetzesartikeln gibt sie wieder, was Gerichte, Steuerbehörden und die ausgewertete "
+                 "Literatur sagen. Das Werk wird schrittweise erweitert.",
+        "angebote_titel": "Was die Enzyklopädie bietet",
+        "angebote": [
+            ("Orientierung entlang des Gesetzes", "Die Inhalte sind nach Gesetzesartikeln geordnet. Begriffe und Rechtsfragen "
+             "werden im Zusammenhang mit der jeweiligen Bestimmung erläutert."),
+            ("Im Original ausgewertete Quellen", "Die Darstellung stützt sich auf Rechtsprechung, Verwaltungspraxis und "
+             "Publikationen des ILE-HSG, die im Volltext ausgewertet und an der betreffenden Stelle in den Fussnoten zitiert werden."),
+            ("Weiterführende Literatur", "Am Ende der Beiträge werden zusätzliche Veröffentlichungen aufgeführt, die anhand "
+             "ihrer Titel dem Thema zugeordnet wurden. Ihre Inhalte wurden für den Beitrag nicht ausgewertet."),
+            ("Aktuelle Inhalte", "Jeder Beitrag weist seinen aktuellen Bearbeitungsstand aus. Die Inhalte werden laufend "
+             "automatisiert aktualisiert, sodass neue Entwicklungen zeitnah berücksichtigt und der Stand der Bearbeitung "
+             "transparent nachvollziehbar bleibt."),
+        ],
+        "zielgruppe": "Die Enzyklopädie richtet sich an Fachpersonen in Beratung, Verwaltung, Justiz und Unternehmen sowie "
+                      "an Forschende und Studierende. Sie unterstützt den Einstieg in ein Thema ebenso wie die gezielte "
+                      "Recherche zu einer einzelnen Bestimmung.",
+        "hinweis_titel": "Hinweis zur Erstellung",
+        "hinweis": "Die Inhalte werden mit künstlicher Intelligenz erstellt und automatisiert geprüft. Vor der Veröffentlichung "
+                   "findet keine menschliche Durchsicht statt. Fehler und Lücken sind möglich. Massgebend bleiben die "
+                   "Originalquellen und die aktuelle Rechtslage.",
+        "ueber": "Über die St. Galler Steuerrechtsenzyklopädie", "erlasse": "Erlasse", "n_bearbeitet": "{n} Artikel bearbeitet",
+        "ile": "Vom ILE-HSG", "fstr_zusatz": " Die Beiträge stützen sich auf die Publikationen des ILE-HSG. Abonnenten des FStR haben über die Plattform Lexplorer Zugriff auf diese Publikationen.",
         "abo": "FStR abonnieren", "sem_titel": "St.Galler Seminare", "sem_naechste": "Die nächsten Seminare des Instituts:",
         "sem_alle": "Alle Seminare", "tax_knopf": "Zum Fachbereich",
-        "so": "So entsteht der Kommentar",
-        "schritte": [("Rechtsprechung", "Alle Entscheide des Bundesgerichts, die die Norm zitieren, werden gesammelt, "
-                      "eingeordnet und an der einschlägigen Erwägung gelesen."),
-                     ("Praxis und Lehre", "Dazu kommen kantonale Gerichte, die Verwaltungspraxis, die Literatur des ILE-HSG "
-                      "und Onlinekommentar.ch."),
-                     ("Neutraler Text", "Der Text gibt wieder, was Gerichte, Verwaltung und Lehre sagen, und wertet nicht selbst."),
-                     ("Prüfung", "Eine eigene Prüfinstanz kontrolliert jede Fussnote am Volltext der Quelle.")],
-        "mehr": "Mehr zur Arbeitsweise", "zahl": "Kommentierte Artikel", "von": "von {g} geltenden Artikeln",
+        "mehr": "Mehr zur Arbeitsweise", "zahl": "Bearbeitete Artikel", "von": "von {g} geltenden Artikeln",
     },
     "fr": {
-        "intro": "Commentaires de la loi sur l'impôt fédéral direct, de la loi sur l'harmonisation des impôts directs, de la loi "
-                 "sur l'impôt anticipé, de la loi sur la TVA et de la loi sur les droits de timbre – en libre accès et neutres, "
-                 "entièrement rédigés par une IA et publiés sans relecture humaine ; chaque référence a été vérifiée "
-                 "par l'IA sur le texte intégral. Traduits de la version allemande.",
-        "ueber": "À propos du Commentaire de droit fiscal ILE-HSG", "erlasse": "Lois", "n_kommentiert": "{n} articles commentés",
-        "ile": "L'ILE-HSG", "fstr_zusatz": " De nombreux commentaires s'appuient sur ses contributions.",
+        "leitsatz": "Jurisprudence, pratique administrative et doctrine – à la disposition concernée.",
+        "intro": "L'Encyclopédie de droit fiscal de Saint-Gall est un ouvrage de référence en libre accès consacré au droit "
+                 "fiscal suisse. Pour les articles de loi traités, elle rapporte ce que disent les tribunaux, les autorités "
+                 "fiscales et la littérature analysée. L'ouvrage est progressivement enrichi.",
+        "angebote_titel": "Ce que propose l'Encyclopédie",
+        "angebote": [
+            ("Une orientation fondée sur la loi", "Les contenus sont organisés par article de loi. Les notions et questions "
+             "juridiques sont présentées dans le contexte de la disposition concernée."),
+            ("Des sources analysées dans leur texte intégral", "La présentation repose sur la jurisprudence, la pratique "
+             "administrative et les publications de l'ILE-HSG, analysées dans leur texte intégral et citées en note de bas "
+             "de page à l'endroit concerné."),
+            ("Une bibliographie complémentaire", "Des publications supplémentaires figurent à la fin des contributions. "
+             "Elles sont rattachées au sujet sur la base de leur titre ; leur contenu n'a pas été analysé pour la contribution."),
+            ("Des contenus actualisés", "Chaque contribution indique son état de traitement actuel. Les contenus sont "
+             "actualisés automatiquement en continu afin de tenir compte rapidement des nouvelles évolutions et de rendre "
+             "l'état du traitement transparent."),
+        ],
+        "zielgruppe": "L'Encyclopédie s'adresse aux professionnels du conseil, des administrations, de la justice et des "
+                      "entreprises, ainsi qu'aux chercheurs et aux étudiants. Elle facilite aussi bien la découverte d'un "
+                      "sujet que la recherche ciblée sur une disposition particulière.",
+        "hinweis_titel": "Élaboration des contenus",
+        "hinweis": "Les contenus sont rédigés à l'aide de l'intelligence artificielle et vérifiés automatiquement. Ils sont "
+                   "publiés sans relecture humaine. Des erreurs et des lacunes restent possibles. Les sources originales et "
+                   "le droit en vigueur demeurent déterminants. La version française est une traduction de la version allemande.",
+        "ueber": "À propos de l'Encyclopédie de droit fiscal de Saint-Gall", "erlasse": "Lois", "n_bearbeitet": "{n} articles traités",
+        "ile": "L'ILE-HSG", "fstr_zusatz": " Les contributions s'appuient sur les publications de l'ILE-HSG. Les abonnés de la FStR ont accès à ces publications sur la plateforme Lexplorer.",
         "abo": "S'abonner à la FStR", "sem_titel": "Séminaires de Saint-Gall", "sem_naechste": "Les prochains séminaires de l'institut :",
         "sem_alle": "Tous les séminaires", "tax_knopf": "Vers le domaine",
-        "so": "Comment le commentaire est rédigé",
-        "schritte": [("Jurisprudence", "Tous les arrêts du Tribunal fédéral qui citent la disposition sont réunis, classés et "
-                      "lus au considérant pertinent."),
-                     ("Pratique et doctrine", "S'y ajoutent les tribunaux cantonaux, la pratique administrative, la littérature "
-                      "de l'ILE-HSG et Onlinekommentar.ch."),
-                     ("Texte neutre", "Le texte rapporte ce que disent les tribunaux, l'administration et la doctrine, sans "
-                      "porter d'appréciation propre."),
-                     ("Contrôle", "Une instance de contrôle distincte vérifie chaque note de bas de page sur le texte intégral "
-                      "de la source.")],
-        "mehr": "En savoir plus sur la méthode", "zahl": "Articles commentés", "von": "sur {g} articles en vigueur",
+        "mehr": "En savoir plus sur la méthode", "zahl": "Articles traités", "von": "sur {g} articles en vigueur",
     },
 }
 
@@ -477,14 +515,23 @@ def startseite(stand: dict[str, int], lang: str = "de", stand_gesamt: dict[str, 
               "template: splash", "---\n",
               '<div class="start">',
               f'<section class="start-band"><p class="start-titel">{html.escape(werk)}</p></section>',
-              f'<section class="start-intro"><p>{html.escape(s["intro"])}</p>'
+              f'<section class="start-intro"><p class="start-leitsatz">{html.escape(s["leitsatz"])}</p>'
+              f'<p>{html.escape(s["intro"])}</p>'
               f'<a class="start-link" href="./ueber/">{html.escape(s["ueber"])}</a></section>',
+              f'<h2 class="start-zwischentitel">{html.escape(s["angebote_titel"])}</h2>',
+              '<ul class="start-angebote">' + ''.join(
+                  f'<li><strong>{html.escape(titel)}:</strong> {html.escape(text)}</li>'
+                  for titel, text in s["angebote"]) + '</ul>',
+              f'<p class="start-zielgruppe">{html.escape(s["zielgruppe"])}</p>',
+              f'<h2 class="start-zwischentitel">{html.escape(s["hinweis_titel"])}</h2>',
+              f'<p class="start-hinweis">{html.escape(s["hinweis"])}</p>',
+              f'<p class="start-mehr"><a class="start-link" href="./ueber/">{s["mehr"]}</a></p>',
               f'<h2 class="start-zwischentitel">{s["erlasse"]}</h2>',
               '<nav class="erlass-raster" aria-label="Erlasse">']
     for key in ERLASSE:
         n = stand_gesamt.get(key, 0)
         zeilen.append(f'<a class="erlass-knopf" href="./{key.lower()}/"><strong>{abk(key, lang)}</strong>'
-                      f'<span>{html.escape(erlass_name(key, lang))}</span><small>{s["n_kommentiert"].format(n=n)}</small></a>')
+                      f'<span>{html.escape(erlass_name(key, lang))}</span><small>{s["n_bearbeitet"].format(n=n)}</small></a>')
     zeilen.append("</nav>")
     d = ile_daten()
     if d:
@@ -511,9 +558,6 @@ def startseite(stand: dict[str, int], lang: str = "de", stand_gesamt: dict[str, 
                       f'<a class="ile-knopf" href="{d["newsletter_url"]}" target="_blank" rel="noopener">Newsletter</a>'
                       '</div></section>'
                       '</div>')
-    zeilen.append(f'<h2 class="start-zwischentitel">{s["so"]}</h2>')
-    zeilen.append('<ol class="start-schritte">' + "".join(f"<li><strong>{a}</strong><span>{b}</span></li>" for a, b in s["schritte"]) + "</ol>")
-    zeilen.append(f'<p class="start-mehr"><a class="start-link" href="./ueber/">{s["mehr"]}</a></p>')
     zeilen.append(f'<div class="start-zahl"><span class="start-zahl-text">{s["zahl"]}</span>'
                   f'<span class="start-zahl-wert">{gesamt_k}</span>'
                   f'<span class="start-zahl-text">{s["von"].format(g=gesamt or "–")}</span></div>')

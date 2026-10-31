@@ -1,6 +1,6 @@
 ---
 title: Impressum
-description: Herausgeber und Verantwortlichkeit für den ILE-HSG Steuerrechtskommentar.
+description: Herausgeber und Verantwortlichkeit für die St. Galler Steuerrechtsenzyklopädie.
 ---
 
 ## Herausgeber
@@ -12,7 +12,7 @@ Varnbüelstrasse 19
 Schweiz
 
 Telefon: +41 71 224 25 20  
-E-Mail: [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch?subject=%5BILE-StK%5D%20Kontakt)  
+E-Mail: [sekretariat-ile@unisg.ch](mailto:sekretariat-ile@unisg.ch?subject=%5BStE%5D%20Kontakt)  
 Website: [ile.unisg.ch](https://ile.unisg.ch/de/)
 
 Die Universität St.Gallen ist eine selbständige öffentlich-rechtliche Anstalt des Kantons St.Gallen.
@@ -23,7 +23,7 @@ Fachbereich Tax Law des ILE-HSG, Leitung: Prof. Dr. Peter Hongler.
 
 ## Entstehung der Inhalte
 
-Die Kommentierungen werden mit dem Sprachmodell Claude (Anthropic) nach einem festen Verfahren erstellt und ohne menschliche Durchsicht veröffentlicht; siehe [Über den ILE-HSG Steuerrechtskommentar](/ueber/) und den [Haftungsausschluss](/haftungsausschluss/).
+Die Beiträge werden mit dem Sprachmodell Claude (Anthropic) nach einem festen Verfahren erstellt und ohne menschliche Durchsicht veröffentlicht; siehe [Über die St. Galler Steuerrechtsenzyklopädie](/ueber/) und den [Haftungsausschluss](/haftungsausschluss/).
 
 ## Hosting
 

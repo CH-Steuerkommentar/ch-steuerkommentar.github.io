@@ -1,4 +1,4 @@
-// Website des Kommentars (Astro + Starlight).
+// Website der Steuerrechtsenzyklopädie (Astro + Starlight).
 // SITE und BASE setzt der GitHub-Workflow; lokal gelten die Standardwerte.
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
@@ -38,7 +38,7 @@ function fussnotenFranzoesisch() {
 }
 
 const OG_BILD = (process.env.SITE ?? 'https://example.github.io') + (process.env.BASE ?? '/') + 'og.png';
-const WERK = process.env.WERK_NAME ?? 'ILE-HSG Steuerrechtskommentar';
+const WERK = process.env.WERK_NAME ?? 'St. Galler Steuerrechtsenzyklopädie';
 
 export default defineConfig({
   site: process.env.SITE ?? 'https://example.github.io',
@@ -53,10 +53,10 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: { 'de-CH': WERK, fr: 'Commentaire de droit fiscal ILE-HSG' },
+      title: { 'de-CH': WERK, fr: 'Encyclopédie de droit fiscal de Saint-Gall' },
       defaultLocale: 'root',
       locales: { root: { label: 'Deutsch', lang: 'de-CH' }, fr: { label: 'Français', lang: 'fr' } },
-      description: 'Offener Online-Kommentar zum Steuerrecht des Bundes',
+      description: 'Frei zugängliches Nachschlagewerk zum Schweizer Steuerrecht',
       customCss: ['./src/styles/kommentar.css'],
       components: {
         ThemeSelect: './src/components/Leer.astro',
@@ -85,7 +85,7 @@ export default defineConfig({
         { label: 'VStG', translations: { fr: 'LIA' }, collapsed: true, items: [{ autogenerate: { directory: 'vstg' } }] },
         { label: 'MWSTG', translations: { fr: 'LTVA' }, collapsed: true, items: [{ autogenerate: { directory: 'mwstg' } }] },
         { label: 'StG', translations: { fr: 'LT' }, collapsed: true, items: [{ autogenerate: { directory: 'stg' } }] },
-        { label: 'Über den ILE-HSG Steuerrechtskommentar', translations: { fr: 'À propos du Commentaire' }, slug: 'ueber' },
+        { label: 'Über die St. Galler Steuerrechtsenzyklopädie', translations: { fr: "À propos de l’Encyclopédie" }, slug: 'ueber' },
       ],
     }),
   ],

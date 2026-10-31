@@ -7,8 +7,8 @@ const start = route?.siteTitleHref ?? import.meta.env.BASE_URL;
 const istStart = route?.entry?.id === 'index' || route?.entry?.data?.template === 'splash';
 const alt = 'Universität St.Gallen – Institute for Law and Economics';
 const fr = route?.locale === 'fr';
-const werk = fr ? ['ILE-HSG ', 'Commentaire de droit fiscal'] : ['ILE-HSG ', 'Steuerrechtskommentar'];
-const zurStart = fr ? 'Commentaire de droit fiscal ILE-HSG – page d\'accueil' : 'ILE-HSG Steuerrechtskommentar – zur Startseite';
+const werk = fr ? ['Encyclopédie de droit fiscal ', 'de Saint-Gall'] : ['St. Galler ', 'Steuerrechtsenzyklopädie'];
+const zurStart = fr ? 'Encyclopédie de droit fiscal de Saint-Gall – page d\'accueil' : 'St. Galler Steuerrechtsenzyklopädie – zur Startseite';
 ---
 {istStart ? (
   <>

@@ -1,15 +1,15 @@
 ---
-title: Über den ILE-HSG Steuerrechtskommentar
-description: Wie die Kommentierungen entstehen, auf welche Quellen sie sich stützen und wo ihre Grenzen liegen.
+title: Über die St. Galler Steuerrechtsenzyklopädie
+description: Wie die Beiträge entstehen, auf welche Quellen sie sich stützen und wo ihre Grenzen liegen.
 ---
 
 ## Was das Werk ist
 
-Der ILE-HSG Steuerrechtskommentar wird herausgegeben vom Institut für Law and Economics der Universität St.Gallen (ILE-HSG). Ein frei zugänglicher Kommentar zu fünf Bundesgesetzen des Steuerrechts: DBG, StHG, VStG, MWSTG und Bundesgesetz über die Stempelabgaben. Jede Kommentierung stellt dar, was Gesetz, Rechtsprechung, Verwaltungspraxis und Lehre zu einer Norm sagen, und wo eine Frage offen ist. Im Zentrum steht die Rechtsprechung des Bundesgerichts. Nicht kommentiert werden Übergangsbestimmungen sowie die Bestimmungen über Referendum und Inkrafttreten.
+Die St. Galler Steuerrechtsenzyklopädie wird herausgegeben vom Institut für Law and Economics der Universität St.Gallen (ILE-HSG). Sie ist ein frei zugängliches Nachschlagewerk zu fünf Bundesgesetzen des Steuerrechts: DBG, StHG, VStG, MWSTG und Bundesgesetz über die Stempelabgaben. Jeder Beitrag stellt dar, was Gesetz, Rechtsprechung, Verwaltungspraxis und Lehre zu einer Norm sagen, und wo eine Frage offen ist. Im Zentrum steht die Rechtsprechung des Bundesgerichts. Nicht bearbeitet werden Übergangsbestimmungen sowie die Bestimmungen über Referendum und Inkrafttreten.
 
-## Wie die Kommentierungen entstehen
+## Wie die Beiträge entstehen
 
-Die Kommentierungen haben keine Autor:innen. Sie werden mit dem Sprachmodell Claude (Anthropic) erstellt und ohne menschliche Durchsicht veröffentlicht, nach einem festen Verfahren:
+Die Beiträge haben keine Autor:innen. Sie werden mit dem Sprachmodell Claude (Anthropic) erstellt und ohne menschliche Durchsicht veröffentlicht, nach einem festen Verfahren:
 
 1. **Entscheidregister.** Alle Entscheide des Bundesgerichts, die die Norm in den Erwägungen zitieren, werden gesammelt und nach ihrer Bedeutung eingeordnet: tragende Entscheide, Anwendungsfälle, blosse Erwähnungen. Tragende Entscheide werden an der einschlägigen Erwägung gelesen.
 2. **Gliederung.** Sie folgt dem Wortlaut der Norm und den Sachfragen, die die Rechtsprechung aufwirft, nicht den Quellenarten.
@@ -31,14 +31,14 @@ Die Kommentierungen haben keine Autor:innen. Sie werden mit dem Sprachmodell Cla
 
 ## Grenzen
 
-Die Kommentierungen sind keine Rechtsberatung. Sie werden maschinell erstellt und vor der Veröffentlichung von niemandem gegengelesen; trotz der Prüfung können Fehler enthalten sein. Hinweise darauf sind willkommen. Massgebend sind die amtlichen Fassungen der Erlasse und die Originale der Entscheide; jede Fussnote nennt die Fundstelle, an der sich eine Aussage überprüfen lässt.
+Die Beiträge sind keine Rechtsberatung. Sie werden maschinell erstellt und vor der Veröffentlichung von niemandem gegengelesen; trotz der Prüfung können Fehler enthalten sein. Hinweise darauf sind willkommen. Massgebend sind die amtlichen Fassungen der Erlasse und die Originale der Entscheide; jede Fussnote nennt die Fundstelle, an der sich eine Aussage überprüfen lässt.
 
-Jede Kommentierung gibt den Stand ihrer Bearbeitung an. Spätere Rechtsprechung und Gesetzesänderungen sind darin nicht berücksichtigt.
+Jeder Beitrag gibt den Stand seiner Bearbeitung an. Spätere Rechtsprechung und Gesetzesänderungen werden erst mit einer Aktualisierung berücksichtigt.
 
 ## Zitieren
 
-Kurzzitat: Werk, Artikel, Randnote, Stand – zum Beispiel «ILE-HSG StK, Art. 26 DBG N. 12 (Stand 26.10.2026)». Den Zitiervorschlag zu jeder Kommentierung kann man oben auf der Seite mit «Kopieren» übernehmen. Jede Randnote hat eine eigene Adresse (Klick auf die Randnotennummer).
+Kurzzitat: Werk, Artikel, Randnote, Stand – zum Beispiel «St. Galler Steuerrechtsenzyklopädie, Art. 26 DBG N. 12 (Stand 26.10.2026)». Den Zitiervorschlag zu jedem Beitrag kann man oben auf der Seite mit «Kopieren» übernehmen. Jede Randnote hat eine eigene Adresse (Klick auf die Randnotennummer).
 
 ## Copyright
 
-© Institut für Law and Economics (ILE-HSG), Universität St.Gallen. Alle Rechte an den Texten der Kommentierungen liegen beim ILE-HSG. Zitieren mit Quellenangabe ist gestattet (Art. 25 URG); für weitergehende Nutzungen ist die Zustimmung des ILE-HSG nötig. Erlasse und Entscheide sind als amtliche Werke frei (Art. 5 URG).
+© Institut für Law and Economics (ILE-HSG), Universität St.Gallen. Alle Rechte an den Texten der Beiträge liegen beim ILE-HSG. Zitieren mit Quellenangabe ist gestattet (Art. 25 URG); für weitergehende Nutzungen ist die Zustimmung des ILE-HSG nötig. Erlasse und Entscheide sind als amtliche Werke frei (Art. 5 URG).
