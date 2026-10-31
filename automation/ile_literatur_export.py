@@ -32,6 +32,10 @@ QUELLEN = {
 }
 
 
+class Kontingent(Exception):
+    """Tageslimite von Lexplorer erreicht (Fair Use, 2000 Lese-/Navigationsaufrufe, Rückstellung 00:00 UTC)."""
+
+
 class Mcp:
     def __init__(self, schluessel: str):
         self.kopf = {
@@ -83,6 +87,9 @@ class Mcp:
             raise RuntimeError(f"{name}: {antwort}")
         inhalt = antwort["result"].get("content", [])
         text = "".join(teil.get("text", "") for teil in inhalt if teil.get("type") == "text")
+        self.aufrufe = getattr(self, "aufrufe", 0) + 1
+        if "Tageslimite" in text or "Fair Use" in text:
+            raise Kontingent(text[:200])
         if antwort["result"].get("isError"):
             raise RuntimeError(f"{name}: {text[:300]}")
         try:
@@ -94,7 +101,7 @@ class Mcp:
 def volltext(mcp: Mcp, doc_id: str) -> str:
     teile, i, gesamt = [], 0, 1
     while i < gesamt:
-        s = mcp.werkzeug("get_document_slice", {"doc_id": doc_id, "slice": i, "slice_size": 100000})
+        s = mcp.werkzeug("get_document_slice", {"doc_id": doc_id, "slice": i, "slice_size": 400000})
         teile.append(s.get("content", ""))
         gesamt = int(s.get("total_slices", 1))
         i += 1
@@ -195,6 +202,7 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0, help="Dokumente je Quelle (Test)")
     ap.add_argument("--quellen", default=",".join(QUELLEN))
     ap.add_argument("--paket", type=int, default=1200, help="Werke je Arbeitspaket")
+    ap.add_argument("--max-aufrufe", type=int, default=1950, help="höchstens so viele Lexplorer-Aufrufe je Lauf")
     args = ap.parse_args()
 
     schl = os.environ.get("LEXPLORER_API_KEY", "").strip()
@@ -204,59 +212,97 @@ def main() -> int:
     mcp = Mcp(schl)
     (WURZEL / "roh").mkdir(parents=True, exist_ok=True)
 
+    cache_ordner = WURZEL / "roh" / "cache"
+    cache_ordner.mkdir(parents=True, exist_ok=True)
+    vollstaendig, gestoppt = True, ""
+
+    # Phase A: Dokumente lesen und je Dokument nur die Literaturangaben zwischenspeichern (fortsetzbar)
+    try:
+        for kurz in args.quellen.split(","):
+            source_id, reihe = QUELLEN[kurz]
+            cache = cache_ordner / f"{kurz}.jsonl"
+            erledigt = set()
+            if cache.exists():
+                for z in cache.read_text(encoding="utf-8").splitlines():
+                    if z.strip():
+                        erledigt.add(json.loads(z)["doc_id"])
+            liste_datei = cache_ordner / f"{kurz}_dokumente.json"
+            if liste_datei.exists():
+                dokumente = json.loads(liste_datei.read_text(encoding="utf-8"))
+            else:
+                dokumente = mcp.werkzeug("nav_list_documents", {"source_id": source_id})
+                liste_datei.write_text(json.dumps(dokumente, ensure_ascii=False), encoding="utf-8")
+            if args.limit:
+                dokumente = dokumente[: args.limit]
+            offen = [d for d in dokumente if d["doc_id"] not in erledigt]
+            print(f"{kurz}: {len(dokumente)} Dokumente, davon {len(offen)} offen", flush=True)
+            with open(cache, "a", encoding="utf-8") as f:
+                for nr, dok in enumerate(offen, 1):
+                    if args.max_aufrufe and getattr(mcp, "aufrufe", 0) >= args.max_aufrufe:
+                        raise Kontingent(f"selbst gesetzte Grenze von {args.max_aufrufe} Aufrufen")
+                    try:
+                        text = volltext(mcp, dok["doc_id"])
+                    except Kontingent:
+                        raise
+                    except Exception as fehler:  # einzelnes Dokument überspringen, beim nächsten Lauf erneut
+                        print(f"  Fehler {dok['title'][:60]}: {fehler}", flush=True)
+                        continue
+                    titel = dok["title"]
+                    frags = []
+                    for kopf, inhalt in chunks(text):
+                        ist_verz = bool(VERZEICHNIS.search(titel.split(" · ")[-1]) or VERZEICHNIS.search(kopf)
+                                        or VERZEICHNIS.search(inhalt[:200]))
+                        quelle = eintraege_verzeichnis(inhalt) if ist_verz else fragmente_fliesstext(inhalt)
+                        frags += [[frag, ist_verz] for frag in quelle]
+                    autoren = []
+                    for a in re.findall(r"Autor(?::innen|en|in)?:\s*([^\n]+?)\.?\s*(?:\n|$)", text)[:3]:
+                        for n in re.split(r",\s*|\s+und\s+|\s*/\s*|\s+et\s+", a):
+                            n = n.strip(" .–—")
+                            if 3 <= len(n) <= 60 and n not in autoren:
+                                autoren.append(n)
+                    f.write(json.dumps({"doc_id": dok["doc_id"], "titel": titel, "url": dok.get("lexplorer_url", ""),
+                                        "pfad": dok.get("relative_path", ""), "datum": dok.get("doc_date") or "",
+                                        "autoren": autoren, "koepfe": [k for k, _ in chunks(text) if k][:25],
+                                        "frags": frags}, ensure_ascii=False) + "\n")
+                    f.flush()
+                    if nr % 25 == 0:
+                        print(f"  {nr}/{len(offen)}  Aufrufe {getattr(mcp, 'aufrufe', 0)}", flush=True)
+    except Kontingent as grund:
+        vollstaendig, gestoppt = False, str(grund)
+        print(f"Angehalten: {grund}. Fortsetzung beim nächsten Lauf.", flush=True)
+
+    # Phase B: aus dem Zwischenspeicher zusammenstellen
     werke: dict[str, dict] = {}
     ile: dict[str, dict] = {}  # die ILE-Publikationen selbst (Schriftenreihe: je Band, sonst je Dokument)
     statistik = collections.Counter()
     for kurz in args.quellen.split(","):
-        source_id, reihe = QUELLEN[kurz]
-        dokumente = mcp.werkzeug("nav_list_documents", {"source_id": source_id})
-        if args.limit:
-            dokumente = dokumente[: args.limit]
-        print(f"{kurz}: {len(dokumente)} Dokumente", flush=True)
-        for nr, dok in enumerate(dokumente, 1):
-            try:
-                text = volltext(mcp, dok["doc_id"])
-            except Exception as fehler:  # einzelnes Dokument überspringen
-                print(f"  Fehler {dok['title'][:60]}: {fehler}", flush=True)
-                statistik["fehler"] += 1
+        reihe = QUELLEN[kurz][1]
+        cache = cache_ordner / f"{kurz}.jsonl"
+        if not cache.exists():
+            continue
+        for z in cache.read_text(encoding="utf-8").splitlines():
+            if not z.strip():
                 continue
-            titel = dok["title"]
-            fundort = {"q": kurz, "t": titel, "u": dok.get("lexplorer_url", "")}
-            pfad = dok.get("relative_path", "")
-            band = re.search(r"/(doc_\d+_(\d+)_([^/]+))/segments/", pfad) if kurz == "schriftenreihe" else None
-            schl_ile = band.group(1) if band else dok["doc_id"]
-            werk = ile.setdefault(schl_ile, {
+            d = json.loads(z)
+            statistik[f"dokumente_{kurz}"] += 1
+            titel = d["titel"]
+            fundort = {"q": kurz, "t": titel, "u": d["url"]}
+            band = re.search(r"/(doc_\d+_(\d+)_([^/]+))/segments/", d["pfad"]) if kurz == "schriftenreihe" else None
+            werk = ile.setdefault(band.group(1) if band else d["doc_id"], {
                 "reihe": reihe, "quelle": kurz,
                 "titel": band.group(3).replace("_", " ") if band else titel.split(" · ", 1)[-1],
                 "heft": titel.split(" · ", 1)[0], "band": int(band.group(2)) if band else None,
-                "jahr": (dok.get("doc_date") or "")[:4], "url": dok.get("lexplorer_url", ""),
-                "autoren": [], "teile": []})
-            if band:
-                werk["teile"].append(titel.split(" · ", 1)[-1])
-                if not werk["url"]:
-                    werk["url"] = dok.get("lexplorer_url", "")
-            for a in re.findall(r"Autor(?::innen|en|in)?:\s*([^\n]+?)\.?\s*(?:\n|$)", text)[:3]:
-                for n in re.split(r",\s*|\s+und\s+|\s*/\s*|\s+et\s+", a):
-                    n = n.strip(" .–—")
-                    if 3 <= len(n) <= 60 and n not in werk["autoren"]:
-                        werk["autoren"].append(n)
-            if not band:
-                werk["teile"] = [kopf for kopf, _ in chunks(text) if kopf][:25]
-            for kopf, inhalt in chunks(text):
-                ist_verz = bool(VERZEICHNIS.search(titel.split(" · ")[-1]) or VERZEICHNIS.search(kopf)
-                                or VERZEICHNIS.search(inhalt[:200]))
-                quelle = eintraege_verzeichnis(inhalt) if ist_verz else fragmente_fliesstext(inhalt)
-                for frag in quelle:
-                    statistik["verzeichnis" if ist_verz else "fussnote"] += 1
-                    k = schluessel(frag)
-                    w = werke.setdefault(k, {"k": k, "texte": collections.Counter(), "fundorte": [],
-                                             "verzeichnis": False})
-                    w["texte"][frag] += 1
-                    w["verzeichnis"] |= ist_verz
-                    if fundort not in w["fundorte"] and len(w["fundorte"]) < 12:
-                        w["fundorte"].append(fundort)
-            if nr % 25 == 0:
-                print(f"  {nr}/{len(dokumente)}  Werke bisher {len(werke)}", flush=True)
+                "jahr": d["datum"][:4], "url": d["url"], "autoren": [], "teile": []})
+            werk["teile"] += [titel.split(" · ", 1)[-1]] if band else d["koepfe"]
+            werk["autoren"] += [a for a in d["autoren"] if a not in werk["autoren"]]
+            for frag, ist_verz in d["frags"]:
+                statistik["verzeichnis" if ist_verz else "fussnote"] += 1
+                k = schluessel(frag)
+                w = werke.setdefault(k, {"k": k, "texte": collections.Counter(), "fundorte": [], "verzeichnis": False})
+                w["texte"][frag] += 1
+                w["verzeichnis"] |= ist_verz
+                if fundort not in w["fundorte"] and len(w["fundorte"]) < 12:
+                    w["fundorte"].append(fundort)
 
     # Vorbereinigung: Standardwerke und alte Werke (ausser oft zitiert) aussondern
     liste, aus = [], collections.Counter()
@@ -282,6 +328,12 @@ def main() -> int:
             f.write(json.dumps(e, ensure_ascii=False) + "\n")
     pakete = WURZEL / "pakete"
     pakete.mkdir(exist_ok=True)
+    if not vollstaendig:
+        bericht = {"vollstaendig": False, "angehalten": gestoppt, "fundstellen": dict(statistik),
+                   "werke_roh": len(werke), "kandidaten_bisher": len(liste)}
+        (WURZEL / "roh" / "bericht.json").write_text(json.dumps(bericht, indent=2, ensure_ascii=False))
+        print(json.dumps(bericht, indent=2, ensure_ascii=False))
+        return 0
     for alt in pakete.glob("paket_*.jsonl"):
         alt.unlink()
     for i in range(0, len(liste), args.paket):
@@ -301,7 +353,7 @@ def main() -> int:
         with open(pakete / f"ile_{i // 250 + 1:02d}.jsonl", "w", encoding="utf-8") as f:
             for w in ile_liste[i:i + 250]:
                 f.write(json.dumps(w, ensure_ascii=False) + "\n")
-    bericht = {"fundstellen": dict(statistik), "werke_roh": len(werke), "kandidaten": len(liste),
+    bericht = {"vollstaendig": True, "fundstellen": dict(statistik), "werke_roh": len(werke), "kandidaten": len(liste),
                "ausgesondert": dict(aus), "pakete": -(-len(liste) // args.paket),
                "ile_publikationen": len(ile_liste), "ile_pakete": -(-len(ile_liste) // 250)}
     (WURZEL / "roh" / "bericht.json").write_text(json.dumps(bericht, indent=2, ensure_ascii=False))

@@ -4,7 +4,12 @@ name: ILE-Literatur-Export
 # zieht Literaturverzeichnisse und Fussnotenzitate heraus und legt Kandidatenlisten und
 # Arbeitspakete unter daten/ile-literatur/ ab. Von Hand starten.
 
+# Lexplorer erlaubt 2000 Lese-/Navigationsaufrufe pro Tag (Rückstellung 00:00 UTC). Der Export speichert
+# je Dokument einen Zwischenstand und setzt beim nächsten Lauf fort; der tägliche Lauf um 00:07 UTC
+# tut nichts mehr, sobald der Export vollständig ist.
 on:
+  schedule:
+    - cron: "7 0 * * *"
   workflow_dispatch:
     inputs:
       limit:
@@ -33,14 +38,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Schon vollständig?
+        id: stand
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && grep -q '"vollstaendig": true' daten/ile-literatur/roh/bericht.json 2>/dev/null; then
+            echo "fertig=ja" >> "$GITHUB_OUTPUT"; echo "Export bereits vollständig."
+          fi
       - name: Export
+        if: steps.stand.outputs.fertig != 'ja'
         env:
           LEXPLORER_API_KEY: ${{ secrets.LEXPLORER_API_KEY }}
         run: |
-          python automation/ile_literatur_export.py --limit "${{ inputs.limit }}" --quellen "${{ inputs.quellen }}"
-          head -c 3000 daten/ile-literatur/roh/kandidaten.jsonl
+          python automation/ile_literatur_export.py --limit "${{ inputs.limit || '0' }}" \
+            --quellen "${{ inputs.quellen || 'fstr,schriftenreihe,working-papers,lehrbuch,seminare' }}"
+          head -c 2000 daten/ile-literatur/roh/kandidaten.jsonl || true
       - name: Speichern
-        if: inputs.speichern == 'ja'
+        if: always() && steps.stand.outputs.fertig != 'ja' && inputs.speichern != 'nein'
         run: |
           git config user.name "ILE-Literatur-Export"
           git config user.email "actions@users.noreply.github.com"
