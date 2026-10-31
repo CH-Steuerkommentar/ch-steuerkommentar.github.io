@@ -1,0 +1,51 @@
+name: ILE-Literatur-Export
+
+# Liest alle ILE-Publikationen in Lexplorer Tax (nur Lesen, keine Suche, kein API-Guthaben),
+# zieht Literaturverzeichnisse und Fussnotenzitate heraus und legt Kandidatenlisten und
+# Arbeitspakete unter daten/ile-literatur/ ab. Von Hand starten.
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Dokumente je Quelle (0 = alle; für einen Test z.B. 3)"
+        default: "0"
+      quellen:
+        description: "Quellen, kommagetrennt"
+        default: "fstr,schriftenreihe,working-papers,lehrbuch,seminare"
+      speichern:
+        description: "Ergebnis ins Repo schreiben (ja/nein)"
+        default: "ja"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ile-literatur-export
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Export
+        env:
+          LEXPLORER_API_KEY: ${{ secrets.LEXPLORER_API_KEY }}
+        run: |
+          python automation/ile_literatur_export.py --limit "${{ inputs.limit }}" --quellen "${{ inputs.quellen }}"
+          head -c 3000 daten/ile-literatur/roh/kandidaten.jsonl
+      - name: Speichern
+        if: inputs.speichern == 'ja'
+        run: |
+          git config user.name "ILE-Literatur-Export"
+          git config user.email "actions@users.noreply.github.com"
+          git add daten/ile-literatur
+          git diff --cached --quiet && exit 0
+          git commit -m "ILE-Literatur: Export der Literaturangaben aus Lexplorer"
+          git pull --rebase
+          git push
