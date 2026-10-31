@@ -3,7 +3,7 @@ name: Website
 on:
   push:
     branches: [main]
-    paths: ["kommentare/**", "kommentare_fr/**", "site/**", "pipeline/**", "data/inventar/**", "data/queue.json", ".github/workflows/**"]
+    paths: ["kommentare/**", "kommentare_fr/**", "site/**", "pipeline/**", "data/inventar/**", "data/queue.json", "daten/ile-literatur/katalog.json", ".github/workflows/**"]
   workflow_dispatch:
   # Pushes des Kommentar-Agents (GITHUB_TOKEN) lösen keinen push-Trigger aus; deshalb danach bauen.
   workflow_run:
